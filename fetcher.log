@@ -591,3 +591,110 @@
 [2023-05-04 00:58:31] INFO root fetch - main [MainThread]: End processing [starkbank]: success
 [2023-05-04 00:58:31] INFO root fetch - main [MainThread]: End processing [ezcode]: success
 [2023-05-04 00:58:31] INFO root fetch - main [MainThread]: Store serial: [17963688]
+[2023-05-04 01:03:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17963688]
+[2023-05-04 01:03:40] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-04 01:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdfschedule
+[2023-05-04 01:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alacorder
+[2023-05-04 01:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-review
+[2023-05-04 01:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: secureli
+[2023-05-04 01:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: google-generativeai
+[2023-05-04 01:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fairness-indicators
+[2023-05-04 01:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensorboard-plugin-fairness-indicators
+[2023-05-04 01:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-review
+[2023-05-04 01:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tfimm
+[2023-05-04 01:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sports2d
+[2023-05-04 01:03:40] INFO root fetch - processPackages [fairness-indicators]: New version: [0.44.0] Old Version: [0.43.0]
+[2023-05-04 01:03:40] INFO root fetch - processPackages [tensorboard-plugin-fairness-indicators]: New version: [0.44.0] Old Version: [0.43.0]
+[2023-05-04 01:03:40] INFO root fetch - processPackages [pdfschedule]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-05-04 01:03:40] INFO root fetch - processPackages [google-generativeai]: New version: [0.1.0rc1] Old Version: [0.1.0rc0]
+[2023-05-04 01:03:40] INFO root fetch - processPackages [tfimm]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-04 01:03:40] INFO root fetch - processPackages [secureli]: New version: [0.2.19] Old Version: [0.2.18]
+[2023-05-04 01:03:40] WARNING root fetch - processPackages [sports2d]: Skipping, unable to determine old version
+[2023-05-04 01:03:40] INFO root fetch - processPackages [sports2d]: Start processing: tmnt-cu101
+[2023-05-04 01:03:40] INFO root fetch - main [MainThread]: End processing [sports2d] error
+[2023-05-04 01:03:40] INFO root fetch - processPackages [gpt-review]: New version: [0.4.0rc367.post1] Old Version: [0.4.0rc366.post1]
+[2023-05-04 01:03:40] INFO root fetch - processPackages [gpt-review]: New version: [0.4.0rc367.post1] Old Version: [0.4.0rc366.post1]
+[2023-05-04 01:03:40] INFO root fetch - processPackages [alacorder]: New version: [80.1.8] Old Version: [80.1.7]
+[2023-05-04 01:03:40] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230503] Old Version: [0.7.0b20230502]
+[2023-05-04 01:03:40] INFO root fetch - processPackages [tensorboard-plugin-fairness-indicators]: Downloading https://files.pythonhosted.org/packages/52/b6/a33993818e66bff6b5685e1fb1fa4e27c1efa7cf433a9da18e400aa2b5a3/tensorboard_plugin_fairness_indicators-0.43.0-py3-none-any.whl
+[2023-05-04 01:03:40] INFO root fetch - processPackages [google-generativeai]: Downloading https://files.pythonhosted.org/packages/da/ce/e2e62272e927f9285b36003f4716de9c77bffc6e9fba0056e47d1e68f032/google_generativeai-0.1.0rc0-py3-none-any.whl
+[2023-05-04 01:03:40] INFO root fetch - processPackages [fairness-indicators]: Downloading https://files.pythonhosted.org/packages/e9/25/62548defa0569513d133fe740a7877163210950ff5f101fafd580f292f20/fairness_indicators-0.43.0-py3-none-any.whl
+[2023-05-04 01:03:40] INFO root fetch - processPackages [pdfschedule]: Downloading https://files.pythonhosted.org/packages/fc/9d/5365a773b21c919149a2231a78a95230cd488025f2da9ac8a38720ae852b/pdfschedule-0.3.4.tar.gz
+[2023-05-04 01:03:40] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/73/15/04228704d533107a057d126d1de9d41ae987eacc2bd622cf4c94c7cfb2bb/secureli-0.2.18.tar.gz
+[2023-05-04 01:03:40] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/94/a3/e90707bd8b1f3e1e67e32d7368334d045531e92836000f933e1ab818c996/gpt-review-0.4.0rc366.post1.tar.gz
+[2023-05-04 01:03:40] INFO root fetch - processPackages [tfimm]: Downloading https://files.pythonhosted.org/packages/46/46/5cc06ac9408c38458a9ccff852285f2a1c9dc109d1f6ffb651caaad62c0c/tfimm-0.2.8.tar.gz
+[2023-05-04 01:03:40] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/52/72/d0b1548924d1cd8293d82eab539437a5287247235d00898c4d23428c2a09/alacorder-80.1.7.tar.gz
+[2023-05-04 01:03:40] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/94/a3/e90707bd8b1f3e1e67e32d7368334d045531e92836000f933e1ab818c996/gpt-review-0.4.0rc366.post1.tar.gz
+[2023-05-04 01:03:40] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/20/95/ea2837d20811ac52781401a5841970a5626cafc079f22e8d77cfcf877960/tmnt-cu101-0.7.0b20230503.tar.gz
+[2023-05-04 01:03:40] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-05-04 01:03:40] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230502.tar.gz tmp/tmnt-cu101-0.7.0b20230503.tar.gz --markdown 20230504/t/tmnt-cu101/0.7.0b20230502-0.7.0b20230503/diff.md --exclude *.pyd
+[2023-05-04 01:03:40] INFO root fetch - processPackages [tensorboard-plugin-fairness-indicators]: Downloading https://files.pythonhosted.org/packages/de/8b/99c582e2dd94ab9db96006962b39a8c510aedd2362f46229f0a0145d930d/tensorboard_plugin_fairness_indicators-0.44.0-py3-none-any.whl
+[2023-05-04 01:03:40] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/8c/6e/70d4a6f043a07bdac8256cd247e1cf2ae4493ecd5e9fc1cf3b5ff5cf89e1/gpt-review-0.4.0rc367.post1.tar.gz
+[2023-05-04 01:03:40] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/8c/6e/70d4a6f043a07bdac8256cd247e1cf2ae4493ecd5e9fc1cf3b5ff5cf89e1/gpt-review-0.4.0rc367.post1.tar.gz
+[2023-05-04 01:03:40] INFO root fetch - processPackages [fairness-indicators]: Downloading https://files.pythonhosted.org/packages/6f/cf/4e5b7047b3117d2f6a242891213ec889f5fc651caa01225bbd5bd361668e/fairness_indicators-0.44.0-py3-none-any.whl
+[2023-05-04 01:03:40] INFO root fetch - processPackages [google-generativeai]: Downloading https://files.pythonhosted.org/packages/41/18/24219ea81063836f25084d081da73184f82605275ec4023c033f1a04083e/google_generativeai-0.1.0rc1-py3-none-any.whl
+[2023-05-04 01:03:40] INFO root fetch - processPackages [pdfschedule]: Downloading https://files.pythonhosted.org/packages/f5/07/070c0a3e885a5f69ca3d828dcd2f06b6c4cd85ef3594db19d21f0bd9aacb/pdfschedule-0.4.0.tar.gz
+[2023-05-04 01:03:40] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/53/6f/43d688ae8ad918c28bcf96ceba4a5e2fe0e78f6d0c73d4591ef72a675cb6/alacorder-80.1.8.tar.gz
+[2023-05-04 01:03:40] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/7a/27/ad206c4a78d665f7f45b2d44f250c1f5d5420d4205e8cef4facdd9c5292a/secureli-0.2.19.tar.gz
+[2023-05-04 01:03:40] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-04 01:03:40] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.4.0rc366.post1.tar.gz tmp/gpt-review-0.4.0rc367.post1.tar.gz --markdown 20230504/g/gpt-review/0.4.0rc366.post1-0.4.0rc367.post1/diff.md --exclude *.pyd
+[2023-05-04 01:03:40] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-04 01:03:40] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.4.0rc366.post1.tar.gz tmp/gpt-review-0.4.0rc367.post1.tar.gz --markdown 20230504/g/gpt-review/0.4.0rc366.post1-0.4.0rc367.post1/diff.md --exclude *.pyd
+[2023-05-04 01:03:40] INFO root fetch - processPackages [fairness-indicators]: executing diffoscope
+[2023-05-04 01:03:40] INFO root fetch - processPackages [fairness-indicators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairness_indicators-0.43.0-py3-none-any.whl.zip tmp/fairness_indicators-0.44.0-py3-none-any.whl.zip --markdown 20230504/f/fairness-indicators/0.43.0-0.44.0/diff.md --exclude *.pyd
+[2023-05-04 01:03:40] INFO root fetch - processPackages [pdfschedule]: executing diffoscope
+[2023-05-04 01:03:40] INFO root fetch - processPackages [pdfschedule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfschedule-0.3.4.tar.gz tmp/pdfschedule-0.4.0.tar.gz --markdown 20230504/p/pdfschedule/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-05-04 01:03:40] INFO root fetch - processPackages [google-generativeai]: executing diffoscope
+[2023-05-04 01:03:40] INFO root fetch - processPackages [google-generativeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_generativeai-0.1.0rc0-py3-none-any.whl.zip tmp/google_generativeai-0.1.0rc1-py3-none-any.whl.zip --markdown 20230504/g/google-generativeai/0.1.0rc0-0.1.0rc1/diff.md --exclude *.pyd
+[2023-05-04 01:03:40] INFO root fetch - processPackages [tfimm]: Downloading https://files.pythonhosted.org/packages/80/41/48c5cc8ff5e5db2963ece61e0d86c5b4160b6643cdbab54eb6c64d56ea95/tfimm-0.2.9.tar.gz
+[2023-05-04 01:03:40] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-04 01:03:40] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.1.7.tar.gz tmp/alacorder-80.1.8.tar.gz --markdown 20230504/a/alacorder/80.1.7-80.1.8/diff.md --exclude *.pyd
+[2023-05-04 01:03:40] INFO root fetch - processPackages [tensorboard-plugin-fairness-indicators]: executing diffoscope
+[2023-05-04 01:03:40] INFO root fetch - processPackages [tensorboard-plugin-fairness-indicators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorboard_plugin_fairness_indicators-0.43.0-py3-none-any.whl.zip tmp/tensorboard_plugin_fairness_indicators-0.44.0-py3-none-any.whl.zip --markdown 20230504/t/tensorboard-plugin-fairness-indicators/0.43.0-0.44.0/diff.md --exclude *.pyd
+[2023-05-04 01:03:40] INFO root fetch - processPackages [secureli]: executing diffoscope
+[2023-05-04 01:03:40] INFO root fetch - processPackages [secureli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secureli-0.2.18.tar.gz tmp/secureli-0.2.19.tar.gz --markdown 20230504/s/secureli/0.2.18-0.2.19/diff.md --exclude *.pyd
+[2023-05-04 01:03:41] INFO root fetch - processPackages [tfimm]: executing diffoscope
+[2023-05-04 01:03:41] INFO root fetch - processPackages [tfimm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfimm-0.2.8.tar.gz tmp/tfimm-0.2.9.tar.gz --markdown 20230504/t/tfimm/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-04 01:03:42] INFO root fetch - processPackages [gpt-review]: Start processing: scientisttools
+[2023-05-04 01:03:42] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-04 01:03:42] INFO root fetch - processPackages [scientisttools]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-04 01:03:42] INFO root fetch - processPackages [pdfschedule]: Start processing: gpt-review
+[2023-05-04 01:03:42] INFO root fetch - main [MainThread]: End processing [pdfschedule]: success
+[2023-05-04 01:03:42] INFO root fetch - processPackages [gpt-review]: New version: [0.4.0rc368.post1] Old Version: [0.4.0rc367.post1]
+[2023-05-04 01:03:42] INFO root fetch - processPackages [tensorboard-plugin-fairness-indicators]: Start processing: ahk
+[2023-05-04 01:03:42] INFO root fetch - main [MainThread]: End processing [tensorboard-plugin-fairness-indicators]: success
+[2023-05-04 01:03:42] INFO root fetch - processPackages [ahk]: New version: [1.1.0rc1] Old Version: [1.0.1]
+[2023-05-04 01:03:42] INFO root fetch - processPackages [fairness-indicators]: Start processing: tmnt
+[2023-05-04 01:03:42] INFO root fetch - main [MainThread]: End processing [fairness-indicators]: success
+[2023-05-04 01:03:42] INFO root fetch - processPackages [scientisttools]: Downloading https://files.pythonhosted.org/packages/50/d9/94469d244527c7842d012a3a3da2bc4aafa9d9a2487167e45434b9a1327c/scientisttools-0.0.3.tar.gz
+[2023-05-04 01:03:42] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230503] Old Version: [0.7.0b20230502]
+[2023-05-04 01:03:42] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/cb/f3/666562b8a63a2f4bd59b9950ca3f858eee31620bdb68738c7c9be5d8bceb/gpt-review-0.4.0rc368.post1.tar.gz
+[2023-05-04 01:03:42] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/0d/91/7b6fc8702a9da7a03e91f759c44143b6672842b889c0505d6e281321bacf/ahk-1.1.0rc1.tar.gz
+[2023-05-04 01:03:42] INFO root fetch - processPackages [alacorder]: Start processing: browsr
+[2023-05-04 01:03:42] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-04 01:03:42] INFO root fetch - processPackages [browsr]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-04 01:03:42] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-04 01:03:42] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/b4/60/283336b25312d96ac9385f1f5b0abac7fd1073e2ab3e6ac9dc35370aa4a3/tmnt-0.7.0b20230503.tar.gz
+[2023-05-04 01:03:42] INFO root fetch - processPackages [ahk]: executing diffoscope
+[2023-05-04 01:03:42] INFO root fetch - processPackages [ahk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahk-1.0.1.tar.gz tmp/ahk-1.1.0rc1.tar.gz --markdown 20230504/a/ahk/1.0.1-1.1.0rc1/diff.md --exclude *.pyd
+[2023-05-04 01:03:42] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-04 01:03:42] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.4.0rc367.post1.tar.gz tmp/gpt-review-0.4.0rc368.post1.tar.gz --markdown 20230504/g/gpt-review/0.4.0rc367.post1-0.4.0rc368.post1/diff.md --exclude *.pyd
+[2023-05-04 01:03:42] INFO root fetch - processPackages [browsr]: Downloading https://files.pythonhosted.org/packages/80/82/39198dadfb59008361cde41aad2e87705c85f81b77d9413109de78732590/browsr-1.1.0.tar.gz
+[2023-05-04 01:03:42] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-05-04 01:03:42] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230502.tar.gz tmp/tmnt-0.7.0b20230503.tar.gz --markdown 20230504/t/tmnt/0.7.0b20230502-0.7.0b20230503/diff.md --exclude *.pyd
+[2023-05-04 01:03:42] INFO root fetch - main [MainThread]: End processing [tfimm]: success
+[2023-05-04 01:03:43] INFO root fetch - main [MainThread]: End processing [secureli]: success
+[2023-05-04 01:03:43] INFO root fetch - processPackages [browsr]: Downloading https://files.pythonhosted.org/packages/35/b6/c61eda14908ce0d1c050d3b4f0db570008dbfeaf9750d63f92f6550903f9/browsr-1.1.1.tar.gz
+[2023-05-04 01:03:43] INFO root fetch - main [MainThread]: End processing [google-generativeai]: success
+[2023-05-04 01:03:43] INFO root fetch - processPackages [scientisttools]: Downloading https://files.pythonhosted.org/packages/65/5e/cd6c403e85c0473effc378b6701bf54c232f9d89cf069f489c60b5bb096a/scientisttools-0.0.4.tar.gz
+[2023-05-04 01:03:43] INFO root fetch - processPackages [browsr]: executing diffoscope
+[2023-05-04 01:03:43] INFO root fetch - processPackages [browsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browsr-1.1.0.tar.gz tmp/browsr-1.1.1.tar.gz --markdown 20230504/b/browsr/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-04 01:03:43] INFO root fetch - processPackages [scientisttools]: executing diffoscope
+[2023-05-04 01:03:43] INFO root fetch - processPackages [scientisttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scientisttools-0.0.3.tar.gz tmp/scientisttools-0.0.4.tar.gz --markdown 20230504/s/scientisttools/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-04 01:03:43] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-05-04 01:03:44] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-04 01:03:44] INFO root fetch - main [MainThread]: End processing [ahk]: success
+[2023-05-04 01:03:44] INFO root fetch - main [MainThread]: End processing [browsr]: success
+[2023-05-04 01:03:45] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-05-04 01:04:38] INFO root fetch - main [MainThread]: End processing [scientisttools]: success
+[2023-05-04 01:04:38] INFO root fetch - main [MainThread]: Store serial: [17963736]
