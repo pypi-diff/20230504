@@ -221,3 +221,51 @@
 [2023-05-04 00:19:42] INFO root fetch - main [MainThread]: End processing [np-session]: success
 [2023-05-04 00:20:08] INFO root fetch - main [MainThread]: End processing [pulumi]: success
 [2023-05-04 00:20:08] INFO root fetch - main [MainThread]: Store serial: [17963483]
+[2023-05-04 00:25:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17963483]
+[2023-05-04 00:25:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-04 00:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyautosrt
+[2023-05-04 00:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: teradataml
+[2023-05-04 00:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ryanair-py
+[2023-05-04 00:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbus-fast
+[2023-05-04 00:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graphscope-client
+[2023-05-04 00:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: solis
+[2023-05-04 00:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: graphscope
+[2023-05-04 00:25:17] INFO root fetch - processPackages [pyautosrt]: New version: [0.1.7] Old Version: [0.1.4]
+[2023-05-04 00:25:17] INFO root fetch - processPackages [teradataml]: New version: [17.20.0.3] Old Version: [17.20.0.2]
+[2023-05-04 00:25:17] INFO root fetch - processPackages [ryanair-py]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-04 00:25:17] INFO root fetch - processPackages [solis]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 00:25:17] INFO root fetch - processPackages [graphscope-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-04 00:25:17] INFO root fetch - processPackages [dbus-fast]: New version: [1.9.0] Old Version: [1.86.0]
+[2023-05-04 00:25:17] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/f7/53/c1ffb245684956bc30883fd2945f3e1677b030e8d69945fbfca28db2b46a/graphscope_client-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-04 00:25:17] INFO root fetch - processPackages [ryanair-py]: Downloading https://files.pythonhosted.org/packages/a2/ad/1407a614a6cb5cecfeac9e70d82e6b560b633dcc09fd85cc7907a9a48fef/ryanair-py-2.2.0.tar.gz
+[2023-05-04 00:25:17] INFO root fetch - processPackages [graphscope]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-04 00:25:17] INFO root fetch - processPackages [solis]: Downloading https://files.pythonhosted.org/packages/6f/61/b7daf0025d880b2a42b431003340f6a9a33159a1b222ad10b09acb7d19da/solis-0.1.0.tar.gz
+[2023-05-04 00:25:17] INFO root fetch - processPackages [teradataml]: Downloading https://files.pythonhosted.org/packages/bd/9d/cc64778055c5b1f6c484b897fec6d2b5d46992a614bc62c1c692a32a2e28/teradataml-17.20.0.2-py3-none-any.whl
+[2023-05-04 00:25:17] INFO root fetch - processPackages [dbus-fast]: Downloading https://files.pythonhosted.org/packages/08/9d/ad27f451198724d6e5b4f0435a13f2b2f839716bbcdede2ccf6d99743ec5/dbus_fast-1.86.0.tar.gz
+[2023-05-04 00:25:17] INFO root fetch - processPackages [pyautosrt]: executing diffoscope
+[2023-05-04 00:25:17] INFO root fetch - processPackages [pyautosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautosrt-0.1.4.tar.gz tmp/pyautosrt-0.1.7.tar.gz --markdown 20230504/p/pyautosrt/0.1.4-0.1.7/diff.md --exclude *.pyd
+[2023-05-04 00:25:17] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/8a/cf/5bf5520d0cba1c8ac0bd824e70ade1c01fce914eeed5c7c210496c3f5906/graphscope-0.9.0-py2.py3-none-macosx_10_9_x86_64.whl
+[2023-05-04 00:25:17] INFO root fetch - processPackages [ryanair-py]: Downloading https://files.pythonhosted.org/packages/6b/fb/47d2552af31319de51d6eaa77ede67c81579166a2da022bf5617d16c059d/ryanair-py-2.3.0.tar.gz
+[2023-05-04 00:25:17] INFO root fetch - processPackages [solis]: Downloading https://files.pythonhosted.org/packages/30/c4/9b723df0f51eaa8c1f014f58d2e15c228e3aed493829c7b96befd05c0939/solis-0.1.1.tar.gz
+[2023-05-04 00:25:17] INFO root fetch - processPackages [teradataml]: Downloading https://files.pythonhosted.org/packages/31/b7/405b7296bcc6a992a00c36076542d8904f220d6aa31438421cff311df906/teradataml-17.20.0.3-py3-none-any.whl
+[2023-05-04 00:25:17] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 48560616>=10485760
+[2023-05-04 00:25:17] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-05-04 00:25:17] INFO root fetch - processPackages [solis]: executing diffoscope
+[2023-05-04 00:25:17] INFO root fetch - processPackages [solis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solis-0.1.0.tar.gz tmp/solis-0.1.1.tar.gz --markdown 20230504/s/solis/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 00:25:17] INFO root fetch - processPackages [dbus-fast]: Downloading https://files.pythonhosted.org/packages/92/ae/c3c53a04e95ba345f52d781a0c0b64e88013908c58e877b6d0d298dda498/dbus-fast-1.9.0.tar.gz
+[2023-05-04 00:25:17] INFO root fetch - processPackages [teradataml]: executing diffoscope
+[2023-05-04 00:25:17] INFO root fetch - processPackages [teradataml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teradataml-17.20.0.2-py3-none-any.whl.zip tmp/teradataml-17.20.0.3-py3-none-any.whl.zip --markdown 20230504/t/teradataml/17.20.0.2-17.20.0.3/diff.md --exclude *.pyd
+[2023-05-04 00:25:17] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/88/bc/d15c620f88ee0f2d9e2d48162b0fe41abceec7a07feb87268c4d10c6392b/graphscope-0.9.1-py2.py3-none-macosx_11_0_arm64.whl
+[2023-05-04 00:25:18] INFO root fetch - processPackages [graphscope]: executing diffoscope
+[2023-05-04 00:25:18] INFO root fetch - processPackages [graphscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphscope-0.9.0-py2.py3-none-macosx_10_9_x86_64.whl.zip tmp/graphscope-0.9.1-py2.py3-none-macosx_11_0_arm64.whl.zip --markdown 20230504/g/graphscope/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-04 00:25:18] INFO root fetch - processPackages [ryanair-py]: executing diffoscope
+[2023-05-04 00:25:18] INFO root fetch - processPackages [ryanair-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryanair-py-2.2.0.tar.gz tmp/ryanair-py-2.3.0.tar.gz --markdown 20230504/r/ryanair-py/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-04 00:25:18] INFO root fetch - processPackages [dbus-fast]: executing diffoscope
+[2023-05-04 00:25:18] INFO root fetch - processPackages [dbus-fast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbus_fast-1.86.0.tar.gz tmp/dbus-fast-1.9.0.tar.gz --markdown 20230504/d/dbus-fast/1.86.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-04 00:25:18] INFO root fetch - main [MainThread]: End processing [pyautosrt]: success
+[2023-05-04 00:25:18] INFO root fetch - main [MainThread]: End processing [solis]: success
+[2023-05-04 00:25:19] INFO root fetch - main [MainThread]: End processing [graphscope]: success
+[2023-05-04 00:25:19] INFO root fetch - main [MainThread]: End processing [dbus-fast]: success
+[2023-05-04 00:25:19] INFO root fetch - main [MainThread]: End processing [ryanair-py]: success
+[2023-05-04 00:26:44] INFO root fetch - main [MainThread]: End processing [teradataml]: success
+[2023-05-04 00:26:44] INFO root fetch - main [MainThread]: Store serial: [17963504]
