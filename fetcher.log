@@ -1331,3 +1331,102 @@
 [2023-05-04 01:52:30] INFO root fetch - main [MainThread]: End processing [django-sphinx-hosting]: success
 [2023-05-04 01:52:30] INFO root fetch - main [MainThread]: End processing [Flask-Limiter]: success
 [2023-05-04 01:52:30] INFO root fetch - main [MainThread]: Store serial: [17964250]
+[2023-05-04 01:57:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17964250]
+[2023-05-04 01:57:39] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-04 01:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitalarztools
+[2023-05-04 01:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openreview-py
+[2023-05-04 01:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digitalarztools
+[2023-05-04 01:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-us
+[2023-05-04 01:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scab
+[2023-05-04 01:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cpggen
+[2023-05-04 01:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tybase
+[2023-05-04 01:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pdc-calculator
+[2023-05-04 01:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coordinate-descent-attention
+[2023-05-04 01:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mkdocs-entangled-plugin
+[2023-05-04 01:57:39] INFO root fetch - processPackages [digitalarztools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 01:57:39] INFO root fetch - processPackages [digitalarztools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 01:57:39] INFO root fetch - processPackages [openreview-py]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-04 01:57:39] WARNING root fetch - processPackages [tybase]: Skipping, unable to determine old version
+[2023-05-04 01:57:39] INFO root fetch - processPackages [tybase]: Start processing: filequery
+[2023-05-04 01:57:39] INFO root fetch - main [MainThread]: End processing [tybase] error
+[2023-05-04 01:57:39] INFO root fetch - processPackages [cpggen]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-04 01:57:39] INFO root fetch - processPackages [scab]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-05-04 01:57:39] INFO root fetch - processPackages [mkdocs-entangled-plugin]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-04 01:57:39] INFO root fetch - processPackages [coordinate-descent-attention]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-04 01:57:39] INFO root fetch - processPackages [pdc-calculator]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-04 01:57:39] INFO root fetch - processPackages [policyengine-us]: New version: [0.312.0] Old Version: [0.311.0]
+[2023-05-04 01:57:39] INFO root fetch - processPackages [filequery]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-04 01:57:39] INFO root fetch - processPackages [digitalarztools]: Downloading https://files.pythonhosted.org/packages/b5/68/99097e7e8ab286315bea6cc0c6648f909b981f4e2065be485528760f507d/digitalarztools-0.0.8.tar.gz
+[2023-05-04 01:57:39] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/ed/ff/7a195b3b5b863ca9be0bbc415bae2b7c4d88cbf8e752b30c3c62b83a1a9a/policyengine-us-0.311.0.tar.gz
+[2023-05-04 01:57:39] INFO root fetch - processPackages [digitalarztools]: Downloading https://files.pythonhosted.org/packages/b5/68/99097e7e8ab286315bea6cc0c6648f909b981f4e2065be485528760f507d/digitalarztools-0.0.8.tar.gz
+[2023-05-04 01:57:39] INFO root fetch - processPackages [filequery]: Downloading https://files.pythonhosted.org/packages/f6/d3/ba4537a47e29a10b6df6e5a1b18ff92917cb900095343dabd5d33d7c420e/filequery-0.1.7.tar.gz
+[2023-05-04 01:57:39] INFO root fetch - processPackages [cpggen]: Downloading https://files.pythonhosted.org/packages/15/b7/3c1647a4829970515e457c7b2d38ffc28cf1a5b7d8f9f85c991530507370/cpggen-1.0.3.tar.gz
+[2023-05-04 01:57:39] INFO root fetch - processPackages [pdc-calculator]: Downloading https://files.pythonhosted.org/packages/a7/a0/a4c81739e5c3bcc257b78958ef44d68c054bf67c20ac4371001647b30d53/pdc_calculator-1.0.0.tar.gz
+[2023-05-04 01:57:39] INFO root fetch - processPackages [coordinate-descent-attention]: Downloading https://files.pythonhosted.org/packages/79/ed/e359086ae529c8d1a78f9c6b56ee1a8a244564bc071b83fc853b41d359bc/coordinate-descent-attention-0.0.6.tar.gz
+[2023-05-04 01:57:39] INFO root fetch - processPackages [scab]: Downloading https://files.pythonhosted.org/packages/59/95/41b1087799dba79a3ab947e6ebb5ba76d0c041e33121ef40866dc8a6859a/scab-0.0.6.tar.gz
+[2023-05-04 01:57:39] INFO root fetch - processPackages [mkdocs-entangled-plugin]: Downloading https://files.pythonhosted.org/packages/56/dd/12f673c49c05f00782efa6cfdceec54d49693ea52d9005657a01a66c81d6/mkdocs-entangled-plugin-0.1.0.tar.gz
+[2023-05-04 01:57:39] INFO root fetch - processPackages [openreview-py]: Downloading https://files.pythonhosted.org/packages/10/f4/9df8095c8b89ddd8bd719a3dc3103e5af2355f785ae02f6e48d670c055e2/openreview_py-1.8.1-py2.py3-none-any.whl
+[2023-05-04 01:57:39] INFO root fetch - processPackages [cpggen]: executing diffoscope
+[2023-05-04 01:57:39] INFO root fetch - processPackages [cpggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpggen-1.0.2.tar.gz tmp/cpggen-1.0.3.tar.gz --markdown 20230504/c/cpggen/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-04 01:57:39] INFO root fetch - processPackages [coordinate-descent-attention]: executing diffoscope
+[2023-05-04 01:57:39] INFO root fetch - processPackages [coordinate-descent-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coordinate-descent-attention-0.0.5.tar.gz tmp/coordinate-descent-attention-0.0.6.tar.gz --markdown 20230504/c/coordinate-descent-attention/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-04 01:57:40] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/65/d4/d93e034803d0d53f7840cd3f11e216176ba2b359ee53c5ed30fd52612d9e/policyengine-us-0.312.0.tar.gz
+[2023-05-04 01:57:40] INFO root fetch - processPackages [pdc-calculator]: Downloading https://files.pythonhosted.org/packages/10/9c/3db3947a341dc664786b167ead530216dac8f97ded297d639af3d1c2b98c/pdc_calculator-1.0.1.tar.gz
+[2023-05-04 01:57:40] INFO root fetch - processPackages [digitalarztools]: Downloading https://files.pythonhosted.org/packages/00/25/c980e24e95c2d2aab7f7e3042a4ea7fabfcb8deb667f49e39a2c04a8a201/digitalarztools-0.0.9.tar.gz
+[2023-05-04 01:57:40] INFO root fetch - processPackages [digitalarztools]: Downloading https://files.pythonhosted.org/packages/00/25/c980e24e95c2d2aab7f7e3042a4ea7fabfcb8deb667f49e39a2c04a8a201/digitalarztools-0.0.9.tar.gz
+[2023-05-04 01:57:40] INFO root fetch - processPackages [mkdocs-entangled-plugin]: Downloading https://files.pythonhosted.org/packages/9b/a2/f94a86faae15f76daf39735f4aed443a9fb5af5e568919f9d472cbc222b5/mkdocs_entangled_plugin-0.2.0.tar.gz
+[2023-05-04 01:57:40] INFO root fetch - processPackages [filequery]: Downloading https://files.pythonhosted.org/packages/80/2f/8f3dde7d55548391ed9c7215d8947f9857ecd7c6ccad5e4ad6f19ed228d4/filequery-0.1.8.tar.gz
+[2023-05-04 01:57:40] INFO root fetch - processPackages [scab]: Downloading https://files.pythonhosted.org/packages/c9/98/370e92a7413c6444a1fbf9a02d4c8f174c2cf9352d1748ca1e9d2d943cee/scab-0.1.0.tar.gz
+[2023-05-04 01:57:40] INFO root fetch - processPackages [pdc-calculator]: executing diffoscope
+[2023-05-04 01:57:40] INFO root fetch - processPackages [pdc-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdc_calculator-1.0.0.tar.gz tmp/pdc_calculator-1.0.1.tar.gz --markdown 20230504/p/pdc-calculator/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 01:57:40] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-05-04 01:57:40] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.311.0.tar.gz tmp/policyengine-us-0.312.0.tar.gz --markdown 20230504/p/policyengine-us/0.311.0-0.312.0/diff.md --exclude *.pyd
+[2023-05-04 01:57:40] INFO root fetch - processPackages [mkdocs-entangled-plugin]: executing diffoscope
+[2023-05-04 01:57:40] INFO root fetch - processPackages [mkdocs-entangled-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-entangled-plugin-0.1.0.tar.gz tmp/mkdocs_entangled_plugin-0.2.0.tar.gz --markdown 20230504/m/mkdocs-entangled-plugin/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-04 01:57:40] INFO root fetch - processPackages [filequery]: executing diffoscope
+[2023-05-04 01:57:40] INFO root fetch - processPackages [filequery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filequery-0.1.7.tar.gz tmp/filequery-0.1.8.tar.gz --markdown 20230504/f/filequery/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-04 01:57:40] INFO root fetch - processPackages [digitalarztools]: executing diffoscope
+[2023-05-04 01:57:40] INFO root fetch - processPackages [digitalarztools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalarztools-0.0.8.tar.gz tmp/digitalarztools-0.0.9.tar.gz --markdown 20230504/d/digitalarztools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 01:57:40] INFO root fetch - processPackages [digitalarztools]: executing diffoscope
+[2023-05-04 01:57:40] INFO root fetch - processPackages [digitalarztools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalarztools-0.0.8.tar.gz tmp/digitalarztools-0.0.9.tar.gz --markdown 20230504/d/digitalarztools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 01:57:40] INFO root fetch - processPackages [scab]: executing diffoscope
+[2023-05-04 01:57:40] INFO root fetch - processPackages [scab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scab-0.0.6.tar.gz tmp/scab-0.1.0.tar.gz --markdown 20230504/s/scab/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-05-04 01:57:40] INFO root fetch - processPackages [openreview-py]: Downloading https://files.pythonhosted.org/packages/3f/ec/bddbdcce1143acd580ad90e5c6a9772c052772bcf7982d3d4d5957087e38/openreview_py-1.9.0-py2.py3-none-any.whl
+[2023-05-04 01:57:40] INFO root fetch - processPackages [openreview-py]: executing diffoscope
+[2023-05-04 01:57:40] INFO root fetch - processPackages [openreview-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openreview_py-1.8.1-py2.py3-none-any.whl.zip tmp/openreview_py-1.9.0-py2.py3-none-any.whl.zip --markdown 20230504/o/openreview-py/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-04 01:57:41] INFO root fetch - processPackages [coordinate-descent-attention]: Start processing: auto-shap
+[2023-05-04 01:57:41] INFO root fetch - main [MainThread]: End processing [coordinate-descent-attention]: success
+[2023-05-04 01:57:41] INFO root fetch - processPackages [auto-shap]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-04 01:57:41] INFO root fetch - processPackages [cpggen]: Start processing: avio
+[2023-05-04 01:57:41] INFO root fetch - main [MainThread]: End processing [cpggen]: success
+[2023-05-04 01:57:41] INFO root fetch - processPackages [pdc-calculator]: Start processing: elifecleaner
+[2023-05-04 01:57:41] INFO root fetch - main [MainThread]: End processing [pdc-calculator]: success
+[2023-05-04 01:57:41] INFO root fetch - processPackages [avio]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-05-04 01:57:41] INFO root fetch - processPackages [elifecleaner]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-04 01:57:41] INFO root fetch - processPackages [mkdocs-entangled-plugin]: Start processing: json-codec
+[2023-05-04 01:57:41] INFO root fetch - main [MainThread]: End processing [mkdocs-entangled-plugin]: success
+[2023-05-04 01:57:41] INFO root fetch - processPackages [json-codec]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-04 01:57:41] INFO root fetch - processPackages [auto-shap]: Downloading https://files.pythonhosted.org/packages/6b/5c/83929c8cbd4a777c80a8f13c73860d6c64fdd0fe9700672b79cc3eff07b5/auto_shap-0.2.1.tar.gz
+[2023-05-04 01:57:41] INFO root fetch - processPackages [avio]: Downloading https://files.pythonhosted.org/packages/81/0a/6770e7c7713146e7a6fa5d8d7cd0deb8d052aa03383709d8ff05efeec18f/avio-2.1.3.tar.gz
+[2023-05-04 01:57:41] INFO root fetch - processPackages [auto-shap]: executing diffoscope
+[2023-05-04 01:57:41] INFO root fetch - processPackages [auto-shap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_shap-0.2.0.tar.gz tmp/auto_shap-0.2.1.tar.gz --markdown 20230504/a/auto-shap/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-04 01:57:41] INFO root fetch - processPackages [elifecleaner]: executing diffoscope
+[2023-05-04 01:57:41] INFO root fetch - processPackages [elifecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elifecleaner-0.9.0.tar.gz tmp/elifecleaner-0.9.1.tar.gz --markdown 20230504/e/elifecleaner/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-04 01:57:41] INFO root fetch - main [MainThread]: End processing [filequery]: success
+[2023-05-04 01:57:41] INFO root fetch - processPackages [json-codec]: Downloading https://files.pythonhosted.org/packages/59/5c/03db835d1eebb5052b9334c6ff8dc147072a99b888acf502d105fba00e88/json_codec-0.2.0.tar.gz
+[2023-05-04 01:57:42] INFO root fetch - main [MainThread]: End processing [scab]: success
+[2023-05-04 01:57:42] INFO root fetch - processPackages [avio]: Downloading https://files.pythonhosted.org/packages/15/ca/62cf24db715adb93268b819f4c1bd4ac1ecb03c6a2eae3fb0e93024631f4/avio-2.1.4.tar.gz
+[2023-05-04 01:57:42] INFO root fetch - processPackages [json-codec]: Downloading https://files.pythonhosted.org/packages/5a/35/1aec234d8dbe519aff7d68ac455c52cc8f6e8651788ff0fd141c2effe4bf/json_codec-0.3.0.tar.gz
+[2023-05-04 01:57:42] INFO root fetch - processPackages [json-codec]: executing diffoscope
+[2023-05-04 01:57:42] INFO root fetch - processPackages [json-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_codec-0.2.0.tar.gz tmp/json_codec-0.3.0.tar.gz --markdown 20230504/j/json-codec/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-04 01:57:42] INFO root fetch - processPackages [avio]: executing diffoscope
+[2023-05-04 01:57:42] INFO root fetch - processPackages [avio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avio-2.1.3.tar.gz tmp/avio-2.1.4.tar.gz --markdown 20230504/a/avio/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-05-04 01:57:42] INFO root fetch - main [MainThread]: End processing [digitalarztools]: success
+[2023-05-04 01:57:43] INFO root fetch - main [MainThread]: End processing [openreview-py]: success
+[2023-05-04 01:57:43] INFO root fetch - main [MainThread]: End processing [auto-shap]: success
+[2023-05-04 01:57:43] INFO root fetch - main [MainThread]: End processing [elifecleaner]: success
+[2023-05-04 01:57:43] INFO root fetch - main [MainThread]: End processing [json-codec]: success
+[2023-05-04 01:57:43] INFO root fetch - main [MainThread]: End processing [digitalarztools]: success
+[2023-05-04 01:57:45] INFO root fetch - main [MainThread]: End processing [avio]: success
+[2023-05-04 01:58:48] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-05-04 01:58:48] INFO root fetch - main [MainThread]: Store serial: [17964311]
