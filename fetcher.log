@@ -497,3 +497,54 @@
 [2023-05-04 00:48:06] INFO root fetch - main [MainThread]: End processing [requests-aws4auth]: success
 [2023-05-04 00:48:09] INFO root fetch - main [MainThread]: End processing [lava-nc]: success
 [2023-05-04 00:48:09] INFO root fetch - main [MainThread]: Store serial: [17963640]
+[2023-05-04 00:53:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17963640]
+[2023-05-04 00:53:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-04 00:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-eric-pta
+[2023-05-04 00:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-review
+[2023-05-04 00:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stats-can
+[2023-05-04 00:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyMouseKey
+[2023-05-04 00:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mpservice
+[2023-05-04 00:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idelucs
+[2023-05-04 00:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt-review
+[2023-05-04 00:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dufuz
+[2023-05-04 00:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yerbamate
+[2023-05-04 00:53:17] INFO root fetch - processPackages [PyMouseKey]: New version: [1.0.1] Old Version: [1.0]
+[2023-05-04 00:53:17] INFO root fetch - processPackages [gpt-review]: New version: [0.4.0rc362.post1] Old Version: [0.3.2rc355.post1]
+[2023-05-04 00:53:17] INFO root fetch - processPackages [yerbamate]: New version: [0.9.235] Old Version: [0.9.23]
+[2023-05-04 00:53:17] INFO root fetch - processPackages [dufuz]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-04 00:53:17] INFO root fetch - processPackages [idelucs]: New version: [0.1.1] Old Version: [0.0.3]
+[2023-05-04 00:53:17] INFO root fetch - processPackages [gpt-review]: New version: [0.4.0rc362.post1] Old Version: [0.3.2rc355.post1]
+[2023-05-04 00:53:17] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-05-04 00:53:18] INFO root fetch - processPackages [PyMouseKey]: executing diffoscope
+[2023-05-04 00:53:18] INFO root fetch - processPackages [PyMouseKey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMouseKey-1.0-py3-none-any.whl.zip tmp/PyMouseKey-1.0.1.tar.gz --markdown 20230504/P/PyMouseKey/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 00:53:18] INFO root fetch - processPackages [certora-cli-alpha-eric-pta]: New version: [20230503.22.48.812882] Old Version: [20230502.15.1.78773]
+[2023-05-04 00:53:18] INFO root fetch - processPackages [stats-can]: New version: [2.5.3] Old Version: [2.5.1]
+[2023-05-04 00:53:18] INFO root fetch - processPackages [dufuz]: executing diffoscope
+[2023-05-04 00:53:18] INFO root fetch - processPackages [dufuz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dufuz-0.0.1-py3-none-any.whl.zip tmp/dufuz-0.1.0-py3-none-any.whl.zip --markdown 20230504/d/dufuz/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-04 00:53:18] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-04 00:53:18] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.3.2rc355.post1.tar.gz tmp/gpt-review-0.4.0rc362.post1.tar.gz --markdown 20230504/g/gpt-review/0.3.2rc355.post1-0.4.0rc362.post1/diff.md --exclude *.pyd
+[2023-05-04 00:53:18] INFO root fetch - processPackages [idelucs]: executing diffoscope
+[2023-05-04 00:53:18] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-04 00:53:18] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.3.2rc355.post1.tar.gz tmp/gpt-review-0.4.0rc362.post1.tar.gz --markdown 20230504/g/gpt-review/0.3.2rc355.post1-0.4.0rc362.post1/diff.md --exclude *.pyd
+[2023-05-04 00:53:18] INFO root fetch - processPackages [idelucs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iDeLUCS-0.0.3.tar.gz tmp/idelucs-0.1.1.tar.gz --markdown 20230504/i/idelucs/0.0.3-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 00:53:18] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-05-04 00:53:18] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230504/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-05-04 00:53:18] INFO root fetch - processPackages [certora-cli-alpha-eric-pta]: Downloading https://files.pythonhosted.org/packages/e2/3d/eb27ee66d08d6d9d1e4eb025d3c24a51a477bdbdf7807392b137f7985421/certora-cli-alpha-eric-pta-20230502.15.1.78773.tar.gz
+[2023-05-04 00:53:18] INFO root fetch - processPackages [yerbamate]: Downloading https://files.pythonhosted.org/packages/f8/c0/5ba5e78f31cedc641705239d7ac36030ef166fd9f51faebf85a57d3ccff7/yerbamate-0.9.235.tar.gz
+[2023-05-04 00:53:18] WARNING root fetch - processPackages [certora-cli-alpha-eric-pta]: Skipping package: exceeds size limit 38397661>=10485760
+[2023-05-04 00:53:18] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-pta] error
+[2023-05-04 00:53:18] INFO root fetch - processPackages [stats-can]: Downloading https://files.pythonhosted.org/packages/71/b0/6f0c7d1bdbaa852a9d358c47984d6427e04356a61a46e212a1ddd09c4190/stats_can-2.5.1.tar.gz
+[2023-05-04 00:53:18] INFO root fetch - processPackages [yerbamate]: executing diffoscope
+[2023-05-04 00:53:18] INFO root fetch - processPackages [yerbamate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yerbamate-0.9.23.tar.gz tmp/yerbamate-0.9.235.tar.gz --markdown 20230504/y/yerbamate/0.9.23-0.9.235/diff.md --exclude *.pyd
+[2023-05-04 00:53:18] INFO root fetch - processPackages [stats-can]: Downloading https://files.pythonhosted.org/packages/61/92/ea6fe1fec8353ed9ef0ba6a965bf70e0cdb0415e1bfec715a083f269be97/stats_can-2.5.3.tar.gz
+[2023-05-04 00:53:18] INFO root fetch - processPackages [stats-can]: executing diffoscope
+[2023-05-04 00:53:18] INFO root fetch - processPackages [stats-can]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stats_can-2.5.1.tar.gz tmp/stats_can-2.5.3.tar.gz --markdown 20230504/s/stats-can/2.5.1-2.5.3/diff.md --exclude *.pyd
+[2023-05-04 00:53:19] INFO root fetch - main [MainThread]: End processing [PyMouseKey]: success
+[2023-05-04 00:53:19] INFO root fetch - main [MainThread]: End processing [dufuz]: success
+[2023-05-04 00:53:19] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-04 00:53:19] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-04 00:53:19] INFO root fetch - main [MainThread]: End processing [idelucs]: success
+[2023-05-04 00:53:19] INFO root fetch - main [MainThread]: End processing [yerbamate]: success
+[2023-05-04 00:53:20] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-05-04 00:53:20] INFO root fetch - main [MainThread]: End processing [stats-can]: success
+[2023-05-04 00:53:20] INFO root fetch - main [MainThread]: Store serial: [17963666]
