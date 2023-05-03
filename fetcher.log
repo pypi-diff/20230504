@@ -985,3 +985,130 @@
 [2023-05-04 01:30:46] INFO root fetch - processPackages [o7cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/o7cli-0.1.85-py3-none-any.whl.zip tmp/o7cli-0.1.95-py3-none-any.whl.zip --markdown 20230504/o/o7cli/0.1.85-0.1.95/diff.md --exclude *.pyd
 [2023-05-04 01:30:48] INFO root fetch - main [MainThread]: End processing [o7cli]: success
 [2023-05-04 01:30:48] INFO root fetch - main [MainThread]: Store serial: [17963939]
+[2023-05-04 01:35:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17963939]
+[2023-05-04 01:35:57] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-04 01:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaserver-folders-aws-s3
+[2023-05-04 01:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-review
+[2023-05-04 01:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pywhispercpp
+[2023-05-04 01:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tidyarxiv
+[2023-05-04 01:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linref
+[2023-05-04 01:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lekko_client
+[2023-05-04 01:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opencmiss2cmlibs
+[2023-05-04 01:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-review
+[2023-05-04 01:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robotransforms
+[2023-05-04 01:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tidyarxiv
+[2023-05-04 01:35:57] INFO root fetch - processPackages [gpt-review]: New version: [0.4.0rc373.post1] Old Version: [0.4.0rc372.post1]
+[2023-05-04 01:35:57] INFO root fetch - processPackages [linref]: New version: [0.0.9.post1] Old Version: [0.0.9]
+[2023-05-04 01:35:57] WARNING root fetch - processPackages [lekko_client]: Skipping, unable to determine old version
+[2023-05-04 01:35:57] INFO root fetch - processPackages [lekko_client]: Start processing: esphome
+[2023-05-04 01:35:57] INFO root fetch - main [MainThread]: End processing [lekko_client] error
+[2023-05-04 01:35:57] INFO root fetch - processPackages [tidyarxiv]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 01:35:57] INFO root fetch - processPackages [tidyarxiv]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 01:35:57] INFO root fetch - processPackages [pywhispercpp]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-04 01:35:57] INFO root fetch - processPackages [heaserver-folders-aws-s3]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-04 01:35:57] INFO root fetch - processPackages [opencmiss2cmlibs]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-04 01:35:57] INFO root fetch - processPackages [robotransforms]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-05-04 01:35:57] INFO root fetch - processPackages [gpt-review]: New version: [0.4.0rc373.post1] Old Version: [0.4.0rc372.post1]
+[2023-05-04 01:35:57] INFO root fetch - processPackages [esphome]: New version: [2023.4.4] Old Version: [2023.4.3]
+[2023-05-04 01:35:57] INFO root fetch - processPackages [tidyarxiv]: Downloading https://files.pythonhosted.org/packages/ca/90/46d39938b3ed4eb095d7c4475040153a3a3c39cd51e533df5bb039b3f900/tidyarxiv-0.1.0.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [tidyarxiv]: Downloading https://files.pythonhosted.org/packages/ca/90/46d39938b3ed4eb095d7c4475040153a3a3c39cd51e533df5bb039b3f900/tidyarxiv-0.1.0.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/bd/7d/68cd1141b48c503439bbcbaadbffe29b77447fbf504a10c14dd73e08ec36/gpt-review-0.4.0rc372.post1.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/bd/7d/68cd1141b48c503439bbcbaadbffe29b77447fbf504a10c14dd73e08ec36/gpt-review-0.4.0rc372.post1.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [pywhispercpp]: Downloading https://files.pythonhosted.org/packages/72/c5/7d1d1016607804bb432784f68477eade7060f03add1ebe60a272a3d6682a/pywhispercpp-1.0.7.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/f8/10/3a86463ed5a3cada680e1678f42cfdf2a07f27f8cdb90c8d0c3f57f9ab82/heaserver-folders-aws-s3-1.0.0a8.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [robotransforms]: Downloading https://files.pythonhosted.org/packages/94/ce/eead8f787f574df13e7b6ccbfa6d0756e616d2b2007946b8f23a9aaa44d1/robotransforms-0.4.4.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [linref]: Downloading https://files.pythonhosted.org/packages/e0/35/877ab424006f3bc92cdcfc0d0bae609497768fa9827cf5b148c1dac8690e/linref-0.0.9.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [opencmiss2cmlibs]: Downloading https://files.pythonhosted.org/packages/59/0a/7625b5a652ea426d674c935c40d15bb96343a4c758003c39f4a01e316df8/opencmiss2cmlibs-0.1.3.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/1c/ba/c2099bf49cfd3be6d58c62a777f54af28612c70ebfda093f8181319394ac/esphome-2023.4.4.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/a8/6d/3a260f4e7a3b326eb629179c7ff1279f1bb93716a0368db5130068b5e582/gpt-review-0.4.0rc373.post1.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [tidyarxiv]: Downloading https://files.pythonhosted.org/packages/47/75/a67d683802afe79d16b71ffa2d039e298354a305271e0342333535030d5e/tidyarxiv-0.1.1.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/a8/6d/3a260f4e7a3b326eb629179c7ff1279f1bb93716a0368db5130068b5e582/gpt-review-0.4.0rc373.post1.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [tidyarxiv]: Downloading https://files.pythonhosted.org/packages/47/75/a67d683802afe79d16b71ffa2d039e298354a305271e0342333535030d5e/tidyarxiv-0.1.1.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [opencmiss2cmlibs]: executing diffoscope
+[2023-05-04 01:35:57] INFO root fetch - processPackages [opencmiss2cmlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencmiss2cmlibs-0.1.2.tar.gz tmp/opencmiss2cmlibs-0.1.3.tar.gz --markdown 20230504/o/opencmiss2cmlibs/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-04 01:35:57] INFO root fetch - processPackages [pywhispercpp]: Downloading https://files.pythonhosted.org/packages/aa/1a/1b7ba071dbcefec6e100cf022b1599345bbcc8460761bead85e0c4ebce21/pywhispercpp-1.0.8.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/f0/b0/dda81eace819afe1df5d783a040e576f769b7f6834886d20e39ca1737454/heaserver-folders-aws-s3-1.0.0a9.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [linref]: Downloading https://files.pythonhosted.org/packages/f0/e4/dcc3216fcca81926f4cde6fcbd5345d04dca9fb2ef50d86b82c6dfee430b/linref-0.0.9.post1.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-05-04 01:35:57] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.4.3.tar.gz tmp/esphome-2023.4.4.tar.gz --markdown 20230504/e/esphome/2023.4.3-2023.4.4/diff.md --exclude *.pyd
+[2023-05-04 01:35:57] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-04 01:35:57] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.4.0rc372.post1.tar.gz tmp/gpt-review-0.4.0rc373.post1.tar.gz --markdown 20230504/g/gpt-review/0.4.0rc372.post1-0.4.0rc373.post1/diff.md --exclude *.pyd
+[2023-05-04 01:35:57] INFO root fetch - processPackages [tidyarxiv]: executing diffoscope
+[2023-05-04 01:35:57] INFO root fetch - processPackages [tidyarxiv]: executing diffoscope
+[2023-05-04 01:35:57] INFO root fetch - processPackages [tidyarxiv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidyarxiv-0.1.0.tar.gz tmp/tidyarxiv-0.1.1.tar.gz --markdown 20230504/t/tidyarxiv/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 01:35:57] INFO root fetch - processPackages [tidyarxiv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidyarxiv-0.1.0.tar.gz tmp/tidyarxiv-0.1.1.tar.gz --markdown 20230504/t/tidyarxiv/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 01:35:57] INFO root fetch - processPackages [robotransforms]: Downloading https://files.pythonhosted.org/packages/a6/d2/611ebd0493d18014b584e89a777f1fe5fe30d44171b6ff36dea00ac9f042/robotransforms-0.5.0.tar.gz
+[2023-05-04 01:35:57] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-04 01:35:57] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.4.0rc372.post1.tar.gz tmp/gpt-review-0.4.0rc373.post1.tar.gz --markdown 20230504/g/gpt-review/0.4.0rc372.post1-0.4.0rc373.post1/diff.md --exclude *.pyd
+[2023-05-04 01:35:57] INFO root fetch - processPackages [heaserver-folders-aws-s3]: executing diffoscope
+[2023-05-04 01:35:57] INFO root fetch - processPackages [heaserver-folders-aws-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-folders-aws-s3-1.0.0a8.tar.gz tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz --markdown 20230504/h/heaserver-folders-aws-s3/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-04 01:35:57] INFO root fetch - processPackages [pywhispercpp]: executing diffoscope
+[2023-05-04 01:35:57] INFO root fetch - processPackages [pywhispercpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywhispercpp-1.0.7.tar.gz tmp/pywhispercpp-1.0.8.tar.gz --markdown 20230504/p/pywhispercpp/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-04 01:35:58] INFO root fetch - processPackages [linref]: executing diffoscope
+[2023-05-04 01:35:58] INFO root fetch - processPackages [linref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linref-0.0.9.tar.gz tmp/linref-0.0.9.post1.tar.gz --markdown 20230504/l/linref/0.0.9-0.0.9.post1/diff.md --exclude *.pyd
+[2023-05-04 01:35:58] INFO root fetch - processPackages [robotransforms]: executing diffoscope
+[2023-05-04 01:35:58] INFO root fetch - processPackages [robotransforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotransforms-0.4.4.tar.gz tmp/robotransforms-0.5.0.tar.gz --markdown 20230504/r/robotransforms/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-05-04 01:35:59] INFO root fetch - processPackages [opencmiss2cmlibs]: Start processing: gpt-review
+[2023-05-04 01:35:59] INFO root fetch - main [MainThread]: End processing [opencmiss2cmlibs]: success
+[2023-05-04 01:35:59] INFO root fetch - processPackages [gpt-review]: New version: [0.4.0rc373.post1] Old Version: [0.4.0rc372.post1]
+[2023-05-04 01:35:59] INFO root fetch - processPackages [tidyarxiv]: Start processing: tidyarxiv
+[2023-05-04 01:35:59] INFO root fetch - main [MainThread]: End processing [tidyarxiv]: success
+[2023-05-04 01:35:59] INFO root fetch - processPackages [tidyarxiv]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 01:35:59] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-04 01:35:59] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.4.0rc372.post1.tar.gz tmp/gpt-review-0.4.0rc373.post1.tar.gz --markdown 20230504/g/gpt-review/0.4.0rc372.post1-0.4.0rc373.post1/diff.md --exclude *.pyd
+[2023-05-04 01:35:59] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Start processing: apache-airflow-providers-aerofoil
+[2023-05-04 01:35:59] INFO root fetch - main [MainThread]: End processing [heaserver-folders-aws-s3]: success
+[2023-05-04 01:35:59] INFO root fetch - processPackages [gpt-review]: Start processing: CoLT5-attention
+[2023-05-04 01:35:59] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-04 01:35:59] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-04 01:35:59] INFO root fetch - processPackages [tidyarxiv]: Downloading https://files.pythonhosted.org/packages/64/d5/e9a9929d3689d746d643e43d158ea22ab555c2478acb1bddba53506b160e/tidyarxiv-0.1.2.tar.gz
+[2023-05-04 01:35:59] INFO root fetch - processPackages [tidyarxiv]: Start processing: robotransforms
+[2023-05-04 01:35:59] INFO root fetch - main [MainThread]: End processing [tidyarxiv]: success
+[2023-05-04 01:35:59] INFO root fetch - processPackages [apache-airflow-providers-aerofoil]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-04 01:35:59] INFO root fetch - processPackages [robotransforms]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-04 01:35:59] INFO root fetch - processPackages [gpt-review]: Start processing: robofin
+[2023-05-04 01:35:59] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-04 01:35:59] INFO root fetch - processPackages [linref]: Start processing: geometrout
+[2023-05-04 01:35:59] INFO root fetch - main [MainThread]: End processing [linref]: success
+[2023-05-04 01:35:59] INFO root fetch - processPackages [tidyarxiv]: executing diffoscope
+[2023-05-04 01:35:59] INFO root fetch - processPackages [tidyarxiv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidyarxiv-0.1.1.tar.gz tmp/tidyarxiv-0.1.2.tar.gz --markdown 20230504/t/tidyarxiv/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 01:35:59] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/32/6b/28978806f7283266da036bcbbf54783426bac32717db6aeac7723fd60ef8/CoLT5-attention-0.4.9.tar.gz
+[2023-05-04 01:35:59] INFO root fetch - processPackages [geometrout]: New version: [0.1.0.7] Old Version: [0.1.0.6]
+[2023-05-04 01:35:59] INFO root fetch - processPackages [apache-airflow-providers-aerofoil]: Downloading https://files.pythonhosted.org/packages/76/b9/825a2299e1807246111368684099b49f241c94da65deec2f26271d433c4f/apache-airflow-providers-aerofoil-1.0.0.tar.gz
+[2023-05-04 01:35:59] INFO root fetch - processPackages [robotransforms]: Downloading https://files.pythonhosted.org/packages/27/0d/e04b94e35c5746b786ddd568256230ce6e11c030497894cef6698520c32c/robotransforms-0.5.1.tar.gz
+[2023-05-04 01:35:59] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-04 01:35:59] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.4.8.tar.gz tmp/CoLT5-attention-0.4.9.tar.gz --markdown 20230504/C/CoLT5-attention/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-04 01:36:00] INFO root fetch - processPackages [robofin]: New version: [0.0.2.1] Old Version: [0.0.2]
+[2023-05-04 01:36:00] INFO root fetch - processPackages [robotransforms]: Start processing: linkml-transformer
+[2023-05-04 01:36:00] INFO root fetch - main [MainThread]: End processing [robotransforms]: success
+[2023-05-04 01:36:00] INFO root fetch - processPackages [robotransforms]: executing diffoscope
+[2023-05-04 01:36:00] INFO root fetch - processPackages [robotransforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotransforms-0.5.0.tar.gz tmp/robotransforms-0.5.1.tar.gz --markdown 20230504/r/robotransforms/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-04 01:36:00] INFO root fetch - processPackages [apache-airflow-providers-aerofoil]: Downloading https://files.pythonhosted.org/packages/89/66/6d8a4b8f9f067293963726c4611397b0d5c082b202f2bc44cd29e688bb6b/apache-airflow-providers-aerofoil-1.0.1.tar.gz
+[2023-05-04 01:36:00] INFO root fetch - processPackages [linkml-transformer]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-04 01:36:00] INFO root fetch - processPackages [pywhispercpp]: Start processing: cspyce
+[2023-05-04 01:36:00] INFO root fetch - main [MainThread]: End processing [pywhispercpp]: success
+[2023-05-04 01:36:00] INFO root fetch - processPackages [robofin]: Downloading https://files.pythonhosted.org/packages/67/07/0d567ce992b0a0ef90b91d415e7908afe903029b6a6b173cd16f2c79a09e/robofin-0.0.2.tar.gz
+[2023-05-04 01:36:00] INFO root fetch - processPackages [cspyce]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-04 01:36:00] INFO root fetch - processPackages [apache-airflow-providers-aerofoil]: executing diffoscope
+[2023-05-04 01:36:00] INFO root fetch - processPackages [apache-airflow-providers-aerofoil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-aerofoil-1.0.0.tar.gz tmp/apache-airflow-providers-aerofoil-1.0.1.tar.gz --markdown 20230504/a/apache-airflow-providers-aerofoil/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 01:36:00] INFO root fetch - processPackages [geometrout]: Downloading https://files.pythonhosted.org/packages/24/fe/a9be7e1ee5a282001c0ea8cd7cc13e7b290d54ca8a9e3621ec184a724dfe/geometrout-0.1.0.7.tar.gz
+[2023-05-04 01:36:00] WARNING root fetch - processPackages [robofin]: Skipping package: exceeds size limit 11725871>=10485760
+[2023-05-04 01:36:00] INFO root fetch - main [MainThread]: End processing [robofin] error
+[2023-05-04 01:36:00] INFO root fetch - processPackages [cspyce]: executing diffoscope
+[2023-05-04 01:36:00] INFO root fetch - processPackages [cspyce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cspyce-2.0.8.tar.gz tmp/cspyce-2.0.9.tar.gz --markdown 20230504/c/cspyce/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-04 01:36:00] INFO root fetch - processPackages [linkml-transformer]: Downloading https://files.pythonhosted.org/packages/e9/0d/062ca702edad97597dbd8d9f15f097d98aa1602dd9642eaa4c6b72cf8338/linkml_transformer-0.1.3.tar.gz
+[2023-05-04 01:36:00] INFO root fetch - processPackages [geometrout]: executing diffoscope
+[2023-05-04 01:36:00] INFO root fetch - processPackages [geometrout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geometrout-0.1.0.6.tar.gz tmp/geometrout-0.1.0.7.tar.gz --markdown 20230504/g/geometrout/0.1.0.6-0.1.0.7/diff.md --exclude *.pyd
+[2023-05-04 01:36:00] INFO root fetch - processPackages [linkml-transformer]: Downloading https://files.pythonhosted.org/packages/78/49/e646a7c53bf600ac78a014dabe566395788afa907170e7fa71d78222f5dc/linkml_transformer-0.1.4.tar.gz
+[2023-05-04 01:36:00] INFO root fetch - processPackages [linkml-transformer]: executing diffoscope
+[2023-05-04 01:36:00] INFO root fetch - processPackages [linkml-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkml_transformer-0.1.3.tar.gz tmp/linkml_transformer-0.1.4.tar.gz --markdown 20230504/l/linkml-transformer/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-04 01:36:00] INFO root fetch - main [MainThread]: End processing [tidyarxiv]: success
+[2023-05-04 01:36:01] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-04 01:36:01] INFO root fetch - main [MainThread]: End processing [robotransforms]: success
+[2023-05-04 01:36:01] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-aerofoil]: success
+[2023-05-04 01:36:01] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-04 01:36:01] INFO root fetch - main [MainThread]: End processing [geometrout]: success
+[2023-05-04 01:36:01] INFO root fetch - main [MainThread]: End processing [cspyce]: success
+[2023-05-04 01:36:02] INFO root fetch - main [MainThread]: End processing [linkml-transformer]: success
+[2023-05-04 01:36:47] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-05-04 01:36:47] INFO root fetch - main [MainThread]: Store serial: [17964048]
