@@ -269,3 +269,90 @@
 [2023-05-04 00:25:19] INFO root fetch - main [MainThread]: End processing [ryanair-py]: success
 [2023-05-04 00:26:44] INFO root fetch - main [MainThread]: End processing [teradataml]: success
 [2023-05-04 00:26:44] INFO root fetch - main [MainThread]: Store serial: [17963504]
+[2023-05-04 00:31:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17963504]
+[2023-05-04 00:31:56] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-04 00:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gs-apps
+[2023-05-04 00:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gs-coordinator
+[2023-05-04 00:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gs-engine
+[2023-05-04 00:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gs-include
+[2023-05-04 00:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: desktop-notifier
+[2023-05-04 00:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ASCE
+[2023-05-04 00:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wizata-dsapi
+[2023-05-04 00:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pandas-indexing
+[2023-05-04 00:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aps-common-libraries
+[2023-05-04 00:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pibble
+[2023-05-04 00:31:56] INFO root fetch - processPackages [pibble]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-04 00:31:57] INFO root fetch - processPackages [pibble]: executing diffoscope
+[2023-05-04 00:31:57] INFO root fetch - processPackages [pibble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibble-0.4.8.tar.gz tmp/pibble-0.4.9.tar.gz --markdown 20230504/p/pibble/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-04 00:31:57] INFO root fetch - processPackages [gs-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-04 00:31:57] INFO root fetch - processPackages [aps-common-libraries]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-04 00:31:57] INFO root fetch - processPackages [ASCE]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-04 00:31:57] INFO root fetch - processPackages [gs-include]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-04 00:31:57] INFO root fetch - processPackages [pandas-indexing]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-04 00:31:57] INFO root fetch - processPackages [desktop-notifier]: New version: [3.5.2] Old Version: [3.5.1]
+[2023-05-04 00:31:57] INFO root fetch - processPackages [gs-apps]: New version: [0.22.0a20230503] Old Version: [0.22.0a20230502]
+[2023-05-04 00:31:57] INFO root fetch - processPackages [gs-coordinator]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-04 00:31:57] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 00:31:57] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/bd/b0/b9b1a1a65be3a78a220a726aa90bda0d1e1a17bbc47999c157c784a7320e/gs_engine-0.9.0-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-04 00:31:57] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/87/75/dda0e9c3c3f4f0985e28c2f35b6bb3458bdebbb9b6aadbb301d71ba9edff/gs_apps-0.22.0a20230502-py2.py3-none-macosx_10_9_x86_64.whl
+[2023-05-04 00:31:57] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/14/24/6aa7d96461fb18c825639db76c5c3edc7abfca148e3e55cc010cbf4d9a02/gs_include-0.9.0-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-04 00:31:57] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 42779242>=10485760
+[2023-05-04 00:31:57] INFO root fetch - processPackages [gs-apps]: Start processing: certora-cli-alpha-shelly-usabilityfixserialization
+[2023-05-04 00:31:57] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-05-04 00:31:57] INFO root fetch - processPackages [aps-common-libraries]: Downloading https://files.pythonhosted.org/packages/53/60/af3ffc6d614b376ce8fa30c732a2e6bfb05593235b62872879a5c1004fbd/aps_common_libraries-1.0.2.tar.gz
+[2023-05-04 00:31:57] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/71/0d/6c4b5d49846c2ee8e977037c2419e1ef57a68acfe87fdf0a031771493e84/gs_coordinator-0.9.0-py2.py3-none-macosx_10_9_x86_64.whl
+[2023-05-04 00:31:57] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 73794505>=10485760
+[2023-05-04 00:31:57] INFO root fetch - processPackages [gs-include]: Start processing: Faker
+[2023-05-04 00:31:57] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-05-04 00:31:57] INFO root fetch - processPackages [Faker]: New version: [9.9.1] Old Version: [9.9.0]
+[2023-05-04 00:31:57] INFO root fetch - processPackages [ASCE]: Downloading https://files.pythonhosted.org/packages/50/9c/c537d9e97891db65967984d91da86980bc7799aa351de0a987b73da86587/ASCE-0.0.8.tar.gz
+[2023-05-04 00:31:57] INFO root fetch - processPackages [pandas-indexing]: Downloading https://files.pythonhosted.org/packages/ff/42/6368c88ab571fc848bd3ceabf92b3e55f910412e49c9182cc035d301edc0/pandas-indexing-0.2.4.tar.gz
+[2023-05-04 00:31:57] INFO root fetch - processPackages [desktop-notifier]: Downloading https://files.pythonhosted.org/packages/54/0c/bac4ba22505cf808e2b71df77a409e4c854dd98b9f0bfe5aa9a21db5f484/desktop-notifier-3.5.2.tar.gz
+[2023-05-04 00:31:57] WARNING root fetch - processPackages [certora-cli-alpha-shelly-usabilityfixserialization]: Skipping, unable to determine old version
+[2023-05-04 00:31:57] INFO root fetch - processPackages [certora-cli-alpha-shelly-usabilityfixserialization]: Start processing: dumb-pypi
+[2023-05-04 00:31:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-usabilityfixserialization] error
+[2023-05-04 00:31:57] INFO root fetch - processPackages [dumb-pypi]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-04 00:31:57] INFO root fetch - processPackages [ASCE]: executing diffoscope
+[2023-05-04 00:31:57] INFO root fetch - processPackages [ASCE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ASCE-0.0.7.tar.gz tmp/ASCE-0.0.8.tar.gz --markdown 20230504/A/ASCE/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-04 00:31:57] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-05-04 00:31:57] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230504/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 00:31:57] INFO root fetch - processPackages [desktop-notifier]: executing diffoscope
+[2023-05-04 00:31:57] INFO root fetch - processPackages [desktop-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desktop-notifier-3.5.1.tar.gz tmp/desktop-notifier-3.5.2.tar.gz --markdown 20230504/d/desktop-notifier/3.5.1-3.5.2/diff.md --exclude *.pyd
+[2023-05-04 00:31:57] INFO root fetch - processPackages [pandas-indexing]: executing diffoscope
+[2023-05-04 00:31:57] INFO root fetch - processPackages [pandas-indexing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-indexing-0.2.3.tar.gz tmp/pandas-indexing-0.2.4.tar.gz --markdown 20230504/p/pandas-indexing/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-04 00:31:57] INFO root fetch - processPackages [Faker]: Downloading https://files.pythonhosted.org/packages/97/28/7a088e10e6654835d2423f12aec34aae16fe24c392106823dbe4c25ca7b8/Faker-9.9.0.tar.gz
+[2023-05-04 00:31:57] INFO root fetch - processPackages [dumb-pypi]: executing diffoscope
+[2023-05-04 00:31:57] INFO root fetch - processPackages [dumb-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumb_pypi-1.8.0.tar.gz tmp/dumb_pypi-1.9.0.tar.gz --markdown 20230504/d/dumb-pypi/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-04 00:31:57] INFO root fetch - processPackages [aps-common-libraries]: Downloading https://files.pythonhosted.org/packages/24/0c/389f87d2a8df8eb85e2ccbf47d7a52882f382e769876f4cea19c4f9b394c/aps_common_libraries-1.0.3.tar.gz
+[2023-05-04 00:31:57] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/b7/72/66667502448c5415e0a3437e817f8ee16d970e4058abb125303ce5365eee/gs_coordinator-0.9.1-py2.py3-none-macosx_11_0_arm64.whl
+[2023-05-04 00:31:57] INFO root fetch - processPackages [aps-common-libraries]: executing diffoscope
+[2023-05-04 00:31:57] INFO root fetch - processPackages [aps-common-libraries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aps_common_libraries-1.0.2.tar.gz tmp/aps_common_libraries-1.0.3.tar.gz --markdown 20230504/a/aps-common-libraries/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-04 00:31:57] WARNING root fetch - processPackages [gs-engine]: Skipping package: exceeds size limit 88119450>=10485760
+[2023-05-04 00:31:57] INFO root fetch - processPackages [gs-engine]: Start processing: labelbox
+[2023-05-04 00:31:57] INFO root fetch - main [MainThread]: End processing [gs-engine] error
+[2023-05-04 00:31:57] INFO root fetch - processPackages [Faker]: Downloading https://files.pythonhosted.org/packages/51/99/edb47acf0025b63c69fc6c8845b121267322a1e1bfbf5868dba5b601cc93/Faker-9.9.1.tar.gz
+[2023-05-04 00:31:58] INFO root fetch - processPackages [labelbox]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-05-04 00:31:58] INFO root fetch - processPackages [Faker]: executing diffoscope
+[2023-05-04 00:31:58] INFO root fetch - processPackages [Faker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Faker-9.9.0.tar.gz tmp/Faker-9.9.1.tar.gz --markdown 20230504/F/Faker/9.9.0-9.9.1/diff.md --exclude *.pyd
+[2023-05-04 00:31:58] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-05-04 00:31:58] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.9.0-py2.py3-none-macosx_10_9_x86_64.whl.zip tmp/gs_coordinator-0.9.1-py2.py3-none-macosx_11_0_arm64.whl.zip --markdown 20230504/g/gs-coordinator/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-04 00:31:58] INFO root fetch - processPackages [labelbox]: Downloading https://files.pythonhosted.org/packages/4f/01/710a4f4bfac8fc8da01f002de2248e4b76909089815bf3b2b3c402de1c76/labelbox-3.8.0.tar.gz
+[2023-05-04 00:31:58] INFO root fetch - processPackages [labelbox]: Downloading https://files.pythonhosted.org/packages/34/ac/a025e6faa353ab980d4d223ad2a8a291e28da42b4d4ba436f857ca850029/labelbox-3.9.0.tar.gz
+[2023-05-04 00:31:58] INFO root fetch - processPackages [ASCE]: Start processing: amps-py
+[2023-05-04 00:31:58] INFO root fetch - main [MainThread]: End processing [ASCE]: success
+[2023-05-04 00:31:58] INFO root fetch - processPackages [amps-py]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-04 00:31:58] INFO root fetch - processPackages [amps-py]: executing diffoscope
+[2023-05-04 00:31:58] INFO root fetch - processPackages [amps-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amps-py-0.1.3.tar.gz tmp/amps-py-0.1.4.tar.gz --markdown 20230504/a/amps-py/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-04 00:31:58] INFO root fetch - processPackages [labelbox]: executing diffoscope
+[2023-05-04 00:31:58] INFO root fetch - processPackages [labelbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelbox-3.8.0.tar.gz tmp/labelbox-3.9.0.tar.gz --markdown 20230504/l/labelbox/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-04 00:31:59] INFO root fetch - main [MainThread]: End processing [pibble]: success
+[2023-05-04 00:31:59] INFO root fetch - main [MainThread]: End processing [dumb-pypi]: success
+[2023-05-04 00:31:59] INFO root fetch - main [MainThread]: End processing [desktop-notifier]: success
+[2023-05-04 00:31:59] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-05-04 00:31:59] INFO root fetch - main [MainThread]: End processing [pandas-indexing]: success
+[2023-05-04 00:32:00] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-05-04 00:32:00] INFO root fetch - main [MainThread]: End processing [amps-py]: success
+[2023-05-04 00:32:00] INFO root fetch - main [MainThread]: End processing [labelbox]: success
+[2023-05-04 00:32:00] INFO root fetch - main [MainThread]: End processing [aps-common-libraries]: success
+[2023-05-04 00:32:04] INFO root fetch - main [MainThread]: End processing [Faker]: success
+[2023-05-04 00:32:04] INFO root fetch - main [MainThread]: Store serial: [17963546]
