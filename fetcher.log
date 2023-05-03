@@ -1275,3 +1275,59 @@
 [2023-05-04 01:47:19] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
 [2023-05-04 01:47:19] INFO root fetch - main [MainThread]: End processing [dulwich]: success
 [2023-05-04 01:47:19] INFO root fetch - main [MainThread]: Store serial: [17964189]
+[2023-05-04 01:52:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17964189]
+[2023-05-04 01:52:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-04 01:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-sphinx-hosting
+[2023-05-04 01:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abutils
+[2023-05-04 01:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto-shap
+[2023-05-04 01:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dagknows
+[2023-05-04 01:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: havoc-clustering
+[2023-05-04 01:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstar
+[2023-05-04 01:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Flask-Limiter
+[2023-05-04 01:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graph-envs
+[2023-05-04 01:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pomice
+[2023-05-04 01:52:28] INFO root fetch - processPackages [django-sphinx-hosting]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-04 01:52:28] INFO root fetch - processPackages [abutils]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-04 01:52:28] INFO root fetch - processPackages [auto-shap]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-04 01:52:28] INFO root fetch - processPackages [dagknows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 01:52:28] INFO root fetch - processPackages [havoc-clustering]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-04 01:52:28] INFO root fetch - processPackages [graph-envs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 01:52:28] INFO root fetch - processPackages [graph-envs]: Downloading https://files.pythonhosted.org/packages/04/f2/27668b746055c29a37c7498375cc1456cef849cef80f9c0b8749a0b9095b/graph-envs-0.0.8.tar.gz
+[2023-05-04 01:52:28] INFO root fetch - processPackages [dagknows]: executing diffoscope
+[2023-05-04 01:52:28] INFO root fetch - processPackages [dagknows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagknows-0.0.8-py3-none-any.whl.zip tmp/dagknows-0.0.9-py3-none-any.whl.zip --markdown 20230504/d/dagknows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 01:52:28] INFO root fetch - processPackages [havoc-clustering]: executing diffoscope
+[2023-05-04 01:52:28] INFO root fetch - processPackages [havoc-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/havoc_clustering-0.0.4.tar.gz tmp/havoc_clustering-0.0.5.tar.gz --markdown 20230504/h/havoc-clustering/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-04 01:52:28] INFO root fetch - processPackages [pomice]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-05-04 01:52:28] INFO root fetch - processPackages [Flask-Limiter]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-05-04 01:52:28] INFO root fetch - processPackages [abstar]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-05-04 01:52:28] INFO root fetch - processPackages [abutils]: Downloading https://files.pythonhosted.org/packages/a2/a2/0c519de24d956d49801fe97153a28d623bd2fd411991d787b899b25c13a7/abutils-0.2.9.tar.gz
+[2023-05-04 01:52:28] INFO root fetch - processPackages [auto-shap]: Downloading https://files.pythonhosted.org/packages/69/90/e380dea3ac1af82390abbbccaf5fae98aa045b47d2d88eba42606986cc3a/auto_shap-0.1.1.tar.gz
+[2023-05-04 01:52:28] INFO root fetch - processPackages [graph-envs]: Downloading https://files.pythonhosted.org/packages/4d/b2/31d92c42dd199b971b6afa83ea3f4bd903c59fa760f2c2397c8e5be0a6d1/graph-envs-0.0.9.tar.gz
+[2023-05-04 01:52:28] INFO root fetch - processPackages [Flask-Limiter]: Downloading https://files.pythonhosted.org/packages/76/5b/1a40b17c2cdc6420cabae3f3f75c6b194903210f71586e718f26b0e2ae7a/Flask-Limiter-3.3.0.tar.gz
+[2023-05-04 01:52:28] INFO root fetch - processPackages [graph-envs]: executing diffoscope
+[2023-05-04 01:52:28] INFO root fetch - processPackages [graph-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph-envs-0.0.8.tar.gz tmp/graph-envs-0.0.9.tar.gz --markdown 20230504/g/graph-envs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 01:52:28] WARNING root fetch - processPackages [abutils]: Skipping package: exceeds size limit 18281082>=10485760
+[2023-05-04 01:52:28] INFO root fetch - main [MainThread]: End processing [abutils] error
+[2023-05-04 01:52:28] INFO root fetch - processPackages [abstar]: Downloading https://files.pythonhosted.org/packages/2d/5c/fcac6fbf845c5fbbb064ee256d962c23c7e7c0cc2fd8fe366a15bc57acdd/abstar-0.5.9.tar.gz
+[2023-05-04 01:52:28] INFO root fetch - processPackages [django-sphinx-hosting]: Downloading https://files.pythonhosted.org/packages/56/6e/f399522bf1e287096078e760c324b41af8fc74c1aca81f75dd01fea9e3a6/django-sphinx-hosting-1.1.2.tar.gz
+[2023-05-04 01:52:28] INFO root fetch - processPackages [django-sphinx-hosting]: executing diffoscope
+[2023-05-04 01:52:28] INFO root fetch - processPackages [django-sphinx-hosting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sphinx-hosting-1.1.1.tar.gz tmp/django-sphinx-hosting-1.1.2.tar.gz --markdown 20230504/d/django-sphinx-hosting/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-04 01:52:28] INFO root fetch - processPackages [pomice]: Downloading https://files.pythonhosted.org/packages/b0/cc/4c7e060d3aaf5eeea6c4ae7350e84a3a89c7fb11f60566d12356d5d15c2d/pomice-2.5.1.tar.gz
+[2023-05-04 01:52:28] WARNING root fetch - processPackages [abstar]: Skipping package: exceeds size limit 38543866>=10485760
+[2023-05-04 01:52:28] INFO root fetch - main [MainThread]: End processing [abstar] error
+[2023-05-04 01:52:28] INFO root fetch - processPackages [auto-shap]: Downloading https://files.pythonhosted.org/packages/50/24/39d886d934441495f692d125720453badd7234ef8797b5f3234018d55f44/auto_shap-0.2.0.tar.gz
+[2023-05-04 01:52:28] INFO root fetch - processPackages [pomice]: executing diffoscope
+[2023-05-04 01:52:28] INFO root fetch - processPackages [pomice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pomice-2.5.0.tar.gz tmp/pomice-2.5.1.tar.gz --markdown 20230504/p/pomice/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-05-04 01:52:28] INFO root fetch - processPackages [auto-shap]: executing diffoscope
+[2023-05-04 01:52:28] INFO root fetch - processPackages [auto-shap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_shap-0.1.1.tar.gz tmp/auto_shap-0.2.0.tar.gz --markdown 20230504/a/auto-shap/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-04 01:52:29] INFO root fetch - processPackages [Flask-Limiter]: Downloading https://files.pythonhosted.org/packages/df/e6/c6bd77d7da0ba39ca364a233d30cb4c1da0a69d77bb1914aa8811ceef5c3/Flask-Limiter-3.3.1.tar.gz
+[2023-05-04 01:52:29] INFO root fetch - processPackages [Flask-Limiter]: executing diffoscope
+[2023-05-04 01:52:29] INFO root fetch - processPackages [Flask-Limiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-Limiter-3.3.0.tar.gz tmp/Flask-Limiter-3.3.1.tar.gz --markdown 20230504/F/Flask-Limiter/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-05-04 01:52:29] INFO root fetch - main [MainThread]: End processing [dagknows]: success
+[2023-05-04 01:52:29] INFO root fetch - main [MainThread]: End processing [graph-envs]: success
+[2023-05-04 01:52:29] INFO root fetch - main [MainThread]: End processing [havoc-clustering]: success
+[2023-05-04 01:52:30] INFO root fetch - main [MainThread]: End processing [pomice]: success
+[2023-05-04 01:52:30] INFO root fetch - main [MainThread]: End processing [auto-shap]: success
+[2023-05-04 01:52:30] INFO root fetch - main [MainThread]: End processing [django-sphinx-hosting]: success
+[2023-05-04 01:52:30] INFO root fetch - main [MainThread]: End processing [Flask-Limiter]: success
+[2023-05-04 01:52:30] INFO root fetch - main [MainThread]: Store serial: [17964250]
