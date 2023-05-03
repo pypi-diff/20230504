@@ -920,3 +920,68 @@
 [2023-05-04 01:25:31] INFO root fetch - main [MainThread]: End processing [dbxconfig]: success
 [2023-05-04 01:25:33] INFO root fetch - main [MainThread]: End processing [rapidwright]: success
 [2023-05-04 01:25:33] INFO root fetch - main [MainThread]: Store serial: [17963901]
+[2023-05-04 01:30:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17963901]
+[2023-05-04 01:30:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-04 01:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-othello
+[2023-05-04 01:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-review
+[2023-05-04 01:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lmanage
+[2023-05-04 01:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: o7cli
+[2023-05-04 01:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coastseg
+[2023-05-04 01:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python3-commons
+[2023-05-04 01:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: earthquakereport-indonesia
+[2023-05-04 01:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Cheese-RocketSim
+[2023-05-04 01:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ultralytics
+[2023-05-04 01:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pdc-calculator
+[2023-05-04 01:30:43] INFO root fetch - processPackages [simple-othello]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-04 01:30:43] INFO root fetch - processPackages [lmanage]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-04 01:30:43] WARNING root fetch - processPackages [pdc-calculator]: Skipping, unable to determine old version
+[2023-05-04 01:30:43] INFO root fetch - processPackages [pdc-calculator]: Start processing: always-updates
+[2023-05-04 01:30:43] INFO root fetch - main [MainThread]: End processing [pdc-calculator] error
+[2023-05-04 01:30:43] INFO root fetch - processPackages [o7cli]: New version: [0.1.95] Old Version: [0.1.85]
+[2023-05-04 01:30:43] WARNING root fetch - processPackages [earthquakereport-indonesia]: Skipping, unable to determine old version
+[2023-05-04 01:30:43] INFO root fetch - processPackages [earthquakereport-indonesia]: Start processing: dbxconfig
+[2023-05-04 01:30:43] INFO root fetch - main [MainThread]: End processing [earthquakereport-indonesia] error
+[2023-05-04 01:30:43] INFO root fetch - processPackages [python3-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 01:30:43] INFO root fetch - processPackages [gpt-review]: New version: [0.4.0rc370.post1] Old Version: [0.4.0rc369.post1]
+[2023-05-04 01:30:43] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 01:30:43] INFO root fetch - processPackages [dbxconfig]: New version: [5.0.4] Old Version: [5.0.3]
+[2023-05-04 01:30:43] WARNING root fetch - processPackages [Cheese-RocketSim]: Skipping, unable to determine old version
+[2023-05-04 01:30:43] INFO root fetch - main [MainThread]: End processing [Cheese-RocketSim] error
+[2023-05-04 01:30:43] INFO root fetch - processPackages [ultralytics]: New version: [8.0.92] Old Version: [8.0.91]
+[2023-05-04 01:30:43] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2023-05-04 01:30:43] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-commons-0.0.8.tar.gz tmp/python3-commons-0.0.9.tar.gz --markdown 20230504/p/python3-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 01:30:43] INFO root fetch - processPackages [lmanage]: Downloading https://files.pythonhosted.org/packages/6f/15/e0d60d821e3edefa11b3d6f7eb93e6e69a3559b7afec521710d46ac157c5/lmanage-0.3.5.tar.gz
+[2023-05-04 01:30:43] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-04 01:30:43] INFO root fetch - processPackages [dbxconfig]: executing diffoscope
+[2023-05-04 01:30:43] INFO root fetch - processPackages [dbxconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbxconfig-5.0.3.tar.gz tmp/dbxconfig-5.0.4.tar.gz --markdown 20230504/d/dbxconfig/5.0.3-5.0.4/diff.md --exclude *.pyd
+[2023-05-04 01:30:43] INFO root fetch - processPackages [simple-othello]: Downloading https://files.pythonhosted.org/packages/c5/aa/4d735a72af6b44af310630382432ca10ad1c0c75fb892a39ff8f8d1cf40b/simple_othello-1.2.4-py3-none-any.whl
+[2023-05-04 01:30:43] INFO root fetch - processPackages [o7cli]: Downloading https://files.pythonhosted.org/packages/5c/88/e6bd77d53a3cc8fc650b95dec3450386a753b6d8792d54f5b684657cf340/o7cli-0.1.85-py3-none-any.whl
+[2023-05-04 01:30:43] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-05-04 01:30:43] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/a1/6c/5fd1783ffa89b12e6b37c621b318a6063f01edc875988f2452cd900013d7/gpt-review-0.4.0rc370.post1.tar.gz
+[2023-05-04 01:30:43] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-05-04 01:30:43] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-05-04 01:30:43] INFO root fetch - processPackages [simple-othello]: Downloading https://files.pythonhosted.org/packages/91/e5/220ff2afc504a0daa695a6ce09cfdcf9bbb8d5e444f3b8e6081b8fc08fee/simple_othello-1.2.5-py3-none-any.whl
+[2023-05-04 01:30:43] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/e2/98/96e03a9b645f748b4f8809364660e919448335b33c012a9bb295fb8802de/ultralytics-8.0.92.tar.gz
+[2023-05-04 01:30:43] INFO root fetch - processPackages [lmanage]: Downloading https://files.pythonhosted.org/packages/29/05/36198f62379e64995f899a2d186da83235212810ccafa426701b1466365b/lmanage-0.3.6.tar.gz
+[2023-05-04 01:30:43] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-04 01:30:43] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.4.0rc369.post1.tar.gz tmp/gpt-review-0.4.0rc370.post1.tar.gz --markdown 20230504/g/gpt-review/0.4.0rc369.post1-0.4.0rc370.post1/diff.md --exclude *.pyd
+[2023-05-04 01:30:43] INFO root fetch - processPackages [simple-othello]: executing diffoscope
+[2023-05-04 01:30:43] INFO root fetch - processPackages [simple-othello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_othello-1.2.4-py3-none-any.whl.zip tmp/simple_othello-1.2.5-py3-none-any.whl.zip --markdown 20230504/s/simple-othello/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-04 01:30:43] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-04 01:30:43] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230504/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-04 01:30:43] INFO root fetch - processPackages [lmanage]: executing diffoscope
+[2023-05-04 01:30:43] INFO root fetch - processPackages [lmanage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmanage-0.3.5.tar.gz tmp/lmanage-0.3.6.tar.gz --markdown 20230504/l/lmanage/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-04 01:30:43] INFO root fetch - processPackages [o7cli]: Downloading https://files.pythonhosted.org/packages/2d/74/c8d8a45daa5e8e20a8537bf973d1999b2acfbf156402ac817e841111ffde/o7cli-0.1.95-py3-none-any.whl
+[2023-05-04 01:30:43] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-05-04 01:30:43] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.91.tar.gz tmp/ultralytics-8.0.92.tar.gz --markdown 20230504/u/ultralytics/8.0.91-8.0.92/diff.md --exclude *.pyd
+[2023-05-04 01:30:44] INFO root fetch - main [MainThread]: End processing [dbxconfig]: success
+[2023-05-04 01:30:44] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2023-05-04 01:30:44] INFO root fetch - main [MainThread]: End processing [simple-othello]: success
+[2023-05-04 01:30:44] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-04 01:30:45] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-04 01:30:45] INFO root fetch - main [MainThread]: End processing [lmanage]: success
+[2023-05-04 01:30:45] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-05-04 01:30:46] INFO root fetch - processPackages [o7cli]: executing diffoscope
+[2023-05-04 01:30:46] INFO root fetch - processPackages [o7cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/o7cli-0.1.85-py3-none-any.whl.zip tmp/o7cli-0.1.95-py3-none-any.whl.zip --markdown 20230504/o/o7cli/0.1.85-0.1.95/diff.md --exclude *.pyd
+[2023-05-04 01:30:48] INFO root fetch - main [MainThread]: End processing [o7cli]: success
+[2023-05-04 01:30:48] INFO root fetch - main [MainThread]: Store serial: [17963939]
