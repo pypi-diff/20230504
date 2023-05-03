@@ -356,3 +356,49 @@
 [2023-05-04 00:32:00] INFO root fetch - main [MainThread]: End processing [aps-common-libraries]: success
 [2023-05-04 00:32:04] INFO root fetch - main [MainThread]: End processing [Faker]: success
 [2023-05-04 00:32:04] INFO root fetch - main [MainThread]: Store serial: [17963546]
+[2023-05-04 00:37:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17963546]
+[2023-05-04 00:37:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-04 00:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xopt
+[2023-05-04 00:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tigerasi
+[2023-05-04 00:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audiostretchy
+[2023-05-04 00:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python3-commons
+[2023-05-04 00:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pibble
+[2023-05-04 00:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-sql
+[2023-05-04 00:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gql-defrag
+[2023-05-04 00:37:13] INFO root fetch - processPackages [pibble]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-05-04 00:37:13] INFO root fetch - processPackages [fastapi-sql]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-04 00:37:13] INFO root fetch - processPackages [xopt]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-05-04 00:37:13] INFO root fetch - processPackages [tigerasi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 00:37:13] WARNING root fetch - processPackages [gql-defrag]: Skipping, unable to determine old version
+[2023-05-04 00:37:13] INFO root fetch - main [MainThread]: End processing [gql-defrag] error
+[2023-05-04 00:37:13] INFO root fetch - processPackages [audiostretchy]: New version: [1.1.2] Old Version: [1.0.8]
+[2023-05-04 00:37:13] INFO root fetch - processPackages [python3-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 00:37:13] INFO root fetch - processPackages [fastapi-sql]: Downloading https://files.pythonhosted.org/packages/57/e0/72a53e57a60b38140319f84b70906d36e6c37c5d28bc138e950ac30232c8/fastapi_sql-0.3.4.tar.gz
+[2023-05-04 00:37:13] INFO root fetch - processPackages [pibble]: Downloading https://files.pythonhosted.org/packages/06/9f/77ebf0995e73baa68414dadb652413a5c09c196d98d7bb9d7605dc7205b5/pibble-0.5.0.tar.gz
+[2023-05-04 00:37:13] INFO root fetch - processPackages [audiostretchy]: Downloading https://files.pythonhosted.org/packages/ff/71/ede83df5834f93b583c5ac15a42528debdf87fb059b4086aa62ac262b7ea/audiostretchy-1.0.8.tar.gz
+[2023-05-04 00:37:13] INFO root fetch - processPackages [xopt]: Downloading https://files.pythonhosted.org/packages/cf/96/475ddbd36f4ccb9699bab16f0a6bf4ad8b3afe03e784076af87f7faae7ae/xopt-1.3.1.tar.gz
+[2023-05-04 00:37:13] INFO root fetch - processPackages [tigerasi]: Downloading https://files.pythonhosted.org/packages/38/d1/3e1880759a0562aa60bb28dca0b4bb8dde5eb6b1d96ff93e7cec8be751d2/TigerASI-0.0.8.tar.gz
+[2023-05-04 00:37:13] INFO root fetch - processPackages [fastapi-sql]: executing diffoscope
+[2023-05-04 00:37:13] INFO root fetch - processPackages [fastapi-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_sql-0.3.3.tar.gz tmp/fastapi_sql-0.3.4.tar.gz --markdown 20230504/f/fastapi-sql/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-04 00:37:13] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/3d/47/77e98aabfd51b3e6f8909fb7a515d7978843cd537ee465aaa998ff7ef8ae/python3-commons-0.0.8.tar.gz
+[2023-05-04 00:37:13] INFO root fetch - processPackages [pibble]: executing diffoscope
+[2023-05-04 00:37:13] INFO root fetch - processPackages [pibble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibble-0.4.9.tar.gz tmp/pibble-0.5.0.tar.gz --markdown 20230504/p/pibble/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-05-04 00:37:13] INFO root fetch - processPackages [audiostretchy]: Downloading https://files.pythonhosted.org/packages/df/8c/f6ce47a2b1594e271a9a5a34c2dafbb45c9ba411a78801d7f6da4653cb5a/audiostretchy-1.1.2.tar.gz
+[2023-05-04 00:37:14] INFO root fetch - processPackages [xopt]: Downloading https://files.pythonhosted.org/packages/cd/14/fc4483d4b1ff0a20ecab2c72ae2f8df770d6e42be918cf465b1a56efabb0/xopt-1.4.0.tar.gz
+[2023-05-04 00:37:14] INFO root fetch - processPackages [audiostretchy]: executing diffoscope
+[2023-05-04 00:37:14] INFO root fetch - processPackages [audiostretchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiostretchy-1.0.8.tar.gz tmp/audiostretchy-1.1.2.tar.gz --markdown 20230504/a/audiostretchy/1.0.8-1.1.2/diff.md --exclude *.pyd
+[2023-05-04 00:37:14] INFO root fetch - processPackages [tigerasi]: Downloading https://files.pythonhosted.org/packages/d9/50/c29422b7b28056b4c83c3578f482ec3c6247d9b604101339da58baa74fd0/TigerASI-0.0.9.tar.gz
+[2023-05-04 00:37:14] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/5f/f3/d875107dc7e55fe5a35509025413eff64f7d978dbceb19982e18ba1a5ca3/python3-commons-0.0.9.tar.gz
+[2023-05-04 00:37:14] INFO root fetch - processPackages [xopt]: executing diffoscope
+[2023-05-04 00:37:14] INFO root fetch - processPackages [xopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xopt-1.3.1.tar.gz tmp/xopt-1.4.0.tar.gz --markdown 20230504/x/xopt/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-04 00:37:14] INFO root fetch - processPackages [tigerasi]: executing diffoscope
+[2023-05-04 00:37:14] INFO root fetch - processPackages [tigerasi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TigerASI-0.0.8.tar.gz tmp/TigerASI-0.0.9.tar.gz --markdown 20230504/t/tigerasi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 00:37:14] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2023-05-04 00:37:14] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-commons-0.0.8.tar.gz tmp/python3-commons-0.0.9.tar.gz --markdown 20230504/p/python3-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 00:37:14] INFO root fetch - main [MainThread]: End processing [fastapi-sql]: success
+[2023-05-04 00:37:15] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2023-05-04 00:37:15] INFO root fetch - main [MainThread]: End processing [tigerasi]: success
+[2023-05-04 00:37:15] INFO root fetch - main [MainThread]: End processing [xopt]: success
+[2023-05-04 00:37:18] INFO root fetch - main [MainThread]: End processing [pibble]: success
+[2023-05-04 00:37:42] INFO root fetch - main [MainThread]: End processing [audiostretchy]: success
+[2023-05-04 00:37:42] INFO root fetch - main [MainThread]: Store serial: [17963567]
