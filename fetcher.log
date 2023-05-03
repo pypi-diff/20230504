@@ -806,3 +806,60 @@
 [2023-05-04 01:15:03] INFO root fetch - main [MainThread]: End processing [havoc-clustering]: success
 [2023-05-04 01:15:06] INFO root fetch - main [MainThread]: End processing [Rare]: success
 [2023-05-04 01:15:06] INFO root fetch - main [MainThread]: Store serial: [17963849]
+[2023-05-04 01:20:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17963849]
+[2023-05-04 01:20:15] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-04 01:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arc-cli
+[2023-05-04 01:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terminal-tracker
+[2023-05-04 01:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sports2d
+[2023-05-04 01:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-review
+[2023-05-04 01:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycmsgen
+[2023-05-04 01:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tinyscript
+[2023-05-04 01:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlfluff-templater-dbt
+[2023-05-04 01:20:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlfluff
+[2023-05-04 01:20:15] INFO root fetch - processPackages [pycmsgen]: New version: [6.0.3] Old Version: [6.0.2]
+[2023-05-04 01:20:15] INFO root fetch - processPackages [sports2d]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-04 01:20:15] INFO root fetch - processPackages [terminal-tracker]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-05-04 01:20:15] INFO root fetch - processPackages [gpt-review]: New version: [0.4.0rc369.post1] Old Version: [0.4.0rc368.post1]
+[2023-05-04 01:20:15] INFO root fetch - processPackages [sqlfluff]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-05-04 01:20:15] INFO root fetch - processPackages [arc-cli]: New version: [8.1.5] Old Version: [8.1.4a2]
+[2023-05-04 01:20:15] INFO root fetch - processPackages [tinyscript]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-04 01:20:15] INFO root fetch - processPackages [sqlfluff-templater-dbt]: New version: [2.1.0] Old Version: [2.0.7]
+[2023-05-04 01:20:15] INFO root fetch - processPackages [terminal-tracker]: Downloading https://files.pythonhosted.org/packages/94/f7/21fafdb30ca4ed88b4aeb2e929ba871d1677f52fbdd7d8cb8b9495c7092d/terminal_tracker-0.1.0.tar.gz
+[2023-05-04 01:20:15] INFO root fetch - processPackages [arc-cli]: Downloading https://files.pythonhosted.org/packages/1a/9f/6c9281bfb9bc6b6f48a98789778f6861189040a0e36ff8ecb52da693ba6d/arc_cli-8.1.4a2.tar.gz
+[2023-05-04 01:20:15] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/6e/da/93e6445b8932a3cf89e5b452be62a6b69f2a4f17ac6a0017d17c59b2b7b1/gpt-review-0.4.0rc369.post1.tar.gz
+[2023-05-04 01:20:15] INFO root fetch - processPackages [sports2d]: Downloading https://files.pythonhosted.org/packages/74/11/e8b21faac55c7da71a71bc896b78d4fc8e2f9f868220464db894ddc0680d/sports2d-0.0.1.tar.gz
+[2023-05-04 01:20:15] INFO root fetch - processPackages [sqlfluff]: Downloading https://files.pythonhosted.org/packages/06/a9/466c04ae43bc57a2f152404952d6b53f725977e8c6ada4601a25464122e8/sqlfluff-2.0.6.tar.gz
+[2023-05-04 01:20:15] INFO root fetch - processPackages [pycmsgen]: Downloading https://files.pythonhosted.org/packages/c6/92/73a3ad41363d9a0c1ae2d41a5751fdeda8a2e3ecd1ca9522f28121a4c330/pycmsgen-6.0.3.tar.gz
+[2023-05-04 01:20:15] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/45/d0/3393f08eca58519f8e94086418ba3efe9502ad4acb3cc377fe73b08f64ab/tinyscript-1.9.4.tar.gz
+[2023-05-04 01:20:15] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-04 01:20:15] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.4.0rc368.post1.tar.gz tmp/gpt-review-0.4.0rc369.post1.tar.gz --markdown 20230504/g/gpt-review/0.4.0rc368.post1-0.4.0rc369.post1/diff.md --exclude *.pyd
+[2023-05-04 01:20:15] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Downloading https://files.pythonhosted.org/packages/6f/f1/7340eac083922e7571788fb71675eac9eda737d5137e542b8cb451f50d12/sqlfluff-templater-dbt-2.0.7.tar.gz
+[2023-05-04 01:20:15] INFO root fetch - processPackages [pycmsgen]: executing diffoscope
+[2023-05-04 01:20:15] INFO root fetch - processPackages [pycmsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycmsgen-6.0.2.tar.gz tmp/pycmsgen-6.0.3.tar.gz --markdown 20230504/p/pycmsgen/6.0.2-6.0.3/diff.md --exclude *.pyd
+[2023-05-04 01:20:15] INFO root fetch - processPackages [arc-cli]: Downloading https://files.pythonhosted.org/packages/ba/09/48a0f305554b56fb11f483d62890ecde8d6999d802c7f4002bd616e3e3fc/arc_cli-8.1.5.tar.gz
+[2023-05-04 01:20:15] INFO root fetch - processPackages [sports2d]: Downloading https://files.pythonhosted.org/packages/a6/49/fec07d2f87ce53b0a32231b6d9256011edc7343cf3c7d97ccedf59bee9df/sports2d-0.0.2.tar.gz
+[2023-05-04 01:20:15] INFO root fetch - processPackages [terminal-tracker]: Downloading https://files.pythonhosted.org/packages/68/5d/25ee10f90d34c8d0378282b5f216b010580a49a7cd7602e0e5ed7c4cc040/terminal_tracker-1.0.0.tar.gz
+[2023-05-04 01:20:15] INFO root fetch - processPackages [terminal-tracker]: executing diffoscope
+[2023-05-04 01:20:15] INFO root fetch - processPackages [terminal-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_tracker-0.1.0.tar.gz tmp/terminal_tracker-1.0.0.tar.gz --markdown 20230504/t/terminal-tracker/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-04 01:20:15] INFO root fetch - processPackages [arc-cli]: executing diffoscope
+[2023-05-04 01:20:15] INFO root fetch - processPackages [arc-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arc_cli-8.1.4a2.tar.gz tmp/arc_cli-8.1.5.tar.gz --markdown 20230504/a/arc-cli/8.1.4a2-8.1.5/diff.md --exclude *.pyd
+[2023-05-04 01:20:15] INFO root fetch - processPackages [sqlfluff]: Downloading https://files.pythonhosted.org/packages/cf/69/e4b86c721610f99cfed1aa1f7d1ef197da17e4d36fbb69ba3b2981ca0067/sqlfluff-2.0.7.tar.gz
+[2023-05-04 01:20:15] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/a4/92/f1a76d3caa9d4c9a8eea462e7b0ebce18a722fc05ccdba197c2ce598db2b/tinyscript-1.9.5.tar.gz
+[2023-05-04 01:20:16] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Downloading https://files.pythonhosted.org/packages/69/16/7944d66fc2c4a716476487114b2fe4afd0c8b1a07cab32ff2448d40531eb/sqlfluff-templater-dbt-2.1.0.tar.gz
+[2023-05-04 01:20:16] INFO root fetch - processPackages [sqlfluff]: executing diffoscope
+[2023-05-04 01:20:16] INFO root fetch - processPackages [sqlfluff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlfluff-2.0.6.tar.gz tmp/sqlfluff-2.0.7.tar.gz --markdown 20230504/s/sqlfluff/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-05-04 01:20:16] INFO root fetch - processPackages [sqlfluff-templater-dbt]: executing diffoscope
+[2023-05-04 01:20:16] INFO root fetch - processPackages [sqlfluff-templater-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlfluff-templater-dbt-2.0.7.tar.gz tmp/sqlfluff-templater-dbt-2.1.0.tar.gz --markdown 20230504/s/sqlfluff-templater-dbt/2.0.7-2.1.0/diff.md --exclude *.pyd
+[2023-05-04 01:20:16] INFO root fetch - processPackages [sports2d]: executing diffoscope
+[2023-05-04 01:20:16] INFO root fetch - processPackages [sports2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sports2d-0.0.1.tar.gz tmp/sports2d-0.0.2.tar.gz --markdown 20230504/s/sports2d/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-04 01:20:16] INFO root fetch - processPackages [tinyscript]: executing diffoscope
+[2023-05-04 01:20:16] INFO root fetch - processPackages [tinyscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyscript-1.9.4.tar.gz tmp/tinyscript-1.9.5.tar.gz --markdown 20230504/t/tinyscript/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-04 01:20:16] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-04 01:20:17] INFO root fetch - main [MainThread]: End processing [terminal-tracker]: success
+[2023-05-04 01:20:17] INFO root fetch - main [MainThread]: End processing [sqlfluff-templater-dbt]: success
+[2023-05-04 01:20:17] INFO root fetch - main [MainThread]: End processing [sports2d]: success
+[2023-05-04 01:20:17] INFO root fetch - main [MainThread]: End processing [tinyscript]: success
+[2023-05-04 01:20:18] INFO root fetch - main [MainThread]: End processing [arc-cli]: success
+[2023-05-04 01:20:19] INFO root fetch - main [MainThread]: End processing [pycmsgen]: success
+[2023-05-04 01:20:20] INFO root fetch - main [MainThread]: End processing [sqlfluff]: success
+[2023-05-04 01:20:20] INFO root fetch - main [MainThread]: Store serial: [17963873]
