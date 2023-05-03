@@ -146,3 +146,78 @@
 [2023-05-04 00:14:26] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
 [2023-05-04 00:14:28] INFO root fetch - main [MainThread]: End processing [django-autotask]: success
 [2023-05-04 00:14:28] INFO root fetch - main [MainThread]: Store serial: [17963453]
+[2023-05-04 00:19:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17963453]
+[2023-05-04 00:19:38] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-04 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: model-saver2
+[2023-05-04 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: git-smartmv
+[2023-05-04 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fusion-engine-client
+[2023-05-04 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: model-saver2
+[2023-05-04 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyMouseKey
+[2023-05-04 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uw-saml
+[2023-05-04 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi
+[2023-05-04 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wizata-dsapi
+[2023-05-04 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: np-session
+[2023-05-04 00:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ASCE
+[2023-05-04 00:19:38] INFO root fetch - processPackages [model-saver2]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-04 00:19:38] INFO root fetch - processPackages [git-smartmv]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-04 00:19:38] INFO root fetch - processPackages [fusion-engine-client]: New version: [1.18.1rc3] Old Version: [1.18.1rc2]
+[2023-05-04 00:19:38] INFO root fetch - processPackages [ASCE]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-04 00:19:38] INFO root fetch - processPackages [uw-saml]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-04 00:19:38] INFO root fetch - processPackages [model-saver2]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-04 00:19:38] INFO root fetch - processPackages [PyMouseKey]: New version: [1.0.1] Old Version: [1.0]
+[2023-05-04 00:19:38] INFO root fetch - processPackages [np-session]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-04 00:19:38] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 00:19:38] INFO root fetch - processPackages [pulumi]: New version: [3.9.1] Old Version: [3.9.0a1627480147]
+[2023-05-04 00:19:38] INFO root fetch - processPackages [uw-saml]: Downloading https://files.pythonhosted.org/packages/75/72/97c4fc595529fb8bd87616f6338e664f9b37a5b8bd88f45f6b877421c845/uw_saml-1.2.2.tar.gz
+[2023-05-04 00:19:38] INFO root fetch - processPackages [model-saver2]: Downloading https://files.pythonhosted.org/packages/c3/e7/e8a1e71880b7e974699399b4d54dcaabfa883dba947e94c5fcf85b4f75e6/model_saver2-0.8.0.tar.gz
+[2023-05-04 00:19:38] INFO root fetch - processPackages [model-saver2]: Downloading https://files.pythonhosted.org/packages/c3/e7/e8a1e71880b7e974699399b4d54dcaabfa883dba947e94c5fcf85b4f75e6/model_saver2-0.8.0.tar.gz
+[2023-05-04 00:19:38] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/70/a2/6608780c91d95bdf2a4ac402e9ec1b9195713a44989db6e6e87b841cc677/np-session-0.6.1.tar.gz
+[2023-05-04 00:19:38] INFO root fetch - processPackages [PyMouseKey]: Downloading https://files.pythonhosted.org/packages/79/24/e04b8db8703e33d71cf9bd00b5b6e4e91b555d1a2fcd3a739707a04b5095/PyMouseKey-1.0-py3-none-any.whl
+[2023-05-04 00:19:38] INFO root fetch - processPackages [ASCE]: Downloading https://files.pythonhosted.org/packages/10/be/598dc3b34a344399184b17d5dfca323ca811f0eae1653fc1b9095637502f/ASCE-0.0.7.tar.gz
+[2023-05-04 00:19:38] INFO root fetch - processPackages [fusion-engine-client]: Downloading https://files.pythonhosted.org/packages/37/6f/ac557fe4d3baef976fe647f6926574dbdf01c91aecd48e569d830278473e/fusion-engine-client-1.18.1rc2.tar.gz
+[2023-05-04 00:19:38] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/86/e81db20648ca7b8fbc7fb663e6795bc30d94e7f71c35856cda04bb48fb84/pulumi-3.9.0a1627480147-py2.py3-none-any.whl
+[2023-05-04 00:19:38] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/57/07/ca5a89b7a2142120c33b178499a1bbb8a61eb50a14c7fb6bc872f7becf22/wizata-dsapi-0.1.8.tar.gz
+[2023-05-04 00:19:38] INFO root fetch - processPackages [git-smartmv]: Downloading https://files.pythonhosted.org/packages/1b/ab/a3e2f80e014c704465b406b44537c79d56c014d58b4ff8d304bf0bb4af61/git-smartmv-1.0.2.tar.gz
+[2023-05-04 00:19:38] INFO root fetch - processPackages [uw-saml]: executing diffoscope
+[2023-05-04 00:19:38] INFO root fetch - processPackages [uw-saml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uw_saml-1.2.1.tar.gz tmp/uw_saml-1.2.2.tar.gz --markdown 20230504/u/uw-saml/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-04 00:19:38] INFO root fetch - processPackages [np-session]: executing diffoscope
+[2023-05-04 00:19:38] INFO root fetch - processPackages [np-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-session-0.6.0.tar.gz tmp/np-session-0.6.1.tar.gz --markdown 20230504/n/np-session/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-04 00:19:38] INFO root fetch - processPackages [ASCE]: executing diffoscope
+[2023-05-04 00:19:38] INFO root fetch - processPackages [ASCE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ASCE-0.0.6.tar.gz tmp/ASCE-0.0.7.tar.gz --markdown 20230504/A/ASCE/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-04 00:19:38] INFO root fetch - processPackages [git-smartmv]: executing diffoscope
+[2023-05-04 00:19:38] INFO root fetch - processPackages [git-smartmv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-smartmv-1.0.1.tar.gz tmp/git-smartmv-1.0.2.tar.gz --markdown 20230504/g/git-smartmv/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-04 00:19:38] INFO root fetch - processPackages [model-saver2]: Downloading https://files.pythonhosted.org/packages/79/9c/5322da3ead27344053ba403dc8a731dc99a1da83075b3688a663feb394fc/model_saver2-0.9.0.tar.gz
+[2023-05-04 00:19:38] INFO root fetch - processPackages [model-saver2]: Downloading https://files.pythonhosted.org/packages/79/9c/5322da3ead27344053ba403dc8a731dc99a1da83075b3688a663feb394fc/model_saver2-0.9.0.tar.gz
+[2023-05-04 00:19:38] INFO root fetch - processPackages [PyMouseKey]: Downloading https://files.pythonhosted.org/packages/3f/55/837f836072ba8ea4cdc4c5799a47575fd37e450f5e4b054497411d07317f/PyMouseKey-1.0.1.tar.gz
+[2023-05-04 00:19:38] INFO root fetch - processPackages [fusion-engine-client]: Downloading https://files.pythonhosted.org/packages/67/e5/dacdb772064dc012d18fff2c362ba804e74809dccfee147d1a99cc7ae844/fusion-engine-client-1.18.1rc3.tar.gz
+[2023-05-04 00:19:38] INFO root fetch - processPackages [model-saver2]: executing diffoscope
+[2023-05-04 00:19:38] INFO root fetch - processPackages [model-saver2]: executing diffoscope
+[2023-05-04 00:19:38] INFO root fetch - processPackages [model-saver2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_saver2-0.8.0.tar.gz tmp/model_saver2-0.9.0.tar.gz --markdown 20230504/m/model-saver2/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 00:19:38] INFO root fetch - processPackages [model-saver2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_saver2-0.8.0.tar.gz tmp/model_saver2-0.9.0.tar.gz --markdown 20230504/m/model-saver2/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 00:19:38] INFO root fetch - processPackages [PyMouseKey]: executing diffoscope
+[2023-05-04 00:19:38] INFO root fetch - processPackages [PyMouseKey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMouseKey-1.0-py3-none-any.whl.zip tmp/PyMouseKey-1.0.1.tar.gz --markdown 20230504/P/PyMouseKey/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 00:19:38] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3d/8e/b370f42ec041b3e000ef226f2c1de276972a583145df6090c0be3bd6941d/wizata-dsapi-0.1.9.tar.gz
+[2023-05-04 00:19:38] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/ba/a5/2a7580020b4c5bf7a2141ea9a534e88935a103da4dff30a205e4afdfb95d/pulumi-3.9.1-py2.py3-none-any.whl
+[2023-05-04 00:19:38] INFO root fetch - processPackages [fusion-engine-client]: executing diffoscope
+[2023-05-04 00:19:38] INFO root fetch - processPackages [fusion-engine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion-engine-client-1.18.1rc2.tar.gz tmp/fusion-engine-client-1.18.1rc3.tar.gz --markdown 20230504/f/fusion-engine-client/1.18.1rc2-1.18.1rc3/diff.md --exclude *.pyd
+[2023-05-04 00:19:39] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-05-04 00:19:39] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230504/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 00:19:39] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2023-05-04 00:19:39] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.9.0a1627480147-py2.py3-none-any.whl.zip tmp/pulumi-3.9.1-py2.py3-none-any.whl.zip --markdown 20230504/p/pulumi/3.9.0a1627480147-3.9.1/diff.md --exclude *.pyd
+[2023-05-04 00:19:40] INFO root fetch - processPackages [ASCE]: Start processing: pyopp
+[2023-05-04 00:19:40] INFO root fetch - main [MainThread]: End processing [ASCE]: success
+[2023-05-04 00:19:40] INFO root fetch - processPackages [pyopp]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-04 00:19:40] INFO root fetch - main [MainThread]: End processing [uw-saml]: success
+[2023-05-04 00:19:40] INFO root fetch - main [MainThread]: End processing [PyMouseKey]: success
+[2023-05-04 00:19:40] INFO root fetch - main [MainThread]: End processing [model-saver2]: success
+[2023-05-04 00:19:40] INFO root fetch - main [MainThread]: End processing [git-smartmv]: success
+[2023-05-04 00:19:40] INFO root fetch - processPackages [pyopp]: Downloading https://files.pythonhosted.org/packages/41/77/a3df6d9264642bd79f5ac81a573afb7ed4e823555cdd12b5fe67e0c6727b/pyopp-0.0.9.tar.gz
+[2023-05-04 00:19:40] INFO root fetch - main [MainThread]: End processing [model-saver2]: success
+[2023-05-04 00:19:40] INFO root fetch - processPackages [pyopp]: executing diffoscope
+[2023-05-04 00:19:40] INFO root fetch - processPackages [pyopp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopp-0.0.7.tar.gz tmp/pyopp-0.0.9.tar.gz --markdown 20230504/p/pyopp/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 00:19:40] INFO root fetch - main [MainThread]: End processing [fusion-engine-client]: success
+[2023-05-04 00:19:40] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-05-04 00:19:41] INFO root fetch - main [MainThread]: End processing [pyopp]: success
+[2023-05-04 00:19:42] INFO root fetch - main [MainThread]: End processing [np-session]: success
+[2023-05-04 00:20:08] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2023-05-04 00:20:08] INFO root fetch - main [MainThread]: Store serial: [17963483]
