@@ -698,3 +698,59 @@
 [2023-05-04 01:03:45] INFO root fetch - main [MainThread]: End processing [tmnt]: success
 [2023-05-04 01:04:38] INFO root fetch - main [MainThread]: End processing [scientisttools]: success
 [2023-05-04 01:04:38] INFO root fetch - main [MainThread]: Store serial: [17963736]
+[2023-05-04 01:09:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17963736]
+[2023-05-04 01:09:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-04 01:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyvium
+[2023-05-04 01:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: always-updates
+[2023-05-04 01:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syscolouringkitsV2
+[2023-05-04 01:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crosshair-tool
+[2023-05-04 01:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zrb
+[2023-05-04 01:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mo-sql-parsing
+[2023-05-04 01:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ryanair-py
+[2023-05-04 01:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-04 01:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: smartsheet-pydantic
+[2023-05-04 01:09:48] INFO root fetch - processPackages [pyvium]: New version: [0.1.5b0] Old Version: [0.1.4b0]
+[2023-05-04 01:09:48] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.300] Old Version: [0.3.299]
+[2023-05-04 01:09:48] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 01:09:48] WARNING root fetch - processPackages [syscolouringkitsV2]: Skipping, unable to determine old version
+[2023-05-04 01:09:48] INFO root fetch - processPackages [ryanair-py]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-04 01:09:48] INFO root fetch - main [MainThread]: End processing [syscolouringkitsV2] error
+[2023-05-04 01:09:48] INFO root fetch - processPackages [crosshair-tool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 01:09:48] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-04 01:09:48] INFO root fetch - processPackages [smartsheet-pydantic]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-04 01:09:48] INFO root fetch - processPackages [mo-sql-parsing]: New version: [9.377.23123] Old Version: [9.376.23121]
+[2023-05-04 01:09:48] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-04 01:09:48] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.299.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.300.tar.gz --markdown 20230504/p/pepperize.cdk-ses-smtp-credentials/0.3.299-0.3.300/diff.md --exclude *.pyd
+[2023-05-04 01:09:48] INFO root fetch - processPackages [ryanair-py]: executing diffoscope
+[2023-05-04 01:09:48] INFO root fetch - processPackages [ryanair-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryanair-py-2.2.0.tar.gz tmp/ryanair-py-2.3.0.tar.gz --markdown 20230504/r/ryanair-py/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-04 01:09:48] INFO root fetch - processPackages [pyvium]: Downloading https://files.pythonhosted.org/packages/96/ba/823b25c7f0057e63835361d43e6ccf72e8d9e277e9f462e271ce2e4779d2/pyvium-0.1.4b0.tar.gz
+[2023-05-04 01:09:48] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/30/24/7a33b243824d090473327938a5d9cd4148889b927653bd1df45802c27649/zrb-0.0.8.tar.gz
+[2023-05-04 01:09:48] INFO root fetch - processPackages [crosshair-tool]: Downloading https://files.pythonhosted.org/packages/e2/69/f8afff0d3a97ac043e0b0fd1cfae8e1ebffbdb9283427228154548f2a8d6/crosshair-tool-0.0.8.tar.gz
+[2023-05-04 01:09:48] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-05-04 01:09:48] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/84/17/9dd21e93f88add0901d8f70772e9e6dd67d589ce630f5ecf8e63575d3b43/mo_sql_parsing-9.377.23123-py2.py3-none-any.whl
+[2023-05-04 01:09:48] INFO root fetch - processPackages [smartsheet-pydantic]: Downloading https://files.pythonhosted.org/packages/be/e6/40b72444a1ec3a6e0ab5a71946ab23e864030bc848f9e9526e3935514b99/smartsheet-pydantic-1.4.3.tar.gz
+[2023-05-04 01:09:48] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-05-04 01:09:49] INFO root fetch - processPackages [mo-sql-parsing]: executing diffoscope
+[2023-05-04 01:09:49] INFO root fetch - processPackages [mo-sql-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql_parsing-9.376.23121-py2.py3-none-any.whl.zip tmp/mo_sql_parsing-9.377.23123-py2.py3-none-any.whl.zip --markdown 20230504/m/mo-sql-parsing/9.376.23121-9.377.23123/diff.md --exclude *.pyd
+[2023-05-04 01:09:49] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/8d/80/885cb50dd492ad011338deeabb6f07312d2c3da55917c9e243dd40e7a274/zrb-0.0.9.tar.gz
+[2023-05-04 01:09:49] INFO root fetch - processPackages [crosshair-tool]: Downloading https://files.pythonhosted.org/packages/b0/91/8e2f0a03b94c8b796f75c1f7afe6c787ca8347b445fcbfa23d290f98aa05/crosshair-tool-0.0.9.tar.gz
+[2023-05-04 01:09:49] INFO root fetch - processPackages [smartsheet-pydantic]: executing diffoscope
+[2023-05-04 01:09:49] INFO root fetch - processPackages [smartsheet-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartsheet-pydantic-1.4.2.tar.gz tmp/smartsheet-pydantic-1.4.3.tar.gz --markdown 20230504/s/smartsheet-pydantic/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-04 01:09:49] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-04 01:09:49] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230504/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-04 01:09:49] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-05-04 01:09:49] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230504/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 01:09:49] INFO root fetch - processPackages [crosshair-tool]: executing diffoscope
+[2023-05-04 01:09:49] INFO root fetch - processPackages [crosshair-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosshair-tool-0.0.8.tar.gz tmp/crosshair-tool-0.0.9.tar.gz --markdown 20230504/c/crosshair-tool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 01:09:49] INFO root fetch - processPackages [pyvium]: Downloading https://files.pythonhosted.org/packages/76/39/28f34dd79f863121ee347cc3bffadf9e6ad274837d210974c48cc0d54279/pyvium-0.1.5b0.tar.gz
+[2023-05-04 01:09:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-04 01:09:50] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-04 01:09:50] INFO root fetch - main [MainThread]: End processing [mo-sql-parsing]: success
+[2023-05-04 01:09:50] INFO root fetch - main [MainThread]: End processing [smartsheet-pydantic]: success
+[2023-05-04 01:09:50] INFO root fetch - processPackages [pyvium]: executing diffoscope
+[2023-05-04 01:09:50] INFO root fetch - processPackages [pyvium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvium-0.1.4b0.tar.gz tmp/pyvium-0.1.5b0.tar.gz --markdown 20230504/p/pyvium/0.1.4b0-0.1.5b0/diff.md --exclude *.pyd
+[2023-05-04 01:09:50] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-05-04 01:09:50] INFO root fetch - main [MainThread]: End processing [crosshair-tool]: success
+[2023-05-04 01:09:52] INFO root fetch - main [MainThread]: End processing [pyvium]: success
+[2023-05-04 01:09:52] INFO root fetch - main [MainThread]: End processing [ryanair-py]: success
+[2023-05-04 01:09:52] INFO root fetch - main [MainThread]: Store serial: [17963825]
