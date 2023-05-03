@@ -445,3 +445,55 @@
 [2023-05-04 00:42:53] INFO root fetch - main [MainThread]: End processing [molfeat]: success
 [2023-05-04 00:42:55] INFO root fetch - main [MainThread]: End processing [urllib3]: success
 [2023-05-04 00:42:55] INFO root fetch - main [MainThread]: Store serial: [17963609]
+[2023-05-04 00:47:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17963609]
+[2023-05-04 00:48:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tigerasi
+[2023-05-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: requests-aws4auth
+[2023-05-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: senscritique
+[2023-05-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mawes
+[2023-05-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lava-nc
+[2023-05-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-shelly-usabilityfixserialization
+[2023-05-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-roborock
+[2023-05-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-review
+[2023-05-04 00:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yerbamate
+[2023-05-04 00:48:04] INFO root fetch - processPackages [lava-nc]: New version: [0.7.0.post2] Old Version: [0.7.0.post1]
+[2023-05-04 00:48:04] INFO root fetch - processPackages [certora-cli-alpha-shelly-usabilityfixserialization]: New version: [20230503.22.45.609797] Old Version: [20230503.22.28.606782]
+[2023-05-04 00:48:04] INFO root fetch - processPackages [tigerasi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 00:48:04] WARNING root fetch - processPackages [mawes]: Skipping, unable to determine old version
+[2023-05-04 00:48:04] INFO root fetch - main [MainThread]: End processing [mawes] error
+[2023-05-04 00:48:04] INFO root fetch - processPackages [yerbamate]: New version: [0.9.23] Old Version: [0.9.22]
+[2023-05-04 00:48:04] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-04 00:48:04] INFO root fetch - processPackages [requests-aws4auth]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-04 00:48:04] INFO root fetch - processPackages [gpt-review]: New version: [0.4.0rc362.post1] Old Version: [0.3.2rc355.post1]
+[2023-05-04 00:48:04] INFO root fetch - processPackages [senscritique]: New version: [0.5.4] Old Version: [0.5.2]
+[2023-05-04 00:48:04] INFO root fetch - processPackages [yerbamate]: executing diffoscope
+[2023-05-04 00:48:04] INFO root fetch - processPackages [yerbamate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yerbamate-0.9.22.tar.gz tmp/yerbamate-0.9.23.tar.gz --markdown 20230504/y/yerbamate/0.9.22-0.9.23/diff.md --exclude *.pyd
+[2023-05-04 00:48:04] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-04 00:48:04] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230504/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-04 00:48:04] INFO root fetch - processPackages [requests-aws4auth]: Downloading https://files.pythonhosted.org/packages/c4/ed/a83b10ae7f55f01b8aac0d57f95df20f4c62669b11931762c5e9e82f4655/requests-aws4auth-1.2.2.tar.gz
+[2023-05-04 00:48:04] INFO root fetch - processPackages [certora-cli-alpha-shelly-usabilityfixserialization]: Downloading https://files.pythonhosted.org/packages/35/0f/acc260682a1bafd34e53fff79b17be7117aca7f1dc3d1ce57cf8a16a9d1b/certora-cli-alpha-shelly-usabilityfixserialization-20230503.22.28.606782.tar.gz
+[2023-05-04 00:48:04] WARNING root fetch - processPackages [certora-cli-alpha-shelly-usabilityfixserialization]: Skipping package: exceeds size limit 38378777>=10485760
+[2023-05-04 00:48:04] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-usabilityfixserialization] error
+[2023-05-04 00:48:04] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/4d/f0/cd51063689edb8f6ce810c10a43193e385f03931fd1ae8ee2d73b11c231d/gpt-review-0.4.0rc362.post1.tar.gz
+[2023-05-04 00:48:04] INFO root fetch - processPackages [lava-nc]: Downloading https://files.pythonhosted.org/packages/a3/cb/b3d4e06a325707215fb1aaedb5201231934392934e947455d7d0b9a8bc06/lava_nc-0.7.0.post2.tar.gz
+[2023-05-04 00:48:04] INFO root fetch - processPackages [senscritique]: Downloading https://files.pythonhosted.org/packages/5f/45/7b419418fc8c1fdf0d7d53aac62df344bf5588a1446c81443ffcac84bf94/senscritique-0.5.2.tar.gz
+[2023-05-04 00:48:04] INFO root fetch - processPackages [tigerasi]: executing diffoscope
+[2023-05-04 00:48:04] INFO root fetch - processPackages [tigerasi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TigerASI-0.0.8.tar.gz tmp/TigerASI-0.0.9.tar.gz --markdown 20230504/t/tigerasi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 00:48:04] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-04 00:48:04] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.3.2rc355.post1.tar.gz tmp/gpt-review-0.4.0rc362.post1.tar.gz --markdown 20230504/g/gpt-review/0.3.2rc355.post1-0.4.0rc362.post1/diff.md --exclude *.pyd
+[2023-05-04 00:48:04] INFO root fetch - processPackages [requests-aws4auth]: Downloading https://files.pythonhosted.org/packages/31/d6/f402a5ac87c6a96f52c924550985bbd3f3c32a45c9c0b3057a0d96d30897/requests-aws4auth-1.2.3.tar.gz
+[2023-05-04 00:48:04] INFO root fetch - processPackages [senscritique]: Downloading https://files.pythonhosted.org/packages/65/a1/b665f1bd47328fbcfbcc4b6f453cc02d0eabe4a9f0b3269a537e1ebf8196/senscritique-0.5.4.tar.gz
+[2023-05-04 00:48:04] INFO root fetch - processPackages [requests-aws4auth]: executing diffoscope
+[2023-05-04 00:48:04] INFO root fetch - processPackages [requests-aws4auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests-aws4auth-1.2.2.tar.gz tmp/requests-aws4auth-1.2.3.tar.gz --markdown 20230504/r/requests-aws4auth/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-04 00:48:04] INFO root fetch - processPackages [senscritique]: executing diffoscope
+[2023-05-04 00:48:04] INFO root fetch - processPackages [senscritique]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/senscritique-0.5.2.tar.gz tmp/senscritique-0.5.4.tar.gz --markdown 20230504/s/senscritique/0.5.2-0.5.4/diff.md --exclude *.pyd
+[2023-05-04 00:48:05] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-04 00:48:05] INFO root fetch - main [MainThread]: End processing [tigerasi]: success
+[2023-05-04 00:48:05] INFO root fetch - main [MainThread]: End processing [yerbamate]: success
+[2023-05-04 00:48:05] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-04 00:48:06] INFO root fetch - main [MainThread]: End processing [senscritique]: success
+[2023-05-04 00:48:06] INFO root fetch - processPackages [lava-nc]: executing diffoscope
+[2023-05-04 00:48:06] INFO root fetch - processPackages [lava-nc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lava_nc-0.7.0.post1.tar.gz tmp/lava_nc-0.7.0.post2.tar.gz --markdown 20230504/l/lava-nc/0.7.0.post1-0.7.0.post2/diff.md --exclude *.pyd
+[2023-05-04 00:48:06] INFO root fetch - main [MainThread]: End processing [requests-aws4auth]: success
+[2023-05-04 00:48:09] INFO root fetch - main [MainThread]: End processing [lava-nc]: success
+[2023-05-04 00:48:09] INFO root fetch - main [MainThread]: Store serial: [17963640]
