@@ -548,3 +548,46 @@
 [2023-05-04 00:53:20] INFO root fetch - main [MainThread]: End processing [mpservice]: success
 [2023-05-04 00:53:20] INFO root fetch - main [MainThread]: End processing [stats-can]: success
 [2023-05-04 00:53:20] INFO root fetch - main [MainThread]: Store serial: [17963666]
+[2023-05-04 00:58:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17963666]
+[2023-05-04 00:58:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-04 00:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aacrgenie
+[2023-05-04 00:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysqa
+[2023-05-04 00:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: starkbank
+[2023-05-04 00:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezcode
+[2023-05-04 00:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: serial-packets
+[2023-05-04 00:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt-review
+[2023-05-04 00:58:29] INFO root fetch - processPackages [gpt-review]: New version: [0.4.0rc364.post1] Old Version: [0.4.0rc363.post1]
+[2023-05-04 00:58:29] INFO root fetch - processPackages [aacrgenie]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-05-04 00:58:29] INFO root fetch - processPackages [starkbank]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-04 00:58:29] INFO root fetch - processPackages [ezcode]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 00:58:29] INFO root fetch - processPackages [serial-packets]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-04 00:58:29] INFO root fetch - processPackages [pysqa]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 00:58:29] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/f4/97/7282c78c3d38a55a8c5beaa86156a52037296c6ba08f12abe5fb4473c881/gpt-review-0.4.0rc363.post1.tar.gz
+[2023-05-04 00:58:29] INFO root fetch - processPackages [pysqa]: executing diffoscope
+[2023-05-04 00:58:29] INFO root fetch - processPackages [pysqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqa-0.0.8.tar.gz tmp/pysqa-0.0.9.tar.gz --markdown 20230504/p/pysqa/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 00:58:29] INFO root fetch - processPackages [starkbank]: Downloading https://files.pythonhosted.org/packages/97/75/4c05ac3ee0878c701d59cfc743eb6852659507ae59a1f134a9055ed81a4c/starkbank-2.8.0.tar.gz
+[2023-05-04 00:58:29] INFO root fetch - processPackages [serial-packets]: Downloading https://files.pythonhosted.org/packages/d1/bf/66a63592afcc5c31f64f949a73ab8c4f44be2aa6bd30f6e8d15b80f11c6e/serial_packets-0.0.1.tar.gz
+[2023-05-04 00:58:29] INFO root fetch - processPackages [aacrgenie]: Downloading https://files.pythonhosted.org/packages/19/fa/9ca9a4de0227ed3c3f80d23c7265ea0360752bbe1186a1827bf15df7d102/aacrgenie-9.0.0.tar.gz
+[2023-05-04 00:58:29] INFO root fetch - processPackages [ezcode]: Downloading https://files.pythonhosted.org/packages/8f/37/509189212819cbc50746176f6c37252d17301172674e70c7e8de7377b0ed/ezcode-1.0.8.tar.gz
+[2023-05-04 00:58:29] INFO root fetch - processPackages [serial-packets]: Downloading https://files.pythonhosted.org/packages/f1/3b/88411aa2fd6cb226e7d86dd09fc801193365c770fae3354e3c669eb9f5b0/serial_packets-0.0.2.tar.gz
+[2023-05-04 00:58:29] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/8e/ba/755ea991302b0d886e39d7a609fabe0c5311b45a5db5e96cd4b93328789b/gpt-review-0.4.0rc364.post1.tar.gz
+[2023-05-04 00:58:29] INFO root fetch - processPackages [serial-packets]: executing diffoscope
+[2023-05-04 00:58:29] INFO root fetch - processPackages [serial-packets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serial_packets-0.0.1.tar.gz tmp/serial_packets-0.0.2.tar.gz --markdown 20230504/s/serial-packets/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-04 00:58:29] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-04 00:58:29] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.4.0rc363.post1.tar.gz tmp/gpt-review-0.4.0rc364.post1.tar.gz --markdown 20230504/g/gpt-review/0.4.0rc363.post1-0.4.0rc364.post1/diff.md --exclude *.pyd
+[2023-05-04 00:58:29] INFO root fetch - processPackages [starkbank]: Downloading https://files.pythonhosted.org/packages/a2/71/b10d9bb56a7439d8d5e2d92270ab4840691d6b3af297bc37bbbdaa934c05/starkbank-2.9.0.tar.gz
+[2023-05-04 00:58:29] INFO root fetch - processPackages [aacrgenie]: Downloading https://files.pythonhosted.org/packages/a0/5d/8d194190e7bf83515e8672bd09d3e8d1fb1c1c0ab5af74e657302ba63d8d/aacrgenie-9.0.1.tar.gz
+[2023-05-04 00:58:29] INFO root fetch - processPackages [starkbank]: executing diffoscope
+[2023-05-04 00:58:29] INFO root fetch - processPackages [starkbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starkbank-2.8.0.tar.gz tmp/starkbank-2.9.0.tar.gz --markdown 20230504/s/starkbank/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-04 00:58:29] INFO root fetch - processPackages [aacrgenie]: executing diffoscope
+[2023-05-04 00:58:29] INFO root fetch - processPackages [aacrgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacrgenie-9.0.0.tar.gz tmp/aacrgenie-9.0.1.tar.gz --markdown 20230504/a/aacrgenie/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-05-04 00:58:29] INFO root fetch - processPackages [ezcode]: Downloading https://files.pythonhosted.org/packages/1a/aa/f47b8d3598bd2da9bcd0aeed19f8f76634f5a7ebb91f4853498b87fa7d7a/ezcode-1.0.9.tar.gz
+[2023-05-04 00:58:30] INFO root fetch - processPackages [ezcode]: executing diffoscope
+[2023-05-04 00:58:30] INFO root fetch - processPackages [ezcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezcode-1.0.8.tar.gz tmp/ezcode-1.0.9.tar.gz --markdown 20230504/e/ezcode/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 00:58:30] INFO root fetch - main [MainThread]: End processing [pysqa]: success
+[2023-05-04 00:58:30] INFO root fetch - main [MainThread]: End processing [serial-packets]: success
+[2023-05-04 00:58:30] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-04 00:58:31] INFO root fetch - main [MainThread]: End processing [aacrgenie]: success
+[2023-05-04 00:58:31] INFO root fetch - main [MainThread]: End processing [starkbank]: success
+[2023-05-04 00:58:31] INFO root fetch - main [MainThread]: End processing [ezcode]: success
+[2023-05-04 00:58:31] INFO root fetch - main [MainThread]: Store serial: [17963688]
