@@ -1,0 +1,54 @@
+[2023-05-04 00:03:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17963365]
+[2023-05-04 00:03:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-04 00:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-review
+[2023-05-04 00:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyMouseKey
+[2023-05-04 00:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botanix
+[2023-05-04 00:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-napalm-plugin
+[2023-05-04 00:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ASCE
+[2023-05-04 00:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: piccolo
+[2023-05-04 00:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idelucs
+[2023-05-04 00:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: heaserver-buckets
+[2023-05-04 00:03:59] INFO root fetch - processPackages [gpt-review]: New version: [0.3.2rc355.post1] Old Version: [0.3.2rc354.post1]
+[2023-05-04 00:03:59] WARNING root fetch - processPackages [PyMouseKey]: Skipping, unable to determine old version
+[2023-05-04 00:03:59] INFO root fetch - processPackages [ASCE]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-04 00:03:59] INFO root fetch - main [MainThread]: End processing [PyMouseKey] error
+[2023-05-04 00:03:59] INFO root fetch - processPackages [netbox-napalm-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 00:03:59] INFO root fetch - processPackages [idelucs]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-05-04 00:03:59] INFO root fetch - processPackages [botanix]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-04 00:03:59] INFO root fetch - processPackages [heaserver-buckets]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-04 00:03:59] INFO root fetch - processPackages [piccolo]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-04 00:04:00] INFO root fetch - processPackages [botanix]: Downloading https://files.pythonhosted.org/packages/9e/d7/8a52eb163b7cb671afd8c3f646ed0869bceb94ca982509de71755c90dfc0/botanix-0.2.1.tar.gz
+[2023-05-04 00:04:00] INFO root fetch - processPackages [ASCE]: Downloading https://files.pythonhosted.org/packages/e6/95/d4fb78511bcd9547a2e402981ca8c2a2da80d1173593cab4739ce5c3e23a/ASCE-0.0.5.tar.gz
+[2023-05-04 00:04:00] INFO root fetch - processPackages [netbox-napalm-plugin]: Downloading https://files.pythonhosted.org/packages/9c/32/d9af7e1b18ee05e2fc829fea9e3a4501f55c1cea6af0f97ef99842612818/netbox_napalm_plugin-0.1.1.tar.gz
+[2023-05-04 00:04:00] INFO root fetch - processPackages [idelucs]: Downloading https://files.pythonhosted.org/packages/cc/36/3c09fa5ae49d8ba76ecdb9a22a56582188bd32bd766a06aec5d35a5d6b5c/iDeLUCS-0.0.3.tar.gz
+[2023-05-04 00:04:00] INFO root fetch - processPackages [heaserver-buckets]: Downloading https://files.pythonhosted.org/packages/fc/d6/1c60f668061544352eaeadfb35ec125580ffa8f73089e46ceed609c855c3/heaserver-buckets-1.0.0a8.tar.gz
+[2023-05-04 00:04:00] INFO root fetch - processPackages [piccolo]: Downloading https://files.pythonhosted.org/packages/ce/2e/670339ba209098ad7e26363966d6f472f16037e22c57ec0998d6fc5eb2ef/piccolo-0.98.0.tar.gz
+[2023-05-04 00:04:00] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/a3/09/fdb246fd0a5d07bff5a3d7b8f72c98ce258ebad2f56dfa637f30d0b0a9ce/gpt-review-0.3.2rc355.post1.tar.gz
+[2023-05-04 00:04:00] INFO root fetch - processPackages [botanix]: Downloading https://files.pythonhosted.org/packages/e2/49/9061de8acf7932c405a39aeba8b514d48ba5225a9dbc06e622f00c38fa6f/botanix-0.2.2.tar.gz
+[2023-05-04 00:04:00] INFO root fetch - processPackages [netbox-napalm-plugin]: Downloading https://files.pythonhosted.org/packages/a1/e1/41930c46e3969a4d972485b503a297281a00c7bc686d0c21273b2710cc06/netbox_napalm_plugin-0.1.2.tar.gz
+[2023-05-04 00:04:00] INFO root fetch - processPackages [ASCE]: Downloading https://files.pythonhosted.org/packages/0b/b8/336e1834a3038fa481d312f6a6e6fc966aa8c97887215bce28454fa4c7b3/ASCE-0.0.6.tar.gz
+[2023-05-04 00:04:00] INFO root fetch - processPackages [botanix]: executing diffoscope
+[2023-05-04 00:04:00] INFO root fetch - processPackages [botanix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botanix-0.2.1.tar.gz tmp/botanix-0.2.2.tar.gz --markdown 20230504/b/botanix/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-04 00:04:00] INFO root fetch - processPackages [ASCE]: executing diffoscope
+[2023-05-04 00:04:00] INFO root fetch - processPackages [ASCE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ASCE-0.0.5.tar.gz tmp/ASCE-0.0.6.tar.gz --markdown 20230504/A/ASCE/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-04 00:04:00] INFO root fetch - processPackages [piccolo]: Downloading https://files.pythonhosted.org/packages/d1/7b/62bb2f4141cb1520764033657ecef8fc6f29e4591d23d681699dcb460558/piccolo-0.99.0.tar.gz
+[2023-05-04 00:04:00] INFO root fetch - processPackages [heaserver-buckets]: Downloading https://files.pythonhosted.org/packages/4d/60/7a6118e0c68cc6934cfbc2b25d3a6f5193ae5ab0d0c9b3787970dfd52e5c/heaserver-buckets-1.0.0a9.tar.gz
+[2023-05-04 00:04:00] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-04 00:04:00] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.3.2rc354.post1.tar.gz tmp/gpt-review-0.3.2rc355.post1.tar.gz --markdown 20230504/g/gpt-review/0.3.2rc354.post1-0.3.2rc355.post1/diff.md --exclude *.pyd
+[2023-05-04 00:04:00] INFO root fetch - processPackages [piccolo]: executing diffoscope
+[2023-05-04 00:04:00] INFO root fetch - processPackages [piccolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piccolo-0.98.0.tar.gz tmp/piccolo-0.99.0.tar.gz --markdown 20230504/p/piccolo/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-04 00:04:00] INFO root fetch - processPackages [netbox-napalm-plugin]: executing diffoscope
+[2023-05-04 00:04:00] INFO root fetch - processPackages [netbox-napalm-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_napalm_plugin-0.1.1.tar.gz tmp/netbox_napalm_plugin-0.1.2.tar.gz --markdown 20230504/n/netbox-napalm-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 00:04:00] INFO root fetch - processPackages [idelucs]: Downloading https://files.pythonhosted.org/packages/db/9f/f16497e5f5e2a3c1bb42a1b2df53e1bb8ed6ff5ef695152c30ebe6dfb5f0/idelucs-0.1.0.tar.gz
+[2023-05-04 00:04:00] INFO root fetch - processPackages [idelucs]: executing diffoscope
+[2023-05-04 00:04:00] INFO root fetch - processPackages [idelucs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iDeLUCS-0.0.3.tar.gz tmp/idelucs-0.1.0.tar.gz --markdown 20230504/i/idelucs/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-05-04 00:04:00] INFO root fetch - processPackages [heaserver-buckets]: executing diffoscope
+[2023-05-04 00:04:00] INFO root fetch - processPackages [heaserver-buckets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-buckets-1.0.0a8.tar.gz tmp/heaserver-buckets-1.0.0a9.tar.gz --markdown 20230504/h/heaserver-buckets/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-04 00:04:01] INFO root fetch - main [MainThread]: End processing [botanix]: success
+[2023-05-04 00:04:02] INFO root fetch - main [MainThread]: End processing [ASCE]: success
+[2023-05-04 00:04:02] INFO root fetch - main [MainThread]: End processing [idelucs]: success
+[2023-05-04 00:04:02] INFO root fetch - main [MainThread]: End processing [netbox-napalm-plugin]: success
+[2023-05-04 00:04:02] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-04 00:04:02] INFO root fetch - main [MainThread]: End processing [heaserver-buckets]: success
+[2023-05-04 00:04:03] INFO root fetch - main [MainThread]: End processing [piccolo]: success
+[2023-05-04 00:04:03] INFO root fetch - main [MainThread]: Store serial: [17963392]
