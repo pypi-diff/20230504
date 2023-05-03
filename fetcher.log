@@ -754,3 +754,55 @@
 [2023-05-04 01:09:52] INFO root fetch - main [MainThread]: End processing [pyvium]: success
 [2023-05-04 01:09:52] INFO root fetch - main [MainThread]: End processing [ryanair-py]: success
 [2023-05-04 01:09:52] INFO root fetch - main [MainThread]: Store serial: [17963825]
+[2023-05-04 01:14:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17963825]
+[2023-05-04 01:15:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-04 01:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotlight-dev
+[2023-05-04 01:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: balance-service
+[2023-05-04 01:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Rare
+[2023-05-04 01:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: channels-yroom
+[2023-05-04 01:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: havoc-clustering
+[2023-05-04 01:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bump-deps-index
+[2023-05-04 01:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: model-saver
+[2023-05-04 01:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-04 01:15:01] INFO root fetch - processPackages [spotlight-dev]: New version: [0.0.1b2] Old Version: [0.0.1b1]
+[2023-05-04 01:15:01] INFO root fetch - processPackages [balance-service]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 01:15:01] WARNING root fetch - processPackages [model-saver]: Skipping, unable to determine old version
+[2023-05-04 01:15:01] INFO root fetch - main [MainThread]: End processing [model-saver] error
+[2023-05-04 01:15:01] INFO root fetch - processPackages [Rare]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-04 01:15:01] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.301] Old Version: [0.3.300]
+[2023-05-04 01:15:01] INFO root fetch - processPackages [channels-yroom]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-04 01:15:01] INFO root fetch - processPackages [havoc-clustering]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-04 01:15:01] INFO root fetch - processPackages [bump-deps-index]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-04 01:15:01] INFO root fetch - processPackages [spotlight-dev]: Downloading https://files.pythonhosted.org/packages/47/91/a7baf359a12f2241877288269130f4bd3c78886ebaa95c1c5442135f43ad/spotlight-dev-0.0.1b1.tar.gz
+[2023-05-04 01:15:01] INFO root fetch - processPackages [balance-service]: Downloading https://files.pythonhosted.org/packages/72/45/43ab0e6c42b42f66c0aff49a425a032fede859e36072cb9d10889d2769ca/balance_service-0.0.8.tar.gz
+[2023-05-04 01:15:01] INFO root fetch - processPackages [channels-yroom]: Downloading https://files.pythonhosted.org/packages/63/09/8062528f95144c9f8a094c6a43758120d2c1de38120d0ee6845bfba5d6a6/channels_yroom-0.0.2.tar.gz
+[2023-05-04 01:15:01] INFO root fetch - processPackages [havoc-clustering]: Downloading https://files.pythonhosted.org/packages/06/33/d822dde63f2ad388f4a895cfc3bb851c746d40921cbff3618f959e3233af/havoc_clustering-0.0.4.tar.gz
+[2023-05-04 01:15:01] INFO root fetch - processPackages [bump-deps-index]: Downloading https://files.pythonhosted.org/packages/e1/13/f420a3794bfaacc5d8f1eeac4c6aff21ab6792bc2137f385d8c96f890890/bump_deps_index-1.4.1.tar.gz
+[2023-05-04 01:15:01] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/a2/62/9ba010e855f57de1ee39e428b742c5b4a09ae87de995aa32105e99b1b088/pepperize.cdk-ses-smtp-credentials-0.3.301.tar.gz
+[2023-05-04 01:15:01] INFO root fetch - processPackages [Rare]: executing diffoscope
+[2023-05-04 01:15:01] INFO root fetch - processPackages [Rare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Rare-1.9.4.tar.gz tmp/Rare-1.9.5.tar.gz --markdown 20230504/R/Rare/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-04 01:15:01] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-04 01:15:01] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.300.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.301.tar.gz --markdown 20230504/p/pepperize.cdk-ses-smtp-credentials/0.3.300-0.3.301/diff.md --exclude *.pyd
+[2023-05-04 01:15:01] INFO root fetch - processPackages [spotlight-dev]: Downloading https://files.pythonhosted.org/packages/bc/50/8d067e58f0e6c29d871933db06f7f1001ddd99e371ce0bb8b47339fdb700/spotlight-dev-0.0.1b2.tar.gz
+[2023-05-04 01:15:01] INFO root fetch - processPackages [channels-yroom]: Downloading https://files.pythonhosted.org/packages/21/d8/95ed3e788524f0af9fc30d5b26e3e062fc0691b2da991b18b351fd5022d1/channels_yroom-0.0.3.tar.gz
+[2023-05-04 01:15:01] INFO root fetch - processPackages [havoc-clustering]: Downloading https://files.pythonhosted.org/packages/d4/88/2c11e319e9363420c327d27201ce0bb800fc78211f51a9400eb96a648373/havoc_clustering-0.0.5.tar.gz
+[2023-05-04 01:15:01] INFO root fetch - processPackages [bump-deps-index]: Downloading https://files.pythonhosted.org/packages/07/1a/ca30393c400239234795cda5c9cc33d67b47fd0cb8faaee5a58659d22c02/bump_deps_index-1.4.2.tar.gz
+[2023-05-04 01:15:02] INFO root fetch - processPackages [balance-service]: Downloading https://files.pythonhosted.org/packages/65/3c/3b1fb42bac06b1e042e3d5a15cf61ca1ef5181a35e65180c08ae1ce208be/balance_service-0.0.9.tar.gz
+[2023-05-04 01:15:02] INFO root fetch - processPackages [spotlight-dev]: executing diffoscope
+[2023-05-04 01:15:02] INFO root fetch - processPackages [spotlight-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotlight-dev-0.0.1b1.tar.gz tmp/spotlight-dev-0.0.1b2.tar.gz --markdown 20230504/s/spotlight-dev/0.0.1b1-0.0.1b2/diff.md --exclude *.pyd
+[2023-05-04 01:15:02] INFO root fetch - processPackages [channels-yroom]: executing diffoscope
+[2023-05-04 01:15:02] INFO root fetch - processPackages [channels-yroom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/channels_yroom-0.0.2.tar.gz tmp/channels_yroom-0.0.3.tar.gz --markdown 20230504/c/channels-yroom/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-04 01:15:02] INFO root fetch - processPackages [havoc-clustering]: executing diffoscope
+[2023-05-04 01:15:02] INFO root fetch - processPackages [havoc-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/havoc_clustering-0.0.4.tar.gz tmp/havoc_clustering-0.0.5.tar.gz --markdown 20230504/h/havoc-clustering/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-04 01:15:02] INFO root fetch - processPackages [bump-deps-index]: executing diffoscope
+[2023-05-04 01:15:02] INFO root fetch - processPackages [bump-deps-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bump_deps_index-1.4.1.tar.gz tmp/bump_deps_index-1.4.2.tar.gz --markdown 20230504/b/bump-deps-index/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-04 01:15:02] INFO root fetch - processPackages [balance-service]: executing diffoscope
+[2023-05-04 01:15:02] INFO root fetch - processPackages [balance-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balance_service-0.0.8.tar.gz tmp/balance_service-0.0.9.tar.gz --markdown 20230504/b/balance-service/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 01:15:02] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-04 01:15:03] INFO root fetch - main [MainThread]: End processing [balance-service]: success
+[2023-05-04 01:15:03] INFO root fetch - main [MainThread]: End processing [channels-yroom]: success
+[2023-05-04 01:15:03] INFO root fetch - main [MainThread]: End processing [bump-deps-index]: success
+[2023-05-04 01:15:03] INFO root fetch - main [MainThread]: End processing [spotlight-dev]: success
+[2023-05-04 01:15:03] INFO root fetch - main [MainThread]: End processing [havoc-clustering]: success
+[2023-05-04 01:15:06] INFO root fetch - main [MainThread]: End processing [Rare]: success
+[2023-05-04 01:15:06] INFO root fetch - main [MainThread]: Store serial: [17963849]
