@@ -7724,3 +7724,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 07:15:52] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
 [2023-05-04 07:15:52] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
 [2023-05-04 07:15:52] INFO root fetch - main [MainThread]: Store serial: [17967626]
+[2023-05-04 07:20:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967626]
+[2023-05-04 07:21:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-04 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiotools
+[2023-05-04 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-arktools
+[2023-05-04 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-fields
+[2023-05-04 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pz-rail-flexzboost
+[2023-05-04 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jvig
+[2023-05-04 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rime-sdk
+[2023-05-04 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: whisper-ctranslate2
+[2023-05-04 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smw-music
+[2023-05-04 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openhab-pythonrule-engine
+[2023-05-04 07:21:02] INFO root fetch - processPackages [pz-rail-flexzboost]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 07:21:02] INFO root fetch - processPackages [jvig]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-04 07:21:02] INFO root fetch - processPackages [aiotools]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2023-05-04 07:21:02] INFO root fetch - processPackages [xia-fields]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-05-04 07:21:02] INFO root fetch - processPackages [nonebot-plugin-arktools]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-04 07:21:02] INFO root fetch - processPackages [smw-music]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-04 07:21:02] INFO root fetch - processPackages [whisper-ctranslate2]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-04 07:21:02] INFO root fetch - processPackages [openhab-pythonrule-engine]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-04 07:21:02] INFO root fetch - processPackages [rime-sdk]: New version: [2.1.0rc1] Old Version: [2.1.0rc0]
+[2023-05-04 07:21:02] INFO root fetch - processPackages [openhab-pythonrule-engine]: executing diffoscope
+[2023-05-04 07:21:02] INFO root fetch - processPackages [openhab-pythonrule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhab_pythonrule_engine-1.1.8.tar.gz tmp/openhab_pythonrule_engine-1.1.9.tar.gz --markdown 20230504/o/openhab-pythonrule-engine/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-04 07:21:02] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/8b/8e/7ba439131ae312fa102b90894d96e3f192458e8a2c9f1beb48fd5ad811bc/rime_sdk-2.1.0rc0.tar.gz
+[2023-05-04 07:21:02] INFO root fetch - processPackages [pz-rail-flexzboost]: Downloading https://files.pythonhosted.org/packages/00/34/a1824a841f0242c34e45cd676838d38feea06c3fbe4bfc9642dfb51d4ac3/pz-rail-flexzboost-0.0.8.tar.gz
+[2023-05-04 07:21:02] INFO root fetch - processPackages [xia-fields]: Downloading https://files.pythonhosted.org/packages/08/45/2a6209d7b1afd000a27d12df294baa85fd637bc6b432c4b0fbbf5efbe353/xia_fields-0.3.6-cp39-none-win_amd64.whl
+[2023-05-04 07:21:02] INFO root fetch - processPackages [smw-music]: Downloading https://files.pythonhosted.org/packages/c6/7c/3f57d687eb74fa8863bebebd47e56261373a23324155328f62369afa6205/smw_music-0.3.8.tar.gz
+[2023-05-04 07:21:02] INFO root fetch - processPackages [nonebot-plugin-arktools]: Downloading https://files.pythonhosted.org/packages/ac/be/e75aca05ecb3b209d713e6c4d1b12610d72c5ebb550350bcd0adba83a679/nonebot_plugin_arktools-1.1.0.tar.gz
+[2023-05-04 07:21:02] INFO root fetch - processPackages [jvig]: Downloading https://files.pythonhosted.org/packages/5f/95/702148bb8e7f562a132c583bf81fc72c014b041a3e4abfdab7e461802b58/jvig-1.0.0.tar.gz
+[2023-05-04 07:21:02] INFO root fetch - processPackages [whisper-ctranslate2]: Downloading https://files.pythonhosted.org/packages/68/bd/7d8f39016e05770d68894d957581718f1327eb697038990d825dfb306a4e/whisper-ctranslate2-0.2.3.tar.gz
+[2023-05-04 07:21:02] INFO root fetch - processPackages [aiotools]: Downloading https://files.pythonhosted.org/packages/ce/3c/a7ba3a15dcca0a26efe8ed070427f0665fd630bdaa042bbe22674758c3f4/aiotools-2.0.0a2.tar.gz
+[2023-05-04 07:21:02] INFO root fetch - processPackages [aiotools]: executing diffoscope
+[2023-05-04 07:21:02] INFO root fetch - processPackages [aiotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotools-2.0.0a1.tar.gz tmp/aiotools-2.0.0a2.tar.gz --markdown 20230504/a/aiotools/2.0.0a1-2.0.0a2/diff.md --exclude *.pyd
+[2023-05-04 07:21:02] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/f4/e7/2040e79b620bda964fb3302af57c993c2d7e6d97ef5749c2126a2b99cd8f/rime_sdk-2.1.0rc1.tar.gz
+[2023-05-04 07:21:02] INFO root fetch - processPackages [whisper-ctranslate2]: Downloading https://files.pythonhosted.org/packages/58/ec/77630b5ef0ff27060f8d9e1f24b0e98104273f2a52ac250aa27690db0a11/whisper-ctranslate2-0.2.4.tar.gz
+[2023-05-04 07:21:02] INFO root fetch - processPackages [nonebot-plugin-arktools]: Downloading https://files.pythonhosted.org/packages/44/f7/c484a930f23269273c10622dda97390bc428aaee2feb215c493da9cb47fc/nonebot_plugin_arktools-1.2.0.tar.gz
+[2023-05-04 07:21:02] INFO root fetch - processPackages [jvig]: Downloading https://files.pythonhosted.org/packages/98/6b/57472bb5546757d9d153d37b7b21cd2c7c37d0f46b989fc3785918579616/jvig-1.1.0.tar.gz
+[2023-05-04 07:21:02] INFO root fetch - processPackages [pz-rail-flexzboost]: Downloading https://files.pythonhosted.org/packages/d2/40/e9f234372fa9ff5520716c60b2f99a3cc70af8a0e4d62197d3ead4ff76fb/pz-rail-flexzboost-0.0.9.tar.gz
+[2023-05-04 07:21:02] INFO root fetch - processPackages [smw-music]: Downloading https://files.pythonhosted.org/packages/0b/de/b580813bc260ea9dc5ca2fb4bf1f892c4830adbfa2f5f4b1edaebebd98ce/smw_music-0.3.9.tar.gz
+[2023-05-04 07:21:02] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-05-04 07:21:02] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.1.0rc0.tar.gz tmp/rime_sdk-2.1.0rc1.tar.gz --markdown 20230504/r/rime-sdk/2.1.0rc0-2.1.0rc1/diff.md --exclude *.pyd
+[2023-05-04 07:21:02] INFO root fetch - processPackages [whisper-ctranslate2]: executing diffoscope
+[2023-05-04 07:21:02] INFO root fetch - processPackages [whisper-ctranslate2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper-ctranslate2-0.2.3.tar.gz tmp/whisper-ctranslate2-0.2.4.tar.gz --markdown 20230504/w/whisper-ctranslate2/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-04 07:21:02] INFO root fetch - processPackages [nonebot-plugin-arktools]: executing diffoscope
+[2023-05-04 07:21:02] INFO root fetch - processPackages [nonebot-plugin-arktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_arktools-1.1.0.tar.gz tmp/nonebot_plugin_arktools-1.2.0.tar.gz --markdown 20230504/n/nonebot-plugin-arktools/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-04 07:21:02] INFO root fetch - processPackages [pz-rail-flexzboost]: executing diffoscope
+[2023-05-04 07:21:02] INFO root fetch - processPackages [pz-rail-flexzboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pz-rail-flexzboost-0.0.8.tar.gz tmp/pz-rail-flexzboost-0.0.9.tar.gz --markdown 20230504/p/pz-rail-flexzboost/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 07:21:03] INFO root fetch - processPackages [smw-music]: executing diffoscope
+[2023-05-04 07:21:03] INFO root fetch - processPackages [smw-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smw_music-0.3.8.tar.gz tmp/smw_music-0.3.9.tar.gz --markdown 20230504/s/smw-music/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-04 07:21:03] INFO root fetch - processPackages [jvig]: executing diffoscope
+[2023-05-04 07:21:03] INFO root fetch - processPackages [jvig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jvig-1.0.0.tar.gz tmp/jvig-1.1.0.tar.gz --markdown 20230504/j/jvig/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-04 07:21:03] INFO root fetch - processPackages [xia-fields]: Downloading https://files.pythonhosted.org/packages/1d/ef/cfb63df6fbf55a972f319555ac0993a2577c9573fda5666b8a6acdf1255d/xia_fields-0.3.7-cp39-none-win_amd64.whl
+[2023-05-04 07:21:03] INFO root fetch - processPackages [xia-fields]: executing diffoscope
+[2023-05-04 07:21:03] INFO root fetch - processPackages [xia-fields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_fields-0.3.6-cp39-none-win_amd64.whl.zip tmp/xia_fields-0.3.7-cp39-none-win_amd64.whl.zip --markdown 20230504/x/xia-fields/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-05-04 07:21:03] INFO root fetch - main [MainThread]: End processing [openhab-pythonrule-engine]: success
+[2023-05-04 07:21:04] INFO root fetch - main [MainThread]: End processing [aiotools]: success
+[2023-05-04 07:21:04] INFO root fetch - main [MainThread]: End processing [whisper-ctranslate2]: success
+[2023-05-04 07:21:04] INFO root fetch - main [MainThread]: End processing [jvig]: success
+[2023-05-04 07:21:04] INFO root fetch - main [MainThread]: End processing [xia-fields]: success
+[2023-05-04 07:21:04] INFO root fetch - main [MainThread]: End processing [pz-rail-flexzboost]: success
+[2023-05-04 07:21:04] INFO root fetch - main [MainThread]: End processing [smw-music]: success
+[2023-05-04 07:21:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-arktools]: success
+[2023-05-04 07:21:07] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-05-04 07:21:07] INFO root fetch - main [MainThread]: Store serial: [17967655]
