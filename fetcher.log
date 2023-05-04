@@ -17371,3 +17371,110 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 16:20:57] INFO root fetch - main [MainThread]: End processing [pear-xai]: success
 [2023-05-04 16:21:01] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2023-05-04 16:21:01] INFO root fetch - main [MainThread]: Store serial: [17973365]
+[2023-05-04 16:26:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17973365]
+[2023-05-04 16:26:12] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-04 16:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-05-04 16:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DXR
+[2023-05-04 16:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ifd-python
+[2023-05-04 16:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vctoolkit
+[2023-05-04 16:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: splight-lib
+[2023-05-04 16:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bridgecrew
+[2023-05-04 16:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modular-rl
+[2023-05-04 16:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LordPath
+[2023-05-04 16:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: downstream-fairness
+[2023-05-04 16:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: remoulade
+[2023-05-04 16:26:12] INFO root fetch - processPackages [ifd-python]: New version: [7.6.9] Old Version: [7.6.8]
+[2023-05-04 16:26:12] INFO root fetch - processPackages [vctoolkit]: New version: [0.1.9.9] Old Version: [0.1.9.8]
+[2023-05-04 16:26:12] WARNING root fetch - processPackages [downstream-fairness]: Skipping, unable to determine old version
+[2023-05-04 16:26:12] INFO root fetch - processPackages [downstream-fairness]: Start processing: LeoLeeeCommon
+[2023-05-04 16:26:12] INFO root fetch - main [MainThread]: End processing [downstream-fairness] error
+[2023-05-04 16:26:12] INFO root fetch - processPackages [DXR]: New version: [1.8.0] Old Version: [1.7.9]
+[2023-05-04 16:26:12] INFO root fetch - processPackages [LordPath]: New version: [2023.5.4] Old Version: [2023.3.5]
+[2023-05-04 16:26:12] INFO root fetch - processPackages [modular-rl]: New version: [0.1.3] Old Version: [0.1.2.dev0]
+[2023-05-04 16:26:12] INFO root fetch - processPackages [LeoLeeeCommon]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 16:26:12] INFO root fetch - processPackages [remoulade]: New version: [1.0.0] Old Version: [0.9.4]
+[2023-05-04 16:26:12] INFO root fetch - processPackages [splight-lib]: New version: [2.3.8.dev2] Old Version: [2.3.7]
+[2023-05-04 16:26:12] INFO root fetch - processPackages [coiled]: New version: [0.6.1.dev5] Old Version: [0.6.1.dev4]
+[2023-05-04 16:26:12] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-04 16:26:12] INFO root fetch - processPackages [LeoLeeeCommon]: Downloading https://files.pythonhosted.org/packages/4d/eb/9aaf5c13787681527c626b1ab86494518d2b49791559b20e646484479f1f/LeoLeeeCommon-0.1.0-py3-none-any.whl
+[2023-05-04 16:26:12] INFO root fetch - processPackages [modular-rl]: Downloading https://files.pythonhosted.org/packages/1a/61/bc6ccc960da9df4841636d0d1e6e883959366f41a498b3b496800f9ef396/modular_rl-0.1.3.tar.gz
+[2023-05-04 16:26:12] INFO root fetch - processPackages [vctoolkit]: Downloading https://files.pythonhosted.org/packages/73/3f/e6ff0a5a6ee790fa1a78c72c102761ec0e941da4a8d5bf73c7a4c7bce6ac/vctoolkit-0.1.9.8.tar.gz
+[2023-05-04 16:26:12] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/84/ac/e45efeff66c46cbd333a6aae95ac3470bb6c15f5b12c56cf47997a26a89f/DXR-1.7.9.tar.gz
+[2023-05-04 16:26:12] INFO root fetch - processPackages [remoulade]: Downloading https://files.pythonhosted.org/packages/9f/ef/d8b4fd7c5f5fbad6ab60593ad2477cd9c7d6b319a04035f459cae9667c13/remoulade-0.9.4.tar.gz
+[2023-05-04 16:26:12] INFO root fetch - processPackages [modular-rl]: executing diffoscope
+[2023-05-04 16:26:12] INFO root fetch - processPackages [modular-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modular_rl-0.1.2.dev0.tar.gz tmp/modular_rl-0.1.3.tar.gz --markdown 20230504/m/modular-rl/0.1.2.dev0-0.1.3/diff.md --exclude *.pyd
+[2023-05-04 16:26:12] INFO root fetch - processPackages [LordPath]: Downloading https://files.pythonhosted.org/packages/a0/50/f406e5d6c2bf0d20b893dd009001b27be4ac32402055d7664667dec61ff2/LordPath-2023.3.5.tar.gz
+[2023-05-04 16:26:12] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a5/86/892d5d6a0128954e540a4921321535ce4368096365419e266296ae1e3250/coiled-0.6.1.dev4.tar.gz
+[2023-05-04 16:26:12] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-04 16:26:12] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230504/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-04 16:26:12] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/20/89/df03885dbd6e45a422d9d4b1ce8d6ae58b5c8b535da6cb1ef9ec2118149f/splight-lib-2.3.8.dev2.tar.gz
+[2023-05-04 16:26:12] INFO root fetch - processPackages [LeoLeeeCommon]: Downloading https://files.pythonhosted.org/packages/e7/37/f4432608de7e17c30a27cb062aa99cef7bf4d4ba8df4f9e6cc7b9ec57d21/LeoLeeeCommon-0.1.1.tar.gz
+[2023-05-04 16:26:12] INFO root fetch - processPackages [ifd-python]: executing diffoscope
+[2023-05-04 16:26:12] INFO root fetch - processPackages [ifd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifd_python-7.6.8.tar.gz tmp/ifd_python-7.6.9.tar.gz --markdown 20230504/i/ifd-python/7.6.8-7.6.9/diff.md --exclude *.pyd
+[2023-05-04 16:26:13] INFO root fetch - processPackages [LeoLeeeCommon]: executing diffoscope
+[2023-05-04 16:26:13] INFO root fetch - processPackages [LeoLeeeCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LeoLeeeCommon-0.1.0-py3-none-any.whl.zip tmp/LeoLeeeCommon-0.1.1.tar.gz --markdown 20230504/L/LeoLeeeCommon/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 16:26:13] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/7f/02/232131f78272313dba8f2b1e969c84ef8e7f78089e5aedcbd2afe6b5f82c/DXR-1.8.0.tar.gz
+[2023-05-04 16:26:13] INFO root fetch - processPackages [DXR]: executing diffoscope
+[2023-05-04 16:26:13] INFO root fetch - processPackages [DXR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXR-1.7.9.tar.gz tmp/DXR-1.8.0.tar.gz --markdown 20230504/D/DXR/1.7.9-1.8.0/diff.md --exclude *.pyd
+[2023-05-04 16:26:13] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-04 16:26:13] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.7.tar.gz tmp/splight-lib-2.3.8.dev2.tar.gz --markdown 20230504/s/splight-lib/2.3.7-2.3.8.dev2/diff.md --exclude *.pyd
+[2023-05-04 16:26:13] INFO root fetch - processPackages [remoulade]: Downloading https://files.pythonhosted.org/packages/8e/4b/fc62cef7412bc36dd4eba1c91872989d6b8bff530ca19e86f882cbd1339d/remoulade-1.0.0-py3-none-any.whl
+[2023-05-04 16:26:13] INFO root fetch - processPackages [vctoolkit]: Downloading https://files.pythonhosted.org/packages/9f/6c/6a277206a9c4b2b5c7547a6e6eebd27de1cc909aa9b029b5061514f84898/vctoolkit-0.1.9.9.tar.gz
+[2023-05-04 16:26:13] INFO root fetch - processPackages [LordPath]: Downloading https://files.pythonhosted.org/packages/8b/b4/0202109add2b2be6423b015b7d8253e7d0c07a3ed9e60858bf9f171e2ab3/LordPath-2023.5.4.tar.gz
+[2023-05-04 16:26:13] INFO root fetch - processPackages [remoulade]: executing diffoscope
+[2023-05-04 16:26:13] INFO root fetch - processPackages [remoulade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remoulade-0.9.4.tar.gz tmp/remoulade-1.0.0-py3-none-any.whl.zip --markdown 20230504/r/remoulade/0.9.4-1.0.0/diff.md --exclude *.pyd
+[2023-05-04 16:26:13] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/18/89/76aadcaaf9f598c9c3b2a143c5f2cdd523b9acb906883224e5a88afe2093/coiled-0.6.1.dev5.tar.gz
+[2023-05-04 16:26:13] INFO root fetch - processPackages [LordPath]: executing diffoscope
+[2023-05-04 16:26:13] INFO root fetch - processPackages [LordPath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LordPath-2023.3.5.tar.gz tmp/LordPath-2023.5.4.tar.gz --markdown 20230504/L/LordPath/2023.3.5-2023.5.4/diff.md --exclude *.pyd
+[2023-05-04 16:26:13] INFO root fetch - processPackages [vctoolkit]: executing diffoscope
+[2023-05-04 16:26:13] INFO root fetch - processPackages [vctoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vctoolkit-0.1.9.8.tar.gz tmp/vctoolkit-0.1.9.9.tar.gz --markdown 20230504/v/vctoolkit/0.1.9.8-0.1.9.9/diff.md --exclude *.pyd
+[2023-05-04 16:26:13] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-04 16:26:13] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.1.dev4.tar.gz tmp/coiled-0.6.1.dev5.tar.gz --markdown 20230504/c/coiled/0.6.1.dev4-0.6.1.dev5/diff.md --exclude *.pyd
+[2023-05-04 16:26:14] INFO root fetch - processPackages [bridgecrew]: Start processing: panfeed
+[2023-05-04 16:26:14] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-04 16:26:14] INFO root fetch - processPackages [panfeed]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-04 16:26:14] INFO root fetch - processPackages [modular-rl]: Start processing: pytapo
+[2023-05-04 16:26:14] INFO root fetch - main [MainThread]: End processing [modular-rl]: success
+[2023-05-04 16:26:14] INFO root fetch - processPackages [pytapo]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-04 16:26:14] INFO root fetch - processPackages [LeoLeeeCommon]: Start processing: spanishconjugator
+[2023-05-04 16:26:14] INFO root fetch - main [MainThread]: End processing [LeoLeeeCommon]: success
+[2023-05-04 16:26:14] INFO root fetch - processPackages [panfeed]: Downloading https://files.pythonhosted.org/packages/24/01/d809db12164790593f6eaf77f4df1fc9ed08a694c0d1da23dc58ffa3428b/panfeed-1.0.0.tar.gz
+[2023-05-04 16:26:14] INFO root fetch - processPackages [ifd-python]: Start processing: spanishconjugator
+[2023-05-04 16:26:14] INFO root fetch - main [MainThread]: End processing [ifd-python]: success
+[2023-05-04 16:26:14] INFO root fetch - processPackages [pytapo]: Downloading https://files.pythonhosted.org/packages/95/4f/9985f3bb3806f3a31ac29ec24201f1a60ec7a15baa0d3d89751970525d2b/pytapo-3.1.8.tar.gz
+[2023-05-04 16:26:14] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-04 16:26:14] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-04 16:26:14] INFO root fetch - processPackages [LordPath]: Start processing: xdat
+[2023-05-04 16:26:14] INFO root fetch - main [MainThread]: End processing [LordPath]: success
+[2023-05-04 16:26:14] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-04 16:26:14] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230504/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-04 16:26:14] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-04 16:26:14] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-04 16:26:14] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230504/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-04 16:26:15] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-05-04 16:26:15] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230504/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-04 16:26:15] INFO root fetch - processPackages [panfeed]: Downloading https://files.pythonhosted.org/packages/b2/7c/5a1c144d395696bc36783920478341bfaac9ccaf00cdb9d4dc1ccf764aed/panfeed-1.1.0.tar.gz
+[2023-05-04 16:26:15] INFO root fetch - processPackages [panfeed]: executing diffoscope
+[2023-05-04 16:26:15] INFO root fetch - processPackages [panfeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panfeed-1.0.0.tar.gz tmp/panfeed-1.1.0.tar.gz --markdown 20230504/p/panfeed/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-04 16:26:15] INFO root fetch - processPackages [pytapo]: Downloading https://files.pythonhosted.org/packages/b8/35/ef0eb89373b79054918fa255f52e89f05fbd7b56d9e1930c405ad90d46b7/pytapo-3.1.9.tar.gz
+[2023-05-04 16:26:15] INFO root fetch - processPackages [pytapo]: executing diffoscope
+[2023-05-04 16:26:15] INFO root fetch - processPackages [pytapo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytapo-3.1.8.tar.gz tmp/pytapo-3.1.9.tar.gz --markdown 20230504/p/pytapo/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-04 16:26:15] INFO root fetch - processPackages [vctoolkit]: Start processing: sefazetllib
+[2023-05-04 16:26:15] INFO root fetch - main [MainThread]: End processing [vctoolkit]: success
+[2023-05-04 16:26:15] INFO root fetch - processPackages [sefazetllib]: New version: [0.1.26] Old Version: [0.1.25]
+[2023-05-04 16:26:15] INFO root fetch - processPackages [remoulade]: Start processing: litestar-utils
+[2023-05-04 16:26:15] INFO root fetch - main [MainThread]: End processing [remoulade]: success
+[2023-05-04 16:26:15] INFO root fetch - processPackages [sefazetllib]: executing diffoscope
+[2023-05-04 16:26:15] INFO root fetch - processPackages [sefazetllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sefazetllib-0.1.25.tar.gz tmp/sefazetllib-0.1.26.tar.gz --markdown 20230504/s/sefazetllib/0.1.25-0.1.26/diff.md --exclude *.pyd
+[2023-05-04 16:26:15] WARNING root fetch - processPackages [litestar-utils]: Skipping, unable to determine old version
+[2023-05-04 16:26:15] INFO root fetch - main [MainThread]: End processing [litestar-utils] error
+[2023-05-04 16:26:15] INFO root fetch - main [MainThread]: End processing [DXR]: success
+[2023-05-04 16:26:16] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-04 16:26:16] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-04 16:26:16] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-04 16:26:17] INFO root fetch - main [MainThread]: End processing [panfeed]: success
+[2023-05-04 16:26:17] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-04 16:26:17] INFO root fetch - main [MainThread]: End processing [pytapo]: success
+[2023-05-04 16:26:17] INFO root fetch - main [MainThread]: End processing [sefazetllib]: success
+[2023-05-04 16:26:18] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-05-04 16:26:18] INFO root fetch - main [MainThread]: Store serial: [17973435]
