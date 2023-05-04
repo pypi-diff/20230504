@@ -13630,3 +13630,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 13:05:25] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-04 13:05:37] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2023-05-04 13:05:37] INFO root fetch - main [MainThread]: Store serial: [17971152]
+[2023-05-04 13:10:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17971152]
+[2023-05-04 13:10:47] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-04 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frog-encryption
+[2023-05-04 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sfctools
+[2023-05-04 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nashbanksync
+[2023-05-04 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-github-actions-annotate-failures
+[2023-05-04 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pangeamt-nlp
+[2023-05-04 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stocktracer
+[2023-05-04 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbxconfig
+[2023-05-04 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: list-cmath
+[2023-05-04 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-mrp-multi-level
+[2023-05-04 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: probabilistic-word-embeddings
+[2023-05-04 13:10:47] INFO root fetch - processPackages [nashbanksync]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 13:10:47] WARNING root fetch - processPackages [frog-encryption]: Skipping, unable to determine old version
+[2023-05-04 13:10:47] INFO root fetch - processPackages [frog-encryption]: Start processing: robotmk
+[2023-05-04 13:10:47] INFO root fetch - main [MainThread]: End processing [frog-encryption] error
+[2023-05-04 13:10:47] INFO root fetch - processPackages [pytest-github-actions-annotate-failures]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-05-04 13:10:47] WARNING root fetch - processPackages [list-cmath]: Skipping, unable to determine old version
+[2023-05-04 13:10:47] INFO root fetch - processPackages [list-cmath]: Start processing: chainedci
+[2023-05-04 13:10:47] INFO root fetch - main [MainThread]: End processing [list-cmath] error
+[2023-05-04 13:10:47] INFO root fetch - processPackages [dbxconfig]: New version: [5.0.7] Old Version: [5.0.6]
+[2023-05-04 13:10:47] INFO root fetch - processPackages [stocktracer]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-05-04 13:10:47] INFO root fetch - processPackages [sfctools]: New version: [1.0.5.8] Old Version: [1.0.5.7]
+[2023-05-04 13:10:47] INFO root fetch - processPackages [probabilistic-word-embeddings]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-05-04 13:10:47] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.3]
+[2023-05-04 13:10:47] INFO root fetch - processPackages [pangeamt-nlp]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 13:10:47] INFO root fetch - processPackages [chainedci]: New version: [1.5.26] Old Version: [1.5.24]
+[2023-05-04 13:10:47] INFO root fetch - processPackages [robotmk]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-05-04 13:10:47] INFO root fetch - processPackages [pangeamt-nlp]: Downloading https://files.pythonhosted.org/packages/c6/63/90a05d8afa2e60a42c4b790d5da8f149da330d252d82554552c102d33865/pangeamt-nlp-1.0.8.tar.gz
+[2023-05-04 13:10:47] INFO root fetch - processPackages [robotmk]: executing diffoscope
+[2023-05-04 13:10:47] INFO root fetch - processPackages [robotmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotmk-0.0.56.tar.gz tmp/robotmk-0.0.57.tar.gz --markdown 20230504/r/robotmk/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-05-04 13:10:47] WARNING root fetch - processPackages [pangeamt-nlp]: Skipping package: exceeds size limit 14587887>=10485760
+[2023-05-04 13:10:47] INFO root fetch - processPackages [pangeamt-nlp]: Start processing: django-advanced-pdf
+[2023-05-04 13:10:47] INFO root fetch - main [MainThread]: End processing [pangeamt-nlp] error
+[2023-05-04 13:10:47] INFO root fetch - processPackages [pytest-github-actions-annotate-failures]: Downloading https://files.pythonhosted.org/packages/a1/8d/074e5702d6776ca13b87bd8c8cb3629c5af6477f5d11da6da2c948f1e683/pytest-github-actions-annotate-failures-0.1.8.tar.gz
+[2023-05-04 13:10:47] INFO root fetch - processPackages [stocktracer]: Downloading https://files.pythonhosted.org/packages/bf/14/644d78e5ed6a630572677b16a33ec554b6027c8047b7af2b47a4fbca72f8/stocktracer-0.1.3.tar.gz
+[2023-05-04 13:10:47] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/63/9f/8f5f0ac2e627c1b4365479b63e655ea4bef0265a9c5056beec81139e2023/probabilistic_word_embeddings-1.2.2.tar.gz
+[2023-05-04 13:10:47] INFO root fetch - processPackages [django-advanced-pdf]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-05-04 13:10:47] INFO root fetch - processPackages [dbxconfig]: Downloading https://files.pythonhosted.org/packages/4a/44/fa05bcaa61a06202dd291a7a4aa6e0ca2be0864dad68e4999adc6336d61a/dbxconfig-5.0.7.tar.gz
+[2023-05-04 13:10:48] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/af/bf/db49b35e7db3762400cccdb8cd533994d783f891297ca7d71fef354a74c6/odoo_addon_mrp_multi_level-16.0.1.1.3-py3-none-any.whl
+[2023-05-04 13:10:48] INFO root fetch - processPackages [chainedci]: Downloading https://files.pythonhosted.org/packages/47/1a/70cb46fbea4091cbcc0b84566b800a43be9d5a23d66d214ae60a06b54df4/chainedci-1.5.24.tar.gz
+[2023-05-04 13:10:48] INFO root fetch - processPackages [sfctools]: Downloading https://files.pythonhosted.org/packages/b9/73/3594857064ddbf5bb27091974c9f2a23bb5ee2db11e84b45834a5d9a07d9/sfctools-1.0.5.8.tar.gz
+[2023-05-04 13:10:48] INFO root fetch - processPackages [django-advanced-pdf]: Downloading https://files.pythonhosted.org/packages/8c/99/f4c61d6cad9e5dab411f4e6d3fb5f8941db22487982ebde14f0e905ae22d/django-advanced-pdf-0.1.6.tar.gz
+[2023-05-04 13:10:48] INFO root fetch - processPackages [dbxconfig]: executing diffoscope
+[2023-05-04 13:10:48] INFO root fetch - processPackages [dbxconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbxconfig-5.0.6.tar.gz tmp/dbxconfig-5.0.7.tar.gz --markdown 20230504/d/dbxconfig/5.0.6-5.0.7/diff.md --exclude *.pyd
+[2023-05-04 13:10:48] INFO root fetch - processPackages [nashbanksync]: executing diffoscope
+[2023-05-04 13:10:48] INFO root fetch - processPackages [nashbanksync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nashbanksync-0.1.8.tar.gz tmp/nashbanksync-0.1.9.tar.gz --markdown 20230504/n/nashbanksync/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 13:10:48] INFO root fetch - processPackages [stocktracer]: Downloading https://files.pythonhosted.org/packages/d5/e2/d4520f255aec8fb62a240c70b3153e7daa1ea7653fc6fdf6bc564771f259/stocktracer-0.1.5.tar.gz
+[2023-05-04 13:10:48] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/93/c0/1c6ff4041ac9c3abade325951e7bfeb464c8a3030ea607fc5c5cff554019/probabilistic_word_embeddings-1.3.0.tar.gz
+[2023-05-04 13:10:48] INFO root fetch - processPackages [sfctools]: executing diffoscope
+[2023-05-04 13:10:48] INFO root fetch - processPackages [sfctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfctools-1.0.5.7.tar.gz tmp/sfctools-1.0.5.8.tar.gz --markdown 20230504/s/sfctools/1.0.5.7-1.0.5.8/diff.md --exclude *.pyd
+[2023-05-04 13:10:48] INFO root fetch - processPackages [pytest-github-actions-annotate-failures]: Downloading https://files.pythonhosted.org/packages/a8/d6/76d074e1e4d78c5144397e6061af29bcc218dbf19bb64b39e5c296bf42f1/pytest-github-actions-annotate-failures-0.2.0.tar.gz
+[2023-05-04 13:10:48] INFO root fetch - processPackages [stocktracer]: executing diffoscope
+[2023-05-04 13:10:48] INFO root fetch - processPackages [stocktracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stocktracer-0.1.3.tar.gz tmp/stocktracer-0.1.5.tar.gz --markdown 20230504/s/stocktracer/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-05-04 13:10:48] INFO root fetch - processPackages [probabilistic-word-embeddings]: executing diffoscope
+[2023-05-04 13:10:48] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/0a/36/3f2e0ddb13ce13b8dee80828dcb0466085a9fa579756fe36a7e28a3effb2/odoo_addon_mrp_multi_level-16.0.1.2.0-py3-none-any.whl
+[2023-05-04 13:10:48] INFO root fetch - processPackages [probabilistic-word-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probabilistic_word_embeddings-1.2.2.tar.gz tmp/probabilistic_word_embeddings-1.3.0.tar.gz --markdown 20230504/p/probabilistic-word-embeddings/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-05-04 13:10:48] INFO root fetch - processPackages [chainedci]: Downloading https://files.pythonhosted.org/packages/f8/ba/27b65390fc89ba2af7e26e61f45753b00eb67cf74be061ebf7da2327f40e/chainedci-1.5.26.tar.gz
+[2023-05-04 13:10:48] INFO root fetch - processPackages [pytest-github-actions-annotate-failures]: executing diffoscope
+[2023-05-04 13:10:48] INFO root fetch - processPackages [pytest-github-actions-annotate-failures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-github-actions-annotate-failures-0.1.8.tar.gz tmp/pytest-github-actions-annotate-failures-0.2.0.tar.gz --markdown 20230504/p/pytest-github-actions-annotate-failures/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-05-04 13:10:48] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: executing diffoscope
+[2023-05-04 13:10:48] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_multi_level-16.0.1.1.3-py3-none-any.whl.zip tmp/odoo_addon_mrp_multi_level-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-mrp-multi-level/16.0.1.1.3-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-05-04 13:10:48] INFO root fetch - processPackages [chainedci]: executing diffoscope
+[2023-05-04 13:10:48] INFO root fetch - processPackages [chainedci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainedci-1.5.24.tar.gz tmp/chainedci-1.5.26.tar.gz --markdown 20230504/c/chainedci/1.5.24-1.5.26/diff.md --exclude *.pyd
+[2023-05-04 13:10:49] INFO root fetch - processPackages [django-advanced-pdf]: Downloading https://files.pythonhosted.org/packages/77/77/d239a15618b392994833d9a4135afa172d6c82a8f9a0bf5d9641a772335f/django-advanced-pdf-0.2.0.tar.gz
+[2023-05-04 13:10:49] INFO root fetch - processPackages [django-advanced-pdf]: executing diffoscope
+[2023-05-04 13:10:49] INFO root fetch - processPackages [django-advanced-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-advanced-pdf-0.1.6.tar.gz tmp/django-advanced-pdf-0.2.0.tar.gz --markdown 20230504/d/django-advanced-pdf/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-05-04 13:10:49] INFO root fetch - processPackages [robotmk]: Start processing: napari-spatialdata
+[2023-05-04 13:10:49] INFO root fetch - main [MainThread]: End processing [robotmk]: success
+[2023-05-04 13:10:49] INFO root fetch - processPackages [napari-spatialdata]: New version: [0.2.1] Old Version: [0.1.0]
+[2023-05-04 13:10:49] INFO root fetch - processPackages [dbxconfig]: Start processing: kcli
+[2023-05-04 13:10:49] INFO root fetch - main [MainThread]: End processing [dbxconfig]: success
+[2023-05-04 13:10:49] INFO root fetch - processPackages [kcli]: New version: [99.0.202305041109] Old Version: [99.0.202305032122]
+[2023-05-04 13:10:49] INFO root fetch - processPackages [napari-spatialdata]: Downloading https://files.pythonhosted.org/packages/56/65/4d2d598a0f2e8ba5eb5e4d81427e4ed94b658c748753d968d185d7cb5ec6/napari-spatialdata-0.1.0.tar.gz
+[2023-05-04 13:10:49] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/04/4a/54dc008fe39b186f0c3465bf417b00af50e21e0e20ed2dcfd6d030ca758f/kcli-99.0.202305032122-py3-none-any.whl
+[2023-05-04 13:10:50] INFO root fetch - processPackages [napari-spatialdata]: Downloading https://files.pythonhosted.org/packages/86/2a/c2a7ca5d8b6a70e282c10fe0ad94a02fbe5689556d5655905c72f5a2a585/napari-spatialdata-0.2.1.tar.gz
+[2023-05-04 13:10:50] INFO root fetch - processPackages [probabilistic-word-embeddings]: Start processing: odoo-addon-mrp-multi-level
+[2023-05-04 13:10:50] INFO root fetch - main [MainThread]: End processing [probabilistic-word-embeddings]: success
+[2023-05-04 13:10:50] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.3]
+[2023-05-04 13:10:50] INFO root fetch - processPackages [chainedci]: Start processing: sphere-base
+[2023-05-04 13:10:50] INFO root fetch - main [MainThread]: End processing [chainedci]: success
+[2023-05-04 13:10:50] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/48/21/e1a4c05119f139e225c036eeef05fa925af8b2310263473fa1939458c322/kcli-99.0.202305041109-py3-none-any.whl
+[2023-05-04 13:10:50] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: executing diffoscope
+[2023-05-04 13:10:50] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_multi_level-16.0.1.1.3-py3-none-any.whl.zip tmp/odoo_addon_mrp_multi_level-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-mrp-multi-level/16.0.1.1.3-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-05-04 13:10:50] INFO root fetch - processPackages [sphere-base]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 13:10:50] INFO root fetch - processPackages [napari-spatialdata]: executing diffoscope
+[2023-05-04 13:10:50] INFO root fetch - processPackages [napari-spatialdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-spatialdata-0.1.0.tar.gz tmp/napari-spatialdata-0.2.1.tar.gz --markdown 20230504/n/napari-spatialdata/0.1.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-04 13:10:50] INFO root fetch - main [MainThread]: End processing [nashbanksync]: success
+[2023-05-04 13:10:50] INFO root fetch - main [MainThread]: End processing [pytest-github-actions-annotate-failures]: success
+[2023-05-04 13:10:50] INFO root fetch - processPackages [sphere-base]: executing diffoscope
+[2023-05-04 13:10:50] INFO root fetch - processPackages [sphere-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphere_base-0.1.8.tar.gz tmp/sphere_base-0.1.9.tar.gz --markdown 20230504/s/sphere-base/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 13:10:50] INFO root fetch - main [MainThread]: End processing [sfctools]: success
+[2023-05-04 13:10:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-multi-level]: success
+[2023-05-04 13:10:50] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-04 13:10:50] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305032122-py3-none-any.whl.zip tmp/kcli-99.0.202305041109-py3-none-any.whl.zip --markdown 20230504/k/kcli/99.0.202305032122-99.0.202305041109/diff.md --exclude *.pyd
+[2023-05-04 13:10:51] INFO root fetch - main [MainThread]: End processing [stocktracer]: success
+[2023-05-04 13:10:51] INFO root fetch - main [MainThread]: End processing [django-advanced-pdf]: success
+[2023-05-04 13:10:51] INFO root fetch - main [MainThread]: End processing [napari-spatialdata]: success
+[2023-05-04 13:10:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-multi-level]: success
+[2023-05-04 13:10:52] INFO root fetch - main [MainThread]: End processing [sphere-base]: success
+[2023-05-04 13:10:59] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-04 13:10:59] INFO root fetch - main [MainThread]: Store serial: [17971203]
