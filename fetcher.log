@@ -7063,3 +7063,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 06:09:19] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-05-04 06:09:22] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-05-04 06:09:22] INFO root fetch - main [MainThread]: Store serial: [17967304]
+[2023-05-04 06:14:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967304]
+[2023-05-04 06:14:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-04 06:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vepar
+[2023-05-04 06:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-xmodules
+[2023-05-04 06:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yyxx-game-pkg
+[2023-05-04 06:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiomonitor
+[2023-05-04 06:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-fieldservice-sale
+[2023-05-04 06:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-fieldservice-sale
+[2023-05-04 06:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo13-addon-fieldservice
+[2023-05-04 06:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-fieldservice-sale
+[2023-05-04 06:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sharetop
+[2023-05-04 06:14:30] INFO root fetch - processPackages [aiomonitor]: New version: [0.5.0a1] Old Version: [0.4.5]
+[2023-05-04 06:14:30] INFO root fetch - processPackages [vepar]: New version: [2.5] Old Version: [2.4]
+[2023-05-04 06:14:30] INFO root fetch - processPackages [odoo13-addon-fieldservice-sale]: New version: [13.0.1.1.1.dev6] Old Version: [13.0.1.1.1.dev5]
+[2023-05-04 06:14:30] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 06:14:30] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.5.4.1] Old Version: [2023.4.7.1]
+[2023-05-04 06:14:30] INFO root fetch - processPackages [odoo12-addon-fieldservice-sale]: New version: [12.0.2.5.2.99.dev6] Old Version: [12.0.2.5.2.99.dev5]
+[2023-05-04 06:14:30] INFO root fetch - processPackages [odoo14-addon-fieldservice-sale]: New version: [14.0.2.1.1.dev4] Old Version: [14.0.2.1.1.dev3]
+[2023-05-04 06:14:30] INFO root fetch - processPackages [odoo13-addon-fieldservice]: New version: [13.0.1.2.2.dev7] Old Version: [13.0.1.2.2.dev6]
+[2023-05-04 06:14:30] INFO root fetch - processPackages [sharetop]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-04 06:14:30] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-05-04 06:14:30] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230504/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 06:14:30] INFO root fetch - processPackages [vepar]: Downloading https://files.pythonhosted.org/packages/84/5a/659e2f3acb04aeed211143e13e8eb952eee4749a263b23327950462e9d22/vepar-2.4.tar.gz
+[2023-05-04 06:14:30] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/cd/9a/12636c9635c64b6e3a0d829f7140bfedffc34e3f5b29499126503f8dce9f/yyxx_game_pkg-2023.4.7.1.tar.gz
+[2023-05-04 06:14:30] INFO root fetch - processPackages [aiomonitor]: Downloading https://files.pythonhosted.org/packages/98/76/b62e9fbe267287527fb6f4b6774394d4f00650195774173bb0055a99ab3d/aiomonitor-0.4.5.tar.gz
+[2023-05-04 06:14:30] INFO root fetch - processPackages [odoo13-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/f8/f3/579abb23bb454b508aecd3a1181501039dfe51112dbfb7f2e36c9fe5d10c/odoo13_addon_fieldservice_sale-13.0.1.1.1.dev5-py3-none-any.whl
+[2023-05-04 06:14:30] INFO root fetch - processPackages [odoo12-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/d6/9f/42e8723c66982bbd503a134092e75ef669ba3a56639b268f06257316319e/odoo12_addon_fieldservice_sale-12.0.2.5.2.99.dev5-py3-none-any.whl
+[2023-05-04 06:14:30] INFO root fetch - processPackages [sharetop]: Downloading https://files.pythonhosted.org/packages/81/8a/8b136d031ae6e75fd46fb4b4d9a9dcb555a03c4bca09b81869bdfd17824e/sharetop-1.2.3.tar.gz
+[2023-05-04 06:14:30] INFO root fetch - processPackages [odoo14-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/b5/be/8f408d0a07ddd4150edcc259779e03daa73a4dee7866ac9dbfde6fe65d7b/odoo14_addon_fieldservice_sale-14.0.2.1.1.dev3-py3-none-any.whl
+[2023-05-04 06:14:31] INFO root fetch - processPackages [odoo13-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/c6/b5/e5268e0bb6fa8ede8397fa2717cc73d126fb1ed62c73fe5aefc0b9eddb13/odoo13_addon_fieldservice-13.0.1.2.2.dev7-py3-none-any.whl
+[2023-05-04 06:14:31] INFO root fetch - processPackages [aiomonitor]: Downloading https://files.pythonhosted.org/packages/1e/f4/d099658c570890b81658746de58a00d0b075ae72f83a485d7634f66b9221/aiomonitor-0.5.0a1.tar.gz
+[2023-05-04 06:14:31] INFO root fetch - processPackages [odoo13-addon-fieldservice]: executing diffoscope
+[2023-05-04 06:14:31] INFO root fetch - processPackages [odoo13-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_fieldservice-13.0.1.2.2.dev6-py3-none-any.whl.zip tmp/odoo13_addon_fieldservice-13.0.1.2.2.dev7-py3-none-any.whl.zip --markdown 20230504/o/odoo13-addon-fieldservice/13.0.1.2.2.dev6-13.0.1.2.2.dev7/diff.md --exclude *.pyd
+[2023-05-04 06:14:31] INFO root fetch - processPackages [sharetop]: Downloading https://files.pythonhosted.org/packages/9d/06/5134e24e369925faad31aab80f134123a9016f098161c3b4b3e362da8acc/sharetop-1.2.4.tar.gz
+[2023-05-04 06:14:31] INFO root fetch - processPackages [vepar]: Downloading https://files.pythonhosted.org/packages/69/b0/60dfeb996aa655feb1decc1b4d692bfa658a2462e18c033a76ff32c04927/vepar-2.5-py2.py3-none-any.whl
+[2023-05-04 06:14:31] INFO root fetch - processPackages [odoo13-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/e9/2a/fa6add413b97539ee8b8af432de823e41365d6763a918cd12aa6bbcad1ee/odoo13_addon_fieldservice_sale-13.0.1.1.1.dev6-py3-none-any.whl
+[2023-05-04 06:14:31] INFO root fetch - processPackages [odoo12-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/fe/fb/a8034c50e6a1b0b08e3cd7714ab3462e64c108c66e0b34e1a10781224e89/odoo12_addon_fieldservice_sale-12.0.2.5.2.99.dev6-py3-none-any.whl
+[2023-05-04 06:14:31] INFO root fetch - processPackages [aiomonitor]: executing diffoscope
+[2023-05-04 06:14:31] INFO root fetch - processPackages [aiomonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomonitor-0.4.5.tar.gz tmp/aiomonitor-0.5.0a1.tar.gz --markdown 20230504/a/aiomonitor/0.4.5-0.5.0a1/diff.md --exclude *.pyd
+[2023-05-04 06:14:31] INFO root fetch - processPackages [odoo14-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/f0/5c/080430c31247395cf01c11acdb5c62ea58e81849b103fd12d8db236f95c8/odoo14_addon_fieldservice_sale-14.0.2.1.1.dev4-py3-none-any.whl
+[2023-05-04 06:14:31] INFO root fetch - processPackages [vepar]: executing diffoscope
+[2023-05-04 06:14:31] INFO root fetch - processPackages [vepar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vepar-2.4.tar.gz tmp/vepar-2.5-py2.py3-none-any.whl.zip --markdown 20230504/v/vepar/2.4-2.5/diff.md --exclude *.pyd
+[2023-05-04 06:14:31] INFO root fetch - processPackages [odoo13-addon-fieldservice-sale]: executing diffoscope
+[2023-05-04 06:14:31] INFO root fetch - processPackages [odoo13-addon-fieldservice-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_fieldservice_sale-13.0.1.1.1.dev5-py3-none-any.whl.zip tmp/odoo13_addon_fieldservice_sale-13.0.1.1.1.dev6-py3-none-any.whl.zip --markdown 20230504/o/odoo13-addon-fieldservice-sale/13.0.1.1.1.dev5-13.0.1.1.1.dev6/diff.md --exclude *.pyd
+[2023-05-04 06:14:31] INFO root fetch - processPackages [odoo12-addon-fieldservice-sale]: executing diffoscope
+[2023-05-04 06:14:31] INFO root fetch - processPackages [odoo12-addon-fieldservice-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_fieldservice_sale-12.0.2.5.2.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_fieldservice_sale-12.0.2.5.2.99.dev6-py3-none-any.whl.zip --markdown 20230504/o/odoo12-addon-fieldservice-sale/12.0.2.5.2.99.dev5-12.0.2.5.2.99.dev6/diff.md --exclude *.pyd
+[2023-05-04 06:14:31] INFO root fetch - processPackages [odoo14-addon-fieldservice-sale]: executing diffoscope
+[2023-05-04 06:14:31] INFO root fetch - processPackages [odoo14-addon-fieldservice-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice_sale-14.0.2.1.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice_sale-14.0.2.1.1.dev4-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addon-fieldservice-sale/14.0.2.1.1.dev3-14.0.2.1.1.dev4/diff.md --exclude *.pyd
+[2023-05-04 06:14:31] INFO root fetch - processPackages [sharetop]: executing diffoscope
+[2023-05-04 06:14:31] INFO root fetch - processPackages [sharetop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharetop-1.2.3.tar.gz tmp/sharetop-1.2.4.tar.gz --markdown 20230504/s/sharetop/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-04 06:14:31] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/a5/73/9e57b9b59e83d8a8c7761faf5f6e097db7f7be4a7baf0902d2cc7a3804f2/yyxx_game_pkg-2023.5.4.1.tar.gz
+[2023-05-04 06:14:32] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-05-04 06:14:32] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.4.7.1.tar.gz tmp/yyxx_game_pkg-2023.5.4.1.tar.gz --markdown 20230504/y/yyxx-game-pkg/2023.4.7.1-2023.5.4.1/diff.md --exclude *.pyd
+[2023-05-04 06:14:32] INFO root fetch - main [MainThread]: End processing [vepar]: success
+[2023-05-04 06:14:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice-sale]: success
+[2023-05-04 06:14:32] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice-sale]: success
+[2023-05-04 06:14:32] INFO root fetch - main [MainThread]: End processing [odoo13-addon-fieldservice-sale]: success
+[2023-05-04 06:14:33] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-05-04 06:14:33] INFO root fetch - main [MainThread]: End processing [sharetop]: success
+[2023-05-04 06:14:34] INFO root fetch - main [MainThread]: End processing [odoo13-addon-fieldservice]: success
+[2023-05-04 06:14:34] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-05-04 06:14:35] INFO root fetch - main [MainThread]: End processing [aiomonitor]: success
+[2023-05-04 06:14:35] INFO root fetch - main [MainThread]: Store serial: [17967326]
