@@ -23145,3 +23145,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 20:56:40] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-04 20:58:24] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-05-04 20:58:24] INFO root fetch - main [MainThread]: Store serial: [17976656]
+[2023-05-04 21:03:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17976656]
+[2023-05-04 21:03:35] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-04 21:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: github-reserved-names
+[2023-05-04 21:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webauthn
+[2023-05-04 21:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EA-framework
+[2023-05-04 21:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ncconvert
+[2023-05-04 21:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyvium
+[2023-05-04 21:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autobuild
+[2023-05-04 21:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: maxeqx-dc-webhook.py
+[2023-05-04 21:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Pequena
+[2023-05-04 21:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tapdance
+[2023-05-04 21:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tariochbctools
+[2023-05-04 21:03:35] INFO root fetch - processPackages [github-reserved-names]: New version: [2023.5.1] Old Version: [1.0.1]
+[2023-05-04 21:03:35] INFO root fetch - processPackages [ncconvert]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 21:03:35] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-04 21:03:35] INFO root fetch - processPackages [EA-framework]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-04 21:03:35] INFO root fetch - processPackages [autobuild]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-05-04 21:03:35] INFO root fetch - processPackages [webauthn]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-05-04 21:03:35] INFO root fetch - processPackages [pyvium]: New version: [0.1.6b0] Old Version: [0.1.5b0]
+[2023-05-04 21:03:35] INFO root fetch - processPackages [tariochbctools]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-04 21:03:35] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 21:03:35] INFO root fetch - processPackages [tapdance]: New version: [0.9.9.dev301] Old Version: [0.9.9.dev299]
+[2023-05-04 21:03:36] INFO root fetch - processPackages [tariochbctools]: executing diffoscope
+[2023-05-04 21:03:36] INFO root fetch - processPackages [tariochbctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tariochbctools-0.8.0.tar.gz tmp/tariochbctools-0.9.0.tar.gz --markdown 20230504/t/tariochbctools/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 21:03:36] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-05-04 21:03:36] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230504/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 21:03:36] INFO root fetch - processPackages [webauthn]: Downloading https://files.pythonhosted.org/packages/c1/fa/c857182d1b1a8c66a4d1a05b501662fed05f013c687e03fc49bcea3ec51e/webauthn-1.8.0.tar.gz
+[2023-05-04 21:03:36] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: Downloading https://files.pythonhosted.org/packages/6d/03/d55efce966df8b2927aa29fc58c2fd19e3030a23f287a585ae12db270e67/maxeqx-dc-webhook.py-1.0.3.tar.gz
+[2023-05-04 21:03:36] INFO root fetch - processPackages [github-reserved-names]: Downloading https://files.pythonhosted.org/packages/39/9f/b76b153a1f6e7b0d02485ae4789a269760a1861670a6cdf71d13075ac5bc/github_reserved_names-1.0.1.tar.gz
+[2023-05-04 21:03:36] INFO root fetch - processPackages [ncconvert]: Downloading https://files.pythonhosted.org/packages/16/48/2b6d106b3409215f6f3f9de40fc148b1dee5b6896e05b0679c0f74efeb4a/ncconvert-0.1.0.tar.gz
+[2023-05-04 21:03:36] INFO root fetch - processPackages [autobuild]: Downloading https://files.pythonhosted.org/packages/69/7b/67ca2d0791aa6660dd8dcbe9f9d6ce975c667c061bda68fa7739a8c41331/autobuild-3.9.1.tar.gz
+[2023-05-04 21:03:36] INFO root fetch - processPackages [EA-framework]: Downloading https://files.pythonhosted.org/packages/05/06/7b6d8cf635984129cb3c44fc1b7afd426374c51f630e9164327da0e9268c/EA_framework-2.2.2.tar.gz
+[2023-05-04 21:03:36] INFO root fetch - processPackages [tapdance]: Downloading https://files.pythonhosted.org/packages/69/93/a7c3f7da9ddcba05fe681f64008e96d82ffe8660682c30356cc9613ee373/tapdance-0.9.9.dev299.tar.gz
+[2023-05-04 21:03:36] INFO root fetch - processPackages [pyvium]: Downloading https://files.pythonhosted.org/packages/8e/d5/531a0c646d2f981d4e5548e2139f0e1b5d6faf2cc2b69631b13244517ea0/pyvium-0.1.6b0.tar.gz
+[2023-05-04 21:03:36] INFO root fetch - processPackages [github-reserved-names]: Downloading https://files.pythonhosted.org/packages/1e/37/4f211c0e6acd91af00adfc9e36a87c3f6a7d5ae99a7854fcc3b7168a381c/github_reserved_names-2023.5.1.tar.gz
+[2023-05-04 21:03:36] INFO root fetch - processPackages [ncconvert]: Downloading https://files.pythonhosted.org/packages/30/3d/2eff7f23e0e8264a5d9402eccefa17f4a6bdff834b0ca824ca519874457f/ncconvert-0.1.1.tar.gz
+[2023-05-04 21:03:36] INFO root fetch - processPackages [EA-framework]: Downloading https://files.pythonhosted.org/packages/5f/bb/c6206bdfaf19cad3d1b11ea32a0aaff6baf1fc6c538d1183126c675cac37/EA_framework-2.2.3.tar.gz
+[2023-05-04 21:03:36] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: Downloading https://files.pythonhosted.org/packages/ab/2c/51bef021ae822f9c515e5826758e3bf619077e17e6df597d790cd145ca8a/maxeqx-dc-webhook.py-1.0.4.tar.gz
+[2023-05-04 21:03:36] INFO root fetch - processPackages [tapdance]: Downloading https://files.pythonhosted.org/packages/54/76/3b00f92c9aa1f16fd4fb6beb5bbc43af0d822489e361a3b29926c889e3bf/tapdance-0.9.9.dev301.tar.gz
+[2023-05-04 21:03:36] INFO root fetch - processPackages [webauthn]: Downloading https://files.pythonhosted.org/packages/dd/bd/f2ce9f351cf40018338e25fd072466557d07d17c24198e303672520e0807/webauthn-1.8.1.tar.gz
+[2023-05-04 21:03:36] INFO root fetch - processPackages [autobuild]: Downloading https://files.pythonhosted.org/packages/e8/c7/fcd9539ea5745b15426a82b5b6e07305b6dbd713bbb93aaf19cb59f2e8ac/autobuild-3.9.2.tar.gz
+[2023-05-04 21:03:36] INFO root fetch - processPackages [github-reserved-names]: executing diffoscope
+[2023-05-04 21:03:36] INFO root fetch - processPackages [github-reserved-names]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_reserved_names-1.0.1.tar.gz tmp/github_reserved_names-2023.5.1.tar.gz --markdown 20230504/g/github-reserved-names/1.0.1-2023.5.1/diff.md --exclude *.pyd
+[2023-05-04 21:03:36] INFO root fetch - processPackages [ncconvert]: executing diffoscope
+[2023-05-04 21:03:36] INFO root fetch - processPackages [ncconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncconvert-0.1.0.tar.gz tmp/ncconvert-0.1.1.tar.gz --markdown 20230504/n/ncconvert/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 21:03:36] INFO root fetch - processPackages [EA-framework]: executing diffoscope
+[2023-05-04 21:03:36] INFO root fetch - processPackages [EA-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EA_framework-2.2.2.tar.gz tmp/EA_framework-2.2.3.tar.gz --markdown 20230504/E/EA-framework/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-04 21:03:36] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: executing diffoscope
+[2023-05-04 21:03:36] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxeqx-dc-webhook.py-1.0.3.tar.gz tmp/maxeqx-dc-webhook.py-1.0.4.tar.gz --markdown 20230504/m/maxeqx-dc-webhook.py/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-04 21:03:36] INFO root fetch - processPackages [tapdance]: executing diffoscope
+[2023-05-04 21:03:36] INFO root fetch - processPackages [tapdance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapdance-0.9.9.dev299.tar.gz tmp/tapdance-0.9.9.dev301.tar.gz --markdown 20230504/t/tapdance/0.9.9.dev299-0.9.9.dev301/diff.md --exclude *.pyd
+[2023-05-04 21:03:36] INFO root fetch - processPackages [webauthn]: executing diffoscope
+[2023-05-04 21:03:36] INFO root fetch - processPackages [webauthn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webauthn-1.8.0.tar.gz tmp/webauthn-1.8.1.tar.gz --markdown 20230504/w/webauthn/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-05-04 21:03:36] INFO root fetch - processPackages [autobuild]: executing diffoscope
+[2023-05-04 21:03:36] INFO root fetch - processPackages [autobuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autobuild-3.9.1.tar.gz tmp/autobuild-3.9.2.tar.gz --markdown 20230504/a/autobuild/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-05-04 21:03:36] INFO root fetch - processPackages [pyvium]: executing diffoscope
+[2023-05-04 21:03:36] INFO root fetch - processPackages [pyvium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvium-0.1.5b0.tar.gz tmp/pyvium-0.1.6b0.tar.gz --markdown 20230504/p/pyvium/0.1.5b0-0.1.6b0/diff.md --exclude *.pyd
+[2023-05-04 21:03:37] INFO root fetch - processPackages [Pequena]: Start processing: EA-framework
+[2023-05-04 21:03:37] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-05-04 21:03:37] INFO root fetch - processPackages [EA-framework]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-04 21:03:37] INFO root fetch - processPackages [EA-framework]: executing diffoscope
+[2023-05-04 21:03:37] INFO root fetch - processPackages [EA-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EA_framework-2.2.2.tar.gz tmp/EA_framework-2.2.3.tar.gz --markdown 20230504/E/EA-framework/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-04 21:03:37] INFO root fetch - processPackages [tariochbctools]: Start processing: maxeqx-dc-webhook.py
+[2023-05-04 21:03:37] INFO root fetch - main [MainThread]: End processing [tariochbctools]: success
+[2023-05-04 21:03:37] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-04 21:03:37] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: executing diffoscope
+[2023-05-04 21:03:37] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxeqx-dc-webhook.py-1.0.3.tar.gz tmp/maxeqx-dc-webhook.py-1.0.4.tar.gz --markdown 20230504/m/maxeqx-dc-webhook.py/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-04 21:03:38] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: Start processing: flowjax
+[2023-05-04 21:03:38] INFO root fetch - main [MainThread]: End processing [maxeqx-dc-webhook.py]: success
+[2023-05-04 21:03:38] INFO root fetch - processPackages [flowjax]: New version: [9.0.0] Old Version: [8.1.0]
+[2023-05-04 21:03:38] INFO root fetch - main [MainThread]: End processing [github-reserved-names]: success
+[2023-05-04 21:03:38] INFO root fetch - processPackages [flowjax]: Downloading https://files.pythonhosted.org/packages/eb/8c/3f5204ec8c7f514c03d77b51c4bf7c18b57c2e6d30b9724da6f24a1c2dd3/flowjax-8.1.0.tar.gz
+[2023-05-04 21:03:38] INFO root fetch - main [MainThread]: End processing [ncconvert]: success
+[2023-05-04 21:03:38] INFO root fetch - main [MainThread]: End processing [tapdance]: success
+[2023-05-04 21:03:38] INFO root fetch - processPackages [flowjax]: Downloading https://files.pythonhosted.org/packages/da/c8/9fe145ea30187a5aa5d915eee41441341e8b9baeabe05e855d9ced532a93/flowjax-9.0.0.tar.gz
+[2023-05-04 21:03:38] INFO root fetch - main [MainThread]: End processing [EA-framework]: success
+[2023-05-04 21:03:38] INFO root fetch - processPackages [flowjax]: executing diffoscope
+[2023-05-04 21:03:38] INFO root fetch - processPackages [flowjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowjax-8.1.0.tar.gz tmp/flowjax-9.0.0.tar.gz --markdown 20230504/f/flowjax/8.1.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-04 21:03:38] INFO root fetch - main [MainThread]: End processing [EA-framework]: success
+[2023-05-04 21:03:38] INFO root fetch - main [MainThread]: End processing [pyvium]: success
+[2023-05-04 21:03:38] INFO root fetch - main [MainThread]: End processing [maxeqx-dc-webhook.py]: success
+[2023-05-04 21:03:39] INFO root fetch - main [MainThread]: End processing [autobuild]: success
+[2023-05-04 21:03:39] INFO root fetch - main [MainThread]: End processing [webauthn]: success
+[2023-05-04 21:03:40] INFO root fetch - main [MainThread]: End processing [flowjax]: success
+[2023-05-04 21:03:40] INFO root fetch - main [MainThread]: Store serial: [17976711]
