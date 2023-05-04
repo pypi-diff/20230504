@@ -20419,3 +20419,120 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 18:59:25] INFO root fetch - main [MainThread]: End processing [not1mm]: success
 [2023-05-04 18:59:26] INFO root fetch - main [MainThread]: End processing [dash-extensions]: success
 [2023-05-04 18:59:26] INFO root fetch - main [MainThread]: Store serial: [17975164]
+[2023-05-04 19:04:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17975164]
+[2023-05-04 19:04:36] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-04 19:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylitterbot
+[2023-05-04 19:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dmrcot
+[2023-05-04 19:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: levmarq-torch
+[2023-05-04 19:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vectorGPTBot
+[2023-05-04 19:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MultivariaTeach
+[2023-05-04 19:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: malloy
+[2023-05-04 19:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: basemap
+[2023-05-04 19:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PaReBrick
+[2023-05-04 19:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lsms
+[2023-05-04 19:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanda
+[2023-05-04 19:04:36] INFO root fetch - processPackages [vectorGPTBot]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 19:04:36] WARNING root fetch - processPackages [dmrcot]: Skipping, unable to determine old version
+[2023-05-04 19:04:36] WARNING root fetch - processPackages [malloy]: Skipping, unable to determine old version
+[2023-05-04 19:04:36] INFO root fetch - processPackages [dmrcot]: Start processing: xia-scw-instance
+[2023-05-04 19:04:36] INFO root fetch - main [MainThread]: End processing [dmrcot] error
+[2023-05-04 19:04:36] INFO root fetch - processPackages [malloy]: Start processing: dpsa4fl-bindings
+[2023-05-04 19:04:36] INFO root fetch - main [MainThread]: End processing [malloy] error
+[2023-05-04 19:04:36] INFO root fetch - processPackages [lsms]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-04 19:04:36] WARNING root fetch - processPackages [levmarq-torch]: Skipping, unable to determine old version
+[2023-05-04 19:04:36] INFO root fetch - processPackages [levmarq-torch]: Start processing: AutoGenerateMKD
+[2023-05-04 19:04:36] INFO root fetch - main [MainThread]: End processing [levmarq-torch] error
+[2023-05-04 19:04:36] INFO root fetch - processPackages [spanda]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 19:04:36] INFO root fetch - processPackages [MultivariaTeach]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-04 19:04:36] INFO root fetch - processPackages [pylitterbot]: New version: [2023.4.0] Old Version: [2023.1.2]
+[2023-05-04 19:04:36] INFO root fetch - processPackages [PaReBrick]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-04 19:04:36] INFO root fetch - processPackages [basemap]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-05-04 19:04:36] INFO root fetch - processPackages [xia-scw-instance]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-04 19:04:36] INFO root fetch - processPackages [dpsa4fl-bindings]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 19:04:36] WARNING root fetch - processPackages [AutoGenerateMKD]: Skipping, unable to determine old version
+[2023-05-04 19:04:36] INFO root fetch - processPackages [AutoGenerateMKD]: Start processing: fastapi-async-langchain
+[2023-05-04 19:04:36] INFO root fetch - main [MainThread]: End processing [AutoGenerateMKD] error
+[2023-05-04 19:04:36] INFO root fetch - processPackages [fastapi-async-langchain]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-04 19:04:36] INFO root fetch - processPackages [lsms]: Downloading https://files.pythonhosted.org/packages/a5/b1/4e02522af09bd7ebb50a7a81e4876d0e2f84e83afd289fac5f9f24d33d30/lsms-0.4.4-py2.py3-none-any.whl
+[2023-05-04 19:04:36] INFO root fetch - processPackages [MultivariaTeach]: Downloading https://files.pythonhosted.org/packages/6e/34/bb3f5d68525a887d2579806298cd04452af7d90a16a19ed21bc0b33cb79a/MultivariaTeach-0.1.8.tar.gz
+[2023-05-04 19:04:36] INFO root fetch - processPackages [spanda]: Downloading https://files.pythonhosted.org/packages/f9/1c/224f2a2844ff544cba61066bbbc6eac17089005c1cc1100c368cf8be5aea/spanda-0.0.8.tar.gz
+[2023-05-04 19:04:36] INFO root fetch - processPackages [pylitterbot]: Downloading https://files.pythonhosted.org/packages/85/b4/a8afd951934ab13b7b65b0d13f1eda354cde7ef0fc5fe2847eebdaf48c87/pylitterbot-2023.1.2.tar.gz
+[2023-05-04 19:04:36] INFO root fetch - processPackages [basemap]: Downloading https://files.pythonhosted.org/packages/9d/7f/52d4e666c21e8a07671e343f7ce7fb15d082ada4557e5c6bd41b05c6394e/basemap-1.3.6.zip
+[2023-05-04 19:04:36] INFO root fetch - processPackages [xia-scw-instance]: executing diffoscope
+[2023-05-04 19:04:36] INFO root fetch - processPackages [xia-scw-instance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_scw_instance-0.0.9-cp39-none-win_amd64.whl.zip tmp/xia_scw_instance-0.1.0-cp39-none-win_amd64.whl.zip --markdown 20230504/x/xia-scw-instance/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-04 19:04:36] INFO root fetch - processPackages [PaReBrick]: Downloading https://files.pythonhosted.org/packages/ea/f7/1a513a3007fc8e10781c652ee624eebdc1a272bd32aaf236722131c6b47f/PaReBrick-0.5.3.tar.gz
+[2023-05-04 19:04:36] INFO root fetch - processPackages [vectorGPTBot]: Downloading https://files.pythonhosted.org/packages/6d/88/187c6c2819fb2081a8c216d8f1a52d3347aeff0601fc4b2790490216cc38/vectorGPTBot-0.1.2.tar.gz
+[2023-05-04 19:04:36] INFO root fetch - processPackages [MultivariaTeach]: executing diffoscope
+[2023-05-04 19:04:36] INFO root fetch - processPackages [MultivariaTeach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultivariaTeach-0.1.7.tar.gz tmp/MultivariaTeach-0.1.8.tar.gz --markdown 20230504/M/MultivariaTeach/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-04 19:04:36] INFO root fetch - processPackages [vectorGPTBot]: executing diffoscope
+[2023-05-04 19:04:36] INFO root fetch - processPackages [vectorGPTBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectorGPTBot-0.1.1.tar.gz tmp/vectorGPTBot-0.1.2.tar.gz --markdown 20230504/v/vectorGPTBot/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 19:04:36] INFO root fetch - processPackages [PaReBrick]: executing diffoscope
+[2023-05-04 19:04:36] INFO root fetch - processPackages [PaReBrick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PaReBrick-0.5.2.tar.gz tmp/PaReBrick-0.5.3.tar.gz --markdown 20230504/P/PaReBrick/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-04 19:04:36] INFO root fetch - processPackages [dpsa4fl-bindings]: executing diffoscope
+[2023-05-04 19:04:36] INFO root fetch - processPackages [dpsa4fl-bindings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpsa4fl_bindings-0.1.8.tar.gz tmp/dpsa4fl_bindings-0.1.9.tar.gz --markdown 20230504/d/dpsa4fl-bindings/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 19:04:37] INFO root fetch - processPackages [lsms]: Downloading https://files.pythonhosted.org/packages/98/22/8a9ae406d9f77101e1f679dcb46db526651024cda5494d20270388e6eff3/lsms-0.4.5-py2.py3-none-any.whl
+[2023-05-04 19:04:37] INFO root fetch - processPackages [basemap]: Downloading https://files.pythonhosted.org/packages/4e/04/248c1a5429f5d26cdf089dacb612d7770ba7e08e89b63f1e2535126f4ab9/basemap-1.3.7-cp35-cp35m-win_amd64.whl
+[2023-05-04 19:04:37] INFO root fetch - processPackages [fastapi-async-langchain]: Downloading https://files.pythonhosted.org/packages/52/94/71f440e69996a1c39abc2932640f81742c2c1df1d434aac908c419f8d222/fastapi_async_langchain-0.4.2.tar.gz
+[2023-05-04 19:04:37] INFO root fetch - processPackages [spanda]: Downloading https://files.pythonhosted.org/packages/3f/ee/2a6ac7824ab34f67be3c79be0283b2c16749354722e45300bcd2ff6258e2/spanda-0.0.9.tar.gz
+[2023-05-04 19:04:37] INFO root fetch - processPackages [lsms]: executing diffoscope
+[2023-05-04 19:04:37] INFO root fetch - processPackages [lsms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsms-0.4.4-py2.py3-none-any.whl.zip tmp/lsms-0.4.5-py2.py3-none-any.whl.zip --markdown 20230504/l/lsms/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-04 19:04:37] INFO root fetch - processPackages [pylitterbot]: Downloading https://files.pythonhosted.org/packages/f2/b1/de0c16e430ee9755f9bff522585b0218acc19034efd176310a7abf4a25d9/pylitterbot-2023.4.0.tar.gz
+[2023-05-04 19:04:37] INFO root fetch - processPackages [fastapi-async-langchain]: executing diffoscope
+[2023-05-04 19:04:37] INFO root fetch - processPackages [fastapi-async-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_async_langchain-0.4.1.tar.gz tmp/fastapi_async_langchain-0.4.2.tar.gz --markdown 20230504/f/fastapi-async-langchain/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-04 19:04:37] INFO root fetch - processPackages [spanda]: executing diffoscope
+[2023-05-04 19:04:37] INFO root fetch - processPackages [spanda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanda-0.0.8.tar.gz tmp/spanda-0.0.9.tar.gz --markdown 20230504/s/spanda/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 19:04:37] INFO root fetch - processPackages [basemap]: executing diffoscope
+[2023-05-04 19:04:37] INFO root fetch - processPackages [basemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basemap-1.3.6.zip tmp/basemap-1.3.7-cp35-cp35m-win_amd64.whl.zip --markdown 20230504/b/basemap/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-05-04 19:04:37] INFO root fetch - processPackages [pylitterbot]: executing diffoscope
+[2023-05-04 19:04:37] INFO root fetch - processPackages [pylitterbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylitterbot-2023.1.2.tar.gz tmp/pylitterbot-2023.4.0.tar.gz --markdown 20230504/p/pylitterbot/2023.1.2-2023.4.0/diff.md --exclude *.pyd
+[2023-05-04 19:04:38] INFO root fetch - processPackages [xia-scw-instance]: Start processing: arosics
+[2023-05-04 19:04:38] INFO root fetch - main [MainThread]: End processing [xia-scw-instance]: success
+[2023-05-04 19:04:38] INFO root fetch - processPackages [vectorGPTBot]: Start processing: domino-py
+[2023-05-04 19:04:38] INFO root fetch - main [MainThread]: End processing [vectorGPTBot]: success
+[2023-05-04 19:04:38] INFO root fetch - processPackages [domino-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 19:04:38] INFO root fetch - processPackages [arosics]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-04 19:04:38] INFO root fetch - processPackages [domino-py]: executing diffoscope
+[2023-05-04 19:04:38] INFO root fetch - processPackages [domino-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domino-py-0.1.8.tar.gz tmp/domino-py-0.1.9.tar.gz --markdown 20230504/d/domino-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 19:04:38] INFO root fetch - processPackages [lsms]: Start processing: histomicsui
+[2023-05-04 19:04:38] INFO root fetch - main [MainThread]: End processing [lsms]: success
+[2023-05-04 19:04:38] INFO root fetch - processPackages [histomicsui]: New version: [1.4.3.dev8] Old Version: [1.4.3.dev5]
+[2023-05-04 19:04:38] INFO root fetch - processPackages [histomicsui]: executing diffoscope
+[2023-05-04 19:04:38] INFO root fetch - processPackages [histomicsui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histomicsui-1.4.3.dev5.tar.gz tmp/histomicsui-1.4.3.dev8.tar.gz --markdown 20230504/h/histomicsui/1.4.3.dev5-1.4.3.dev8/diff.md --exclude *.pyd
+[2023-05-04 19:04:38] INFO root fetch - processPackages [arosics]: Downloading https://files.pythonhosted.org/packages/31/2b/23771f2489398d0a728ad76e44285f55dee9ce61f5b0a6a594bf782e6a87/arosics-1.8.1.tar.gz
+[2023-05-04 19:04:38] INFO root fetch - processPackages [MultivariaTeach]: Start processing: redis-elastic
+[2023-05-04 19:04:38] INFO root fetch - main [MainThread]: End processing [MultivariaTeach]: success
+[2023-05-04 19:04:38] INFO root fetch - processPackages [redis-elastic]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-04 19:04:38] INFO root fetch - processPackages [redis-elastic]: executing diffoscope
+[2023-05-04 19:04:38] INFO root fetch - processPackages [redis-elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_elastic-0.3.2.tar.gz tmp/redis_elastic-0.3.3.tar.gz --markdown 20230504/r/redis-elastic/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-04 19:04:38] INFO root fetch - processPackages [PaReBrick]: Start processing: anylabeling-gpu
+[2023-05-04 19:04:38] INFO root fetch - main [MainThread]: End processing [PaReBrick]: success
+[2023-05-04 19:04:38] INFO root fetch - processPackages [spanda]: Start processing: ukmon-meteortools
+[2023-05-04 19:04:38] INFO root fetch - main [MainThread]: End processing [spanda]: success
+[2023-05-04 19:04:38] INFO root fetch - processPackages [ukmon-meteortools]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-05-04 19:04:38] ERROR root fetch - processPackages [anylabeling-gpu]: Unable to get metadata: No such project 'anylabeling-gpu'
+[2023-05-04 19:04:38] INFO root fetch - processPackages [anylabeling-gpu]: Start processing: certora-cli-alpha-otakar-single-race-mode2
+[2023-05-04 19:04:38] INFO root fetch - main [MainThread]: End processing [anylabeling-gpu] error
+[2023-05-04 19:04:39] INFO root fetch - processPackages [fastapi-async-langchain]: Start processing: certora-cli-alpha-Shahar-CERT-1859
+[2023-05-04 19:04:39] INFO root fetch - main [MainThread]: End processing [fastapi-async-langchain]: success
+[2023-05-04 19:04:39] INFO root fetch - processPackages [arosics]: Downloading https://files.pythonhosted.org/packages/9c/69/1cbee436286b6c24b5943d6d384ec3893bc763e6f5bc1e2c681ab80b4068/arosics-1.9.0.tar.gz
+[2023-05-04 19:04:39] INFO root fetch - main [MainThread]: End processing [basemap]: success
+[2023-05-04 19:04:39] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: New version: [20230504.9.59.715367] Old Version: [20230504.7.14.754863]
+[2023-05-04 19:04:39] INFO root fetch - processPackages [ukmon-meteortools]: executing diffoscope
+[2023-05-04 19:04:39] INFO root fetch - processPackages [ukmon-meteortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukmon_meteortools-2023.5.2.tar.gz tmp/ukmon_meteortools-2023.5.3.tar.gz --markdown 20230504/u/ukmon-meteortools/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-05-04 19:04:39] INFO root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: New version: [20230504.15.59.731560] Old Version: [20230504.15.41.781287]
+[2023-05-04 19:04:39] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Downloading https://files.pythonhosted.org/packages/22/00/47d381bfcfb8a2f0f0b571545e881ead0ece177e6a4d6e733008956433d4/certora-cli-alpha-otakar-single_race_mode2-20230504.7.14.754863.tar.gz
+[2023-05-04 19:04:39] INFO root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: Downloading https://files.pythonhosted.org/packages/f4/13/248c35e4ab18336515008e11c995c171e9bc4656259c60d5516d38db7af3/certora-cli-alpha-Shahar-CERT-1859-20230504.15.41.781287.tar.gz
+[2023-05-04 19:04:39] INFO root fetch - main [MainThread]: End processing [pylitterbot]: success
+[2023-05-04 19:04:39] WARNING root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Skipping package: exceeds size limit 38420702>=10485760
+[2023-05-04 19:04:39] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-otakar-single-race-mode2] error
+[2023-05-04 19:04:39] WARNING root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: Skipping package: exceeds size limit 38471531>=10485760
+[2023-05-04 19:04:39] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-Shahar-CERT-1859] error
+[2023-05-04 19:04:39] INFO root fetch - main [MainThread]: End processing [dpsa4fl-bindings]: success
+[2023-05-04 19:04:39] INFO root fetch - processPackages [arosics]: executing diffoscope
+[2023-05-04 19:04:39] INFO root fetch - processPackages [arosics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arosics-1.8.1.tar.gz tmp/arosics-1.9.0.tar.gz --markdown 20230504/a/arosics/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-04 19:04:39] INFO root fetch - main [MainThread]: End processing [redis-elastic]: success
+[2023-05-04 19:04:40] INFO root fetch - main [MainThread]: End processing [histomicsui]: success
+[2023-05-04 19:04:40] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
+[2023-05-04 19:04:41] INFO root fetch - main [MainThread]: End processing [domino-py]: success
+[2023-05-04 19:04:41] INFO root fetch - main [MainThread]: End processing [arosics]: success
+[2023-05-04 19:04:41] INFO root fetch - main [MainThread]: Store serial: [17975237]
