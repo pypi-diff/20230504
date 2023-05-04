@@ -12655,3 +12655,145 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 12:17:01] INFO root fetch - main [MainThread]: End processing [nitric]: success
 [2023-05-04 12:17:10] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-04 12:17:10] INFO root fetch - main [MainThread]: Store serial: [17970579]
+[2023-05-04 12:22:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17970579]
+[2023-05-04 12:22:21] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-04 12:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-pony-express
+[2023-05-04 12:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hpcflow-new2
+[2023-05-04 12:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: design.plone.contenttypes
+[2023-05-04 12:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: potatorch
+[2023-05-04 12:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-json
+[2023-05-04 12:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airoboros
+[2023-05-04 12:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nitric
+[2023-05-04 12:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hsmm-mvpy
+[2023-05-04 12:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modular-rl
+[2023-05-04 12:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wbBase
+[2023-05-04 12:22:21] INFO root fetch - processPackages [hsmm-mvpy]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-05-04 12:22:21] INFO root fetch - processPackages [modular-rl]: New version: [0.1.1.dev0] Old Version: [0.1.0.dev0]
+[2023-05-04 12:22:21] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-05-04 12:22:21] INFO root fetch - processPackages [django-pony-express]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-04 12:22:21] INFO root fetch - processPackages [airoboros]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-04 12:22:21] INFO root fetch - processPackages [potatorch]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-04 12:22:21] INFO root fetch - processPackages [design.plone.contenttypes]: New version: [6.0.8] Old Version: [6.0.7]
+[2023-05-04 12:22:21] INFO root fetch - processPackages [wbBase]: New version: [0.1.58] Old Version: [0.1.56]
+[2023-05-04 12:22:21] INFO root fetch - processPackages [mo-json]: New version: [6.382.23124] Old Version: [6.374.23120]
+[2023-05-04 12:22:21] INFO root fetch - processPackages [nitric]: New version: [0.9.2.dev4] Old Version: [0.9.2.dev3]
+[2023-05-04 12:22:21] INFO root fetch - processPackages [nitric]: executing diffoscope
+[2023-05-04 12:22:21] INFO root fetch - processPackages [nitric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitric-0.9.2.dev3.tar.gz tmp/nitric-0.9.2.dev4.tar.gz --markdown 20230504/n/nitric/0.9.2.dev3-0.9.2.dev4/diff.md --exclude *.pyd
+[2023-05-04 12:22:21] INFO root fetch - processPackages [modular-rl]: Downloading https://files.pythonhosted.org/packages/6f/a9/13ade01c5154cf2009a266ae6050f1a6ae5fcc62aae437de9f03630998c2/modular_rl-0.1.0.dev0.tar.gz
+[2023-05-04 12:22:21] INFO root fetch - processPackages [potatorch]: Downloading https://files.pythonhosted.org/packages/d7/65/330596d6abebf7e2a3f5303bb845a0a2078837eccce3e95af9d19e94fb48/potatorch-0.0.1.tar.gz
+[2023-05-04 12:22:21] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/cc/ca/1fd224eb5a09826e85c92dd157f8295299e773354fdb824dadc0590fb96a/hpcflow_new2-0.2.0a8.tar.gz
+[2023-05-04 12:22:21] INFO root fetch - processPackages [hsmm-mvpy]: Downloading https://files.pythonhosted.org/packages/82/55/1dd3d2de77edc3bcd0ff487edaf27cbc06a45d1eb71a91fa921536365a00/hsmm_mvpy-0.1.0a2.tar.gz
+[2023-05-04 12:22:21] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/f2/45/33dcd79d5260ec3db98921541030a09cfddd4c49c2f3713040fb24eb787d/mo_json-6.374.23120-py2.py3-none-any.whl
+[2023-05-04 12:22:21] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/55/7a/b3d9adf8e72e07ce0dc8b544e82a10bf3f6e2afd264ede3c571ebd362181/design.plone.contenttypes-6.0.8.tar.gz
+[2023-05-04 12:22:21] INFO root fetch - processPackages [django-pony-express]: Downloading https://files.pythonhosted.org/packages/9f/ba/59d859d728a643fabbfc8dc633779bb403543c8fbd8edae53c1549e59341/django-pony-express-1.0.2.tar.gz
+[2023-05-04 12:22:21] INFO root fetch - processPackages [hsmm-mvpy]: executing diffoscope
+[2023-05-04 12:22:21] INFO root fetch - processPackages [hsmm-mvpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsmm_mvpy-0.1.0a1.tar.gz tmp/hsmm_mvpy-0.1.0a2.tar.gz --markdown 20230504/h/hsmm-mvpy/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-05-04 12:22:21] INFO root fetch - processPackages [airoboros]: Downloading https://files.pythonhosted.org/packages/34/5a/0d9871ab579d8f52954938e55aae2210d79ac9094c14bb690b0be488176a/airoboros-0.0.6.tar.gz
+[2023-05-04 12:22:21] INFO root fetch - processPackages [wbBase]: Downloading https://files.pythonhosted.org/packages/07/ce/8e8bca02606fe8c764f11d89c8f83f47bfb11ec92ddb19ca0e331378c0e7/wbBase-0.1.58.tar.gz
+[2023-05-04 12:22:22] INFO root fetch - processPackages [modular-rl]: Downloading https://files.pythonhosted.org/packages/01/eb/78d524ab6c9a477ef50b2254aefecc4ad094c1da908fd4b1432ee561ba62/modular_rl-0.1.1.dev0.tar.gz
+[2023-05-04 12:22:22] INFO root fetch - processPackages [django-pony-express]: executing diffoscope
+[2023-05-04 12:22:22] INFO root fetch - processPackages [django-pony-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pony-express-1.0.1.tar.gz tmp/django-pony-express-1.0.2.tar.gz --markdown 20230504/d/django-pony-express/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-04 12:22:22] INFO root fetch - processPackages [design.plone.contenttypes]: executing diffoscope
+[2023-05-04 12:22:22] INFO root fetch - processPackages [design.plone.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.contenttypes-6.0.7.tar.gz tmp/design.plone.contenttypes-6.0.8.tar.gz --markdown 20230504/d/design.plone.contenttypes/6.0.7-6.0.8/diff.md --exclude *.pyd
+[2023-05-04 12:22:22] INFO root fetch - processPackages [airoboros]: executing diffoscope
+[2023-05-04 12:22:22] INFO root fetch - processPackages [airoboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airoboros-0.0.5-py3-none-any.whl.zip tmp/airoboros-0.0.6.tar.gz --markdown 20230504/a/airoboros/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-04 12:22:22] INFO root fetch - processPackages [wbBase]: executing diffoscope
+[2023-05-04 12:22:22] INFO root fetch - processPackages [wbBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbBase-0.1.56.tar.gz tmp/wbBase-0.1.58.tar.gz --markdown 20230504/w/wbBase/0.1.56-0.1.58/diff.md --exclude *.pyd
+[2023-05-04 12:22:22] INFO root fetch - processPackages [potatorch]: Downloading https://files.pythonhosted.org/packages/a4/8f/7377f1d6422e1d1a025d090a4a6ae5557e6355631a72a68966478a3c62cd/potatorch-0.0.2.tar.gz
+[2023-05-04 12:22:22] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/6a/3d/576e994ae731fc72fcbe4998e6ea4bd56890063aa7e4bfb781541d0763c6/mo_json-6.382.23124-py2.py3-none-any.whl
+[2023-05-04 12:22:22] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/8f/94/5cf6c22b7755a1754a5e0798543a3a471342e39b288d923874c390867d9f/hpcflow_new2-0.2.0a9.tar.gz
+[2023-05-04 12:22:22] INFO root fetch - processPackages [modular-rl]: executing diffoscope
+[2023-05-04 12:22:22] INFO root fetch - processPackages [modular-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modular_rl-0.1.0.dev0.tar.gz tmp/modular_rl-0.1.1.dev0.tar.gz --markdown 20230504/m/modular-rl/0.1.0.dev0-0.1.1.dev0/diff.md --exclude *.pyd
+[2023-05-04 12:22:22] INFO root fetch - processPackages [potatorch]: executing diffoscope
+[2023-05-04 12:22:22] INFO root fetch - processPackages [potatorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/potatorch-0.0.1.tar.gz tmp/potatorch-0.0.2.tar.gz --markdown 20230504/p/potatorch/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-04 12:22:22] INFO root fetch - processPackages [mo-json]: executing diffoscope
+[2023-05-04 12:22:22] INFO root fetch - processPackages [mo-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_json-6.374.23120-py2.py3-none-any.whl.zip tmp/mo_json-6.382.23124-py2.py3-none-any.whl.zip --markdown 20230504/m/mo-json/6.374.23120-6.382.23124/diff.md --exclude *.pyd
+[2023-05-04 12:22:22] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2023-05-04 12:22:22] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a8.tar.gz tmp/hpcflow_new2-0.2.0a9.tar.gz --markdown 20230504/h/hpcflow-new2/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-05-04 12:22:23] INFO root fetch - processPackages [nitric]: Start processing: pyxel-dic
+[2023-05-04 12:22:23] INFO root fetch - main [MainThread]: End processing [nitric]: success
+[2023-05-04 12:22:23] INFO root fetch - processPackages [airoboros]: Start processing: aij-webcam
+[2023-05-04 12:22:23] INFO root fetch - main [MainThread]: End processing [airoboros]: success
+[2023-05-04 12:22:23] INFO root fetch - processPackages [pyxel-dic]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-05-04 12:22:23] INFO root fetch - processPackages [aij-webcam]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-04 12:22:23] INFO root fetch - processPackages [django-pony-express]: Start processing: qualle
+[2023-05-04 12:22:23] INFO root fetch - main [MainThread]: End processing [django-pony-express]: success
+[2023-05-04 12:22:23] INFO root fetch - processPackages [qualle]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-04 12:22:23] INFO root fetch - processPackages [pyxel-dic]: Downloading https://files.pythonhosted.org/packages/ae/bd/1376ed48578211a0d98caa0185f2bc3331ed7dc71af95400b806eef23775/pyxel-dic-3.0.2.tar.gz
+[2023-05-04 12:22:23] INFO root fetch - processPackages [aij-webcam]: Downloading https://files.pythonhosted.org/packages/1d/c6/17cb2893b0c243d7c5883fcb06c9cb13a2f6eacb998287ada157d2132a66/aij-webcam-1.0.6.tar.gz
+[2023-05-04 12:22:23] INFO root fetch - processPackages [hsmm-mvpy]: Start processing: stringlifier39
+[2023-05-04 12:22:23] INFO root fetch - main [MainThread]: End processing [hsmm-mvpy]: success
+[2023-05-04 12:22:24] INFO root fetch - processPackages [stringlifier39]: New version: [0.1.1.7] Old Version: [0.1.1.6]
+[2023-05-04 12:22:24] INFO root fetch - processPackages [potatorch]: Start processing: degate-connector
+[2023-05-04 12:22:24] INFO root fetch - main [MainThread]: End processing [potatorch]: success
+[2023-05-04 12:22:24] INFO root fetch - processPackages [aij-webcam]: executing diffoscope
+[2023-05-04 12:22:24] INFO root fetch - processPackages [aij-webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-webcam-1.0.5.tar.gz tmp/aij-webcam-1.0.6.tar.gz --markdown 20230504/a/aij-webcam/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-04 12:22:24] INFO root fetch - processPackages [mo-json]: Start processing: merqube-client-lib
+[2023-05-04 12:22:24] INFO root fetch - main [MainThread]: End processing [mo-json]: success
+[2023-05-04 12:22:24] INFO root fetch - processPackages [merqube-client-lib]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-05-04 12:22:24] INFO root fetch - processPackages [qualle]: Downloading https://files.pythonhosted.org/packages/60/38/0166efa9809145b982b26697a275616c82138e6e024f2ae539ddd8a75bc4/qualle-0.1.1.tar.gz
+[2023-05-04 12:22:24] INFO root fetch - processPackages [modular-rl]: Start processing: qmenta-client
+[2023-05-04 12:22:24] INFO root fetch - main [MainThread]: End processing [modular-rl]: success
+[2023-05-04 12:22:24] INFO root fetch - processPackages [qmenta-client]: New version: [0.9.1] Old Version: [0.9]
+[2023-05-04 12:22:24] INFO root fetch - processPackages [degate-connector]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-05-04 12:22:24] INFO root fetch - processPackages [stringlifier39]: Downloading https://files.pythonhosted.org/packages/3c/06/afcde334cea59c0eb1268720a8df61f82b9223279cbabdb4f395e300198d/stringlifier39-0.1.1.6.tar.gz
+[2023-05-04 12:22:24] INFO root fetch - processPackages [wbBase]: Start processing: open-dread-rando
+[2023-05-04 12:22:24] INFO root fetch - main [MainThread]: End processing [wbBase]: success
+[2023-05-04 12:22:24] INFO root fetch - processPackages [pyxel-dic]: Downloading https://files.pythonhosted.org/packages/b7/ad/fe3f181bdd12a6fadc07843a97c019de90b099ff33366bc1d580d03e9979/pyxel-dic-3.0.3.tar.gz
+[2023-05-04 12:22:24] INFO root fetch - processPackages [qmenta-client]: executing diffoscope
+[2023-05-04 12:22:24] INFO root fetch - processPackages [qmenta-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qmenta_client-0.9-py2.py3-none-any.whl.zip tmp/qmenta_client-0.9.1-py2.py3-none-any.whl.zip --markdown 20230504/q/qmenta-client/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-05-04 12:22:24] INFO root fetch - processPackages [merqube-client-lib]: Downloading https://files.pythonhosted.org/packages/1d/2f/3a514c4287cccdb7251414a51d890d713002ef01d0d97b9ad57a03866918/merqube_client_lib-0.3.0.tar.gz
+[2023-05-04 12:22:24] INFO root fetch - processPackages [degate-connector]: Downloading https://files.pythonhosted.org/packages/74/24/da924220be99efd0e851f0e506f9045e7c5046cd526ad9852d3f459f973c/degate-connector-1.5.6.tar.gz
+[2023-05-04 12:22:24] INFO root fetch - processPackages [pyxel-dic]: executing diffoscope
+[2023-05-04 12:22:24] INFO root fetch - processPackages [pyxel-dic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxel-dic-3.0.2.tar.gz tmp/pyxel-dic-3.0.3.tar.gz --markdown 20230504/p/pyxel-dic/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-05-04 12:22:24] INFO root fetch - processPackages [qualle]: Downloading https://files.pythonhosted.org/packages/ba/0e/3e540a1f99d9f5082034861b49697d986174e1c6865ceeb93c62599826d0/qualle-0.2.0.tar.gz
+[2023-05-04 12:22:24] INFO root fetch - processPackages [open-dread-rando]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-04 12:22:24] WARNING root fetch - processPackages [degate-connector]: Skipping package: exceeds size limit 36970311>=10485760
+[2023-05-04 12:22:24] INFO root fetch - processPackages [degate-connector]: Start processing: xarray-safe-s1
+[2023-05-04 12:22:24] INFO root fetch - main [MainThread]: End processing [degate-connector] error
+[2023-05-04 12:22:24] INFO root fetch - processPackages [merqube-client-lib]: executing diffoscope
+[2023-05-04 12:22:24] INFO root fetch - processPackages [merqube-client-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merqube_client_lib-0.2.3.tar.gz tmp/merqube_client_lib-0.3.0.tar.gz --markdown 20230504/m/merqube-client-lib/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-05-04 12:22:24] INFO root fetch - processPackages [hpcflow-new2]: Start processing: eodhd
+[2023-05-04 12:22:24] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2023-05-04 12:22:24] INFO root fetch - processPackages [qualle]: executing diffoscope
+[2023-05-04 12:22:24] INFO root fetch - processPackages [qualle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualle-0.1.1.tar.gz tmp/qualle-0.2.0.tar.gz --markdown 20230504/q/qualle/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-04 12:22:24] INFO root fetch - processPackages [open-dread-rando]: Downloading https://files.pythonhosted.org/packages/f3/e3/653dc4b52548dfd32d02b77f6edb0ce990de14e97ef277316735f00a1301/open-dread-rando-2.1.0.tar.gz
+[2023-05-04 12:22:24] INFO root fetch - processPackages [xarray-safe-s1]: New version: [2023.5.4] Old Version: [1.0.4]
+[2023-05-04 12:22:24] INFO root fetch - processPackages [eodhd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 12:22:24] INFO root fetch - processPackages [stringlifier39]: Downloading https://files.pythonhosted.org/packages/fb/56/836f7c426b177b45ce8c37e3184a2046988e98615988b62bfad4aff34599/stringlifier39-0.1.1.7.tar.gz
+[2023-05-04 12:22:24] INFO root fetch - processPackages [eodhd]: Downloading https://files.pythonhosted.org/packages/6b/a8/f815d6d0508c5f846e77a607973b290124b9418d56ce464af6fa6ef5e614/eodhd-1.0.8.tar.gz
+[2023-05-04 12:22:24] INFO root fetch - processPackages [open-dread-rando]: Downloading https://files.pythonhosted.org/packages/79/ac/229fdf9afb0ef930f77fb76e8b5b61650a640e5508a97cba4e05295e35d4/open-dread-rando-2.1.1.tar.gz
+[2023-05-04 12:22:24] INFO root fetch - processPackages [xarray-safe-s1]: Downloading https://files.pythonhosted.org/packages/4e/32/d481a213d8f09bae3bab94109b9769908654eed29760087b6616f273f306/xarray-safe-s1-2023.5.4.tar.gz
+[2023-05-04 12:22:24] INFO root fetch - processPackages [stringlifier39]: executing diffoscope
+[2023-05-04 12:22:24] INFO root fetch - processPackages [stringlifier39]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringlifier39-0.1.1.6.tar.gz tmp/stringlifier39-0.1.1.7.tar.gz --markdown 20230504/s/stringlifier39/0.1.1.6-0.1.1.7/diff.md --exclude *.pyd
+[2023-05-04 12:22:24] INFO root fetch - processPackages [xarray-safe-s1]: executing diffoscope
+[2023-05-04 12:22:24] INFO root fetch - processPackages [xarray-safe-s1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarray-safe-s1-1.0.4.tar.gz tmp/xarray-safe-s1-2023.5.4.tar.gz --markdown 20230504/x/xarray-safe-s1/1.0.4-2023.5.4/diff.md --exclude *.pyd
+[2023-05-04 12:22:24] INFO root fetch - processPackages [open-dread-rando]: executing diffoscope
+[2023-05-04 12:22:24] INFO root fetch - processPackages [open-dread-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-dread-rando-2.1.0.tar.gz tmp/open-dread-rando-2.1.1.tar.gz --markdown 20230504/o/open-dread-rando/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-04 12:22:25] INFO root fetch - processPackages [eodhd]: Downloading https://files.pythonhosted.org/packages/74/15/a49024eba8d8741c93edcc8aff70b92effd14ab5c445a7bdbde0c59dcd89/eodhd-1.0.9.tar.gz
+[2023-05-04 12:22:25] INFO root fetch - processPackages [eodhd]: executing diffoscope
+[2023-05-04 12:22:25] INFO root fetch - processPackages [eodhd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodhd-1.0.8.tar.gz tmp/eodhd-1.0.9.tar.gz --markdown 20230504/e/eodhd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:22:25] INFO root fetch - processPackages [aij-webcam]: Start processing: localstack-core
+[2023-05-04 12:22:25] INFO root fetch - main [MainThread]: End processing [aij-webcam]: success
+[2023-05-04 12:22:25] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230503145521] Old Version: [2.0.3.dev20230503144419]
+[2023-05-04 12:22:25] INFO root fetch - processPackages [merqube-client-lib]: Start processing: NodeGraphQt
+[2023-05-04 12:22:25] INFO root fetch - main [MainThread]: End processing [merqube-client-lib]: success
+[2023-05-04 12:22:25] INFO root fetch - main [MainThread]: End processing [qmenta-client]: success
+[2023-05-04 12:22:25] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/5c/4e/87449711eec3ee89c2880cc63cbaa785f1aacd751583e0e9e0785f5c1848/localstack-core-2.0.3.dev20230503145521.tar.gz
+[2023-05-04 12:22:25] INFO root fetch - main [MainThread]: End processing [pyxel-dic]: success
+[2023-05-04 12:22:25] INFO root fetch - processPackages [NodeGraphQt]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-04 12:22:26] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-04 12:22:26] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230503144419.tar.gz tmp/localstack-core-2.0.3.dev20230503145521.tar.gz --markdown 20230504/l/localstack-core/2.0.3.dev20230503144419-2.0.3.dev20230503145521/diff.md --exclude *.pyd
+[2023-05-04 12:22:26] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/1a/91/c3fb6b67a99cfebb1239a4240c281ec6e055c265ba758ed23e3a318684ee/NodeGraphQt-0.5.7.tar.gz
+[2023-05-04 12:22:26] INFO root fetch - main [MainThread]: End processing [xarray-safe-s1]: success
+[2023-05-04 12:22:26] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
+[2023-05-04 12:22:26] INFO root fetch - main [MainThread]: End processing [stringlifier39]: success
+[2023-05-04 12:22:26] INFO root fetch - main [MainThread]: End processing [qualle]: success
+[2023-05-04 12:22:26] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/2f/66/e2b439ee3aea2d4978fbb50dba0a7cc4fb68cae4e1f0fbbd5ddc914a855a/NodeGraphQt-0.5.8.tar.gz
+[2023-05-04 12:22:26] INFO root fetch - processPackages [NodeGraphQt]: executing diffoscope
+[2023-05-04 12:22:26] INFO root fetch - processPackages [NodeGraphQt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NodeGraphQt-0.5.7.tar.gz tmp/NodeGraphQt-0.5.8.tar.gz --markdown 20230504/N/NodeGraphQt/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-04 12:22:26] INFO root fetch - main [MainThread]: End processing [eodhd]: success
+[2023-05-04 12:22:28] INFO root fetch - main [MainThread]: End processing [NodeGraphQt]: success
+[2023-05-04 12:22:29] INFO root fetch - main [MainThread]: End processing [open-dread-rando]: success
+[2023-05-04 12:22:32] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-04 12:22:32] INFO root fetch - main [MainThread]: Store serial: [17970643]
