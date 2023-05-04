@@ -12336,3 +12336,112 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 12:00:21] INFO root fetch - main [MainThread]: End processing [cat-win]: success
 [2023-05-04 12:00:22] INFO root fetch - main [MainThread]: End processing [pequenawebview]: success
 [2023-05-04 12:00:22] INFO root fetch - main [MainThread]: Store serial: [17970379]
+[2023-05-04 12:05:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17970379]
+[2023-05-04 12:05:33] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-04 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pwclient
+[2023-05-04 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bp-data-fabric
+[2023-05-04 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-rest-registration
+[2023-05-04 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: soil
+[2023-05-04 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aij-webcam
+[2023-05-04 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edwh-pipcompile-plugin
+[2023-05-04 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tariochbctools
+[2023-05-04 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: beards-analytics
+[2023-05-04 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fft-multiplication
+[2023-05-04 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py-multiauth
+[2023-05-04 12:05:33] INFO root fetch - processPackages [pwclient]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-05-04 12:05:33] INFO root fetch - processPackages [bp-data-fabric]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-04 12:05:33] INFO root fetch - processPackages [beards-analytics]: New version: [2.0.0] Old Version: [0.1.9]
+[2023-05-04 12:05:33] INFO root fetch - processPackages [aij-webcam]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-04 12:05:33] INFO root fetch - processPackages [soil]: New version: [1.0.0rc5] Old Version: [1.0.0rc4]
+[2023-05-04 12:05:33] INFO root fetch - processPackages [tariochbctools]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-04 12:05:33] INFO root fetch - processPackages [edwh-pipcompile-plugin]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 12:05:33] INFO root fetch - processPackages [fft-multiplication]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-04 12:05:33] INFO root fetch - processPackages [django-rest-registration]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-04 12:05:33] INFO root fetch - processPackages [py-multiauth]: New version: [2.0.0rc1] Old Version: [2.0.0rc0]
+[2023-05-04 12:05:33] INFO root fetch - processPackages [bp-data-fabric]: Downloading https://files.pythonhosted.org/packages/31/cf/e12ff1a2c7baab306378547c65a80b9d1b0cf6a4776bf511ff398a308b20/bp_data_fabric-1.0.4.tar.gz
+[2023-05-04 12:05:33] INFO root fetch - processPackages [beards-analytics]: Downloading https://files.pythonhosted.org/packages/1e/7b/fba83ff56bdec6cbfed6dc94688ca5431acb632da266771f07c7b7959e2c/beards_analytics-0.1.9-py3-none-any.whl
+[2023-05-04 12:05:33] INFO root fetch - processPackages [fft-multiplication]: Downloading https://files.pythonhosted.org/packages/83/85/ea3d4dd18e85d88177fb1ce143f9c7f085db4d833c51d2d2b66314bfe9cb/fft_multiplication-0.0.1.tar.gz
+[2023-05-04 12:05:33] INFO root fetch - processPackages [aij-webcam]: Downloading https://files.pythonhosted.org/packages/c5/3a/a1f65d53ec7b4a021c03c99d7b17d1dd94884c8d28b07eee095baac39fa9/aij-webcam-1.0.3.tar.gz
+[2023-05-04 12:05:33] INFO root fetch - processPackages [edwh-pipcompile-plugin]: Downloading https://files.pythonhosted.org/packages/e7/43/8f04b8e0f71091f3668f341ce7ada760cced1d9e2dc7f190b0e286a08b31/edwh_pipcompile_plugin-0.1.9.tar.gz
+[2023-05-04 12:05:33] INFO root fetch - processPackages [tariochbctools]: Downloading https://files.pythonhosted.org/packages/95/9f/f51deccea2eb9523e010ceda854777b0e67493bea01babbbc256a701c452/tariochbctools-0.8.0.tar.gz
+[2023-05-04 12:05:33] INFO root fetch - processPackages [py-multiauth]: Downloading https://files.pythonhosted.org/packages/b5/33/0859ac6f186e922ebc1368003f5b2468b2d239d1c54ddfe9a245feb6b7c4/py_multiauth-2.0.0rc0.tar.gz
+[2023-05-04 12:05:33] INFO root fetch - processPackages [django-rest-registration]: Downloading https://files.pythonhosted.org/packages/d9/da/c6577b935875961045cd1dc9254a7c12410cde978ad0e8137288967c5ead/django-rest-registration-0.8.0.tar.gz
+[2023-05-04 12:05:33] INFO root fetch - processPackages [soil]: Downloading https://files.pythonhosted.org/packages/41/2d/5149060c138fbdf633c0dbbdc773077678c234cfdc553a3c3bc2181d0ef9/soil-1.0.0rc5.tar.gz
+[2023-05-04 12:05:33] INFO root fetch - processPackages [pwclient]: Downloading https://files.pythonhosted.org/packages/07/17/7f3577cd1b4fc346afaaf01c1bb660aec9a78687b479456ed5ade0239306/pwclient-2.6.2.tar.gz
+[2023-05-04 12:05:33] INFO root fetch - processPackages [bp-data-fabric]: Downloading https://files.pythonhosted.org/packages/c4/62/0ea727d06a9666b42299c47ba31b97601eaecd7eaa59d06687f1d7975803/bp_data_fabric-1.0.5.tar.gz
+[2023-05-04 12:05:33] INFO root fetch - processPackages [aij-webcam]: executing diffoscope
+[2023-05-04 12:05:33] INFO root fetch - processPackages [aij-webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-webcam-1.0.2.tar.gz tmp/aij-webcam-1.0.3.tar.gz --markdown 20230504/a/aij-webcam/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-04 12:05:33] INFO root fetch - processPackages [edwh-pipcompile-plugin]: executing diffoscope
+[2023-05-04 12:05:33] INFO root fetch - processPackages [edwh-pipcompile-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_pipcompile_plugin-0.1.8.tar.gz tmp/edwh_pipcompile_plugin-0.1.9.tar.gz --markdown 20230504/e/edwh-pipcompile-plugin/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 12:05:33] INFO root fetch - processPackages [beards-analytics]: Downloading https://files.pythonhosted.org/packages/8e/a1/7d809de1f6aaa2ef3790aac18ebb6e97a421fd445f7e2d60b273d84bc023/beards_analytics-2.0.0-py3-none-any.whl
+[2023-05-04 12:05:33] INFO root fetch - processPackages [fft-multiplication]: Downloading https://files.pythonhosted.org/packages/5b/b0/6ed69c59341b228a903924f4eec57ffccea880bc17a77a0d7301f46d18ec/fft_multiplication-0.0.2.tar.gz
+[2023-05-04 12:05:33] INFO root fetch - processPackages [pwclient]: executing diffoscope
+[2023-05-04 12:05:33] INFO root fetch - processPackages [pwclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwclient-2.6.1.tar.gz tmp/pwclient-2.6.2.tar.gz --markdown 20230504/p/pwclient/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-05-04 12:05:33] INFO root fetch - processPackages [soil]: executing diffoscope
+[2023-05-04 12:05:33] INFO root fetch - processPackages [soil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soil-1.0.0rc4.tar.gz tmp/soil-1.0.0rc5.tar.gz --markdown 20230504/s/soil/1.0.0rc4-1.0.0rc5/diff.md --exclude *.pyd
+[2023-05-04 12:05:33] INFO root fetch - processPackages [bp-data-fabric]: executing diffoscope
+[2023-05-04 12:05:33] INFO root fetch - processPackages [bp-data-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_fabric-1.0.4.tar.gz tmp/bp_data_fabric-1.0.5.tar.gz --markdown 20230504/b/bp-data-fabric/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-04 12:05:34] INFO root fetch - processPackages [fft-multiplication]: executing diffoscope
+[2023-05-04 12:05:34] INFO root fetch - processPackages [fft-multiplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fft_multiplication-0.0.1.tar.gz tmp/fft_multiplication-0.0.2.tar.gz --markdown 20230504/f/fft-multiplication/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-04 12:05:34] INFO root fetch - processPackages [beards-analytics]: executing diffoscope
+[2023-05-04 12:05:34] INFO root fetch - processPackages [beards-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beards_analytics-0.1.9-py3-none-any.whl.zip tmp/beards_analytics-2.0.0-py3-none-any.whl.zip --markdown 20230504/b/beards-analytics/0.1.9-2.0.0/diff.md --exclude *.pyd
+[2023-05-04 12:05:34] INFO root fetch - processPackages [django-rest-registration]: Downloading https://files.pythonhosted.org/packages/c0/f6/10eba20228e740c874b2f8366baad7147733030d72e35c7bf8ddf83525cf/django-rest-registration-0.8.1.tar.gz
+[2023-05-04 12:05:34] INFO root fetch - processPackages [py-multiauth]: Downloading https://files.pythonhosted.org/packages/ad/26/75fbbec7d803f118441c7b814ece8223c21af1db992603b5877ed7a3a815/py_multiauth-2.0.0rc1.tar.gz
+[2023-05-04 12:05:34] INFO root fetch - processPackages [tariochbctools]: Downloading https://files.pythonhosted.org/packages/e4/94/f1dc2d539ceb8800299330c25872406258c58f3315cd9e2c9a9957889ce2/tariochbctools-0.9.0.tar.gz
+[2023-05-04 12:05:34] INFO root fetch - processPackages [py-multiauth]: executing diffoscope
+[2023-05-04 12:05:34] INFO root fetch - processPackages [django-rest-registration]: executing diffoscope
+[2023-05-04 12:05:34] INFO root fetch - processPackages [py-multiauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_multiauth-2.0.0rc0.tar.gz tmp/py_multiauth-2.0.0rc1.tar.gz --markdown 20230504/p/py-multiauth/2.0.0rc0-2.0.0rc1/diff.md --exclude *.pyd
+[2023-05-04 12:05:34] INFO root fetch - processPackages [django-rest-registration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-rest-registration-0.8.0.tar.gz tmp/django-rest-registration-0.8.1.tar.gz --markdown 20230504/d/django-rest-registration/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-04 12:05:34] INFO root fetch - processPackages [tariochbctools]: executing diffoscope
+[2023-05-04 12:05:34] INFO root fetch - processPackages [tariochbctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tariochbctools-0.8.0.tar.gz tmp/tariochbctools-0.9.0.tar.gz --markdown 20230504/t/tariochbctools/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 12:05:35] INFO root fetch - processPackages [aij-webcam]: Start processing: rebasin
+[2023-05-04 12:05:35] INFO root fetch - main [MainThread]: End processing [aij-webcam]: success
+[2023-05-04 12:05:35] INFO root fetch - processPackages [rebasin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 12:05:35] INFO root fetch - processPackages [edwh-pipcompile-plugin]: Start processing: ccxt
+[2023-05-04 12:05:35] INFO root fetch - main [MainThread]: End processing [edwh-pipcompile-plugin]: success
+[2023-05-04 12:05:35] INFO root fetch - processPackages [ccxt]: New version: [3.0.91] Old Version: [3.0.90]
+[2023-05-04 12:05:35] INFO root fetch - processPackages [rebasin]: executing diffoscope
+[2023-05-04 12:05:35] INFO root fetch - processPackages [rebasin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebasin-0.0.8.tar.gz tmp/rebasin-0.0.9.tar.gz --markdown 20230504/r/rebasin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:05:35] INFO root fetch - processPackages [bp-data-fabric]: Start processing: etiq-spark
+[2023-05-04 12:05:35] INFO root fetch - main [MainThread]: End processing [bp-data-fabric]: success
+[2023-05-04 12:05:35] INFO root fetch - processPackages [etiq-spark]: New version: [1.3.8b3] Old Version: [1.3.8b2]
+[2023-05-04 12:05:35] INFO root fetch - processPackages [fft-multiplication]: Start processing: snakemake
+[2023-05-04 12:05:35] INFO root fetch - main [MainThread]: End processing [fft-multiplication]: success
+[2023-05-04 12:05:35] INFO root fetch - processPackages [pwclient]: Start processing: linkedin-python
+[2023-05-04 12:05:35] INFO root fetch - main [MainThread]: End processing [pwclient]: success
+[2023-05-04 12:05:35] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/6e/29/9274c97cbfb9622053b41b944de3cfcc1c4a8c0a342c601cc8901daf615a/ccxt-3.0.91.tar.gz
+[2023-05-04 12:05:35] INFO root fetch - processPackages [py-multiauth]: Start processing: pytest-mypy-plugins
+[2023-05-04 12:05:35] INFO root fetch - main [MainThread]: End processing [py-multiauth]: success
+[2023-05-04 12:05:35] INFO root fetch - processPackages [snakemake]: New version: [7.9.0] Old Version: [7.8.5]
+[2023-05-04 12:05:35] INFO root fetch - processPackages [beards-analytics]: Start processing: changepoynt
+[2023-05-04 12:05:35] INFO root fetch - main [MainThread]: End processing [beards-analytics]: success
+[2023-05-04 12:05:35] INFO root fetch - processPackages [changepoynt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-04 12:05:35] INFO root fetch - processPackages [etiq-spark]: Downloading https://files.pythonhosted.org/packages/8e/18/fb8a5a18e8670e58e18cd21c4848457ae153586da9adb1b08fde02e29ca9/etiq_spark-1.3.8b2-cp39-cp39-win_amd64.whl
+[2023-05-04 12:05:35] WARNING root fetch - processPackages [linkedin-python]: Skipping, unable to determine old version
+[2023-05-04 12:05:35] INFO root fetch - main [MainThread]: End processing [linkedin-python] error
+[2023-05-04 12:05:36] INFO root fetch - processPackages [pytest-mypy-plugins]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-04 12:05:36] INFO root fetch - processPackages [changepoynt]: executing diffoscope
+[2023-05-04 12:05:36] INFO root fetch - processPackages [changepoynt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changepoynt-0.0.3.tar.gz tmp/changepoynt-0.0.4.tar.gz --markdown 20230504/c/changepoynt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-04 12:05:36] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/5d/46/165e979908eabbb5cd0b58bcdad46e04802264f46764940c97dad3ffeb85/snakemake-7.8.5.tar.gz
+[2023-05-04 12:05:36] INFO root fetch - processPackages [etiq-spark]: Downloading https://files.pythonhosted.org/packages/db/82/81d5549fdecf998357170db12309cfac491bca219a0aae4f3f318b4305ad/etiq_spark-1.3.8b3-cp39-cp39-win_amd64.whl
+[2023-05-04 12:05:36] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-04 12:05:36] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.90.tar.gz tmp/ccxt-3.0.91.tar.gz --markdown 20230504/c/ccxt/3.0.90-3.0.91/diff.md --exclude *.pyd
+[2023-05-04 12:05:36] INFO root fetch - processPackages [etiq-spark]: executing diffoscope
+[2023-05-04 12:05:36] INFO root fetch - processPackages [etiq-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etiq_spark-1.3.8b2-cp39-cp39-win_amd64.whl.zip tmp/etiq_spark-1.3.8b3-cp39-cp39-win_amd64.whl.zip --markdown 20230504/e/etiq-spark/1.3.8b2-1.3.8b3/diff.md --exclude *.pyd
+[2023-05-04 12:05:36] INFO root fetch - processPackages [pytest-mypy-plugins]: Downloading https://files.pythonhosted.org/packages/f7/0b/6aae042d8ea8756f83f6402c5cf664a8d04dc9e8c861e706ea5e2b48604e/pytest-mypy-plugins-1.9.2.tar.gz
+[2023-05-04 12:05:36] INFO root fetch - main [MainThread]: End processing [tariochbctools]: success
+[2023-05-04 12:05:36] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/6a/d0/729c86354d6fa9730d622186edfc9d900c52fcfa0b4316726433079c7a1d/snakemake-7.9.0.tar.gz
+[2023-05-04 12:05:36] INFO root fetch - main [MainThread]: End processing [django-rest-registration]: success
+[2023-05-04 12:05:36] INFO root fetch - processPackages [pytest-mypy-plugins]: Downloading https://files.pythonhosted.org/packages/0b/b9/6a785e94081dc994bb5a9024cb375d0e9023c422ea4f54684766c0b2bfbc/pytest-mypy-plugins-1.9.3.tar.gz
+[2023-05-04 12:05:36] INFO root fetch - processPackages [snakemake]: executing diffoscope
+[2023-05-04 12:05:36] INFO root fetch - processPackages [snakemake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake-7.8.5.tar.gz tmp/snakemake-7.9.0.tar.gz --markdown 20230504/s/snakemake/7.8.5-7.9.0/diff.md --exclude *.pyd
+[2023-05-04 12:05:36] INFO root fetch - processPackages [pytest-mypy-plugins]: executing diffoscope
+[2023-05-04 12:05:36] INFO root fetch - processPackages [pytest-mypy-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-mypy-plugins-1.9.2.tar.gz tmp/pytest-mypy-plugins-1.9.3.tar.gz --markdown 20230504/p/pytest-mypy-plugins/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-04 12:05:37] INFO root fetch - main [MainThread]: End processing [rebasin]: success
+[2023-05-04 12:05:37] INFO root fetch - main [MainThread]: End processing [changepoynt]: success
+[2023-05-04 12:05:37] INFO root fetch - main [MainThread]: End processing [etiq-spark]: success
+[2023-05-04 12:05:38] INFO root fetch - main [MainThread]: End processing [pytest-mypy-plugins]: success
+[2023-05-04 12:05:38] INFO root fetch - main [MainThread]: End processing [soil]: success
+[2023-05-04 12:05:38] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-04 12:05:38] INFO root fetch - main [MainThread]: End processing [snakemake]: success
+[2023-05-04 12:05:38] INFO root fetch - main [MainThread]: Store serial: [17970444]
