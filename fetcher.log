@@ -6915,3 +6915,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 05:52:50] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
 [2023-05-04 05:52:53] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
 [2023-05-04 05:52:53] INFO root fetch - main [MainThread]: Store serial: [17967184]
+[2023-05-04 05:57:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967184]
+[2023-05-04 05:58:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-04 05:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdisk
+[2023-05-04 05:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scs-re
+[2023-05-04 05:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ifastapi
+[2023-05-04 05:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ChatLLM
+[2023-05-04 05:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyllamacpp
+[2023-05-04 05:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scs-re
+[2023-05-04 05:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: css-parser
+[2023-05-04 05:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sematic
+[2023-05-04 05:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rocker
+[2023-05-04 05:58:02] INFO root fetch - processPackages [scs-re]: New version: [1.0.1] Old Version: [1.0]
+[2023-05-04 05:58:02] INFO root fetch - processPackages [ifastapi]: New version: [0.0.3.2] Old Version: [0.0.3.1]
+[2023-05-04 05:58:02] INFO root fetch - processPackages [scs-re]: New version: [1.0.1] Old Version: [1.0]
+[2023-05-04 05:58:02] INFO root fetch - processPackages [rocker]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-04 05:58:02] INFO root fetch - processPackages [ChatLLM]: New version: [2023.5.4.11.44.29] Old Version: [2023.5.4.10.54.16]
+[2023-05-04 05:58:02] INFO root fetch - processPackages [css-parser]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 05:58:02] INFO root fetch - processPackages [sematic]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-04 05:58:02] WARNING root fetch - processPackages [pdisk]: Skipping, unable to determine old version
+[2023-05-04 05:58:02] INFO root fetch - main [MainThread]: End processing [pdisk] error
+[2023-05-04 05:58:02] INFO root fetch - processPackages [pyllamacpp]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-04 05:58:02] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-05-04 05:58:02] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.10.54.16.tar.gz tmp/ChatLLM-2023.5.4.11.44.29.tar.gz --markdown 20230504/C/ChatLLM/2023.5.4.10.54.16-2023.5.4.11.44.29/diff.md --exclude *.pyd
+[2023-05-04 05:58:02] INFO root fetch - processPackages [scs-re]: Downloading https://files.pythonhosted.org/packages/5d/23/1ede751de5e413bf4688433965843cd28394b8c18e0330603943fb472d8b/scs_re-1.0-py3.11-linux-x86_64.egg
+[2023-05-04 05:58:02] INFO root fetch - processPackages [scs-re]: Downloading https://files.pythonhosted.org/packages/5d/23/1ede751de5e413bf4688433965843cd28394b8c18e0330603943fb472d8b/scs_re-1.0-py3.11-linux-x86_64.egg
+[2023-05-04 05:58:02] INFO root fetch - processPackages [rocker]: Downloading https://files.pythonhosted.org/packages/b3/00/e22f9f0e61593da615c8ff96bef35a2fa69f38ab75b3a5d8473087508a1e/rocker-0.2.8.tar.gz
+[2023-05-04 05:58:02] INFO root fetch - processPackages [ifastapi]: executing diffoscope
+[2023-05-04 05:58:02] INFO root fetch - processPackages [ifastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifastapi-0.0.3.1.tar.gz tmp/ifastapi-0.0.3.2-py3-none-any.whl.zip --markdown 20230504/i/ifastapi/0.0.3.1-0.0.3.2/diff.md --exclude *.pyd
+[2023-05-04 05:58:02] INFO root fetch - processPackages [css-parser]: Downloading https://files.pythonhosted.org/packages/a9/01/b78f2b03c9e85fbf96f0f7dc0ddd86e91e21a7dc7b0b7e77166123da6982/css-parser-1.0.8.tar.gz
+[2023-05-04 05:58:02] INFO root fetch - processPackages [sematic]: Downloading https://files.pythonhosted.org/packages/d2/0d/a5fb8f74f229be4fb51e48b4a6b8e9e2534e8f81d0a45ea955f70dd65f86/sematic-0.8.0-py3-none-any.whl
+[2023-05-04 05:58:02] INFO root fetch - processPackages [pyllamacpp]: Downloading https://files.pythonhosted.org/packages/1e/da/bd67a611b07639c5430863692fb5b4f9adc18127fb53e4cd94198da0de95/pyllamacpp-2.1.1.tar.gz
+[2023-05-04 05:58:02] INFO root fetch - processPackages [scs-re]: Downloading https://files.pythonhosted.org/packages/8b/20/765fc1b2aff342e5bc1c09cd8ce9171601d212bafb60432cd02336678ea0/scs_re-1.0.1-py3.11-linux-x86_64.egg
+[2023-05-04 05:58:02] INFO root fetch - processPackages [scs-re]: Downloading https://files.pythonhosted.org/packages/8b/20/765fc1b2aff342e5bc1c09cd8ce9171601d212bafb60432cd02336678ea0/scs_re-1.0.1-py3.11-linux-x86_64.egg
+[2023-05-04 05:58:02] INFO root fetch - processPackages [pyllamacpp]: Downloading https://files.pythonhosted.org/packages/df/1c/83890ad5622a8a1c07c085acd1dc3ddbfc6006309c9233151561d3f5817a/pyllamacpp-2.1.2.tar.gz
+[2023-05-04 05:58:02] INFO root fetch - processPackages [css-parser]: Downloading https://files.pythonhosted.org/packages/41/3a/85cc7ef94f61c5273a5ed475fa4fc9f10eab4e0d9ecca1f81f86a6dfaaeb/css-parser-1.0.9.tar.gz
+[2023-05-04 05:58:02] INFO root fetch - processPackages [pyllamacpp]: executing diffoscope
+[2023-05-04 05:58:02] INFO root fetch - processPackages [pyllamacpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyllamacpp-2.1.1.tar.gz tmp/pyllamacpp-2.1.2.tar.gz --markdown 20230504/p/pyllamacpp/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-04 05:58:03] INFO root fetch - processPackages [rocker]: Downloading https://files.pythonhosted.org/packages/b3/c6/e31fd507a1ecc26fda369cce5d0f108b83cc021011b05e5be795adef970f/rocker-0.2.9.tar.gz
+[2023-05-04 05:58:03] INFO root fetch - processPackages [scs-re]: executing diffoscope
+[2023-05-04 05:58:03] INFO root fetch - processPackages [scs-re]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs_re-1.0-py3.11-linux-x86_64.egg tmp/scs_re-1.0.1-py3.11-linux-x86_64.egg --markdown 20230504/s/scs-re/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 05:58:03] INFO root fetch - processPackages [scs-re]: executing diffoscope
+[2023-05-04 05:58:03] INFO root fetch - processPackages [scs-re]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs_re-1.0-py3.11-linux-x86_64.egg tmp/scs_re-1.0.1-py3.11-linux-x86_64.egg --markdown 20230504/s/scs-re/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 05:58:03] INFO root fetch - processPackages [css-parser]: executing diffoscope
+[2023-05-04 05:58:03] INFO root fetch - processPackages [css-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/css-parser-1.0.8.tar.gz tmp/css-parser-1.0.9.tar.gz --markdown 20230504/c/css-parser/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 05:58:03] INFO root fetch - processPackages [rocker]: executing diffoscope
+[2023-05-04 05:58:03] INFO root fetch - processPackages [rocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocker-0.2.8.tar.gz tmp/rocker-0.2.9.tar.gz --markdown 20230504/r/rocker/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-04 05:58:03] INFO root fetch - main [MainThread]: End processing [ifastapi]: success
+[2023-05-04 05:58:03] INFO root fetch - processPackages [sematic]: Downloading https://files.pythonhosted.org/packages/6c/da/66aa52c982dd16ec61527b791f792948f173ec21d163d99374f27e06c2eb/sematic-0.9.0-py3-none-any.whl
+[2023-05-04 05:58:04] INFO root fetch - main [MainThread]: End processing [scs-re]: success
+[2023-05-04 05:58:04] INFO root fetch - main [MainThread]: End processing [pyllamacpp]: success
+[2023-05-04 05:58:04] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-05-04 05:58:04] INFO root fetch - main [MainThread]: End processing [rocker]: success
+[2023-05-04 05:58:04] INFO root fetch - main [MainThread]: End processing [scs-re]: success
+[2023-05-04 05:58:05] INFO root fetch - processPackages [sematic]: executing diffoscope
+[2023-05-04 05:58:05] INFO root fetch - processPackages [sematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sematic-0.8.0-py3-none-any.whl.zip tmp/sematic-0.9.0-py3-none-any.whl.zip --markdown 20230504/s/sematic/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 05:58:05] INFO root fetch - main [MainThread]: End processing [css-parser]: success
+[2023-05-04 05:58:41] INFO root fetch - main [MainThread]: End processing [sematic]: success
+[2023-05-04 05:58:41] INFO root fetch - main [MainThread]: Store serial: [17967250]
