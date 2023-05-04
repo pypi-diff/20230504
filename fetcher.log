@@ -2504,3 +2504,57 @@
 [2023-05-04 03:03:18] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
 [2023-05-04 03:03:39] INFO root fetch - main [MainThread]: End processing [nsface-python]: success
 [2023-05-04 03:03:39] INFO root fetch - main [MainThread]: Store serial: [17964981]
+[2023-05-04 03:08:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17964981]
+[2023-05-04 03:08:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-04 03:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bayanpy
+[2023-05-04 03:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bayanpy
+[2023-05-04 03:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-deckgl
+[2023-05-04 03:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Cerebro-Viewer
+[2023-05-04 03:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dreamai
+[2023-05-04 03:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secureli
+[2023-05-04 03:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: so-vits-svc-fork
+[2023-05-04 03:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prettyqt
+[2023-05-04 03:08:48] INFO root fetch - processPackages [bayanpy]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-05-04 03:08:48] INFO root fetch - processPackages [dreamai]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-04 03:08:48] INFO root fetch - processPackages [bayanpy]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-05-04 03:08:48] INFO root fetch - processPackages [streamlit-deckgl]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 03:08:48] INFO root fetch - processPackages [Cerebro-Viewer]: New version: [0.0.9.4] Old Version: [0.0.9.3]
+[2023-05-04 03:08:48] INFO root fetch - processPackages [secureli]: New version: [0.2.20] Old Version: [0.2.19]
+[2023-05-04 03:08:48] INFO root fetch - processPackages [so-vits-svc-fork]: New version: [3.9.5] Old Version: [3.9.4]
+[2023-05-04 03:08:48] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-04 03:08:48] INFO root fetch - processPackages [dreamai]: executing diffoscope
+[2023-05-04 03:08:48] INFO root fetch - processPackages [dreamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai-0.8.0.tar.gz tmp/dreamai-0.9.0.tar.gz --markdown 20230504/d/dreamai/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 03:08:48] INFO root fetch - processPackages [bayanpy]: Downloading https://files.pythonhosted.org/packages/5f/96/1cf8f8a97630454ee615ad2d5ac2996cd62ff3d1e666a8f1e5852c0c7386/bayanpy-0.6.6.tar.gz
+[2023-05-04 03:08:48] INFO root fetch - processPackages [bayanpy]: Downloading https://files.pythonhosted.org/packages/5f/96/1cf8f8a97630454ee615ad2d5ac2996cd62ff3d1e666a8f1e5852c0c7386/bayanpy-0.6.6.tar.gz
+[2023-05-04 03:08:48] INFO root fetch - processPackages [streamlit-deckgl]: Downloading https://files.pythonhosted.org/packages/26/62/a32387c370afef6ae08771233576113b1fdfc200989216312238165f3ea9/streamlit-deckgl-0.1.0.tar.gz
+[2023-05-04 03:08:48] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/16/69/6b74def5744174b0fe48063eb63b78499b9ea80918aec97a7ceffc6de51c/secureli-0.2.20.tar.gz
+[2023-05-04 03:08:48] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/90/b7/c5a53747168c1ccc1d26309eca89b437a5f5c027f7a8486b65463ad4770c/prettyqt-1.9.1.tar.gz
+[2023-05-04 03:08:48] INFO root fetch - processPackages [secureli]: executing diffoscope
+[2023-05-04 03:08:48] INFO root fetch - processPackages [secureli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secureli-0.2.19.tar.gz tmp/secureli-0.2.20.tar.gz --markdown 20230504/s/secureli/0.2.19-0.2.20/diff.md --exclude *.pyd
+[2023-05-04 03:08:48] INFO root fetch - processPackages [Cerebro-Viewer]: Downloading https://files.pythonhosted.org/packages/dc/a0/589a21e8c3f201cab15b1265a02eb5ef25974dc1935f1cef2a687d0d0370/Cerebro_Viewer-0.0.9.3.tar.gz
+[2023-05-04 03:08:48] INFO root fetch - processPackages [bayanpy]: Downloading https://files.pythonhosted.org/packages/ec/40/ac5e55f3fd3356bbd426ce7282bcd0983101e8538aad012d4a46c04090a1/bayanpy-0.6.7.tar.gz
+[2023-05-04 03:08:48] INFO root fetch - processPackages [bayanpy]: Downloading https://files.pythonhosted.org/packages/ec/40/ac5e55f3fd3356bbd426ce7282bcd0983101e8538aad012d4a46c04090a1/bayanpy-0.6.7.tar.gz
+[2023-05-04 03:08:48] INFO root fetch - processPackages [streamlit-deckgl]: Downloading https://files.pythonhosted.org/packages/ad/01/5e2d38d4bd8b25b423e1a0404b4871d540525696b910ba76c6079a4f84fe/streamlit-deckgl-0.1.1.tar.gz
+[2023-05-04 03:08:48] WARNING root fetch - processPackages [Cerebro-Viewer]: Skipping package: exceeds size limit 13701611>=10485760
+[2023-05-04 03:08:48] INFO root fetch - main [MainThread]: End processing [Cerebro-Viewer] error
+[2023-05-04 03:08:48] INFO root fetch - processPackages [so-vits-svc-fork]: Downloading https://files.pythonhosted.org/packages/a2/e4/4aad9b1c6227bc52736acd53be6d3dd7045143434892b6ba371710ea438b/so_vits_svc_fork-3.9.4.tar.gz
+[2023-05-04 03:08:48] INFO root fetch - processPackages [bayanpy]: executing diffoscope
+[2023-05-04 03:08:48] INFO root fetch - processPackages [bayanpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayanpy-0.6.6.tar.gz tmp/bayanpy-0.6.7.tar.gz --markdown 20230504/b/bayanpy/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-05-04 03:08:48] INFO root fetch - processPackages [bayanpy]: executing diffoscope
+[2023-05-04 03:08:48] INFO root fetch - processPackages [bayanpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayanpy-0.6.6.tar.gz tmp/bayanpy-0.6.7.tar.gz --markdown 20230504/b/bayanpy/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-05-04 03:08:48] INFO root fetch - processPackages [streamlit-deckgl]: executing diffoscope
+[2023-05-04 03:08:48] INFO root fetch - processPackages [streamlit-deckgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-deckgl-0.1.0.tar.gz tmp/streamlit-deckgl-0.1.1.tar.gz --markdown 20230504/s/streamlit-deckgl/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 03:08:49] INFO root fetch - processPackages [so-vits-svc-fork]: Downloading https://files.pythonhosted.org/packages/ef/17/23ad44cbca05b2881798a17db40b32b7b4d9c715d70eec2e10bb8bff079a/so_vits_svc_fork-3.9.5.tar.gz
+[2023-05-04 03:08:49] INFO root fetch - processPackages [so-vits-svc-fork]: executing diffoscope
+[2023-05-04 03:08:49] INFO root fetch - processPackages [so-vits-svc-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so_vits_svc_fork-3.9.4.tar.gz tmp/so_vits_svc_fork-3.9.5.tar.gz --markdown 20230504/s/so-vits-svc-fork/3.9.4-3.9.5/diff.md --exclude *.pyd
+[2023-05-04 03:08:49] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/49/65/b381f14f4a70e301a6f9cd50931dea1693b62567e0d6f4a9f55040563489/prettyqt-1.9.2.tar.gz
+[2023-05-04 03:08:49] INFO root fetch - main [MainThread]: End processing [dreamai]: success
+[2023-05-04 03:08:49] INFO root fetch - main [MainThread]: End processing [bayanpy]: success
+[2023-05-04 03:08:49] INFO root fetch - main [MainThread]: End processing [bayanpy]: success
+[2023-05-04 03:08:50] INFO root fetch - main [MainThread]: End processing [streamlit-deckgl]: success
+[2023-05-04 03:08:50] INFO root fetch - main [MainThread]: End processing [secureli]: success
+[2023-05-04 03:08:50] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-05-04 03:08:50] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230504/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-04 03:08:50] INFO root fetch - main [MainThread]: End processing [so-vits-svc-fork]: success
+[2023-05-04 03:08:58] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-05-04 03:08:58] INFO root fetch - main [MainThread]: Store serial: [17965019]
