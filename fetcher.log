@@ -8770,3 +8770,79 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 08:41:20] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-04 08:41:32] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-05-04 08:41:32] INFO root fetch - main [MainThread]: Store serial: [17968213]
+[2023-05-04 08:46:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17968213]
+[2023-05-04 08:46:42] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-04 08:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbclassic
+[2023-05-04 08:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ate-common
+[2023-05-04 08:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kaldifeat
+[2023-05-04 08:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: magic-decorator
+[2023-05-04 08:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CVAugmentor
+[2023-05-04 08:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-04 08:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-04 08:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tira
+[2023-05-04 08:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hcai-datasets-nightly
+[2023-05-04 08:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: microdata-validator
+[2023-05-04 08:46:42] INFO root fetch - processPackages [nbclassic]: New version: [1.0.0] Old Version: [0.5.6]
+[2023-05-04 08:46:42] WARNING root fetch - processPackages [magic-decorator]: Skipping, unable to determine old version
+[2023-05-04 08:46:42] INFO root fetch - processPackages [magic-decorator]: Start processing: pycoreconf
+[2023-05-04 08:46:42] INFO root fetch - main [MainThread]: End processing [magic-decorator] error
+[2023-05-04 08:46:42] INFO root fetch - processPackages [kaldifeat]: New version: [1.9] Old Version: [1.8]
+[2023-05-04 08:46:42] INFO root fetch - processPackages [microdata-validator]: New version: [7.3.1] Old Version: [7.3.0]
+[2023-05-04 08:46:42] WARNING root fetch - processPackages [ate-common]: Skipping, unable to determine old version
+[2023-05-04 08:46:42] INFO root fetch - processPackages [ate-common]: Start processing: onionrequests
+[2023-05-04 08:46:42] INFO root fetch - main [MainThread]: End processing [ate-common] error
+[2023-05-04 08:46:42] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1683182563] Old Version: [0.1.1683182555]
+[2023-05-04 08:46:42] WARNING root fetch - processPackages [pycoreconf]: Skipping, unable to determine old version
+[2023-05-04 08:46:42] INFO root fetch - processPackages [CVAugmentor]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 08:46:42] INFO root fetch - processPackages [pycoreconf]: Start processing: gaiaFramework
+[2023-05-04 08:46:42] INFO root fetch - main [MainThread]: End processing [pycoreconf] error
+[2023-05-04 08:46:42] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1683182563] Old Version: [0.1.1683182555]
+[2023-05-04 08:46:42] INFO root fetch - processPackages [tira]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 08:46:42] WARNING root fetch - processPackages [onionrequests]: Skipping, unable to determine old version
+[2023-05-04 08:46:42] INFO root fetch - main [MainThread]: End processing [onionrequests] error
+[2023-05-04 08:46:42] INFO root fetch - processPackages [hcai-datasets-nightly]: New version: [0.1.7.dev202305040643] Old Version: [0.1.7.dev202304261438]
+[2023-05-04 08:46:42] INFO root fetch - processPackages [gaiaFramework]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 08:46:42] INFO root fetch - processPackages [CVAugmentor]: Downloading https://files.pythonhosted.org/packages/75/66/a07350de9d5d4948ba916bfc2142591ece8cf5421bef7a2768cd297d304b/CVAugmentor-1.0.8.tar.gz
+[2023-05-04 08:46:42] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/72/25/a58fd9cac3142c2f1975ff8c29c15cad1aee4e31dd118cb950925d50bd5a/eia-odin-pkg-rioatmadja2018-0.1.1683182555.tar.gz
+[2023-05-04 08:46:42] INFO root fetch - processPackages [nbclassic]: Downloading https://files.pythonhosted.org/packages/c3/3d/8f8cbe374c60476e0165bdc18aec6952820a595b70032ad7881d3c5ed7aa/nbclassic-0.5.6.tar.gz
+[2023-05-04 08:46:42] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/72/25/a58fd9cac3142c2f1975ff8c29c15cad1aee4e31dd118cb950925d50bd5a/eia-odin-pkg-rioatmadja2018-0.1.1683182555.tar.gz
+[2023-05-04 08:46:42] INFO root fetch - processPackages [microdata-validator]: Downloading https://files.pythonhosted.org/packages/61/1f/287058b86b3981c9d060689246ef3fb1d295a97f27ee39bf73c8df4203d9/microdata-validator-7.3.0.tar.gz
+[2023-05-04 08:46:42] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/43/c4/b81bb3f967a30227b00188bc5062cff5d1a04fab70a9a31189f474c84ced/tira-0.0.8.tar.gz
+[2023-05-04 08:46:42] INFO root fetch - processPackages [kaldifeat]: Downloading https://files.pythonhosted.org/packages/f1/6f/71216bf606786bc4b9d633cccb66a8d471a2ce07dfa75468604c1515639b/kaldifeat-1.8.tar.gz
+[2023-05-04 08:46:43] WARNING root fetch - processPackages [nbclassic]: Skipping package: exceeds size limit 20201214>=10485760
+[2023-05-04 08:46:43] INFO root fetch - main [MainThread]: End processing [nbclassic] error
+[2023-05-04 08:46:43] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/cb/2a/0f8ac7457aa8e31d2d6c2b9ba40f57ea6e9acc35461221e65f6389b9af45/hcai-datasets-nightly-0.1.7.dev202304261438.tar.gz
+[2023-05-04 08:46:43] INFO root fetch - processPackages [gaiaFramework]: Downloading https://files.pythonhosted.org/packages/7d/31/d623b9c56c81d19a4de121c99750fbb5e7c9904c9f5bcee4b87e39922ece/gaiaFramework-1.0.8.tar.gz
+[2023-05-04 08:46:43] INFO root fetch - processPackages [CVAugmentor]: Downloading https://files.pythonhosted.org/packages/b9/b0/6eb6219678c47cbb89ffc2b44e9de102558029ec97d1984c734f576caead/CVAugmentor-1.0.9.tar.gz
+[2023-05-04 08:46:43] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/a6/fb/10b675ea35d4dd7e5b851946f15cd79f32d2e1f6010a5f5906617f4d72dd/eia_odin_pkg_rioatmadja2018-0.1.1683182563-py3-none-any.whl
+[2023-05-04 08:46:43] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/a6/fb/10b675ea35d4dd7e5b851946f15cd79f32d2e1f6010a5f5906617f4d72dd/eia_odin_pkg_rioatmadja2018-0.1.1683182563-py3-none-any.whl
+[2023-05-04 08:46:43] INFO root fetch - processPackages [microdata-validator]: Downloading https://files.pythonhosted.org/packages/2f/a1/0c7ab4052b56af28863b79e56e33d27cf9f60ce992627ce0305cf981f3b5/microdata-validator-7.3.1.tar.gz
+[2023-05-04 08:46:43] INFO root fetch - processPackages [CVAugmentor]: executing diffoscope
+[2023-05-04 08:46:43] INFO root fetch - processPackages [CVAugmentor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CVAugmentor-1.0.8.tar.gz tmp/CVAugmentor-1.0.9.tar.gz --markdown 20230504/C/CVAugmentor/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 08:46:43] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-04 08:46:43] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1683182555.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1683182563-py3-none-any.whl.zip --markdown 20230504/e/eia-odin-pkg-rioatmadja2018/0.1.1683182555-0.1.1683182563/diff.md --exclude *.pyd
+[2023-05-04 08:46:43] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-04 08:46:43] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1683182555.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1683182563-py3-none-any.whl.zip --markdown 20230504/e/eia-odin-pkg-rioatmadja2018/0.1.1683182555-0.1.1683182563/diff.md --exclude *.pyd
+[2023-05-04 08:46:43] INFO root fetch - processPackages [microdata-validator]: executing diffoscope
+[2023-05-04 08:46:43] INFO root fetch - processPackages [microdata-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microdata-validator-7.3.0.tar.gz tmp/microdata-validator-7.3.1.tar.gz --markdown 20230504/m/microdata-validator/7.3.0-7.3.1/diff.md --exclude *.pyd
+[2023-05-04 08:46:43] INFO root fetch - processPackages [gaiaFramework]: Downloading https://files.pythonhosted.org/packages/8a/6a/7e1b5292c38185a28ac09beb052442740b1217ef8bbc97a594fc4cbb0bb3/gaiaFramework-1.0.9.tar.gz
+[2023-05-04 08:46:43] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/9b/f4/9ea6ae03b0e08b169bc3b6c3b2b915f1fd6005389bcaa0b6d5e43a5fda17/tira-0.0.9.tar.gz
+[2023-05-04 08:46:43] INFO root fetch - processPackages [gaiaFramework]: executing diffoscope
+[2023-05-04 08:46:43] INFO root fetch - processPackages [gaiaFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaiaFramework-1.0.8.tar.gz tmp/gaiaFramework-1.0.9.tar.gz --markdown 20230504/g/gaiaFramework/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 08:46:43] INFO root fetch - processPackages [kaldifeat]: Downloading https://files.pythonhosted.org/packages/74/06/6307f775d8227de128e176a60e8d4497258619ae1f5804a544950afbf3f0/kaldifeat-1.9.tar.gz
+[2023-05-04 08:46:43] INFO root fetch - processPackages [tira]: executing diffoscope
+[2023-05-04 08:46:43] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/4d/30/2c407698f9065dcf3f3639861dfc493864665a05c4eefec24c7846d5d99c/hcai-datasets-nightly-0.1.7.dev202305040643.tar.gz
+[2023-05-04 08:46:43] INFO root fetch - processPackages [tira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tira-0.0.8.tar.gz tmp/tira-0.0.9.tar.gz --markdown 20230504/t/tira/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 08:46:43] INFO root fetch - processPackages [kaldifeat]: executing diffoscope
+[2023-05-04 08:46:43] INFO root fetch - processPackages [kaldifeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaldifeat-1.8.tar.gz tmp/kaldifeat-1.9.tar.gz --markdown 20230504/k/kaldifeat/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-04 08:46:44] INFO root fetch - processPackages [hcai-datasets-nightly]: executing diffoscope
+[2023-05-04 08:46:44] INFO root fetch - processPackages [hcai-datasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-nightly-0.1.7.dev202304261438.tar.gz tmp/hcai-datasets-nightly-0.1.7.dev202305040643.tar.gz --markdown 20230504/h/hcai-datasets-nightly/0.1.7.dev202304261438-0.1.7.dev202305040643/diff.md --exclude *.pyd
+[2023-05-04 08:46:44] INFO root fetch - main [MainThread]: End processing [CVAugmentor]: success
+[2023-05-04 08:46:44] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-04 08:46:44] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-04 08:46:44] INFO root fetch - main [MainThread]: End processing [microdata-validator]: success
+[2023-05-04 08:46:44] INFO root fetch - main [MainThread]: End processing [tira]: success
+[2023-05-04 08:46:45] INFO root fetch - main [MainThread]: End processing [kaldifeat]: success
+[2023-05-04 08:46:45] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
+[2023-05-04 08:46:46] INFO root fetch - main [MainThread]: End processing [gaiaFramework]: success
+[2023-05-04 08:46:46] INFO root fetch - main [MainThread]: Store serial: [17968266]
