@@ -7190,3 +7190,11 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 06:25:00] INFO root fetch - main [MainThread]: End processing [skill-easter-eggs]: success
 [2023-05-04 06:25:00] INFO root fetch - main [MainThread]: End processing [ez-data-pipeline]: success
 [2023-05-04 06:25:00] INFO root fetch - main [MainThread]: Store serial: [17967362]
+[2023-05-04 06:30:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967362]
+[2023-05-04 06:30:08] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-05-04 06:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dreamai-pdf
+[2023-05-04 06:30:08] INFO root fetch - processPackages [dreamai-pdf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 06:30:09] INFO root fetch - processPackages [dreamai-pdf]: executing diffoscope
+[2023-05-04 06:30:09] INFO root fetch - processPackages [dreamai-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai_pdf-0.0.8.tar.gz tmp/dreamai_pdf-0.0.9.tar.gz --markdown 20230504/d/dreamai-pdf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 06:30:10] INFO root fetch - main [MainThread]: End processing [dreamai-pdf]: success
+[2023-05-04 06:30:10] INFO root fetch - main [MainThread]: Store serial: [17967368]
