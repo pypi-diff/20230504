@@ -1879,3 +1879,90 @@
 [2023-05-04 02:21:34] INFO root fetch - processPackages [ner4opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ner4opt-1.0.0.tar.gz tmp/ner4opt-1.0.1.tar.gz --markdown 20230504/n/ner4opt/1.0.0-1.0.1/diff.md --exclude *.pyd
 [2023-05-04 02:21:36] INFO root fetch - main [MainThread]: End processing [ner4opt]: success
 [2023-05-04 02:21:36] INFO root fetch - main [MainThread]: Store serial: [17964622]
+[2023-05-04 02:26:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17964622]
+[2023-05-04 02:26:45] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-04 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: havoc-clustering
+[2023-05-04 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.ecs-codedeploy
+[2023-05-04 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-cr-constructs
+[2023-05-04 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NMODL-nightly
+[2023-05-04 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-grafana
+[2023-05-04 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coastseg
+[2023-05-04 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-docker-image-deployment
+[2023-05-04 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-certbot-dns-route53
+[2023-05-04 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-cdk.asset-awscli-v1
+[2023-05-04 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-cdk.asset-awscli-v2
+[2023-05-04 02:26:45] INFO root fetch - processPackages [havoc-clustering]: New version: [0.0.9] Old Version: [0.0.4]
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-04 02:26:45] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 02:26:45] INFO root fetch - processPackages [aws-cdk.asset-awscli-v2]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdk-docker-image-deployment]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-04 02:26:45] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-05-04 02:26:45] INFO root fetch - processPackages [NMODL-nightly]: New version: [0.6.5] Old Version: [0.6.2]
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/fe/58/3e435ab85ca79a785db1238624c29b48fc60946bcbae9b2813fd45cb0a41/cdk-cr-constructs-2.1.98.tar.gz
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/c6/34/cef791c667d067a7923df4169adb57934467590c903d5f58c9e5be5a7759/cdklabs.ecs-codedeploy-0.0.98.tar.gz
+[2023-05-04 02:26:45] INFO root fetch - processPackages [aws-cdk.asset-awscli-v2]: Downloading https://files.pythonhosted.org/packages/ff/ea/d3ff38a542e799992724e66182e34e344f1ad60cea450624e2d48ee7303b/aws-cdk.asset-awscli-v2-2.0.8.tar.gz
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/df/53/1ddc54545e9ffbcefe4385747deddb0f87b200ddf27630a55f9728869564/cdk-docker-image-deployment-0.0.98.tar.gz
+[2023-05-04 02:26:45] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Downloading https://files.pythonhosted.org/packages/d8/5f/ec514d7b5296b58149a8b4407d5d4833dd7b24475d8d782b2c36a00c4d22/aws-cdk.asset-awscli-v1-2.2.98.tar.gz
+[2023-05-04 02:26:45] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 12826336>=10485760
+[2023-05-04 02:26:45] WARNING root fetch - processPackages [aws-cdk.asset-awscli-v2]: Skipping package: exceeds size limit 53149528>=10485760
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdk-cr-constructs]: Start processing: graphistry
+[2023-05-04 02:26:45] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2023-05-04 02:26:45] INFO root fetch - processPackages [aws-cdk.asset-awscli-v2]: Start processing: cdk-serverless-clamscan
+[2023-05-04 02:26:45] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-awscli-v2] error
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-05-04 02:26:45] WARNING root fetch - processPackages [aws-cdk.asset-awscli-v1]: Skipping package: exceeds size limit 14653629>=10485760
+[2023-05-04 02:26:45] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Start processing: cdk8s-image
+[2023-05-04 02:26:45] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-awscli-v1] error
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-05-04 02:26:45] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/08/4a/4983fe97d4073731fd1258ffef45d7770c72f1de7244a05cdfe1bb68d3b0/cdk8s-image-0.2.98.tar.gz
+[2023-05-04 02:26:45] INFO root fetch - processPackages [graphistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.4.99] Old Version: [2.4.98]
+[2023-05-04 02:26:45] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-05-04 02:26:45] INFO root fetch - processPackages [coastseg]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-05-04 02:26:45] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-05-04 02:26:45] INFO root fetch - processPackages [havoc-clustering]: Downloading https://files.pythonhosted.org/packages/d7/0a/76e66eb3fb5dc8d1e3667229637b0a771d33cc8e02b789a15e2fa370d928/havoc_clustering-0.0.9.tar.gz
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/32/d6/43cc31093e5335204bbb8629fe11154ff7ebd2508f020ee399403b503b2c/cdklabs.ecs-codedeploy-0.0.99.tar.gz
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-04 02:26:45] INFO root fetch - processPackages [havoc-clustering]: executing diffoscope
+[2023-05-04 02:26:45] INFO root fetch - processPackages [havoc-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/havoc_clustering-0.0.4.tar.gz tmp/havoc_clustering-0.0.9.tar.gz --markdown 20230504/h/havoc-clustering/0.0.4-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/fb/19/ce87f85995849eec0b27665fe8c6c59e225f2d99370b1c068893ad31c698/cdk8s-image-0.2.99.tar.gz
+[2023-05-04 02:26:45] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/d2/30/bda10d30c79882d389b2b67f3039a88bbb082288fac8e61763a067928bbd/cdk-serverless-clamscan-2.4.98.tar.gz
+[2023-05-04 02:26:46] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: executing diffoscope
+[2023-05-04 02:26:46] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz --markdown 20230504/c/cdklabs.ecs-codedeploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-04 02:26:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-05-04 02:26:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230504/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-04 02:26:46] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-05-04 02:26:46] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230504/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-04 02:26:46] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-05-04 02:26:46] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230504/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-05-04 02:26:46] INFO root fetch - processPackages [graphistry]: executing diffoscope
+[2023-05-04 02:26:46] INFO root fetch - processPackages [graphistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphistry-0.9.8.tar.gz tmp/graphistry-0.9.9.tar.gz --markdown 20230504/g/graphistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-04 02:26:46] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-05-04 02:26:46] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/c3/88/072c3034e29da4be52b0ab904d17b3173d2d1f9cbb956f5fc175f1953135/cdk-serverless-clamscan-2.4.99.tar.gz
+[2023-05-04 02:26:46] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-05-04 02:26:46] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/56/a6/96a202ce0a3452c3661f863b4728bdf76892d77d2ad499612592c16f714e/NMODL_nightly-0.6.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-04 02:26:47] INFO root fetch - main [MainThread]: End processing [havoc-clustering]: success
+[2023-05-04 02:26:47] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2023-05-04 02:26:47] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.4.98.tar.gz tmp/cdk-serverless-clamscan-2.4.99.tar.gz --markdown 20230504/c/cdk-serverless-clamscan/2.4.98-2.4.99/diff.md --exclude *.pyd
+[2023-05-04 02:26:47] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-05-04 02:26:47] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-05-04 02:26:47] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-05-04 02:26:47] INFO root fetch - main [MainThread]: End processing [graphistry]: success
+[2023-05-04 02:26:48] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-05-04 02:26:48] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230504/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-04 02:26:48] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2023-05-04 02:26:49] INFO root fetch - main [MainThread]: End processing [cdklabs.ecs-codedeploy]: success
+[2023-05-04 02:26:49] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-05-04 02:26:49] INFO root fetch - processPackages [NMODL-nightly]: executing diffoscope
+[2023-05-04 02:26:49] INFO root fetch - processPackages [NMODL-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NMODL_nightly-0.6.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/NMODL_nightly-0.6.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230504/N/NMODL-nightly/0.6.2-0.6.5/diff.md --exclude *.pyd
+[2023-05-04 02:26:53] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/a3/f9/be2a564d48355f28c54c00f791e3f39262ae2d2d740e34b1e0d70ba48448/cdk-docker-image-deployment-0.0.99.tar.gz
+[2023-05-04 02:27:08] INFO root fetch - processPackages [cdk-docker-image-deployment]: executing diffoscope
+[2023-05-04 02:27:08] INFO root fetch - processPackages [cdk-docker-image-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-docker-image-deployment-0.0.98.tar.gz tmp/cdk-docker-image-deployment-0.0.99.tar.gz --markdown 20230504/c/cdk-docker-image-deployment/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-04 02:27:09] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
+[2023-05-04 02:28:56] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
+[2023-05-04 02:28:56] INFO root fetch - main [MainThread]: Store serial: [17964674]
