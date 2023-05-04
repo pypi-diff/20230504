@@ -5582,3 +5582,80 @@
 [2023-05-04 04:19:45] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-05-04 04:22:23] INFO root fetch - main [MainThread]: End processing [starwhale]: success
 [2023-05-04 04:22:23] INFO root fetch - main [MainThread]: Store serial: [17966450]
+[2023-05-04 04:27:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966450]
+[2023-05-04 04:27:33] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-04 04:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qa-keys-test
+[2023-05-04 04:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudtower-sdk
+[2023-05-04 04:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netpolymigrator
+[2023-05-04 04:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ethyca-fides
+[2023-05-04 04:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onnx2tf
+[2023-05-04 04:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MeUtils
+[2023-05-04 04:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spiff-element-units
+[2023-05-04 04:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coredis
+[2023-05-04 04:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imsub-utils
+[2023-05-04 04:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ahk
+[2023-05-04 04:27:33] INFO root fetch - processPackages [cloudtower-sdk]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-05-04 04:27:33] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-04 04:27:33] WARNING root fetch - processPackages [netpolymigrator]: Skipping, unable to determine old version
+[2023-05-04 04:27:33] INFO root fetch - processPackages [netpolymigrator]: Start processing: iam-actions
+[2023-05-04 04:27:33] INFO root fetch - processPackages [qa-keys-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 04:27:33] INFO root fetch - processPackages [spiff-element-units]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-04 04:27:33] INFO root fetch - main [MainThread]: End processing [netpolymigrator] error
+[2023-05-04 04:27:33] WARNING root fetch - processPackages [imsub-utils]: Skipping, unable to determine old version
+[2023-05-04 04:27:33] INFO root fetch - processPackages [imsub-utils]: Start processing: cdk8s-plus-26
+[2023-05-04 04:27:33] INFO root fetch - main [MainThread]: End processing [imsub-utils] error
+[2023-05-04 04:27:33] INFO root fetch - processPackages [ahk]: New version: [1.1.0rc2] Old Version: [1.1.0rc1]
+[2023-05-04 04:27:33] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-04 04:27:33] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-04 04:27:33] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230504] Old Version: [1.2.20230503]
+[2023-05-04 04:27:33] INFO root fetch - processPackages [coredis]: New version: [4.9.0] Old Version: [4.8.3]
+[2023-05-04 04:27:33] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.4.9.19.24] Old Version: [2023.5.4.10.23.53]
+[2023-05-04 04:27:33] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/90/1a/e1a333251d10fe57be71b25622c08ba24ce04112a4d979950b27a03cf167/cdk8s-plus-26-2.3.8.tar.gz
+[2023-05-04 04:27:33] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2023-05-04 04:27:33] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20230504/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-04 04:27:33] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-05-04 04:27:33] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230504/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-04 04:27:33] INFO root fetch - processPackages [cloudtower-sdk]: Downloading https://files.pythonhosted.org/packages/4f/68/98ce67f69af438640b99751057884854277f6bd601704f55f387f0f429bc/cloudtower-sdk-2.7.0.tar.gz
+[2023-05-04 04:27:33] INFO root fetch - processPackages [spiff-element-units]: Downloading https://files.pythonhosted.org/packages/af/ac/ccddbd0a0dbf515ca906acd846cc9c7126eb64dcecaed2541e9ea9c42c9d/spiff_element_units-0.2.0.tar.gz
+[2023-05-04 04:27:33] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/c2/2c/fbbcbd0ff4759cbc91965dd5bc05f970078910d6d35eb6ffae7a748924b8/MeUtils-2023.5.4.10.23.53.tar.gz
+[2023-05-04 04:27:33] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/fe/39/1fe7f9fe912cf3128b4ac434a2ff4db18f2b3a12fd868f28308dc92b5c4b/ahk-1.1.0rc2.tar.gz
+[2023-05-04 04:27:33] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/d9/1c/81b06b82aabb70f30386a789574d35fc4dff871ad11efb52156b7676a6ea/iam_actions-1.2.20230504.tar.gz
+[2023-05-04 04:27:34] INFO root fetch - processPackages [qa-keys-test]: executing diffoscope
+[2023-05-04 04:27:34] INFO root fetch - processPackages [qa-keys-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qa-keys-test-0.0.8.tar.gz tmp/qa-keys-test-0.0.9.tar.gz --markdown 20230504/q/qa-keys-test/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 04:27:34] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/e8/bc/7fdfebbf42c172a8f57e6adbbf83c039f251e2b572610758a0ba2490a931/cdk8s-plus-26-2.3.9.tar.gz
+[2023-05-04 04:27:34] INFO root fetch - processPackages [coredis]: Downloading https://files.pythonhosted.org/packages/9e/15/9498630a748dec93a44ce80042c02bf7978e61fd9f327ff91cdafe3f6552/coredis-4.8.3.tar.gz
+[2023-05-04 04:27:34] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-05-04 04:27:34] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230503.tar.gz tmp/iam_actions-1.2.20230504.tar.gz --markdown 20230504/i/iam-actions/1.2.20230503-1.2.20230504/diff.md --exclude *.pyd
+[2023-05-04 04:27:34] INFO root fetch - processPackages [ahk]: executing diffoscope
+[2023-05-04 04:27:34] INFO root fetch - processPackages [ahk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahk-1.1.0rc1.tar.gz tmp/ahk-1.1.0rc2.tar.gz --markdown 20230504/a/ahk/1.1.0rc1-1.1.0rc2/diff.md --exclude *.pyd
+[2023-05-04 04:27:34] INFO root fetch - processPackages [spiff-element-units]: Downloading https://files.pythonhosted.org/packages/b9/d9/2a7bd594ec620f07c6c25619b08e2a098ec6f226cf3c801e0a4b0b34015d/spiff_element_units-0.3.0.tar.gz
+[2023-05-04 04:27:34] INFO root fetch - processPackages [spiff-element-units]: executing diffoscope
+[2023-05-04 04:27:34] INFO root fetch - processPackages [spiff-element-units]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiff_element_units-0.2.0.tar.gz tmp/spiff_element_units-0.3.0.tar.gz --markdown 20230504/s/spiff-element-units/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-04 04:27:34] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-05-04 04:27:34] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.8.tar.gz tmp/cdk8s-plus-26-2.3.9.tar.gz --markdown 20230504/c/cdk8s-plus-26/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-04 04:27:34] INFO root fetch - processPackages [coredis]: Downloading https://files.pythonhosted.org/packages/cf/dc/6d8ed835ed3561c0e006b8e2719ac4acc5b2be330a6c40f810ea0b579237/coredis-4.9.0.tar.gz
+[2023-05-04 04:27:34] INFO root fetch - processPackages [cloudtower-sdk]: Downloading https://files.pythonhosted.org/packages/e2/14/1672145f5e7091596e6f54c961112ccb3a8b0bb33e479ccbfe00f61406c0/cloudtower-sdk-2.8.0.tar.gz
+[2023-05-04 04:27:34] INFO root fetch - processPackages [cloudtower-sdk]: executing diffoscope
+[2023-05-04 04:27:34] INFO root fetch - processPackages [cloudtower-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudtower-sdk-2.7.0.tar.gz tmp/cloudtower-sdk-2.8.0.tar.gz --markdown 20230504/c/cloudtower-sdk/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-05-04 04:27:34] INFO root fetch - processPackages [coredis]: executing diffoscope
+[2023-05-04 04:27:34] INFO root fetch - processPackages [coredis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coredis-4.8.3.tar.gz tmp/coredis-4.9.0.tar.gz --markdown 20230504/c/coredis/4.8.3-4.9.0/diff.md --exclude *.pyd
+[2023-05-04 04:27:35] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-04 04:27:35] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.4.10.23.53.tar.gz tmp/MeUtils-2023.5.4.9.19.24.tar.gz --markdown 20230504/M/MeUtils/2023.5.4.10.23.53-2023.5.4.9.19.24/diff.md --exclude *.pyd
+[2023-05-04 04:27:35] INFO root fetch - processPackages [qa-keys-test]: Start processing: cdk8s-plus-24
+[2023-05-04 04:27:35] INFO root fetch - main [MainThread]: End processing [qa-keys-test]: success
+[2023-05-04 04:27:35] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-04 04:27:35] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/61/fd/341ee13486880c693e40dcfa1c392676afb73632bc824de1f5a33591736a/cdk8s-plus-24-2.7.8.tar.gz
+[2023-05-04 04:27:35] INFO root fetch - main [MainThread]: End processing [ahk]: success
+[2023-05-04 04:27:35] INFO root fetch - main [MainThread]: End processing [spiff-element-units]: success
+[2023-05-04 04:27:36] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-05-04 04:27:36] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/bf/09/a12dca2b452b7dcf2baa4614cc7fdd7aed5784b316bc66d6da559c8c792a/cdk8s-plus-24-2.7.9.tar.gz
+[2023-05-04 04:27:36] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-05-04 04:27:36] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.8.tar.gz tmp/cdk8s-plus-24-2.7.9.tar.gz --markdown 20230504/c/cdk8s-plus-24/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-04 04:27:36] INFO root fetch - main [MainThread]: End processing [coredis]: success
+[2023-05-04 04:27:37] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-05-04 04:27:39] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-05-04 04:27:39] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-05-04 04:27:41] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-04 04:27:42] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2023-05-04 04:27:59] INFO root fetch - main [MainThread]: End processing [cloudtower-sdk]: success
+[2023-05-04 04:28:00] INFO root fetch - main [MainThread]: Store serial: [17966521]
