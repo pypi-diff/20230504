@@ -12445,3 +12445,109 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 12:05:38] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-05-04 12:05:38] INFO root fetch - main [MainThread]: End processing [snakemake]: success
 [2023-05-04 12:05:38] INFO root fetch - main [MainThread]: Store serial: [17970444]
+[2023-05-04 12:10:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17970444]
+[2023-05-04 12:10:50] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-04 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akerbp.mlops
+[2023-05-04 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etiq
+[2023-05-04 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cca-zoo
+[2023-05-04 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: insights-core
+[2023-05-04 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bp-data-fabric
+[2023-05-04 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-pg
+[2023-05-04 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: diameter-synthesis
+[2023-05-04 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: appy
+[2023-05-04 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-gereon-cert-1932-rm-query-from-results
+[2023-05-04 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: classreg
+[2023-05-04 12:10:50] INFO root fetch - processPackages [pytest-pg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 12:10:50] INFO root fetch - processPackages [cca-zoo]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-04 12:10:50] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1932-rm-query-from-results]: New version: [20230504.7.12.576366] Old Version: [20230504.10.8.506518]
+[2023-05-04 12:10:50] INFO root fetch - processPackages [classreg]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-04 12:10:50] INFO root fetch - processPackages [appy]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 12:10:50] INFO root fetch - processPackages [diameter-synthesis]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-04 12:10:50] INFO root fetch - processPackages [bp-data-fabric]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-04 12:10:50] INFO root fetch - processPackages [insights-core]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-04 12:10:50] INFO root fetch - processPackages [etiq]: New version: [1.3.8b3] Old Version: [1.3.8b2]
+[2023-05-04 12:10:50] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.1.0a1] Old Version: [3.1.0a0]
+[2023-05-04 12:10:50] INFO root fetch - processPackages [cca-zoo]: executing diffoscope
+[2023-05-04 12:10:50] INFO root fetch - processPackages [cca-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cca_zoo-1.9.0.tar.gz tmp/cca_zoo-1.9.1.tar.gz --markdown 20230504/c/cca-zoo/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-04 12:10:50] INFO root fetch - processPackages [etiq]: executing diffoscope
+[2023-05-04 12:10:50] INFO root fetch - processPackages [etiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etiq-1.3.8b2-cp39-cp39-win_amd64.whl.zip tmp/etiq-1.3.8b3-cp39-cp39-win_amd64.whl.zip --markdown 20230504/e/etiq/1.3.8b2-1.3.8b3/diff.md --exclude *.pyd
+[2023-05-04 12:10:50] INFO root fetch - processPackages [classreg]: Downloading https://files.pythonhosted.org/packages/9f/09/8608729317161d9f6e675618a39b6221e1938ad840f6af362e8c27fe2100/classreg-0.0.1.tar.gz
+[2023-05-04 12:10:50] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1932-rm-query-from-results]: Downloading https://files.pythonhosted.org/packages/7f/cd/994264cbe5d144b2e2b2bc55980ccb4eb520129809c744e80e24e722d7e3/certora-cli-alpha-gereon-cert-1932-rm-query-from-results-20230504.10.8.506518.tar.gz
+[2023-05-04 12:10:51] INFO root fetch - processPackages [appy]: Downloading https://files.pythonhosted.org/packages/f9/52/eaf4f6f32443c7f0ed08f346c2188b9b9eb0bf7e2b8bd072aa49a1c59e50/appy-1.0.8.tar.gz
+[2023-05-04 12:10:51] INFO root fetch - processPackages [pytest-pg]: Downloading https://files.pythonhosted.org/packages/b7/be/6e56dbba717fa6326abda558040a1fe5714920fe31f07b7f255aaca836b4/pytest_pg-0.0.8.tar.gz
+[2023-05-04 12:10:51] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-1932-rm-query-from-results]: Skipping package: exceeds size limit 38420123>=10485760
+[2023-05-04 12:10:51] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1932-rm-query-from-results]: Start processing: plone.app.standardtiles
+[2023-05-04 12:10:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-1932-rm-query-from-results] error
+[2023-05-04 12:10:51] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/f3/81/16f7a849f7cbc9bee8db9f5977d010b158789872781fa41fbd360186ba1d/insights-core-3.1.8.tar.gz
+[2023-05-04 12:10:51] INFO root fetch - processPackages [bp-data-fabric]: Downloading https://files.pythonhosted.org/packages/13/73/7630457128797e72dc6211fa38f5fbbf33ee6d7ac3929dd7a59ee5b639bf/bp_data_fabric-1.0.6.tar.gz
+[2023-05-04 12:10:51] INFO root fetch - processPackages [diameter-synthesis]: Downloading https://files.pythonhosted.org/packages/88/a2/a9c18d38ac91af79f0f9af731c80bb2b8c0d40a82dee271b1fbae9184d85/diameter-synthesis-0.5.3.tar.gz
+[2023-05-04 12:10:51] INFO root fetch - processPackages [plone.app.standardtiles]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-05-04 12:10:51] INFO root fetch - processPackages [bp-data-fabric]: executing diffoscope
+[2023-05-04 12:10:51] INFO root fetch - processPackages [bp-data-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_fabric-1.0.5.tar.gz tmp/bp_data_fabric-1.0.6.tar.gz --markdown 20230504/b/bp-data-fabric/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-04 12:10:51] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/65/d9/d29e341e71b3bd5d88c38c4a71920620506f49943177bf0229d08dd156c8/akerbp.mlops-3.1.0a1.tar.gz
+[2023-05-04 12:10:51] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-05-04 12:10:51] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.1.0a0.tar.gz tmp/akerbp.mlops-3.1.0a1.tar.gz --markdown 20230504/a/akerbp.mlops/3.1.0a0-3.1.0a1/diff.md --exclude *.pyd
+[2023-05-04 12:10:51] INFO root fetch - processPackages [plone.app.standardtiles]: Downloading https://files.pythonhosted.org/packages/f9/ed/e2047e3fad2027113d00fb9257f27e70f354acbfc34a6fddd5bcbb72d650/plone.app.standardtiles-3.0.1.tar.gz
+[2023-05-04 12:10:51] INFO root fetch - processPackages [diameter-synthesis]: Downloading https://files.pythonhosted.org/packages/93/83/ac503231ba5ca1285fb2dc7cdee6211d8c0b35d2d1d26ef2c49be3a23d05/diameter-synthesis-0.5.4.tar.gz
+[2023-05-04 12:10:51] INFO root fetch - processPackages [classreg]: Downloading https://files.pythonhosted.org/packages/2d/68/80c54ae9ec2ee7e6c7fb91163517adc6f294b18d1e37f1b59f9c1d5f69f5/classreg-0.0.2.tar.gz
+[2023-05-04 12:10:51] INFO root fetch - processPackages [pytest-pg]: Downloading https://files.pythonhosted.org/packages/0e/80/01ba8f2cdeb2e5fc4a1a6f4f9033975b81a1217272f9a16991e18d38f924/pytest_pg-0.0.9.tar.gz
+[2023-05-04 12:10:51] INFO root fetch - processPackages [diameter-synthesis]: executing diffoscope
+[2023-05-04 12:10:51] INFO root fetch - processPackages [diameter-synthesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diameter-synthesis-0.5.3.tar.gz tmp/diameter-synthesis-0.5.4.tar.gz --markdown 20230504/d/diameter-synthesis/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-04 12:10:51] INFO root fetch - processPackages [classreg]: executing diffoscope
+[2023-05-04 12:10:51] INFO root fetch - processPackages [classreg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classreg-0.0.1.tar.gz tmp/classreg-0.0.2.tar.gz --markdown 20230504/c/classreg/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-04 12:10:51] INFO root fetch - processPackages [pytest-pg]: executing diffoscope
+[2023-05-04 12:10:51] INFO root fetch - processPackages [pytest-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_pg-0.0.8.tar.gz tmp/pytest_pg-0.0.9.tar.gz --markdown 20230504/p/pytest-pg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:10:51] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/f5/b2/60deb6f5b9efa1b3747c5a8d04cebd550974d0cf3d58f995c286096830b7/insights-core-3.1.9.tar.gz
+[2023-05-04 12:10:51] INFO root fetch - processPackages [plone.app.standardtiles]: Downloading https://files.pythonhosted.org/packages/1f/e9/a28e8e50ea5ca63ec3a08e98b39a39079cb992fc5a11c79cdea5c73bdb74/plone.app.standardtiles-3.1.0.tar.gz
+[2023-05-04 12:10:52] INFO root fetch - processPackages [plone.app.standardtiles]: executing diffoscope
+[2023-05-04 12:10:52] INFO root fetch - processPackages [plone.app.standardtiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.standardtiles-3.0.1.tar.gz tmp/plone.app.standardtiles-3.1.0.tar.gz --markdown 20230504/p/plone.app.standardtiles/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-05-04 12:10:52] INFO root fetch - processPackages [bp-data-fabric]: Start processing: potatorch
+[2023-05-04 12:10:52] INFO root fetch - main [MainThread]: End processing [bp-data-fabric]: success
+[2023-05-04 12:10:52] WARNING root fetch - processPackages [potatorch]: Skipping, unable to determine old version
+[2023-05-04 12:10:52] INFO root fetch - processPackages [potatorch]: Start processing: mo-times
+[2023-05-04 12:10:52] INFO root fetch - main [MainThread]: End processing [potatorch] error
+[2023-05-04 12:10:52] INFO root fetch - processPackages [insights-core]: executing diffoscope
+[2023-05-04 12:10:52] INFO root fetch - processPackages [insights-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insights-core-3.1.8.tar.gz tmp/insights-core-3.1.9.tar.gz --markdown 20230504/i/insights-core/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-04 12:10:52] INFO root fetch - processPackages [mo-times]: New version: [5.53.21241] Old Version: [5.381.23124]
+[2023-05-04 12:10:52] INFO root fetch - processPackages [cca-zoo]: Start processing: certora-cli-alpha-oz-docker-json5
+[2023-05-04 12:10:52] INFO root fetch - main [MainThread]: End processing [cca-zoo]: success
+[2023-05-04 12:10:52] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: New version: [20230504.8.42.61246] Old Version: [20230504.10.8.680838]
+[2023-05-04 12:10:52] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/44/80/c0491f27c5bb81ae5cc328214066d7bb1b4f1f8aeec5f0ab86d897863eb9/mo_times-5.381.23124-py2.py3-none-any.whl
+[2023-05-04 12:10:52] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Downloading https://files.pythonhosted.org/packages/e0/05/c567e7b2c9594fe0689462037131e9ffba5f5786a75a5a8086dcc2392b50/certora-cli-alpha-oz-docker-json5-20230504.10.8.680838.tar.gz
+[2023-05-04 12:10:52] INFO root fetch - processPackages [classreg]: Start processing: Qpro
+[2023-05-04 12:10:52] INFO root fetch - main [MainThread]: End processing [classreg]: success
+[2023-05-04 12:10:52] INFO root fetch - processPackages [Qpro]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-04 12:10:52] INFO root fetch - processPackages [etiq]: Start processing: sphere-base
+[2023-05-04 12:10:52] INFO root fetch - main [MainThread]: End processing [etiq]: success
+[2023-05-04 12:10:52] WARNING root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Skipping package: exceeds size limit 38419010>=10485760
+[2023-05-04 12:10:52] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Start processing: dm-reverb-nightly
+[2023-05-04 12:10:52] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-docker-json5] error
+[2023-05-04 12:10:52] INFO root fetch - processPackages [sphere-base]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 12:10:52] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/03/e0/c83ec4a44a093d55ad4d2ccac4a0a0e96cd7f9ef6d58f0c10a06ce767009/mo-times-5.53.21241.tar.gz
+[2023-05-04 12:10:52] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-05-04 12:10:52] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-05-04 12:10:52] INFO root fetch - processPackages [appy]: Downloading https://files.pythonhosted.org/packages/fa/bf/9224dc4dd7e8b8a363b356956587ea48633d48739f00e30e67536618bbb5/appy-1.0.9.tar.gz
+[2023-05-04 12:10:52] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-05-04 12:10:52] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230504/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-05-04 12:10:52] INFO root fetch - processPackages [Qpro]: Downloading https://files.pythonhosted.org/packages/79/0c/ae4338de3999182a858cc231bcc608283ff7dea051e3f13ac8f354bd5ebc/Qpro-0.9.8.tar.gz
+[2023-05-04 12:10:53] INFO root fetch - processPackages [sphere-base]: Downloading https://files.pythonhosted.org/packages/9c/6f/fcff029ec5d572acbbb18bf4b7a917612d009aa01a8705c63d8f842bf28c/sphere_base-0.1.8.tar.gz
+[2023-05-04 12:10:53] INFO root fetch - main [MainThread]: End processing [pytest-pg]: success
+[2023-05-04 12:10:53] INFO root fetch - processPackages [mo-times]: executing diffoscope
+[2023-05-04 12:10:53] INFO root fetch - processPackages [mo-times]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_times-5.381.23124-py2.py3-none-any.whl.zip tmp/mo-times-5.53.21241.tar.gz --markdown 20230504/m/mo-times/5.381.23124-5.53.21241/diff.md --exclude *.pyd
+[2023-05-04 12:10:53] INFO root fetch - processPackages [Qpro]: Downloading https://files.pythonhosted.org/packages/aa/c4/523582425967c77f08b8cca8ee3166cb8b4b7376b1eaf112114a93155488/Qpro-0.9.9.tar.gz
+[2023-05-04 12:10:53] INFO root fetch - processPackages [sphere-base]: Downloading https://files.pythonhosted.org/packages/23/b2/d195ee1ab25a64139920b673166142e80649e630347652252756eb6482e2/sphere_base-0.1.9.tar.gz
+[2023-05-04 12:10:53] INFO root fetch - processPackages [sphere-base]: executing diffoscope
+[2023-05-04 12:10:53] INFO root fetch - processPackages [sphere-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphere_base-0.1.8.tar.gz tmp/sphere_base-0.1.9.tar.gz --markdown 20230504/s/sphere-base/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 12:10:53] INFO root fetch - processPackages [Qpro]: executing diffoscope
+[2023-05-04 12:10:53] INFO root fetch - processPackages [Qpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Qpro-0.9.8.tar.gz tmp/Qpro-0.9.9.tar.gz --markdown 20230504/Q/Qpro/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-04 12:10:53] INFO root fetch - main [MainThread]: End processing [plone.app.standardtiles]: success
+[2023-05-04 12:10:53] INFO root fetch - main [MainThread]: End processing [diameter-synthesis]: success
+[2023-05-04 12:10:54] INFO root fetch - processPackages [appy]: executing diffoscope
+[2023-05-04 12:10:54] INFO root fetch - processPackages [appy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appy-1.0.8.tar.gz tmp/appy-1.0.9.tar.gz --markdown 20230504/a/appy/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:10:54] INFO root fetch - main [MainThread]: End processing [mo-times]: success
+[2023-05-04 12:10:54] INFO root fetch - main [MainThread]: End processing [Qpro]: success
+[2023-05-04 12:10:55] INFO root fetch - main [MainThread]: End processing [sphere-base]: success
+[2023-05-04 12:11:11] INFO root fetch - main [MainThread]: End processing [appy]: success
+[2023-05-04 12:11:19] INFO root fetch - main [MainThread]: End processing [insights-core]: success
+[2023-05-04 12:11:46] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-05-04 12:11:46] INFO root fetch - main [MainThread]: Store serial: [17970515]
