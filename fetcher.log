@@ -12145,3 +12145,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 11:49:19] INFO root fetch - main [MainThread]: End processing [numbers-c2pa]: success
 [2023-05-04 11:49:21] INFO root fetch - main [MainThread]: End processing [luigi]: success
 [2023-05-04 11:49:21] INFO root fetch - main [MainThread]: Store serial: [17970261]
+[2023-05-04 11:54:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17970261]
+[2023-05-04 11:54:31] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-04 11:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nitric
+[2023-05-04 11:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idp-engine
+[2023-05-04 11:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peaqevcore
+[2023-05-04 11:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blond
+[2023-05-04 11:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pa-dlna
+[2023-05-04 11:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ms_toollib
+[2023-05-04 11:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dora-rs
+[2023-05-04 11:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seven-cloudapp-frame
+[2023-05-04 11:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pequenawebview
+[2023-05-04 11:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edwh-migrate
+[2023-05-04 11:54:32] INFO root fetch - processPackages [nitric]: New version: [0.9.2.dev4] Old Version: [0.9.2.dev3]
+[2023-05-04 11:54:32] INFO root fetch - processPackages [blond]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-04 11:54:32] INFO root fetch - processPackages [pa-dlna]: New version: [0.5] Old Version: [0.4]
+[2023-05-04 11:54:32] INFO root fetch - processPackages [edwh-migrate]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-04 11:54:32] INFO root fetch - processPackages [ms_toollib]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-05-04 11:54:32] WARNING root fetch - processPackages [pequenawebview]: Skipping, unable to determine old version
+[2023-05-04 11:54:32] INFO root fetch - processPackages [dora-rs]: New version: [0.2.3rc5] Old Version: [0.2.2rc2]
+[2023-05-04 11:54:32] INFO root fetch - processPackages [pequenawebview]: Start processing: chesscomwrapper
+[2023-05-04 11:54:32] INFO root fetch - main [MainThread]: End processing [pequenawebview] error
+[2023-05-04 11:54:32] INFO root fetch - processPackages [idp-engine]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-04 11:54:32] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-05-04 11:54:32] INFO root fetch - processPackages [chesscomwrapper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 11:54:32] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-05-04 11:54:32] INFO root fetch - processPackages [nitric]: executing diffoscope
+[2023-05-04 11:54:32] INFO root fetch - processPackages [nitric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitric-0.9.2.dev3.tar.gz tmp/nitric-0.9.2.dev4.tar.gz --markdown 20230504/n/nitric/0.9.2.dev3-0.9.2.dev4/diff.md --exclude *.pyd
+[2023-05-04 11:54:32] INFO root fetch - processPackages [idp-engine]: executing diffoscope
+[2023-05-04 11:54:32] INFO root fetch - processPackages [idp-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idp-engine-0.9.1.tar.gz tmp/idp-engine-0.9.2.tar.gz --markdown 20230504/i/idp-engine/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-04 11:54:32] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-05-04 11:54:32] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230504/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-05-04 11:54:32] INFO root fetch - processPackages [edwh-migrate]: Downloading https://files.pythonhosted.org/packages/0d/43/16fb5822778fe7a903c7e0af7e500dc69d475c9a290217bd5875ad204b4b/edwh_migrate-0.4.0.tar.gz
+[2023-05-04 11:54:32] INFO root fetch - processPackages [pa-dlna]: Downloading https://files.pythonhosted.org/packages/01/6c/8b04732ec6a677a072c12e9d0816c46e3b057c7cd8ed2c705eb994a58de3/pa-dlna-0.4.tar.gz
+[2023-05-04 11:54:32] INFO root fetch - processPackages [dora-rs]: Downloading https://files.pythonhosted.org/packages/59/a1/a5b37b0ec9cbddaa68b5677fed99cebac6a745ed8cba1e0a011291969e85/dora_rs-0.2.2rc2-cp37-abi3-manylinux_2_34_x86_64.whl
+[2023-05-04 11:54:32] INFO root fetch - processPackages [edwh-migrate]: executing diffoscope
+[2023-05-04 11:54:32] INFO root fetch - processPackages [edwh-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_migrate-0.3.0.tar.gz tmp/edwh_migrate-0.4.0.tar.gz --markdown 20230504/e/edwh-migrate/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-04 11:54:32] INFO root fetch - processPackages [blond]: Downloading https://files.pythonhosted.org/packages/87/d5/0b71c9bab9632519dbe84269847ffdd1b967662cf1611d5e2f84312450f5/blond-2.1.1.tar.gz
+[2023-05-04 11:54:32] INFO root fetch - processPackages [chesscomwrapper]: Downloading https://files.pythonhosted.org/packages/c3/48/4c1f2e0016247d54da0919066d36e2605b7568ecd0471636e0599934d5ce/chesscomwrapper-0.0.8.tar.gz
+[2023-05-04 11:54:32] INFO root fetch - processPackages [blond]: executing diffoscope
+[2023-05-04 11:54:32] INFO root fetch - processPackages [blond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blond-2.1.0.tar.gz tmp/blond-2.1.1.tar.gz --markdown 20230504/b/blond/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-04 11:54:32] INFO root fetch - processPackages [ms_toollib]: Downloading https://files.pythonhosted.org/packages/b4/ef/3e63ad33ff813520832cc93c39dd07bc50e81664226fb6dbd6ae89677bcc/ms_toollib-1.4.5-cp37-abi3-win_amd64.whl
+[2023-05-04 11:54:32] INFO root fetch - processPackages [pa-dlna]: Downloading https://files.pythonhosted.org/packages/ca/6a/3d78e6174caf4936b41ac0160074d69e3596ad229a35a1865123190dec12/pa-dlna-0.5.tar.gz
+[2023-05-04 11:54:32] INFO root fetch - processPackages [ms_toollib]: executing diffoscope
+[2023-05-04 11:54:32] INFO root fetch - processPackages [ms_toollib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_toollib-1.4.4.tar.gz tmp/ms_toollib-1.4.5-cp37-abi3-win_amd64.whl.zip --markdown 20230504/m/ms_toollib/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-05-04 11:54:32] INFO root fetch - processPackages [chesscomwrapper]: Downloading https://files.pythonhosted.org/packages/7a/e3/f29044717f5310bbd7581942e4261ed003f3eba0f14da5b3a3ec6d811043/chesscomwrapper-0.0.9.tar.gz
+[2023-05-04 11:54:32] INFO root fetch - processPackages [pa-dlna]: executing diffoscope
+[2023-05-04 11:54:32] INFO root fetch - processPackages [pa-dlna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pa-dlna-0.4.tar.gz tmp/pa-dlna-0.5.tar.gz --markdown 20230504/p/pa-dlna/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-04 11:54:32] INFO root fetch - processPackages [chesscomwrapper]: executing diffoscope
+[2023-05-04 11:54:32] INFO root fetch - processPackages [chesscomwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chesscomwrapper-0.0.8.tar.gz tmp/chesscomwrapper-0.0.9.tar.gz --markdown 20230504/c/chesscomwrapper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 11:54:32] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-05-04 11:54:32] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230504/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-05-04 11:54:32] INFO root fetch - processPackages [dora-rs]: Downloading https://files.pythonhosted.org/packages/62/39/2b83e9149e646125c402bff444defe7e5dab4b2549606cb81f27bbf63b48/dora_rs-0.2.3rc5.tar.gz
+[2023-05-04 11:54:32] INFO root fetch - processPackages [dora-rs]: executing diffoscope
+[2023-05-04 11:54:32] INFO root fetch - processPackages [dora-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dora_rs-0.2.2rc2-cp37-abi3-manylinux_2_34_x86_64.whl.zip tmp/dora_rs-0.2.3rc5.tar.gz --markdown 20230504/d/dora-rs/0.2.2rc2-0.2.3rc5/diff.md --exclude *.pyd
+[2023-05-04 11:54:33] INFO root fetch - processPackages [idp-engine]: Start processing: odoo14-addon-repair-stock-move
+[2023-05-04 11:54:33] INFO root fetch - main [MainThread]: End processing [idp-engine]: success
+[2023-05-04 11:54:33] INFO root fetch - processPackages [odoo14-addon-repair-stock-move]: New version: [14.0.1.0.3.dev2] Old Version: [14.0.1.0.2.dev2]
+[2023-05-04 11:54:33] INFO root fetch - processPackages [edwh-migrate]: Start processing: lincs
+[2023-05-04 11:54:33] INFO root fetch - main [MainThread]: End processing [edwh-migrate]: success
+[2023-05-04 11:54:34] INFO root fetch - processPackages [ms_toollib]: Start processing: bp-data-fabric
+[2023-05-04 11:54:34] INFO root fetch - main [MainThread]: End processing [ms_toollib]: success
+[2023-05-04 11:54:34] WARNING root fetch - processPackages [lincs]: Skipping, unable to determine old version
+[2023-05-04 11:54:34] INFO root fetch - processPackages [lincs]: Start processing: create-stc
+[2023-05-04 11:54:34] INFO root fetch - main [MainThread]: End processing [lincs] error
+[2023-05-04 11:54:34] INFO root fetch - processPackages [bp-data-fabric]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-04 11:54:34] INFO root fetch - processPackages [odoo14-addon-repair-stock-move]: Downloading https://files.pythonhosted.org/packages/63/da/42cb9dc11783b75b6a17a5921a2f15e63012ed9226d6f01e4985fc9f05a4/odoo14_addon_repair_stock_move-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-05-04 11:54:34] WARNING root fetch - processPackages [create-stc]: Skipping, unable to determine old version
+[2023-05-04 11:54:34] INFO root fetch - main [MainThread]: End processing [create-stc] error
+[2023-05-04 11:54:34] INFO root fetch - processPackages [odoo14-addon-repair-stock-move]: Downloading https://files.pythonhosted.org/packages/b4/a9/f80d330f80fd5f25b8f84c4f5195227396c6eff656202664b19679bf23c8/odoo14_addon_repair_stock_move-14.0.1.0.3.dev2-py3-none-any.whl
+[2023-05-04 11:54:34] INFO root fetch - main [MainThread]: End processing [chesscomwrapper]: success
+[2023-05-04 11:54:34] INFO root fetch - processPackages [bp-data-fabric]: Downloading https://files.pythonhosted.org/packages/78/21/f88fc9933c8b8bb78594d4bbdea53c34e60ac48be707bb946dd55c3823f7/bp_data_fabric-1.0.3.tar.gz
+[2023-05-04 11:54:34] INFO root fetch - processPackages [bp-data-fabric]: executing diffoscope
+[2023-05-04 11:54:34] INFO root fetch - processPackages [bp-data-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_fabric-1.0.2.tar.gz tmp/bp_data_fabric-1.0.3.tar.gz --markdown 20230504/b/bp-data-fabric/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-04 11:54:34] INFO root fetch - main [MainThread]: End processing [pa-dlna]: success
+[2023-05-04 11:54:34] INFO root fetch - processPackages [odoo14-addon-repair-stock-move]: executing diffoscope
+[2023-05-04 11:54:34] INFO root fetch - processPackages [odoo14-addon-repair-stock-move]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_repair_stock_move-14.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_repair_stock_move-14.0.1.0.3.dev2-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addon-repair-stock-move/14.0.1.0.2.dev2-14.0.1.0.3.dev2/diff.md --exclude *.pyd
+[2023-05-04 11:54:34] INFO root fetch - main [MainThread]: End processing [nitric]: success
+[2023-05-04 11:54:34] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-05-04 11:54:35] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-05-04 11:54:35] INFO root fetch - main [MainThread]: End processing [bp-data-fabric]: success
+[2023-05-04 11:54:36] INFO root fetch - main [MainThread]: End processing [dora-rs]: success
+[2023-05-04 11:54:37] INFO root fetch - main [MainThread]: End processing [blond]: success
+[2023-05-04 11:55:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-repair-stock-move]: success
+[2023-05-04 11:55:03] INFO root fetch - main [MainThread]: Store serial: [17970315]
