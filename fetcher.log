@@ -8626,3 +8626,82 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 08:30:21] INFO root fetch - main [MainThread]: End processing [hurry.query]: success
 [2023-05-04 08:30:21] INFO root fetch - main [MainThread]: End processing [itsimodels]: success
 [2023-05-04 08:30:21] INFO root fetch - main [MainThread]: Store serial: [17968101]
+[2023-05-04 08:35:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17968101]
+[2023-05-04 08:35:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-04 08:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NDETCStemmer-kaenova
+[2023-05-04 08:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hiddifypanel
+[2023-05-04 08:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: krx-rigger
+[2023-05-04 08:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fmldk
+[2023-05-04 08:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rover-arm
+[2023-05-04 08:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yolov5-shaop
+[2023-05-04 08:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysolmysql
+[2023-05-04 08:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Red-DiscordBot
+[2023-05-04 08:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: werpy
+[2023-05-04 08:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modular-rl
+[2023-05-04 08:35:30] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-04 08:35:30] INFO root fetch - processPackages [Red-DiscordBot]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-05-04 08:35:30] INFO root fetch - processPackages [hiddifypanel]: New version: [6.1.5] Old Version: [6.1.4]
+[2023-05-04 08:35:30] INFO root fetch - processPackages [NDETCStemmer-kaenova]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-04 08:35:30] WARNING root fetch - processPackages [modular-rl]: Skipping, unable to determine old version
+[2023-05-04 08:35:30] INFO root fetch - processPackages [werpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-04 08:35:30] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-05-04 08:35:30] INFO root fetch - processPackages [modular-rl]: Start processing: SDTcloud
+[2023-05-04 08:35:30] INFO root fetch - main [MainThread]: End processing [modular-rl] error
+[2023-05-04 08:35:30] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.7.tar.gz tmp/krx_rigger-0.0.8.tar.gz --markdown 20230504/k/krx-rigger/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-04 08:35:30] INFO root fetch - processPackages [pysolmysql]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-05-04 08:35:30] INFO root fetch - processPackages [rover-arm]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-04 08:35:30] INFO root fetch - processPackages [fmldk]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-04 08:35:30] WARNING root fetch - processPackages [yolov5-shaop]: Skipping, unable to determine old version
+[2023-05-04 08:35:30] INFO root fetch - processPackages [yolov5-shaop]: Start processing: automation-editor
+[2023-05-04 08:35:30] INFO root fetch - main [MainThread]: End processing [yolov5-shaop] error
+[2023-05-04 08:35:30] INFO root fetch - processPackages [SDTcloud]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 08:35:30] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/1e/d5/f7e879fd4fbc5910306658045015c10abdc32d9eb18be3f448a8aeafbb6d/hiddifypanel-6.1.5-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-04 08:35:30] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-05-04 08:35:30] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.1.1.tar.gz tmp/SDTcloud-0.1.2.tar.gz --markdown 20230504/S/SDTcloud/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 08:35:30] INFO root fetch - processPackages [NDETCStemmer-kaenova]: Downloading https://files.pythonhosted.org/packages/ec/33/1a8a312b4e5b40f87eb8d8aa463388b14448f04c7c7afbe4ebe9e3fcb824/NDETCStemmer_kaenova-1.3.0.tar.gz
+[2023-05-04 08:35:30] INFO root fetch - processPackages [automation-editor]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-04 08:35:30] INFO root fetch - processPackages [rover-arm]: Downloading https://files.pythonhosted.org/packages/df/6b/2ceedd9cc3070b26397c4b32d62296981f27b2f1d1830a67b4e8de858018/rover_arm-1.1.3.tar.gz
+[2023-05-04 08:35:30] INFO root fetch - processPackages [werpy]: Downloading https://files.pythonhosted.org/packages/d4/6d/076e1724ea8a39c08581f2bf33f7f9581bb7f638d0a434ab133ddc63376e/werpy-0.0.3.tar.gz
+[2023-05-04 08:35:30] INFO root fetch - processPackages [pysolmysql]: Downloading https://files.pythonhosted.org/packages/28/20/7b51e056d6ca3ec42b68faacf3773b6daaf492cbd59b8a45ce67a6aa9808/pysolmysql-3.0.1.tar.gz
+[2023-05-04 08:35:30] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/b3/ad/4a2d744bab98b2a8e6d4d16d60b25501d05c8f4c3ba6ec38c0d4a6b24ad5/automation_editor-0.0.5.tar.gz
+[2023-05-04 08:35:30] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-04 08:35:30] INFO root fetch - processPackages [Red-DiscordBot]: Downloading https://files.pythonhosted.org/packages/fc/55/4187df04c594888caa7fa2b9b365729fb7456b917da2fcd14d0283926b98/Red-DiscordBot-3.5.1.tar.gz
+[2023-05-04 08:35:30] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-6.1.4-cp39-cp39-manylinux2014_aarch64.whl.zip tmp/hiddifypanel-6.1.5-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230504/h/hiddifypanel/6.1.4-6.1.5/diff.md --exclude *.pyd
+[2023-05-04 08:35:30] INFO root fetch - processPackages [fmldk]: Downloading https://files.pythonhosted.org/packages/b5/9f/40758dcc845140e06ad2777c2daade08f062ec218975991941d1ba6d086b/fmldk-1.2.2.tar.gz
+[2023-05-04 08:35:30] INFO root fetch - processPackages [NDETCStemmer-kaenova]: Downloading https://files.pythonhosted.org/packages/f6/89/8878a7c7b2cb8db970258583ffcabf5d76153fd17a201b5bfcfcb5a3072f/NDETCStemmer_kaenova-1.4.0.tar.gz
+[2023-05-04 08:35:30] INFO root fetch - processPackages [werpy]: Downloading https://files.pythonhosted.org/packages/fd/07/52ee6f69655bfa28828efe7c3e017673c868ecd3ac73ac3c572a2f099635/werpy-0.0.4.tar.gz
+[2023-05-04 08:35:30] INFO root fetch - processPackages [fmldk]: executing diffoscope
+[2023-05-04 08:35:30] INFO root fetch - processPackages [fmldk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmldk-1.2.1.tar.gz tmp/fmldk-1.2.2.tar.gz --markdown 20230504/f/fmldk/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-04 08:35:30] INFO root fetch - processPackages [NDETCStemmer-kaenova]: executing diffoscope
+[2023-05-04 08:35:30] INFO root fetch - processPackages [NDETCStemmer-kaenova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NDETCStemmer_kaenova-1.3.0.tar.gz tmp/NDETCStemmer_kaenova-1.4.0.tar.gz --markdown 20230504/N/NDETCStemmer-kaenova/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-04 08:35:30] INFO root fetch - processPackages [pysolmysql]: Downloading https://files.pythonhosted.org/packages/fe/2b/1eaaf73323ece232ac36cf9a2dec073da5878409da17da403051d52738af/pysolmysql-3.0.2.tar.gz
+[2023-05-04 08:35:30] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/0c/1a/c450e9be586fe6bc3206affd100452221295bf5461b0267e6021bbc51115/automation_editor-0.0.6.tar.gz
+[2023-05-04 08:35:30] INFO root fetch - processPackages [pysolmysql]: executing diffoscope
+[2023-05-04 08:35:30] INFO root fetch - processPackages [pysolmysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysolmysql-3.0.1.tar.gz tmp/pysolmysql-3.0.2.tar.gz --markdown 20230504/p/pysolmysql/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-05-04 08:35:30] INFO root fetch - processPackages [werpy]: executing diffoscope
+[2023-05-04 08:35:30] INFO root fetch - processPackages [werpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/werpy-0.0.3.tar.gz tmp/werpy-0.0.4.tar.gz --markdown 20230504/w/werpy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-04 08:35:31] INFO root fetch - processPackages [rover-arm]: Downloading https://files.pythonhosted.org/packages/d0/e8/83822caf5fe4e960b12aa6b441dc601d09ce48d63a71c470a7fb8219222e/rover_arm-1.1.4.tar.gz
+[2023-05-04 08:35:31] INFO root fetch - processPackages [automation-editor]: executing diffoscope
+[2023-05-04 08:35:31] INFO root fetch - processPackages [automation-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor-0.0.5.tar.gz tmp/automation_editor-0.0.6.tar.gz --markdown 20230504/a/automation-editor/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-04 08:35:31] INFO root fetch - processPackages [rover-arm]: executing diffoscope
+[2023-05-04 08:35:31] INFO root fetch - processPackages [rover-arm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rover_arm-1.1.3.tar.gz tmp/rover_arm-1.1.4.tar.gz --markdown 20230504/r/rover-arm/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-04 08:35:31] INFO root fetch - processPackages [Red-DiscordBot]: executing diffoscope
+[2023-05-04 08:35:31] INFO root fetch - processPackages [Red-DiscordBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Red-DiscordBot-3.5.0.tar.gz tmp/Red-DiscordBot-3.5.1.tar.gz --markdown 20230504/R/Red-DiscordBot/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-05-04 08:35:31] INFO root fetch - processPackages [krx-rigger]: Start processing: automation-editor-dev
+[2023-05-04 08:35:31] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-05-04 08:35:31] INFO root fetch - processPackages [automation-editor-dev]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-04 08:35:31] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-05-04 08:35:31] INFO root fetch - processPackages [automation-editor-dev]: Downloading https://files.pythonhosted.org/packages/4a/0f/48fb8cad00b365d982b688f21139d0a161ec191e72c13f2ef7deb6aadd6b/automation_editor_dev-0.0.5.tar.gz
+[2023-05-04 08:35:32] INFO root fetch - processPackages [automation-editor-dev]: Downloading https://files.pythonhosted.org/packages/2b/42/6c38de465e00476e2362b4fc3c523e4a402281ac5c1daa52f2958db77620/automation_editor_dev-0.0.6.tar.gz
+[2023-05-04 08:35:32] INFO root fetch - processPackages [automation-editor-dev]: executing diffoscope
+[2023-05-04 08:35:32] INFO root fetch - processPackages [automation-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor_dev-0.0.5.tar.gz tmp/automation_editor_dev-0.0.6.tar.gz --markdown 20230504/a/automation-editor-dev/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-04 08:35:32] INFO root fetch - main [MainThread]: End processing [NDETCStemmer-kaenova]: success
+[2023-05-04 08:35:32] INFO root fetch - main [MainThread]: End processing [automation-editor]: success
+[2023-05-04 08:35:32] INFO root fetch - main [MainThread]: End processing [pysolmysql]: success
+[2023-05-04 08:35:32] INFO root fetch - main [MainThread]: End processing [fmldk]: success
+[2023-05-04 08:35:33] INFO root fetch - main [MainThread]: End processing [automation-editor-dev]: success
+[2023-05-04 08:35:33] INFO root fetch - main [MainThread]: End processing [werpy]: success
+[2023-05-04 08:35:35] INFO root fetch - main [MainThread]: End processing [rover-arm]: success
+[2023-05-04 08:35:46] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-04 08:36:02] INFO root fetch - main [MainThread]: End processing [Red-DiscordBot]: success
+[2023-05-04 08:36:02] INFO root fetch - main [MainThread]: Store serial: [17968154]
