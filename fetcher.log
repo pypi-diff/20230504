@@ -16137,3 +16137,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 15:23:23] INFO root fetch - main [MainThread]: End processing [ambient-toolbox]: success
 [2023-05-04 15:23:31] INFO root fetch - main [MainThread]: End processing [fattureincloud-python-sdk]: success
 [2023-05-04 15:23:32] INFO root fetch - main [MainThread]: Store serial: [17972669]
+[2023-05-04 15:28:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17972669]
+[2023-05-04 15:28:41] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oarepo-cli
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: irene-pro
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-frank-energie
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vasprocar
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trexio-tools
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ansys-fluent-core
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ai-django-core
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: returnn
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mgz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: asytest
+[2023-05-04 15:28:41] INFO root fetch - processPackages [vasprocar]: New version: [1.1.15.2] Old Version: [1.1.15.1]
+[2023-05-04 15:28:41] INFO root fetch - processPackages [trexio-tools]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-04 15:28:41] INFO root fetch - processPackages [python-frank-energie]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-05-04 15:28:41] INFO root fetch - processPackages [oarepo-cli]: New version: [11.0.8] Old Version: [11.0.7]
+[2023-05-04 15:28:41] INFO root fetch - processPackages [mgz]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-05-04 15:28:41] INFO root fetch - processPackages [irene-pro]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ansys-fluent-core]: New version: [0.14.dev1] Old Version: [0.14.dev0]
+[2023-05-04 15:28:41] INFO root fetch - processPackages [asytest]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ai-django-core]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-05-04 15:28:41] INFO root fetch - processPackages [returnn]: New version: [1.20230504.150134] Old Version: [1.20230503.142906]
+[2023-05-04 15:28:41] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/13/5e/7c987605af62aec987c4ee817c32a1f1dccae97f53623d4caf4d18e3d9b2/oarepo-cli-11.0.7.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/47/a0/25135b925b80b7edeed85207a062654e2ab41117ee4fc72e1fee5b55c3e4/irene-pro-0.0.1.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [python-frank-energie]: Downloading https://files.pythonhosted.org/packages/e7/95/35204c5ccf71d1a402a763cedf2b39e635a5692fa9cf0a1b867686e5aa09/python_frank_energie-4.0.2.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [asytest]: Downloading https://files.pythonhosted.org/packages/51/32/d6f92a9e8afacfa2238ee06ad181962e90ea8f41685f52606faa0d8410aa/asytest-0.1.3.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [vasprocar]: Downloading https://files.pythonhosted.org/packages/be/30/dfdf8fd47d24e0a7d48b840acf86ef72db9ff2ba2518e299f7356b4ac618/vasprocar-1.1.15.1.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [trexio-tools]: Downloading https://files.pythonhosted.org/packages/bb/33/b5a9cd3f2469b725ca48998f7aa5a8f3dce3ed749d6f7436e94a35987c5f/trexio-tools-0.4.0.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [mgz]: Downloading https://files.pythonhosted.org/packages/3f/c1/01499b2c7a7e8ca67a4e3d16d6c237de4b8d8b103d08d090f99b6fbe6ece/mgz-1.8.8.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ai-django-core]: Downloading https://files.pythonhosted.org/packages/b7/d6/ad6bbf82e23a1f033aef56d4ffc4f307d7f9e349b235ec18b8db6a142793/ai-django-core-7.0.0.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ansys-fluent-core]: Downloading https://files.pythonhosted.org/packages/5c/53/6c76c43efd65da7655c3142f1be77683f3a28fc98889c93502e0876720e5/ansys-fluent-core-0.14.dev0.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/e6/3e/4471d2f6de859114e7b33494f9ae4f6101321c300c602caaa133c3e170fc/oarepo-cli-11.0.8.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/94/c8/5b2e8689a2aed7e375d988d6749bdec832081c70032492ced5d8be2eff1d/irene-pro-0.0.2.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [asytest]: Downloading https://files.pythonhosted.org/packages/1e/6e/cbc30f2fa345128059e2b79e4489c209171988d645913173d737e99e7657/asytest-0.1.4.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/bc/e5/fbe44e0e4fd8460ffcb1286363f3a2ad88317b13b86cfefe95cfecf6edfd/returnn-1.20230504.150134.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-05-04 15:28:41] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene-pro-0.0.1.tar.gz tmp/irene-pro-0.0.2.tar.gz --markdown 20230504/i/irene-pro/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-04 15:28:41] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-05-04 15:28:41] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.0.7.tar.gz tmp/oarepo-cli-11.0.8.tar.gz --markdown 20230504/o/oarepo-cli/11.0.7-11.0.8/diff.md --exclude *.pyd
+[2023-05-04 15:28:41] INFO root fetch - processPackages [python-frank-energie]: Downloading https://files.pythonhosted.org/packages/da/f7/e42eae6f2afa964d622732849767d9531c308bc0890c870d03710da39a3f/python_frank_energie-4.0.3.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [asytest]: executing diffoscope
+[2023-05-04 15:28:41] INFO root fetch - processPackages [asytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asytest-0.1.3.tar.gz tmp/asytest-0.1.4.tar.gz --markdown 20230504/a/asytest/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ai-django-core]: Downloading https://files.pythonhosted.org/packages/07/68/fa35bf274e49b419ed6b865730603eb1e92a5d4a5257b46807e12faa6f5e/ai-django-core-7.0.1.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [python-frank-energie]: executing diffoscope
+[2023-05-04 15:28:41] INFO root fetch - processPackages [python-frank-energie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_frank_energie-4.0.2.tar.gz tmp/python_frank_energie-4.0.3.tar.gz --markdown 20230504/p/python-frank-energie/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-05-04 15:28:41] INFO root fetch - processPackages [trexio-tools]: Downloading https://files.pythonhosted.org/packages/20/3b/05061ac8f61ae4d21de293123d2f5fcea38b5b2965bacf894d7073d73cf4/trexio-tools-0.5.0.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [vasprocar]: Downloading https://files.pythonhosted.org/packages/0e/29/3f89175108df1c564c00cd0c960d33e6e52d0c3d0c3715011d60e5b36758/vasprocar-1.1.15.2.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [mgz]: Downloading https://files.pythonhosted.org/packages/af/28/845205c817682a35883ecd3b20e9e09be17f8e08dd38fd1ee3a194f8499f/mgz-1.8.9.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [trexio-tools]: executing diffoscope
+[2023-05-04 15:28:41] INFO root fetch - processPackages [trexio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trexio-tools-0.4.0.tar.gz tmp/trexio-tools-0.5.0.tar.gz --markdown 20230504/t/trexio-tools/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-04 15:28:41] INFO root fetch - processPackages [vasprocar]: executing diffoscope
+[2023-05-04 15:28:41] INFO root fetch - processPackages [vasprocar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vasprocar-1.1.15.1.tar.gz tmp/vasprocar-1.1.15.2.tar.gz --markdown 20230504/v/vasprocar/1.1.15.1-1.1.15.2/diff.md --exclude *.pyd
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ansys-fluent-core]: Downloading https://files.pythonhosted.org/packages/50/c9/3711b17d443e0cd492c2ed47fe77a2b07023d0ad8aa58167ea6a6108a9b5/ansys-fluent-core-0.14.dev1.tar.gz
+[2023-05-04 15:28:41] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ai-django-core]: executing diffoscope
+[2023-05-04 15:28:41] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230503.142906.tar.gz tmp/returnn-1.20230504.150134.tar.gz --markdown 20230504/r/returnn/1.20230503.142906-1.20230504.150134/diff.md --exclude *.pyd
+[2023-05-04 15:28:41] INFO root fetch - processPackages [ai-django-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-django-core-7.0.0.tar.gz tmp/ai-django-core-7.0.1.tar.gz --markdown 20230504/a/ai-django-core/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-05-04 15:28:41] INFO root fetch - processPackages [mgz]: executing diffoscope
+[2023-05-04 15:28:41] INFO root fetch - processPackages [mgz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mgz-1.8.8.tar.gz tmp/mgz-1.8.9.tar.gz --markdown 20230504/m/mgz/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-05-04 15:28:42] INFO root fetch - processPackages [ansys-fluent-core]: executing diffoscope
+[2023-05-04 15:28:42] INFO root fetch - processPackages [ansys-fluent-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-fluent-core-0.14.dev0.tar.gz tmp/ansys-fluent-core-0.14.dev1.tar.gz --markdown 20230504/a/ansys-fluent-core/0.14.dev0-0.14.dev1/diff.md --exclude *.pyd
+[2023-05-04 15:28:43] INFO root fetch - processPackages [irene-pro]: Start processing: spyrit
+[2023-05-04 15:28:43] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-05-04 15:28:43] INFO root fetch - processPackages [spyrit]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-04 15:28:43] INFO root fetch - processPackages [spyrit]: Downloading https://files.pythonhosted.org/packages/4c/aa/04756a846cefab8bd5f2d4122c759f78b9a02386da5ec3e75a8828982bd9/spyrit-2.0.0.tar.gz
+[2023-05-04 15:28:43] INFO root fetch - processPackages [asytest]: Start processing: mytracker-export-api
+[2023-05-04 15:28:43] INFO root fetch - main [MainThread]: End processing [asytest]: success
+[2023-05-04 15:28:43] INFO root fetch - processPackages [mytracker-export-api]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-05-04 15:28:43] INFO root fetch - main [MainThread]: End processing [python-frank-energie]: success
+[2023-05-04 15:28:43] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-05-04 15:28:43] INFO root fetch - main [MainThread]: End processing [trexio-tools]: success
+[2023-05-04 15:28:43] INFO root fetch - processPackages [spyrit]: Downloading https://files.pythonhosted.org/packages/27/83/cdbf74d57ac395ebbec90e16c7a98ff66377c2df59c1c7f58cdefe01b1d2/spyrit-2.1.0.tar.gz
+[2023-05-04 15:28:43] INFO root fetch - processPackages [mytracker-export-api]: Downloading https://files.pythonhosted.org/packages/8c/09/e887074b499a9a95036f39a8e4c0013b83504fdba2b3b226201fe4c1b3ba/mytracker_export_api-1.0.2.tar.gz
+[2023-05-04 15:28:43] INFO root fetch - processPackages [spyrit]: executing diffoscope
+[2023-05-04 15:28:43] INFO root fetch - processPackages [spyrit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyrit-2.0.0.tar.gz tmp/spyrit-2.1.0.tar.gz --markdown 20230504/s/spyrit/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-04 15:28:43] INFO root fetch - processPackages [mytracker-export-api]: Downloading https://files.pythonhosted.org/packages/c0/2e/de0375ac99befcc146522ea204e540b292e003b183e9b7af4ffcf1be529a/mytracker_export_api-1.0.4.tar.gz
+[2023-05-04 15:28:43] INFO root fetch - main [MainThread]: End processing [mgz]: success
+[2023-05-04 15:28:43] INFO root fetch - processPackages [mytracker-export-api]: executing diffoscope
+[2023-05-04 15:28:43] INFO root fetch - processPackages [mytracker-export-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mytracker_export_api-1.0.2.tar.gz tmp/mytracker_export_api-1.0.4.tar.gz --markdown 20230504/m/mytracker-export-api/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-05-04 15:28:44] INFO root fetch - main [MainThread]: End processing [mytracker-export-api]: success
+[2023-05-04 15:28:44] INFO root fetch - main [MainThread]: End processing [spyrit]: success
+[2023-05-04 15:28:45] INFO root fetch - main [MainThread]: End processing [vasprocar]: success
+[2023-05-04 15:28:46] INFO root fetch - main [MainThread]: End processing [ai-django-core]: success
+[2023-05-04 15:28:49] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-04 15:31:42] ERROR root fetch - processPackages [ansys-fluent-core]: Timeout during execution of pkgdiff
+[2023-05-04 15:31:42] INFO root fetch - main [MainThread]: End processing [ansys-fluent-core] error
+[2023-05-04 15:31:42] INFO root fetch - main [MainThread]: Store serial: [17972708]
