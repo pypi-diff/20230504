@@ -10011,3 +10011,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 09:56:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-cdn20180510]: success
 [2023-05-04 09:56:01] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
 [2023-05-04 09:56:01] INFO root fetch - main [MainThread]: Store serial: [17968965]
+[2023-05-04 10:01:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17968965]
+[2023-05-04 10:01:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-04 10:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Glymur
+[2023-05-04 10:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: celery-director
+[2023-05-04 10:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: har2tree
+[2023-05-04 10:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: base-system
+[2023-05-04 10:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rebotics-sdk
+[2023-05-04 10:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apache-airflow-providers-aerofoil2
+[2023-05-04 10:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swiftshadow
+[2023-05-04 10:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grizzly-loadtester
+[2023-05-04 10:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kittycad
+[2023-05-04 10:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vmn
+[2023-05-04 10:01:10] INFO root fetch - processPackages [base-system]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-04 10:01:10] INFO root fetch - processPackages [celery-director]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-04 10:01:10] INFO root fetch - processPackages [grizzly-loadtester]: New version: [2.6.4] Old Version: [2.6.3]
+[2023-05-04 10:01:10] INFO root fetch - processPackages [rebotics-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-04 10:01:10] INFO root fetch - processPackages [swiftshadow]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-04 10:01:10] INFO root fetch - processPackages [vmn]: New version: [0.8.2rc1] Old Version: [0.8.1]
+[2023-05-04 10:01:10] INFO root fetch - processPackages [Glymur]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-04 10:01:10] INFO root fetch - processPackages [har2tree]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-04 10:01:10] INFO root fetch - processPackages [kittycad]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-04 10:01:10] WARNING root fetch - processPackages [apache-airflow-providers-aerofoil2]: Skipping, unable to determine old version
+[2023-05-04 10:01:10] INFO root fetch - processPackages [apache-airflow-providers-aerofoil2]: Start processing: ismrmrd
+[2023-05-04 10:01:10] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-aerofoil2] error
+[2023-05-04 10:01:10] INFO root fetch - processPackages [ismrmrd]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-05-04 10:01:10] INFO root fetch - processPackages [rebotics-sdk]: executing diffoscope
+[2023-05-04 10:01:10] INFO root fetch - processPackages [rebotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebotics_sdk-0.9.0.tar.gz tmp/rebotics_sdk-0.9.1.tar.gz --markdown 20230504/r/rebotics-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-04 10:01:10] INFO root fetch - processPackages [celery-director]: Downloading https://files.pythonhosted.org/packages/bb/75/18859100e48d814d263130202130c2e67fe397ad51e1ccd74888888bf4b1/celery-director-0.8.0.tar.gz
+[2023-05-04 10:01:10] INFO root fetch - processPackages [vmn]: Downloading https://files.pythonhosted.org/packages/d2/1b/f67dc42f72bd8e8c5d23599149ed8515b7a2f20113bfc592ede386751d03/vmn-0.8.1-py3-none-any.whl
+[2023-05-04 10:01:10] INFO root fetch - processPackages [grizzly-loadtester]: Downloading https://files.pythonhosted.org/packages/8d/5b/3601e3a292beaac29a8d391293a1ec27371f8baed290471341b9b96374cd/grizzly-loadtester-2.6.3.tar.gz
+[2023-05-04 10:01:10] INFO root fetch - processPackages [har2tree]: Downloading https://files.pythonhosted.org/packages/ab/1c/fa462b6fc68113b09310268a01e459e0c8d5e55039f3137af27181369e7a/har2tree-1.9.1.tar.gz
+[2023-05-04 10:01:10] INFO root fetch - processPackages [base-system]: Downloading https://files.pythonhosted.org/packages/a8/57/ab3fc021f1fceb21847f693e33e7bfc86de50aa02ca8f7519b98a51f9b06/base_system-0.2.0.tar.gz
+[2023-05-04 10:01:10] INFO root fetch - processPackages [Glymur]: Downloading https://files.pythonhosted.org/packages/d2/9d/82b9b6e5c3af06405942e67be9eebb30f96507f8e9b60e8ce198503eadcb/Glymur-0.9.8.tar.gz
+[2023-05-04 10:01:10] INFO root fetch - processPackages [ismrmrd]: Downloading https://files.pythonhosted.org/packages/6a/af/515dfe91a007acd11139fd5777c3f6b42389ab388868d1b6ae234dcf697f/ismrmrd-1.9.7.tar.gz
+[2023-05-04 10:01:10] INFO root fetch - processPackages [kittycad]: Downloading https://files.pythonhosted.org/packages/a7/c1/6311c7033acae0b82da10f02f90dfe5a388d130e075adc08b434e9c70cb2/kittycad-0.3.7.tar.gz
+[2023-05-04 10:01:10] INFO root fetch - processPackages [swiftshadow]: Downloading https://files.pythonhosted.org/packages/52/bd/610f7a1c567acb6e638471b744a2e9c9bccdd5f06fb522c869f14221fc90/swiftshadow-0.2.3.tar.gz
+[2023-05-04 10:01:11] INFO root fetch - processPackages [base-system]: executing diffoscope
+[2023-05-04 10:01:11] INFO root fetch - processPackages [base-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/base_system-0.1.9.tar.gz tmp/base_system-0.2.0.tar.gz --markdown 20230504/b/base-system/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-04 10:01:11] INFO root fetch - processPackages [swiftshadow]: executing diffoscope
+[2023-05-04 10:01:11] INFO root fetch - processPackages [swiftshadow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftshadow-0.2.2.tar.gz tmp/swiftshadow-0.2.3.tar.gz --markdown 20230504/s/swiftshadow/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-04 10:01:11] INFO root fetch - processPackages [grizzly-loadtester]: Downloading https://files.pythonhosted.org/packages/d8/97/2dc584ece0be7cd39a0e8d055c9d5a23df5959383a6d266a9da5614f7af0/grizzly-loadtester-2.6.4.tar.gz
+[2023-05-04 10:01:11] INFO root fetch - processPackages [celery-director]: Downloading https://files.pythonhosted.org/packages/19/41/d30e050c4d35ef01457acdb964cfadbf901cbd0776344d7424e3980001b9/celery-director-0.9.0.tar.gz
+[2023-05-04 10:01:11] INFO root fetch - processPackages [har2tree]: Downloading https://files.pythonhosted.org/packages/d5/e7/2b2311330f353586a94cd7d47f1c1460458ed98491ec39c490b14a3955a0/har2tree-1.9.2.tar.gz
+[2023-05-04 10:01:11] INFO root fetch - processPackages [grizzly-loadtester]: executing diffoscope
+[2023-05-04 10:01:11] INFO root fetch - processPackages [grizzly-loadtester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizzly-loadtester-2.6.3.tar.gz tmp/grizzly-loadtester-2.6.4.tar.gz --markdown 20230504/g/grizzly-loadtester/2.6.3-2.6.4/diff.md --exclude *.pyd
+[2023-05-04 10:01:11] INFO root fetch - processPackages [har2tree]: executing diffoscope
+[2023-05-04 10:01:11] INFO root fetch - processPackages [har2tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/har2tree-1.9.1.tar.gz tmp/har2tree-1.9.2.tar.gz --markdown 20230504/h/har2tree/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-04 10:01:11] INFO root fetch - processPackages [vmn]: Downloading https://files.pythonhosted.org/packages/71/06/dc263d1441b745fde92657ca66fb69ac558d420432619a1461b8d2f017be/vmn-0.8.2rc1-py3-none-any.whl
+[2023-05-04 10:01:11] INFO root fetch - processPackages [kittycad]: Downloading https://files.pythonhosted.org/packages/a0/e0/f684bb20c6ed96ebe16ac5ace7ad2ef75feeb1846f33b02f96705c6e9e60/kittycad-0.3.8.tar.gz
+[2023-05-04 10:01:11] INFO root fetch - processPackages [ismrmrd]: Downloading https://files.pythonhosted.org/packages/fd/e5/29fa5afbb87073850a7f9a1477949a7342ad0f279c7fee35e6e726df4193/ismrmrd-1.9.8.tar.gz
+[2023-05-04 10:01:11] INFO root fetch - processPackages [celery-director]: executing diffoscope
+[2023-05-04 10:01:11] INFO root fetch - processPackages [celery-director]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celery-director-0.8.0.tar.gz tmp/celery-director-0.9.0.tar.gz --markdown 20230504/c/celery-director/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 10:01:11] INFO root fetch - processPackages [vmn]: executing diffoscope
+[2023-05-04 10:01:11] INFO root fetch - processPackages [vmn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmn-0.8.1-py3-none-any.whl.zip tmp/vmn-0.8.2rc1-py3-none-any.whl.zip --markdown 20230504/v/vmn/0.8.1-0.8.2rc1/diff.md --exclude *.pyd
+[2023-05-04 10:01:11] INFO root fetch - processPackages [kittycad]: executing diffoscope
+[2023-05-04 10:01:11] INFO root fetch - processPackages [kittycad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kittycad-0.3.7.tar.gz tmp/kittycad-0.3.8.tar.gz --markdown 20230504/k/kittycad/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-04 10:01:11] INFO root fetch - processPackages [ismrmrd]: executing diffoscope
+[2023-05-04 10:01:11] INFO root fetch - processPackages [ismrmrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ismrmrd-1.9.7.tar.gz tmp/ismrmrd-1.9.8.tar.gz --markdown 20230504/i/ismrmrd/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-05-04 10:01:11] INFO root fetch - processPackages [Glymur]: Downloading https://files.pythonhosted.org/packages/56/28/0ea97d18c1c3be44dc10d9ddb64269f5ee73f9dc08284a679f4a2da1962c/Glymur-0.9.9.tar.gz
+[2023-05-04 10:01:11] INFO root fetch - processPackages [Glymur]: executing diffoscope
+[2023-05-04 10:01:11] INFO root fetch - processPackages [Glymur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Glymur-0.9.8.tar.gz tmp/Glymur-0.9.9.tar.gz --markdown 20230504/G/Glymur/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-04 10:01:12] INFO root fetch - processPackages [swiftshadow]: Start processing: aptos-brownie
+[2023-05-04 10:01:12] INFO root fetch - main [MainThread]: End processing [swiftshadow]: success
+[2023-05-04 10:01:12] INFO root fetch - processPackages [aptos-brownie]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-05-04 10:01:12] INFO root fetch - main [MainThread]: End processing [base-system]: success
+[2023-05-04 10:01:12] INFO root fetch - main [MainThread]: End processing [har2tree]: success
+[2023-05-04 10:01:12] INFO root fetch - processPackages [aptos-brownie]: Downloading https://files.pythonhosted.org/packages/0c/98/f22d6c8cc0620855081d75f3ecca588b86b76c4ed07fea4f542dc54d0f27/aptos_brownie-3.0.6-py3-none-any.whl
+[2023-05-04 10:01:12] INFO root fetch - processPackages [aptos-brownie]: executing diffoscope
+[2023-05-04 10:01:12] INFO root fetch - processPackages [aptos-brownie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aptos_brownie-3.0.5-py3-none-any.whl.zip tmp/aptos_brownie-3.0.6-py3-none-any.whl.zip --markdown 20230504/a/aptos-brownie/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-05-04 10:01:12] INFO root fetch - main [MainThread]: End processing [ismrmrd]: success
+[2023-05-04 10:01:13] INFO root fetch - main [MainThread]: End processing [vmn]: success
+[2023-05-04 10:01:13] INFO root fetch - main [MainThread]: End processing [rebotics-sdk]: success
+[2023-05-04 10:01:13] INFO root fetch - main [MainThread]: End processing [celery-director]: success
+[2023-05-04 10:01:13] INFO root fetch - main [MainThread]: End processing [Glymur]: success
+[2023-05-04 10:01:14] INFO root fetch - main [MainThread]: End processing [aptos-brownie]: success
+[2023-05-04 10:01:14] INFO root fetch - main [MainThread]: End processing [grizzly-loadtester]: success
+[2023-05-04 10:01:15] INFO root fetch - main [MainThread]: End processing [kittycad]: success
+[2023-05-04 10:01:15] INFO root fetch - main [MainThread]: Store serial: [17969003]
