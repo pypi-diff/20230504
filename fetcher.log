@@ -11281,3 +11281,140 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 11:06:48] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
 [2023-05-04 11:06:48] INFO root fetch - main [MainThread]: End processing [yolov5-sp]: success
 [2023-05-04 11:06:48] INFO root fetch - main [MainThread]: Store serial: [17969628]
+[2023-05-04 11:11:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17969628]
+[2023-05-04 11:11:58] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-04 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsst-ctrl-bps-htcondor
+[2023-05-04 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mujoco-dev
+[2023-05-04 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-ddmrp
+[2023-05-04 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eis1600
+[2023-05-04 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unacatlib
+[2023-05-04 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: earthquakereport-indonesia
+[2023-05-04 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: astro-metadata-translator
+[2023-05-04 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: blueye-sdk
+[2023-05-04 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rpi-vidlooper
+[2023-05-04 11:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dask-felleskomponenter
+[2023-05-04 11:11:58] INFO root fetch - processPackages [astro-metadata-translator]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-04 11:11:58] INFO root fetch - processPackages [eis1600]: New version: [0.8.9] Old Version: [0.8.7]
+[2023-05-04 11:11:58] INFO root fetch - processPackages [unacatlib]: New version: [0.0.62] Old Version: [0.0.61]
+[2023-05-04 11:11:58] INFO root fetch - processPackages [dask-felleskomponenter]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-04 11:11:58] INFO root fetch - processPackages [rpi-vidlooper]: New version: [0.6] Old Version: [0.5.1]
+[2023-05-04 11:11:58] INFO root fetch - processPackages [earthquakereport-indonesia]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 11:11:58] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.6.dev529341397] Old Version: [2.3.6.dev529079121]
+[2023-05-04 11:11:58] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-04 11:11:58] INFO root fetch - processPackages [blueye-sdk]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-05-04 11:11:58] INFO root fetch - processPackages [odoo14-addon-ddmrp]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2023-05-04 11:11:58] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/88/0f/ddf4d690ba71629b94ef331c1dcf381615f5fa0220cfb725331d64d70fe9/astro-metadata-translator-26.0.0a20230400.tar.gz
+[2023-05-04 11:11:59] INFO root fetch - processPackages [earthquakereport-indonesia]: Downloading https://files.pythonhosted.org/packages/f8/2c/c18d8e517f17bcf0f67f38b9c0f8f76dae75e627ca2f8f76fabd00b1a056/earthquakereport-indonesia-0.1.0.tar.gz
+[2023-05-04 11:11:59] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/8c/db/315478ef347cefaeed5bba2cbba5d57eb7e3658e7d8d14a683e397285d53/eis1600-0.8.7.tar.gz
+[2023-05-04 11:11:59] INFO root fetch - processPackages [dask-felleskomponenter]: Downloading https://files.pythonhosted.org/packages/76/3e/58d187bb43a722e36606e676c77cf1f13b2cc55c7246c936c717227c1194/dask-felleskomponenter-0.0.6.tar.gz
+[2023-05-04 11:11:59] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/6f/51/8d5c1ee6d3ffd2e13a7d53673755f32c6a624935c40cdbe369b840320122/mujoco_dev-2.3.6.dev529079121-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-04 11:11:59] INFO root fetch - processPackages [rpi-vidlooper]: Downloading https://files.pythonhosted.org/packages/d3/07/8a98eb2775c2143718530ae386e29e7f3620d1ef58c18c8cb3b1baf5cdef/rpi_vidlooper-0.5.1.tar.gz
+[2023-05-04 11:11:59] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/92/c5/5cc91e541a0dfd7e1a564e2754c43b3bf8dad8a3f510617e8a7c737dd29e/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl
+[2023-05-04 11:11:59] INFO root fetch - processPackages [blueye-sdk]: Downloading https://files.pythonhosted.org/packages/ab/c9/46639b2870444cdfd9f162c28d485896baa320f141bfb40a152ea8dd0ca9/blueye.sdk-5.0.0.tar.gz
+[2023-05-04 11:11:59] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/9c/29/1a3392502c8a25f2eb2fabe112e03edaf4de2d8396df282510856200f6a7/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz
+[2023-05-04 11:11:59] INFO root fetch - processPackages [unacatlib]: Downloading https://files.pythonhosted.org/packages/b4/66/ad188f5b463502d5a9c6b374b48336d24b16876078bc1a352a9aed41f7ca/unacatlib-0.0.62-py2.py3-none-any.whl
+[2023-05-04 11:11:59] INFO root fetch - processPackages [earthquakereport-indonesia]: Downloading https://files.pythonhosted.org/packages/ee/80/e060c5e599d9bd5beea980542860220a1c6f351e68bcbb3b180eac65d49c/earthquakereport-indonesia-0.1.1.tar.gz
+[2023-05-04 11:11:59] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/f2/41/6e6f4078fed6d8cab49870156c8c6754fe468536934e9c7c6078cc6ed956/eis1600-0.8.9.tar.gz
+[2023-05-04 11:11:59] INFO root fetch - processPackages [unacatlib]: executing diffoscope
+[2023-05-04 11:11:59] INFO root fetch - processPackages [unacatlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unacatlib-0.0.61-py2.py3-none-any.whl.zip tmp/unacatlib-0.0.62-py2.py3-none-any.whl.zip --markdown 20230504/u/unacatlib/0.0.61-0.0.62/diff.md --exclude *.pyd
+[2023-05-04 11:11:59] INFO root fetch - processPackages [rpi-vidlooper]: Downloading https://files.pythonhosted.org/packages/c2/5a/2b83e7110ee3c3e0ae402b27bce80ff0ac63734687b7bbc8bd97daca1827/rpi_vidlooper-0.6.tar.gz
+[2023-05-04 11:11:59] INFO root fetch - processPackages [earthquakereport-indonesia]: executing diffoscope
+[2023-05-04 11:11:59] INFO root fetch - processPackages [earthquakereport-indonesia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthquakereport-indonesia-0.1.0.tar.gz tmp/earthquakereport-indonesia-0.1.1.tar.gz --markdown 20230504/e/earthquakereport-indonesia/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 11:11:59] INFO root fetch - processPackages [dask-felleskomponenter]: Downloading https://files.pythonhosted.org/packages/d8/0a/5858192ddb9761a30749845611890e6fd759dbf0193b953714693da9f9dd/dask-felleskomponenter-0.0.7.tar.gz
+[2023-05-04 11:11:59] INFO root fetch - processPackages [eis1600]: executing diffoscope
+[2023-05-04 11:11:59] INFO root fetch - processPackages [eis1600]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eis1600-0.8.7.tar.gz tmp/eis1600-0.8.9.tar.gz --markdown 20230504/e/eis1600/0.8.7-0.8.9/diff.md --exclude *.pyd
+[2023-05-04 11:11:59] INFO root fetch - processPackages [rpi-vidlooper]: executing diffoscope
+[2023-05-04 11:11:59] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/22/f1/217aa9ba5a9fc7a4184e9b4f8742bfc0d2f0bd8fbb3b6c271f63a3aa7964/mujoco_dev-2.3.6.dev529341397-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-04 11:11:59] INFO root fetch - processPackages [rpi-vidlooper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpi_vidlooper-0.5.1.tar.gz tmp/rpi_vidlooper-0.6.tar.gz --markdown 20230504/r/rpi-vidlooper/0.5.1-0.6/diff.md --exclude *.pyd
+[2023-05-04 11:11:59] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/f6/a2/6962018c4d5dc18839328422a99767c526540467659fab3d4282192e3763/astro-metadata-translator-26.0.0a20230500.tar.gz
+[2023-05-04 11:11:59] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/3c/cc/c973405023d7f2d0de5436529223459d8600f71b8be3454b9262b1ac019c/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz
+[2023-05-04 11:11:59] INFO root fetch - processPackages [dask-felleskomponenter]: executing diffoscope
+[2023-05-04 11:11:59] INFO root fetch - processPackages [dask-felleskomponenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-felleskomponenter-0.0.6.tar.gz tmp/dask-felleskomponenter-0.0.7.tar.gz --markdown 20230504/d/dask-felleskomponenter/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-04 11:11:59] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: executing diffoscope
+[2023-05-04 11:11:59] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz --markdown 20230504/l/lsst-ctrl-bps-htcondor/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-04 11:11:59] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-05-04 11:11:59] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.6.dev529079121-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/mujoco_dev-2.3.6.dev529341397-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230504/m/mujoco-dev/2.3.6.dev529079121-2.3.6.dev529341397/diff.md --exclude *.pyd
+[2023-05-04 11:11:59] INFO root fetch - processPackages [blueye-sdk]: Downloading https://files.pythonhosted.org/packages/93/d6/438baf76525ffc4fa794104944edc62f8c6cee9fcabe53688810028ede04/blueye.sdk-5.0.1.tar.gz
+[2023-05-04 11:11:59] INFO root fetch - processPackages [astro-metadata-translator]: executing diffoscope
+[2023-05-04 11:11:59] INFO root fetch - processPackages [astro-metadata-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-metadata-translator-26.0.0a20230400.tar.gz tmp/astro-metadata-translator-26.0.0a20230500.tar.gz --markdown 20230504/a/astro-metadata-translator/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-04 11:11:59] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/47/ef/92f082c955236c0b4ec84ba6f9e93d400901d2b87e31d1399f2d4e310029/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl
+[2023-05-04 11:12:00] INFO root fetch - processPackages [blueye-sdk]: executing diffoscope
+[2023-05-04 11:12:00] INFO root fetch - processPackages [blueye-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueye.sdk-5.0.0.tar.gz tmp/blueye.sdk-5.0.1.tar.gz --markdown 20230504/b/blueye-sdk/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-05-04 11:12:00] INFO root fetch - processPackages [odoo14-addon-ddmrp]: executing diffoscope
+[2023-05-04 11:12:00] INFO root fetch - processPackages [odoo14-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addon-ddmrp/14.0.1.9.0-14.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-05-04 11:12:00] INFO root fetch - processPackages [earthquakereport-indonesia]: Start processing: lsst-ctrl-bps-parsl
+[2023-05-04 11:12:00] INFO root fetch - main [MainThread]: End processing [earthquakereport-indonesia]: success
+[2023-05-04 11:12:00] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-04 11:12:01] INFO root fetch - processPackages [unacatlib]: Start processing: lsst-utils
+[2023-05-04 11:12:01] INFO root fetch - main [MainThread]: End processing [unacatlib]: success
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-utils]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/35/8c/c122879a959643f033a579ff1b13d2b33ec6c21551ffa1629264c6d3561a/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz
+[2023-05-04 11:12:01] INFO root fetch - processPackages [dask-felleskomponenter]: Start processing: lsst-ctrl-bps-panda
+[2023-05-04 11:12:01] INFO root fetch - main [MainThread]: End processing [dask-felleskomponenter]: success
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-04 11:12:01] INFO root fetch - processPackages [rpi-vidlooper]: Start processing: ImageMagic
+[2023-05-04 11:12:01] INFO root fetch - main [MainThread]: End processing [rpi-vidlooper]: success
+[2023-05-04 11:12:01] WARNING root fetch - processPackages [ImageMagic]: Skipping, unable to determine old version
+[2023-05-04 11:12:01] INFO root fetch - processPackages [ImageMagic]: Start processing: lsst-resources
+[2023-05-04 11:12:01] INFO root fetch - main [MainThread]: End processing [ImageMagic] error
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-resources]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-04 11:12:01] INFO root fetch - processPackages [eis1600]: Start processing: lsst-daf-relation
+[2023-05-04 11:12:01] INFO root fetch - main [MainThread]: End processing [eis1600]: success
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/95/d2/5d16674a9fbd9d5c6dd08502fdaf2392373a5ee644f82312b6433f0688b3/lsst-utils-26.0.0a20230400.tar.gz
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-daf-relation]: New version: [1.0.0a20230500] Old Version: [1.0.0a20230400]
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/a0/22/0b893c9cd95d92d19da99d597013f1dd89c378a4a37bd4122e57406ac7c5/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/52/45/0dcc92ba8f25516fe59b89e0b4b6425fc82775a8f89d22382ac6ff4365d5/lsst-resources-26.0.0a20230400.tar.gz
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/73/d7/e06e478c242de09a2c5605a32a3c6bc7f4a1e1aca5c81495250b2cc49b28/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/cf/ba/39bf44ae9e7557239b4e75ccc2395eff1e08c3015340be39cd798f07fb37/lsst-daf-relation-1.0.0a20230400.tar.gz
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: executing diffoscope
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz --markdown 20230504/l/lsst-ctrl-bps-parsl/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/72/74/81575ebd50afb9ebc10787897207947703ae9d32205910da14de85cdef05/lsst-utils-26.0.0a20230500.tar.gz
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/68/73/220eb613172bcce921a4d51c76efc50a37bcd1469c86a7fdd5726300f75b/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Start processing: jina
+[2023-05-04 11:12:01] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
+[2023-05-04 11:12:01] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/a1/31/225778e738d8196a59aa0442a433f627643f68797e49472ba8e7b8594e59/lsst-resources-26.0.0a20230500.tar.gz
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-utils-26.0.0a20230400.tar.gz tmp/lsst-utils-26.0.0a20230500.tar.gz --markdown 20230504/l/lsst-utils/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/5e/5f/8e71741c69e90c32fd13e64e116dae04c056109846e98b96beed49ce1d01/lsst-daf-relation-1.0.0a20230500.tar.gz
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: executing diffoscope
+[2023-05-04 11:12:01] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz --markdown 20230504/l/lsst-ctrl-bps-panda/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-04 11:12:02] INFO root fetch - processPackages [lsst-daf-relation]: executing diffoscope
+[2023-05-04 11:12:02] INFO root fetch - processPackages [lsst-daf-relation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-relation-1.0.0a20230400.tar.gz tmp/lsst-daf-relation-1.0.0a20230500.tar.gz --markdown 20230504/l/lsst-daf-relation/1.0.0a20230400-1.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-04 11:12:02] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/f0/3b/7e6b8b6de74c936b09ce9a4d7440511734efe64633b3418e61b667257994/jina-3.9.3.dev8.tar.gz
+[2023-05-04 11:12:02] INFO root fetch - processPackages [blueye-sdk]: Start processing: anltk
+[2023-05-04 11:12:02] INFO root fetch - main [MainThread]: End processing [blueye-sdk]: success
+[2023-05-04 11:12:02] INFO root fetch - processPackages [anltk]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-04 11:12:02] INFO root fetch - processPackages [lsst-resources]: executing diffoscope
+[2023-05-04 11:12:02] INFO root fetch - processPackages [lsst-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-resources-26.0.0a20230400.tar.gz tmp/lsst-resources-26.0.0a20230500.tar.gz --markdown 20230504/l/lsst-resources/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-04 11:12:02] INFO root fetch - processPackages [anltk]: Downloading https://files.pythonhosted.org/packages/86/74/d84e29bcb3ade2698686c2e4d4ca285930269fb0a9fbd834637504a1a627/anltk-1.0.3.tar.gz
+[2023-05-04 11:12:02] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Start processing: lsst-ctrl-bps
+[2023-05-04 11:12:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
+[2023-05-04 11:12:02] INFO root fetch - processPackages [astro-metadata-translator]: Start processing: jina
+[2023-05-04 11:12:02] INFO root fetch - main [MainThread]: End processing [astro-metadata-translator]: success
+[2023-05-04 11:12:02] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-04 11:12:02] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-05-04 11:12:02] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/89/60/0658aa50da9055ade2f42bd6cecdfa0abdf69ce7f7bd063c628105106538/jina-3.9.3.dev9.tar.gz
+[2023-05-04 11:12:02] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/89/60/0658aa50da9055ade2f42bd6cecdfa0abdf69ce7f7bd063c628105106538/jina-3.9.3.dev9.tar.gz
+[2023-05-04 11:12:02] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/3f/25/dd5788122d831e91f7a5b6df98e8e2d65df587d64b2a7e8e703b9f85d293/lsst-ctrl-bps-26.0.0a20230400.tar.gz
+[2023-05-04 11:12:02] INFO root fetch - processPackages [anltk]: Downloading https://files.pythonhosted.org/packages/ce/99/84a55e910a70ea19ac8c8f9c202d7a0685b526f7c534cbca8998c5166258/anltk-1.0.4-cp38-cp38-macosx_10_9_x86_64.whl
+[2023-05-04 11:12:02] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-05-04 11:12:02] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230504/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-05-04 11:12:02] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-05-04 11:12:02] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230504/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-05-04 11:12:02] INFO root fetch - processPackages [anltk]: executing diffoscope
+[2023-05-04 11:12:02] INFO root fetch - processPackages [anltk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anltk-1.0.3.tar.gz tmp/anltk-1.0.4-cp38-cp38-macosx_10_9_x86_64.whl.zip --markdown 20230504/a/anltk/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-04 11:12:03] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/74/ca/f9dbc4fb6958267f1ee9ce347a76bcb3d1dcb671ceaf427711055ab6c67c/lsst-ctrl-bps-26.0.0a20230500.tar.gz
+[2023-05-04 11:12:03] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2023-05-04 11:12:03] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz --markdown 20230504/l/lsst-ctrl-bps/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-04 11:12:03] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2023-05-04 11:12:03] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-panda]: success
+[2023-05-04 11:12:03] INFO root fetch - main [MainThread]: End processing [lsst-daf-relation]: success
+[2023-05-04 11:12:03] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-parsl]: success
+[2023-05-04 11:12:04] INFO root fetch - main [MainThread]: End processing [lsst-resources]: success
+[2023-05-04 11:12:04] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2023-05-04 11:12:05] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-05-04 11:12:05] INFO root fetch - main [MainThread]: End processing [anltk]: success
+[2023-05-04 11:12:06] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-05-04 11:12:15] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-05-04 11:12:15] INFO root fetch - main [MainThread]: Store serial: [17969721]
