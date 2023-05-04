@@ -13087,3 +13087,77 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 12:38:19] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-04 12:38:35] INFO root fetch - main [MainThread]: End processing [voici]: success
 [2023-05-04 12:38:35] INFO root fetch - main [MainThread]: Store serial: [17970792]
+[2023-05-04 12:43:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17970792]
+[2023-05-04 12:43:44] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-04 12:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: that-ml-library
+[2023-05-04 12:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-sqlite-backup
+[2023-05-04 12:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdkit
+[2023-05-04 12:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elementpath
+[2023-05-04 12:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyterhub-backendspawner
+[2023-05-04 12:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mainnet
+[2023-05-04 12:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lixinger
+[2023-05-04 12:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aij-webcam
+[2023-05-04 12:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mir-ser
+[2023-05-04 12:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: safe-pysha3
+[2023-05-04 12:43:44] WARNING root fetch - processPackages [that-ml-library]: Skipping, unable to determine old version
+[2023-05-04 12:43:44] INFO root fetch - processPackages [that-ml-library]: Start processing: chainbench
+[2023-05-04 12:43:44] INFO root fetch - main [MainThread]: End processing [that-ml-library] error
+[2023-05-04 12:43:44] INFO root fetch - processPackages [django-sqlite-backup]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-04 12:43:44] INFO root fetch - processPackages [jupyterhub-backendspawner]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-04 12:43:44] INFO root fetch - processPackages [sdkit]: New version: [1.0.9] Old Version: [1.0.86]
+[2023-05-04 12:43:44] INFO root fetch - processPackages [aij-webcam]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 12:43:44] INFO root fetch - processPackages [elementpath]: New version: [4.1.2] Old Version: [4.1.1]
+[2023-05-04 12:43:44] INFO root fetch - processPackages [mainnet]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-04 12:43:45] INFO root fetch - processPackages [aij-webcam]: executing diffoscope
+[2023-05-04 12:43:45] INFO root fetch - processPackages [aij-webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-webcam-1.0.8.tar.gz tmp/aij-webcam-1.0.9.tar.gz --markdown 20230504/a/aij-webcam/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:43:45] INFO root fetch - processPackages [chainbench]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 12:43:45] INFO root fetch - processPackages [safe-pysha3]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-04 12:43:45] INFO root fetch - processPackages [lixinger]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 12:43:45] WARNING root fetch - processPackages [mir-ser]: Skipping, unable to determine old version
+[2023-05-04 12:43:45] INFO root fetch - processPackages [mir-ser]: Start processing: bihc
+[2023-05-04 12:43:45] INFO root fetch - main [MainThread]: End processing [mir-ser] error
+[2023-05-04 12:43:45] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/69/02/99400ff5d4c6fd14922787d528f021bd45d4f5b898809a8548cfaeafd661/sdkit-1.0.86.tar.gz
+[2023-05-04 12:43:45] INFO root fetch - processPackages [jupyterhub-backendspawner]: Downloading https://files.pythonhosted.org/packages/b1/ee/b60094fad23e7e49d036e810f92191226bd5ad77148d74398f2387214f66/jupyterhub-backendspawner-0.2.3.tar.gz
+[2023-05-04 12:43:45] INFO root fetch - processPackages [django-sqlite-backup]: Downloading https://files.pythonhosted.org/packages/8b/9c/4a2b598fd665d55c98b862ae71fb2dffc942d970bb1c87e1dedea892025a/django_sqlite_backup-0.0.1-py3-none-any.whl
+[2023-05-04 12:43:45] INFO root fetch - processPackages [elementpath]: Downloading https://files.pythonhosted.org/packages/3c/ab/fd32a0ca98b56feb18a1ac9b783faf73fc18d7c759c98843bf6b17c87fde/elementpath-4.1.1.tar.gz
+[2023-05-04 12:43:45] INFO root fetch - processPackages [mainnet]: Downloading https://files.pythonhosted.org/packages/6e/fa/89e5bbdfd3f6b3960ccd12b9cac6dc0e6ddce1a77335337e7db346953b7b/mainnet-1.1.8.tar.gz
+[2023-05-04 12:43:45] INFO root fetch - processPackages [bihc]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-04 12:43:45] INFO root fetch - processPackages [jupyterhub-backendspawner]: executing diffoscope
+[2023-05-04 12:43:45] INFO root fetch - processPackages [jupyterhub-backendspawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub-backendspawner-0.2.2.tar.gz tmp/jupyterhub-backendspawner-0.2.3.tar.gz --markdown 20230504/j/jupyterhub-backendspawner/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-04 12:43:45] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-05-04 12:43:45] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.86.tar.gz tmp/sdkit-1.0.9.tar.gz --markdown 20230504/s/sdkit/1.0.86-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:43:45] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/ab/9c/bd1725a52301fd4203383e3b1801be58f775371cf96dbfe54f9da2531980/chainbench-0.1.1.tar.gz
+[2023-05-04 12:43:45] INFO root fetch - processPackages [safe-pysha3]: Downloading https://files.pythonhosted.org/packages/1d/46/5e64df1daaa576d49dd80038c300c34c8c0714ef12a55fa7b1a227b6edec/safe-pysha3-1.0.3.tar.gz
+[2023-05-04 12:43:45] INFO root fetch - processPackages [lixinger]: Downloading https://files.pythonhosted.org/packages/f5/9d/98b97e2f0a1182728754dc91c739910a71948866462ef36540e20c6bc99d/lixinger-0.1.2.tar.gz
+[2023-05-04 12:43:45] INFO root fetch - processPackages [bihc]: Downloading https://files.pythonhosted.org/packages/f9/9c/d82da5933aedb7cab91a17265cf3f688253d07731b1d684d7d7c1918be4c/bihc-0.0.5.tar.gz
+[2023-05-04 12:43:45] INFO root fetch - processPackages [mainnet]: Downloading https://files.pythonhosted.org/packages/6a/9f/2aecb608d2108426a0f241c5fb1e1f28fdb6d31e3210c05d53b96cf25507/mainnet-1.1.9.tar.gz
+[2023-05-04 12:43:45] INFO root fetch - processPackages [django-sqlite-backup]: Downloading https://files.pythonhosted.org/packages/eb/1d/e55dbe8b1f81d55659347edbeca5749def53eae77cda10965beb67a389a2/django_sqlite_backup-0.0.2-py3-none-any.whl
+[2023-05-04 12:43:45] INFO root fetch - processPackages [safe-pysha3]: Downloading https://files.pythonhosted.org/packages/fd/73/67ba7ed2177b0b17d10665418fb5deafa03d76b8d4b2cb30883b81b00edf/safe-pysha3-1.0.4.tar.gz
+[2023-05-04 12:43:45] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-05-04 12:43:45] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.8.tar.gz tmp/mainnet-1.1.9.tar.gz --markdown 20230504/m/mainnet/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-04 12:43:45] INFO root fetch - processPackages [django-sqlite-backup]: executing diffoscope
+[2023-05-04 12:43:45] INFO root fetch - processPackages [django-sqlite-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sqlite_backup-0.0.1-py3-none-any.whl.zip tmp/django_sqlite_backup-0.0.2-py3-none-any.whl.zip --markdown 20230504/d/django-sqlite-backup/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-04 12:43:45] INFO root fetch - processPackages [elementpath]: Downloading https://files.pythonhosted.org/packages/6d/ce/5d72a8ab69f44485b63cc396524aec8b9486755be8979befe11685d1397e/elementpath-4.1.2.tar.gz
+[2023-05-04 12:43:45] INFO root fetch - processPackages [lixinger]: executing diffoscope
+[2023-05-04 12:43:45] INFO root fetch - processPackages [lixinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lixinger-0.1.1.tar.gz tmp/lixinger-0.1.2.tar.gz --markdown 20230504/l/lixinger/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 12:43:45] INFO root fetch - processPackages [elementpath]: executing diffoscope
+[2023-05-04 12:43:45] INFO root fetch - processPackages [elementpath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elementpath-4.1.1.tar.gz tmp/elementpath-4.1.2.tar.gz --markdown 20230504/e/elementpath/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2023-05-04 12:43:45] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/46/28/04a5a8865c1a8b3e07c6b6c640c0b45751f09400a3808319249813104e22/chainbench-0.1.2.tar.gz
+[2023-05-04 12:43:45] INFO root fetch - processPackages [safe-pysha3]: executing diffoscope
+[2023-05-04 12:43:45] INFO root fetch - processPackages [safe-pysha3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe-pysha3-1.0.3.tar.gz tmp/safe-pysha3-1.0.4.tar.gz --markdown 20230504/s/safe-pysha3/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-04 12:43:45] INFO root fetch - processPackages [bihc]: Downloading https://files.pythonhosted.org/packages/8e/35/f581aae5310894f17a5cacf2be9121c244b8dccf613b2b7c79e2b6b703a6/bihc-0.0.6.tar.gz
+[2023-05-04 12:43:45] INFO root fetch - processPackages [chainbench]: executing diffoscope
+[2023-05-04 12:43:45] INFO root fetch - processPackages [chainbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainbench-0.1.1.tar.gz tmp/chainbench-0.1.2.tar.gz --markdown 20230504/c/chainbench/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 12:43:45] INFO root fetch - processPackages [bihc]: executing diffoscope
+[2023-05-04 12:43:45] INFO root fetch - processPackages [bihc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bihc-0.0.5.tar.gz tmp/bihc-0.0.6.tar.gz --markdown 20230504/b/bihc/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-04 12:43:46] INFO root fetch - main [MainThread]: End processing [aij-webcam]: success
+[2023-05-04 12:43:46] INFO root fetch - main [MainThread]: End processing [jupyterhub-backendspawner]: success
+[2023-05-04 12:43:46] INFO root fetch - main [MainThread]: End processing [django-sqlite-backup]: success
+[2023-05-04 12:43:47] INFO root fetch - main [MainThread]: End processing [lixinger]: success
+[2023-05-04 12:43:47] INFO root fetch - main [MainThread]: End processing [bihc]: success
+[2023-05-04 12:43:47] INFO root fetch - main [MainThread]: End processing [chainbench]: success
+[2023-05-04 12:43:47] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-05-04 12:43:47] INFO root fetch - main [MainThread]: End processing [elementpath]: success
+[2023-05-04 12:43:50] INFO root fetch - main [MainThread]: End processing [safe-pysha3]: success
+[2023-05-04 12:43:52] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-05-04 12:43:52] INFO root fetch - main [MainThread]: Store serial: [17970834]
