@@ -11828,3 +11828,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 11:33:34] INFO root fetch - main [MainThread]: End processing [boris-behav-obs]: success
 [2023-05-04 11:33:37] INFO root fetch - main [MainThread]: End processing [twilio]: success
 [2023-05-04 11:33:37] INFO root fetch - main [MainThread]: Store serial: [17969999]
+[2023-05-04 11:38:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17969999]
+[2023-05-04 11:38:47] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-04 11:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aij-webcam
+[2023-05-04 11:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentinelhub
+[2023-05-04 11:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dactim-mri
+[2023-05-04 11:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cubicweb-oauth2
+[2023-05-04 11:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sports2d
+[2023-05-04 11:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: restframework-rdf
+[2023-05-04 11:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plex-nfs-watchdog
+[2023-05-04 11:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ImageMagic
+[2023-05-04 11:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: musicpy
+[2023-05-04 11:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nobuco
+[2023-05-04 11:38:47] INFO root fetch - processPackages [dactim-mri]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 11:38:47] WARNING root fetch - processPackages [aij-webcam]: Skipping, unable to determine old version
+[2023-05-04 11:38:47] INFO root fetch - processPackages [aij-webcam]: Start processing: gotji
+[2023-05-04 11:38:47] INFO root fetch - main [MainThread]: End processing [aij-webcam] error
+[2023-05-04 11:38:47] INFO root fetch - processPackages [sentinelhub]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-04 11:38:47] WARNING root fetch - processPackages [musicpy]: Skipping, unable to determine old version
+[2023-05-04 11:38:47] INFO root fetch - processPackages [musicpy]: Start processing: vgs-cli
+[2023-05-04 11:38:47] INFO root fetch - main [MainThread]: End processing [musicpy] error
+[2023-05-04 11:38:47] INFO root fetch - processPackages [cubicweb-oauth2]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-04 11:38:47] INFO root fetch - processPackages [plex-nfs-watchdog]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-04 11:38:47] INFO root fetch - processPackages [ImageMagic]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-04 11:38:47] INFO root fetch - processPackages [sports2d]: New version: [0.0.5] Old Version: [0.0.2]
+[2023-05-04 11:38:47] INFO root fetch - processPackages [gotji]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-04 11:38:47] INFO root fetch - processPackages [vgs-cli]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-04 11:38:47] INFO root fetch - processPackages [nobuco]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-04 11:38:47] WARNING root fetch - processPackages [restframework-rdf]: Skipping, unable to determine old version
+[2023-05-04 11:38:47] INFO root fetch - processPackages [restframework-rdf]: Start processing: ais-dom-frontend
+[2023-05-04 11:38:47] INFO root fetch - main [MainThread]: End processing [restframework-rdf] error
+[2023-05-04 11:38:47] INFO root fetch - processPackages [dactim-mri]: Downloading https://files.pythonhosted.org/packages/bd/16/80b20f5bbabdc0989d96d0b3fbcafceae2713709179f4e9c6e4dfeb2904d/dactim_mri-0.0.8.tar.gz
+[2023-05-04 11:38:47] INFO root fetch - processPackages [ais-dom-frontend]: New version: [20230503.1] Old Version: [20230426.0]
+[2023-05-04 11:38:47] WARNING root fetch - processPackages [dactim-mri]: Skipping package: exceeds size limit 26534398>=10485760
+[2023-05-04 11:38:47] INFO root fetch - processPackages [dactim-mri]: Start processing: extr-ds
+[2023-05-04 11:38:47] INFO root fetch - main [MainThread]: End processing [dactim-mri] error
+[2023-05-04 11:38:47] INFO root fetch - processPackages [sentinelhub]: Downloading https://files.pythonhosted.org/packages/d2/61/99e901af61849559204bbabaf109e1ab6cfe50ea62cf42a561ee0a2c690a/sentinelhub-3.9.0.tar.gz
+[2023-05-04 11:38:47] INFO root fetch - processPackages [plex-nfs-watchdog]: Downloading https://files.pythonhosted.org/packages/4b/eb/c639728758c7de0e4d76ca4ed282b3e7f4dfbdc28201c50a1843a994e0a3/plex-nfs-watchdog-0.0.4.tar.gz
+[2023-05-04 11:38:47] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/7b/f7/fc13389c235e7074bcf0b5f14dcbf6e83bd2d218b56a048a2b3c7a23d469/nobuco-0.4.5.tar.gz
+[2023-05-04 11:38:47] INFO root fetch - processPackages [ais-dom-frontend]: Downloading https://files.pythonhosted.org/packages/d1/b1/173b26e67625ca28d1bf2619f79bf441d83db502c35d79f45d5bf522780b/ais_dom_frontend-20230426.0-py3-none-any.whl
+[2023-05-04 11:38:47] INFO root fetch - processPackages [cubicweb-oauth2]: Downloading https://files.pythonhosted.org/packages/8c/d6/bb338832f2197b94c30647e5ad86f0373b0fe1902ad15c01f8e8f7ed78bd/cubicweb-oauth2-0.3.2.tar.gz
+[2023-05-04 11:38:47] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 11:38:47] INFO root fetch - processPackages [vgs-cli]: Downloading https://files.pythonhosted.org/packages/c6/ef/2fe772c65ca853772d50854da50dfce5b98d54af0091cd3267b9fc8b109f/vgs-cli-1.9.4.tar.gz
+[2023-05-04 11:38:47] INFO root fetch - processPackages [gotji]: Downloading https://files.pythonhosted.org/packages/b3/fe/eee7484f6268ed30bf90387be41410101dfc09f57f360789f2533ab6657a/gotji-1.0.7.tar.gz
+[2023-05-04 11:38:47] INFO root fetch - processPackages [nobuco]: executing diffoscope
+[2023-05-04 11:38:47] INFO root fetch - processPackages [nobuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobuco-0.4.4.tar.gz tmp/nobuco-0.4.5.tar.gz --markdown 20230504/n/nobuco/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-04 11:38:47] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-04 11:38:47] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230504/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 11:38:47] INFO root fetch - processPackages [ImageMagic]: Downloading https://files.pythonhosted.org/packages/49/a8/5df8e129730218e33488b033e71c51898fca570309f049b9d6fbe6f107ab/ImageMagic-0.1.3.tar.gz
+[2023-05-04 11:38:47] INFO root fetch - processPackages [sports2d]: Downloading https://files.pythonhosted.org/packages/0d/87/e06e1735033b97c7a843c2378529646c46c95d52b0ec31b697df101fc7d0/sports2d-0.0.5.tar.gz
+[2023-05-04 11:38:47] INFO root fetch - processPackages [ImageMagic]: executing diffoscope
+[2023-05-04 11:38:47] INFO root fetch - processPackages [ImageMagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImageMagic-0.1.2.tar.gz tmp/ImageMagic-0.1.3.tar.gz --markdown 20230504/I/ImageMagic/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-04 11:38:47] INFO root fetch - processPackages [sports2d]: executing diffoscope
+[2023-05-04 11:38:47] INFO root fetch - processPackages [sports2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sports2d-0.0.2.tar.gz tmp/sports2d-0.0.5.tar.gz --markdown 20230504/s/sports2d/0.0.2-0.0.5/diff.md --exclude *.pyd
+[2023-05-04 11:38:47] INFO root fetch - processPackages [cubicweb-oauth2]: Downloading https://files.pythonhosted.org/packages/4b/6d/496ef1cc878d45b014784a13aba8706efab7255aa2d379ef266d57d121fe/cubicweb-oauth2-0.4.0.tar.gz
+[2023-05-04 11:38:47] INFO root fetch - processPackages [plex-nfs-watchdog]: Downloading https://files.pythonhosted.org/packages/bd/15/e17d6ce785acadd4c98c4be81d206d9a1491c9644b924d9b6ef50813b724/plex-nfs-watchdog-0.0.5.tar.gz
+[2023-05-04 11:38:48] INFO root fetch - processPackages [gotji]: Downloading https://files.pythonhosted.org/packages/9c/0c/8d78997b49b64b851cc47002b9eda6a6fa4c0e495d584b40d2e4a859c8a4/gotji-1.0.8.tar.gz
+[2023-05-04 11:38:48] INFO root fetch - processPackages [cubicweb-oauth2]: executing diffoscope
+[2023-05-04 11:38:48] INFO root fetch - processPackages [cubicweb-oauth2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-oauth2-0.3.2.tar.gz tmp/cubicweb-oauth2-0.4.0.tar.gz --markdown 20230504/c/cubicweb-oauth2/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-05-04 11:38:48] INFO root fetch - processPackages [plex-nfs-watchdog]: executing diffoscope
+[2023-05-04 11:38:48] INFO root fetch - processPackages [plex-nfs-watchdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plex-nfs-watchdog-0.0.4.tar.gz tmp/plex-nfs-watchdog-0.0.5.tar.gz --markdown 20230504/p/plex-nfs-watchdog/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-04 11:38:48] INFO root fetch - processPackages [gotji]: executing diffoscope
+[2023-05-04 11:38:48] INFO root fetch - processPackages [gotji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gotji-1.0.7.tar.gz tmp/gotji-1.0.8.tar.gz --markdown 20230504/g/gotji/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-04 11:38:48] WARNING root fetch - processPackages [ais-dom-frontend]: Skipping package: exceeds size limit 49767867>=10485760
+[2023-05-04 11:38:48] INFO root fetch - processPackages [ais-dom-frontend]: Start processing: hsmm-mvpy
+[2023-05-04 11:38:48] INFO root fetch - main [MainThread]: End processing [ais-dom-frontend] error
+[2023-05-04 11:38:48] INFO root fetch - processPackages [vgs-cli]: Downloading https://files.pythonhosted.org/packages/4a/37/e7806711730cb819399b1b5673ab9445a738c9e04c09483014bf2978f378/vgs-cli-1.9.5.tar.gz
+[2023-05-04 11:38:48] INFO root fetch - processPackages [sentinelhub]: Downloading https://files.pythonhosted.org/packages/bf/41/48f129252d0ffebe32e65f0291dde69e5e8b11d77fc1412285df9e3e6833/sentinelhub-3.9.1.tar.gz
+[2023-05-04 11:38:48] INFO root fetch - processPackages [hsmm-mvpy]: New version: [0.1.0a0] Old Version: [0.0.8b0]
+[2023-05-04 11:38:48] INFO root fetch - processPackages [sentinelhub]: executing diffoscope
+[2023-05-04 11:38:48] INFO root fetch - processPackages [sentinelhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentinelhub-3.9.0.tar.gz tmp/sentinelhub-3.9.1.tar.gz --markdown 20230504/s/sentinelhub/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-04 11:38:48] INFO root fetch - processPackages [vgs-cli]: executing diffoscope
+[2023-05-04 11:38:48] INFO root fetch - processPackages [vgs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs-cli-1.9.4.tar.gz tmp/vgs-cli-1.9.5.tar.gz --markdown 20230504/v/vgs-cli/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-04 11:38:48] INFO root fetch - processPackages [hsmm-mvpy]: Downloading https://files.pythonhosted.org/packages/65/e0/b8de4de921ae29e9a01f43970459c7c0a205a88bb53b3e44222933eab4d5/hsmm_mvpy-0.0.8b0.tar.gz
+[2023-05-04 11:38:48] INFO root fetch - processPackages [hsmm-mvpy]: Downloading https://files.pythonhosted.org/packages/f3/9d/be8173e194fa403e78064d0e1f86228f87b4659e2f39ae007d8a717fb5e5/hsmm_mvpy-0.1.0a0-py3-none-any.whl
+[2023-05-04 11:38:49] INFO root fetch - processPackages [hsmm-mvpy]: executing diffoscope
+[2023-05-04 11:38:49] INFO root fetch - processPackages [hsmm-mvpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsmm_mvpy-0.0.8b0.tar.gz tmp/hsmm_mvpy-0.1.0a0-py3-none-any.whl.zip --markdown 20230504/h/hsmm-mvpy/0.0.8b0-0.1.0a0/diff.md --exclude *.pyd
+[2023-05-04 11:38:49] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-04 11:38:49] INFO root fetch - main [MainThread]: End processing [cubicweb-oauth2]: success
+[2023-05-04 11:38:49] INFO root fetch - main [MainThread]: End processing [gotji]: success
+[2023-05-04 11:38:49] INFO root fetch - main [MainThread]: End processing [plex-nfs-watchdog]: success
+[2023-05-04 11:38:49] INFO root fetch - main [MainThread]: End processing [ImageMagic]: success
+[2023-05-04 11:38:49] INFO root fetch - main [MainThread]: End processing [vgs-cli]: success
+[2023-05-04 11:38:50] INFO root fetch - main [MainThread]: End processing [sentinelhub]: success
+[2023-05-04 11:38:50] INFO root fetch - main [MainThread]: End processing [nobuco]: success
+[2023-05-04 11:38:50] INFO root fetch - main [MainThread]: End processing [hsmm-mvpy]: success
+[2023-05-04 11:38:51] INFO root fetch - main [MainThread]: End processing [sports2d]: success
+[2023-05-04 11:38:51] INFO root fetch - main [MainThread]: Store serial: [17970046]
