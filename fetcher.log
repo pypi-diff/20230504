@@ -16067,3 +16067,73 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 15:17:40] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-04 15:18:10] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-05-04 15:18:10] INFO root fetch - main [MainThread]: Store serial: [17972621]
+[2023-05-04 15:23:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17972621]
+[2023-05-04 15:23:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-04 15:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pear-xai
+[2023-05-04 15:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ambient-toolbox
+[2023-05-04 15:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hamzaGlyph
+[2023-05-04 15:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: youtube-webscrape-api
+[2023-05-04 15:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-eks-blueprint
+[2023-05-04 15:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fattureincloud-python-sdk
+[2023-05-04 15:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kappadata
+[2023-05-04 15:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crunch-cli
+[2023-05-04 15:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: math-calculator
+[2023-05-04 15:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: archimedes-config
+[2023-05-04 15:23:19] INFO root fetch - processPackages [ambient-toolbox]: New version: [8.0.2] Old Version: [8.0.1]
+[2023-05-04 15:23:19] INFO root fetch - processPackages [cdk-eks-blueprint]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 15:23:19] INFO root fetch - processPackages [youtube-webscrape-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-04 15:23:20] WARNING root fetch - processPackages [hamzaGlyph]: Skipping, unable to determine old version
+[2023-05-04 15:23:20] INFO root fetch - processPackages [hamzaGlyph]: Start processing: idefix-cli
+[2023-05-04 15:23:20] INFO root fetch - main [MainThread]: End processing [hamzaGlyph] error
+[2023-05-04 15:23:20] INFO root fetch - processPackages [pear-xai]: New version: [0.0.4a0] Old Version: [0.0.3]
+[2023-05-04 15:23:20] INFO root fetch - processPackages [fattureincloud-python-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-04 15:23:20] INFO root fetch - processPackages [kappadata]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-04 15:23:20] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-05-04 15:23:20] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.2.8.tar.gz tmp/kappadata-1.2.9.tar.gz --markdown 20230504/k/kappadata/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-04 15:23:20] INFO root fetch - processPackages [archimedes-config]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-05-04 15:23:20] INFO root fetch - processPackages [crunch-cli]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-04 15:23:20] WARNING root fetch - processPackages [math-calculator]: Skipping, unable to determine old version
+[2023-05-04 15:23:20] INFO root fetch - processPackages [math-calculator]: Start processing: ChordScaleWizard
+[2023-05-04 15:23:20] INFO root fetch - main [MainThread]: End processing [math-calculator] error
+[2023-05-04 15:23:20] INFO root fetch - processPackages [idefix-cli]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-04 15:23:20] WARNING root fetch - processPackages [ChordScaleWizard]: Skipping, unable to determine old version
+[2023-05-04 15:23:20] INFO root fetch - main [MainThread]: End processing [ChordScaleWizard] error
+[2023-05-04 15:23:20] INFO root fetch - processPackages [cdk-eks-blueprint]: Downloading https://files.pythonhosted.org/packages/99/d6/bf4de42639fdc26a87674c33778a78cf11c604d5c2265c0bea0a9a3e5fee/cdk-eks-blueprint-0.0.9.tar.gz
+[2023-05-04 15:23:20] INFO root fetch - processPackages [fattureincloud-python-sdk]: Downloading https://files.pythonhosted.org/packages/07/68/ca4647f06cc8170b393a02e7994291d0c94f552ceb2a86d68ad86851966f/fattureincloud-python-sdk-2.0.8.tar.gz
+[2023-05-04 15:23:20] INFO root fetch - processPackages [youtube-webscrape-api]: Downloading https://files.pythonhosted.org/packages/6c/b6/00ffdb1c32adbcc39d93027d4f42d2f91bdcc63be27c69c509f4eef2af80/youtube-webscrape-api-0.0.2.tar.gz
+[2023-05-04 15:23:20] INFO root fetch - processPackages [ambient-toolbox]: Downloading https://files.pythonhosted.org/packages/aa/1c/1eafd2cedf59a0694317cead4b8bed56a0df82485906e824edd09affaeb7/ambient-toolbox-8.0.2.tar.gz
+[2023-05-04 15:23:20] INFO root fetch - processPackages [cdk-eks-blueprint]: executing diffoscope
+[2023-05-04 15:23:20] INFO root fetch - processPackages [cdk-eks-blueprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-eks-blueprint-0.0.8.tar.gz tmp/cdk-eks-blueprint-0.0.9.tar.gz --markdown 20230504/c/cdk-eks-blueprint/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 15:23:20] INFO root fetch - processPackages [idefix-cli]: Downloading https://files.pythonhosted.org/packages/50/85/348221c28a9a722335b238c632893ec66808728e210737f28bbef3427e5d/idefix_cli-2.0.0.tar.gz
+[2023-05-04 15:23:20] INFO root fetch - processPackages [crunch-cli]: Downloading https://files.pythonhosted.org/packages/4c/3a/d9d3a677ecd35c747746c5548c956838e0ea15f40ab4977d619b1bbe9117/crunch-cli-0.8.1.tar.gz
+[2023-05-04 15:23:20] INFO root fetch - processPackages [archimedes-config]: Downloading https://files.pythonhosted.org/packages/63/61/09001f7e3d9341ccffd85338facbd6763809e7fdea4b542af8697c210893/archimedes_config-0.2.4.tar.gz
+[2023-05-04 15:23:20] INFO root fetch - processPackages [pear-xai]: Downloading https://files.pythonhosted.org/packages/30/38/7fa38a4ae235fe40f07c10930209370c5dd854974bd2d85fe0fad2ab4c9a/pear-xai-0.0.4a0.tar.gz
+[2023-05-04 15:23:20] INFO root fetch - processPackages [ambient-toolbox]: executing diffoscope
+[2023-05-04 15:23:20] INFO root fetch - processPackages [ambient-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient-toolbox-8.0.1.tar.gz tmp/ambient-toolbox-8.0.2.tar.gz --markdown 20230504/a/ambient-toolbox/8.0.1-8.0.2/diff.md --exclude *.pyd
+[2023-05-04 15:23:20] INFO root fetch - processPackages [pear-xai]: executing diffoscope
+[2023-05-04 15:23:20] INFO root fetch - processPackages [pear-xai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pear-xai-0.0.3.tar.gz tmp/pear-xai-0.0.4a0.tar.gz --markdown 20230504/p/pear-xai/0.0.3-0.0.4a0/diff.md --exclude *.pyd
+[2023-05-04 15:23:20] INFO root fetch - processPackages [youtube-webscrape-api]: Downloading https://files.pythonhosted.org/packages/e0/a0/cb0cba6ec2d7bf1bddaa685e211ae35313b5a5e0145926730cde827d7969/youtube-webscrape-api-0.0.3.tar.gz
+[2023-05-04 15:23:20] INFO root fetch - processPackages [fattureincloud-python-sdk]: Downloading https://files.pythonhosted.org/packages/58/4d/b02e21c01bbde9517449526d78585b25115420fb3798a6c7417570aa9d2f/fattureincloud-python-sdk-2.0.9.tar.gz
+[2023-05-04 15:23:20] INFO root fetch - processPackages [youtube-webscrape-api]: executing diffoscope
+[2023-05-04 15:23:20] INFO root fetch - processPackages [youtube-webscrape-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtube-webscrape-api-0.0.2.tar.gz tmp/youtube-webscrape-api-0.0.3.tar.gz --markdown 20230504/y/youtube-webscrape-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-04 15:23:20] INFO root fetch - processPackages [archimedes-config]: Downloading https://files.pythonhosted.org/packages/73/d4/2d49d2b6cba144d1187bd8281fe2b6be546d6b73b9f87a34af62395dbde2/archimedes_config-0.3.0.tar.gz
+[2023-05-04 15:23:20] INFO root fetch - processPackages [idefix-cli]: Downloading https://files.pythonhosted.org/packages/12/6f/6eca82ba3f83324161babec72e50874c63b8dbe13375f3105952d25bcae4/idefix_cli-2.1.0.tar.gz
+[2023-05-04 15:23:20] INFO root fetch - processPackages [archimedes-config]: executing diffoscope
+[2023-05-04 15:23:20] INFO root fetch - processPackages [archimedes-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archimedes_config-0.2.4.tar.gz tmp/archimedes_config-0.3.0.tar.gz --markdown 20230504/a/archimedes-config/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-05-04 15:23:20] INFO root fetch - processPackages [crunch-cli]: Downloading https://files.pythonhosted.org/packages/db/a1/8b8a54f092feb6cdab4bac7abee03cc49b8e0e6594a7a55a4c1fe6455114/crunch-cli-0.9.0.tar.gz
+[2023-05-04 15:23:20] INFO root fetch - processPackages [idefix-cli]: executing diffoscope
+[2023-05-04 15:23:20] INFO root fetch - processPackages [idefix-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idefix_cli-2.0.0.tar.gz tmp/idefix_cli-2.1.0.tar.gz --markdown 20230504/i/idefix-cli/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-04 15:23:21] INFO root fetch - processPackages [fattureincloud-python-sdk]: executing diffoscope
+[2023-05-04 15:23:21] INFO root fetch - processPackages [fattureincloud-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fattureincloud-python-sdk-2.0.8.tar.gz tmp/fattureincloud-python-sdk-2.0.9.tar.gz --markdown 20230504/f/fattureincloud-python-sdk/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-04 15:23:21] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-05-04 15:23:21] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-0.8.1.tar.gz tmp/crunch-cli-0.9.0.tar.gz --markdown 20230504/c/crunch-cli/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 15:23:21] INFO root fetch - main [MainThread]: End processing [cdk-eks-blueprint]: success
+[2023-05-04 15:23:21] INFO root fetch - main [MainThread]: End processing [youtube-webscrape-api]: success
+[2023-05-04 15:23:22] INFO root fetch - main [MainThread]: End processing [archimedes-config]: success
+[2023-05-04 15:23:22] INFO root fetch - main [MainThread]: End processing [idefix-cli]: success
+[2023-05-04 15:23:22] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-05-04 15:23:22] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-05-04 15:23:22] INFO root fetch - main [MainThread]: End processing [pear-xai]: success
+[2023-05-04 15:23:23] INFO root fetch - main [MainThread]: End processing [ambient-toolbox]: success
+[2023-05-04 15:23:31] INFO root fetch - main [MainThread]: End processing [fattureincloud-python-sdk]: success
+[2023-05-04 15:23:32] INFO root fetch - main [MainThread]: Store serial: [17972669]
