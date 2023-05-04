@@ -9298,3 +9298,115 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 09:19:04] INFO root fetch - main [MainThread]: End processing [django-common-task-system]: success
 [2023-05-04 09:19:14] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-05-04 09:19:14] INFO root fetch - main [MainThread]: Store serial: [17968573]
+[2023-05-04 09:24:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17968573]
+[2023-05-04 09:24:23] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-04 09:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rhino_health
+[2023-05-04 09:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hass-nabucasa
+[2023-05-04 09:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nisdc
+[2023-05-04 09:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfq-nightly
+[2023-05-04 09:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dstack
+[2023-05-04 09:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-product-multi-ean
+[2023-05-04 09:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pitricks
+[2023-05-04 09:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-product-multi-barcode
+[2023-05-04 09:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-barcodes-generator-package
+[2023-05-04 09:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-product-multi-barcode
+[2023-05-04 09:24:23] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230503] Old Version: [0.7.3.dev20230502]
+[2023-05-04 09:24:23] WARNING root fetch - processPackages [odoo14-addon-barcodes-generator-package]: Skipping, unable to determine old version
+[2023-05-04 09:24:23] INFO root fetch - processPackages [odoo14-addon-barcodes-generator-package]: Start processing: odoo14-addon-stock-barcodes
+[2023-05-04 09:24:23] INFO root fetch - main [MainThread]: End processing [odoo14-addon-barcodes-generator-package] error
+[2023-05-04 09:24:23] WARNING root fetch - processPackages [nisdc]: Skipping, unable to determine old version
+[2023-05-04 09:24:23] INFO root fetch - processPackages [nisdc]: Start processing: odoo-addon-stock-barcodes
+[2023-05-04 09:24:23] INFO root fetch - processPackages [odoo12-addon-product-multi-ean]: New version: [12.0.1.0.3.99.dev5] Old Version: [12.0.1.0.3.99.dev4]
+[2023-05-04 09:24:23] INFO root fetch - main [MainThread]: End processing [nisdc] error
+[2023-05-04 09:24:23] INFO root fetch - processPackages [odoo13-addon-product-multi-barcode]: New version: [13.0.1.1.1.dev4] Old Version: [13.0.1.1.1.dev3]
+[2023-05-04 09:24:23] INFO root fetch - processPackages [odoo14-addon-product-multi-barcode]: New version: [14.0.1.1.3.dev3] Old Version: [14.0.1.1.3.dev2]
+[2023-05-04 09:24:23] INFO root fetch - processPackages [pitricks]: New version: [0.1.4a1] Old Version: [0.1.3a3]
+[2023-05-04 09:24:23] INFO root fetch - processPackages [rhino_health]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-04 09:24:23] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: New version: [14.0.2.2.2.dev1] Old Version: [14.0.2.2.1]
+[2023-05-04 09:24:23] INFO root fetch - processPackages [dstack]: New version: [0.8] Old Version: [0.7rc1]
+[2023-05-04 09:24:23] INFO root fetch - processPackages [hass-nabucasa]: New version: [0.9] Old Version: [0.8]
+[2023-05-04 09:24:23] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/23/35/f3f3034073127f0e55b0cd9f6278c97e2239bccb7e910ef9744ca84093c5/tfq_nightly-0.7.3.dev20230502-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-04 09:24:23] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819849>=10485760
+[2023-05-04 09:24:23] INFO root fetch - processPackages [tfq-nightly]: Start processing: common-test
+[2023-05-04 09:24:23] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: New version: [15.0.1.2.2.3] Old Version: [15.0.1.2.2.2]
+[2023-05-04 09:24:23] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-05-04 09:24:23] INFO root fetch - processPackages [odoo14-addon-product-multi-barcode]: Downloading https://files.pythonhosted.org/packages/4a/55/37edb9a12b8a5112cdfaf3201a2ec6081cbff508965466cc3421b67039c5/odoo14_addon_product_multi_barcode-14.0.1.1.3.dev2-py3-none-any.whl
+[2023-05-04 09:24:23] INFO root fetch - processPackages [odoo13-addon-product-multi-barcode]: Downloading https://files.pythonhosted.org/packages/bf/4c/7e6d132fd5632d5e0cc0152fd22d58ab032479f32e8d6b05c98950b54732/odoo13_addon_product_multi_barcode-13.0.1.1.1.dev3-py3-none-any.whl
+[2023-05-04 09:24:24] INFO root fetch - processPackages [rhino_health]: Downloading https://files.pythonhosted.org/packages/3b/4e/deac60572a2c9d5683d9ff8d87e1894f1adac800769181cac538a33dcb32/rhino_health-0.2.7.tar.gz
+[2023-05-04 09:24:24] INFO root fetch - processPackages [common-test]: New version: [29.9.25] Old Version: [29.9.24]
+[2023-05-04 09:24:24] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/08/5c/761124343e4ea0fc0572537a0aebf4af7d60a318d1b370a3229bd2655f52/dstack-0.7rc1.tar.gz
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo12-addon-product-multi-ean]: Downloading https://files.pythonhosted.org/packages/01/81/a37fdea10730725b5614b4acbdce9065c0dcc6f7ecd29371d728dc4cc3d3/odoo12_addon_product_multi_ean-12.0.1.0.3.99.dev4-py3-none-any.whl
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/48/94/f1e3d913c337e5ec1e4af94329f7c30ef70a048ef2b98018ba144928b4df/odoo14_addon_stock_barcodes-14.0.2.2.1-py3-none-any.whl
+[2023-05-04 09:24:24] INFO root fetch - processPackages [hass-nabucasa]: Downloading https://files.pythonhosted.org/packages/fc/45/e5473d0adc7b2f6f69d1b4128c7cb8a0241e7d2a312a30ca4e1bcceb64e8/hass-nabucasa-0.8.tar.gz
+[2023-05-04 09:24:24] INFO root fetch - processPackages [pitricks]: Downloading https://files.pythonhosted.org/packages/8c/99/00751187d0f12b859a68fd78d3ac0f944cefb71c9fb5bf848cfd7cadce7d/pitricks-0.1.3a3.tar.gz
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/d7/9d/909f79a6d05feaad5eb83830c713d8259f0ac9a1adc8f8969fcd1623d154/odoo_addon_stock_barcodes-15.0.1.2.2.2-py3-none-any.whl
+[2023-05-04 09:24:24] INFO root fetch - processPackages [common-test]: Downloading https://files.pythonhosted.org/packages/84/42/a7dfb89096e8ad2b79000d184f2300e258845277c4d6fc0ba24b2ff8ee2d/common-test-29.9.24.tar.gz
+[2023-05-04 09:24:24] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/87/48/4ed965b83f3481ceae36ae6a334ece36c1e848179336e573b95f5be72134/dstack-0.8.tar.gz
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo14-addon-product-multi-barcode]: Downloading https://files.pythonhosted.org/packages/0d/c2/21b9f3536917261cd0a6e99ca06131a0d638cfa7306144b0019c93edeaaa/odoo14_addon_product_multi_barcode-14.0.1.1.3.dev3-py3-none-any.whl
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo12-addon-product-multi-ean]: Downloading https://files.pythonhosted.org/packages/9b/da/50087cc9e05c1660c2b47af7a03c4c01257b8d44e9ce6b08d49c8c0e5b0b/odoo12_addon_product_multi_ean-12.0.1.0.3.99.dev5-py3-none-any.whl
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/af/60/a5214eaf97440f2a7a7ee0c017bd7064e8873a7adbaa3fca88e0319c1887/odoo14_addon_stock_barcodes-14.0.2.2.2.dev1-py3-none-any.whl
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/57/f6/b25cb64683a59cb7b50e30c886972c542fb0f5b79301c9f927eaa8252274/odoo_addon_stock_barcodes-15.0.1.2.2.3-py3-none-any.whl
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo14-addon-product-multi-barcode]: executing diffoscope
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo14-addon-product-multi-barcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_multi_barcode-14.0.1.1.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_product_multi_barcode-14.0.1.1.3.dev3-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addon-product-multi-barcode/14.0.1.1.3.dev2-14.0.1.1.3.dev3/diff.md --exclude *.pyd
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo12-addon-product-multi-ean]: executing diffoscope
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo12-addon-product-multi-ean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_product_multi_ean-12.0.1.0.3.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_product_multi_ean-12.0.1.0.3.99.dev5-py3-none-any.whl.zip --markdown 20230504/o/odoo12-addon-product-multi-ean/12.0.1.0.3.99.dev4-12.0.1.0.3.99.dev5/diff.md --exclude *.pyd
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: executing diffoscope
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_barcodes-14.0.2.2.1-py3-none-any.whl.zip tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev1-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addon-stock-barcodes/14.0.2.2.1-14.0.2.2.2.dev1/diff.md --exclude *.pyd
+[2023-05-04 09:24:24] INFO root fetch - processPackages [pitricks]: Downloading https://files.pythonhosted.org/packages/98/57/24cc95af7859cf1ee508c7cab2cfd1b296ed97586e5aa183d8e8cb5d921f/pitricks-0.1.4a1.tar.gz
+[2023-05-04 09:24:24] INFO root fetch - processPackages [common-test]: Downloading https://files.pythonhosted.org/packages/19/33/e210cac235b899141dfc37a852c718b0b7e1677419b15d58a73041ce057c/common-test-29.9.25.tar.gz
+[2023-05-04 09:24:24] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2023-05-04 09:24:24] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.7rc1.tar.gz tmp/dstack-0.8.tar.gz --markdown 20230504/d/dstack/0.7rc1-0.8/diff.md --exclude *.pyd
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo13-addon-product-multi-barcode]: Downloading https://files.pythonhosted.org/packages/8c/16/1a9ff827db91be5ffa3f1c20719c15da4dc269b693a92e0729add7548077/odoo13_addon_product_multi_barcode-13.0.1.1.1.dev4-py3-none-any.whl
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: executing diffoscope
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_barcodes-15.0.1.2.2.2-py3-none-any.whl.zip tmp/odoo_addon_stock_barcodes-15.0.1.2.2.3-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-stock-barcodes/15.0.1.2.2.2-15.0.1.2.2.3/diff.md --exclude *.pyd
+[2023-05-04 09:24:24] INFO root fetch - processPackages [pitricks]: executing diffoscope
+[2023-05-04 09:24:24] INFO root fetch - processPackages [pitricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitricks-0.1.3a3.tar.gz tmp/pitricks-0.1.4a1.tar.gz --markdown 20230504/p/pitricks/0.1.3a3-0.1.4a1/diff.md --exclude *.pyd
+[2023-05-04 09:24:24] INFO root fetch - processPackages [common-test]: executing diffoscope
+[2023-05-04 09:24:24] INFO root fetch - processPackages [common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-test-29.9.24.tar.gz tmp/common-test-29.9.25.tar.gz --markdown 20230504/c/common-test/29.9.24-29.9.25/diff.md --exclude *.pyd
+[2023-05-04 09:24:24] INFO root fetch - processPackages [hass-nabucasa]: Downloading https://files.pythonhosted.org/packages/3b/bf/09dd82cd20936665446eff0e5895609e699ed4e0143d97d0168512bc30b9/hass-nabucasa-0.9.tar.gz
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo13-addon-product-multi-barcode]: executing diffoscope
+[2023-05-04 09:24:24] INFO root fetch - processPackages [odoo13-addon-product-multi-barcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_product_multi_barcode-13.0.1.1.1.dev3-py3-none-any.whl.zip tmp/odoo13_addon_product_multi_barcode-13.0.1.1.1.dev4-py3-none-any.whl.zip --markdown 20230504/o/odoo13-addon-product-multi-barcode/13.0.1.1.1.dev3-13.0.1.1.1.dev4/diff.md --exclude *.pyd
+[2023-05-04 09:24:24] INFO root fetch - processPackages [rhino_health]: Downloading https://files.pythonhosted.org/packages/47/46/cb507140ac97b8c33f708ed57538175e53fc11f9c5f2451d2be9c399bf41/rhino_health-0.2.8.tar.gz
+[2023-05-04 09:24:24] INFO root fetch - processPackages [hass-nabucasa]: executing diffoscope
+[2023-05-04 09:24:24] INFO root fetch - processPackages [hass-nabucasa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hass-nabucasa-0.8.tar.gz tmp/hass-nabucasa-0.9.tar.gz --markdown 20230504/h/hass-nabucasa/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-04 09:24:25] INFO root fetch - processPackages [rhino_health]: executing diffoscope
+[2023-05-04 09:24:25] INFO root fetch - processPackages [rhino_health]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhino_health-0.2.7.tar.gz tmp/rhino_health-0.2.8.tar.gz --markdown 20230504/r/rhino_health/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-04 09:24:26] INFO root fetch - processPackages [pitricks]: Start processing: odoo14-addons-oca-stock-logistics-barcode
+[2023-05-04 09:24:26] INFO root fetch - main [MainThread]: End processing [pitricks]: success
+[2023-05-04 09:24:26] INFO root fetch - processPackages [odoo14-addon-product-multi-barcode]: Start processing: odoo-addon-product-multi-barcode
+[2023-05-04 09:24:26] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-multi-barcode]: success
+[2023-05-04 09:24:26] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-barcode]: New version: [14.0.20230503.0] Old Version: [14.0.20230227.0]
+[2023-05-04 09:24:26] INFO root fetch - processPackages [odoo-addon-product-multi-barcode]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-05-04 09:24:26] INFO root fetch - processPackages [common-test]: Start processing: gvec-to-python
+[2023-05-04 09:24:26] INFO root fetch - main [MainThread]: End processing [common-test]: success
+[2023-05-04 09:24:26] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Start processing: iosense-connect
+[2023-05-04 09:24:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes]: success
+[2023-05-04 09:24:26] INFO root fetch - main [MainThread]: End processing [hass-nabucasa]: success
+[2023-05-04 09:24:26] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-barcode]: Downloading https://files.pythonhosted.org/packages/e7/ee/6af2c0e96f5f4dd42a117ad5e3f98e674fa11d9e476f772aa5cbab8fa5ef/odoo14_addons_oca_stock_logistics_barcode-14.0.20230227.0-py3-none-any.whl
+[2023-05-04 09:24:26] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-multi-ean]: success
+[2023-05-04 09:24:26] INFO root fetch - processPackages [gvec-to-python]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-04 09:24:26] INFO root fetch - processPackages [iosense-connect]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-04 09:24:26] INFO root fetch - processPackages [odoo-addon-product-multi-barcode]: Downloading https://files.pythonhosted.org/packages/7c/3f/2c6b686d6245210ae95ece9d8e12a6fac94ee2dede2d5c4021429687b54d/odoo_addon_product_multi_barcode-16.0.1.0.0.5-py3-none-any.whl
+[2023-05-04 09:24:26] INFO root fetch - main [MainThread]: End processing [odoo13-addon-product-multi-barcode]: success
+[2023-05-04 09:24:27] INFO root fetch - processPackages [gvec-to-python]: Downloading https://files.pythonhosted.org/packages/9d/49/9b91be45ba9ab3183e5013fe740f8d8fe129f67ea4938da9a4f2186fec80/gvec-to-python-1.1.0.tar.gz
+[2023-05-04 09:24:27] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/cc/90/f88cdf68d26c105551b8c7597127595781685608bedf77e3566903570ded/iosense_connect-2.1.0.tar.gz
+[2023-05-04 09:24:27] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-barcode]: Downloading https://files.pythonhosted.org/packages/71/18/3176b88f9ce5209dbda48933bc170dc6cf0b676bc14245bc5c031aa064d6/odoo14_addons_oca_stock_logistics_barcode-14.0.20230503.0-py3-none-any.whl
+[2023-05-04 09:24:27] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-barcode]: executing diffoscope
+[2023-05-04 09:24:27] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-barcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_stock_logistics_barcode-14.0.20230227.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_stock_logistics_barcode-14.0.20230503.0-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addons-oca-stock-logistics-barcode/14.0.20230227.0-14.0.20230503.0/diff.md --exclude *.pyd
+[2023-05-04 09:24:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-barcodes]: success
+[2023-05-04 09:24:27] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/b7/9e/3086016d9a8c69a9a4296026138b71b423d9ba897b3eb7320d87603bb26b/iosense_connect-2.1.1.tar.gz
+[2023-05-04 09:24:27] INFO root fetch - processPackages [odoo-addon-product-multi-barcode]: Downloading https://files.pythonhosted.org/packages/30/3d/f6992cd1b0a30df3ef13a093605e7dd9cb31e9ccd8255557a073d9b139e4/odoo_addon_product_multi_barcode-16.0.1.0.0.6-py3-none-any.whl
+[2023-05-04 09:24:27] INFO root fetch - processPackages [odoo-addon-product-multi-barcode]: executing diffoscope
+[2023-05-04 09:24:27] INFO root fetch - processPackages [odoo-addon-product-multi-barcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_multi_barcode-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_product_multi_barcode-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-product-multi-barcode/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-05-04 09:24:27] INFO root fetch - processPackages [iosense-connect]: executing diffoscope
+[2023-05-04 09:24:27] INFO root fetch - processPackages [iosense-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iosense_connect-2.1.0.tar.gz tmp/iosense_connect-2.1.1.tar.gz --markdown 20230504/i/iosense-connect/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-04 09:24:27] INFO root fetch - processPackages [gvec-to-python]: Downloading https://files.pythonhosted.org/packages/fc/a3/6dfc24ba86eaf67e34fa24a684af055c56b6e1870e99ef5067090db96f21/gvec-to-python-1.1.1.tar.gz
+[2023-05-04 09:24:27] INFO root fetch - main [MainThread]: End processing [rhino_health]: success
+[2023-05-04 09:24:27] INFO root fetch - processPackages [gvec-to-python]: executing diffoscope
+[2023-05-04 09:24:27] INFO root fetch - processPackages [gvec-to-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gvec-to-python-1.1.0.tar.gz tmp/gvec-to-python-1.1.1.tar.gz --markdown 20230504/g/gvec-to-python/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-04 09:24:28] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-stock-logistics-barcode]: success
+[2023-05-04 09:24:28] INFO root fetch - main [MainThread]: End processing [iosense-connect]: success
+[2023-05-04 09:24:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-multi-barcode]: success
+[2023-05-04 09:24:29] INFO root fetch - main [MainThread]: End processing [gvec-to-python]: success
+[2023-05-04 09:24:29] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2023-05-04 09:24:29] INFO root fetch - main [MainThread]: Store serial: [17968617]
