@@ -15555,3 +15555,101 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 14:55:24] INFO root fetch - main [MainThread]: End processing [ethpm-types]: success
 [2023-05-04 14:55:47] INFO root fetch - main [MainThread]: End processing [buckaroo]: success
 [2023-05-04 14:55:47] INFO root fetch - main [MainThread]: Store serial: [17972323]
+[2023-05-04 15:00:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17972323]
+[2023-05-04 15:00:57] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-04 15:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dask-felleskomponenter
+[2023-05-04 15:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: textfiles
+[2023-05-04 15:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QuNet
+[2023-05-04 15:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robin-sd-download
+[2023-05-04 15:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AQAInterpreter
+[2023-05-04 15:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wooy0ng
+[2023-05-04 15:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: krx-rigger
+[2023-05-04 15:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: p-ttauto-crawler
+[2023-05-04 15:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: checkov
+[2023-05-04 15:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zwtk
+[2023-05-04 15:00:57] INFO root fetch - processPackages [robin-sd-download]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-04 15:00:57] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 15:00:57] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 15:00:57] INFO root fetch - processPackages [dask-felleskomponenter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 15:00:57] INFO root fetch - processPackages [textfiles]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-04 15:00:57] INFO root fetch - processPackages [AQAInterpreter]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-04 15:00:57] WARNING root fetch - processPackages [wooy0ng]: Skipping, unable to determine old version
+[2023-05-04 15:00:57] INFO root fetch - processPackages [wooy0ng]: Start processing: cdk-remote-stack
+[2023-05-04 15:00:57] INFO root fetch - main [MainThread]: End processing [wooy0ng] error
+[2023-05-04 15:00:57] INFO root fetch - processPackages [zwtk]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-04 15:00:57] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 15:00:57] INFO root fetch - processPackages [cdk-remote-stack]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-04 15:00:57] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-04 15:00:57] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-04 15:00:57] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230504/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 15:00:57] INFO root fetch - processPackages [AQAInterpreter]: Downloading https://files.pythonhosted.org/packages/2c/7a/1f23870f68ef2e03e04754cd88578d4f51da4ed5f75a691a29f8f2c36789/aqainterpreter-0.0.7.tar.gz
+[2023-05-04 15:00:57] INFO root fetch - processPackages [textfiles]: Downloading https://files.pythonhosted.org/packages/5e/b8/8e83a0ed7ba0b0bdd7d8f6172059bad7bcfa2b5a1cbe03ab687c69971303/textfiles-0.0.2.tar.gz
+[2023-05-04 15:00:57] INFO root fetch - processPackages [robin-sd-download]: Downloading https://files.pythonhosted.org/packages/2e/39/9b0edb192ea397afd3f5be2319a890f478452c41cb0b6a4a357b5f5061eb/robin_sd_download-0.3.4.tar.gz
+[2023-05-04 15:00:57] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-05-04 15:00:57] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.0.8.tar.gz tmp/p-ttauto-crawler-0.0.9.tar.gz --markdown 20230504/p/p-ttauto-crawler/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 15:00:57] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-04 15:00:57] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230504/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-04 15:00:57] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/1e/de/45d43dc1fa4bc3424cd99914bf377237ae9ee0c29f504b3c449c461104e1/cdk-remote-stack-2.0.8.tar.gz
+[2023-05-04 15:00:57] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/59/05/8106984d0c358e894bf27eb839baf0d02ad718ef80496d507d7e3149ab83/krx_rigger-0.0.9.tar.gz
+[2023-05-04 15:00:57] INFO root fetch - processPackages [zwtk]: Downloading https://files.pythonhosted.org/packages/a6/ea/5831f75da35824f0647c329920ab3ecdd8cf19913be4fcb5a1327a865b04/zwtk-1.0.3-py3-none-any.whl
+[2023-05-04 15:00:58] INFO root fetch - processPackages [dask-felleskomponenter]: Downloading https://files.pythonhosted.org/packages/52/c7/697c1b34efd275120407995c87ccede743383540fa84933a3d62128c5be6/dask-felleskomponenter-0.0.9.tar.gz
+[2023-05-04 15:00:58] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-05-04 15:00:58] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.8.tar.gz tmp/krx_rigger-0.0.9.tar.gz --markdown 20230504/k/krx-rigger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 15:00:58] INFO root fetch - processPackages [robin-sd-download]: Downloading https://files.pythonhosted.org/packages/ca/de/1a6af590e687c25b318c743d3eca546355ddd4ef63b8bafad7c6ad78cde3/robin_sd_download-0.3.5.tar.gz
+[2023-05-04 15:00:58] INFO root fetch - processPackages [textfiles]: Downloading https://files.pythonhosted.org/packages/19/24/8100ff1abc57f6aca90ccb7c2d34fb22784ca11be5a0aa847e1126bd8fb3/textfiles-0.0.3.tar.gz
+[2023-05-04 15:00:58] INFO root fetch - processPackages [dask-felleskomponenter]: executing diffoscope
+[2023-05-04 15:00:58] INFO root fetch - processPackages [dask-felleskomponenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-felleskomponenter-0.0.8.tar.gz tmp/dask-felleskomponenter-0.0.9.tar.gz --markdown 20230504/d/dask-felleskomponenter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 15:00:58] INFO root fetch - processPackages [AQAInterpreter]: Downloading https://files.pythonhosted.org/packages/ea/a2/68fc092a76e5ec235fd46e1522b2a9d33167223db6400fd700b1bdea4833/aqainterpreter-0.0.8.tar.gz
+[2023-05-04 15:00:58] INFO root fetch - processPackages [robin-sd-download]: executing diffoscope
+[2023-05-04 15:00:58] INFO root fetch - processPackages [robin-sd-download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin_sd_download-0.3.4.tar.gz tmp/robin_sd_download-0.3.5.tar.gz --markdown 20230504/r/robin-sd-download/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-04 15:00:58] INFO root fetch - processPackages [zwtk]: executing diffoscope
+[2023-05-04 15:00:58] INFO root fetch - processPackages [zwtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zwtk-1.0.2-py3-none-any.whl.zip tmp/zwtk-1.0.3-py3-none-any.whl.zip --markdown 20230504/z/zwtk/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-04 15:00:58] INFO root fetch - processPackages [textfiles]: executing diffoscope
+[2023-05-04 15:00:58] INFO root fetch - processPackages [textfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textfiles-0.0.2.tar.gz tmp/textfiles-0.0.3.tar.gz --markdown 20230504/t/textfiles/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-04 15:00:58] INFO root fetch - processPackages [AQAInterpreter]: executing diffoscope
+[2023-05-04 15:00:58] INFO root fetch - processPackages [AQAInterpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqainterpreter-0.0.7.tar.gz tmp/aqainterpreter-0.0.8.tar.gz --markdown 20230504/A/AQAInterpreter/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-04 15:00:58] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/53/84/0d0362b5a5e90511d1836dad771fb231ff4adf4461322f76f2463dfdf6d3/cdk-remote-stack-2.0.9.tar.gz
+[2023-05-04 15:00:58] INFO root fetch - processPackages [cdk-remote-stack]: executing diffoscope
+[2023-05-04 15:00:58] INFO root fetch - processPackages [cdk-remote-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-remote-stack-2.0.8.tar.gz tmp/cdk-remote-stack-2.0.9.tar.gz --markdown 20230504/c/cdk-remote-stack/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-04 15:00:59] INFO root fetch - processPackages [QuNet]: Start processing: robin-sd-upload
+[2023-05-04 15:00:59] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-04 15:00:59] INFO root fetch - processPackages [robin-sd-upload]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-04 15:00:59] INFO root fetch - processPackages [p-ttauto-crawler]: Start processing: bioplotz
+[2023-05-04 15:00:59] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-05-04 15:00:59] INFO root fetch - processPackages [bioplotz]: New version: [0.1.0.dev2] Old Version: [0.1.0.dev1]
+[2023-05-04 15:00:59] INFO root fetch - processPackages [robin-sd-upload]: executing diffoscope
+[2023-05-04 15:00:59] INFO root fetch - processPackages [robin-sd-upload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin_sd_upload-0.2.8.tar.gz tmp/robin_sd_upload-0.2.9.tar.gz --markdown 20230504/r/robin-sd-upload/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-04 15:00:59] INFO root fetch - processPackages [bioplotz]: Downloading https://files.pythonhosted.org/packages/c3/ce/d6cb3a932a62d39aa334b4401eec794d53bd5db39d0a31638850008ff601/bioplotz-0.1.0.dev1.tar.gz
+[2023-05-04 15:00:59] INFO root fetch - processPackages [krx-rigger]: Start processing: hidefix
+[2023-05-04 15:00:59] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-05-04 15:00:59] INFO root fetch - processPackages [hidefix]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-04 15:00:59] INFO root fetch - processPackages [dask-felleskomponenter]: Start processing: krx-rigger
+[2023-05-04 15:00:59] INFO root fetch - main [MainThread]: End processing [dask-felleskomponenter]: success
+[2023-05-04 15:00:59] INFO root fetch - processPackages [hidefix]: Downloading https://files.pythonhosted.org/packages/41/65/3144b36f4be22a03ed035659548987fbed359a412117bb43b3b5c1222310/hidefix-0.6.1.tar.gz
+[2023-05-04 15:00:59] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 15:00:59] INFO root fetch - processPackages [bioplotz]: Downloading https://files.pythonhosted.org/packages/de/cb/cac59f42c1dbdba32cccf615f23a51a88497bd1215db3c945c11a4f5c653/bioplotz-0.1.0.dev2.tar.gz
+[2023-05-04 15:00:59] INFO root fetch - processPackages [robin-sd-download]: Start processing: emmett-sentry
+[2023-05-04 15:00:59] INFO root fetch - main [MainThread]: End processing [robin-sd-download]: success
+[2023-05-04 15:00:59] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-05-04 15:00:59] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.8.tar.gz tmp/krx_rigger-0.0.9.tar.gz --markdown 20230504/k/krx-rigger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 15:00:59] INFO root fetch - processPackages [bioplotz]: executing diffoscope
+[2023-05-04 15:00:59] INFO root fetch - processPackages [bioplotz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioplotz-0.1.0.dev1.tar.gz tmp/bioplotz-0.1.0.dev2.tar.gz --markdown 20230504/b/bioplotz/0.1.0.dev1-0.1.0.dev2/diff.md --exclude *.pyd
+[2023-05-04 15:00:59] INFO root fetch - processPackages [emmett-sentry]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-04 15:00:59] INFO root fetch - main [MainThread]: End processing [zwtk]: success
+[2023-05-04 15:01:00] INFO root fetch - processPackages [emmett-sentry]: Downloading https://files.pythonhosted.org/packages/3b/13/cfbbb7dc4b2655012d8b1931e9ffa945d2540f95c1cc5490ce9e49e07f74/emmett_sentry-0.3.0.tar.gz
+[2023-05-04 15:01:00] INFO root fetch - main [MainThread]: End processing [textfiles]: success
+[2023-05-04 15:01:00] INFO root fetch - main [MainThread]: End processing [cdk-remote-stack]: success
+[2023-05-04 15:01:00] INFO root fetch - processPackages [emmett-sentry]: Downloading https://files.pythonhosted.org/packages/f4/69/e1d12104894f881f10a1b487a12526b7c751e1ab37d0e55c83f2fb29666d/emmett_sentry-0.4.0.tar.gz
+[2023-05-04 15:01:00] INFO root fetch - processPackages [emmett-sentry]: executing diffoscope
+[2023-05-04 15:01:00] INFO root fetch - processPackages [emmett-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmett_sentry-0.3.0.tar.gz tmp/emmett_sentry-0.4.0.tar.gz --markdown 20230504/e/emmett-sentry/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-04 15:01:00] INFO root fetch - main [MainThread]: End processing [robin-sd-upload]: success
+[2023-05-04 15:01:01] INFO root fetch - main [MainThread]: End processing [bioplotz]: success
+[2023-05-04 15:01:01] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-05-04 15:01:01] INFO root fetch - processPackages [hidefix]: Downloading https://files.pythonhosted.org/packages/55/5c/e3be750964bbf67f756bf2ba545900f29e269fc8bb9611f52a00251ff852/hidefix-0.6.2.tar.gz
+[2023-05-04 15:01:01] INFO root fetch - processPackages [hidefix]: executing diffoscope
+[2023-05-04 15:01:01] INFO root fetch - processPackages [hidefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hidefix-0.6.1.tar.gz tmp/hidefix-0.6.2.tar.gz --markdown 20230504/h/hidefix/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-04 15:01:01] INFO root fetch - main [MainThread]: End processing [emmett-sentry]: success
+[2023-05-04 15:01:02] INFO root fetch - main [MainThread]: End processing [AQAInterpreter]: success
+[2023-05-04 15:01:04] INFO root fetch - main [MainThread]: End processing [hidefix]: success
+[2023-05-04 15:01:41] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-04 15:01:41] INFO root fetch - main [MainThread]: Store serial: [17972376]
