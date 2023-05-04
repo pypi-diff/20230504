@@ -8451,3 +8451,123 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 08:19:45] INFO root fetch - main [MainThread]: End processing [zope.configuration]: success
 [2023-05-04 08:19:47] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-05-04 08:19:47] INFO root fetch - main [MainThread]: Store serial: [17967977]
+[2023-05-04 08:24:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967977]
+[2023-05-04 08:24:56] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-04 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomict
+[2023-05-04 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-migrate
+[2023-05-04 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adi-study-watch
+[2023-05-04 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-04 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-04 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aib-logging
+[2023-05-04 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-05-04 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: constellate
+[2023-05-04 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-05-04 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-prototyping-sdk.identity
+[2023-05-04 08:24:56] WARNING root fetch - processPackages [atomict]: Skipping, unable to determine old version
+[2023-05-04 08:24:56] INFO root fetch - processPackages [atomict]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-05-04 08:24:56] INFO root fetch - main [MainThread]: End processing [atomict] error
+[2023-05-04 08:24:56] INFO root fetch - processPackages [constellate]: New version: [0.6.97] Old Version: [0.6.96]
+[2023-05-04 08:24:56] INFO root fetch - processPackages [adi-study-watch]: New version: [5.19.0] Old Version: [5.17.1]
+[2023-05-04 08:24:56] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1683181225] Old Version: [0.1.1683181216]
+[2023-05-04 08:24:56] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.18.2] Old Version: [0.18.1]
+[2023-05-04 08:24:56] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1683181225] Old Version: [0.1.1683181216]
+[2023-05-04 08:24:56] INFO root fetch - processPackages [aib-logging]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-04 08:24:56] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 08:24:56] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 08:24:56] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 08:24:56] INFO root fetch - processPackages [xj-migrate]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-04 08:24:56] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-05-04 08:24:56] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230504/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 08:24:56] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-05-04 08:24:56] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230504/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 08:24:56] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/51/31/506be3de714b10034ff6dc1c8641af7de3067a306c536571e6c89b74c28d/eia-odin-pkg-rioatmadja2018-0.1.1683181216.tar.gz
+[2023-05-04 08:24:56] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-05-04 08:24:56] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230504/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 08:24:56] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/51/31/506be3de714b10034ff6dc1c8641af7de3067a306c536571e6c89b74c28d/eia-odin-pkg-rioatmadja2018-0.1.1683181216.tar.gz
+[2023-05-04 08:24:56] INFO root fetch - processPackages [constellate]: Downloading https://files.pythonhosted.org/packages/d3/01/297f567c117e8fa3de539146173e1557f148af1493f4adbbe95a2ab899d6/constellate-0.6.97-py2.py3-none-any.whl
+[2023-05-04 08:24:56] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/fd/77/13f3a024b4f7b8cc0c40c0ba5337f188eb734faf32a14fa52446a38eb3fa/aws_prototyping_sdk.aws_arch-0.18.1.tar.gz
+[2023-05-04 08:24:56] INFO root fetch - processPackages [adi-study-watch]: Downloading https://files.pythonhosted.org/packages/fe/06/2cfa9dbe2bb098eaf548bd6e904c30417f44ca5f432117132d8d198d873a/adi_study_watch-5.17.1.tar.gz
+[2023-05-04 08:24:56] INFO root fetch - processPackages [constellate]: executing diffoscope
+[2023-05-04 08:24:56] INFO root fetch - processPackages [constellate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constellate-0.6.96-py2.py3-none-any.whl.zip tmp/constellate-0.6.97-py2.py3-none-any.whl.zip --markdown 20230504/c/constellate/0.6.96-0.6.97/diff.md --exclude *.pyd
+[2023-05-04 08:24:57] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19292929>=10485760
+[2023-05-04 08:24:57] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-05-04 08:24:57] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-05-04 08:24:57] INFO root fetch - processPackages [aib-logging]: Downloading https://files.pythonhosted.org/packages/d9/77/4354e35f3deb0718b8bc19652f59961087e6314c2532ee6756811d34db47/aib_logging-1.0.1.tar.gz
+[2023-05-04 08:24:57] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 08:24:57] INFO root fetch - processPackages [aib-logging]: executing diffoscope
+[2023-05-04 08:24:57] INFO root fetch - processPackages [aib-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aib_logging-1.0.0.tar.gz tmp/aib_logging-1.0.1.tar.gz --markdown 20230504/a/aib-logging/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 08:24:57] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/84/97/725ecc5d7823b76c6e9c8e87dc7506d0e7bedd431aa949e92f9ebb7dc6dd/eia_odin_pkg_rioatmadja2018-0.1.1683181225-py3-none-any.whl
+[2023-05-04 08:24:57] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/84/97/725ecc5d7823b76c6e9c8e87dc7506d0e7bedd431aa949e92f9ebb7dc6dd/eia_odin_pkg_rioatmadja2018-0.1.1683181225-py3-none-any.whl
+[2023-05-04 08:24:57] INFO root fetch - processPackages [xj-migrate]: executing diffoscope
+[2023-05-04 08:24:57] INFO root fetch - processPackages [xj-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj-migrate-1.0.6.tar.gz tmp/xj-migrate-1.0.7.tar.gz --markdown 20230504/x/xj-migrate/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-04 08:24:57] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-05-04 08:24:57] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230504/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 08:24:57] INFO root fetch - processPackages [adi-study-watch]: Downloading https://files.pythonhosted.org/packages/e0/1e/1d6614bf932672dc8deab9d69a7e8814abaeab13381504a69bf4574a3334/adi_study_watch-5.19.0.tar.gz
+[2023-05-04 08:24:57] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-04 08:24:57] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1683181216.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1683181225-py3-none-any.whl.zip --markdown 20230504/e/eia-odin-pkg-rioatmadja2018/0.1.1683181216-0.1.1683181225/diff.md --exclude *.pyd
+[2023-05-04 08:24:57] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-04 08:24:57] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1683181216.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1683181225-py3-none-any.whl.zip --markdown 20230504/e/eia-odin-pkg-rioatmadja2018/0.1.1683181216-0.1.1683181225/diff.md --exclude *.pyd
+[2023-05-04 08:24:57] INFO root fetch - processPackages [adi-study-watch]: executing diffoscope
+[2023-05-04 08:24:57] INFO root fetch - processPackages [adi-study-watch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adi_study_watch-5.17.1.tar.gz tmp/adi_study_watch-5.19.0.tar.gz --markdown 20230504/a/adi-study-watch/5.17.1-5.19.0/diff.md --exclude *.pyd
+[2023-05-04 08:24:58] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-05-04 08:24:58] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-05-04 08:24:58] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 08:24:58] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-05-04 08:24:58] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230504/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 08:24:58] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Start processing: aws-prototyping-sdk.pipeline
+[2023-05-04 08:24:58] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-04 08:24:58] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Start processing: aws-prototyping-sdk.static-website
+[2023-05-04 08:24:58] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-05-04 08:24:58] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 08:24:58] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 08:24:58] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Start processing: pypcapkit
+[2023-05-04 08:24:58] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-04 08:24:58] INFO root fetch - processPackages [aib-logging]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-05-04 08:24:58] INFO root fetch - main [MainThread]: End processing [aib-logging]: success
+[2023-05-04 08:24:58] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Start processing: nisdc
+[2023-05-04 08:24:58] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-05-04 08:24:58] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.0rc1] Old Version: [1.0.0b9]
+[2023-05-04 08:24:58] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.18.2] Old Version: [0.18.1]
+[2023-05-04 08:24:58] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-05-04 08:24:58] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230504/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 08:24:58] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-05-04 08:24:58] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230504/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 08:24:58] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Start processing: fake-bpy-module-latest
+[2023-05-04 08:24:58] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-05-04 08:24:59] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230503] Old Version: [20230502]
+[2023-05-04 08:24:59] WARNING root fetch - processPackages [nisdc]: Skipping, unable to determine old version
+[2023-05-04 08:24:59] INFO root fetch - processPackages [nisdc]: Start processing: odoo13-addons-oca-project
+[2023-05-04 08:24:59] INFO root fetch - main [MainThread]: End processing [nisdc] error
+[2023-05-04 08:24:59] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/d3/64/c8e172db80a53d66b0f494883853f790c05b6493d50249ea42c06c766abe/aws_prototyping_sdk.type_safe_api-0.18.1.tar.gz
+[2023-05-04 08:24:59] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-05-04 08:24:59] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230502.tar.gz tmp/fake-bpy-module-latest-20230503.tar.gz --markdown 20230504/f/fake-bpy-module-latest/20230502-20230503/diff.md --exclude *.pyd
+[2023-05-04 08:24:59] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/4b/ff/3549c591c20441517230d15f32bd51d0ef41681692ada768156dbb64ec4c/pypcapkit-1.0.0b9.tar.gz
+[2023-05-04 08:24:59] INFO root fetch - processPackages [xj-migrate]: Start processing: atomict
+[2023-05-04 08:24:59] INFO root fetch - main [MainThread]: End processing [xj-migrate]: success
+[2023-05-04 08:24:59] INFO root fetch - processPackages [odoo13-addons-oca-project]: New version: [13.0.20230503.0] Old Version: [13.0.20221124.0]
+[2023-05-04 08:24:59] INFO root fetch - processPackages [atomict]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 08:24:59] INFO root fetch - processPackages [odoo13-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/a7/6c/928dd8e012f2f20716636018965eb762b67663c39553fcdb71f8f23afbe0/odoo13_addons_oca_project-13.0.20221124.0-py3-none-any.whl
+[2023-05-04 08:24:59] INFO root fetch - processPackages [atomict]: Downloading https://files.pythonhosted.org/packages/67/53/c36ba7dec7b26af8ec4a8f2764eec104296e6261502e74eb89b38163e273/atomict-0.1.1.tar.gz
+[2023-05-04 08:24:59] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/5c/fa/13b54b92d5ec1771b6dcf682e8feaf5c9ea6053102ceb8f8525076b0df9d/aws_prototyping_sdk.type_safe_api-0.18.2.tar.gz
+[2023-05-04 08:24:59] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/21/9e/3dd1f3748e34c2bc3447b669c972db086da945301764392d4478c19f5825/pypcapkit-1.0.0rc1.tar.gz
+[2023-05-04 08:24:59] INFO root fetch - processPackages [atomict]: Downloading https://files.pythonhosted.org/packages/cb/1c/86e986400ed579a92f8201028c3f7c3ceffde793d93884a941570699c155/atomict-0.1.2.tar.gz
+[2023-05-04 08:24:59] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-05-04 08:24:59] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.0b9.tar.gz tmp/pypcapkit-1.0.0rc1.tar.gz --markdown 20230504/p/pypcapkit/1.0.0b9-1.0.0rc1/diff.md --exclude *.pyd
+[2023-05-04 08:24:59] INFO root fetch - main [MainThread]: End processing [constellate]: success
+[2023-05-04 08:24:59] INFO root fetch - processPackages [odoo13-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/29/01/dbd66cd6844c9845d809604522ac9e237b4dfeec93b1c2f32e296f45cd48/odoo13_addons_oca_project-13.0.20230503.0-py3-none-any.whl
+[2023-05-04 08:24:59] INFO root fetch - processPackages [atomict]: executing diffoscope
+[2023-05-04 08:24:59] INFO root fetch - processPackages [atomict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomict-0.1.1.tar.gz tmp/atomict-0.1.2.tar.gz --markdown 20230504/a/atomict/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 08:24:59] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-05-04 08:24:59] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.18.1.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.18.2.tar.gz --markdown 20230504/a/aws-prototyping-sdk.type-safe-api/0.18.1-0.18.2/diff.md --exclude *.pyd
+[2023-05-04 08:24:59] INFO root fetch - processPackages [odoo13-addons-oca-project]: executing diffoscope
+[2023-05-04 08:24:59] INFO root fetch - processPackages [odoo13-addons-oca-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_project-13.0.20221124.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_project-13.0.20230503.0-py3-none-any.whl.zip --markdown 20230504/o/odoo13-addons-oca-project/13.0.20221124.0-13.0.20230503.0/diff.md --exclude *.pyd
+[2023-05-04 08:25:00] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-05-04 08:25:00] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-05-04 08:25:00] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-05-04 08:25:00] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-project]: success
+[2023-05-04 08:25:00] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-05-04 08:25:01] INFO root fetch - main [MainThread]: End processing [atomict]: success
+[2023-05-04 08:25:02] INFO root fetch - main [MainThread]: End processing [adi-study-watch]: success
+[2023-05-04 08:25:06] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-05-04 08:25:07] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-05-04 08:25:07] INFO root fetch - main [MainThread]: Store serial: [17968055]
