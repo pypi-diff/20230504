@@ -19357,3 +19357,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 18:03:50] INFO root fetch - main [MainThread]: End processing [useis]: success
 [2023-05-04 18:04:00] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-05-04 18:04:00] INFO root fetch - main [MainThread]: Store serial: [17974591]
+[2023-05-04 18:09:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17974591]
+[2023-05-04 18:09:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-04 18:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pydule
+[2023-05-04 18:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-alex-more-cvlrange-meta-try-ors-fix
+[2023-05-04 18:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hagis
+[2023-05-04 18:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frazzle
+[2023-05-04 18:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bdffont
+[2023-05-04 18:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mikro
+[2023-05-04 18:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deepview-validator
+[2023-05-04 18:09:14] INFO root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta-try-ors-fix]: New version: [20230504.16.5.826473] Old Version: [20230503.14.14.783219]
+[2023-05-04 18:09:14] INFO root fetch - processPackages [Pydule]: New version: [3.3.0] Old Version: [3.2.9]
+[2023-05-04 18:09:14] INFO root fetch - processPackages [hagis]: New version: [0.5.0] Old Version: [0.4.6]
+[2023-05-04 18:09:14] WARNING root fetch - processPackages [bdffont]: Skipping, unable to determine old version
+[2023-05-04 18:09:14] INFO root fetch - main [MainThread]: End processing [bdffont] error
+[2023-05-04 18:09:14] INFO root fetch - processPackages [frazzle]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 18:09:14] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-04 18:09:14] INFO root fetch - processPackages [deepview-validator]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-05-04 18:09:14] INFO root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta-try-ors-fix]: Downloading https://files.pythonhosted.org/packages/3a/0c/d4293aa684081b40337e492473e483dd2c45642986c5996c585225b90195/certora-cli-alpha-alex-more-cvlrange-meta-try-ors-fix-20230503.14.14.783219.tar.gz
+[2023-05-04 18:09:14] INFO root fetch - processPackages [Pydule]: Downloading https://files.pythonhosted.org/packages/79/d5/ae3d83348eb4f6dd495bd708c3e2b86c8ef6997915f2ed19011720db969a/Pydule-3.2.9.tar.gz
+[2023-05-04 18:09:14] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-05-04 18:09:14] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.8.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230504/m/mikro/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-04 18:09:14] INFO root fetch - processPackages [frazzle]: Downloading https://files.pythonhosted.org/packages/90/0a/2883b1fc99aa69b770130083489e454b915c5c7382b1ef4bc2a5181704f8/frazzle-0.1.1.tar.gz
+[2023-05-04 18:09:14] INFO root fetch - processPackages [hagis]: Downloading https://files.pythonhosted.org/packages/31/3f/9cc11c5fa7c3fbb85dc273b5054ca2c4706af02b5f1d2a06b389be67f31d/hagis-0.4.6.tar.gz
+[2023-05-04 18:09:14] WARNING root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta-try-ors-fix]: Skipping package: exceeds size limit 38383925>=10485760
+[2023-05-04 18:09:14] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-more-cvlrange-meta-try-ors-fix] error
+[2023-05-04 18:09:14] INFO root fetch - processPackages [deepview-validator]: Downloading https://files.pythonhosted.org/packages/f0/37/14c41614d5cd2e81f5b2a3e1212d064209614062cbe210584a1f8983c7e1/deepview_validator-3.0.4-py3-none-any.whl
+[2023-05-04 18:09:14] INFO root fetch - processPackages [frazzle]: Downloading https://files.pythonhosted.org/packages/c6/05/7e05ab98c93791e83200fbec451bb0d6f0b294208b1a5e9b480c06fcb5ed/frazzle-0.1.2.tar.gz
+[2023-05-04 18:09:14] INFO root fetch - processPackages [Pydule]: Downloading https://files.pythonhosted.org/packages/a3/0f/d48e297c4fe0430c74fe0573db2bff04955929c741d8803572d46c9d8f91/Pydule-3.3.0.tar.gz
+[2023-05-04 18:09:14] INFO root fetch - processPackages [deepview-validator]: Downloading https://files.pythonhosted.org/packages/55/ce/95823606a529c26abb1e641ea72fc969bab3a14139dbe0ca6c89ca431667/deepview_validator-3.0.5-py3-none-any.whl
+[2023-05-04 18:09:14] INFO root fetch - processPackages [hagis]: Downloading https://files.pythonhosted.org/packages/a5/e2/c981788e691e1df365a9122293af93196f28e421af7a8c6b089489c44c26/hagis-0.5.0.tar.gz
+[2023-05-04 18:09:14] INFO root fetch - processPackages [frazzle]: executing diffoscope
+[2023-05-04 18:09:14] INFO root fetch - processPackages [frazzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frazzle-0.1.1.tar.gz tmp/frazzle-0.1.2.tar.gz --markdown 20230504/f/frazzle/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 18:09:14] INFO root fetch - processPackages [Pydule]: executing diffoscope
+[2023-05-04 18:09:14] INFO root fetch - processPackages [Pydule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pydule-3.2.9.tar.gz tmp/Pydule-3.3.0.tar.gz --markdown 20230504/P/Pydule/3.2.9-3.3.0/diff.md --exclude *.pyd
+[2023-05-04 18:09:14] INFO root fetch - processPackages [hagis]: executing diffoscope
+[2023-05-04 18:09:14] INFO root fetch - processPackages [hagis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagis-0.4.6.tar.gz tmp/hagis-0.5.0.tar.gz --markdown 20230504/h/hagis/0.4.6-0.5.0/diff.md --exclude *.pyd
+[2023-05-04 18:09:14] INFO root fetch - processPackages [deepview-validator]: executing diffoscope
+[2023-05-04 18:09:14] INFO root fetch - processPackages [deepview-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepview_validator-3.0.4-py3-none-any.whl.zip tmp/deepview_validator-3.0.5-py3-none-any.whl.zip --markdown 20230504/d/deepview-validator/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-05-04 18:09:15] INFO root fetch - main [MainThread]: End processing [mikro]: success
+[2023-05-04 18:09:15] INFO root fetch - main [MainThread]: End processing [Pydule]: success
+[2023-05-04 18:09:15] INFO root fetch - main [MainThread]: End processing [frazzle]: success
+[2023-05-04 18:09:15] INFO root fetch - main [MainThread]: End processing [hagis]: success
+[2023-05-04 18:09:16] INFO root fetch - main [MainThread]: End processing [deepview-validator]: success
+[2023-05-04 18:09:16] INFO root fetch - main [MainThread]: Store serial: [17974624]
