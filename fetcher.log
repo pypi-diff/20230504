@@ -5659,3 +5659,80 @@
 [2023-05-04 04:27:42] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2023-05-04 04:27:59] INFO root fetch - main [MainThread]: End processing [cloudtower-sdk]: success
 [2023-05-04 04:28:00] INFO root fetch - main [MainThread]: Store serial: [17966521]
+[2023-05-04 04:33:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966521]
+[2023-05-04 04:33:09] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-04 04:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-26
+[2023-05-04 04:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-24
+[2023-05-04 04:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weni-rp-apps
+[2023-05-04 04:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audiostretchy
+[2023-05-04 04:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-25
+[2023-05-04 04:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imsubtype-utils
+[2023-05-04 04:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edge-logger
+[2023-05-04 04:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: model-hub
+[2023-05-04 04:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: determined
+[2023-05-04 04:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: determined-cli
+[2023-05-04 04:33:09] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-04 04:33:09] WARNING root fetch - processPackages [imsubtype-utils]: Skipping, unable to determine old version
+[2023-05-04 04:33:09] INFO root fetch - processPackages [imsubtype-utils]: Start processing: determined-common
+[2023-05-04 04:33:09] INFO root fetch - main [MainThread]: End processing [imsubtype-utils] error
+[2023-05-04 04:33:09] INFO root fetch - processPackages [audiostretchy]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-05-04 04:33:09] INFO root fetch - processPackages [edge-logger]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-04 04:33:09] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-04 04:33:09] INFO root fetch - processPackages [determined]: New version: [0.22.0rc1] Old Version: [0.22.0rc0]
+[2023-05-04 04:33:09] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.0a9] Old Version: [2.4.0a8]
+[2023-05-04 04:33:09] INFO root fetch - processPackages [determined-cli]: New version: [0.22.0rc1] Old Version: [0.22.0rc0]
+[2023-05-04 04:33:09] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-04 04:33:09] INFO root fetch - processPackages [model-hub]: New version: [0.22.0rc1] Old Version: [0.22.0rc0]
+[2023-05-04 04:33:09] INFO root fetch - processPackages [determined-common]: New version: [0.22.0rc1] Old Version: [0.22.0rc0]
+[2023-05-04 04:33:09] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/25/f7/946aa5b1880e28af43a1a3eccc9fe915bd348cf77f61dfe50e65b1eb2d3b/cdk8s-plus-25-2.7.8.tar.gz
+[2023-05-04 04:33:09] INFO root fetch - processPackages [audiostretchy]: Downloading https://files.pythonhosted.org/packages/45/2d/5453c3baa51d74a874835aab3e83404c582bc7f32868ee9cbcfdf487089c/audiostretchy-1.2.0.tar.gz
+[2023-05-04 04:33:09] INFO root fetch - processPackages [determined-cli]: Downloading https://files.pythonhosted.org/packages/e5/0b/5fa959b7b813aed318b7aab4e32871101a2bb4d5ee339998fe9fc2012c0c/determined_cli-0.22.0rc1-py3-none-any.whl
+[2023-05-04 04:33:09] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/ef/f6/b204578ddfc8e49e5dbd193630cfdc3608727f1f6ab4cd867490e9096a60/model_hub-0.22.0rc1-py3-none-any.whl
+[2023-05-04 04:33:09] INFO root fetch - processPackages [edge-logger]: Downloading https://files.pythonhosted.org/packages/b2/9e/fcd379d76d9e45d60e37348a391b10516bed8bccdbed3e4a0ac325aadc50/edge_logger-0.0.8.tar.gz
+[2023-05-04 04:33:09] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/d4/e3/a7f51af631f992c6846eaa078793fab85bc8037f6f55cfdcd03f9fd38fbe/determined-0.22.0rc1-py3-none-any.whl
+[2023-05-04 04:33:09] INFO root fetch - processPackages [determined-common]: Downloading https://files.pythonhosted.org/packages/e0/7e/eefd9c29539356cb9486b754fdaf71d431ad9d5c5626398bdffdff8d9792/determined_common-0.22.0rc1-py3-none-any.whl
+[2023-05-04 04:33:09] INFO root fetch - processPackages [edge-logger]: executing diffoscope
+[2023-05-04 04:33:09] INFO root fetch - processPackages [edge-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_logger-0.0.7.tar.gz tmp/edge_logger-0.0.8.tar.gz --markdown 20230504/e/edge-logger/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-04 04:33:09] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-05-04 04:33:09] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.22.0rc0-py3-none-any.whl.zip tmp/determined-0.22.0rc1-py3-none-any.whl.zip --markdown 20230504/d/determined/0.22.0rc0-0.22.0rc1/diff.md --exclude *.pyd
+[2023-05-04 04:33:09] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-05-04 04:33:09] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.4.0a8.tar.gz tmp/weni_rp_apps-2.4.0a9.tar.gz --markdown 20230504/w/weni-rp-apps/2.4.0a8-2.4.0a9/diff.md --exclude *.pyd
+[2023-05-04 04:33:09] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-05-04 04:33:09] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.22.0rc0-py3-none-any.whl.zip tmp/model_hub-0.22.0rc1-py3-none-any.whl.zip --markdown 20230504/m/model-hub/0.22.0rc0-0.22.0rc1/diff.md --exclude *.pyd
+[2023-05-04 04:33:09] INFO root fetch - processPackages [determined-cli]: executing diffoscope
+[2023-05-04 04:33:09] INFO root fetch - processPackages [audiostretchy]: executing diffoscope
+[2023-05-04 04:33:09] INFO root fetch - processPackages [determined-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_cli-0.22.0rc0-py3-none-any.whl.zip tmp/determined_cli-0.22.0rc1-py3-none-any.whl.zip --markdown 20230504/d/determined-cli/0.22.0rc0-0.22.0rc1/diff.md --exclude *.pyd
+[2023-05-04 04:33:09] INFO root fetch - processPackages [audiostretchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiostretchy-1.1.2.tar.gz tmp/audiostretchy-1.2.0.tar.gz --markdown 20230504/a/audiostretchy/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-05-04 04:33:09] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-05-04 04:33:09] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.8.tar.gz tmp/cdk8s-plus-26-2.3.9.tar.gz --markdown 20230504/c/cdk8s-plus-26/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-04 04:33:09] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-05-04 04:33:09] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.8.tar.gz tmp/cdk8s-plus-24-2.7.9.tar.gz --markdown 20230504/c/cdk8s-plus-24/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-04 04:33:09] INFO root fetch - processPackages [determined-common]: executing diffoscope
+[2023-05-04 04:33:09] INFO root fetch - processPackages [determined-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_common-0.22.0rc0-py3-none-any.whl.zip tmp/determined_common-0.22.0rc1-py3-none-any.whl.zip --markdown 20230504/d/determined-common/0.22.0rc0-0.22.0rc1/diff.md --exclude *.pyd
+[2023-05-04 04:33:09] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/75/f0/b8cd75d1cf79e7272cafc492a3b860c1a58aecfd7f6ebe4882c0a2a5909e/cdk8s-plus-25-2.7.9.tar.gz
+[2023-05-04 04:33:10] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-05-04 04:33:10] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.8.tar.gz tmp/cdk8s-plus-25-2.7.9.tar.gz --markdown 20230504/c/cdk8s-plus-25/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-04 04:33:11] INFO root fetch - processPackages [edge-logger]: Start processing: determined-deploy
+[2023-05-04 04:33:11] INFO root fetch - main [MainThread]: End processing [edge-logger]: success
+[2023-05-04 04:33:11] INFO root fetch - processPackages [determined-deploy]: New version: [0.22.0rc1] Old Version: [0.22.0rc0]
+[2023-05-04 04:33:11] INFO root fetch - processPackages [determined-deploy]: Downloading https://files.pythonhosted.org/packages/96/2c/3e228f1691f707fad5818c5052667465649781b8a9111e0f2886e8aca4be/determined_deploy-0.22.0rc1-py3-none-any.whl
+[2023-05-04 04:33:11] INFO root fetch - processPackages [model-hub]: Start processing: pip-licenses
+[2023-05-04 04:33:11] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-05-04 04:33:11] INFO root fetch - main [MainThread]: End processing [determined-cli]: success
+[2023-05-04 04:33:11] INFO root fetch - processPackages [pip-licenses]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-05-04 04:33:11] INFO root fetch - processPackages [determined-deploy]: executing diffoscope
+[2023-05-04 04:33:11] INFO root fetch - processPackages [determined-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_deploy-0.22.0rc0-py3-none-any.whl.zip tmp/determined_deploy-0.22.0rc1-py3-none-any.whl.zip --markdown 20230504/d/determined-deploy/0.22.0rc0-0.22.0rc1/diff.md --exclude *.pyd
+[2023-05-04 04:33:11] INFO root fetch - main [MainThread]: End processing [determined-common]: success
+[2023-05-04 04:33:11] INFO root fetch - main [MainThread]: End processing [audiostretchy]: success
+[2023-05-04 04:33:11] INFO root fetch - processPackages [pip-licenses]: Downloading https://files.pythonhosted.org/packages/99/1d/ada5ee12bfdf3be16937f0a162763ddc8985b1d6f0c5e1969dabceaacf0d/pip-licenses-4.3.0.tar.gz
+[2023-05-04 04:33:11] INFO root fetch - processPackages [pip-licenses]: Downloading https://files.pythonhosted.org/packages/cf/0e/f0cca6704ca13675ac6794576ba230c28bd605419c8e5566342eca43ffb8/pip-licenses-4.3.1.tar.gz
+[2023-05-04 04:33:12] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-05-04 04:33:12] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-05-04 04:33:12] INFO root fetch - processPackages [pip-licenses]: executing diffoscope
+[2023-05-04 04:33:12] INFO root fetch - processPackages [pip-licenses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-licenses-4.3.0.tar.gz tmp/pip-licenses-4.3.1.tar.gz --markdown 20230504/p/pip-licenses/4.3.0-4.3.1/diff.md --exclude *.pyd
+[2023-05-04 04:33:12] INFO root fetch - main [MainThread]: End processing [determined-deploy]: success
+[2023-05-04 04:33:13] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-05-04 04:33:13] INFO root fetch - main [MainThread]: End processing [pip-licenses]: success
+[2023-05-04 04:33:14] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-05-04 04:33:15] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-05-04 04:33:15] INFO root fetch - main [MainThread]: Store serial: [17966559]
