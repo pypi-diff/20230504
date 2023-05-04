@@ -10461,3 +10461,68 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 10:22:51] INFO root fetch - main [MainThread]: End processing [base-system]: success
 [2023-05-04 10:23:18] INFO root fetch - main [MainThread]: End processing [scmrepo]: success
 [2023-05-04 10:23:18] INFO root fetch - main [MainThread]: Store serial: [17969225]
+[2023-05-04 10:28:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17969225]
+[2023-05-04 10:28:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-04 10:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: boutpp-nightly
+[2023-05-04 10:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-featureflags
+[2023-05-04 10:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2023-05-04 10:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbsnstructure
+[2023-05-04 10:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kittycad
+[2023-05-04 10:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: headline-detector
+[2023-05-04 10:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: petprep-hmc
+[2023-05-04 10:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-deep-translator
+[2023-05-04 10:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lunes-cms
+[2023-05-04 10:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tsaugmentation
+[2023-05-04 10:28:27] INFO root fetch - processPackages [fastapi-featureflags]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-04 10:28:27] INFO root fetch - processPackages [lbsnstructure]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-04 10:28:27] INFO root fetch - processPackages [kittycad]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-04 10:28:27] INFO root fetch - processPackages [tsaugmentation]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-04 10:28:27] INFO root fetch - processPackages [headline-detector]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-04 10:28:27] INFO root fetch - processPackages [petprep-hmc]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-04 10:28:27] INFO root fetch - processPackages [django-deep-translator]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-04 10:28:27] INFO root fetch - processPackages [lunes-cms]: New version: [2023.5.0] Old Version: [2023.2.0]
+[2023-05-04 10:28:27] INFO root fetch - processPackages [cg]: New version: [29.5.5] Old Version: [29.5.4]
+[2023-05-04 10:28:27] INFO root fetch - processPackages [boutpp-nightly]: New version: [5.1.0.dev92] Old Version: [5.1.0.dev85]
+[2023-05-04 10:28:27] INFO root fetch - processPackages [tsaugmentation]: executing diffoscope
+[2023-05-04 10:28:27] INFO root fetch - processPackages [tsaugmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsaugmentation-0.5.8.tar.gz tmp/tsaugmentation-0.5.9.tar.gz --markdown 20230504/t/tsaugmentation/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-04 10:28:27] INFO root fetch - processPackages [headline-detector]: Downloading https://files.pythonhosted.org/packages/b3/fe/3a961d6a880cac455c9ebf54f64ca0cbaacbbb8e03eaabec6cbb3419c966/headline_detector-1.0.1.tar.gz
+[2023-05-04 10:28:28] INFO root fetch - processPackages [lunes-cms]: Downloading https://files.pythonhosted.org/packages/6c/f8/c28aa1798b6922e41ac725460d175b1975a01997e55d37a1fbbcb91186c4/lunes-cms-2023.2.0.tar.gz
+[2023-05-04 10:28:28] INFO root fetch - processPackages [lbsnstructure]: Downloading https://files.pythonhosted.org/packages/ba/ee/cdb67f3a7abe98ae77dee11ff20cc785636e71cf64756e848649e743a61a/lbsnstructure-1.0.0.tar.gz
+[2023-05-04 10:28:28] INFO root fetch - processPackages [django-deep-translator]: Downloading https://files.pythonhosted.org/packages/f2/61/37cc41f5601d53dc74b89f16fa51ed772b6a4e918a04622707be555755fc/django-deep-translator-1.4.0.tar.gz
+[2023-05-04 10:28:28] INFO root fetch - processPackages [kittycad]: Downloading https://files.pythonhosted.org/packages/35/52/36d95cddcc524e47e5630081bc3b4a58290cc1bb53dabc438d1ca850f181/kittycad-0.3.9.tar.gz
+[2023-05-04 10:28:28] INFO root fetch - processPackages [petprep-hmc]: Downloading https://files.pythonhosted.org/packages/b5/02/dfaca3b0c056192c1e48de28488fcc3af2c228aea44f5b0d114b5f4392c2/petprep_hmc-0.0.5.tar.gz
+[2023-05-04 10:28:28] INFO root fetch - processPackages [boutpp-nightly]: Downloading https://files.pythonhosted.org/packages/73/a9/9cc7953b7296dc2186e264110eb99289b322a6fe1bd580d96fbab537b32e/boutpp-nightly-5.1.0.dev85.tar.gz
+[2023-05-04 10:28:28] INFO root fetch - processPackages [petprep-hmc]: executing diffoscope
+[2023-05-04 10:28:28] INFO root fetch - processPackages [petprep-hmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petprep_hmc-0.0.4.tar.gz tmp/petprep_hmc-0.0.5.tar.gz --markdown 20230504/p/petprep-hmc/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-04 10:28:28] WARNING root fetch - processPackages [boutpp-nightly]: Skipping package: exceeds size limit 18056684>=10485760
+[2023-05-04 10:28:28] INFO root fetch - main [MainThread]: End processing [boutpp-nightly] error
+[2023-05-04 10:28:28] INFO root fetch - processPackages [kittycad]: executing diffoscope
+[2023-05-04 10:28:28] INFO root fetch - processPackages [kittycad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kittycad-0.3.8.tar.gz tmp/kittycad-0.3.9.tar.gz --markdown 20230504/k/kittycad/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-04 10:28:28] INFO root fetch - processPackages [fastapi-featureflags]: Downloading https://files.pythonhosted.org/packages/e1/e1/3c214b58c200f7dd1d2e7e495fe5b0579b5cd46416164ae989cee10b9283/fastapi_featureflags-0.4.8.tar.gz
+[2023-05-04 10:28:28] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6b/0e/e06098977bc98315eaaaa4e7c6d78f05c2f02c47b47229eabc9c6019b697/cg-29.5.5.tar.gz
+[2023-05-04 10:28:28] INFO root fetch - processPackages [headline-detector]: Downloading https://files.pythonhosted.org/packages/b6/59/7eb8783042c2226387875ddb3b079185471865d603b91946e0a880389be1/headline_detector-1.0.2.tar.gz
+[2023-05-04 10:28:28] INFO root fetch - processPackages [fastapi-featureflags]: executing diffoscope
+[2023-05-04 10:28:28] INFO root fetch - processPackages [fastapi-featureflags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_featureflags-0.4.7.tar.gz tmp/fastapi_featureflags-0.4.8.tar.gz --markdown 20230504/f/fastapi-featureflags/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-05-04 10:28:28] INFO root fetch - processPackages [django-deep-translator]: Downloading https://files.pythonhosted.org/packages/0d/c1/4ae643608dcd53148945db6b612ae196596471c7a8dde4ad72ffedad17e6/django-deep-translator-1.5.0.tar.gz
+[2023-05-04 10:28:28] INFO root fetch - processPackages [headline-detector]: executing diffoscope
+[2023-05-04 10:28:28] INFO root fetch - processPackages [headline-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headline_detector-1.0.1.tar.gz tmp/headline_detector-1.0.2.tar.gz --markdown 20230504/h/headline-detector/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-04 10:28:28] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-04 10:28:28] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.5.4.tar.gz tmp/cg-29.5.5.tar.gz --markdown 20230504/c/cg/29.5.4-29.5.5/diff.md --exclude *.pyd
+[2023-05-04 10:28:28] INFO root fetch - processPackages [django-deep-translator]: executing diffoscope
+[2023-05-04 10:28:28] INFO root fetch - processPackages [django-deep-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-deep-translator-1.4.0.tar.gz tmp/django-deep-translator-1.5.0.tar.gz --markdown 20230504/d/django-deep-translator/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-04 10:28:28] INFO root fetch - processPackages [lbsnstructure]: Downloading https://files.pythonhosted.org/packages/37/bc/6dfbb64b09f2b67d7bdd4628478dbd49ed63ff538e9c55df8ba2e4d7f569/lbsnstructure-1.0.1.tar.gz
+[2023-05-04 10:28:28] INFO root fetch - processPackages [lbsnstructure]: executing diffoscope
+[2023-05-04 10:28:28] INFO root fetch - processPackages [lbsnstructure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbsnstructure-1.0.0.tar.gz tmp/lbsnstructure-1.0.1.tar.gz --markdown 20230504/l/lbsnstructure/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 10:28:28] INFO root fetch - processPackages [lunes-cms]: Downloading https://files.pythonhosted.org/packages/9d/e3/e3a15e48be501235b33f42d37421d6e3aedc7f4016737a93609fc3252140/lunes-cms-2023.5.0.tar.gz
+[2023-05-04 10:28:28] INFO root fetch - processPackages [lunes-cms]: executing diffoscope
+[2023-05-04 10:28:28] INFO root fetch - processPackages [lunes-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunes-cms-2023.2.0.tar.gz tmp/lunes-cms-2023.5.0.tar.gz --markdown 20230504/l/lunes-cms/2023.2.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-04 10:28:29] INFO root fetch - main [MainThread]: End processing [tsaugmentation]: success
+[2023-05-04 10:28:29] INFO root fetch - main [MainThread]: End processing [petprep-hmc]: success
+[2023-05-04 10:28:29] INFO root fetch - main [MainThread]: End processing [fastapi-featureflags]: success
+[2023-05-04 10:28:29] INFO root fetch - main [MainThread]: End processing [django-deep-translator]: success
+[2023-05-04 10:28:29] INFO root fetch - main [MainThread]: End processing [lbsnstructure]: success
+[2023-05-04 10:28:29] INFO root fetch - main [MainThread]: End processing [headline-detector]: success
+[2023-05-04 10:28:30] INFO root fetch - main [MainThread]: End processing [kittycad]: success
+[2023-05-04 10:28:31] INFO root fetch - main [MainThread]: End processing [lunes-cms]: success
+[2023-05-04 10:28:41] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-04 10:28:41] INFO root fetch - main [MainThread]: Store serial: [17969255]
