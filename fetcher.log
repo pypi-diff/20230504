@@ -18091,3 +18091,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 16:57:53] INFO root fetch - main [MainThread]: End processing [edc-lab]: success
 [2023-05-04 16:57:54] INFO root fetch - main [MainThread]: End processing [cloudnetpy-qc]: success
 [2023-05-04 16:57:54] INFO root fetch - main [MainThread]: Store serial: [17973779]
+[2023-05-04 17:02:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17973779]
+[2023-05-04 17:03:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-04 17:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyswitchbee
+[2023-05-04 17:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invenio-notifications
+[2023-05-04 17:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xrootdpyfs
+[2023-05-04 17:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc
+[2023-05-04 17:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reaktion
+[2023-05-04 17:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scrapere
+[2023-05-04 17:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unified-planning
+[2023-05-04 17:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oh-einstein-temp-convert
+[2023-05-04 17:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scrapere
+[2023-05-04 17:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cacholote
+[2023-05-04 17:03:03] INFO root fetch - processPackages [pyswitchbee]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-05-04 17:03:03] WARNING root fetch - processPackages [invenio-notifications]: Skipping, unable to determine old version
+[2023-05-04 17:03:03] INFO root fetch - processPackages [invenio-notifications]: Start processing: noronha-dataops
+[2023-05-04 17:03:03] INFO root fetch - main [MainThread]: End processing [invenio-notifications] error
+[2023-05-04 17:03:03] INFO root fetch - processPackages [scrapere]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 17:03:03] INFO root fetch - processPackages [oh-einstein-temp-convert]: New version: [1.0.0] Old Version: [0.0.8]
+[2023-05-04 17:03:03] INFO root fetch - processPackages [scrapere]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 17:03:03] INFO root fetch - processPackages [xrootdpyfs]: New version: [2.0.0a1] Old Version: [1.0.0a1]
+[2023-05-04 17:03:03] INFO root fetch - processPackages [reaktion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 17:03:03] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.2.dev1] Old Version: [0.6.0]
+[2023-05-04 17:03:03] INFO root fetch - processPackages [edc]: New version: [0.4.9] Old Version: [0.4.86]
+[2023-05-04 17:03:03] INFO root fetch - processPackages [cacholote]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-04 17:03:03] INFO root fetch - processPackages [noronha-dataops]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-05-04 17:03:03] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/ef/03/c0759d73292f04891678c14100eeda945151a554879b04cd3111f0e7f981/edc-0.4.86.tar.gz
+[2023-05-04 17:03:03] INFO root fetch - processPackages [scrapere]: Downloading https://files.pythonhosted.org/packages/c3/69/747ecb57845f2919ceb0904350812e658e24a4393ae0ed8fae72a924fbdb/scrapere-0.1.0.tar.gz
+[2023-05-04 17:03:03] INFO root fetch - processPackages [scrapere]: Downloading https://files.pythonhosted.org/packages/c3/69/747ecb57845f2919ceb0904350812e658e24a4393ae0ed8fae72a924fbdb/scrapere-0.1.0.tar.gz
+[2023-05-04 17:03:03] INFO root fetch - processPackages [xrootdpyfs]: Downloading https://files.pythonhosted.org/packages/75/11/0e5a6cdd652b94f728aaea26b1ecb6e5a460b605bb97fa8438c6d7739855/xrootdpyfs-1.0.0a1.tar.gz
+[2023-05-04 17:03:03] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/d8/43/d3be2bcea83fbd4c59798b5eca003be198c918bccda7aa9b17525e9f2d7c/unified_planning-0.6.0.tar.gz
+[2023-05-04 17:03:03] INFO root fetch - processPackages [oh-einstein-temp-convert]: Downloading https://files.pythonhosted.org/packages/e8/57/69e0e1e3a0648888f1134586079bdac1f7b34cc24f333f387981d299e559/oh_einstein_temp_convert-0.0.8.tar.gz
+[2023-05-04 17:03:03] INFO root fetch - processPackages [reaktion]: Downloading https://files.pythonhosted.org/packages/6b/17/78062ca4f758d824980e4ccd3a4ccf0de1302e137ee3d7f9bd644f790be3/reaktion-0.1.8.tar.gz
+[2023-05-04 17:03:03] INFO root fetch - processPackages [cacholote]: Downloading https://files.pythonhosted.org/packages/f1/92/52ed53becdedabc1cc9eea377d27c2df826a144f3748c3fb87c428e57df4/cacholote-0.3.0.tar.gz
+[2023-05-04 17:03:03] INFO root fetch - processPackages [noronha-dataops]: Downloading https://files.pythonhosted.org/packages/2d/40/92be79dd557e7db5b6183ecb7a3f6612b0116e1b74d944f4f091c8aead21/noronha_dataops-1.6.7-py3-none-any.whl
+[2023-05-04 17:03:03] INFO root fetch - processPackages [pyswitchbee]: executing diffoscope
+[2023-05-04 17:03:03] INFO root fetch - processPackages [pyswitchbee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyswitchbee-1.7.8.tar.gz tmp/pyswitchbee-1.7.9.tar.gz --markdown 20230504/p/pyswitchbee/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-05-04 17:03:03] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-05-04 17:03:03] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.4.86.tar.gz tmp/edc-0.4.9.tar.gz --markdown 20230504/e/edc/0.4.86-0.4.9/diff.md --exclude *.pyd
+[2023-05-04 17:03:03] INFO root fetch - processPackages [scrapere]: Downloading https://files.pythonhosted.org/packages/eb/56/104871ec19ab1ae1467719c1cd9afa062f39c33a40a54ac09b86c070fbad/scrapere-0.1.1.tar.gz
+[2023-05-04 17:03:03] INFO root fetch - processPackages [scrapere]: Downloading https://files.pythonhosted.org/packages/eb/56/104871ec19ab1ae1467719c1cd9afa062f39c33a40a54ac09b86c070fbad/scrapere-0.1.1.tar.gz
+[2023-05-04 17:03:03] INFO root fetch - processPackages [oh-einstein-temp-convert]: Downloading https://files.pythonhosted.org/packages/22/47/fc4f5bdf0bff3db89f1d772bf065385ac44804571e76b69362a1a9633bec/oh_einstein_temp_convert-1.0.0.tar.gz
+[2023-05-04 17:03:03] INFO root fetch - processPackages [xrootdpyfs]: Downloading https://files.pythonhosted.org/packages/18/46/d0b22e0d2525469848fc361ddac38117286a8addc28927f64a82d86a2a51/xrootdpyfs-2.0.0a1.tar.gz
+[2023-05-04 17:03:03] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/ab/2f/db1cea8b4d3ac0691b14263447c14329950cd64956d3f609d862d58439bb/unified_planning-0.6.0.2.dev1.tar.gz
+[2023-05-04 17:03:03] INFO root fetch - processPackages [cacholote]: Downloading https://files.pythonhosted.org/packages/2b/b3/a5c351eee57c52328711305214bb8f692493edf149ad794610811231dbb0/cacholote-0.3.1.tar.gz
+[2023-05-04 17:03:03] INFO root fetch - processPackages [scrapere]: executing diffoscope
+[2023-05-04 17:03:03] INFO root fetch - processPackages [scrapere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapere-0.1.0.tar.gz tmp/scrapere-0.1.1.tar.gz --markdown 20230504/s/scrapere/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 17:03:03] INFO root fetch - processPackages [reaktion]: Downloading https://files.pythonhosted.org/packages/b4/a4/974724e81dad303e0138484e1693d23ee43c3627d4e3d0f4a9fade9cc233/reaktion-0.1.9.tar.gz
+[2023-05-04 17:03:03] INFO root fetch - processPackages [scrapere]: executing diffoscope
+[2023-05-04 17:03:03] INFO root fetch - processPackages [scrapere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapere-0.1.0.tar.gz tmp/scrapere-0.1.1.tar.gz --markdown 20230504/s/scrapere/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 17:03:03] INFO root fetch - processPackages [noronha-dataops]: Downloading https://files.pythonhosted.org/packages/53/2d/a67b578eaa58882c73d626d8d952ce251ea21a7428c19409b9059cbd09c4/noronha_dataops-1.6.8-py3-none-any.whl
+[2023-05-04 17:03:03] INFO root fetch - processPackages [xrootdpyfs]: executing diffoscope
+[2023-05-04 17:03:03] INFO root fetch - processPackages [xrootdpyfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xrootdpyfs-1.0.0a1.tar.gz tmp/xrootdpyfs-2.0.0a1.tar.gz --markdown 20230504/x/xrootdpyfs/1.0.0a1-2.0.0a1/diff.md --exclude *.pyd
+[2023-05-04 17:03:03] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-05-04 17:03:03] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.tar.gz tmp/unified_planning-0.6.0.2.dev1.tar.gz --markdown 20230504/u/unified-planning/0.6.0-0.6.0.2.dev1/diff.md --exclude *.pyd
+[2023-05-04 17:03:03] INFO root fetch - processPackages [oh-einstein-temp-convert]: executing diffoscope
+[2023-05-04 17:03:03] INFO root fetch - processPackages [oh-einstein-temp-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oh_einstein_temp_convert-0.0.8.tar.gz tmp/oh_einstein_temp_convert-1.0.0.tar.gz --markdown 20230504/o/oh-einstein-temp-convert/0.0.8-1.0.0/diff.md --exclude *.pyd
+[2023-05-04 17:03:04] INFO root fetch - processPackages [cacholote]: executing diffoscope
+[2023-05-04 17:03:04] INFO root fetch - processPackages [cacholote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cacholote-0.3.0.tar.gz tmp/cacholote-0.3.1.tar.gz --markdown 20230504/c/cacholote/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-04 17:03:04] INFO root fetch - processPackages [reaktion]: executing diffoscope
+[2023-05-04 17:03:04] INFO root fetch - processPackages [reaktion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaktion-0.1.8.tar.gz tmp/reaktion-0.1.9.tar.gz --markdown 20230504/r/reaktion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 17:03:04] INFO root fetch - processPackages [noronha-dataops]: executing diffoscope
+[2023-05-04 17:03:04] INFO root fetch - processPackages [noronha-dataops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noronha_dataops-1.6.7-py3-none-any.whl.zip tmp/noronha_dataops-1.6.8-py3-none-any.whl.zip --markdown 20230504/n/noronha-dataops/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-05-04 17:03:05] INFO root fetch - processPackages [pyswitchbee]: Start processing: swmm-api
+[2023-05-04 17:03:05] INFO root fetch - main [MainThread]: End processing [pyswitchbee]: success
+[2023-05-04 17:03:05] INFO root fetch - processPackages [swmm-api]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-04 17:03:05] INFO root fetch - main [MainThread]: End processing [scrapere]: success
+[2023-05-04 17:03:05] INFO root fetch - main [MainThread]: End processing [scrapere]: success
+[2023-05-04 17:03:05] INFO root fetch - main [MainThread]: End processing [reaktion]: success
+[2023-05-04 17:03:05] INFO root fetch - processPackages [swmm-api]: Downloading https://files.pythonhosted.org/packages/82/bc/e3ebd15e10d699ed9b5642a235c414ce84f5f13ee52612c5684521148a71/swmm-api-0.4.8.tar.gz
+[2023-05-04 17:03:05] INFO root fetch - main [MainThread]: End processing [oh-einstein-temp-convert]: success
+[2023-05-04 17:03:05] INFO root fetch - main [MainThread]: End processing [noronha-dataops]: success
+[2023-05-04 17:03:05] INFO root fetch - processPackages [swmm-api]: Downloading https://files.pythonhosted.org/packages/82/5d/df302736e1229719ba97cec4392d0731c337345cca86d512f1f60ffc309c/swmm-api-0.4.9.tar.gz
+[2023-05-04 17:03:06] INFO root fetch - main [MainThread]: End processing [xrootdpyfs]: success
+[2023-05-04 17:03:06] INFO root fetch - main [MainThread]: End processing [cacholote]: success
+[2023-05-04 17:03:06] INFO root fetch - processPackages [swmm-api]: executing diffoscope
+[2023-05-04 17:03:06] INFO root fetch - processPackages [swmm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swmm-api-0.4.8.tar.gz tmp/swmm-api-0.4.9.tar.gz --markdown 20230504/s/swmm-api/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-04 17:03:07] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-05-04 17:03:07] INFO root fetch - main [MainThread]: End processing [swmm-api]: success
+[2023-05-04 17:03:10] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-05-04 17:03:10] INFO root fetch - main [MainThread]: Store serial: [17973812]
