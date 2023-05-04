@@ -5406,3 +5406,22 @@
 [2023-05-04 03:48:21] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
 [2023-05-04 03:48:29] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-05-04 03:48:29] INFO root fetch - main [MainThread]: Store serial: [17966311]
+[2023-05-04 03:53:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966311]
+[2023-05-04 03:53:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-04 03:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipfs-dict-chain
+[2023-05-04 03:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oloren
+[2023-05-04 03:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elm-messenger
+[2023-05-04 03:53:38] INFO root fetch - processPackages [ipfs-dict-chain]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-04 03:53:38] WARNING root fetch - processPackages [elm-messenger]: Skipping, unable to determine old version
+[2023-05-04 03:53:38] INFO root fetch - main [MainThread]: End processing [elm-messenger] error
+[2023-05-04 03:53:38] INFO root fetch - processPackages [oloren]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-04 03:53:38] INFO root fetch - processPackages [ipfs-dict-chain]: Downloading https://files.pythonhosted.org/packages/41/f3/c77ee2135db5b0bd584a3097c70c0e8c6fe0a00ee90d74c8bf6e478daa72/ipfs_dict_chain-1.0.3.tar.gz
+[2023-05-04 03:53:38] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/c2/9a/3a145e9ab13d136553ca5950afd7c1f8071ddd3a3945e3dce5a6ed59ce2f/oloren-0.0.7.tar.gz
+[2023-05-04 03:53:38] INFO root fetch - processPackages [ipfs-dict-chain]: Downloading https://files.pythonhosted.org/packages/61/da/c7055e63ed22040303168b41642eb91ac83d88cadda3e3121f6c34d346c1/ipfs_dict_chain-1.0.4.tar.gz
+[2023-05-04 03:53:38] INFO root fetch - processPackages [ipfs-dict-chain]: executing diffoscope
+[2023-05-04 03:53:38] INFO root fetch - processPackages [ipfs-dict-chain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfs_dict_chain-1.0.3.tar.gz tmp/ipfs_dict_chain-1.0.4.tar.gz --markdown 20230504/i/ipfs-dict-chain/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-04 03:53:39] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-05-04 03:53:39] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.6.tar.gz tmp/oloren-0.0.7.tar.gz --markdown 20230504/o/oloren/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-04 03:53:39] INFO root fetch - main [MainThread]: End processing [ipfs-dict-chain]: success
+[2023-05-04 03:53:46] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-05-04 03:53:46] INFO root fetch - main [MainThread]: Store serial: [17966323]
