@@ -5266,3 +5266,46 @@
 [2023-05-04 03:32:16] INFO root fetch - processPackages [dpdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpdata-0.2.8.tar.gz tmp/dpdata-0.2.9.tar.gz --markdown 20230504/d/dpdata/0.2.8-0.2.9/diff.md --exclude *.pyd
 [2023-05-04 03:32:22] INFO root fetch - main [MainThread]: End processing [dpdata]: success
 [2023-05-04 03:32:22] INFO root fetch - main [MainThread]: Store serial: [17966196]
+[2023-05-04 03:37:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966196]
+[2023-05-04 03:37:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-04 03:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-stdlib
+[2023-05-04 03:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-numpy
+[2023-05-04 03:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dulwich
+[2023-05-04 03:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatglm-llm
+[2023-05-04 03:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-pandas
+[2023-05-04 03:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plotgpt
+[2023-05-04 03:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: split-file-reader
+[2023-05-04 03:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pytorch
+[2023-05-04 03:37:31] WARNING root fetch - processPackages [plotgpt]: Skipping, unable to determine old version
+[2023-05-04 03:37:31] INFO root fetch - main [MainThread]: End processing [plotgpt] error
+[2023-05-04 03:37:31] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-04 03:37:31] INFO root fetch - processPackages [chatglm-llm]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-04 03:37:31] INFO root fetch - processPackages [split-file-reader]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-04 03:37:31] INFO root fetch - processPackages [dulwich]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-04 03:37:31] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-04 03:37:31] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-04 03:37:31] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-04 03:37:31] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-04 03:37:31] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230504/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-04 03:37:31] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-04 03:37:31] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230504/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-04 03:37:31] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-04 03:37:31] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230504/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-04 03:37:31] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/77/ba/beade3cd12c44a3be0cb928e37b9b4deead1343a89453618444dcb91c54e/chatglm-llm-1.0.3.tar.gz
+[2023-05-04 03:37:31] INFO root fetch - processPackages [split-file-reader]: Downloading https://files.pythonhosted.org/packages/97/02/eda254e6828ba5165bb5ad3ff3ba679ded1c700b5fa4a806d52ff7b51701/split_file_reader-0.1.4.tar.gz
+[2023-05-04 03:37:31] INFO root fetch - processPackages [chatglm-llm]: executing diffoscope
+[2023-05-04 03:37:31] INFO root fetch - processPackages [chatglm-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatglm-llm-1.0.2.tar.gz tmp/chatglm-llm-1.0.3.tar.gz --markdown 20230504/c/chatglm-llm/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-04 03:37:31] INFO root fetch - processPackages [split-file-reader]: executing diffoscope
+[2023-05-04 03:37:31] INFO root fetch - processPackages [split-file-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/split_file_reader-0.1.3.tar.gz tmp/split_file_reader-0.1.4.tar.gz --markdown 20230504/s/split-file-reader/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-04 03:37:31] INFO root fetch - processPackages [dulwich]: executing diffoscope
+[2023-05-04 03:37:31] INFO root fetch - processPackages [dulwich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dulwich-0.9.8.tar.gz tmp/dulwich-0.9.9.tar.gz --markdown 20230504/d/dulwich/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-04 03:37:31] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-04 03:37:31] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230504/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-04 03:37:32] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-04 03:37:32] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-04 03:37:33] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-04 03:37:33] INFO root fetch - main [MainThread]: End processing [split-file-reader]: success
+[2023-05-04 03:37:33] INFO root fetch - main [MainThread]: End processing [chatglm-llm]: success
+[2023-05-04 03:37:33] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-04 03:37:33] INFO root fetch - main [MainThread]: End processing [dulwich]: success
+[2023-05-04 03:37:33] INFO root fetch - main [MainThread]: Store serial: [17966259]
