@@ -6869,3 +6869,49 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 05:47:36] INFO root fetch - main [MainThread]: End processing [cs-models]: success
 [2023-05-04 05:47:38] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-05-04 05:47:38] INFO root fetch - main [MainThread]: Store serial: [17967162]
+[2023-05-04 05:52:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967162]
+[2023-05-04 05:52:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-04 05:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-roborock
+[2023-05-04 05:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: burger
+[2023-05-04 05:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scs-re
+[2023-05-04 05:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: switch-guides
+[2023-05-04 05:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DirectReport
+[2023-05-04 05:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Pandora-ChatGPT
+[2023-05-04 05:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: intecomm-edc
+[2023-05-04 05:52:47] WARNING root fetch - processPackages [scs-re]: Skipping, unable to determine old version
+[2023-05-04 05:52:47] INFO root fetch - main [MainThread]: End processing [scs-re] error
+[2023-05-04 05:52:47] INFO root fetch - processPackages [burger]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-04 05:52:47] INFO root fetch - processPackages [switch-guides]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-04 05:52:47] INFO root fetch - processPackages [DirectReport]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-05-04 05:52:47] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-05-04 05:52:47] INFO root fetch - processPackages [intecomm-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 05:52:47] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-04 05:52:47] INFO root fetch - processPackages [burger]: Downloading https://files.pythonhosted.org/packages/65/59/6292e5df43a30e40c735f3fe5dca8f7850d2c8c8a640b15979e710454b08/burger-1.2.8.tar.gz
+[2023-05-04 05:52:47] INFO root fetch - processPackages [DirectReport]: Downloading https://files.pythonhosted.org/packages/23/6b/9be03d7dc6025f9e07c27681b00239b7958522a159781e642c3b9cc20af2/DirectReport-0.1.0.tar.gz
+[2023-05-04 05:52:47] INFO root fetch - processPackages [switch-guides]: Downloading https://files.pythonhosted.org/packages/f8/c6/be9c68a8b6eb5a03e03d5965464d398d872d68cff331bf701c1724d9afbc/switch_guides-0.2.5.tar.gz
+[2023-05-04 05:52:47] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/b8/b3/aca81137412d389baf8d16d9ce6b04b58d3829c9ebf4bc63ebcd2643fce8/Pandora-ChatGPT-1.0.7.tar.gz
+[2023-05-04 05:52:47] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/da/f0/9548929a437af2527d196c8f58001aa53a4c972387197713ccc8fc8c3093/intecomm-edc-0.1.8.tar.gz
+[2023-05-04 05:52:48] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-04 05:52:48] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230504/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-04 05:52:48] INFO root fetch - processPackages [burger]: Downloading https://files.pythonhosted.org/packages/28/f1/5d8da95d2b8006723d2264dff706ef985c558265ee174877d358fe97fc21/burger-1.2.9.tar.gz
+[2023-05-04 05:52:48] INFO root fetch - processPackages [switch-guides]: Downloading https://files.pythonhosted.org/packages/b2/07/de9fd6a8d511cedea9260d2f58490736f0e10ff8448cd4d71e139c9479ac/switch_guides-0.2.6.tar.gz
+[2023-05-04 05:52:48] INFO root fetch - processPackages [DirectReport]: Downloading https://files.pythonhosted.org/packages/a1/d2/b3a33863b4c952b32cf7be107260e5a5f5de7f0f878db8c616ac255b568f/DirectReport-1.0.0.tar.gz
+[2023-05-04 05:52:48] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/3c/c4/5d66f454c202fb25cafb15878ef119f2f40e92abb71f90eda7a667e098d0/intecomm-edc-0.1.9.tar.gz
+[2023-05-04 05:52:48] INFO root fetch - processPackages [burger]: executing diffoscope
+[2023-05-04 05:52:48] INFO root fetch - processPackages [burger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burger-1.2.8.tar.gz tmp/burger-1.2.9.tar.gz --markdown 20230504/b/burger/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-04 05:52:48] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/58/d4/029b5ea6be828bdbaaaa3ab618d33ca528d71eb884afa7706892e76e0773/Pandora-ChatGPT-1.0.9.tar.gz
+[2023-05-04 05:52:48] INFO root fetch - processPackages [switch-guides]: executing diffoscope
+[2023-05-04 05:52:48] INFO root fetch - processPackages [switch-guides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switch_guides-0.2.5.tar.gz tmp/switch_guides-0.2.6.tar.gz --markdown 20230504/s/switch-guides/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-04 05:52:48] INFO root fetch - processPackages [DirectReport]: executing diffoscope
+[2023-05-04 05:52:48] INFO root fetch - processPackages [DirectReport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DirectReport-0.1.0.tar.gz tmp/DirectReport-1.0.0.tar.gz --markdown 20230504/D/DirectReport/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-04 05:52:48] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-05-04 05:52:48] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.0.7.tar.gz tmp/Pandora-ChatGPT-1.0.9.tar.gz --markdown 20230504/P/Pandora-ChatGPT/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 05:52:48] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2023-05-04 05:52:48] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.1.8.tar.gz tmp/intecomm-edc-0.1.9.tar.gz --markdown 20230504/i/intecomm-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 05:52:49] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-04 05:52:49] INFO root fetch - main [MainThread]: End processing [switch-guides]: success
+[2023-05-04 05:52:49] INFO root fetch - main [MainThread]: End processing [DirectReport]: success
+[2023-05-04 05:52:49] INFO root fetch - main [MainThread]: End processing [burger]: success
+[2023-05-04 05:52:50] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-05-04 05:52:53] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2023-05-04 05:52:53] INFO root fetch - main [MainThread]: Store serial: [17967184]
