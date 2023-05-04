@@ -13859,3 +13859,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 13:21:24] INFO root fetch - main [MainThread]: End processing [tootstagram]: success
 [2023-05-04 13:21:24] INFO root fetch - main [MainThread]: End processing [auto-retrieval-plugin]: success
 [2023-05-04 13:21:24] INFO root fetch - main [MainThread]: Store serial: [17971273]
+[2023-05-04 13:26:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17971273]
+[2023-05-04 13:26:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-04 13:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rebasin
+[2023-05-04 13:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pequena
+[2023-05-04 13:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tb-nightly
+[2023-05-04 13:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rpgPy
+[2023-05-04 13:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensordict-nightly
+[2023-05-04 13:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchtnt-nightly
+[2023-05-04 13:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cmem-plugin-pyshacl
+[2023-05-04 13:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mimeograph
+[2023-05-04 13:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-jtoman-gmx-init
+[2023-05-04 13:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Pequena
+[2023-05-04 13:26:33] INFO root fetch - processPackages [rebasin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 13:26:33] INFO root fetch - processPackages [mimeograph]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-04 13:26:33] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 13:26:33] INFO root fetch - processPackages [rpgPy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-04 13:26:33] INFO root fetch - processPackages [cmem-plugin-pyshacl]: New version: [4.1.3rc2] Old Version: [4.1.3rc1]
+[2023-05-04 13:26:33] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-05-04 13:26:33] INFO root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: New version: [20230504.5.36.425832] Old Version: [20230504.11.25.752534]
+[2023-05-04 13:26:33] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 13:26:33] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-05-04 13:26:33] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.5.4] Old Version: [2023.5.2]
+[2023-05-04 13:26:33] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-05-04 13:26:33] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230504/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 13:26:33] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-05-04 13:26:33] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230504/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 13:26:33] INFO root fetch - processPackages [rebasin]: executing diffoscope
+[2023-05-04 13:26:33] INFO root fetch - processPackages [rebasin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebasin-0.0.8.tar.gz tmp/rebasin-0.0.9.tar.gz --markdown 20230504/r/rebasin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 13:26:33] INFO root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: Downloading https://files.pythonhosted.org/packages/9e/12/3d9861e8f3575b0c4bea82ace94a0a3eb851d00f60d77fd8c162cda14c59/certora-cli-alpha-jtoman-gmx-init-20230504.11.25.752534.tar.gz
+[2023-05-04 13:26:33] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-05-04 13:26:33] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230504/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-05-04 13:26:33] INFO root fetch - processPackages [mimeograph]: Downloading https://files.pythonhosted.org/packages/5f/cd/703ee56e8a28154b113c2212b435e69ff9ba483470672b261702ab56631d/mimeograph-0.4.1.tar.gz
+[2023-05-04 13:26:33] INFO root fetch - processPackages [cmem-plugin-pyshacl]: Downloading https://files.pythonhosted.org/packages/73/6a/29ac2e6861e292dba8cf766062d1be186ce57df704ab8162c642905415e2/cmem_plugin_pyshacl-4.1.3rc1.tar.gz
+[2023-05-04 13:26:33] INFO root fetch - processPackages [rpgPy]: Downloading https://files.pythonhosted.org/packages/f9/9c/9a2ee848c97171d8dca5de669b819fc5470c4195e13d05b476eb407172bb/rpgPy-0.8.0.tar.gz
+[2023-05-04 13:26:33] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/25/85/5e5893b435e32f3af852c4dcfd4abc4ea8247967c8fb0939ca6a5d9b33fb/torchtnt-nightly-2023.5.3.tar.gz
+[2023-05-04 13:26:33] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: Skipping package: exceeds size limit 38419654>=10485760
+[2023-05-04 13:26:33] INFO root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: Start processing: prodia-python
+[2023-05-04 13:26:33] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-gmx-init] error
+[2023-05-04 13:26:33] INFO root fetch - processPackages [prodia-python]: New version: [2.1] Old Version: [1.6]
+[2023-05-04 13:26:33] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-05-04 13:26:33] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.5.2.tar.gz tmp/torchtnt-nightly-2023.5.3.tar.gz --markdown 20230504/t/torchtnt-nightly/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-05-04 13:26:33] INFO root fetch - processPackages [mimeograph]: Downloading https://files.pythonhosted.org/packages/84/f7/d2085d6a5511971cba96098f901616dab55b5d641601bfb900bedbb8eee4/mimeograph-0.4.2.tar.gz
+[2023-05-04 13:26:33] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/72/fb/99a2ccb877115620aaf9bc22b3a41852d7f60f91820f0747de828496d7ad/tensordict_nightly-2023.5.4-py39-none-any.whl
+[2023-05-04 13:26:33] INFO root fetch - processPackages [mimeograph]: executing diffoscope
+[2023-05-04 13:26:33] INFO root fetch - processPackages [mimeograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimeograph-0.4.1.tar.gz tmp/mimeograph-0.4.2.tar.gz --markdown 20230504/m/mimeograph/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-04 13:26:34] INFO root fetch - processPackages [cmem-plugin-pyshacl]: Downloading https://files.pythonhosted.org/packages/09/71/485129614cfcbeb41791d7e92b1da0e16a304923fa330992284bba4d4228/cmem_plugin_pyshacl-4.1.3rc2.tar.gz
+[2023-05-04 13:26:34] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-05-04 13:26:34] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.5.2-py39-none-any.whl.zip tmp/tensordict_nightly-2023.5.4-py39-none-any.whl.zip --markdown 20230504/t/tensordict-nightly/2023.5.2-2023.5.4/diff.md --exclude *.pyd
+[2023-05-04 13:26:34] INFO root fetch - processPackages [cmem-plugin-pyshacl]: executing diffoscope
+[2023-05-04 13:26:34] INFO root fetch - processPackages [cmem-plugin-pyshacl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_pyshacl-4.1.3rc1.tar.gz tmp/cmem_plugin_pyshacl-4.1.3rc2.tar.gz --markdown 20230504/c/cmem-plugin-pyshacl/4.1.3rc1-4.1.3rc2/diff.md --exclude *.pyd
+[2023-05-04 13:26:34] INFO root fetch - processPackages [prodia-python]: Downloading https://files.pythonhosted.org/packages/73/d4/835c23d746a3d29701abf8f36dad29fa1722916642498fda13c56a6356e8/prodia-python-2.1.tar.gz
+[2023-05-04 13:26:34] INFO root fetch - processPackages [prodia-python]: executing diffoscope
+[2023-05-04 13:26:34] INFO root fetch - processPackages [prodia-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodia-python-1.6.tar.gz tmp/prodia-python-2.1.tar.gz --markdown 20230504/p/prodia-python/1.6-2.1/diff.md --exclude *.pyd
+[2023-05-04 13:26:34] INFO root fetch - processPackages [rpgPy]: Downloading https://files.pythonhosted.org/packages/95/be/a78072a656626a68d3b17c7dbe27f3b2c55b5bb2692fd18e338eda986c0c/rpgPy-0.9.0.tar.gz
+[2023-05-04 13:26:34] INFO root fetch - processPackages [rpgPy]: executing diffoscope
+[2023-05-04 13:26:34] INFO root fetch - processPackages [rpgPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpgPy-0.8.0.tar.gz tmp/rpgPy-0.9.0.tar.gz --markdown 20230504/r/rpgPy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 13:26:35] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-05-04 13:26:35] INFO root fetch - main [MainThread]: End processing [rebasin]: success
+[2023-05-04 13:26:35] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-05-04 13:26:35] INFO root fetch - main [MainThread]: End processing [prodia-python]: success
+[2023-05-04 13:26:35] INFO root fetch - main [MainThread]: End processing [cmem-plugin-pyshacl]: success
+[2023-05-04 13:26:35] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-05-04 13:26:36] INFO root fetch - main [MainThread]: End processing [rpgPy]: success
+[2023-05-04 13:26:36] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-05-04 13:26:37] INFO root fetch - main [MainThread]: End processing [mimeograph]: success
+[2023-05-04 13:26:39] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-05-04 13:26:39] INFO root fetch - main [MainThread]: Store serial: [17971313]
