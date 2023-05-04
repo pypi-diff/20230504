@@ -6010,3 +6010,91 @@
 [2023-05-04 04:59:30] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-05-04 04:59:32] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-05-04 04:59:32] INFO root fetch - main [MainThread]: Store serial: [17966697]
+[2023-05-04 05:04:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966697]
+[2023-05-04 05:04:41] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-04 05:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arc-cli
+[2023-05-04 05:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: handycsv
+[2023-05-04 05:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai-tools
+[2023-05-04 05:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyote
+[2023-05-04 05:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: machkit-d
+[2023-05-04 05:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-subject-dashboard
+[2023-05-04 05:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bandplot
+[2023-05-04 05:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-account-billing
+[2023-05-04 05:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: buckaroo
+[2023-05-04 05:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Slpapy
+[2023-05-04 05:04:41] WARNING root fetch - processPackages [machkit-d]: Skipping, unable to determine old version
+[2023-05-04 05:04:41] INFO root fetch - processPackages [machkit-d]: Start processing: edc-visit-schedule
+[2023-05-04 05:04:41] INFO root fetch - main [MainThread]: End processing [machkit-d] error
+[2023-05-04 05:04:41] INFO root fetch - processPackages [handycsv]: New version: [4.3.0] Old Version: [4.2.0]
+[2023-05-04 05:04:41] INFO root fetch - processPackages [bandplot]: New version: [0.1.4.1] Old Version: [0.1.4]
+[2023-05-04 05:04:41] INFO root fetch - processPackages [odoo13-addon-account-billing]: New version: [13.0.1.0.6.dev2] Old Version: [13.0.1.0.6.dev1]
+[2023-05-04 05:04:41] WARNING root fetch - processPackages [openai-tools]: Skipping, unable to determine old version
+[2023-05-04 05:04:41] INFO root fetch - processPackages [edc-subject-dashboard]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-04 05:04:41] INFO root fetch - processPackages [openai-tools]: Start processing: solox
+[2023-05-04 05:04:41] INFO root fetch - main [MainThread]: End processing [openai-tools] error
+[2023-05-04 05:04:41] INFO root fetch - processPackages [Slpapy]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-04 05:04:41] INFO root fetch - processPackages [pyote]: New version: [5.2.3] Old Version: [5.2.2]
+[2023-05-04 05:04:41] INFO root fetch - processPackages [buckaroo]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-04 05:04:41] INFO root fetch - processPackages [edc-visit-schedule]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-04 05:04:41] INFO root fetch - processPackages [solox]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-05-04 05:04:41] INFO root fetch - processPackages [arc-cli]: New version: [8.2.0] Old Version: [8.1.5]
+[2023-05-04 05:04:41] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/a7/af/7ab0691c0719641ccdc69eeadf0de2dbd6d61a3925a9ddbfa333121e8e42/Slpapy-0.2.4.tar.gz
+[2023-05-04 05:04:41] INFO root fetch - processPackages [handycsv]: Downloading https://files.pythonhosted.org/packages/23/21/b1f334647105828b21393adc5db5284483b03cebd46068e2d0b5c3d48fee/handycsv-4.2.0.tar.gz
+[2023-05-04 05:04:41] INFO root fetch - processPackages [bandplot]: Downloading https://files.pythonhosted.org/packages/5c/01/e9b1d13036d83ea9ae8fbdb59bb5251ea0728fe80cc39ce8589ab1104532/bandplot-0.1.4.1-py3-none-any.whl
+[2023-05-04 05:04:42] INFO root fetch - processPackages [odoo13-addon-account-billing]: Downloading https://files.pythonhosted.org/packages/72/ea/0ce5c1f5363a8ffd599598901fa1695be135874b7cca1e143200b299682a/odoo13_addon_account_billing-13.0.1.0.6.dev1-py3-none-any.whl
+[2023-05-04 05:04:42] INFO root fetch - processPackages [edc-subject-dashboard]: Downloading https://files.pythonhosted.org/packages/e2/de/4ac899f759846a1ffcc6a6347a85e786c1b637d41680d2cae0a6c2007b55/edc_subject_dashboard-0.3.8-py3-none-any.whl
+[2023-05-04 05:04:42] INFO root fetch - processPackages [pyote]: Downloading https://files.pythonhosted.org/packages/a5/e7/bf395d27937cbe530951d59b02a661f0934dd097848e540daa55f0a1d6a9/pyote-5.2.2.tar.gz
+[2023-05-04 05:04:42] INFO root fetch - processPackages [solox]: Downloading https://files.pythonhosted.org/packages/3f/49/cea03c605cd8f58f5181bd0cdadec11e6ae4738006f19615d37b42accafc/solox-2.6.0.tar.gz
+[2023-05-04 05:04:42] INFO root fetch - processPackages [edc-visit-schedule]: Downloading https://files.pythonhosted.org/packages/55/62/08b5eb66559fe5f11493a7403cf1549605588ac96f1433e68190de33a591/edc_visit_schedule-0.3.8-py3-none-any.whl
+[2023-05-04 05:04:42] INFO root fetch - processPackages [buckaroo]: Downloading https://files.pythonhosted.org/packages/86/27/cb6629bd1da6c0887ec4b1d811db07238ae70176be34d6180d95a398da8c/buckaroo-0.2.5.tar.gz
+[2023-05-04 05:04:42] INFO root fetch - processPackages [bandplot]: executing diffoscope
+[2023-05-04 05:04:42] INFO root fetch - processPackages [bandplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bandplot-0.1.4-py3-none-any.whl.zip tmp/bandplot-0.1.4.1-py3-none-any.whl.zip --markdown 20230504/b/bandplot/0.1.4-0.1.4.1/diff.md --exclude *.pyd
+[2023-05-04 05:04:42] INFO root fetch - processPackages [Slpapy]: executing diffoscope
+[2023-05-04 05:04:42] INFO root fetch - processPackages [Slpapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slpapy-0.2.3.tar.gz tmp/Slpapy-0.2.4.tar.gz --markdown 20230504/S/Slpapy/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-04 05:04:42] INFO root fetch - processPackages [arc-cli]: Downloading https://files.pythonhosted.org/packages/50/77/f17c022139eecdddb44130ee25092fecd8d6bc58de8275402389f5a6153e/arc_cli-8.2.0.tar.gz
+[2023-05-04 05:04:42] INFO root fetch - processPackages [handycsv]: Downloading https://files.pythonhosted.org/packages/29/9f/c426db3cf018795819d906b3b74e6a71e4c60265926a0acc0e65104d31e3/handycsv-4.3.0.tar.gz
+[2023-05-04 05:04:42] INFO root fetch - processPackages [odoo13-addon-account-billing]: Downloading https://files.pythonhosted.org/packages/ff/15/c6c2a6af927791ada6212541ec8dced50261edc31380e1af0ad995db1d23/odoo13_addon_account_billing-13.0.1.0.6.dev2-py3-none-any.whl
+[2023-05-04 05:04:42] INFO root fetch - processPackages [handycsv]: executing diffoscope
+[2023-05-04 05:04:42] INFO root fetch - processPackages [handycsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/handycsv-4.2.0.tar.gz tmp/handycsv-4.3.0.tar.gz --markdown 20230504/h/handycsv/4.2.0-4.3.0/diff.md --exclude *.pyd
+[2023-05-04 05:04:42] INFO root fetch - processPackages [arc-cli]: executing diffoscope
+[2023-05-04 05:04:42] INFO root fetch - processPackages [arc-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arc_cli-8.1.5.tar.gz tmp/arc_cli-8.2.0.tar.gz --markdown 20230504/a/arc-cli/8.1.5-8.2.0/diff.md --exclude *.pyd
+[2023-05-04 05:04:42] INFO root fetch - processPackages [odoo13-addon-account-billing]: executing diffoscope
+[2023-05-04 05:04:42] INFO root fetch - processPackages [odoo13-addon-account-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_billing-13.0.1.0.6.dev1-py3-none-any.whl.zip tmp/odoo13_addon_account_billing-13.0.1.0.6.dev2-py3-none-any.whl.zip --markdown 20230504/o/odoo13-addon-account-billing/13.0.1.0.6.dev1-13.0.1.0.6.dev2/diff.md --exclude *.pyd
+[2023-05-04 05:04:42] INFO root fetch - processPackages [edc-subject-dashboard]: Downloading https://files.pythonhosted.org/packages/dc/b2/f27cfd5946aaa1c7ae940b84f419cae29f450e721aac2786e84e4a456a12/edc_subject_dashboard-0.3.9-py3-none-any.whl
+[2023-05-04 05:04:42] INFO root fetch - processPackages [edc-visit-schedule]: Downloading https://files.pythonhosted.org/packages/d5/72/3df1323c5292ddeb8587bdab58504a97371317f435cce78a6e93a1c6561a/edc_visit_schedule-0.3.9-py3-none-any.whl
+[2023-05-04 05:04:42] INFO root fetch - processPackages [pyote]: Downloading https://files.pythonhosted.org/packages/b2/8d/f2084f7abc22d06d8335fdedc0b39d35a15e9a94aedc0890a975eed14d35/pyote-5.2.3.tar.gz
+[2023-05-04 05:04:42] INFO root fetch - processPackages [buckaroo]: Downloading https://files.pythonhosted.org/packages/a3/4e/ef42f53d7eaad47164a1b224e27dbdbfc61141e8c5c672e4c843e477ef61/buckaroo-0.2.6.tar.gz
+[2023-05-04 05:04:42] INFO root fetch - processPackages [edc-subject-dashboard]: executing diffoscope
+[2023-05-04 05:04:42] INFO root fetch - processPackages [edc-subject-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_subject_dashboard-0.3.8-py3-none-any.whl.zip tmp/edc_subject_dashboard-0.3.9-py3-none-any.whl.zip --markdown 20230504/e/edc-subject-dashboard/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-04 05:04:42] INFO root fetch - processPackages [edc-visit-schedule]: executing diffoscope
+[2023-05-04 05:04:42] INFO root fetch - processPackages [edc-visit-schedule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_visit_schedule-0.3.8-py3-none-any.whl.zip tmp/edc_visit_schedule-0.3.9-py3-none-any.whl.zip --markdown 20230504/e/edc-visit-schedule/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-04 05:04:42] INFO root fetch - processPackages [pyote]: executing diffoscope
+[2023-05-04 05:04:42] INFO root fetch - processPackages [pyote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyote-5.2.2.tar.gz tmp/pyote-5.2.3.tar.gz --markdown 20230504/p/pyote/5.2.2-5.2.3/diff.md --exclude *.pyd
+[2023-05-04 05:04:42] INFO root fetch - processPackages [buckaroo]: executing diffoscope
+[2023-05-04 05:04:42] INFO root fetch - processPackages [buckaroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buckaroo-0.2.5.tar.gz tmp/buckaroo-0.2.6.tar.gz --markdown 20230504/b/buckaroo/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-04 05:04:43] INFO root fetch - processPackages [solox]: Downloading https://files.pythonhosted.org/packages/e4/d5/50551ea4490b325901071b301694ba7100faacd19fea3a814f21e6b2c552/solox-2.6.1.tar.gz
+[2023-05-04 05:04:43] INFO root fetch - processPackages [solox]: executing diffoscope
+[2023-05-04 05:04:43] INFO root fetch - processPackages [solox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solox-2.6.0.tar.gz tmp/solox-2.6.1.tar.gz --markdown 20230504/s/solox/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-05-04 05:04:43] INFO root fetch - processPackages [Slpapy]: Start processing: dreamai
+[2023-05-04 05:04:43] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
+[2023-05-04 05:04:43] INFO root fetch - processPackages [dreamai]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-04 05:04:43] INFO root fetch - processPackages [dreamai]: executing diffoscope
+[2023-05-04 05:04:43] INFO root fetch - processPackages [dreamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai-0.8.0.tar.gz tmp/dreamai-0.9.0.tar.gz --markdown 20230504/d/dreamai/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 05:04:43] INFO root fetch - processPackages [bandplot]: Start processing: odoo14-addon-account-billing
+[2023-05-04 05:04:43] INFO root fetch - main [MainThread]: End processing [bandplot]: success
+[2023-05-04 05:04:43] INFO root fetch - processPackages [odoo14-addon-account-billing]: New version: [14.0.1.0.4.dev3] Old Version: [14.0.1.0.4.dev1]
+[2023-05-04 05:04:43] INFO root fetch - main [MainThread]: End processing [handycsv]: success
+[2023-05-04 05:04:44] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-billing]: success
+[2023-05-04 05:04:44] INFO root fetch - processPackages [odoo14-addon-account-billing]: Downloading https://files.pythonhosted.org/packages/43/ae/863eb25631d49252a89200ef80ecceec1b1d96ad5cad96a42d20c74ced1a/odoo14_addon_account_billing-14.0.1.0.4.dev1-py3-none-any.whl
+[2023-05-04 05:04:44] INFO root fetch - main [MainThread]: End processing [edc-subject-dashboard]: success
+[2023-05-04 05:04:44] INFO root fetch - main [MainThread]: End processing [edc-visit-schedule]: success
+[2023-05-04 05:04:44] INFO root fetch - main [MainThread]: End processing [dreamai]: success
+[2023-05-04 05:04:44] INFO root fetch - processPackages [odoo14-addon-account-billing]: Downloading https://files.pythonhosted.org/packages/15/18/a29a70dad9080a5d12179839dc5f67c343db8f7cb234bc822962b81fd87f/odoo14_addon_account_billing-14.0.1.0.4.dev3-py3-none-any.whl
+[2023-05-04 05:04:44] INFO root fetch - processPackages [odoo14-addon-account-billing]: executing diffoscope
+[2023-05-04 05:04:44] INFO root fetch - processPackages [odoo14-addon-account-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_billing-14.0.1.0.4.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_billing-14.0.1.0.4.dev3-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addon-account-billing/14.0.1.0.4.dev1-14.0.1.0.4.dev3/diff.md --exclude *.pyd
+[2023-05-04 05:04:45] INFO root fetch - main [MainThread]: End processing [arc-cli]: success
+[2023-05-04 05:04:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-billing]: success
+[2023-05-04 05:04:47] INFO root fetch - main [MainThread]: End processing [pyote]: success
+[2023-05-04 05:04:48] INFO root fetch - main [MainThread]: End processing [solox]: success
+[2023-05-04 05:05:11] INFO root fetch - main [MainThread]: End processing [buckaroo]: success
+[2023-05-04 05:05:11] INFO root fetch - main [MainThread]: Store serial: [17966740]
