@@ -11915,3 +11915,152 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 11:38:50] INFO root fetch - main [MainThread]: End processing [hsmm-mvpy]: success
 [2023-05-04 11:38:51] INFO root fetch - main [MainThread]: End processing [sports2d]: success
 [2023-05-04 11:38:51] INFO root fetch - main [MainThread]: Store serial: [17970046]
+[2023-05-04 11:43:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17970046]
+[2023-05-04 11:44:00] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-04 11:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hsmm-mvpy
+[2023-05-04 11:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SMUTHI
+[2023-05-04 11:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sf2-loader
+[2023-05-04 11:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neptune-pytorch
+[2023-05-04 11:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-retrieval-plugin
+[2023-05-04 11:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langsrc
+[2023-05-04 11:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: asyncscope
+[2023-05-04 11:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shareddata
+[2023-05-04 11:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cinderlib
+[2023-05-04 11:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: keras-data-format-converter
+[2023-05-04 11:44:00] WARNING root fetch - processPackages [neptune-pytorch]: Skipping, unable to determine old version
+[2023-05-04 11:44:00] INFO root fetch - processPackages [neptune-pytorch]: Start processing: mo-kwargs
+[2023-05-04 11:44:00] INFO root fetch - main [MainThread]: End processing [neptune-pytorch] error
+[2023-05-04 11:44:00] INFO root fetch - processPackages [auto-retrieval-plugin]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 11:44:00] INFO root fetch - processPackages [SMUTHI]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-05-04 11:44:00] INFO root fetch - processPackages [hsmm-mvpy]: New version: [0.1.0a0] Old Version: [0.0.8b0]
+[2023-05-04 11:44:00] INFO root fetch - processPackages [asyncscope]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-04 11:44:00] INFO root fetch - processPackages [langsrc]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-05-04 11:44:00] WARNING root fetch - processPackages [sf2-loader]: Skipping, unable to determine old version
+[2023-05-04 11:44:00] INFO root fetch - processPackages [sf2-loader]: Start processing: JoBase
+[2023-05-04 11:44:00] INFO root fetch - main [MainThread]: End processing [sf2-loader] error
+[2023-05-04 11:44:00] INFO root fetch - processPackages [cinderlib]: New version: [5.1.0] Old Version: [5.0.0]
+[2023-05-04 11:44:00] INFO root fetch - processPackages [shareddata]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-04 11:44:00] INFO root fetch - processPackages [keras-data-format-converter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 11:44:00] INFO root fetch - processPackages [mo-kwargs]: New version: [7.4.21313] Old Version: [7.378.23124]
+[2023-05-04 11:44:00] INFO root fetch - processPackages [JoBase]: New version: [2.7] Old Version: [2.6]
+[2023-05-04 11:44:00] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/dd/7f/92edeb99c1d3cfc98e439ead65d815c93d32c67fda078d99d7ff7079200f/shareddata-2.0.2.tar.gz
+[2023-05-04 11:44:00] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/dd/3f/e32b8887f970384f7f43c76702aac288f7df0b415f613d00b037567f8397/mo_kwargs-7.378.23124-py2.py3-none-any.whl
+[2023-05-04 11:44:00] INFO root fetch - processPackages [auto-retrieval-plugin]: Downloading https://files.pythonhosted.org/packages/7a/b7/b70ccbfc43eff52ed71f8e27e175a5393d921501314fd4ed068b6bd2aa7a/auto_retrieval_plugin-0.1.0.tar.gz
+[2023-05-04 11:44:00] INFO root fetch - processPackages [cinderlib]: Downloading https://files.pythonhosted.org/packages/55/9e/100983bbeed7ce382d4a9bbc0240e3802d2702f9b692913bf87dc5a20fe6/cinderlib-5.0.0.tar.gz
+[2023-05-04 11:44:00] INFO root fetch - processPackages [keras-data-format-converter]: Downloading https://files.pythonhosted.org/packages/69/e1/6197f82986aa58e2d3224b180105d7a7989563b02dcb30c65c985b251139/keras-data-format-converter-0.1.8.tar.gz
+[2023-05-04 11:44:00] INFO root fetch - processPackages [langsrc]: Downloading https://files.pythonhosted.org/packages/ff/47/8bc09b6338926011d4bc8e4114a1053ceac79aac06943e47be642604266d/langSrc-0.0.6.tar.gz
+[2023-05-04 11:44:00] INFO root fetch - processPackages [JoBase]: Downloading https://files.pythonhosted.org/packages/2c/cf/af2c60017a013b85604eff66c29556f076189831028eebd896b2ab731cfc/JoBase-2.6.tar.gz
+[2023-05-04 11:44:00] INFO root fetch - processPackages [asyncscope]: Downloading https://files.pythonhosted.org/packages/c3/8a/76392e99e9c4e22bc359a7f06e07a73c220ac461e11a3ff26acc5ccd8373/asyncscope-0.9.2.tar.gz
+[2023-05-04 11:44:00] INFO root fetch - processPackages [SMUTHI]: Downloading https://files.pythonhosted.org/packages/c8/5f/b3502785f12513cca2a860317d74444185e0e0d06e26bcfd0a299e81db1b/SMUTHI-2.0.2.tar.gz
+[2023-05-04 11:44:00] INFO root fetch - processPackages [hsmm-mvpy]: Downloading https://files.pythonhosted.org/packages/3e/99/da871bfde7c9abe7dba5af5d7f367ac223c802a19c03c20a62206eb2f80c/hsmm_mvpy-0.1.0a0.tar.gz
+[2023-05-04 11:44:00] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/52/48/79a1651fca1dee0158441bab55c383530bcb1286e82b78e65623f840e039/shareddata-2.0.3.tar.gz
+[2023-05-04 11:44:00] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/f2/00/9c2a9bfd7b221450ec0785f27eb9de759c8436caae6546305d77c3bfee4e/mo-kwargs-7.4.21313.tar.gz
+[2023-05-04 11:44:00] INFO root fetch - processPackages [auto-retrieval-plugin]: Downloading https://files.pythonhosted.org/packages/87/20/a16eca5579d55eabc3ff4229e5ab866e6f42c0f36c738f6ce71719db9997/auto_retrieval_plugin-0.1.1.tar.gz
+[2023-05-04 11:44:00] INFO root fetch - processPackages [hsmm-mvpy]: executing diffoscope
+[2023-05-04 11:44:00] INFO root fetch - processPackages [hsmm-mvpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsmm_mvpy-0.0.8b0.tar.gz tmp/hsmm_mvpy-0.1.0a0.tar.gz --markdown 20230504/h/hsmm-mvpy/0.0.8b0-0.1.0a0/diff.md --exclude *.pyd
+[2023-05-04 11:44:00] INFO root fetch - processPackages [cinderlib]: Downloading https://files.pythonhosted.org/packages/1b/dc/6d8a184fd04e51dc9f170c04936ca8a0aeac75c640b3ba3d126cde3dc865/cinderlib-5.1.0.tar.gz
+[2023-05-04 11:44:00] INFO root fetch - processPackages [langsrc]: Downloading https://files.pythonhosted.org/packages/b0/0b/d9094f2f2ac34a9ec39bd5582ec7fd68d485a767bc106c034adefb980a2c/langsrc-0.0.8.tar.gz
+[2023-05-04 11:44:01] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-05-04 11:44:01] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.0.2.tar.gz tmp/shareddata-2.0.3.tar.gz --markdown 20230504/s/shareddata/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-04 11:44:01] INFO root fetch - processPackages [keras-data-format-converter]: Downloading https://files.pythonhosted.org/packages/93/1b/13aef5e3bb4f3c7729fe70dc704b3626c0a713391d3afecfb63569f0a120/keras-data-format-converter-0.1.9.tar.gz
+[2023-05-04 11:44:01] INFO root fetch - processPackages [asyncscope]: Downloading https://files.pythonhosted.org/packages/49/c8/7f653399783e771381e8f35f1e5e36538417cfe5f9be8e227a8f3a3264af/asyncscope-0.9.3.tar.gz
+[2023-05-04 11:44:01] INFO root fetch - processPackages [JoBase]: Downloading https://files.pythonhosted.org/packages/f4/fb/7ba7f2f53fcbe0bbba144be5e13ab0910c74a175e071e9902c2da557b604/JoBase-2.7-cp37-cp37m-musllinux_1_1_s390x.whl
+[2023-05-04 11:44:01] INFO root fetch - processPackages [auto-retrieval-plugin]: executing diffoscope
+[2023-05-04 11:44:01] INFO root fetch - processPackages [auto-retrieval-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_retrieval_plugin-0.1.0.tar.gz tmp/auto_retrieval_plugin-0.1.1.tar.gz --markdown 20230504/a/auto-retrieval-plugin/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 11:44:01] INFO root fetch - processPackages [SMUTHI]: Downloading https://files.pythonhosted.org/packages/b2/17/3cc8e7bcbcf812adc5ae9b8ab4c5f639c9148cd257f8f9a247784c3c71c7/SMUTHI-2.1.0-cp38-cp38-win_amd64.whl
+[2023-05-04 11:44:01] INFO root fetch - processPackages [cinderlib]: executing diffoscope
+[2023-05-04 11:44:01] INFO root fetch - processPackages [cinderlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cinderlib-5.0.0.tar.gz tmp/cinderlib-5.1.0.tar.gz --markdown 20230504/c/cinderlib/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2023-05-04 11:44:01] INFO root fetch - processPackages [langsrc]: executing diffoscope
+[2023-05-04 11:44:01] INFO root fetch - processPackages [langsrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langSrc-0.0.6.tar.gz tmp/langsrc-0.0.8.tar.gz --markdown 20230504/l/langsrc/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-05-04 11:44:01] INFO root fetch - processPackages [mo-kwargs]: executing diffoscope
+[2023-05-04 11:44:01] INFO root fetch - processPackages [mo-kwargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_kwargs-7.378.23124-py2.py3-none-any.whl.zip tmp/mo-kwargs-7.4.21313.tar.gz --markdown 20230504/m/mo-kwargs/7.378.23124-7.4.21313/diff.md --exclude *.pyd
+[2023-05-04 11:44:01] INFO root fetch - processPackages [keras-data-format-converter]: executing diffoscope
+[2023-05-04 11:44:01] INFO root fetch - processPackages [keras-data-format-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-data-format-converter-0.1.8.tar.gz tmp/keras-data-format-converter-0.1.9.tar.gz --markdown 20230504/k/keras-data-format-converter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 11:44:01] INFO root fetch - processPackages [asyncscope]: executing diffoscope
+[2023-05-04 11:44:01] INFO root fetch - processPackages [asyncscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncscope-0.9.2.tar.gz tmp/asyncscope-0.9.3.tar.gz --markdown 20230504/a/asyncscope/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-04 11:44:01] INFO root fetch - processPackages [SMUTHI]: executing diffoscope
+[2023-05-04 11:44:01] INFO root fetch - processPackages [SMUTHI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SMUTHI-2.0.2.tar.gz tmp/SMUTHI-2.1.0-cp38-cp38-win_amd64.whl.zip --markdown 20230504/S/SMUTHI/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-05-04 11:44:01] INFO root fetch - processPackages [JoBase]: executing diffoscope
+[2023-05-04 11:44:01] INFO root fetch - processPackages [JoBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JoBase-2.6.tar.gz tmp/JoBase-2.7-cp37-cp37m-musllinux_1_1_s390x.whl.zip --markdown 20230504/J/JoBase/2.6-2.7/diff.md --exclude *.pyd
+[2023-05-04 11:44:03] INFO root fetch - processPackages [mo-kwargs]: Start processing: swh.journal
+[2023-05-04 11:44:03] INFO root fetch - main [MainThread]: End processing [mo-kwargs]: success
+[2023-05-04 11:44:03] INFO root fetch - processPackages [swh.journal]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-04 11:44:03] INFO root fetch - processPackages [langsrc]: Start processing: jupyterhub-backendspawner
+[2023-05-04 11:44:03] INFO root fetch - main [MainThread]: End processing [langsrc]: success
+[2023-05-04 11:44:03] INFO root fetch - processPackages [jupyterhub-backendspawner]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-04 11:44:03] INFO root fetch - processPackages [keras-data-format-converter]: Start processing: aij-webcam
+[2023-05-04 11:44:03] INFO root fetch - main [MainThread]: End processing [keras-data-format-converter]: success
+[2023-05-04 11:44:03] INFO root fetch - processPackages [aij-webcam]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-04 11:44:03] INFO root fetch - processPackages [swh.journal]: Downloading https://files.pythonhosted.org/packages/a6/88/4d8b4821a922e15a2d784c1ecfbced9d5f7feefd85aa1f1c07f1551cccc8/swh.journal-1.3.1.tar.gz
+[2023-05-04 11:44:03] INFO root fetch - processPackages [asyncscope]: Start processing: exodusutils
+[2023-05-04 11:44:03] INFO root fetch - main [MainThread]: End processing [asyncscope]: success
+[2023-05-04 11:44:03] INFO root fetch - processPackages [jupyterhub-backendspawner]: Downloading https://files.pythonhosted.org/packages/ba/94/8bbc2b1be91c43fd4cfa63f5e055fb44d370037fa765c6c8938d59bb5eb5/jupyterhub-backendspawner-0.2.2.tar.gz
+[2023-05-04 11:44:03] INFO root fetch - processPackages [exodusutils]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-05-04 11:44:03] INFO root fetch - processPackages [aij-webcam]: Downloading https://files.pythonhosted.org/packages/e6/03/fbf2c5a50491a4e0224b67bfa85013ab534c81746441e2a029dce531305b/aij-webcam-1.0.1.tar.gz
+[2023-05-04 11:44:03] INFO root fetch - processPackages [SMUTHI]: Start processing: mo-math
+[2023-05-04 11:44:03] INFO root fetch - main [MainThread]: End processing [SMUTHI]: success
+[2023-05-04 11:44:03] INFO root fetch - processPackages [jupyterhub-backendspawner]: executing diffoscope
+[2023-05-04 11:44:03] INFO root fetch - processPackages [jupyterhub-backendspawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub-backendspawner-0.2.1.tar.gz tmp/jupyterhub-backendspawner-0.2.2.tar.gz --markdown 20230504/j/jupyterhub-backendspawner/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-04 11:44:03] INFO root fetch - processPackages [exodusutils]: Downloading https://files.pythonhosted.org/packages/6a/73/8528d31e8b44e95e1d1b25f2812403d52815e8a3f8519129fe20f8996f9d/exodusutils-0.3.7.tar.gz
+[2023-05-04 11:44:03] INFO root fetch - processPackages [mo-math]: New version: [7.4.21313] Old Version: [7.378.23124]
+[2023-05-04 11:44:03] INFO root fetch - processPackages [swh.journal]: Downloading https://files.pythonhosted.org/packages/bb/38/ce444b40dac4ca54d4711004fabbc18e1663c25ad8aab784a1368d547881/swh.journal-1.3.2.tar.gz
+[2023-05-04 11:44:03] INFO root fetch - processPackages [hsmm-mvpy]: Start processing: citadel-sdk
+[2023-05-04 11:44:03] INFO root fetch - main [MainThread]: End processing [hsmm-mvpy]: success
+[2023-05-04 11:44:03] INFO root fetch - processPackages [aij-webcam]: Downloading https://files.pythonhosted.org/packages/1c/f9/7f91f0a00af19caa2d33140ab5895ce7b4df9e82a9e61049bbf6c1254c7a/aij-webcam-1.0.2.tar.gz
+[2023-05-04 11:44:03] INFO root fetch - processPackages [swh.journal]: executing diffoscope
+[2023-05-04 11:44:03] INFO root fetch - processPackages [swh.journal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.journal-1.3.1.tar.gz tmp/swh.journal-1.3.2.tar.gz --markdown 20230504/s/swh.journal/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-04 11:44:03] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/36/78/55ce9476b1636cf0f1b04acd98e58a1e8ac281ae85b5b8e537db399a7b55/mo_math-7.378.23124-py2.py3-none-any.whl
+[2023-05-04 11:44:03] WARNING root fetch - processPackages [citadel-sdk]: Skipping, unable to determine old version
+[2023-05-04 11:44:03] INFO root fetch - processPackages [citadel-sdk]: Start processing: wcferry
+[2023-05-04 11:44:03] INFO root fetch - main [MainThread]: End processing [citadel-sdk] error
+[2023-05-04 11:44:03] INFO root fetch - processPackages [auto-retrieval-plugin]: Start processing: grai-source-dbt-cloud
+[2023-05-04 11:44:03] INFO root fetch - main [MainThread]: End processing [auto-retrieval-plugin]: success
+[2023-05-04 11:44:03] WARNING root fetch - processPackages [grai-source-dbt-cloud]: Skipping, unable to determine old version
+[2023-05-04 11:44:03] INFO root fetch - processPackages [grai-source-dbt-cloud]: Start processing: bp-query-tool
+[2023-05-04 11:44:03] INFO root fetch - main [MainThread]: End processing [grai-source-dbt-cloud] error
+[2023-05-04 11:44:03] INFO root fetch - processPackages [shareddata]: Start processing: redis
+[2023-05-04 11:44:03] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-05-04 11:44:03] INFO root fetch - processPackages [bp-query-tool]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-04 11:44:03] INFO root fetch - processPackages [wcferry]: New version: [3.7.0.30.24.1] Old Version: [3.7.0.30.24]
+[2023-05-04 11:44:03] INFO root fetch - processPackages [exodusutils]: Downloading https://files.pythonhosted.org/packages/e2/83/372173aabc6d446059c022a2637a661536088a9b6ea7ea3507ce56b46795/exodusutils-0.3.9.tar.gz
+[2023-05-04 11:44:03] INFO root fetch - processPackages [redis]: New version: [5.0.0b2] Old Version: [5.0.0b1]
+[2023-05-04 11:44:03] INFO root fetch - processPackages [aij-webcam]: executing diffoscope
+[2023-05-04 11:44:03] INFO root fetch - processPackages [aij-webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-webcam-1.0.1.tar.gz tmp/aij-webcam-1.0.2.tar.gz --markdown 20230504/a/aij-webcam/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-04 11:44:04] INFO root fetch - processPackages [bp-query-tool]: executing diffoscope
+[2023-05-04 11:44:04] INFO root fetch - processPackages [bp-query-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_query_tool-1.0.0.tar.gz tmp/bp_query_tool-1.0.1.tar.gz --markdown 20230504/b/bp-query-tool/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 11:44:04] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/94/78/4fd069d1a18bb3fcab9f8aa8e10513e5e6ff70e0aaf4291bebe2db2bbd39/mo-math-7.4.21313.tar.gz
+[2023-05-04 11:44:04] INFO root fetch - processPackages [wcferry]: Downloading https://files.pythonhosted.org/packages/fe/37/0ecb38e0960b41e719b0cad9fb2033cec80e8fd033e85ec3abab672c0614/wcferry-3.7.0.30.24.tar.gz
+[2023-05-04 11:44:04] INFO root fetch - processPackages [exodusutils]: executing diffoscope
+[2023-05-04 11:44:04] INFO root fetch - processPackages [exodusutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exodusutils-0.3.7.tar.gz tmp/exodusutils-0.3.9.tar.gz --markdown 20230504/e/exodusutils/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-05-04 11:44:04] INFO root fetch - processPackages [redis]: Downloading https://files.pythonhosted.org/packages/b3/9d/9d8e9a891d33c3d0a8f1dec9c8d6f468ee98959597eb68d61d48a5d5f62c/redis-5.0.0b1.tar.gz
+[2023-05-04 11:44:04] INFO root fetch - processPackages [mo-math]: executing diffoscope
+[2023-05-04 11:44:04] INFO root fetch - processPackages [mo-math]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_math-7.378.23124-py2.py3-none-any.whl.zip tmp/mo-math-7.4.21313.tar.gz --markdown 20230504/m/mo-math/7.378.23124-7.4.21313/diff.md --exclude *.pyd
+[2023-05-04 11:44:04] INFO root fetch - processPackages [wcferry]: Downloading https://files.pythonhosted.org/packages/4f/a8/cdd239f4bbe9c728d59813614d744d7b06607bc3f3d53529dd80087f2f6e/wcferry-3.7.0.30.24.1.tar.gz
+[2023-05-04 11:44:04] INFO root fetch - processPackages [wcferry]: executing diffoscope
+[2023-05-04 11:44:04] INFO root fetch - processPackages [wcferry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcferry-3.7.0.30.24.tar.gz tmp/wcferry-3.7.0.30.24.1.tar.gz --markdown 20230504/w/wcferry/3.7.0.30.24-3.7.0.30.24.1/diff.md --exclude *.pyd
+[2023-05-04 11:44:04] INFO root fetch - processPackages [jupyterhub-backendspawner]: Start processing: odoo14-addon-mrp-multi-level
+[2023-05-04 11:44:04] INFO root fetch - main [MainThread]: End processing [jupyterhub-backendspawner]: success
+[2023-05-04 11:44:04] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.1]
+[2023-05-04 11:44:05] INFO root fetch - processPackages [redis]: Downloading https://files.pythonhosted.org/packages/2b/ba/092f886a82de33759bcf64baa36b1c0457133ae67bea14babaaf7aa68130/redis-5.0.0b2.tar.gz
+[2023-05-04 11:44:05] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/27/03/4310ba971dc95afc05e2f77cb8939920e7a20bea4534f297c5d6d9acbce2/odoo14_addon_mrp_multi_level-14.0.1.8.1-py3-none-any.whl
+[2023-05-04 11:44:05] INFO root fetch - processPackages [redis]: executing diffoscope
+[2023-05-04 11:44:05] INFO root fetch - processPackages [redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis-5.0.0b1.tar.gz tmp/redis-5.0.0b2.tar.gz --markdown 20230504/r/redis/5.0.0b1-5.0.0b2/diff.md --exclude *.pyd
+[2023-05-04 11:44:05] INFO root fetch - processPackages [aij-webcam]: Start processing: crabpy
+[2023-05-04 11:44:05] INFO root fetch - main [MainThread]: End processing [aij-webcam]: success
+[2023-05-04 11:44:05] INFO root fetch - processPackages [crabpy]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-04 11:44:05] INFO root fetch - processPackages [crabpy]: executing diffoscope
+[2023-05-04 11:44:05] INFO root fetch - processPackages [crabpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crabpy-1.0.0.tar.gz tmp/crabpy-1.1.0.tar.gz --markdown 20230504/c/crabpy/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-04 11:44:05] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/73/c1/ef9e846f2158c75b1453aca3e9412c8844732f43768791438fd14ad4a409/odoo14_addon_mrp_multi_level-14.0.1.9.0-py3-none-any.whl
+[2023-05-04 11:44:05] INFO root fetch - main [MainThread]: End processing [mo-math]: success
+[2023-05-04 11:44:05] INFO root fetch - main [MainThread]: End processing [JoBase]: success
+[2023-05-04 11:44:05] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: executing diffoscope
+[2023-05-04 11:44:05] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_multi_level-14.0.1.8.1-py3-none-any.whl.zip tmp/odoo14_addon_mrp_multi_level-14.0.1.9.0-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addon-mrp-multi-level/14.0.1.8.1-14.0.1.9.0/diff.md --exclude *.pyd
+[2023-05-04 11:44:05] INFO root fetch - main [MainThread]: End processing [bp-query-tool]: success
+[2023-05-04 11:44:05] INFO root fetch - main [MainThread]: End processing [swh.journal]: success
+[2023-05-04 11:44:05] INFO root fetch - main [MainThread]: End processing [cinderlib]: success
+[2023-05-04 11:44:05] INFO root fetch - main [MainThread]: End processing [exodusutils]: success
+[2023-05-04 11:44:06] INFO root fetch - main [MainThread]: End processing [crabpy]: success
+[2023-05-04 11:44:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-multi-level]: success
+[2023-05-04 11:44:07] INFO root fetch - main [MainThread]: End processing [redis]: success
+[2023-05-04 11:44:08] INFO root fetch - main [MainThread]: End processing [wcferry]: success
+[2023-05-04 11:44:08] INFO root fetch - main [MainThread]: Store serial: [17970164]
