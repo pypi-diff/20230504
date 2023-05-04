@@ -18389,3 +18389,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 17:13:43] INFO root fetch - main [MainThread]: End processing [AICreator]: success
 [2023-05-04 17:13:43] INFO root fetch - main [MainThread]: End processing [ansible-compat]: success
 [2023-05-04 17:13:43] INFO root fetch - main [MainThread]: Store serial: [17973958]
+[2023-05-04 17:18:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17973958]
+[2023-05-04 17:18:53] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-04 17:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FlexGet
+[2023-05-04 17:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ChiantiPy
+[2023-05-04 17:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: frazzle
+[2023-05-04 17:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-Shahar-ValueRangeAnalysis
+[2023-05-04 17:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TissUUmaps
+[2023-05-04 17:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepclient
+[2023-05-04 17:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autumn8
+[2023-05-04 17:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jadecobra
+[2023-05-04 17:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PySide1-Customized-Window
+[2023-05-04 17:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PySide2-Customized-Window
+[2023-05-04 17:18:53] WARNING root fetch - processPackages [frazzle]: Skipping, unable to determine old version
+[2023-05-04 17:18:53] INFO root fetch - processPackages [frazzle]: Start processing: PySide6-Customized-Window
+[2023-05-04 17:18:53] INFO root fetch - main [MainThread]: End processing [frazzle] error
+[2023-05-04 17:18:53] WARNING root fetch - processPackages [certora-cli-alpha-Shahar-ValueRangeAnalysis]: Skipping, unable to determine old version
+[2023-05-04 17:18:53] INFO root fetch - processPackages [ChiantiPy]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-04 17:18:53] INFO root fetch - processPackages [certora-cli-alpha-Shahar-ValueRangeAnalysis]: Start processing: django-pfx
+[2023-05-04 17:18:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-Shahar-ValueRangeAnalysis] error
+[2023-05-04 17:18:53] INFO root fetch - processPackages [PySide6-Customized-Window]: New version: [1.3] Old Version: [1.2]
+[2023-05-04 17:18:53] INFO root fetch - processPackages [PySide2-Customized-Window]: New version: [1.3] Old Version: [1.2]
+[2023-05-04 17:18:53] INFO root fetch - processPackages [PySide1-Customized-Window]: New version: [1.3] Old Version: [1.2]
+[2023-05-04 17:18:53] INFO root fetch - processPackages [deepclient]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-05-04 17:18:53] INFO root fetch - processPackages [autumn8]: New version: [1.0.3rc2] Old Version: [1.0.3rc1]
+[2023-05-04 17:18:53] INFO root fetch - processPackages [jadecobra]: New version: [0.3.7] Old Version: [0.3.61]
+[2023-05-04 17:18:53] INFO root fetch - processPackages [TissUUmaps]: New version: [3.1rc3] Old Version: [3.1rc2]
+[2023-05-04 17:18:53] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev6]
+[2023-05-04 17:18:53] INFO root fetch - processPackages [FlexGet]: New version: [3.6.7] Old Version: [3.6.6]
+[2023-05-04 17:18:53] INFO root fetch - processPackages [PySide6-Customized-Window]: Downloading https://files.pythonhosted.org/packages/80/7e/a10010161baa4858d5f64c325378858a8268f9d7e9dde40dda6d08897abb/PySide6_Customized_Window-1.2-py3-none-any.whl
+[2023-05-04 17:18:53] INFO root fetch - processPackages [PySide2-Customized-Window]: Downloading https://files.pythonhosted.org/packages/18/ca/fac39643e44c68ab0e085c39dd97e06288e895c78ff6b34180adcc0d7f7d/PySide2_Customized_Window-1.2-py3-none-any.whl
+[2023-05-04 17:18:53] INFO root fetch - processPackages [deepclient]: Downloading https://files.pythonhosted.org/packages/ce/6f/11780ab843128b19ae79f892321b28536d88039f1391f2772a5b846e49f0/deepclient-0.0.2.tar.gz
+[2023-05-04 17:18:53] INFO root fetch - processPackages [jadecobra]: Downloading https://files.pythonhosted.org/packages/a3/e7/c6d622ba1ff813ec55e907bcb8020f34fb3c55f83c730309b7b1e14048d4/jadecobra-0.3.61.tar.gz
+[2023-05-04 17:18:53] INFO root fetch - processPackages [PySide1-Customized-Window]: Downloading https://files.pythonhosted.org/packages/af/50/b04447f0db5c8200c049b99a8419cb84a206d7425641b9eb3fb95eac9da2/PySide1_Customized_Window-1.2-py3-none-any.whl
+[2023-05-04 17:18:53] INFO root fetch - processPackages [ChiantiPy]: Downloading https://files.pythonhosted.org/packages/6f/dc/f76977269612f0957d24f662936f8e578f7b3ec9964ea84a966721748fa6/ChiantiPy-0.9.4.tar.gz
+[2023-05-04 17:18:53] INFO root fetch - processPackages [TissUUmaps]: Downloading https://files.pythonhosted.org/packages/2b/c9/df5f819c7f7d975651f7910d397070bdb8ca9a0cc5a8e80e11c7b2977ea2/TissUUmaps-3.1rc2.tar.gz
+[2023-05-04 17:18:53] INFO root fetch - processPackages [FlexGet]: Downloading https://files.pythonhosted.org/packages/80/0b/40c40a60f7aafcb638601101ab35577d582ad78f9c159a91ff74e332cecb/FlexGet-3.6.6.tar.gz
+[2023-05-04 17:18:53] INFO root fetch - processPackages [autumn8]: Downloading https://files.pythonhosted.org/packages/47/12/5cd7c92c070c8466e402aaff21907f12d109781454c41acd8aec3579c7bb/autumn8-1.0.3rc2.tar.gz
+[2023-05-04 17:18:53] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a1/0d/f18110bf781805e992d1694bccb5f9c8fba9b93b4dbb99cd63864546a630/django-pfx-1.2.dev6.tar.gz
+[2023-05-04 17:18:53] INFO root fetch - processPackages [deepclient]: executing diffoscope
+[2023-05-04 17:18:53] INFO root fetch - processPackages [deepclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepclient-0.0.2.tar.gz tmp/deepclient-1.0.0.tar.gz --markdown 20230504/d/deepclient/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-04 17:18:53] INFO root fetch - processPackages [PySide6-Customized-Window]: Downloading https://files.pythonhosted.org/packages/3d/c1/7c9f5de710a5718fc4bc8bc3f20276846ac2e67d21466bbc4a15283627ae/PySide6_Customized_Window-1.3-py3-none-any.whl
+[2023-05-04 17:18:53] INFO root fetch - processPackages [PySide1-Customized-Window]: Downloading https://files.pythonhosted.org/packages/39/56/c2f95b85cfae14c2337776a266a2b55376098b0d3f5116100e8b074c984c/PySide1_Customized_Window-1.3-py3-none-any.whl
+[2023-05-04 17:18:53] INFO root fetch - processPackages [jadecobra]: Downloading https://files.pythonhosted.org/packages/db/43/7ac67232d67590d397ff6b3e32f979f382e27426eecc6fcbc42ebec76c7c/jadecobra-0.3.7.tar.gz
+[2023-05-04 17:18:53] INFO root fetch - processPackages [autumn8]: executing diffoscope
+[2023-05-04 17:18:53] INFO root fetch - processPackages [autumn8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autumn8-1.0.3rc1.tar.gz tmp/autumn8-1.0.3rc2.tar.gz --markdown 20230504/a/autumn8/1.0.3rc1-1.0.3rc2/diff.md --exclude *.pyd
+[2023-05-04 17:18:53] INFO root fetch - processPackages [PySide6-Customized-Window]: executing diffoscope
+[2023-05-04 17:18:53] INFO root fetch - processPackages [PySide1-Customized-Window]: executing diffoscope
+[2023-05-04 17:18:53] INFO root fetch - processPackages [PySide6-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6_Customized_Window-1.2-py3-none-any.whl.zip tmp/PySide6_Customized_Window-1.3-py3-none-any.whl.zip --markdown 20230504/P/PySide6-Customized-Window/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-04 17:18:53] INFO root fetch - processPackages [PySide1-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide1_Customized_Window-1.2-py3-none-any.whl.zip tmp/PySide1_Customized_Window-1.3-py3-none-any.whl.zip --markdown 20230504/P/PySide1-Customized-Window/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-04 17:18:53] INFO root fetch - processPackages [PySide2-Customized-Window]: Downloading https://files.pythonhosted.org/packages/8b/0a/9a69f2a161aafdb8e60235fd42710aa5cf63f25d6a202b3c1c48609cf7c0/PySide2_Customized_Window-1.3-py3-none-any.whl
+[2023-05-04 17:18:53] INFO root fetch - processPackages [PySide2-Customized-Window]: executing diffoscope
+[2023-05-04 17:18:53] INFO root fetch - processPackages [PySide2-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2_Customized_Window-1.2-py3-none-any.whl.zip tmp/PySide2_Customized_Window-1.3-py3-none-any.whl.zip --markdown 20230504/P/PySide2-Customized-Window/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-04 17:18:53] INFO root fetch - processPackages [jadecobra]: executing diffoscope
+[2023-05-04 17:18:53] INFO root fetch - processPackages [jadecobra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jadecobra-0.3.61.tar.gz tmp/jadecobra-0.3.7.tar.gz --markdown 20230504/j/jadecobra/0.3.61-0.3.7/diff.md --exclude *.pyd
+[2023-05-04 17:18:53] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a8/a1/beee13dd42732e6b09a9fa98a5127296a4eb74cba08e3bdc0c5376e914db/django-pfx-1.2.dev8.tar.gz
+[2023-05-04 17:18:53] INFO root fetch - processPackages [FlexGet]: Downloading https://files.pythonhosted.org/packages/c1/74/6d0b405e0056ad51ab606ee0513e3a67790bb476231bad5feebe3bb13eb5/FlexGet-3.6.7.tar.gz
+[2023-05-04 17:18:53] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-05-04 17:18:53] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev6.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230504/d/django-pfx/1.2.dev6-1.2.dev8/diff.md --exclude *.pyd
+[2023-05-04 17:18:53] INFO root fetch - processPackages [FlexGet]: executing diffoscope
+[2023-05-04 17:18:53] INFO root fetch - processPackages [FlexGet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlexGet-3.6.6.tar.gz tmp/FlexGet-3.6.7.tar.gz --markdown 20230504/F/FlexGet/3.6.6-3.6.7/diff.md --exclude *.pyd
+[2023-05-04 17:18:54] INFO root fetch - processPackages [deepclient]: Start processing: costcalc2
+[2023-05-04 17:18:54] INFO root fetch - main [MainThread]: End processing [deepclient]: success
+[2023-05-04 17:18:54] INFO root fetch - processPackages [costcalc2]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-04 17:18:54] INFO root fetch - processPackages [PySide6-Customized-Window]: Start processing: pangeamt-nlp
+[2023-05-04 17:18:54] INFO root fetch - main [MainThread]: End processing [PySide6-Customized-Window]: success
+[2023-05-04 17:18:54] INFO root fetch - processPackages [pangeamt-nlp]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 17:18:54] INFO root fetch - processPackages [pangeamt-nlp]: Downloading https://files.pythonhosted.org/packages/c6/63/90a05d8afa2e60a42c4b790d5da8f149da330d252d82554552c102d33865/pangeamt-nlp-1.0.8.tar.gz
+[2023-05-04 17:18:54] INFO root fetch - main [MainThread]: End processing [PySide1-Customized-Window]: success
+[2023-05-04 17:18:54] INFO root fetch - main [MainThread]: End processing [PySide2-Customized-Window]: success
+[2023-05-04 17:18:55] INFO root fetch - processPackages [costcalc2]: Downloading https://files.pythonhosted.org/packages/e8/c0/d124d1f3b357920e5c53ece0520283d15638527af14f9565ae4e5d3ec09e/costcalc2-0.9.0.tar.gz
+[2023-05-04 17:18:55] INFO root fetch - processPackages [costcalc2]: Downloading https://files.pythonhosted.org/packages/40/6b/a0d29eabd3b70447b3c5c0c4d9f92ae1ce87168e31c28ab8bf5691d0fe7e/costcalc2-0.9.1.tar.gz
+[2023-05-04 17:18:55] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-05-04 17:18:55] INFO root fetch - main [MainThread]: End processing [jadecobra]: success
+[2023-05-04 17:18:55] INFO root fetch - processPackages [costcalc2]: executing diffoscope
+[2023-05-04 17:18:55] INFO root fetch - processPackages [costcalc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/costcalc2-0.9.0.tar.gz tmp/costcalc2-0.9.1.tar.gz --markdown 20230504/c/costcalc2/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-04 17:18:55] INFO root fetch - processPackages [TissUUmaps]: Downloading https://files.pythonhosted.org/packages/28/8a/b99097644cbf80b0a46efa1b703de3a351778d4e84425509a0c0e8089e7e/TissUUmaps-3.1rc3.tar.gz
+[2023-05-04 17:18:55] WARNING root fetch - processPackages [pangeamt-nlp]: Skipping package: exceeds size limit 14587887>=10485760
+[2023-05-04 17:18:55] INFO root fetch - main [MainThread]: End processing [pangeamt-nlp] error
+[2023-05-04 17:18:55] INFO root fetch - processPackages [ChiantiPy]: Downloading https://files.pythonhosted.org/packages/97/b7/b677ef702e41feb082dd2585a449ad91cf135db8ffcd5d7af7fb7a7b9d56/ChiantiPy-0.9.5.tar.gz
+[2023-05-04 17:18:55] INFO root fetch - main [MainThread]: End processing [autumn8]: success
+[2023-05-04 17:18:56] INFO root fetch - main [MainThread]: End processing [costcalc2]: success
+[2023-05-04 17:18:57] INFO root fetch - processPackages [ChiantiPy]: executing diffoscope
+[2023-05-04 17:18:57] INFO root fetch - processPackages [ChiantiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChiantiPy-0.9.4.tar.gz tmp/ChiantiPy-0.9.5.tar.gz --markdown 20230504/C/ChiantiPy/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-04 17:18:57] INFO root fetch - processPackages [TissUUmaps]: executing diffoscope
+[2023-05-04 17:18:57] INFO root fetch - processPackages [TissUUmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TissUUmaps-3.1rc2.tar.gz tmp/TissUUmaps-3.1rc3.tar.gz --markdown 20230504/T/TissUUmaps/3.1rc2-3.1rc3/diff.md --exclude *.pyd
+[2023-05-04 17:19:03] INFO root fetch - main [MainThread]: End processing [ChiantiPy]: success
+[2023-05-04 17:19:07] INFO root fetch - main [MainThread]: End processing [FlexGet]: success
+[2023-05-04 17:19:23] INFO root fetch - main [MainThread]: End processing [TissUUmaps]: success
+[2023-05-04 17:19:23] INFO root fetch - main [MainThread]: Store serial: [17974008]
