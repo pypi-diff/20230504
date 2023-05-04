@@ -7505,3 +7505,222 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 07:08:03] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-05-04 07:10:29] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
 [2023-05-04 07:10:29] INFO root fetch - main [MainThread]: Store serial: [17967512]
+[2023-05-04 07:15:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967512]
+[2023-05-04 07:15:42] INFO root fetch - main [MainThread]: Found 34 changed packages
+[2023-05-04 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywry
+[2023-05-04 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysisu
+[2023-05-04 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rum-with-telegram
+[2023-05-04 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: teelebot
+[2023-05-04 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-homeassistant-custom-component
+[2023-05-04 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: backend.ai-accelerator-cuda-open
+[2023-05-04 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: backend.ai-accelerator-mock
+[2023-05-04 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: backend.ai-agent
+[2023-05-04 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pdcscore
+[2023-05-04 07:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: backend.ai-cli
+[2023-05-04 07:15:42] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 07:15:42] INFO root fetch - processPackages [pysisu]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-04 07:15:42] INFO root fetch - processPackages [pywry]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-04 07:15:42] WARNING root fetch - processPackages [backend.ai-accelerator-mock]: Skipping, unable to determine old version
+[2023-05-04 07:15:42] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Start processing: backend.ai-client
+[2023-05-04 07:15:42] INFO root fetch - main [MainThread]: End processing [backend.ai-accelerator-mock] error
+[2023-05-04 07:15:42] INFO root fetch - processPackages [teelebot]: New version: [2.0.0] Old Version: [1.24.1]
+[2023-05-04 07:15:42] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: New version: [23.3.1] Old Version: [23.3.0a4]
+[2023-05-04 07:15:42] WARNING root fetch - processPackages [pdcscore]: Skipping, unable to determine old version
+[2023-05-04 07:15:42] INFO root fetch - processPackages [pdcscore]: Start processing: backend.ai-common
+[2023-05-04 07:15:42] INFO root fetch - main [MainThread]: End processing [pdcscore] error
+[2023-05-04 07:15:42] INFO root fetch - processPackages [backend.ai-cli]: New version: [23.3.1] Old Version: [23.3.0a4]
+[2023-05-04 07:15:42] INFO root fetch - processPackages [backend.ai-agent]: New version: [23.3.1] Old Version: [23.3.0a4]
+[2023-05-04 07:15:42] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-04 07:15:42] INFO root fetch - processPackages [backend.ai-client]: New version: [23.3.1] Old Version: [23.3.0a4]
+[2023-05-04 07:15:42] INFO root fetch - processPackages [backend.ai-common]: New version: [23.3.1] Old Version: [23.3.0a4]
+[2023-05-04 07:15:42] INFO root fetch - processPackages [pywry]: Downloading https://files.pythonhosted.org/packages/50/90/7926ffafb88fa97338c62c1453fb88ebb55fc24b8d7f5e74f2c3e97b9ffb/pywry-0.5.0.tar.gz
+[2023-05-04 07:15:42] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Downloading https://files.pythonhosted.org/packages/13/a6/e00577fabdca0de3edb3c279c41fb83a68cc78ff9b4c0156aaf99aa949df/backend.ai-accelerator-cuda-open-23.3.0a4.tar.gz
+[2023-05-04 07:15:42] INFO root fetch - processPackages [backend.ai-cli]: Downloading https://files.pythonhosted.org/packages/3f/f9/b296c29dc841b12534e6793de74756522ab575061ddf56942529a0aadd3d/backend.ai-cli-23.3.0a4.tar.gz
+[2023-05-04 07:15:42] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2023-05-04 07:15:42] INFO root fetch - processPackages [teelebot]: Downloading https://files.pythonhosted.org/packages/95/23/849411402a39bfb704ae8b5be9bab2518c301194e32d117627ac358cd719/teelebot-1.24.1-py3-none-any.whl
+[2023-05-04 07:15:42] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/d4/16/84cc88722bd10255d723d01fa9dc2815d4b63661eab3045dd34f7f052dc2/rum_with_telegram-0.9.4.tar.gz
+[2023-05-04 07:15:42] INFO root fetch - processPackages [backend.ai-client]: Downloading https://files.pythonhosted.org/packages/d6/1d/1e2395857d2fa163f6f748072ac851ae36ba2103bdab8d48c6f7e37f65b7/backend.ai-client-23.3.0a4.tar.gz
+[2023-05-04 07:15:42] INFO root fetch - processPackages [backend.ai-common]: Downloading https://files.pythonhosted.org/packages/f6/f0/2082d7153effa8d58d3db2bde4292216ae53b1999cb18c00ff174306880b/backend.ai-common-23.3.0a4.tar.gz
+[2023-05-04 07:15:42] INFO root fetch - processPackages [backend.ai-agent]: Downloading https://files.pythonhosted.org/packages/fb/65/6a5d0a8239adc3a0796ab610f3438f53451669f0b4df5010cf1e23ad2d1a/backend.ai-agent-23.3.0a4.tar.gz
+[2023-05-04 07:15:42] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-05-04 07:15:42] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.9.3.tar.gz tmp/rum_with_telegram-0.9.4.tar.gz --markdown 20230504/r/rum-with-telegram/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 07:15:42] INFO root fetch - processPackages [pysisu]: executing diffoscope
+[2023-05-04 07:15:42] INFO root fetch - processPackages [pysisu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysisu-0.4.8.tar.gz tmp/pysisu-0.4.9.tar.gz --markdown 20230504/p/pysisu/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-04 07:15:43] INFO root fetch - processPackages [pywry]: Downloading https://files.pythonhosted.org/packages/30/df/f07d3164c8a5fbe53df674d84301745c0ee0131b99096c034903f32f1dc8/pywry-0.5.1.tar.gz
+[2023-05-04 07:15:43] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2023-05-04 07:15:43] INFO root fetch - processPackages [teelebot]: Downloading https://files.pythonhosted.org/packages/90/f7/44ea8b54c53948e525d6fc5fa06b4ae07c93e2739f4c15f458996810ac86/teelebot-2.0.0-py3-none-any.whl
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-cli]: Downloading https://files.pythonhosted.org/packages/54/15/b53232c3e95c44234ecd665c355c510a5998724bd587f6b9ecc404175c17/backend.ai-cli-23.3.1.tar.gz
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-client]: Downloading https://files.pythonhosted.org/packages/ac/e1/ab73d7818754a5bac49f14df6ac3d02db9dc116e850f41fc24a941389e6c/backend.ai-client-23.3.1.tar.gz
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-common]: Downloading https://files.pythonhosted.org/packages/5b/34/eccdeb73f96fd1238a692dd43048b90986a2a98ff5f209b2f3770df242f8/backend.ai-common-23.3.1.tar.gz
+[2023-05-04 07:15:43] INFO root fetch - processPackages [pywry]: executing diffoscope
+[2023-05-04 07:15:43] INFO root fetch - processPackages [pywry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywry-0.5.0.tar.gz tmp/pywry-0.5.1.tar.gz --markdown 20230504/p/pywry/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-04 07:15:43] INFO root fetch - processPackages [teelebot]: executing diffoscope
+[2023-05-04 07:15:43] INFO root fetch - processPackages [teelebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teelebot-1.24.1-py3-none-any.whl.zip tmp/teelebot-2.0.0-py3-none-any.whl.zip --markdown 20230504/t/teelebot/1.24.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-cli]: executing diffoscope
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-cli-23.3.0a4.tar.gz tmp/backend.ai-cli-23.3.1.tar.gz --markdown 20230504/b/backend.ai-cli/23.3.0a4-23.3.1/diff.md --exclude *.pyd
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-client]: executing diffoscope
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-client-23.3.0a4.tar.gz tmp/backend.ai-client-23.3.1.tar.gz --markdown 20230504/b/backend.ai-client/23.3.0a4-23.3.1/diff.md --exclude *.pyd
+[2023-05-04 07:15:43] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2023-05-04 07:15:43] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20230504/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Downloading https://files.pythonhosted.org/packages/e9/9e/7dbc649031b67f085fff617ddf83edfc2f3efb9836af3f28ff478ddadd9d/backend.ai-accelerator-cuda-open-23.3.1.tar.gz
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-common]: executing diffoscope
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-common-23.3.0a4.tar.gz tmp/backend.ai-common-23.3.1.tar.gz --markdown 20230504/b/backend.ai-common/23.3.0a4-23.3.1/diff.md --exclude *.pyd
+[2023-05-04 07:15:43] WARNING root fetch - processPackages [backend.ai-agent]: Skipping package: exceeds size limit 17975150>=10485760
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-agent]: Start processing: backend.ai-kernel
+[2023-05-04 07:15:43] INFO root fetch - main [MainThread]: End processing [backend.ai-agent] error
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-kernel]: New version: [23.3.1] Old Version: [23.3.0a4]
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: executing diffoscope
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-accelerator-cuda-open-23.3.0a4.tar.gz tmp/backend.ai-accelerator-cuda-open-23.3.1.tar.gz --markdown 20230504/b/backend.ai-accelerator-cuda-open/23.3.0a4-23.3.1/diff.md --exclude *.pyd
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-kernel]: Downloading https://files.pythonhosted.org/packages/fd/62/060ce5d64bb87c27f56096f3ff9648dfbde175014c8032ac11cab650d357/backend.ai-kernel-23.3.0a4.tar.gz
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-kernel]: Downloading https://files.pythonhosted.org/packages/9b/3a/a543740f9295afdb75377a93084ea97acca51a9b82d53f10bb373294bfa6/backend.ai-kernel-23.3.1.tar.gz
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-kernel]: executing diffoscope
+[2023-05-04 07:15:43] INFO root fetch - processPackages [backend.ai-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-kernel-23.3.0a4.tar.gz tmp/backend.ai-kernel-23.3.1.tar.gz --markdown 20230504/b/backend.ai-kernel/23.3.0a4-23.3.1/diff.md --exclude *.pyd
+[2023-05-04 07:15:44] INFO root fetch - processPackages [rum-with-telegram]: Start processing: backend.ai-kernel-binary
+[2023-05-04 07:15:44] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-05-04 07:15:44] INFO root fetch - processPackages [backend.ai-kernel-binary]: New version: [23.3.1] Old Version: [23.3.0a4]
+[2023-05-04 07:15:44] INFO root fetch - processPackages [backend.ai-kernel-binary]: Downloading https://files.pythonhosted.org/packages/0d/3e/97a5c6ee35727b5a280e92e1af5b992e848cbd8308a4a30adace5deab591/backend.ai-kernel-binary-23.3.0a4.tar.gz
+[2023-05-04 07:15:44] INFO root fetch - processPackages [backend.ai-cli]: Start processing: backend.ai-kernel-helper
+[2023-05-04 07:15:44] INFO root fetch - main [MainThread]: End processing [backend.ai-cli]: success
+[2023-05-04 07:15:44] INFO root fetch - processPackages [backend.ai-kernel-helper]: New version: [23.3.1] Old Version: [23.3.0a4]
+[2023-05-04 07:15:45] INFO root fetch - processPackages [teelebot]: Start processing: backend.ai-manager
+[2023-05-04 07:15:45] INFO root fetch - main [MainThread]: End processing [teelebot]: success
+[2023-05-04 07:15:45] WARNING root fetch - processPackages [backend.ai-kernel-binary]: Skipping package: exceeds size limit 21983638>=10485760
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-kernel-binary]: Start processing: stdocker
+[2023-05-04 07:15:45] INFO root fetch - main [MainThread]: End processing [backend.ai-kernel-binary] error
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-manager]: New version: [23.3.1] Old Version: [23.3.0a4]
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-common]: Start processing: backend.ai-plugin
+[2023-05-04 07:15:45] INFO root fetch - main [MainThread]: End processing [backend.ai-common]: success
+[2023-05-04 07:15:45] INFO root fetch - processPackages [stdocker]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-plugin]: New version: [23.3.1] Old Version: [23.3.0a4]
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-kernel-helper]: Downloading https://files.pythonhosted.org/packages/4d/4a/2bcc54d2a7310d1c867f7176458e8253f6f3754c5c8b7fad363ba6c9803f/backend.ai-kernel-helper-23.3.0a4.tar.gz
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-manager]: Downloading https://files.pythonhosted.org/packages/57/0f/2cb1617ceaa0b4f8728edb46d5fdce130e6a386b170f3ed4d9f86abc206b/backend.ai-manager-23.3.0a4.tar.gz
+[2023-05-04 07:15:45] INFO root fetch - processPackages [stdocker]: Downloading https://files.pythonhosted.org/packages/ef/a1/54306a59254bf4cdbc1aa30061a7c516a3eef14ceaf9ef5b994383933d58/stdocker-1.0.8.tar.gz
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-plugin]: Downloading https://files.pythonhosted.org/packages/77/53/9e2dbe08f61c2c1ba6958e1a33f6031b97bfa801d1986f94e7d04a37e82e/backend.ai-plugin-23.3.0a4.tar.gz
+[2023-05-04 07:15:45] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Start processing: backend.ai-storage-proxy
+[2023-05-04 07:15:45] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-storage-proxy]: New version: [23.3.1] Old Version: [23.3.0a4]
+[2023-05-04 07:15:45] INFO root fetch - processPackages [pywry]: Start processing: backend.ai-test
+[2023-05-04 07:15:45] INFO root fetch - main [MainThread]: End processing [pywry]: success
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-test]: New version: [23.3.1] Old Version: [23.3.0a4]
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Start processing: backend.ai-webserver
+[2023-05-04 07:15:45] INFO root fetch - main [MainThread]: End processing [backend.ai-accelerator-cuda-open]: success
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-webserver]: New version: [23.3.1] Old Version: [23.3.0a4]
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-storage-proxy]: Downloading https://files.pythonhosted.org/packages/4d/d7/50aa699b4291c0db60fa367bfc50f1a0204a84a8738baa0777a8b6e5f2a8/backend.ai-storage-proxy-23.3.0a4.tar.gz
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-test]: Downloading https://files.pythonhosted.org/packages/e1/2f/d96d1933e89162f10247f3e6510f6a51036146f2c3eb7b6ee3798d447810/backend.ai-test-23.3.0a4.tar.gz
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-manager]: Downloading https://files.pythonhosted.org/packages/85/80/ba74ed52e2f2420c54ff76f175c59e68079594eea967279ea29273288233/backend.ai-manager-23.3.1.tar.gz
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-webserver]: Downloading https://files.pythonhosted.org/packages/82/ed/5b099434d832cd95f2ad19239e5bfcd5fe5fed38d4f4310ec7779a8bf1d1/backend.ai-webserver-23.3.0a4.tar.gz
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-manager]: executing diffoscope
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-manager-23.3.0a4.tar.gz tmp/backend.ai-manager-23.3.1.tar.gz --markdown 20230504/b/backend.ai-manager/23.3.0a4-23.3.1/diff.md --exclude *.pyd
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-kernel-helper]: Downloading https://files.pythonhosted.org/packages/73/8d/6e9150876ebda3ca40f68ce1f371451d0964b7ed23add099607c406ddef8/backend.ai-kernel-helper-23.3.1.tar.gz
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-storage-proxy]: Downloading https://files.pythonhosted.org/packages/98/c9/ba7c389e57deb062886d9fef8a4f8f3fb3bfe716e228de31cc2c1291faf8/backend.ai-storage-proxy-23.3.1.tar.gz
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-kernel-helper]: executing diffoscope
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-kernel-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-kernel-helper-23.3.0a4.tar.gz tmp/backend.ai-kernel-helper-23.3.1.tar.gz --markdown 20230504/b/backend.ai-kernel-helper/23.3.0a4-23.3.1/diff.md --exclude *.pyd
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-plugin]: Downloading https://files.pythonhosted.org/packages/8b/6d/a923ee62dff7eed70966a1617ba618c5ae4681c79f6155112ea9628995bd/backend.ai-plugin-23.3.1.tar.gz
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-test]: Downloading https://files.pythonhosted.org/packages/52/2e/ffb065742afd9502ffdd6f1d15419a03765e80ec724d5bee48313353af03/backend.ai-test-23.3.1.tar.gz
+[2023-05-04 07:15:45] INFO root fetch - processPackages [pysisu]: Start processing: aptos-brownie
+[2023-05-04 07:15:45] INFO root fetch - main [MainThread]: End processing [pysisu]: success
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-storage-proxy]: executing diffoscope
+[2023-05-04 07:15:45] INFO root fetch - processPackages [backend.ai-storage-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-storage-proxy-23.3.0a4.tar.gz tmp/backend.ai-storage-proxy-23.3.1.tar.gz --markdown 20230504/b/backend.ai-storage-proxy/23.3.0a4-23.3.1/diff.md --exclude *.pyd
+[2023-05-04 07:15:46] INFO root fetch - processPackages [backend.ai-plugin]: executing diffoscope
+[2023-05-04 07:15:46] INFO root fetch - processPackages [backend.ai-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-plugin-23.3.0a4.tar.gz tmp/backend.ai-plugin-23.3.1.tar.gz --markdown 20230504/b/backend.ai-plugin/23.3.0a4-23.3.1/diff.md --exclude *.pyd
+[2023-05-04 07:15:46] INFO root fetch - processPackages [stdocker]: Downloading https://files.pythonhosted.org/packages/f7/c8/8e96abc10a71c0360945e872865d9107780e3c315e0d57cd65518bd8d8bc/stdocker-1.0.9.tar.gz
+[2023-05-04 07:15:46] INFO root fetch - processPackages [aptos-brownie]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-05-04 07:15:46] INFO root fetch - processPackages [backend.ai-test]: executing diffoscope
+[2023-05-04 07:15:46] INFO root fetch - processPackages [backend.ai-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-test-23.3.0a4.tar.gz tmp/backend.ai-test-23.3.1.tar.gz --markdown 20230504/b/backend.ai-test/23.3.0a4-23.3.1/diff.md --exclude *.pyd
+[2023-05-04 07:15:46] INFO root fetch - processPackages [aptos-brownie]: Downloading https://files.pythonhosted.org/packages/2e/20/c5c1aba853a1cba8f0ec6b04d75d2e790b8e844a2786862ca4f02fd3b89a/aptos_brownie-3.0.5-py3-none-any.whl
+[2023-05-04 07:15:46] INFO root fetch - processPackages [stdocker]: executing diffoscope
+[2023-05-04 07:15:46] INFO root fetch - processPackages [stdocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdocker-1.0.8.tar.gz tmp/stdocker-1.0.9.tar.gz --markdown 20230504/s/stdocker/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 07:15:46] INFO root fetch - processPackages [backend.ai-kernel]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-05-04 07:15:46] INFO root fetch - main [MainThread]: End processing [backend.ai-kernel]: success
+[2023-05-04 07:15:46] INFO root fetch - processPackages [aptos-brownie]: executing diffoscope
+[2023-05-04 07:15:46] INFO root fetch - processPackages [aptos-brownie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aptos_brownie-3.0.4-py3-none-any.whl.zip tmp/aptos_brownie-3.0.5-py3-none-any.whl.zip --markdown 20230504/a/aptos-brownie/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-05-04 07:15:46] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.18.1] Old Version: [0.18.0]
+[2023-05-04 07:15:46] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/36/64/e817ac320215ceadfae4ed642029a45f3bb42d5bd1b03afef996f3937c5c/aws_prototyping_sdk.aws_arch-0.18.0.tar.gz
+[2023-05-04 07:15:46] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19293000>=10485760
+[2023-05-04 07:15:46] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-05-04 07:15:46] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-05-04 07:15:46] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 07:15:46] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/89/4d/0cfe83cf0a1839adc268021cacce00587ffd6e3e033f30a3109817ac616e/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/f7/be/7cbad907d8e6a591b873fd439e612fd865cdc76a1042feba71c36cd4bed5/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230504/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 07:15:47] INFO root fetch - processPackages [backend.ai-plugin]: Start processing: aws-prototyping-sdk.identity
+[2023-05-04 07:15:47] INFO root fetch - main [MainThread]: End processing [backend.ai-plugin]: success
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/97/38/e2f9b14890efcd00ef828b165bd9ff276265616d79d8d621c6ec8b436d08/aws_prototyping_sdk.identity-0.9.3.tar.gz
+[2023-05-04 07:15:47] INFO root fetch - processPackages [backend.ai-kernel-helper]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-05-04 07:15:47] INFO root fetch - main [MainThread]: End processing [backend.ai-kernel-helper]: success
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aptos-brownie]: Start processing: odoo-addon-l10n-es-aeat
+[2023-05-04 07:15:47] INFO root fetch - main [MainThread]: End processing [aptos-brownie]: success
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/62/6e/219166e3d14e639aae9211cbc1509a6dbe15cc23f9142e59ce77cdea2f2e/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/4f/9d/94a124e4f88dd060b8de9979d16e3ba1cb19e6590bed27dc100625fd0edb/aws_prototyping_sdk.identity-0.9.4.tar.gz
+[2023-05-04 07:15:47] INFO root fetch - processPackages [backend.ai-test]: Start processing: odoo-addon-l10n-es-aeat-mod111
+[2023-05-04 07:15:47] INFO root fetch - main [MainThread]: End processing [backend.ai-test]: success
+[2023-05-04 07:15:47] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: New version: [16.0.1.0.0.2] Old Version: [15.0.2.0.0.2]
+[2023-05-04 07:15:47] INFO root fetch - processPackages [backend.ai-storage-proxy]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-05-04 07:15:47] INFO root fetch - main [MainThread]: End processing [backend.ai-storage-proxy]: success
+[2023-05-04 07:15:47] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: New version: [16.0.2.0.2.4] Old Version: [16.0.2.0.2.2]
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 07:15:47] INFO root fetch - processPackages [stdocker]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-05-04 07:15:47] INFO root fetch - main [MainThread]: End processing [stdocker]: success
+[2023-05-04 07:15:47] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: executing diffoscope
+[2023-05-04 07:15:47] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod111-15.0.2.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod111-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-l10n-es-aeat-mod111/15.0.2.0.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230504/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 07:15:47] INFO root fetch - processPackages [backend.ai-webserver]: Downloading https://files.pythonhosted.org/packages/20/d1/8923d96cfb3f863cd87f7b51178ee09ab42e40a46283400d531f2d485964/backend.ai-webserver-23.3.1.tar.gz
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/a6/45/ddfefdff429d9a4baf37e564fdd0a983f5ea8166d0e2334b90c0b418756a/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/9b/a8/fb239c1d2008fa7b1297ad1672aa3e98e9a9063bff2eaa6cdcd842a88a9b/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/ef/05/b722ba023c19fdaec868b3d4963e41743ef58e82a6aa6b26fdc843152495/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz
+[2023-05-04 07:15:47] INFO root fetch - processPackages [backend.ai-client]: Start processing: aws-prototyping-sdk.pipeline
+[2023-05-04 07:15:47] INFO root fetch - main [MainThread]: End processing [backend.ai-client]: success
+[2023-05-04 07:15:47] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/6b/be/f5575061cf3d43c350689307dff50d8543d552adb369706ef5f44aef125d/odoo_addon_l10n_es_aeat-16.0.2.0.2.2-py3-none-any.whl
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 07:15:47] INFO root fetch - processPackages [backend.ai-webserver]: executing diffoscope
+[2023-05-04 07:15:47] INFO root fetch - processPackages [backend.ai-webserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-webserver-23.3.0a4.tar.gz tmp/backend.ai-webserver-23.3.1.tar.gz --markdown 20230504/b/backend.ai-webserver/23.3.0a4-23.3.1/diff.md --exclude *.pyd
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/50/a5/38b1bbe94b587fb0e87caef969a05ba18b295e505292f0ba228b136ae731/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/12/71/4f7e5e98d46a0838bcfdff9092c0d810bc7a9d8a2026f6359027e18bd571/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz
+[2023-05-04 07:15:47] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/42/08/74d21c65ab1d20b6b0ffa70724b1674c9dfb7fb5928c75be8facb32049a8/aws_prototyping_sdk.pipeline-0.9.3.tar.gz
+[2023-05-04 07:15:48] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-05-04 07:15:48] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230504/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 07:15:48] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-05-04 07:15:48] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230504/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 07:15:48] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/3b/25/07bfef78766c8655b384c468aeb5f171d537aafabe48a0af1fd12c7301df/aws_prototyping_sdk.pipeline-0.9.4.tar.gz
+[2023-05-04 07:15:48] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/ac/68/539a299fa29ef56c0c3769a8a6faa689693589816aaf4bfd52e88586ca4d/odoo_addon_l10n_es_aeat-16.0.2.0.2.4-py3-none-any.whl
+[2023-05-04 07:15:48] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-05-04 07:15:48] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230504/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 07:15:48] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-05-04 07:15:48] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230504/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 07:15:48] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: executing diffoscope
+[2023-05-04 07:15:48] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat-16.0.2.0.2.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat-16.0.2.0.2.4-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-l10n-es-aeat/16.0.2.0.2.2-16.0.2.0.2.4/diff.md --exclude *.pyd
+[2023-05-04 07:15:49] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Start processing: aws-prototyping-sdk.static-website
+[2023-05-04 07:15:49] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-05-04 07:15:49] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 07:15:49] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Start processing: odoo-addons-oca-l10n-spain
+[2023-05-04 07:15:49] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-05-04 07:15:49] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/33/2f/60587f31d52e48c949b1da26eb9e70f7d2091bc14ce396730cba7ee0991f/aws_prototyping_sdk.static_website-0.9.3.tar.gz
+[2023-05-04 07:15:49] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-05-04 07:15:49] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-05-04 07:15:49] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.18.0] Old Version: [0.17.5]
+[2023-05-04 07:15:49] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: New version: [16.0.20230503.0] Old Version: [16.0.20230411.0]
+[2023-05-04 07:15:49] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-05-04 07:15:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod111]: success
+[2023-05-04 07:15:49] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-05-04 07:15:49] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.17.5.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.18.0.tar.gz --markdown 20230504/a/aws-prototyping-sdk.type-safe-api/0.17.5-0.18.0/diff.md --exclude *.pyd
+[2023-05-04 07:15:49] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-05-04 07:15:49] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/e5/0f/641eb55e81a3b33a7465ceab3037ff68668a4f9bba07d31995a7c7bd15b2/aws_prototyping_sdk.static_website-0.9.4.tar.gz
+[2023-05-04 07:15:49] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/2d/04/7e71a9eec5200d9b4f1f7fe6cd305f17be96b232a48e8a2311f285b45783/odoo_addons_oca_l10n_spain-16.0.20230411.0-py3-none-any.whl
+[2023-05-04 07:15:49] INFO root fetch - main [MainThread]: End processing [backend.ai-manager]: success
+[2023-05-04 07:15:50] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-05-04 07:15:50] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230504/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 07:15:50] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/fa/48/d310723dc463f7fdab25f51141ade0f2218e2fcdaa02f1934ad6ade5d0c9/odoo_addons_oca_l10n_spain-16.0.20230503.0-py3-none-any.whl
+[2023-05-04 07:15:50] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: executing diffoscope
+[2023-05-04 07:15:50] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_spain-16.0.20230411.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_spain-16.0.20230503.0-py3-none-any.whl.zip --markdown 20230504/o/odoo-addons-oca-l10n-spain/16.0.20230411.0-16.0.20230503.0/diff.md --exclude *.pyd
+[2023-05-04 07:15:51] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-05-04 07:15:51] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-spain]: success
+[2023-05-04 07:15:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
+[2023-05-04 07:15:52] INFO root fetch - main [MainThread]: End processing [backend.ai-webserver]: success
+[2023-05-04 07:15:52] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-05-04 07:15:52] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-05-04 07:15:52] INFO root fetch - main [MainThread]: Store serial: [17967626]
