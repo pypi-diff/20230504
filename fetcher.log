@@ -19809,3 +19809,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 18:25:23] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-05-04 18:25:23] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-05-04 18:25:23] INFO root fetch - main [MainThread]: Store serial: [17974816]
+[2023-05-04 18:30:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17974816]
+[2023-05-04 18:30:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-04 18:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sinabs
+[2023-05-04 18:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sinabs
+[2023-05-04 18:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-shelly-ruleCacheDisable
+[2023-05-04 18:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spgci
+[2023-05-04 18:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robotic
+[2023-05-04 18:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oceano-algos
+[2023-05-04 18:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: codefast
+[2023-05-04 18:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-strongly-typed
+[2023-05-04 18:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-shelly-longTests
+[2023-05-04 18:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pip-audit
+[2023-05-04 18:30:33] INFO root fetch - processPackages [spgci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 18:30:33] WARNING root fetch - processPackages [certora-cli-alpha-shelly-ruleCacheDisable]: Skipping, unable to determine old version
+[2023-05-04 18:30:33] INFO root fetch - processPackages [certora-cli-alpha-shelly-ruleCacheDisable]: Start processing: ou-tm351-jl-extensions
+[2023-05-04 18:30:33] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-ruleCacheDisable] error
+[2023-05-04 18:30:33] INFO root fetch - processPackages [codefast]: New version: [23.5.4.16] Old Version: [23.4.8.2]
+[2023-05-04 18:30:33] INFO root fetch - processPackages [robotic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 18:30:33] WARNING root fetch - processPackages [certora-cli-alpha-shelly-longTests]: Skipping, unable to determine old version
+[2023-05-04 18:30:33] INFO root fetch - processPackages [certora-cli-alpha-shelly-longTests]: Start processing: sts-libs
+[2023-05-04 18:30:33] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-longTests] error
+[2023-05-04 18:30:33] INFO root fetch - processPackages [py-strongly-typed]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-04 18:30:33] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-04 18:30:33] INFO root fetch - processPackages [sinabs]: New version: [1.2.6.dev2] Old Version: [1.2.6.dev1]
+[2023-05-04 18:30:33] WARNING root fetch - processPackages [ou-tm351-jl-extensions]: Skipping, unable to determine old version
+[2023-05-04 18:30:33] INFO root fetch - processPackages [ou-tm351-jl-extensions]: Start processing: pyvast
+[2023-05-04 18:30:33] INFO root fetch - main [MainThread]: End processing [ou-tm351-jl-extensions] error
+[2023-05-04 18:30:33] INFO root fetch - processPackages [pip-audit]: New version: [2.5.5] Old Version: [2.5.4]
+[2023-05-04 18:30:33] INFO root fetch - processPackages [sinabs]: New version: [1.2.6.dev2] Old Version: [1.2.6.dev1]
+[2023-05-04 18:30:33] WARNING root fetch - processPackages [sts-libs]: Skipping, unable to determine old version
+[2023-05-04 18:30:33] INFO root fetch - processPackages [sts-libs]: Start processing: pear-xai
+[2023-05-04 18:30:33] INFO root fetch - main [MainThread]: End processing [sts-libs] error
+[2023-05-04 18:30:33] INFO root fetch - processPackages [pyvast]: New version: [3.1.0rc1] Old Version: [3.0.4]
+[2023-05-04 18:30:33] INFO root fetch - processPackages [pear-xai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-04 18:30:33] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-05-04 18:30:33] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230504/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-04 18:30:33] INFO root fetch - processPackages [pip-audit]: Downloading https://files.pythonhosted.org/packages/7c/75/c977c23e0e1bcb86ff0f4b987b3501dfd5a0b23e3bed7f7e94c446a713e7/pip_audit-2.5.4.tar.gz
+[2023-05-04 18:30:33] INFO root fetch - processPackages [spgci]: Downloading https://files.pythonhosted.org/packages/94/45/63c272c3047fc87580751c2c1a49b2da6ca31f87cc36d2bc52d285a37e6e/spgci-0.0.8.tar.gz
+[2023-05-04 18:30:33] INFO root fetch - processPackages [codefast]: Downloading https://files.pythonhosted.org/packages/62/9d/3fc6916700274a839de55314d6810fe37f2dcc9cca7e4520d067948e5196/codefast-23.4.8.2.tar.gz
+[2023-05-04 18:30:33] INFO root fetch - processPackages [robotic]: Downloading https://files.pythonhosted.org/packages/34/a9/a4575e5556c65e745516c498a2bfe9aaaf1b460ff5faa412b064787999e8/robotic-0.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-04 18:30:33] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/95/88/419b43340220533ca9f232f4e1f66d077dad591c8eba7e572015affdc18e/sinabs-1.2.6.dev1.tar.gz
+[2023-05-04 18:30:33] INFO root fetch - processPackages [py-strongly-typed]: Downloading https://files.pythonhosted.org/packages/b9/9e/ee061008c4018678d5165638d0ed45631d862b7ea12f2d37bf9e43ba6ef0/py-strongly-typed-1.1.4.tar.gz
+[2023-05-04 18:30:33] INFO root fetch - processPackages [pyvast]: Downloading https://files.pythonhosted.org/packages/c3/ad/b0b4a67403f9ea1d748095218779ca015651e4d16550fa2b8f2101985cea/pyvast-3.0.4.tar.gz
+[2023-05-04 18:30:33] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/95/88/419b43340220533ca9f232f4e1f66d077dad591c8eba7e572015affdc18e/sinabs-1.2.6.dev1.tar.gz
+[2023-05-04 18:30:33] INFO root fetch - processPackages [pear-xai]: executing diffoscope
+[2023-05-04 18:30:33] INFO root fetch - processPackages [pear-xai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pear-xai-0.0.7.tar.gz tmp/pear-xai-0.0.8.tar.gz --markdown 20230504/p/pear-xai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-04 18:30:33] INFO root fetch - processPackages [py-strongly-typed]: executing diffoscope
+[2023-05-04 18:30:33] INFO root fetch - processPackages [py-strongly-typed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-strongly-typed-1.1.3.tar.gz tmp/py-strongly-typed-1.1.4.tar.gz --markdown 20230504/p/py-strongly-typed/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-04 18:30:33] WARNING root fetch - processPackages [robotic]: Skipping package: exceeds size limit 12240177>=10485760
+[2023-05-04 18:30:33] INFO root fetch - main [MainThread]: End processing [robotic] error
+[2023-05-04 18:30:33] INFO root fetch - processPackages [pyvast]: Downloading https://files.pythonhosted.org/packages/ea/23/84725cb9657304de9ef331d80b78b9634afeb42a96f12e79ef77e3d07db1/pyvast-3.1.0rc1.tar.gz
+[2023-05-04 18:30:33] INFO root fetch - processPackages [codefast]: Downloading https://files.pythonhosted.org/packages/9e/5b/f6915387ef69c91657a12814d7e6ef831f9a5e36e4bbd04ab4780ae7bbac/codefast-23.5.4.16.tar.gz
+[2023-05-04 18:30:33] INFO root fetch - processPackages [pip-audit]: Downloading https://files.pythonhosted.org/packages/c2/17/6d3dc833570867a1c9ba011e82edc9e5622bff08292fe6ff9e253550943a/pip_audit-2.5.5.tar.gz
+[2023-05-04 18:30:33] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/04/bf/9c97c443e05093f057f202e4f1ce2ab94f43f3fb4a0957d585ffc9057ca9/sinabs-1.2.6.dev2.tar.gz
+[2023-05-04 18:30:33] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/04/bf/9c97c443e05093f057f202e4f1ce2ab94f43f3fb4a0957d585ffc9057ca9/sinabs-1.2.6.dev2.tar.gz
+[2023-05-04 18:30:33] INFO root fetch - processPackages [codefast]: executing diffoscope
+[2023-05-04 18:30:33] INFO root fetch - processPackages [codefast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codefast-23.4.8.2.tar.gz tmp/codefast-23.5.4.16.tar.gz --markdown 20230504/c/codefast/23.4.8.2-23.5.4.16/diff.md --exclude *.pyd
+[2023-05-04 18:30:33] INFO root fetch - processPackages [pyvast]: executing diffoscope
+[2023-05-04 18:30:33] INFO root fetch - processPackages [pip-audit]: executing diffoscope
+[2023-05-04 18:30:33] INFO root fetch - processPackages [pyvast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvast-3.0.4.tar.gz tmp/pyvast-3.1.0rc1.tar.gz --markdown 20230504/p/pyvast/3.0.4-3.1.0rc1/diff.md --exclude *.pyd
+[2023-05-04 18:30:33] INFO root fetch - processPackages [pip-audit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip_audit-2.5.4.tar.gz tmp/pip_audit-2.5.5.tar.gz --markdown 20230504/p/pip-audit/2.5.4-2.5.5/diff.md --exclude *.pyd
+[2023-05-04 18:30:33] INFO root fetch - processPackages [spgci]: Downloading https://files.pythonhosted.org/packages/23/ee/39b2ba24bbc6531d21d8a2b5f11bb25fc3a49c25079a5859d7b25ba914d0/spgci-0.0.9.tar.gz
+[2023-05-04 18:30:33] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-05-04 18:30:33] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.6.dev1.tar.gz tmp/sinabs-1.2.6.dev2.tar.gz --markdown 20230504/s/sinabs/1.2.6.dev1-1.2.6.dev2/diff.md --exclude *.pyd
+[2023-05-04 18:30:33] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-05-04 18:30:33] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.6.dev1.tar.gz tmp/sinabs-1.2.6.dev2.tar.gz --markdown 20230504/s/sinabs/1.2.6.dev1-1.2.6.dev2/diff.md --exclude *.pyd
+[2023-05-04 18:30:33] INFO root fetch - processPackages [spgci]: executing diffoscope
+[2023-05-04 18:30:33] INFO root fetch - processPackages [spgci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spgci-0.0.8.tar.gz tmp/spgci-0.0.9.tar.gz --markdown 20230504/s/spgci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 18:30:34] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-05-04 18:30:34] INFO root fetch - main [MainThread]: End processing [py-strongly-typed]: success
+[2023-05-04 18:30:35] INFO root fetch - main [MainThread]: End processing [pyvast]: success
+[2023-05-04 18:30:35] INFO root fetch - main [MainThread]: End processing [pip-audit]: success
+[2023-05-04 18:30:35] INFO root fetch - main [MainThread]: End processing [codefast]: success
+[2023-05-04 18:30:35] INFO root fetch - main [MainThread]: End processing [spgci]: success
+[2023-05-04 18:30:35] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-05-04 18:30:35] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-05-04 18:30:37] INFO root fetch - main [MainThread]: End processing [pear-xai]: success
+[2023-05-04 18:30:37] INFO root fetch - main [MainThread]: Store serial: [17974868]
