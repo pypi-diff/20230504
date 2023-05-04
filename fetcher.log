@@ -14340,3 +14340,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 13:49:36] INFO root fetch - main [MainThread]: End processing [akeyless]: success
 [2023-05-04 13:50:17] INFO root fetch - main [MainThread]: End processing [hubspot-api-client]: success
 [2023-05-04 13:50:17] INFO root fetch - main [MainThread]: Store serial: [17971528]
+[2023-05-04 13:55:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17971528]
+[2023-05-04 13:55:27] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-04 13:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DL-ANN-pkg-VaibhavJoshi95
+[2023-05-04 13:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openmetadata-managed-apis
+[2023-05-04 13:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SharkBinary
+[2023-05-04 13:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotmk
+[2023-05-04 13:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pinstance
+[2023-05-04 13:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: whitetower
+[2023-05-04 13:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: batpy
+[2023-05-04 13:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-assaf-UFAttribute2Enum
+[2023-05-04 13:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-dllib
+[2023-05-04 13:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: csst-ifs-gehong
+[2023-05-04 13:55:27] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.0.0.2] Old Version: [1.0.0.1]
+[2023-05-04 13:55:27] WARNING root fetch - processPackages [SharkBinary]: Skipping, unable to determine old version
+[2023-05-04 13:55:27] INFO root fetch - processPackages [SharkBinary]: Start processing: bigdl-orca
+[2023-05-04 13:55:27] WARNING root fetch - processPackages [DL-ANN-pkg-VaibhavJoshi95]: Skipping, unable to determine old version
+[2023-05-04 13:55:27] INFO root fetch - processPackages [DL-ANN-pkg-VaibhavJoshi95]: Start processing: pyswtools
+[2023-05-04 13:55:27] INFO root fetch - main [MainThread]: End processing [SharkBinary] error
+[2023-05-04 13:55:27] INFO root fetch - processPackages [pinstance]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-05-04 13:55:27] INFO root fetch - main [MainThread]: End processing [DL-ANN-pkg-VaibhavJoshi95] error
+[2023-05-04 13:55:27] INFO root fetch - processPackages [batpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 13:55:27] INFO root fetch - processPackages [whitetower]: New version: [0.2] Old Version: [0.1]
+[2023-05-04 13:55:27] INFO root fetch - processPackages [robotmk]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-05-04 13:55:27] INFO root fetch - processPackages [certora-cli-alpha-assaf-UFAttribute2Enum]: New version: [20230504.11.51.708711] Old Version: [20230502.12.53.125577]
+[2023-05-04 13:55:27] INFO root fetch - processPackages [csst-ifs-gehong]: New version: [0.0.1.8] Old Version: [0.0.1.7]
+[2023-05-04 13:55:27] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230504] Old Version: [2.4.0b20230503]
+[2023-05-04 13:55:27] WARNING root fetch - processPackages [pyswtools]: Skipping, unable to determine old version
+[2023-05-04 13:55:27] INFO root fetch - processPackages [pyswtools]: Start processing: bigdl-friesian
+[2023-05-04 13:55:27] INFO root fetch - main [MainThread]: End processing [pyswtools] error
+[2023-05-04 13:55:27] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230503] Old Version: [2.4.0b20230502]
+[2023-05-04 13:55:27] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230503] Old Version: [2.4.0b20230502]
+[2023-05-04 13:55:27] INFO root fetch - processPackages [certora-cli-alpha-assaf-UFAttribute2Enum]: Downloading https://files.pythonhosted.org/packages/d5/c9/5994b3a62a53686b1b337afe639436f1eedb9a4e42660787d66985208e93/certora-cli-alpha-assaf-UFAttribute2Enum-20230502.12.53.125577.tar.gz
+[2023-05-04 13:55:27] INFO root fetch - processPackages [whitetower]: Downloading https://files.pythonhosted.org/packages/b3/ef/f3125a511a713f801f84ac9d9859e2b85cd0ed31cf00d9ebae476c9e1a21/whitetower-0.1-py3-none-any.whl
+[2023-05-04 13:55:27] INFO root fetch - processPackages [batpy]: Downloading https://files.pythonhosted.org/packages/f1/26/e98a0459643eb66cea5e2dcdecc2d7ae12016bf1b6ed4ee05c4bba84e150/batpy-0.0.8.tar.gz
+[2023-05-04 13:55:27] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/45/fd/7f19467aa7fd1fb78cd9de3c087635f1ca2bfec8f4779f4e8ca52907ff1e/bigdl-dllib-2.4.0b20230503.tar.gz
+[2023-05-04 13:55:27] INFO root fetch - processPackages [pinstance]: Downloading https://files.pythonhosted.org/packages/d9/40/8c592313bcf643cc71d171cc2bdbf77a103fe2bdcd85d3b6e6880937b102/pinstance-0.2.0.tar.gz
+[2023-05-04 13:55:27] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/a2/73/90525d45e71212771786daae7a4d39ac71d9bdddcba0309315d473f9a65d/bigdl_orca-2.4.0b20230502-py3-none-manylinux1_x86_64.whl
+[2023-05-04 13:55:27] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/6b/c8/1da401927cbff14fd800af5830683006ad8183b11b01c2b1e3639db3ca01/openmetadata_managed_apis-1.0.0.1.tar.gz
+[2023-05-04 13:55:27] INFO root fetch - processPackages [csst-ifs-gehong]: Downloading https://files.pythonhosted.org/packages/6b/f9/658ff67b4668209dc3834884f9c38525773348ecf308b65af8c308b697cd/csst-ifs-gehong-0.0.1.8.tar.gz
+[2023-05-04 13:55:27] WARNING root fetch - processPackages [certora-cli-alpha-assaf-UFAttribute2Enum]: Skipping package: exceeds size limit 38297627>=10485760
+[2023-05-04 13:55:27] INFO root fetch - processPackages [certora-cli-alpha-assaf-UFAttribute2Enum]: Start processing: certora-cli-alpha-roy-CERT-1844-usage
+[2023-05-04 13:55:27] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-UFAttribute2Enum] error
+[2023-05-04 13:55:27] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53559884>=10485760
+[2023-05-04 13:55:27] INFO root fetch - processPackages [bigdl-dllib]: Start processing: bigdl
+[2023-05-04 13:55:27] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-05-04 13:55:28] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369170>=10485760
+[2023-05-04 13:55:28] INFO root fetch - processPackages [bigdl-orca]: Start processing: acltldr
+[2023-05-04 13:55:28] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-05-04 13:55:28] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: New version: [20230504.9.58.528177] Old Version: [20230504.10.49.97340]
+[2023-05-04 13:55:28] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230503] Old Version: [2.4.0b20230502]
+[2023-05-04 13:55:28] INFO root fetch - processPackages [csst-ifs-gehong]: executing diffoscope
+[2023-05-04 13:55:28] INFO root fetch - processPackages [csst-ifs-gehong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csst-ifs-gehong-0.0.1.7.tar.gz tmp/csst-ifs-gehong-0.0.1.8.tar.gz --markdown 20230504/c/csst-ifs-gehong/0.0.1.7-0.0.1.8/diff.md --exclude *.pyd
+[2023-05-04 13:55:28] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Downloading https://files.pythonhosted.org/packages/34/18/b8340e96e1f91cee79995238377c42e3b66ca5390a7f436ed8be9bd54d2f/certora-cli-alpha-roy-CERT-1844-usage-20230504.10.49.97340.tar.gz
+[2023-05-04 13:55:28] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-05-04 13:55:28] WARNING root fetch - processPackages [acltldr]: Skipping, unable to determine old version
+[2023-05-04 13:55:28] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230502-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230503-py3-none-manylinux1_x86_64.whl.zip --markdown 20230504/b/bigdl-friesian/2.4.0b20230502-2.4.0b20230503/diff.md --exclude *.pyd
+[2023-05-04 13:55:28] INFO root fetch - processPackages [acltldr]: Start processing: memorious
+[2023-05-04 13:55:28] INFO root fetch - main [MainThread]: End processing [acltldr] error
+[2023-05-04 13:55:28] INFO root fetch - processPackages [whitetower]: Downloading https://files.pythonhosted.org/packages/3a/23/83321e9a97bb633fd9e11f0ddb9d5293ac7fa13ee78fdca1c6a7c9740261/whitetower-0.2-py3-none-any.whl
+[2023-05-04 13:55:28] INFO root fetch - processPackages [robotmk]: executing diffoscope
+[2023-05-04 13:55:28] INFO root fetch - processPackages [robotmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotmk-0.0.56.tar.gz tmp/robotmk-0.0.57.tar.gz --markdown 20230504/r/robotmk/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-05-04 13:55:28] INFO root fetch - processPackages [batpy]: Downloading https://files.pythonhosted.org/packages/de/b8/61867bb67e8ddff787f0378f192cd1d9cf11f43604c6bab6132a350e600b/batpy-0.0.9.tar.gz
+[2023-05-04 13:55:28] INFO root fetch - processPackages [pinstance]: Downloading https://files.pythonhosted.org/packages/00/f3/b83f0925bae34827ff3d15a14f431f30a929b68f3f2d9dfa03b59e6312d5/pinstance-1.0.0.tar.gz
+[2023-05-04 13:55:28] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Skipping package: exceeds size limit 38423716>=10485760
+[2023-05-04 13:55:28] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Start processing: robin-sd-download
+[2023-05-04 13:55:28] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1844-usage] error
+[2023-05-04 13:55:28] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/5f/c2/6f86fae842573af9621e9f402dff5b6a425c09748add32c6d40164f244f5/openmetadata_managed_apis-1.0.0.2.tar.gz
+[2023-05-04 13:55:28] INFO root fetch - processPackages [memorious]: New version: [2.6.2] Old Version: [2.5.0]
+[2023-05-04 13:55:28] INFO root fetch - processPackages [pinstance]: executing diffoscope
+[2023-05-04 13:55:28] INFO root fetch - processPackages [pinstance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinstance-0.2.0.tar.gz tmp/pinstance-1.0.0.tar.gz --markdown 20230504/p/pinstance/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-04 13:55:28] INFO root fetch - processPackages [batpy]: executing diffoscope
+[2023-05-04 13:55:28] INFO root fetch - processPackages [batpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batpy-0.0.8.tar.gz tmp/batpy-0.0.9.tar.gz --markdown 20230504/b/batpy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 13:55:28] INFO root fetch - processPackages [robin-sd-download]: New version: [0.3.0] Old Version: [0.2.98]
+[2023-05-04 13:55:28] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2023-05-04 13:55:28] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.0.0.1.tar.gz tmp/openmetadata_managed_apis-1.0.0.2.tar.gz --markdown 20230504/o/openmetadata-managed-apis/1.0.0.1-1.0.0.2/diff.md --exclude *.pyd
+[2023-05-04 13:55:28] INFO root fetch - processPackages [whitetower]: executing diffoscope
+[2023-05-04 13:55:28] INFO root fetch - processPackages [whitetower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whitetower-0.1-py3-none-any.whl.zip tmp/whitetower-0.2-py3-none-any.whl.zip --markdown 20230504/w/whitetower/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-04 13:55:28] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/dc/b3/7ccdefb87de19b8ca658aaa5f9882c3cec93bd1fa4144aaeee8832da7ea8/bigdl-2.4.0b20230503-py3-none-manylinux1_x86_64.whl
+[2023-05-04 13:55:28] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-05-04 13:55:28] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230502-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230503-py3-none-manylinux1_x86_64.whl.zip --markdown 20230504/b/bigdl/2.4.0b20230502-2.4.0b20230503/diff.md --exclude *.pyd
+[2023-05-04 13:55:28] INFO root fetch - processPackages [memorious]: Downloading https://files.pythonhosted.org/packages/ca/cd/267c9d4f347ef042f5abc8866721c41f12d0f448851ecce1bf0ae30c21c9/memorious-2.5.0.tar.gz
+[2023-05-04 13:55:28] INFO root fetch - processPackages [robin-sd-download]: Downloading https://files.pythonhosted.org/packages/ef/f0/c66c5909d81bc5f8335dec974b4b5a2be3cf92776bad6a62a1583c9575fc/robin_sd_download-0.2.98.tar.gz
+[2023-05-04 13:55:28] INFO root fetch - processPackages [memorious]: Downloading https://files.pythonhosted.org/packages/78/2b/14133a6d9e36865798207cab1fcdb37563135ccba509fd45b629683c3960/memorious-2.6.2.tar.gz
+[2023-05-04 13:55:28] INFO root fetch - processPackages [robin-sd-download]: Downloading https://files.pythonhosted.org/packages/69/dc/c6df3a44315df95d84e27da2df32c3c19706e07bc58ea46db17e6faecf12/robin_sd_download-0.3.0.tar.gz
+[2023-05-04 13:55:28] INFO root fetch - processPackages [memorious]: executing diffoscope
+[2023-05-04 13:55:28] INFO root fetch - processPackages [memorious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memorious-2.5.0.tar.gz tmp/memorious-2.6.2.tar.gz --markdown 20230504/m/memorious/2.5.0-2.6.2/diff.md --exclude *.pyd
+[2023-05-04 13:55:28] INFO root fetch - processPackages [robin-sd-download]: executing diffoscope
+[2023-05-04 13:55:28] INFO root fetch - processPackages [robin-sd-download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin_sd_download-0.2.98.tar.gz tmp/robin_sd_download-0.3.0.tar.gz --markdown 20230504/r/robin-sd-download/0.2.98-0.3.0/diff.md --exclude *.pyd
+[2023-05-04 13:55:29] INFO root fetch - processPackages [batpy]: Start processing: dna-audit-new
+[2023-05-04 13:55:29] INFO root fetch - main [MainThread]: End processing [batpy]: success
+[2023-05-04 13:55:29] WARNING root fetch - processPackages [dna-audit-new]: Skipping, unable to determine old version
+[2023-05-04 13:55:29] INFO root fetch - main [MainThread]: End processing [dna-audit-new] error
+[2023-05-04 13:55:29] INFO root fetch - main [MainThread]: End processing [pinstance]: success
+[2023-05-04 13:55:30] INFO root fetch - main [MainThread]: End processing [whitetower]: success
+[2023-05-04 13:55:30] INFO root fetch - main [MainThread]: End processing [csst-ifs-gehong]: success
+[2023-05-04 13:55:30] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-05-04 13:55:30] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2023-05-04 13:55:30] INFO root fetch - main [MainThread]: End processing [robotmk]: success
+[2023-05-04 13:55:30] INFO root fetch - main [MainThread]: End processing [robin-sd-download]: success
+[2023-05-04 13:55:30] INFO root fetch - main [MainThread]: End processing [memorious]: success
+[2023-05-04 13:55:30] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-05-04 13:55:30] INFO root fetch - main [MainThread]: Store serial: [17971586]
