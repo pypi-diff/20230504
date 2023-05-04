@@ -20833,3 +20833,129 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 19:20:42] INFO root fetch - main [MainThread]: End processing [asf-search]: success
 [2023-05-04 19:20:43] INFO root fetch - main [MainThread]: End processing [jina]: success
 [2023-05-04 19:20:43] INFO root fetch - main [MainThread]: Store serial: [17975431]
+[2023-05-04 19:25:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17975431]
+[2023-05-04 19:25:53] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-04 19:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: app-server
+[2023-05-04 19:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vectorGPTBot
+[2023-05-04 19:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-oz-docker-json5
+[2023-05-04 19:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-05-04 19:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-05-04 19:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tsaugmentation
+[2023-05-04 19:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MirSerializer
+[2023-05-04 19:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xklb
+[2023-05-04 19:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-master
+[2023-05-04 19:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: loggerml
+[2023-05-04 19:25:53] INFO root fetch - processPackages [tsaugmentation]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-04 19:25:53] INFO root fetch - processPackages [vectorGPTBot]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-05-04 19:25:53] INFO root fetch - processPackages [app-server]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 19:25:53] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: New version: [20230504.8.42.61246] Old Version: [20230504.17.20.90759]
+[2023-05-04 19:25:53] INFO root fetch - processPackages [MirSerializer]: New version: [2.0.0] Old Version: [1.0.4]
+[2023-05-04 19:25:53] INFO root fetch - processPackages [loggerml]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-04 19:25:53] INFO root fetch - processPackages [xklb]: New version: [1.26.23] Old Version: [1.26.21]
+[2023-05-04 19:25:53] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230504.9.57.726431] Old Version: [20230504.17.22.196925]
+[2023-05-04 19:25:53] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-04 19:25:53] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-04 19:25:53] INFO root fetch - processPackages [MirSerializer]: Downloading https://files.pythonhosted.org/packages/c0/a3/42ab2a0bace682f2469735534441faa8e4fb825cae7f44af3315f43deb69/MirSerializer-1.0.4.tar.gz
+[2023-05-04 19:25:53] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Downloading https://files.pythonhosted.org/packages/5a/dd/97be69d644055320e41789931abcab630887bc8a4c2f9d3115b5a7714042/certora-cli-alpha-oz-docker-json5-20230504.17.20.90759.tar.gz
+[2023-05-04 19:25:53] INFO root fetch - processPackages [tsaugmentation]: executing diffoscope
+[2023-05-04 19:25:53] INFO root fetch - processPackages [tsaugmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsaugmentation-0.5.8.tar.gz tmp/tsaugmentation-0.5.9.tar.gz --markdown 20230504/t/tsaugmentation/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-04 19:25:53] INFO root fetch - processPackages [app-server]: Downloading https://files.pythonhosted.org/packages/d8/af/85e313b05307c5140e5f94f7ea8345f208a05e7f26cb3d6738425698602d/app_server-0.9.3.tar.gz
+[2023-05-04 19:25:53] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/82/78/ab8ae3be6af422ad243e2056ed14ee5b58154ccc9e4cf9a81d371c0d097c/certora-cli-alpha-master-20230504.17.22.196925.tar.gz
+[2023-05-04 19:25:53] INFO root fetch - processPackages [loggerml]: Downloading https://files.pythonhosted.org/packages/b8/bb/98bf8489ef06583e7c64bb6b1a03e49b92aea96e465b5430b24777df5ee3/loggerml-0.3.0.tar.gz
+[2023-05-04 19:25:53] WARNING root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Skipping package: exceeds size limit 38471726>=10485760
+[2023-05-04 19:25:53] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Start processing: wwtp-configuration
+[2023-05-04 19:25:53] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38470378>=10485760
+[2023-05-04 19:25:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-docker-json5] error
+[2023-05-04 19:25:53] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: prettyqt
+[2023-05-04 19:25:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-04 19:25:53] WARNING root fetch - processPackages [loggerml]: Skipping package: exceeds size limit 28415641>=10485760
+[2023-05-04 19:25:53] INFO root fetch - processPackages [loggerml]: Start processing: sphinx-json-schema-spec
+[2023-05-04 19:25:53] INFO root fetch - main [MainThread]: End processing [loggerml] error
+[2023-05-04 19:25:53] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-04 19:25:53] INFO root fetch - processPackages [wwtp-configuration]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-04 19:25:53] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-04 19:25:53] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230504/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-04 19:25:53] INFO root fetch - processPackages [sphinx-json-schema-spec]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-04 19:25:53] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-04 19:25:53] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230504/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-04 19:25:53] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/46/d1/b56b91742e202e043e22578804e64626a8bcaf5df8959f7b82baf79209bf/xklb-1.26.23.tar.gz
+[2023-05-04 19:25:53] INFO root fetch - processPackages [vectorGPTBot]: Downloading https://files.pythonhosted.org/packages/2c/94/cdb261af575450f1af385b178e5b01ab54fee1d224df577e8032c232b04a/vectorGPTBot-0.1.4.tar.gz
+[2023-05-04 19:25:53] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-05-04 19:25:53] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230504/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-04 19:25:53] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-05-04 19:25:53] INFO root fetch - processPackages [vectorGPTBot]: executing diffoscope
+[2023-05-04 19:25:53] INFO root fetch - processPackages [vectorGPTBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectorGPTBot-0.1.2.tar.gz tmp/vectorGPTBot-0.1.4.tar.gz --markdown 20230504/v/vectorGPTBot/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-05-04 19:25:53] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.26.21.tar.gz tmp/xklb-1.26.23.tar.gz --markdown 20230504/x/xklb/1.26.21-1.26.23/diff.md --exclude *.pyd
+[2023-05-04 19:25:53] INFO root fetch - processPackages [sphinx-json-schema-spec]: Downloading https://files.pythonhosted.org/packages/c3/89/73c7c5c9e4db5e58864cfccb9c70bf4e7061ef95f03d610c66329140aa88/sphinx_json_schema_spec-2023.5.2.tar.gz
+[2023-05-04 19:25:53] INFO root fetch - processPackages [MirSerializer]: Downloading https://files.pythonhosted.org/packages/f7/19/73dc84df6a248314f1f9234c59bd29940c02b4b457ad0efe2aae94644947/MirSerializer-2.0.0.tar.gz
+[2023-05-04 19:25:53] INFO root fetch - processPackages [app-server]: Downloading https://files.pythonhosted.org/packages/3b/88/206d29edb495c88ab56a6334f796773930947b47652007792708d361bd51/app_server-0.9.4.tar.gz
+[2023-05-04 19:25:53] INFO root fetch - processPackages [app-server]: executing diffoscope
+[2023-05-04 19:25:53] INFO root fetch - processPackages [app-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app_server-0.9.3.tar.gz tmp/app_server-0.9.4.tar.gz --markdown 20230504/a/app-server/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 19:25:53] INFO root fetch - processPackages [wwtp-configuration]: Downloading https://files.pythonhosted.org/packages/c7/ec/a035ea452b8b7b68c08895a6028aa6602c604c68b7b239c0b86f756bb6ea/wwtp-configuration-0.2.3.tar.gz
+[2023-05-04 19:25:53] INFO root fetch - processPackages [sphinx-json-schema-spec]: executing diffoscope
+[2023-05-04 19:25:53] INFO root fetch - processPackages [sphinx-json-schema-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_json_schema_spec-2023.5.1.tar.gz tmp/sphinx_json_schema_spec-2023.5.2.tar.gz --markdown 20230504/s/sphinx-json-schema-spec/2023.5.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-04 19:25:53] INFO root fetch - processPackages [MirSerializer]: executing diffoscope
+[2023-05-04 19:25:53] INFO root fetch - processPackages [MirSerializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MirSerializer-1.0.4.tar.gz tmp/MirSerializer-2.0.0.tar.gz --markdown 20230504/M/MirSerializer/1.0.4-2.0.0/diff.md --exclude *.pyd
+[2023-05-04 19:25:54] INFO root fetch - processPackages [wwtp-configuration]: executing diffoscope
+[2023-05-04 19:25:54] INFO root fetch - processPackages [wwtp-configuration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwtp-configuration-0.2.2.tar.gz tmp/wwtp-configuration-0.2.3.tar.gz --markdown 20230504/w/wwtp-configuration/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-04 19:25:54] INFO root fetch - processPackages [tsaugmentation]: Start processing: for-django-projects
+[2023-05-04 19:25:54] INFO root fetch - main [MainThread]: End processing [tsaugmentation]: success
+[2023-05-04 19:25:54] INFO root fetch - processPackages [for-django-projects]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-04 19:25:55] INFO root fetch - processPackages [vectorGPTBot]: Start processing: MirSerializer
+[2023-05-04 19:25:55] INFO root fetch - main [MainThread]: End processing [vectorGPTBot]: success
+[2023-05-04 19:25:55] INFO root fetch - processPackages [MirSerializer]: New version: [2.0.0] Old Version: [1.0.4]
+[2023-05-04 19:25:55] INFO root fetch - processPackages [for-django-projects]: Downloading https://files.pythonhosted.org/packages/79/95/6590144088791a332106bd005308d5f2f189ce8ea1486f5fb46a95191f45/for-django-projects-1.0.3.tar.gz
+[2023-05-04 19:25:55] INFO root fetch - processPackages [MirSerializer]: executing diffoscope
+[2023-05-04 19:25:55] INFO root fetch - processPackages [MirSerializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MirSerializer-1.0.4.tar.gz tmp/MirSerializer-2.0.0.tar.gz --markdown 20230504/M/MirSerializer/1.0.4-2.0.0/diff.md --exclude *.pyd
+[2023-05-04 19:25:55] INFO root fetch - processPackages [MirSerializer]: Start processing: alacorder
+[2023-05-04 19:25:55] INFO root fetch - main [MainThread]: End processing [MirSerializer]: success
+[2023-05-04 19:25:55] INFO root fetch - processPackages [alacorder]: New version: [80.2.1] Old Version: [80.2.0]
+[2023-05-04 19:25:55] INFO root fetch - processPackages [for-django-projects]: executing diffoscope
+[2023-05-04 19:25:55] INFO root fetch - processPackages [for-django-projects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/for-django-projects-1.0.2.tar.gz tmp/for-django-projects-1.0.3.tar.gz --markdown 20230504/f/for-django-projects/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-04 19:25:55] INFO root fetch - processPackages [sphinx-json-schema-spec]: Start processing: cloudstorageio
+[2023-05-04 19:25:55] INFO root fetch - main [MainThread]: End processing [sphinx-json-schema-spec]: success
+[2023-05-04 19:25:55] INFO root fetch - processPackages [cloudstorageio]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-04 19:25:55] INFO root fetch - processPackages [spanishconjugator]: Start processing: check-jsonschema
+[2023-05-04 19:25:55] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-04 19:25:55] INFO root fetch - processPackages [check-jsonschema]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-04 19:25:55] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/35/f7/a1b482b77e33ab72ca80236098e2c33482b1d9064974bee6cb142ae9d576/alacorder-80.2.1.tar.gz
+[2023-05-04 19:25:55] INFO root fetch - processPackages [wwtp-configuration]: Start processing: viur-cli
+[2023-05-04 19:25:55] INFO root fetch - main [MainThread]: End processing [wwtp-configuration]: success
+[2023-05-04 19:25:55] INFO root fetch - processPackages [cloudstorageio]: Downloading https://files.pythonhosted.org/packages/16/9d/91f16f963f88f60200607a21528d4a3e5d0828d7d2d5e8edab4bca405a98/cloudstorageio-1.2.7.tar.gz
+[2023-05-04 19:25:55] INFO root fetch - processPackages [viur-cli]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-04 19:25:55] INFO root fetch - processPackages [spanishconjugator]: Start processing: google-cloud-discoveryengine
+[2023-05-04 19:25:55] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-04 19:25:55] INFO root fetch - processPackages [check-jsonschema]: Downloading https://files.pythonhosted.org/packages/9e/4a/0533b34d6550c603ac33a3b6185c3f5bd6d9e1e28d7c4e1e740a63d4c396/check-jsonschema-0.9.0.tar.gz
+[2023-05-04 19:25:55] INFO root fetch - processPackages [google-cloud-discoveryengine]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-04 19:25:55] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-04 19:25:55] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.2.0.tar.gz tmp/alacorder-80.2.1.tar.gz --markdown 20230504/a/alacorder/80.2.0-80.2.1/diff.md --exclude *.pyd
+[2023-05-04 19:25:55] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/6f/41/5d0e828004b27aad5b1694f14eb3b158e0fb7552fc7d79dbb32a2a7ab550/viur_cli-1.0.3.tar.gz
+[2023-05-04 19:25:55] INFO root fetch - processPackages [cloudstorageio]: Downloading https://files.pythonhosted.org/packages/2c/b4/33388306f870362688ba1c2e88460239352c0160710df302ac0fd008da0f/cloudstorageio-1.2.8.tar.gz
+[2023-05-04 19:25:55] INFO root fetch - processPackages [google-cloud-discoveryengine]: Downloading https://files.pythonhosted.org/packages/bf/ed/9ced83f3acf88c31e7c2ec235b773ae052f91a32ae8e815f690bb03f51c7/google-cloud-discoveryengine-0.5.0.tar.gz
+[2023-05-04 19:25:55] INFO root fetch - processPackages [cloudstorageio]: executing diffoscope
+[2023-05-04 19:25:55] INFO root fetch - processPackages [cloudstorageio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudstorageio-1.2.7.tar.gz tmp/cloudstorageio-1.2.8.tar.gz --markdown 20230504/c/cloudstorageio/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-04 19:25:56] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/a8/da/c73cb677d1129552a9c0fab73922093d093af1448c6536b4b82f5716a634/viur_cli-1.0.4.tar.gz
+[2023-05-04 19:25:56] INFO root fetch - processPackages [viur-cli]: executing diffoscope
+[2023-05-04 19:25:56] INFO root fetch - processPackages [viur-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur_cli-1.0.3.tar.gz tmp/viur_cli-1.0.4.tar.gz --markdown 20230504/v/viur-cli/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-04 19:25:56] INFO root fetch - processPackages [google-cloud-discoveryengine]: Downloading https://files.pythonhosted.org/packages/59/4e/937403ca59b8faabf05cbae00271120a82af6f4a48efb0ad83e61b50938a/google-cloud-discoveryengine-0.6.0.tar.gz
+[2023-05-04 19:25:56] INFO root fetch - processPackages [MirSerializer]: Start processing: AICreator
+[2023-05-04 19:25:56] INFO root fetch - main [MainThread]: End processing [MirSerializer]: success
+[2023-05-04 19:25:56] INFO root fetch - processPackages [AICreator]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-04 19:25:56] INFO root fetch - processPackages [google-cloud-discoveryengine]: executing diffoscope
+[2023-05-04 19:25:56] INFO root fetch - processPackages [google-cloud-discoveryengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-discoveryengine-0.5.0.tar.gz tmp/google-cloud-discoveryengine-0.6.0.tar.gz --markdown 20230504/g/google-cloud-discoveryengine/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-04 19:25:56] INFO root fetch - processPackages [check-jsonschema]: Downloading https://files.pythonhosted.org/packages/cc/95/9cdc2619b91080ae3f1fb96552399a6843ee8f2d306aa2eeee9d1587571f/check-jsonschema-0.9.1.tar.gz
+[2023-05-04 19:25:56] INFO root fetch - processPackages [AICreator]: executing diffoscope
+[2023-05-04 19:25:56] INFO root fetch - processPackages [AICreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AICreator-0.0.9.tar.gz tmp/AICreator-0.1.0.tar.gz --markdown 20230504/A/AICreator/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-04 19:25:56] INFO root fetch - processPackages [check-jsonschema]: executing diffoscope
+[2023-05-04 19:25:56] INFO root fetch - processPackages [check-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/check-jsonschema-0.9.0.tar.gz tmp/check-jsonschema-0.9.1.tar.gz --markdown 20230504/c/check-jsonschema/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-04 19:25:56] INFO root fetch - main [MainThread]: End processing [app-server]: success
+[2023-05-04 19:25:57] INFO root fetch - main [MainThread]: End processing [for-django-projects]: success
+[2023-05-04 19:25:57] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-04 19:25:57] INFO root fetch - main [MainThread]: End processing [AICreator]: success
+[2023-05-04 19:25:57] INFO root fetch - main [MainThread]: End processing [cloudstorageio]: success
+[2023-05-04 19:25:57] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-05-04 19:25:57] INFO root fetch - main [MainThread]: End processing [viur-cli]: success
+[2023-05-04 19:25:59] INFO root fetch - main [MainThread]: End processing [google-cloud-discoveryengine]: success
+[2023-05-04 19:26:01] INFO root fetch - main [MainThread]: End processing [check-jsonschema]: success
+[2023-05-04 19:26:04] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-05-04 19:26:04] INFO root fetch - main [MainThread]: Store serial: [17975498]
