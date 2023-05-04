@@ -14935,3 +14935,168 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 14:22:37] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2023-05-04 14:23:27] INFO root fetch - main [MainThread]: End processing [mercurial]: success
 [2023-05-04 14:23:27] INFO root fetch - main [MainThread]: Store serial: [17971913]
+[2023-05-04 14:28:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17971913]
+[2023-05-04 14:28:38] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-05-04 14:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parse-it
+[2023-05-04 14:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bagbag
+[2023-05-04 14:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-roy-CERT-1844-usage
+[2023-05-04 14:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elmclient
+[2023-05-04 14:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nowcasting-forecast
+[2023-05-04 14:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cagpaint
+[2023-05-04 14:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: visualdl
+[2023-05-04 14:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Flask-Packer
+[2023-05-04 14:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: volvo-jira
+[2023-05-04 14:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ratinabox
+[2023-05-04 14:28:38] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: New version: [20230504.9.58.528177] Old Version: [20230504.12.23.939604]
+[2023-05-04 14:28:38] INFO root fetch - processPackages [elmclient]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 14:28:38] INFO root fetch - processPackages [parse-it]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-05-04 14:28:38] WARNING root fetch - processPackages [Flask-Packer]: Skipping, unable to determine old version
+[2023-05-04 14:28:38] INFO root fetch - processPackages [Flask-Packer]: Start processing: profiles-rudderstack
+[2023-05-04 14:28:38] INFO root fetch - processPackages [volvo-jira]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 14:28:38] INFO root fetch - main [MainThread]: End processing [Flask-Packer] error
+[2023-05-04 14:28:38] INFO root fetch - processPackages [bagbag]: New version: [0.58.4] Old Version: [0.58.3]
+[2023-05-04 14:28:38] INFO root fetch - processPackages [ratinabox]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-05-04 14:28:38] INFO root fetch - processPackages [visualdl]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-05-04 14:28:38] WARNING root fetch - processPackages [cagpaint]: Skipping, unable to determine old version
+[2023-05-04 14:28:38] INFO root fetch - processPackages [cagpaint]: Start processing: bigdl-dllib-spark3
+[2023-05-04 14:28:38] INFO root fetch - main [MainThread]: End processing [cagpaint] error
+[2023-05-04 14:28:38] INFO root fetch - processPackages [profiles-rudderstack]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-04 14:28:38] INFO root fetch - processPackages [nowcasting-forecast]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-05-04 14:28:38] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230504] Old Version: [2.4.0b20230503]
+[2023-05-04 14:28:38] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Downloading https://files.pythonhosted.org/packages/1b/83/127cba6e8ba08e8974eeabf6c6df2ce2b4e9c0550546cd32a04991f1c730/certora-cli-alpha-roy-CERT-1844-usage-20230504.12.23.939604.tar.gz
+[2023-05-04 14:28:38] INFO root fetch - processPackages [volvo-jira]: Downloading https://files.pythonhosted.org/packages/9f/fb/058799f284b21a6004d2f1a97aeb7d35e9cee8b30a9acd5f36b069d56614/volvo-jira-0.1.0.tar.gz
+[2023-05-04 14:28:38] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Skipping package: exceeds size limit 38423770>=10485760
+[2023-05-04 14:28:38] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Start processing: modular-rl
+[2023-05-04 14:28:38] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1844-usage] error
+[2023-05-04 14:28:38] INFO root fetch - processPackages [profiles-rudderstack]: Downloading https://files.pythonhosted.org/packages/41/06/27aef00d0047113988522107fa6b82906f285df3b8a908b21799b537491a/profiles_rudderstack-0.5.1-py3-none-win_amd64.whl
+[2023-05-04 14:28:38] INFO root fetch - processPackages [visualdl]: Downloading https://files.pythonhosted.org/packages/45/65/46c870a909c65f81f2e59e4501e47685650bc31e6c3483ee23b5a42a4538/visualdl-2.5.1-py3-none-any.whl
+[2023-05-04 14:28:38] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/92/ad/0b97e7f8bf082836f493dd5990acbdda3fb1bbdf37d97a69c425f01f4a10/bigdl-dllib-spark3-2.4.0b20230503.tar.gz
+[2023-05-04 14:28:38] INFO root fetch - processPackages [modular-rl]: New version: [0.1.2.dev0] Old Version: [0.1.1.dev0]
+[2023-05-04 14:28:38] INFO root fetch - processPackages [elmclient]: Downloading https://files.pythonhosted.org/packages/2d/f4/65c5ba9854f0b6461a4fac58534cf20877a566552643d1b47937cb36d141/elmclient-0.9.3.tar.gz
+[2023-05-04 14:28:39] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/cd/52/dbb13663fccbffb09d020cc56e8a7a1b551efa4c47759a518f758bba3f02/parse_it-3.7.0.tar.gz
+[2023-05-04 14:28:39] INFO root fetch - processPackages [ratinabox]: Downloading https://files.pythonhosted.org/packages/50/9a/46d151e031d9fef1c050d5a1a18c9353e89051c850bea38cd64b334ac8c4/ratinabox-1.6.3.tar.gz
+[2023-05-04 14:28:39] INFO root fetch - processPackages [nowcasting-forecast]: Downloading https://files.pythonhosted.org/packages/4e/b5/dcab0cf87a9dfda436962413f5d20eb8de417003a441960edd5f04a88767/nowcasting_forecast-1.3.7.tar.gz
+[2023-05-04 14:28:39] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/90/1b/6a3ca14d74df8ec415f2473957fa5b4d5a8f2b316952fa24c826ef9a074e/bagbag-0.58.4.tar.gz
+[2023-05-04 14:28:39] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61251926>=10485760
+[2023-05-04 14:28:39] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: concurrent-plugin
+[2023-05-04 14:28:39] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-05-04 14:28:39] INFO root fetch - processPackages [concurrent-plugin]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-04 14:28:39] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-04 14:28:39] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.58.3.tar.gz tmp/bagbag-0.58.4.tar.gz --markdown 20230504/b/bagbag/0.58.3-0.58.4/diff.md --exclude *.pyd
+[2023-05-04 14:28:39] INFO root fetch - processPackages [nowcasting-forecast]: executing diffoscope
+[2023-05-04 14:28:39] INFO root fetch - processPackages [nowcasting-forecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_forecast-1.3.6.tar.gz tmp/nowcasting_forecast-1.3.7.tar.gz --markdown 20230504/n/nowcasting-forecast/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-05-04 14:28:39] INFO root fetch - processPackages [volvo-jira]: Downloading https://files.pythonhosted.org/packages/2a/0a/4c2afaf5dd1be259a4468bb2d768c8fa41d4b74ea1f6f41c134bdd39fec3/volvo-jira-0.1.1.tar.gz
+[2023-05-04 14:28:39] INFO root fetch - processPackages [modular-rl]: Downloading https://files.pythonhosted.org/packages/35/bf/bc165024566d580df02d8417f8256be3514bec62b5cbd1214a500102481e/modular_rl-0.1.2.dev0.tar.gz
+[2023-05-04 14:28:39] INFO root fetch - processPackages [visualdl]: Downloading https://files.pythonhosted.org/packages/9b/5c/4de395a2962c23a5909561f360e27bc0ca191fb81fb87c4199ce990fbcb9/visualdl-2.5.2-py3-none-any.whl
+[2023-05-04 14:28:39] INFO root fetch - processPackages [volvo-jira]: executing diffoscope
+[2023-05-04 14:28:39] INFO root fetch - processPackages [volvo-jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volvo-jira-0.1.0.tar.gz tmp/volvo-jira-0.1.1.tar.gz --markdown 20230504/v/volvo-jira/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 14:28:39] INFO root fetch - processPackages [concurrent-plugin]: Downloading https://files.pythonhosted.org/packages/be/cb/10e3ab1e2fc74aaac434405eeccc8810e1a620c641973817428ad2feb0ad/concurrent_plugin-0.4.5-py3-none-any.whl
+[2023-05-04 14:28:39] INFO root fetch - processPackages [modular-rl]: executing diffoscope
+[2023-05-04 14:28:39] INFO root fetch - processPackages [modular-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modular_rl-0.1.1.dev0.tar.gz tmp/modular_rl-0.1.2.dev0.tar.gz --markdown 20230504/m/modular-rl/0.1.1.dev0-0.1.2.dev0/diff.md --exclude *.pyd
+[2023-05-04 14:28:39] WARNING root fetch - processPackages [profiles-rudderstack]: Skipping package: exceeds size limit 21001255>=10485760
+[2023-05-04 14:28:39] INFO root fetch - processPackages [profiles-rudderstack]: Start processing: parse-it
+[2023-05-04 14:28:39] INFO root fetch - main [MainThread]: End processing [profiles-rudderstack] error
+[2023-05-04 14:28:39] INFO root fetch - processPackages [ratinabox]: executing diffoscope
+[2023-05-04 14:28:39] INFO root fetch - processPackages [ratinabox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ratinabox-1.6.2.tar.gz tmp/ratinabox-1.6.3.tar.gz --markdown 20230504/r/ratinabox/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-05-04 14:28:39] INFO root fetch - processPackages [parse-it]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-05-04 14:28:39] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/3b/d8/0a3f4a732fa677a35dbea4e9c72741f55e44859dc1c79bf5edfce61d95f0/parse_it-3.8.0.tar.gz
+[2023-05-04 14:28:39] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/3b/d8/0a3f4a732fa677a35dbea4e9c72741f55e44859dc1c79bf5edfce61d95f0/parse_it-3.8.0.tar.gz
+[2023-05-04 14:28:39] INFO root fetch - processPackages [concurrent-plugin]: Downloading https://files.pythonhosted.org/packages/83/31/d09432a05127b2e30b84ca8183ec1580f1137d52797f987fd0553dda8c1b/concurrent_plugin-0.4.6-py3-none-any.whl
+[2023-05-04 14:28:39] INFO root fetch - processPackages [parse-it]: executing diffoscope
+[2023-05-04 14:28:39] INFO root fetch - processPackages [parse-it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_it-3.7.0.tar.gz tmp/parse_it-3.8.0.tar.gz --markdown 20230504/p/parse-it/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-05-04 14:28:39] INFO root fetch - processPackages [parse-it]: executing diffoscope
+[2023-05-04 14:28:39] INFO root fetch - processPackages [parse-it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_it-3.7.0.tar.gz tmp/parse_it-3.8.0.tar.gz --markdown 20230504/p/parse-it/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-05-04 14:28:39] INFO root fetch - processPackages [elmclient]: Downloading https://files.pythonhosted.org/packages/45/1f/7a7e32f1e98034e267988bad017ab4a2a19c8eabb05c88fb48f434d0657a/elmclient-0.9.4.tar.gz
+[2023-05-04 14:28:39] INFO root fetch - processPackages [concurrent-plugin]: executing diffoscope
+[2023-05-04 14:28:39] INFO root fetch - processPackages [concurrent-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concurrent_plugin-0.4.5-py3-none-any.whl.zip tmp/concurrent_plugin-0.4.6-py3-none-any.whl.zip --markdown 20230504/c/concurrent-plugin/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-04 14:28:39] INFO root fetch - processPackages [elmclient]: executing diffoscope
+[2023-05-04 14:28:39] INFO root fetch - processPackages [elmclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elmclient-0.9.3.tar.gz tmp/elmclient-0.9.4.tar.gz --markdown 20230504/e/elmclient/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 14:28:40] INFO root fetch - processPackages [visualdl]: executing diffoscope
+[2023-05-04 14:28:40] INFO root fetch - processPackages [visualdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visualdl-2.5.1-py3-none-any.whl.zip tmp/visualdl-2.5.2-py3-none-any.whl.zip --markdown 20230504/v/visualdl/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-05-04 14:28:40] INFO root fetch - processPackages [volvo-jira]: Start processing: recon-lw
+[2023-05-04 14:28:40] INFO root fetch - main [MainThread]: End processing [volvo-jira]: success
+[2023-05-04 14:28:40] INFO root fetch - processPackages [nowcasting-forecast]: Start processing: bigdl-orca-spark3
+[2023-05-04 14:28:40] INFO root fetch - main [MainThread]: End processing [nowcasting-forecast]: success
+[2023-05-04 14:28:40] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230503] Old Version: [2.4.0b20230502]
+[2023-05-04 14:28:40] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4882741872] Old Version: [2.0.0.dev4870468547]
+[2023-05-04 14:28:40] INFO root fetch - processPackages [modular-rl]: Start processing: udata-front
+[2023-05-04 14:28:40] INFO root fetch - main [MainThread]: End processing [modular-rl]: success
+[2023-05-04 14:28:41] INFO root fetch - processPackages [udata-front]: New version: [3.2.3.dev9974] Old Version: [3.2.3.dev10228]
+[2023-05-04 14:28:41] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/10/73/3f4b72859bda91a7edc5808e97b0558faa391d2ffd260aac6b13a46f96b1/bigdl_orca_spark3-2.4.0b20230502-py3-none-manylinux1_x86_64.whl
+[2023-05-04 14:28:41] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-05-04 14:28:41] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.3.dev10228-py2.py3-none-any.whl.zip tmp/udata_front-3.2.3.dev9974-py2.py3-none-any.whl.zip --markdown 20230504/u/udata-front/3.2.3.dev10228-3.2.3.dev9974/diff.md --exclude *.pyd
+[2023-05-04 14:28:41] INFO root fetch - processPackages [parse-it]: Start processing: tap-openexchangerates
+[2023-05-04 14:28:41] INFO root fetch - main [MainThread]: End processing [parse-it]: success
+[2023-05-04 14:28:41] INFO root fetch - processPackages [parse-it]: Start processing: bigdl-friesian-spark3
+[2023-05-04 14:28:41] INFO root fetch - main [MainThread]: End processing [parse-it]: success
+[2023-05-04 14:28:41] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230503] Old Version: [2.4.0b20230502]
+[2023-05-04 14:28:41] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207451>=10485760
+[2023-05-04 14:28:41] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: bigdl-chronos-spark3
+[2023-05-04 14:28:41] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-05-04 14:28:41] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230503] Old Version: [2.4.0b20230502]
+[2023-05-04 14:28:41] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/34/e7/17b35e5db25294e42c64e5256632d66cbba8ef60c044d39b8fa77d1fff99/recon_lw-2.0.0.dev4882741872.tar.gz
+[2023-05-04 14:28:41] WARNING root fetch - processPackages [tap-openexchangerates]: Skipping, unable to determine old version
+[2023-05-04 14:28:41] INFO root fetch - processPackages [tap-openexchangerates]: Start processing: certora-cli-alpha-shelly-usabilityfixserialization
+[2023-05-04 14:28:41] INFO root fetch - main [MainThread]: End processing [tap-openexchangerates] error
+[2023-05-04 14:28:41] INFO root fetch - processPackages [certora-cli-alpha-shelly-usabilityfixserialization]: New version: [20230503.22.45.609797] Old Version: [20230503.22.28.606782]
+[2023-05-04 14:28:41] INFO root fetch - processPackages [concurrent-plugin]: Start processing: bigdl-spark3
+[2023-05-04 14:28:41] INFO root fetch - main [MainThread]: End processing [concurrent-plugin]: success
+[2023-05-04 14:28:41] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230503] Old Version: [2.4.0b20230502]
+[2023-05-04 14:28:41] INFO root fetch - processPackages [ratinabox]: Start processing: django-gcp
+[2023-05-04 14:28:41] INFO root fetch - main [MainThread]: End processing [ratinabox]: success
+[2023-05-04 14:28:41] INFO root fetch - processPackages [certora-cli-alpha-shelly-usabilityfixserialization]: Downloading https://files.pythonhosted.org/packages/35/0f/acc260682a1bafd34e53fff79b17be7117aca7f1dc3d1ce57cf8a16a9d1b/certora-cli-alpha-shelly-usabilityfixserialization-20230503.22.28.606782.tar.gz
+[2023-05-04 14:28:41] WARNING root fetch - processPackages [certora-cli-alpha-shelly-usabilityfixserialization]: Skipping package: exceeds size limit 38378777>=10485760
+[2023-05-04 14:28:41] INFO root fetch - processPackages [certora-cli-alpha-shelly-usabilityfixserialization]: Start processing: robin-sd-download
+[2023-05-04 14:28:41] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-usabilityfixserialization] error
+[2023-05-04 14:28:41] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-04 14:28:41] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4870468547.tar.gz tmp/recon_lw-2.0.0.dev4882741872.tar.gz --markdown 20230504/r/recon-lw/2.0.0.dev4870468547-2.0.0.dev4882741872/diff.md --exclude *.pyd
+[2023-05-04 14:28:41] INFO root fetch - processPackages [robin-sd-download]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-05-04 14:28:41] INFO root fetch - processPackages [django-gcp]: New version: [0.9.1] Old Version: [0.8.0]
+[2023-05-04 14:28:41] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/2c/41/01c6f13fe2ce96ec5135b696755cc820b71697155b64e3f7a1cd61c61a0c/bigdl_friesian_spark3-2.4.0b20230503-py3-none-manylinux1_x86_64.whl
+[2023-05-04 14:28:41] INFO root fetch - processPackages [robin-sd-download]: executing diffoscope
+[2023-05-04 14:28:41] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/30/5d/61d4da71d2b7beb8d9a9737ad14f960fdd57e6b1c834b7cf223fa8339427/bigdl_chronos_spark3-2.4.0b20230503-py3-none-manylinux1_x86_64.whl
+[2023-05-04 14:28:41] INFO root fetch - processPackages [robin-sd-download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin_sd_download-0.3.1.tar.gz tmp/robin_sd_download-0.3.3.tar.gz --markdown 20230504/r/robin-sd-download/0.3.1-0.3.3/diff.md --exclude *.pyd
+[2023-05-04 14:28:41] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/a5/5c/467a26e311f9c608ce9f7506f0e7eeccc3c97b1c07e6552344310016111d/bigdl_spark3-2.4.0b20230503-py3-none-manylinux1_x86_64.whl
+[2023-05-04 14:28:41] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-05-04 14:28:41] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230502-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230503-py3-none-manylinux1_x86_64.whl.zip --markdown 20230504/b/bigdl-friesian-spark3/2.4.0b20230502-2.4.0b20230503/diff.md --exclude *.pyd
+[2023-05-04 14:28:41] INFO root fetch - processPackages [django-gcp]: Downloading https://files.pythonhosted.org/packages/f8/39/6b342b4c56a4bc40c45309a3c7bd30c81a1bbfe3fb58ffe0cefb59f7183e/django-gcp-0.8.0.tar.gz
+[2023-05-04 14:28:41] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-05-04 14:28:41] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230502-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230503-py3-none-manylinux1_x86_64.whl.zip --markdown 20230504/b/bigdl-chronos-spark3/2.4.0b20230502-2.4.0b20230503/diff.md --exclude *.pyd
+[2023-05-04 14:28:41] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-05-04 14:28:41] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230502-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230503-py3-none-manylinux1_x86_64.whl.zip --markdown 20230504/b/bigdl-spark3/2.4.0b20230502-2.4.0b20230503/diff.md --exclude *.pyd
+[2023-05-04 14:28:41] INFO root fetch - processPackages [django-gcp]: Downloading https://files.pythonhosted.org/packages/51/67/6a67f5fdb614c93cd3eabffeda87691d8de4e08281c47a875f32dbc1f2bc/django_gcp-0.9.1.tar.gz
+[2023-05-04 14:28:42] INFO root fetch - processPackages [django-gcp]: executing diffoscope
+[2023-05-04 14:28:42] INFO root fetch - processPackages [django-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-gcp-0.8.0.tar.gz tmp/django_gcp-0.9.1.tar.gz --markdown 20230504/d/django-gcp/0.8.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-04 14:28:42] INFO root fetch - processPackages [robin-sd-download]: Start processing: inorbit-edge
+[2023-05-04 14:28:42] INFO root fetch - main [MainThread]: End processing [robin-sd-download]: success
+[2023-05-04 14:28:42] INFO root fetch - processPackages [recon-lw]: Start processing: auto-retrieval-plugin
+[2023-05-04 14:28:42] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-04 14:28:42] INFO root fetch - processPackages [auto-retrieval-plugin]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-04 14:28:43] INFO root fetch - processPackages [inorbit-edge]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-04 14:28:43] INFO root fetch - processPackages [auto-retrieval-plugin]: executing diffoscope
+[2023-05-04 14:28:43] INFO root fetch - processPackages [auto-retrieval-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_retrieval_plugin-0.1.3.tar.gz tmp/auto_retrieval_plugin-0.1.4.tar.gz --markdown 20230504/a/auto-retrieval-plugin/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-04 14:28:43] INFO root fetch - processPackages [bigdl-spark3]: Start processing: Hashhound
+[2023-05-04 14:28:43] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-05-04 14:28:43] INFO root fetch - processPackages [Hashhound]: New version: [0.2] Old Version: [0.1]
+[2023-05-04 14:28:43] INFO root fetch - processPackages [bigdl-friesian-spark3]: Start processing: odoo12-addon-epi
+[2023-05-04 14:28:43] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-05-04 14:28:43] INFO root fetch - processPackages [Hashhound]: executing diffoscope
+[2023-05-04 14:28:43] INFO root fetch - processPackages [Hashhound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hashhound-0.1-py3-none-any.whl.zip tmp/hashhound-0.2.tar.gz --markdown 20230504/H/Hashhound/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-04 14:28:43] INFO root fetch - processPackages [inorbit-edge]: executing diffoscope
+[2023-05-04 14:28:43] INFO root fetch - processPackages [inorbit-edge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inorbit_edge-1.9.1.tar.gz tmp/inorbit_edge-1.9.2.tar.gz --markdown 20230504/i/inorbit-edge/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-04 14:28:43] INFO root fetch - processPackages [odoo12-addon-epi]: New version: [12.0.0.0.1.99.dev7] Old Version: [12.0.0.0.1.99.dev12]
+[2023-05-04 14:28:43] INFO root fetch - main [MainThread]: End processing [elmclient]: success
+[2023-05-04 14:28:43] INFO root fetch - processPackages [odoo12-addon-epi]: Downloading https://files.pythonhosted.org/packages/80/d2/49a7e928dae391a305317716a05226cbd1129461f6f4a3734e32a061496c/odoo12_addon_epi-12.0.0.0.1.99.dev12-py3-none-any.whl
+[2023-05-04 14:28:43] INFO root fetch - processPackages [odoo12-addon-epi]: Downloading https://files.pythonhosted.org/packages/7b/31/aa6aeacd33da90197b7c554f86a06f31877371abc704fad54a538f319f7b/odoo12_addon_epi-12.0.0.0.1.99.dev7-py3-none-any.whl
+[2023-05-04 14:28:44] INFO root fetch - main [MainThread]: End processing [django-gcp]: success
+[2023-05-04 14:28:44] INFO root fetch - processPackages [odoo12-addon-epi]: executing diffoscope
+[2023-05-04 14:28:44] INFO root fetch - processPackages [odoo12-addon-epi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_epi-12.0.0.0.1.99.dev12-py3-none-any.whl.zip tmp/odoo12_addon_epi-12.0.0.0.1.99.dev7-py3-none-any.whl.zip --markdown 20230504/o/odoo12-addon-epi/12.0.0.0.1.99.dev12-12.0.0.0.1.99.dev7/diff.md --exclude *.pyd
+[2023-05-04 14:28:44] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-05-04 14:28:44] INFO root fetch - main [MainThread]: End processing [Hashhound]: success
+[2023-05-04 14:28:44] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-04 14:28:44] INFO root fetch - main [MainThread]: End processing [inorbit-edge]: success
+[2023-05-04 14:28:45] INFO root fetch - main [MainThread]: End processing [auto-retrieval-plugin]: success
+[2023-05-04 14:28:45] INFO root fetch - main [MainThread]: End processing [odoo12-addon-epi]: success
+[2023-05-04 14:29:05] INFO root fetch - main [MainThread]: End processing [visualdl]: success
+[2023-05-04 14:29:10] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-05-04 14:29:10] INFO root fetch - main [MainThread]: Store serial: [17972017]
