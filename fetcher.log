@@ -9571,3 +9571,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 09:34:58] INFO root fetch - main [MainThread]: End processing [structa]: success
 [2023-05-04 09:34:58] INFO root fetch - main [MainThread]: End processing [drops]: success
 [2023-05-04 09:34:58] INFO root fetch - main [MainThread]: Store serial: [17968707]
+[2023-05-04 09:40:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17968707]
+[2023-05-04 09:40:07] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-04 09:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invenio-rdm-migrator
+[2023-05-04 09:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lalsuite
+[2023-05-04 09:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alpha-trader-python
+[2023-05-04 09:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dash-molstar
+[2023-05-04 09:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-stock-valuation-layer-by-category
+[2023-05-04 09:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: appium-flutter-report
+[2023-05-04 09:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: maus
+[2023-05-04 09:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ansys-templates
+[2023-05-04 09:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: myApiIsReallyAwesome
+[2023-05-04 09:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gotji
+[2023-05-04 09:40:07] WARNING root fetch - processPackages [dash-molstar]: Skipping, unable to determine old version
+[2023-05-04 09:40:07] INFO root fetch - processPackages [dash-molstar]: Start processing: elm-messenger
+[2023-05-04 09:40:07] INFO root fetch - processPackages [odoo14-addon-stock-valuation-layer-by-category]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-05-04 09:40:07] INFO root fetch - processPackages [alpha-trader-python]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-04 09:40:07] INFO root fetch - main [MainThread]: End processing [dash-molstar] error
+[2023-05-04 09:40:07] INFO root fetch - processPackages [invenio-rdm-migrator]: New version: [1.0.0a7] Old Version: [1.0.0a6]
+[2023-05-04 09:40:07] WARNING root fetch - processPackages [myApiIsReallyAwesome]: Skipping, unable to determine old version
+[2023-05-04 09:40:07] INFO root fetch - processPackages [myApiIsReallyAwesome]: Start processing: material-zui
+[2023-05-04 09:40:07] INFO root fetch - main [MainThread]: End processing [myApiIsReallyAwesome] error
+[2023-05-04 09:40:07] INFO root fetch - processPackages [gotji]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-04 09:40:07] WARNING root fetch - processPackages [appium-flutter-report]: Skipping, unable to determine old version
+[2023-05-04 09:40:07] INFO root fetch - processPackages [ansys-templates]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-04 09:40:07] INFO root fetch - processPackages [elm-messenger]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-04 09:40:07] INFO root fetch - processPackages [appium-flutter-report]: Start processing: cc1101
+[2023-05-04 09:40:07] INFO root fetch - main [MainThread]: End processing [appium-flutter-report] error
+[2023-05-04 09:40:07] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-04 09:40:07] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-05-04 09:40:07] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-05-04 09:40:07] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230504/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-04 09:40:07] INFO root fetch - processPackages [material-zui]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-04 09:40:07] INFO root fetch - processPackages [cc1101]: New version: [3.0.0] Old Version: [2.7.3rc0]
+[2023-05-04 09:40:08] INFO root fetch - processPackages [gotji]: Downloading https://files.pythonhosted.org/packages/42/db/ef15c7a7d16277e3f57ca4ddcc77b0b0c749c88061eea321302b3d911334/gotji-1.0.3.tar.gz
+[2023-05-04 09:40:08] INFO root fetch - processPackages [elm-messenger]: Downloading https://files.pythonhosted.org/packages/af/c2/027e5878ef17f89cc200601f53fd8840acecdd0df09068185d962a059050/elm-messenger-0.0.1.tar.gz
+[2023-05-04 09:40:08] INFO root fetch - processPackages [alpha-trader-python]: Downloading https://files.pythonhosted.org/packages/4a/25/93e88bd24edd18027ba798905bf20b964135deb88df0bb97b42fa4da912e/alpha_trader_python-0.0.3.tar.gz
+[2023-05-04 09:40:08] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-04 09:40:08] INFO root fetch - processPackages [invenio-rdm-migrator]: Downloading https://files.pythonhosted.org/packages/a1/df/8466a0c8df0e02b9808f098254755415b1f75aa04426e6ef38080f2cd053/invenio-rdm-migrator-1.0.0a6.tar.gz
+[2023-05-04 09:40:08] INFO root fetch - processPackages [material-zui]: Downloading https://files.pythonhosted.org/packages/4a/6a/e85ef23197614f3b1623535d6856c918d921540dbf56621b8a0b3d3a66be/material_zui-0.0.3.tar.gz
+[2023-05-04 09:40:08] INFO root fetch - processPackages [ansys-templates]: Downloading https://files.pythonhosted.org/packages/29/34/8ba1e90c18881dc17c911a27d0614f4ca115ff338d47648a0f1204157e74/ansys-templates-0.7.1.tar.gz
+[2023-05-04 09:40:08] INFO root fetch - processPackages [odoo14-addon-stock-valuation-layer-by-category]: Downloading https://files.pythonhosted.org/packages/e5/4e/0bd3e46e99ec56ea29e68582efa505d4f44b7459f8fe04da2bdd5e5b66fa/odoo14_addon_stock_valuation_layer_by_category-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-05-04 09:40:08] INFO root fetch - processPackages [cc1101]: Downloading https://files.pythonhosted.org/packages/10/17/8a8c126f6cef220142b786a97074b734128bbc3ea30018f17c58f4c57b2e/cc1101-2.7.3rc0.tar.gz
+[2023-05-04 09:40:08] INFO root fetch - processPackages [alpha-trader-python]: executing diffoscope
+[2023-05-04 09:40:08] INFO root fetch - processPackages [alpha-trader-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpha_trader_python-0.0.2.tar.gz tmp/alpha_trader_python-0.0.3.tar.gz --markdown 20230504/a/alpha-trader-python/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-04 09:40:08] INFO root fetch - processPackages [ansys-templates]: executing diffoscope
+[2023-05-04 09:40:08] INFO root fetch - processPackages [ansys-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-templates-0.7.0.tar.gz tmp/ansys-templates-0.7.1.tar.gz --markdown 20230504/a/ansys-templates/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-04 09:40:08] INFO root fetch - processPackages [odoo14-addon-stock-valuation-layer-by-category]: executing diffoscope
+[2023-05-04 09:40:08] INFO root fetch - processPackages [odoo14-addon-stock-valuation-layer-by-category]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_valuation_layer_by_category-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_stock_valuation_layer_by_category-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addon-stock-valuation-layer-by-category/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-05-04 09:40:08] INFO root fetch - processPackages [gotji]: Downloading https://files.pythonhosted.org/packages/cd/ff/978262dca8bc8755d29dc3eff35fd8d2daf2bb920d534511f2dbc9bb4656/gotji-1.0.4.tar.gz
+[2023-05-04 09:40:08] INFO root fetch - processPackages [elm-messenger]: Downloading https://files.pythonhosted.org/packages/dd/be/d0427af736e42963e5404c5ced163c363918f2aee259ae9898fef422c9ac/elm-messenger-0.1.0.tar.gz
+[2023-05-04 09:40:08] INFO root fetch - processPackages [gotji]: executing diffoscope
+[2023-05-04 09:40:08] INFO root fetch - processPackages [gotji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gotji-1.0.3.tar.gz tmp/gotji-1.0.4.tar.gz --markdown 20230504/g/gotji/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-04 09:40:08] INFO root fetch - processPackages [invenio-rdm-migrator]: Downloading https://files.pythonhosted.org/packages/a4/68/563f78cd769529145d03179274ce677f05e198cb930b3267ac86d60ae8a2/invenio-rdm-migrator-1.0.0a7.tar.gz
+[2023-05-04 09:40:08] INFO root fetch - processPackages [material-zui]: Downloading https://files.pythonhosted.org/packages/08/dd/217ac45e57f53116942364a3b0225c68347f1bb20c60e68972f9d6673bc1/material_zui-0.0.4.tar.gz
+[2023-05-04 09:40:08] INFO root fetch - processPackages [elm-messenger]: executing diffoscope
+[2023-05-04 09:40:08] INFO root fetch - processPackages [elm-messenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elm-messenger-0.0.1.tar.gz tmp/elm-messenger-0.1.0.tar.gz --markdown 20230504/e/elm-messenger/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-04 09:40:08] INFO root fetch - processPackages [invenio-rdm-migrator]: executing diffoscope
+[2023-05-04 09:40:08] INFO root fetch - processPackages [invenio-rdm-migrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-migrator-1.0.0a6.tar.gz tmp/invenio-rdm-migrator-1.0.0a7.tar.gz --markdown 20230504/i/invenio-rdm-migrator/1.0.0a6-1.0.0a7/diff.md --exclude *.pyd
+[2023-05-04 09:40:08] INFO root fetch - processPackages [material-zui]: executing diffoscope
+[2023-05-04 09:40:08] INFO root fetch - processPackages [material-zui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/material_zui-0.0.3.tar.gz tmp/material_zui-0.0.4.tar.gz --markdown 20230504/m/material-zui/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-04 09:40:08] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-05-04 09:40:08] INFO root fetch - processPackages [lalsuite]: Start processing: jykj
+[2023-05-04 09:40:08] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-05-04 09:40:08] INFO root fetch - processPackages [cc1101]: Downloading https://files.pythonhosted.org/packages/73/be/c566a76d14741acb76861c49141688a4200ffbb7955851c3e0c31b35321d/cc1101-3.0.0.tar.gz
+[2023-05-04 09:40:08] WARNING root fetch - processPackages [jykj]: Skipping, unable to determine old version
+[2023-05-04 09:40:08] INFO root fetch - main [MainThread]: End processing [jykj] error
+[2023-05-04 09:40:08] INFO root fetch - processPackages [cc1101]: executing diffoscope
+[2023-05-04 09:40:08] INFO root fetch - processPackages [cc1101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc1101-2.7.3rc0.tar.gz tmp/cc1101-3.0.0.tar.gz --markdown 20230504/c/cc1101/2.7.3rc0-3.0.0/diff.md --exclude *.pyd
+[2023-05-04 09:40:09] INFO root fetch - main [MainThread]: End processing [alpha-trader-python]: success
+[2023-05-04 09:40:09] INFO root fetch - main [MainThread]: End processing [gotji]: success
+[2023-05-04 09:40:09] INFO root fetch - main [MainThread]: End processing [elm-messenger]: success
+[2023-05-04 09:40:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-valuation-layer-by-category]: success
+[2023-05-04 09:40:09] INFO root fetch - main [MainThread]: End processing [material-zui]: success
+[2023-05-04 09:40:10] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-05-04 09:40:10] INFO root fetch - main [MainThread]: End processing [cc1101]: success
+[2023-05-04 09:40:10] INFO root fetch - main [MainThread]: End processing [invenio-rdm-migrator]: success
+[2023-05-04 09:40:13] INFO root fetch - main [MainThread]: End processing [ansys-templates]: success
+[2023-05-04 09:40:13] INFO root fetch - main [MainThread]: Store serial: [17968783]
