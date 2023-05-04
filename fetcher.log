@@ -14012,3 +14012,136 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 13:31:52] INFO root fetch - main [MainThread]: End processing [maxbot]: success
 [2023-05-04 13:32:31] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2023-05-04 13:32:31] INFO root fetch - main [MainThread]: Store serial: [17971361]
+[2023-05-04 13:37:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17971361]
+[2023-05-04 13:37:42] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-04 13:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wav2samp
+[2023-05-04 13:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-resourcedirectorymaster20220419
+[2023-05-04 13:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyscemu
+[2023-05-04 13:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-retrieval-plugin
+[2023-05-04 13:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fsph
+[2023-05-04 13:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: google-chad
+[2023-05-04 13:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mail-deduplicate
+[2023-05-04 13:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openvino-dev
+[2023-05-04 13:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gdb-plus
+[2023-05-04 13:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pybiolib
+[2023-05-04 13:37:42] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.91]
+[2023-05-04 13:37:42] INFO root fetch - processPackages [auto-retrieval-plugin]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-04 13:37:42] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-04 13:37:42] INFO root fetch - processPackages [google-chad]: New version: [3.4] Old Version: [3.3]
+[2023-05-04 13:37:42] INFO root fetch - processPackages [pyscemu]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-04 13:37:42] INFO root fetch - processPackages [fsph]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-04 13:37:42] WARNING root fetch - processPackages [wav2samp]: Skipping, unable to determine old version
+[2023-05-04 13:37:42] INFO root fetch - processPackages [mail-deduplicate]: New version: [7.2.3] Old Version: [7.2.0]
+[2023-05-04 13:37:42] INFO root fetch - processPackages [openvino-dev]: New version: [2023.0.0.dev20230427] Old Version: [2023.0.0.dev20230407]
+[2023-05-04 13:37:42] INFO root fetch - processPackages [gdb-plus]: New version: [6.1.2] Old Version: [6.1.1]
+[2023-05-04 13:37:42] INFO root fetch - processPackages [wav2samp]: Start processing: QGrain
+[2023-05-04 13:37:42] INFO root fetch - main [MainThread]: End processing [wav2samp] error
+[2023-05-04 13:37:42] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-05-04 13:37:42] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.91.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230504/p/pybiolib/1.1.91-1.1.94/diff.md --exclude *.pyd
+[2023-05-04 13:37:42] INFO root fetch - processPackages [QGrain]: New version: [0.5.3.6] Old Version: [0.5.3.5]
+[2023-05-04 13:37:42] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/87/54/3bf4e24ab35e5b84038e11bb244a319af94256a0112a94dfd35e2dcb0fa0/pyscemu-0.2.0.tar.gz
+[2023-05-04 13:37:42] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419]: Downloading https://files.pythonhosted.org/packages/db/c0/7c7bd56d69aff540424a33b658cdf3519ebccb8f859ea56da17325f0dd6c/alibabacloud_resourcedirectorymaster20220419-1.0.1.tar.gz
+[2023-05-04 13:37:42] INFO root fetch - processPackages [google-chad]: Downloading https://files.pythonhosted.org/packages/0b/60/2d5f06d41740a1b0fca590cd11af7d46507c83eb9d374992fd38d70c80ae/google-chad-3.3.tar.gz
+[2023-05-04 13:37:42] INFO root fetch - processPackages [fsph]: Downloading https://files.pythonhosted.org/packages/d4/a1/d990e539a8f953aaf6dbde2db48fe39ad2876c331fa4164ce80e0d929423/fsph-0.2.0.tar.gz
+[2023-05-04 13:37:43] INFO root fetch - processPackages [openvino-dev]: Downloading https://files.pythonhosted.org/packages/18/40/9fcf734f185ad5087494c45f9201f585421b55c21ce4e4442a606a43559b/openvino_dev-2023.0.0.dev20230407-10490-py3-none-any.whl
+[2023-05-04 13:37:43] INFO root fetch - processPackages [gdb-plus]: Downloading https://files.pythonhosted.org/packages/4e/78/d76aeb8189317ea942231f5aa8652e47ca07b7b9ea30db10d9aa5a08430a/gdb_plus-6.1.1.tar.gz
+[2023-05-04 13:37:43] INFO root fetch - processPackages [auto-retrieval-plugin]: Downloading https://files.pythonhosted.org/packages/67/e3/b01ee4b59353a1bee5d66d3522aeb984d3e8f3ef442b7909ac8cfc28aae3/auto_retrieval_plugin-0.1.3.tar.gz
+[2023-05-04 13:37:43] INFO root fetch - processPackages [QGrain]: Downloading https://files.pythonhosted.org/packages/c3/10/1d586f5adf1cb1fba582e8eddf05c542f97eb11f6040feb03cbb461cc677/QGrain-0.5.3.5.tar.gz
+[2023-05-04 13:37:43] INFO root fetch - processPackages [mail-deduplicate]: Downloading https://files.pythonhosted.org/packages/92/fd/44944b3bd0e7c12a93c680eaedc1d1818a274cd2b30fb3bc585526065774/mail_deduplicate-7.2.0.tar.gz
+[2023-05-04 13:37:43] INFO root fetch - processPackages [auto-retrieval-plugin]: executing diffoscope
+[2023-05-04 13:37:43] INFO root fetch - processPackages [auto-retrieval-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_retrieval_plugin-0.1.2.tar.gz tmp/auto_retrieval_plugin-0.1.3.tar.gz --markdown 20230504/a/auto-retrieval-plugin/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-04 13:37:43] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/45/ae/06e06274e4085320924785cb4da55cd63303ab59853e96f51baea9859837/pyscemu-0.2.1.tar.gz
+[2023-05-04 13:37:43] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419]: Downloading https://files.pythonhosted.org/packages/af/88/0411635ffe267c13e824f7eae6f9704eca5c6e018ebb3ba5b26e17ffaa73/alibabacloud_resourcedirectorymaster20220419-1.0.2.tar.gz
+[2023-05-04 13:37:43] INFO root fetch - processPackages [google-chad]: Downloading https://files.pythonhosted.org/packages/ce/55/e3ffa6ab8e6907017d8f16ac25997e62e728ef7e30c62cb0ad105de51c39/google-chad-3.4.tar.gz
+[2023-05-04 13:37:43] INFO root fetch - processPackages [fsph]: Downloading https://files.pythonhosted.org/packages/31/bc/79cbcd2dcb13881b307cd20595be6007f85122eb25d69de0502e62460f5e/fsph-0.3.0.tar.gz
+[2023-05-04 13:37:43] INFO root fetch - processPackages [google-chad]: executing diffoscope
+[2023-05-04 13:37:43] INFO root fetch - processPackages [google-chad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-chad-3.3.tar.gz tmp/google-chad-3.4.tar.gz --markdown 20230504/g/google-chad/3.3-3.4/diff.md --exclude *.pyd
+[2023-05-04 13:37:43] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419]: executing diffoscope
+[2023-05-04 13:37:43] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_resourcedirectorymaster20220419-1.0.1.tar.gz tmp/alibabacloud_resourcedirectorymaster20220419-1.0.2.tar.gz --markdown 20230504/a/alibabacloud-resourcedirectorymaster20220419/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-04 13:37:43] INFO root fetch - processPackages [gdb-plus]: Downloading https://files.pythonhosted.org/packages/b7/8a/f42ff9334b9d11633e1bd021a990dc23922e42e14ffdfd315fab807763fd/gdb_plus-6.1.2.tar.gz
+[2023-05-04 13:37:43] INFO root fetch - processPackages [pyscemu]: executing diffoscope
+[2023-05-04 13:37:43] INFO root fetch - processPackages [pyscemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscemu-0.2.0.tar.gz tmp/pyscemu-0.2.1.tar.gz --markdown 20230504/p/pyscemu/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-04 13:37:43] INFO root fetch - processPackages [openvino-dev]: Downloading https://files.pythonhosted.org/packages/74/de/288769c7d0e78e45b6bb8c05547a5c1408bb0add4f9baaaf9fa3b1a2e2ef/openvino_dev-2023.0.0.dev20230427-10862-py3-none-any.whl
+[2023-05-04 13:37:43] INFO root fetch - processPackages [fsph]: executing diffoscope
+[2023-05-04 13:37:43] INFO root fetch - processPackages [fsph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsph-0.2.0.tar.gz tmp/fsph-0.3.0.tar.gz --markdown 20230504/f/fsph/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-04 13:37:43] INFO root fetch - processPackages [mail-deduplicate]: Downloading https://files.pythonhosted.org/packages/fa/a2/f4a3112f008d2da9081b0aabda11f52b80085c6626078497deb5c8fdb3b3/mail_deduplicate-7.2.3.tar.gz
+[2023-05-04 13:37:43] INFO root fetch - processPackages [gdb-plus]: executing diffoscope
+[2023-05-04 13:37:43] INFO root fetch - processPackages [gdb-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdb_plus-6.1.1.tar.gz tmp/gdb_plus-6.1.2.tar.gz --markdown 20230504/g/gdb-plus/6.1.1-6.1.2/diff.md --exclude *.pyd
+[2023-05-04 13:37:43] INFO root fetch - processPackages [mail-deduplicate]: executing diffoscope
+[2023-05-04 13:37:43] INFO root fetch - processPackages [mail-deduplicate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mail_deduplicate-7.2.0.tar.gz tmp/mail_deduplicate-7.2.3.tar.gz --markdown 20230504/m/mail-deduplicate/7.2.0-7.2.3/diff.md --exclude *.pyd
+[2023-05-04 13:37:43] INFO root fetch - processPackages [openvino-dev]: executing diffoscope
+[2023-05-04 13:37:43] INFO root fetch - processPackages [openvino-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvino_dev-2023.0.0.dev20230407-10490-py3-none-any.whl.zip tmp/openvino_dev-2023.0.0.dev20230427-10862-py3-none-any.whl.zip --markdown 20230504/o/openvino-dev/2023.0.0.dev20230407-2023.0.0.dev20230427/diff.md --exclude *.pyd
+[2023-05-04 13:37:43] INFO root fetch - processPackages [QGrain]: Downloading https://files.pythonhosted.org/packages/82/f4/ce97582601eb472207bd2a78380192da4c22dc5e14045d4d8ba6e55dfcb4/QGrain-0.5.3.6.tar.gz
+[2023-05-04 13:37:43] WARNING root fetch - processPackages [QGrain]: Skipping package: exceeds size limit 14865584>=10485760
+[2023-05-04 13:37:43] INFO root fetch - processPackages [QGrain]: Start processing: pyre-check-nightly
+[2023-05-04 13:37:43] INFO root fetch - main [MainThread]: End processing [QGrain] error
+[2023-05-04 13:37:43] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101683198722] Old Version: [0.0.101683112303]
+[2023-05-04 13:37:43] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/32/6a/869502b59a80431db16d20d2cd0d7274d195a7bb5443f971433f8439ff60/pyre-check-nightly-0.0.101683112303.tar.gz
+[2023-05-04 13:37:44] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23267600>=10485760
+[2023-05-04 13:37:44] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: cmem-plugin-pyshacl
+[2023-05-04 13:37:44] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-05-04 13:37:44] INFO root fetch - processPackages [cmem-plugin-pyshacl]: New version: [4.1.3rc3] Old Version: [4.1.3rc2]
+[2023-05-04 13:37:44] INFO root fetch - processPackages [cmem-plugin-pyshacl]: executing diffoscope
+[2023-05-04 13:37:44] INFO root fetch - processPackages [cmem-plugin-pyshacl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_pyshacl-4.1.3rc2.tar.gz tmp/cmem_plugin_pyshacl-4.1.3rc3.tar.gz --markdown 20230504/c/cmem-plugin-pyshacl/4.1.3rc2-4.1.3rc3/diff.md --exclude *.pyd
+[2023-05-04 13:37:44] INFO root fetch - processPackages [auto-retrieval-plugin]: Start processing: torchx-nightly
+[2023-05-04 13:37:44] INFO root fetch - main [MainThread]: End processing [auto-retrieval-plugin]: success
+[2023-05-04 13:37:44] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-05-04 13:37:44] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-05-04 13:37:44] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.5.2-py3-none-any.whl.zip tmp/torchx_nightly-2023.5.3-py3-none-any.whl.zip --markdown 20230504/t/torchx-nightly/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-05-04 13:37:44] INFO root fetch - processPackages [pyscemu]: Start processing: pequenawebview
+[2023-05-04 13:37:44] INFO root fetch - main [MainThread]: End processing [pyscemu]: success
+[2023-05-04 13:37:44] INFO root fetch - processPackages [pequenawebview]: New version: [4.1.1] Old Version: [4.1]
+[2023-05-04 13:37:44] INFO root fetch - processPackages [pequenawebview]: executing diffoscope
+[2023-05-04 13:37:44] INFO root fetch - processPackages [pequenawebview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pequenawebview-4.1.tar.gz tmp/pequenawebview-4.1.1.tar.gz --markdown 20230504/p/pequenawebview/4.1-4.1.1/diff.md --exclude *.pyd
+[2023-05-04 13:37:45] INFO root fetch - processPackages [google-chad]: Start processing: dm-cli
+[2023-05-04 13:37:45] INFO root fetch - main [MainThread]: End processing [google-chad]: success
+[2023-05-04 13:37:45] INFO root fetch - processPackages [dm-cli]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-04 13:37:45] INFO root fetch - processPackages [dm-cli]: Downloading https://files.pythonhosted.org/packages/85/d3/b17cd31336e7b2a09eb82ff000978105a0b0570e00f75fda9ee2668c7928/dm-cli-1.0.7.tar.gz
+[2023-05-04 13:37:45] INFO root fetch - processPackages [mail-deduplicate]: Start processing: certora-cli-alpha-otakar-single-race-mode2
+[2023-05-04 13:37:45] INFO root fetch - main [MainThread]: End processing [mail-deduplicate]: success
+[2023-05-04 13:37:45] INFO root fetch - processPackages [fsph]: Start processing: bigdl-nano
+[2023-05-04 13:37:45] INFO root fetch - main [MainThread]: End processing [fsph]: success
+[2023-05-04 13:37:45] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: New version: [20230504.9.59.715367] Old Version: [20230504.7.14.754863]
+[2023-05-04 13:37:45] INFO root fetch - processPackages [cmem-plugin-pyshacl]: Start processing: moira-python-client
+[2023-05-04 13:37:45] INFO root fetch - main [MainThread]: End processing [cmem-plugin-pyshacl]: success
+[2023-05-04 13:37:45] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230503] Old Version: [2.4.0b20230502]
+[2023-05-04 13:37:45] INFO root fetch - processPackages [gdb-plus]: Start processing: certora-cli-alpha-jtoman-fixes-python-curse
+[2023-05-04 13:37:45] INFO root fetch - main [MainThread]: End processing [gdb-plus]: success
+[2023-05-04 13:37:45] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Downloading https://files.pythonhosted.org/packages/22/00/47d381bfcfb8a2f0f0b571545e881ead0ece177e6a4d6e733008956433d4/certora-cli-alpha-otakar-single_race_mode2-20230504.7.14.754863.tar.gz
+[2023-05-04 13:37:45] INFO root fetch - processPackages [dm-cli]: Downloading https://files.pythonhosted.org/packages/59/df/ca24977afe69b3ac5282172f3b9dd56ad46a72021accec09a7153b4d774c/dm-cli-1.0.8.tar.gz
+[2023-05-04 13:37:45] INFO root fetch - processPackages [certora-cli-alpha-jtoman-fixes-python-curse]: New version: [20230504.11.19.562436] Old Version: [20230504.1.42.685350]
+[2023-05-04 13:37:45] WARNING root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Skipping package: exceeds size limit 38420702>=10485760
+[2023-05-04 13:37:45] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Start processing: bigdl-chronos
+[2023-05-04 13:37:45] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-otakar-single-race-mode2] error
+[2023-05-04 13:37:45] INFO root fetch - processPackages [certora-cli-alpha-jtoman-fixes-python-curse]: Downloading https://files.pythonhosted.org/packages/a8/35/75d426b46a559804355c49a2ce1a4a47610b1bd9ac46b304fbdb9993d0a3/certora-cli-alpha-jtoman-fixes-python-curse-20230504.1.42.685350.tar.gz
+[2023-05-04 13:37:45] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230503] Old Version: [2.4.0b20230502]
+[2023-05-04 13:37:45] INFO root fetch - processPackages [moira-python-client]: New version: [4.0.0] Old Version: [3.0.0]
+[2023-05-04 13:37:45] INFO root fetch - processPackages [dm-cli]: executing diffoscope
+[2023-05-04 13:37:45] INFO root fetch - processPackages [dm-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm-cli-1.0.7.tar.gz tmp/dm-cli-1.0.8.tar.gz --markdown 20230504/d/dm-cli/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-04 13:37:45] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-fixes-python-curse]: Skipping package: exceeds size limit 38420075>=10485760
+[2023-05-04 13:37:45] INFO root fetch - processPackages [certora-cli-alpha-jtoman-fixes-python-curse]: Start processing: Pequena
+[2023-05-04 13:37:45] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-fixes-python-curse] error
+[2023-05-04 13:37:45] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 13:37:45] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-05-04 13:37:45] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-05-04 13:37:45] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230504/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 13:37:45] INFO root fetch - processPackages [moira-python-client]: Downloading https://files.pythonhosted.org/packages/d6/56/a28e715e6bb835953e5359a5a80cd0530a24bc9b0b9e615a3e04444ce674/moira-python-client-3.0.0.tar.gz
+[2023-05-04 13:37:45] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/70/2a/40a3c8dd4cd4f681283d236b8256a8d650f366b9635ce27e61f7ed20f7ed/bigdl_nano-2.4.0b20230503-py3-none-win_amd64.whl
+[2023-05-04 13:37:46] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-05-04 13:37:46] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230502-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230503-py3-none-win_amd64.whl.zip --markdown 20230504/b/bigdl-nano/2.4.0b20230502-2.4.0b20230503/diff.md --exclude *.pyd
+[2023-05-04 13:37:46] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/d8/4e/34de4940d797892369659eec21a7e0b6e30578cadaed34da1f24bca99a67/bigdl_chronos-2.4.0b20230503-py3-none-win_amd64.whl
+[2023-05-04 13:37:46] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-05-04 13:37:46] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230502-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230503-py3-none-win_amd64.whl.zip --markdown 20230504/b/bigdl-chronos/2.4.0b20230502-2.4.0b20230503/diff.md --exclude *.pyd
+[2023-05-04 13:37:46] INFO root fetch - processPackages [moira-python-client]: Downloading https://files.pythonhosted.org/packages/d6/74/057a497c1d1c5cc39addab894f8310c394ab512a9e33cd50a3236814ea4e/moira-python-client-4.0.0.tar.gz
+[2023-05-04 13:37:46] INFO root fetch - processPackages [moira-python-client]: executing diffoscope
+[2023-05-04 13:37:46] INFO root fetch - processPackages [moira-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moira-python-client-3.0.0.tar.gz tmp/moira-python-client-4.0.0.tar.gz --markdown 20230504/m/moira-python-client/3.0.0-4.0.0/diff.md --exclude *.pyd
+[2023-05-04 13:37:46] INFO root fetch - main [MainThread]: End processing [alibabacloud-resourcedirectorymaster20220419]: success
+[2023-05-04 13:37:46] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-05-04 13:37:47] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-05-04 13:37:47] INFO root fetch - main [MainThread]: End processing [dm-cli]: success
+[2023-05-04 13:37:47] INFO root fetch - main [MainThread]: End processing [moira-python-client]: success
+[2023-05-04 13:37:48] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-05-04 13:37:48] INFO root fetch - main [MainThread]: End processing [pequenawebview]: success
+[2023-05-04 13:37:48] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-05-04 13:38:48] INFO root fetch - main [MainThread]: End processing [openvino-dev]: success
+[2023-05-04 13:38:48] INFO root fetch - main [MainThread]: Store serial: [17971434]
