@@ -6492,3 +6492,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 05:31:51] INFO root fetch - main [MainThread]: End processing [ampapi]: success
 [2023-05-04 05:31:51] INFO root fetch - main [MainThread]: End processing [django-outbox-menu]: success
 [2023-05-04 05:31:51] INFO root fetch - main [MainThread]: Store serial: [17966981]
+[2023-05-04 05:36:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966981]
+[2023-05-04 05:37:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-04 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uintel
+[2023-05-04 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aionotion
+[2023-05-04 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc
+[2023-05-04 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mojo-runtime
+[2023-05-04 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GenBioX
+[2023-05-04 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-cdk.aws-amplify-alpha
+[2023-05-04 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-cdk.aws-apigatewayv2-alpha
+[2023-05-04 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-cdk.aws-apigatewayv2-authorizers-alpha
+[2023-05-04 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-cdk.aws-apigatewayv2-integrations-alpha
+[2023-05-04 05:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-cdk.aws-apprunner-alpha
+[2023-05-04 05:37:00] INFO root fetch - processPackages [aionotion]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-05-04 05:37:00] INFO root fetch - processPackages [GenBioX]: New version: [0.2] Old Version: [0.1]
+[2023-05-04 05:37:00] INFO root fetch - processPackages [mojo-runtime]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 05:37:00] INFO root fetch - processPackages [edc]: New version: [0.4.9] Old Version: [0.4.84]
+[2023-05-04 05:37:00] INFO root fetch - processPackages [uintel]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-apigatewayv2-integrations-alpha]: New version: [2.9.0a0] Old Version: [2.8.0a0]
+[2023-05-04 05:37:01] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2023-05-04 05:37:01] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-0.0.8.tar.gz tmp/mojo_runtime-0.0.9.tar.gz --markdown 20230504/m/mojo-runtime/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-apigatewayv2-authorizers-alpha]: New version: [2.9.0a0] Old Version: [2.8.0a0]
+[2023-05-04 05:37:01] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/61/c7/54d4fa8d27f033c7ac5d2ec6e4e85bba67e0d875b6db944900539e2c6ba8/edc-0.4.84.tar.gz
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-amplify-alpha]: New version: [2.9.0a0] Old Version: [2.8.0a0]
+[2023-05-04 05:37:01] INFO root fetch - processPackages [GenBioX]: executing diffoscope
+[2023-05-04 05:37:01] INFO root fetch - processPackages [GenBioX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GenBioX-0.1.tar.gz tmp/GenBioX-0.2.tar.gz --markdown 20230504/G/GenBioX/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aionotion]: Downloading https://files.pythonhosted.org/packages/d2/42/38af64fda93eab141ff7953210d2bfa71461fa041ff321c2469fae19dfeb/aionotion-3.0.1.tar.gz
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-apprunner-alpha]: New version: [2.9.0a0] Old Version: [2.8.0a0]
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-apigatewayv2-alpha]: New version: [2.9.0a0] Old Version: [2.8.0a0]
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-apigatewayv2-integrations-alpha]: Downloading https://files.pythonhosted.org/packages/94/0c/f9f16b9fd4d110a4c5c87830618dcdb84f76c320fcf4422013d4945d994f/aws-cdk.aws-apigatewayv2-integrations-alpha-2.8.0a0.tar.gz
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-apigatewayv2-authorizers-alpha]: Downloading https://files.pythonhosted.org/packages/53/80/52df657c43f454c5338320b69d78727c91a668b12a09df35274d3bd14948/aws-cdk.aws-apigatewayv2-authorizers-alpha-2.8.0a0.tar.gz
+[2023-05-04 05:37:01] INFO root fetch - processPackages [uintel]: executing diffoscope
+[2023-05-04 05:37:01] INFO root fetch - processPackages [uintel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uintel-0.3.8.tar.gz tmp/uintel-0.3.9.tar.gz --markdown 20230504/u/uintel/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-amplify-alpha]: Downloading https://files.pythonhosted.org/packages/11/60/9104cad57fe9dd95ac4016583368ed7be9de162989005964ab9d9e917588/aws-cdk.aws-amplify-alpha-2.8.0a0.tar.gz
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-apprunner-alpha]: Downloading https://files.pythonhosted.org/packages/ed/8c/7981c54b3998f3f9d00b74060acd9a3b7aa8cde7a04480f7818a3b17353d/aws-cdk.aws-apprunner-alpha-2.8.0a0.tar.gz
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-apigatewayv2-alpha]: Downloading https://files.pythonhosted.org/packages/09/d5/712cbff416a2f0e710f98d4da0ab79f7cfb93781f652eaf5d3d98846246f/aws-cdk.aws-apigatewayv2-alpha-2.8.0a0.tar.gz
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aionotion]: Downloading https://files.pythonhosted.org/packages/22/6d/d6ae4c277ccd4e1336a048e2de5585363472505d853a6ab2505e23c3a322/aionotion-3.0.2.tar.gz
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-apigatewayv2-authorizers-alpha]: Downloading https://files.pythonhosted.org/packages/59/d4/98ce058325d50daf3bbd7c75232193d6fa6adbb4ff661c5fbea7fc4b341b/aws-cdk.aws-apigatewayv2-authorizers-alpha-2.9.0a0.tar.gz
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-apigatewayv2-integrations-alpha]: Downloading https://files.pythonhosted.org/packages/ce/ac/3edf7c081cf3a17c09b5ec37dfdcfb051c5f8f5f4bdb7e16ecae0eaffdc6/aws-cdk.aws-apigatewayv2-integrations-alpha-2.9.0a0.tar.gz
+[2023-05-04 05:37:01] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/b1/10/9f8837f509c1f0fa854c0bcebba66374b226fbc581fca57bff8c44285994/edc-0.4.9.tar.gz
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-amplify-alpha]: Downloading https://files.pythonhosted.org/packages/a2/ad/38609e6e21eedc1f1732626ed2594c17a68b78d6505dc22d55c2e803e138/aws-cdk.aws-amplify-alpha-2.9.0a0.tar.gz
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aionotion]: executing diffoscope
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aionotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aionotion-3.0.1.tar.gz tmp/aionotion-3.0.2.tar.gz --markdown 20230504/a/aionotion/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-apigatewayv2-integrations-alpha]: executing diffoscope
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-apigatewayv2-integrations-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-apigatewayv2-integrations-alpha-2.8.0a0.tar.gz tmp/aws-cdk.aws-apigatewayv2-integrations-alpha-2.9.0a0.tar.gz --markdown 20230504/a/aws-cdk.aws-apigatewayv2-integrations-alpha/2.8.0a0-2.9.0a0/diff.md --exclude *.pyd
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-apigatewayv2-authorizers-alpha]: executing diffoscope
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-apigatewayv2-authorizers-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-apigatewayv2-authorizers-alpha-2.8.0a0.tar.gz tmp/aws-cdk.aws-apigatewayv2-authorizers-alpha-2.9.0a0.tar.gz --markdown 20230504/a/aws-cdk.aws-apigatewayv2-authorizers-alpha/2.8.0a0-2.9.0a0/diff.md --exclude *.pyd
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-amplify-alpha]: executing diffoscope
+[2023-05-04 05:37:01] INFO root fetch - processPackages [aws-cdk.aws-amplify-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-amplify-alpha-2.8.0a0.tar.gz tmp/aws-cdk.aws-amplify-alpha-2.9.0a0.tar.gz --markdown 20230504/a/aws-cdk.aws-amplify-alpha/2.8.0a0-2.9.0a0/diff.md --exclude *.pyd
+[2023-05-04 05:37:02] INFO root fetch - processPackages [aws-cdk.aws-apprunner-alpha]: Downloading https://files.pythonhosted.org/packages/48/39/63a6218282c815bf85feb827867ad62fc7028a219ab2b44c3336dd67be78/aws-cdk.aws-apprunner-alpha-2.9.0a0.tar.gz
+[2023-05-04 05:37:02] INFO root fetch - processPackages [aws-cdk.aws-apigatewayv2-alpha]: Downloading https://files.pythonhosted.org/packages/6a/da/af00261c816e636c07dd76e82a38ef20bd6fbfce6402a7837afd98661de2/aws-cdk.aws-apigatewayv2-alpha-2.9.0a0.tar.gz
+[2023-05-04 05:37:02] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-05-04 05:37:02] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.4.84.tar.gz tmp/edc-0.4.9.tar.gz --markdown 20230504/e/edc/0.4.84-0.4.9/diff.md --exclude *.pyd
+[2023-05-04 05:37:02] INFO root fetch - processPackages [aws-cdk.aws-apprunner-alpha]: executing diffoscope
+[2023-05-04 05:37:02] INFO root fetch - processPackages [aws-cdk.aws-apprunner-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-apprunner-alpha-2.8.0a0.tar.gz tmp/aws-cdk.aws-apprunner-alpha-2.9.0a0.tar.gz --markdown 20230504/a/aws-cdk.aws-apprunner-alpha/2.8.0a0-2.9.0a0/diff.md --exclude *.pyd
+[2023-05-04 05:37:02] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2023-05-04 05:37:02] INFO root fetch - processPackages [aws-cdk.aws-apigatewayv2-alpha]: executing diffoscope
+[2023-05-04 05:37:02] INFO root fetch - processPackages [aws-cdk.aws-apigatewayv2-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-apigatewayv2-alpha-2.8.0a0.tar.gz tmp/aws-cdk.aws-apigatewayv2-alpha-2.9.0a0.tar.gz --markdown 20230504/a/aws-cdk.aws-apigatewayv2-alpha/2.8.0a0-2.9.0a0/diff.md --exclude *.pyd
+[2023-05-04 05:37:02] INFO root fetch - main [MainThread]: End processing [GenBioX]: success
+[2023-05-04 05:37:02] INFO root fetch - main [MainThread]: End processing [uintel]: success
+[2023-05-04 05:37:03] INFO root fetch - main [MainThread]: End processing [aionotion]: success
+[2023-05-04 05:37:03] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-apigatewayv2-integrations-alpha]: success
+[2023-05-04 05:37:03] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-apigatewayv2-authorizers-alpha]: success
+[2023-05-04 05:37:03] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-apprunner-alpha]: success
+[2023-05-04 05:37:03] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-apigatewayv2-alpha]: success
+[2023-05-04 05:37:03] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-05-04 05:37:03] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-amplify-alpha]: success
+[2023-05-04 05:37:03] INFO root fetch - main [MainThread]: Store serial: [17967016]
