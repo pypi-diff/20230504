@@ -19232,3 +19232,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 17:53:15] INFO root fetch - main [MainThread]: End processing [vasprocar]: success
 [2023-05-04 17:53:16] INFO root fetch - main [MainThread]: End processing [dessia-common]: success
 [2023-05-04 17:53:16] INFO root fetch - main [MainThread]: Store serial: [17974447]
+[2023-05-04 17:58:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17974447]
+[2023-05-04 17:58:28] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-04 17:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-speech
+[2023-05-04 17:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uproot-browser
+[2023-05-04 17:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seleniumbase
+[2023-05-04 17:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dev-gpt
+[2023-05-04 17:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neurotechdevkit
+[2023-05-04 17:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kangas
+[2023-05-04 17:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arkitekt
+[2023-05-04 17:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastavro
+[2023-05-04 17:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sbioapputils
+[2023-05-04 17:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: krx-rigger
+[2023-05-04 17:58:28] INFO root fetch - processPackages [neurotechdevkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 17:58:28] INFO root fetch - processPackages [neon-speech]: New version: [3.3.1a2] Old Version: [3.3.1a1]
+[2023-05-04 17:58:28] INFO root fetch - processPackages [uproot-browser]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-04 17:58:28] WARNING root fetch - processPackages [sbioapputils]: Skipping, unable to determine old version
+[2023-05-04 17:58:28] INFO root fetch - processPackages [sbioapputils]: Start processing: certora-cli-alpha-alex-more-cvlrange-meta
+[2023-05-04 17:58:28] INFO root fetch - main [MainThread]: End processing [sbioapputils] error
+[2023-05-04 17:58:28] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 17:58:28] INFO root fetch - processPackages [kangas]: New version: [2.3.8] Old Version: [2.3.7]
+[2023-05-04 17:58:28] INFO root fetch - processPackages [arkitekt]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-04 17:58:28] WARNING root fetch - processPackages [dev-gpt]: Skipping, unable to determine old version
+[2023-05-04 17:58:28] INFO root fetch - processPackages [dev-gpt]: Start processing: fw-utils
+[2023-05-04 17:58:28] INFO root fetch - main [MainThread]: End processing [dev-gpt] error
+[2023-05-04 17:58:28] INFO root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: New version: [20230504.15.56.311507] Old Version: [20230504.14.18.235019]
+[2023-05-04 17:58:28] INFO root fetch - processPackages [fw-utils]: New version: [4.2.9] Old Version: [4.2.8]
+[2023-05-04 17:58:28] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-04 17:58:28] INFO root fetch - processPackages [fastavro]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-05-04 17:58:28] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-05-04 17:58:28] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.8.tar.gz tmp/krx_rigger-0.0.9.tar.gz --markdown 20230504/k/krx-rigger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 17:58:28] INFO root fetch - processPackages [uproot-browser]: Downloading https://files.pythonhosted.org/packages/db/34/64807b6cc00daff5dacc9343d9b79e9cc1b6e5eb35ee8336d76b2f51d8db/uproot_browser-0.6.1.tar.gz
+[2023-05-04 17:58:28] INFO root fetch - processPackages [neurotechdevkit]: executing diffoscope
+[2023-05-04 17:58:28] INFO root fetch - processPackages [neurotechdevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurotechdevkit-0.0.8.tar.gz tmp/neurotechdevkit-0.0.9.tar.gz --markdown 20230504/n/neurotechdevkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 17:58:28] INFO root fetch - processPackages [kangas]: Downloading https://files.pythonhosted.org/packages/1d/b2/5df395a2068e1bd731d2a2cad69774bcb648bb85def59e051b955c2aacbf/kangas-2.3.7-py3-none-any.whl
+[2023-05-04 17:58:28] INFO root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: Downloading https://files.pythonhosted.org/packages/04/d4/c11cb39bf422cbc4bbedbbff0ed4be4086e7d590f50d89e4c01aaf94b2fc/certora-cli-alpha-alex-more-cvlrange-meta-20230504.14.18.235019.tar.gz
+[2023-05-04 17:58:28] INFO root fetch - processPackages [fw-utils]: Downloading https://files.pythonhosted.org/packages/a0/eb/eb95c7a572f028298680008785967e41a95623574daccd301402a0270851/fw_utils-4.2.8-py3-none-any.whl
+[2023-05-04 17:58:28] WARNING root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: Skipping package: exceeds size limit 38413489>=10485760
+[2023-05-04 17:58:28] INFO root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: Start processing: frazzle
+[2023-05-04 17:58:28] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-more-cvlrange-meta] error
+[2023-05-04 17:58:28] WARNING root fetch - processPackages [frazzle]: Skipping, unable to determine old version
+[2023-05-04 17:58:28] INFO root fetch - main [MainThread]: End processing [frazzle] error
+[2023-05-04 17:58:28] INFO root fetch - processPackages [fastavro]: Downloading https://files.pythonhosted.org/packages/f3/d0/01116df6875ed4d25e6693ec6c60ebebcb566a84462c6e1f3b83bec10171/fastavro-1.7.3.tar.gz
+[2023-05-04 17:58:28] WARNING root fetch - processPackages [kangas]: Skipping package: exceeds size limit 15719398>=10485760
+[2023-05-04 17:58:28] INFO root fetch - main [MainThread]: End processing [kangas] error
+[2023-05-04 17:58:28] INFO root fetch - processPackages [neon-speech]: Downloading https://files.pythonhosted.org/packages/bb/d6/590102f8d261dc05909ebec94779bb22e4d3374818f344f2b1e6a5005470/neon_speech-3.3.1a2-py3-none-any.whl
+[2023-05-04 17:58:28] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-05-04 17:58:28] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.98.tar.gz tmp/arkitekt-0.4.99.tar.gz --markdown 20230504/a/arkitekt/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-04 17:58:29] INFO root fetch - processPackages [uproot-browser]: Downloading https://files.pythonhosted.org/packages/13/8e/1412f5d2568cfca0f81a40cd465be8d4c16b4e88ccf3102a3ddf5f86ebda/uproot_browser-0.6.2.tar.gz
+[2023-05-04 17:58:29] INFO root fetch - processPackages [uproot-browser]: executing diffoscope
+[2023-05-04 17:58:29] INFO root fetch - processPackages [uproot-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uproot_browser-0.6.1.tar.gz tmp/uproot_browser-0.6.2.tar.gz --markdown 20230504/u/uproot-browser/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-04 17:58:29] INFO root fetch - processPackages [neon-speech]: executing diffoscope
+[2023-05-04 17:58:29] INFO root fetch - processPackages [neon-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_speech-3.3.1a1-py3-none-any.whl.zip tmp/neon_speech-3.3.1a2-py3-none-any.whl.zip --markdown 20230504/n/neon-speech/3.3.1a1-3.3.1a2/diff.md --exclude *.pyd
+[2023-05-04 17:58:29] INFO root fetch - processPackages [fastavro]: Downloading https://files.pythonhosted.org/packages/36/41/9dcb98cfb0f5f1061e280a0268ac00c310fb4f0f7917f954c991e13e9c69/fastavro-1.7.4.tar.gz
+[2023-05-04 17:58:29] INFO root fetch - processPackages [fw-utils]: Downloading https://files.pythonhosted.org/packages/21/c6/fbc7fae39ecc02db998bfb96e61755aafe58cf08766aeb4a33267e20176f/fw_utils-4.2.9-py3-none-any.whl
+[2023-05-04 17:58:29] INFO root fetch - processPackages [fastavro]: executing diffoscope
+[2023-05-04 17:58:29] INFO root fetch - processPackages [fastavro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastavro-1.7.3.tar.gz tmp/fastavro-1.7.4.tar.gz --markdown 20230504/f/fastavro/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2023-05-04 17:58:29] INFO root fetch - processPackages [fw-utils]: executing diffoscope
+[2023-05-04 17:58:29] INFO root fetch - processPackages [fw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fw_utils-4.2.8-py3-none-any.whl.zip tmp/fw_utils-4.2.9-py3-none-any.whl.zip --markdown 20230504/f/fw-utils/4.2.8-4.2.9/diff.md --exclude *.pyd
+[2023-05-04 17:58:29] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-05-04 17:58:29] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230504/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-04 17:58:29] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-05-04 17:58:30] INFO root fetch - main [MainThread]: End processing [neon-speech]: success
+[2023-05-04 17:58:30] INFO root fetch - main [MainThread]: End processing [fw-utils]: success
+[2023-05-04 17:58:30] INFO root fetch - main [MainThread]: End processing [uproot-browser]: success
+[2023-05-04 17:58:31] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-05-04 17:58:31] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-05-04 17:58:31] INFO root fetch - main [MainThread]: End processing [fastavro]: success
+[2023-05-04 17:58:32] INFO root fetch - main [MainThread]: End processing [neurotechdevkit]: success
+[2023-05-04 17:58:32] INFO root fetch - main [MainThread]: Store serial: [17974524]
