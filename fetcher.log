@@ -21115,3 +21115,68 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 19:31:22] INFO root fetch - main [MainThread]: End processing [stogui]: success
 [2023-05-04 19:31:23] INFO root fetch - main [MainThread]: End processing [binary-refinery]: success
 [2023-05-04 19:31:23] INFO root fetch - main [MainThread]: Store serial: [17975599]
+[2023-05-04 19:36:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17975599]
+[2023-05-04 19:36:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-04 19:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uniTbrow
+[2023-05-04 19:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sydney-py
+[2023-05-04 19:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-admin-dashboard
+[2023-05-04 19:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsaugmentation
+[2023-05-04 19:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kmaps
+[2023-05-04 19:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dokuwikidumper
+[2023-05-04 19:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autouri
+[2023-05-04 19:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PythonAvroSchemas
+[2023-05-04 19:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: remla12-lib
+[2023-05-04 19:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tinkoff-investments
+[2023-05-04 19:36:33] INFO root fetch - processPackages [uniTbrow]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-04 19:36:33] INFO root fetch - processPackages [dokuwikidumper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 19:36:33] INFO root fetch - processPackages [autouri]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-04 19:36:33] INFO root fetch - processPackages [flask-admin-dashboard]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-04 19:36:33] INFO root fetch - processPackages [kmaps]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 19:36:33] INFO root fetch - processPackages [sydney-py]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-04 19:36:33] INFO root fetch - processPackages [tsaugmentation]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-04 19:36:33] WARNING root fetch - processPackages [remla12-lib]: Skipping, unable to determine old version
+[2023-05-04 19:36:33] INFO root fetch - main [MainThread]: End processing [remla12-lib] error
+[2023-05-04 19:36:33] INFO root fetch - processPackages [tsaugmentation]: executing diffoscope
+[2023-05-04 19:36:33] INFO root fetch - processPackages [tsaugmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsaugmentation-0.5.8.tar.gz tmp/tsaugmentation-0.5.9.tar.gz --markdown 20230504/t/tsaugmentation/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-04 19:36:33] INFO root fetch - processPackages [tinkoff-investments]: New version: [0.2.0b9] Old Version: [0.2.0b8]
+[2023-05-04 19:36:33] INFO root fetch - processPackages [PythonAvroSchemas]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-04 19:36:33] INFO root fetch - processPackages [kmaps]: Downloading https://files.pythonhosted.org/packages/11/bd/e23800a9c7d55c34e08f621e6a6c42e68fa9139dac3f7b67eb62b3424904/kmaps-0.0.8.tar.gz
+[2023-05-04 19:36:33] INFO root fetch - processPackages [uniTbrow]: Downloading https://files.pythonhosted.org/packages/36/6e/ef070d5901c67fa0ad93b1604caa7484fd81264ce64c55509cf7da4cecbd/unitbrow-0.0.1.tar.gz
+[2023-05-04 19:36:33] INFO root fetch - processPackages [dokuwikidumper]: Downloading https://files.pythonhosted.org/packages/8a/77/6dec3b11bf518fac347215309f743f5b619907f701930657ce67b1a56294/dokuwikidumper-0.1.8.tar.gz
+[2023-05-04 19:36:33] INFO root fetch - processPackages [flask-admin-dashboard]: Downloading https://files.pythonhosted.org/packages/02/2a/db334d95ef273ea2a2fd808b426d1c0164e06b91b508190647d659423ae3/flask_admin_dashboard-0.0.5.tar.gz
+[2023-05-04 19:36:33] INFO root fetch - processPackages [sydney-py]: Downloading https://files.pythonhosted.org/packages/41/59/a01e40de0b79cb9e5b9753aff2023c3bc23107a4bff38286eebbd3e6c14a/sydney_py-0.8.0.tar.gz
+[2023-05-04 19:36:33] INFO root fetch - processPackages [autouri]: Downloading https://files.pythonhosted.org/packages/80/bd/abf4a187e30aed0cdf482896d7b1a41100bb00046919bb2c4ecaf153e977/autouri-0.4.3.tar.gz
+[2023-05-04 19:36:33] INFO root fetch - processPackages [PythonAvroSchemas]: Downloading https://files.pythonhosted.org/packages/f8/7b/a33230a36beafe6bc47c580dd7cc6fdbeae0ea7a6768ba3d236e5c3573cd/PythonAvroSchemas-1.2.0.tar.gz
+[2023-05-04 19:36:33] INFO root fetch - processPackages [flask-admin-dashboard]: Downloading https://files.pythonhosted.org/packages/c1/ef/c110940d86ef246fb917ab8cce0d5ae82933b44a8ce0231a7b213a9a5d44/flask_admin_dashboard-0.0.6.tar.gz
+[2023-05-04 19:36:33] INFO root fetch - processPackages [kmaps]: Downloading https://files.pythonhosted.org/packages/03/e1/2f79b6c1aec2a3f1ccba333f25f12a222e200e17657c14f5edcf354b71f4/kmaps-0.0.9.tar.gz
+[2023-05-04 19:36:33] INFO root fetch - processPackages [tinkoff-investments]: executing diffoscope
+[2023-05-04 19:36:33] INFO root fetch - processPackages [tinkoff-investments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinkoff-investments-0.2.0b8.tar.gz tmp/tinkoff-investments-0.2.0b9.tar.gz --markdown 20230504/t/tinkoff-investments/0.2.0b8-0.2.0b9/diff.md --exclude *.pyd
+[2023-05-04 19:36:33] INFO root fetch - processPackages [dokuwikidumper]: Downloading https://files.pythonhosted.org/packages/8e/0b/c59e9f31ad583ecbb464b66cbce93ebe16efa5f9597f9aea718ec09587fb/dokuwikidumper-0.1.9.tar.gz
+[2023-05-04 19:36:33] INFO root fetch - processPackages [kmaps]: executing diffoscope
+[2023-05-04 19:36:33] INFO root fetch - processPackages [kmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmaps-0.0.8.tar.gz tmp/kmaps-0.0.9.tar.gz --markdown 20230504/k/kmaps/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 19:36:33] INFO root fetch - processPackages [flask-admin-dashboard]: executing diffoscope
+[2023-05-04 19:36:33] INFO root fetch - processPackages [flask-admin-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_admin_dashboard-0.0.5.tar.gz tmp/flask_admin_dashboard-0.0.6.tar.gz --markdown 20230504/f/flask-admin-dashboard/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-04 19:36:33] INFO root fetch - processPackages [uniTbrow]: Downloading https://files.pythonhosted.org/packages/52/89/e60a528da493bf2991adba7104099e199aaf560c477505393bf4b774f2b6/unitbrow-0.1.0.tar.gz
+[2023-05-04 19:36:33] INFO root fetch - processPackages [dokuwikidumper]: executing diffoscope
+[2023-05-04 19:36:33] INFO root fetch - processPackages [dokuwikidumper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dokuwikidumper-0.1.8.tar.gz tmp/dokuwikidumper-0.1.9.tar.gz --markdown 20230504/d/dokuwikidumper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 19:36:33] INFO root fetch - processPackages [autouri]: Downloading https://files.pythonhosted.org/packages/bd/59/bf4c9be16e05039548a47bd80f1c8255ead3e59684972b029bdfb0149b08/autouri-0.4.4.tar.gz
+[2023-05-04 19:36:33] INFO root fetch - processPackages [uniTbrow]: executing diffoscope
+[2023-05-04 19:36:33] INFO root fetch - processPackages [uniTbrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitbrow-0.0.1.tar.gz tmp/unitbrow-0.1.0.tar.gz --markdown 20230504/u/uniTbrow/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-04 19:36:33] INFO root fetch - processPackages [sydney-py]: Downloading https://files.pythonhosted.org/packages/02/41/7735e426c92193839cadff24522495dba9bc888c317f6013433a4fa188c7/sydney_py-0.9.0.tar.gz
+[2023-05-04 19:36:34] INFO root fetch - processPackages [PythonAvroSchemas]: Downloading https://files.pythonhosted.org/packages/be/fa/a2abec22da8e2e9d9fe299c598d552f74dc0c67f90ec5c2a7916ff5c7529/PythonAvroSchemas-1.3.0.tar.gz
+[2023-05-04 19:36:34] INFO root fetch - processPackages [PythonAvroSchemas]: executing diffoscope
+[2023-05-04 19:36:34] INFO root fetch - processPackages [PythonAvroSchemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonAvroSchemas-1.2.0.tar.gz tmp/PythonAvroSchemas-1.3.0.tar.gz --markdown 20230504/P/PythonAvroSchemas/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-04 19:36:34] INFO root fetch - processPackages [autouri]: executing diffoscope
+[2023-05-04 19:36:34] INFO root fetch - processPackages [autouri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autouri-0.4.3.tar.gz tmp/autouri-0.4.4.tar.gz --markdown 20230504/a/autouri/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-04 19:36:34] INFO root fetch - processPackages [sydney-py]: executing diffoscope
+[2023-05-04 19:36:34] INFO root fetch - processPackages [sydney-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydney_py-0.8.0.tar.gz tmp/sydney_py-0.9.0.tar.gz --markdown 20230504/s/sydney-py/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 19:36:34] INFO root fetch - main [MainThread]: End processing [tsaugmentation]: success
+[2023-05-04 19:36:35] INFO root fetch - main [MainThread]: End processing [flask-admin-dashboard]: success
+[2023-05-04 19:36:35] INFO root fetch - main [MainThread]: End processing [kmaps]: success
+[2023-05-04 19:36:35] INFO root fetch - main [MainThread]: End processing [PythonAvroSchemas]: success
+[2023-05-04 19:36:35] INFO root fetch - main [MainThread]: End processing [dokuwikidumper]: success
+[2023-05-04 19:36:36] INFO root fetch - main [MainThread]: End processing [autouri]: success
+[2023-05-04 19:36:37] INFO root fetch - main [MainThread]: End processing [tinkoff-investments]: success
+[2023-05-04 19:36:51] INFO root fetch - main [MainThread]: End processing [uniTbrow]: success
+[2023-05-04 19:37:01] INFO root fetch - main [MainThread]: End processing [sydney-py]: success
+[2023-05-04 19:37:01] INFO root fetch - main [MainThread]: Store serial: [17975630]
