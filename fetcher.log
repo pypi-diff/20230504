@@ -15457,3 +15457,101 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 14:50:07] INFO root fetch - main [MainThread]: End processing [oranchada]: success
 [2023-05-04 14:50:10] INFO root fetch - main [MainThread]: End processing [ipython]: success
 [2023-05-04 14:50:10] INFO root fetch - main [MainThread]: Store serial: [17972265]
+[2023-05-04 14:55:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17972265]
+[2023-05-04 14:55:19] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-04 14:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2023-05-04 14:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openxes-cli-py
+[2023-05-04 14:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gcp-ng-helpers
+[2023-05-04 14:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: total-perspective-vortex
+[2023-05-04 14:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ethpm-types
+[2023-05-04 14:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bipl
+[2023-05-04 14:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dask-felleskomponenter
+[2023-05-04 14:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gracy
+[2023-05-04 14:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-queue-job
+[2023-05-04 14:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oida
+[2023-05-04 14:55:19] INFO root fetch - processPackages [gcp-ng-helpers]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-04 14:55:19] INFO root fetch - processPackages [bipl]: New version: [0.1.1] Old Version: [0.1.0.post2]
+[2023-05-04 14:55:19] INFO root fetch - processPackages [total-perspective-vortex]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-04 14:55:19] INFO root fetch - processPackages [dask-felleskomponenter]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-04 14:55:19] INFO root fetch - processPackages [ethpm-types]: New version: [0.5.0] Old Version: [0.4.5]
+[2023-05-04 14:55:19] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230504.9.57.726431] Old Version: [20230504.12.6.145215]
+[2023-05-04 14:55:19] WARNING root fetch - processPackages [openxes-cli-py]: Skipping, unable to determine old version
+[2023-05-04 14:55:19] INFO root fetch - processPackages [openxes-cli-py]: Start processing: plex-nfs-watchdog
+[2023-05-04 14:55:19] INFO root fetch - main [MainThread]: End processing [openxes-cli-py] error
+[2023-05-04 14:55:19] INFO root fetch - processPackages [oida]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-05-04 14:55:19] INFO root fetch - processPackages [odoo-addon-queue-job]: New version: [16.0.2.3.1] Old Version: [16.0.2.3.0]
+[2023-05-04 14:55:19] INFO root fetch - processPackages [gracy]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-04 14:55:19] INFO root fetch - processPackages [plex-nfs-watchdog]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-04 14:55:19] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/1f/55/f709ad16e6ccafe1d61ae79dde495cbf763807bcf80b25e1c7a0cd91db9e/certora-cli-alpha-master-20230504.12.6.145215.tar.gz
+[2023-05-04 14:55:19] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38417586>=10485760
+[2023-05-04 14:55:19] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: flow360
+[2023-05-04 14:55:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-04 14:55:19] INFO root fetch - processPackages [gracy]: executing diffoscope
+[2023-05-04 14:55:19] INFO root fetch - processPackages [gracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gracy-1.9.0.tar.gz tmp/gracy-1.9.1.tar.gz --markdown 20230504/g/gracy/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-04 14:55:19] INFO root fetch - processPackages [flow360]: New version: [0.2.0b8] Old Version: [0.2.0b7]
+[2023-05-04 14:55:19] INFO root fetch - processPackages [gcp-ng-helpers]: Downloading https://files.pythonhosted.org/packages/26/8e/c7f71f6ce9cceaf72dc02a10142f2abedcace00a3e68434c58fe26e42e23/gcp_ng_helpers-0.0.3.tar.gz
+[2023-05-04 14:55:19] INFO root fetch - processPackages [bipl]: Downloading https://files.pythonhosted.org/packages/d8/96/574dab0526c3f6311a1f46db35bc7b2cc16ac1bbf21af546ce6b00f3f46b/bipl-0.1.0.post2.tar.gz
+[2023-05-04 14:55:19] INFO root fetch - processPackages [odoo-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/0d/d6/b0526b753c05ae3183a3023715edf78669b47b67cf62756a42e886cf68c2/odoo_addon_queue_job-16.0.2.3.0-py3-none-any.whl
+[2023-05-04 14:55:19] INFO root fetch - processPackages [dask-felleskomponenter]: Downloading https://files.pythonhosted.org/packages/c5/d3/4651927e837a8ed5cbee975f4ac5b579f647c347232921c33dc54cdcd16c/dask-felleskomponenter-0.0.8.tar.gz
+[2023-05-04 14:55:19] INFO root fetch - processPackages [total-perspective-vortex]: Downloading https://files.pythonhosted.org/packages/7b/0f/a870496be75b6d63e5dedc1a4f9e20189bc6bc656f9ba69832b99312c585/total-perspective-vortex-2.2.2.tar.gz
+[2023-05-04 14:55:19] INFO root fetch - processPackages [oida]: Downloading https://files.pythonhosted.org/packages/4e/ec/2117892fa32cba41f1f97f1174a6dd2be07c5e1a3beab2f36028b92a24ec/oida-0.1.5.tar.gz
+[2023-05-04 14:55:19] INFO root fetch - processPackages [plex-nfs-watchdog]: Downloading https://files.pythonhosted.org/packages/71/e7/01db7bbcae75fd7a447911c3099e7725250586e19bc27522fa915edae957/plex-nfs-watchdog-0.0.6.tar.gz
+[2023-05-04 14:55:19] INFO root fetch - processPackages [ethpm-types]: Downloading https://files.pythonhosted.org/packages/a8/00/d774c945c59fabb97a4cd23c6a0c16ce65ed4f610eeb414f87914ca0dcc8/ethpm-types-0.5.0.tar.gz
+[2023-05-04 14:55:19] INFO root fetch - processPackages [dask-felleskomponenter]: executing diffoscope
+[2023-05-04 14:55:19] INFO root fetch - processPackages [dask-felleskomponenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-felleskomponenter-0.0.7.tar.gz tmp/dask-felleskomponenter-0.0.8.tar.gz --markdown 20230504/d/dask-felleskomponenter/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-04 14:55:19] INFO root fetch - processPackages [plex-nfs-watchdog]: executing diffoscope
+[2023-05-04 14:55:19] INFO root fetch - processPackages [plex-nfs-watchdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plex-nfs-watchdog-0.0.5.tar.gz tmp/plex-nfs-watchdog-0.0.6.tar.gz --markdown 20230504/p/plex-nfs-watchdog/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-04 14:55:19] INFO root fetch - processPackages [flow360]: Downloading https://files.pythonhosted.org/packages/d0/fb/a17fd0a3a12d858f09d0a20f14fa6e9733f5c8f80dbbbeb346515f6a8d56/flow360-0.2.0b8.tar.gz
+[2023-05-04 14:55:19] INFO root fetch - processPackages [total-perspective-vortex]: Downloading https://files.pythonhosted.org/packages/e6/eb/4c21f929c396c152da30176f1a5d1c37c32507623ebf3cb325107a1773e2/total-perspective-vortex-2.2.3.tar.gz
+[2023-05-04 14:55:19] INFO root fetch - processPackages [odoo-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/66/4e/4d87854c08600fb23d70d9acac0e84f1d99d3d1b91e5f4290c776c829d57/odoo_addon_queue_job-16.0.2.3.1-py3-none-any.whl
+[2023-05-04 14:55:19] INFO root fetch - processPackages [gcp-ng-helpers]: Downloading https://files.pythonhosted.org/packages/a4/11/ba82047bbcf2bcddb9a4e25a9460403e5be6f4f5378b8837bf76472a2ee2/gcp_ng_helpers-0.0.4.tar.gz
+[2023-05-04 14:55:19] INFO root fetch - processPackages [ethpm-types]: executing diffoscope
+[2023-05-04 14:55:19] INFO root fetch - processPackages [ethpm-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethpm-types-0.4.5.tar.gz tmp/ethpm-types-0.5.0.tar.gz --markdown 20230504/e/ethpm-types/0.4.5-0.5.0/diff.md --exclude *.pyd
+[2023-05-04 14:55:19] INFO root fetch - processPackages [bipl]: Downloading https://files.pythonhosted.org/packages/0a/f6/a234faba5619ad45b2da8e7266cda101b33dd12b35dd41cf9803c7d897ac/bipl-0.1.1.tar.gz
+[2023-05-04 14:55:19] INFO root fetch - processPackages [total-perspective-vortex]: executing diffoscope
+[2023-05-04 14:55:19] INFO root fetch - processPackages [total-perspective-vortex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/total-perspective-vortex-2.2.2.tar.gz tmp/total-perspective-vortex-2.2.3.tar.gz --markdown 20230504/t/total-perspective-vortex/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-04 14:55:19] INFO root fetch - processPackages [flow360]: executing diffoscope
+[2023-05-04 14:55:19] INFO root fetch - processPackages [flow360]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow360-0.2.0b7.tar.gz tmp/flow360-0.2.0b8.tar.gz --markdown 20230504/f/flow360/0.2.0b7-0.2.0b8/diff.md --exclude *.pyd
+[2023-05-04 14:55:19] INFO root fetch - processPackages [oida]: Downloading https://files.pythonhosted.org/packages/6e/98/5164cf4a1621c552597faf34f27b3075fa68ac8f76ca63701e530f89bdd1/oida-0.2.0.tar.gz
+[2023-05-04 14:55:19] INFO root fetch - processPackages [odoo-addon-queue-job]: executing diffoscope
+[2023-05-04 14:55:19] INFO root fetch - processPackages [odoo-addon-queue-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_queue_job-16.0.2.3.0-py3-none-any.whl.zip tmp/odoo_addon_queue_job-16.0.2.3.1-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-queue-job/16.0.2.3.0-16.0.2.3.1/diff.md --exclude *.pyd
+[2023-05-04 14:55:19] INFO root fetch - processPackages [gcp-ng-helpers]: executing diffoscope
+[2023-05-04 14:55:19] INFO root fetch - processPackages [gcp-ng-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_ng_helpers-0.0.3.tar.gz tmp/gcp_ng_helpers-0.0.4.tar.gz --markdown 20230504/g/gcp-ng-helpers/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-04 14:55:19] INFO root fetch - processPackages [bipl]: executing diffoscope
+[2023-05-04 14:55:19] INFO root fetch - processPackages [bipl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bipl-0.1.0.post2.tar.gz tmp/bipl-0.1.1.tar.gz --markdown 20230504/b/bipl/0.1.0.post2-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 14:55:19] INFO root fetch - processPackages [oida]: executing diffoscope
+[2023-05-04 14:55:19] INFO root fetch - processPackages [oida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oida-0.1.5.tar.gz tmp/oida-0.2.0.tar.gz --markdown 20230504/o/oida/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-05-04 14:55:20] INFO root fetch - processPackages [gracy]: Start processing: buckaroo
+[2023-05-04 14:55:20] INFO root fetch - main [MainThread]: End processing [gracy]: success
+[2023-05-04 14:55:20] INFO root fetch - processPackages [buckaroo]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-04 14:55:20] INFO root fetch - processPackages [dask-felleskomponenter]: Start processing: odoo-addon-queue-job
+[2023-05-04 14:55:20] INFO root fetch - main [MainThread]: End processing [dask-felleskomponenter]: success
+[2023-05-04 14:55:20] INFO root fetch - processPackages [odoo-addon-queue-job]: New version: [16.0.2.3.1] Old Version: [16.0.2.3.0]
+[2023-05-04 14:55:21] INFO root fetch - processPackages [odoo-addon-queue-job]: executing diffoscope
+[2023-05-04 14:55:21] INFO root fetch - processPackages [odoo-addon-queue-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_queue_job-16.0.2.3.0-py3-none-any.whl.zip tmp/odoo_addon_queue_job-16.0.2.3.1-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-queue-job/16.0.2.3.0-16.0.2.3.1/diff.md --exclude *.pyd
+[2023-05-04 14:55:21] INFO root fetch - processPackages [plex-nfs-watchdog]: Start processing: PyVecDB
+[2023-05-04 14:55:21] INFO root fetch - processPackages [buckaroo]: Downloading https://files.pythonhosted.org/packages/a2/7d/db935ca5218e52c20f227aa811e9f096cf3329b7e80dcaa5c1c9d0a45541/buckaroo-0.2.7.tar.gz
+[2023-05-04 14:55:21] INFO root fetch - main [MainThread]: End processing [plex-nfs-watchdog]: success
+[2023-05-04 14:55:21] INFO root fetch - processPackages [PyVecDB]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 14:55:21] INFO root fetch - processPackages [buckaroo]: executing diffoscope
+[2023-05-04 14:55:21] INFO root fetch - processPackages [buckaroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buckaroo-0.2.6.tar.gz tmp/buckaroo-0.2.7.tar.gz --markdown 20230504/b/buckaroo/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-04 14:55:21] INFO root fetch - processPackages [PyVecDB]: Downloading https://files.pythonhosted.org/packages/e3/52/662b5f2d46bba5c96319ff2bb61085b4b6e6df1ec54c883077ace4dcd5de/PyVecDB-0.1.1.tar.gz
+[2023-05-04 14:55:21] INFO root fetch - processPackages [total-perspective-vortex]: Start processing: wizata-dsapi
+[2023-05-04 14:55:21] INFO root fetch - main [MainThread]: End processing [total-perspective-vortex]: success
+[2023-05-04 14:55:21] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 14:55:21] INFO root fetch - processPackages [PyVecDB]: Downloading https://files.pythonhosted.org/packages/c4/70/009077dde4a104ddb5c66c399e085c32a923545dcb8e30051e50d970a0cd/PyVecDB-0.1.2.tar.gz
+[2023-05-04 14:55:21] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-05-04 14:55:21] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230504/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 14:55:21] INFO root fetch - main [MainThread]: End processing [oida]: success
+[2023-05-04 14:55:21] INFO root fetch - processPackages [PyVecDB]: executing diffoscope
+[2023-05-04 14:55:21] INFO root fetch - processPackages [PyVecDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyVecDB-0.1.1.tar.gz tmp/PyVecDB-0.1.2.tar.gz --markdown 20230504/P/PyVecDB/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 14:55:21] INFO root fetch - main [MainThread]: End processing [gcp-ng-helpers]: success
+[2023-05-04 14:55:21] INFO root fetch - main [MainThread]: End processing [bipl]: success
+[2023-05-04 14:55:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-queue-job]: success
+[2023-05-04 14:55:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-queue-job]: success
+[2023-05-04 14:55:22] INFO root fetch - main [MainThread]: End processing [PyVecDB]: success
+[2023-05-04 14:55:22] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-05-04 14:55:24] INFO root fetch - main [MainThread]: End processing [flow360]: success
+[2023-05-04 14:55:24] INFO root fetch - main [MainThread]: End processing [ethpm-types]: success
+[2023-05-04 14:55:47] INFO root fetch - main [MainThread]: End processing [buckaroo]: success
+[2023-05-04 14:55:47] INFO root fetch - main [MainThread]: Store serial: [17972323]
