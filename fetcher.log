@@ -17552,3 +17552,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 16:31:30] INFO root fetch - main [MainThread]: End processing [napari-spatialdata]: success
 [2023-05-04 16:31:34] INFO root fetch - main [MainThread]: End processing [diffpy.pdfgui]: success
 [2023-05-04 16:31:34] INFO root fetch - main [MainThread]: Store serial: [17973482]
+[2023-05-04 16:36:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17973482]
+[2023-05-04 16:36:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-04 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uniTbrow
+[2023-05-04 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytedea
+[2023-05-04 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ospx
+[2023-05-04 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-strongly-typed
+[2023-05-04 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: garpix-company
+[2023-05-04 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lixinger
+[2023-05-04 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spycone
+[2023-05-04 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idelucs
+[2023-05-04 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: morphosamplers
+[2023-05-04 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: LeoLeeeCommon
+[2023-05-04 16:36:43] WARNING root fetch - processPackages [py-strongly-typed]: Skipping, unable to determine old version
+[2023-05-04 16:36:43] INFO root fetch - processPackages [py-strongly-typed]: Start processing: certora-cli-alpha-assaf-TACNewFormat-autoPrinting
+[2023-05-04 16:36:43] INFO root fetch - main [MainThread]: End processing [py-strongly-typed] error
+[2023-05-04 16:36:43] WARNING root fetch - processPackages [uniTbrow]: Skipping, unable to determine old version
+[2023-05-04 16:36:43] INFO root fetch - processPackages [uniTbrow]: Start processing: rpaframework-google
+[2023-05-04 16:36:43] INFO root fetch - main [MainThread]: End processing [uniTbrow] error
+[2023-05-04 16:36:43] INFO root fetch - processPackages [garpix-company]: New version: [2.7.0] Old Version: [2.6.1]
+[2023-05-04 16:36:43] INFO root fetch - processPackages [idelucs]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-04 16:36:43] INFO root fetch - processPackages [LeoLeeeCommon]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 16:36:43] INFO root fetch - processPackages [pytedea]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-04 16:36:43] INFO root fetch - processPackages [spycone]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-04 16:36:43] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACNewFormat-autoPrinting]: New version: [20230504.14.35.915675] Old Version: [20230504.13.55.258869]
+[2023-05-04 16:36:43] INFO root fetch - processPackages [lixinger]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-04 16:36:43] INFO root fetch - processPackages [morphosamplers]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-05-04 16:36:43] INFO root fetch - processPackages [ospx]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-04 16:36:43] INFO root fetch - processPackages [rpaframework-google]: New version: [7.0.3] Old Version: [7.0.2]
+[2023-05-04 16:36:43] INFO root fetch - processPackages [spycone]: Downloading https://files.pythonhosted.org/packages/72/66/9e6ccb3d75a79e008d0513915e690de004fa06d770312bc748c8d3851a6c/spycone-0.1.7.tar.gz
+[2023-05-04 16:36:43] INFO root fetch - processPackages [garpix-company]: Downloading https://files.pythonhosted.org/packages/3f/cb/a2da89862d580312a5c7eb999bb1d82e0f76fa7729b0be31379f281daa5b/garpix_company-2.6.1.tar.gz
+[2023-05-04 16:36:43] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACNewFormat-autoPrinting]: Downloading https://files.pythonhosted.org/packages/48/6e/4d1de83ad767f95b3072537ae5fcf55386c68c9d459ad7a09fbc7935b428/certora-cli-alpha-assaf-TACNewFormat_autoPrinting-20230504.13.55.258869.tar.gz
+[2023-05-04 16:36:43] WARNING root fetch - processPackages [spycone]: Skipping package: exceeds size limit 48164680>=10485760
+[2023-05-04 16:36:43] INFO root fetch - main [MainThread]: End processing [spycone] error
+[2023-05-04 16:36:43] INFO root fetch - processPackages [LeoLeeeCommon]: Downloading https://files.pythonhosted.org/packages/7c/1f/d50296d5b3355a7a29493711f50e9f8561fd1f6630ab8f61eb12ec724122/LeoLeeeCommon-0.1.2-py3-none-any.whl
+[2023-05-04 16:36:43] INFO root fetch - processPackages [pytedea]: Downloading https://files.pythonhosted.org/packages/43/cc/ef370a1f245a21331d192b81b86d875d84dccf6584eba9bfe09b50fe9f68/pytedea-0.0.3.tar.gz
+[2023-05-04 16:36:43] INFO root fetch - processPackages [idelucs]: Downloading https://files.pythonhosted.org/packages/76/5b/ac7df7c64ce2c716ff650c8277bb8b47a318338143b00f17fe528c17b9cf/idelucs-0.1.5.tar.gz
+[2023-05-04 16:36:43] INFO root fetch - processPackages [morphosamplers]: Downloading https://files.pythonhosted.org/packages/c3/8a/37365de6f3a771a085ffad75cd799749f8d27b61b4fe7abe0a5c1a176056/morphosamplers-0.0.5.tar.gz
+[2023-05-04 16:36:43] INFO root fetch - processPackages [lixinger]: Downloading https://files.pythonhosted.org/packages/3d/ac/cfa9075d35d173461e910e07d607affe7bb7725ff0b1400a396a28ae0ac6/lixinger-0.1.3.tar.gz
+[2023-05-04 16:36:43] INFO root fetch - processPackages [ospx]: Downloading https://files.pythonhosted.org/packages/c3/ad/b6bce94cc93b24c6e77277d63dce3b589379dd6fdac5b20917c85cd9f5e6/ospx-0.2.8.tar.gz
+[2023-05-04 16:36:43] INFO root fetch - processPackages [LeoLeeeCommon]: executing diffoscope
+[2023-05-04 16:36:43] INFO root fetch - processPackages [LeoLeeeCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LeoLeeeCommon-0.1.1.tar.gz tmp/LeoLeeeCommon-0.1.2-py3-none-any.whl.zip --markdown 20230504/L/LeoLeeeCommon/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 16:36:43] WARNING root fetch - processPackages [certora-cli-alpha-assaf-TACNewFormat-autoPrinting]: Skipping package: exceeds size limit 38471591>=10485760
+[2023-05-04 16:36:43] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-TACNewFormat-autoPrinting] error
+[2023-05-04 16:36:43] INFO root fetch - processPackages [idelucs]: executing diffoscope
+[2023-05-04 16:36:43] INFO root fetch - processPackages [idelucs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idelucs-0.1.4.tar.gz tmp/idelucs-0.1.5.tar.gz --markdown 20230504/i/idelucs/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-04 16:36:43] INFO root fetch - processPackages [pytedea]: executing diffoscope
+[2023-05-04 16:36:43] INFO root fetch - processPackages [pytedea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytedea-0.0.2.tar.gz tmp/pytedea-0.0.3.tar.gz --markdown 20230504/p/pytedea/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-04 16:36:43] INFO root fetch - processPackages [rpaframework-google]: Downloading https://files.pythonhosted.org/packages/1f/af/2a0dbef3b8fa58004b3eca54360520ab870ec39d9665582183a40d76db66/rpaframework_google-7.0.2.tar.gz
+[2023-05-04 16:36:43] INFO root fetch - processPackages [lixinger]: executing diffoscope
+[2023-05-04 16:36:43] INFO root fetch - processPackages [lixinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lixinger-0.1.2.tar.gz tmp/lixinger-0.1.3.tar.gz --markdown 20230504/l/lixinger/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-04 16:36:44] INFO root fetch - processPackages [garpix-company]: Downloading https://files.pythonhosted.org/packages/7d/45/db28e411015cec871b42794cb551a9cc49312476edd1cc74f3bbee555687/garpix_company-2.7.0.tar.gz
+[2023-05-04 16:36:44] INFO root fetch - processPackages [garpix-company]: executing diffoscope
+[2023-05-04 16:36:44] INFO root fetch - processPackages [garpix-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_company-2.6.1.tar.gz tmp/garpix_company-2.7.0.tar.gz --markdown 20230504/g/garpix-company/2.6.1-2.7.0/diff.md --exclude *.pyd
+[2023-05-04 16:36:44] INFO root fetch - processPackages [morphosamplers]: Downloading https://files.pythonhosted.org/packages/44/55/c92bef5222cc867ed7945d831838a6fb2e423db4e8e70bc1260e3a685129/morphosamplers-0.0.7.tar.gz
+[2023-05-04 16:36:44] INFO root fetch - processPackages [ospx]: Downloading https://files.pythonhosted.org/packages/8f/10/2289e1db6f9054443f2fc44585aa8564e15563420ab7d17856e109abd9b2/ospx-0.2.9.tar.gz
+[2023-05-04 16:36:44] INFO root fetch - processPackages [morphosamplers]: executing diffoscope
+[2023-05-04 16:36:44] INFO root fetch - processPackages [morphosamplers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphosamplers-0.0.5.tar.gz tmp/morphosamplers-0.0.7.tar.gz --markdown 20230504/m/morphosamplers/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-05-04 16:36:44] INFO root fetch - processPackages [ospx]: executing diffoscope
+[2023-05-04 16:36:44] INFO root fetch - processPackages [ospx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ospx-0.2.8.tar.gz tmp/ospx-0.2.9.tar.gz --markdown 20230504/o/ospx/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-04 16:36:44] INFO root fetch - processPackages [rpaframework-google]: Downloading https://files.pythonhosted.org/packages/12/1e/b90cb48594bc4c5433e31b2bd1888cca25907d97b3b810e7c2296ca1bc6f/rpaframework_google-7.0.3.tar.gz
+[2023-05-04 16:36:44] INFO root fetch - processPackages [rpaframework-google]: executing diffoscope
+[2023-05-04 16:36:44] INFO root fetch - processPackages [rpaframework-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework_google-7.0.2.tar.gz tmp/rpaframework_google-7.0.3.tar.gz --markdown 20230504/r/rpaframework-google/7.0.2-7.0.3/diff.md --exclude *.pyd
+[2023-05-04 16:36:44] INFO root fetch - main [MainThread]: End processing [LeoLeeeCommon]: success
+[2023-05-04 16:36:45] INFO root fetch - main [MainThread]: End processing [idelucs]: success
+[2023-05-04 16:36:45] INFO root fetch - main [MainThread]: End processing [lixinger]: success
+[2023-05-04 16:36:45] INFO root fetch - main [MainThread]: End processing [morphosamplers]: success
+[2023-05-04 16:36:45] INFO root fetch - main [MainThread]: End processing [garpix-company]: success
+[2023-05-04 16:36:45] INFO root fetch - main [MainThread]: End processing [ospx]: success
+[2023-05-04 16:36:45] INFO root fetch - main [MainThread]: End processing [rpaframework-google]: success
+[2023-05-04 16:36:47] INFO root fetch - main [MainThread]: End processing [pytedea]: success
+[2023-05-04 16:36:47] INFO root fetch - main [MainThread]: Store serial: [17973535]
