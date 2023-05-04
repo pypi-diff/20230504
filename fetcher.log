@@ -7843,3 +7843,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 07:26:18] INFO root fetch - main [MainThread]: End processing [constellate]: success
 [2023-05-04 07:26:18] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
 [2023-05-04 07:26:18] INFO root fetch - main [MainThread]: Store serial: [17967683]
+[2023-05-04 07:31:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967683]
+[2023-05-04 07:31:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-04 07:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pz-rail-bpz
+[2023-05-04 07:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: griseo
+[2023-05-04 07:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: absbox
+[2023-05-04 07:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ncache
+[2023-05-04 07:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crazy-thursday
+[2023-05-04 07:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: emdfile
+[2023-05-04 07:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: krx-rigger
+[2023-05-04 07:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: csst-ifs-gehong
+[2023-05-04 07:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyscos2000
+[2023-05-04 07:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: megadata
+[2023-05-04 07:31:28] INFO root fetch - processPackages [pz-rail-bpz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 07:31:28] INFO root fetch - processPackages [griseo]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-04 07:31:29] INFO root fetch - processPackages [csst-ifs-gehong]: New version: [0.0.1.7] Old Version: [0.0.1.6]
+[2023-05-04 07:31:29] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-04 07:31:29] INFO root fetch - processPackages [emdfile]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-04 07:31:29] INFO root fetch - processPackages [megadata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 07:31:29] INFO root fetch - processPackages [absbox]: New version: [0.9.3] Old Version: [0.8.9]
+[2023-05-04 07:31:29] INFO root fetch - processPackages [ncache]: New version: [0.3] Old Version: [0.2]
+[2023-05-04 07:31:29] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.4.1] Old Version: [2023.5.4.0]
+[2023-05-04 07:31:29] INFO root fetch - processPackages [griseo]: executing diffoscope
+[2023-05-04 07:31:29] INFO root fetch - processPackages [griseo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griseo-0.8.0.tar.gz tmp/griseo-0.9.0.tar.gz --markdown 20230504/g/griseo/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 07:31:29] INFO root fetch - processPackages [pyscos2000]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-04 07:31:29] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/65/f3/fec58addcde1a39562310f8c3d011e98520a6b88b7b89e285cea494351f6/krx_rigger-0.0.6.tar.gz
+[2023-05-04 07:31:29] INFO root fetch - processPackages [megadata]: executing diffoscope
+[2023-05-04 07:31:29] INFO root fetch - processPackages [megadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megadata-0.0.8.tar.gz tmp/megadata-0.0.9.tar.gz --markdown 20230504/m/megadata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 07:31:29] INFO root fetch - processPackages [emdfile]: Downloading https://files.pythonhosted.org/packages/91/18/e70f1b2262586dfffa0953a418fc8144cf8c1754e26e5511fceffc69d8df/emdfile-0.0.6.tar.gz
+[2023-05-04 07:31:29] INFO root fetch - processPackages [csst-ifs-gehong]: Downloading https://files.pythonhosted.org/packages/ec/46/eab7fdc71c40074ff0d0bc7d1cb8a55f9726d3329ebd743a94d63e1defdd/csst-ifs-gehong-0.0.1.7.tar.gz
+[2023-05-04 07:31:29] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/f2/f5/d913079148fbe1aebd6fc56849f3245eda346886eb6d2488747d9a978493/AbsBox-0.8.9.tar.gz
+[2023-05-04 07:31:29] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/f7/5a/df3419788f51529c4be284ee61f0f23141c7913aadb35b97716ab235d3d4/crazy-thursday-2023.5.4.1.tar.gz
+[2023-05-04 07:31:29] INFO root fetch - processPackages [pyscos2000]: Downloading https://files.pythonhosted.org/packages/77/53/a959df1d636edcf90b82f9afdbd518d7201047c1ebbdecdce9472c3a7e20/pyscos2000-0.2.0.tar.gz
+[2023-05-04 07:31:29] INFO root fetch - processPackages [pz-rail-bpz]: Downloading https://files.pythonhosted.org/packages/4f/77/884e8bae2194063cbbcbf2810496122a8bd69111b41d35ada8642b874e53/pz-rail-bpz-0.0.9.tar.gz
+[2023-05-04 07:31:29] INFO root fetch - processPackages [csst-ifs-gehong]: executing diffoscope
+[2023-05-04 07:31:29] INFO root fetch - processPackages [csst-ifs-gehong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csst-ifs-gehong-0.0.1.6.tar.gz tmp/csst-ifs-gehong-0.0.1.7.tar.gz --markdown 20230504/c/csst-ifs-gehong/0.0.1.6-0.0.1.7/diff.md --exclude *.pyd
+[2023-05-04 07:31:29] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-04 07:31:29] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.4.0.tar.gz tmp/crazy-thursday-2023.5.4.1.tar.gz --markdown 20230504/c/crazy-thursday/2023.5.4.0-2023.5.4.1/diff.md --exclude *.pyd
+[2023-05-04 07:31:29] INFO root fetch - processPackages [ncache]: Downloading https://files.pythonhosted.org/packages/9b/43/740252461bed1f1680045ee780afbd597f1c18c8843f3507d5f7f26322d1/ncache-0.3.tar.gz
+[2023-05-04 07:31:29] INFO root fetch - processPackages [emdfile]: executing diffoscope
+[2023-05-04 07:31:29] INFO root fetch - processPackages [emdfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emdfile-0.0.5.tar.gz tmp/emdfile-0.0.6.tar.gz --markdown 20230504/e/emdfile/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-04 07:31:29] INFO root fetch - processPackages [pz-rail-bpz]: executing diffoscope
+[2023-05-04 07:31:29] INFO root fetch - processPackages [pz-rail-bpz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pz-rail-bpz-0.0.8.tar.gz tmp/pz-rail-bpz-0.0.9.tar.gz --markdown 20230504/p/pz-rail-bpz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 07:31:29] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/8d/61/7972fbb38f303171359afb61f4b0f801b5415cf9a2e8e970519ec7e87c38/krx_rigger-0.0.7.tar.gz
+[2023-05-04 07:31:29] INFO root fetch - processPackages [ncache]: executing diffoscope
+[2023-05-04 07:31:29] INFO root fetch - processPackages [ncache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncache-0.2.tar.gz tmp/ncache-0.3.tar.gz --markdown 20230504/n/ncache/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-04 07:31:29] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-05-04 07:31:29] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.6.tar.gz tmp/krx_rigger-0.0.7.tar.gz --markdown 20230504/k/krx-rigger/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-04 07:31:29] INFO root fetch - processPackages [pyscos2000]: Downloading https://files.pythonhosted.org/packages/29/9a/4773a8c98067567e70d90e9fcdede10f2cc8c00e6afbe6fbc8fa14c54ad2/pyscos2000-0.3.0.tar.gz
+[2023-05-04 07:31:29] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/63/df/8bc5a95a40d1cc98f7aa27a8baf79a5df19fa8dc2f6836ff02171d21c08a/AbsBox-0.9.3.tar.gz
+[2023-05-04 07:31:29] INFO root fetch - processPackages [pyscos2000]: executing diffoscope
+[2023-05-04 07:31:29] INFO root fetch - processPackages [pyscos2000]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscos2000-0.2.0.tar.gz tmp/pyscos2000-0.3.0.tar.gz --markdown 20230504/p/pyscos2000/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-04 07:31:29] INFO root fetch - processPackages [absbox]: executing diffoscope
+[2023-05-04 07:31:29] INFO root fetch - processPackages [absbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AbsBox-0.8.9.tar.gz tmp/AbsBox-0.9.3.tar.gz --markdown 20230504/a/absbox/0.8.9-0.9.3/diff.md --exclude *.pyd
+[2023-05-04 07:31:30] INFO root fetch - main [MainThread]: End processing [griseo]: success
+[2023-05-04 07:31:30] INFO root fetch - main [MainThread]: End processing [megadata]: success
+[2023-05-04 07:31:30] INFO root fetch - main [MainThread]: End processing [csst-ifs-gehong]: success
+[2023-05-04 07:31:30] INFO root fetch - main [MainThread]: End processing [pz-rail-bpz]: success
+[2023-05-04 07:31:31] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-05-04 07:31:31] INFO root fetch - main [MainThread]: End processing [ncache]: success
+[2023-05-04 07:31:31] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-04 07:31:31] INFO root fetch - main [MainThread]: End processing [pyscos2000]: success
+[2023-05-04 07:31:32] INFO root fetch - main [MainThread]: End processing [absbox]: success
+[2023-05-04 07:31:32] INFO root fetch - main [MainThread]: End processing [emdfile]: success
+[2023-05-04 07:31:32] INFO root fetch - main [MainThread]: Store serial: [17967719]
