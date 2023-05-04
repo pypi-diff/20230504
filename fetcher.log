@@ -13732,3 +13732,71 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 13:10:52] INFO root fetch - main [MainThread]: End processing [sphere-base]: success
 [2023-05-04 13:10:59] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-04 13:10:59] INFO root fetch - main [MainThread]: Store serial: [17971203]
+[2023-05-04 13:16:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17971203]
+[2023-05-04 13:16:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-04 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: muffin-rest
+[2023-05-04 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: list-cmath
+[2023-05-04 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-mrp-multi-level
+[2023-05-04 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pinstance
+[2023-05-04 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ratinabox
+[2023-05-04 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asyncscope
+[2023-05-04 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sadic
+[2023-05-04 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: soil
+[2023-05-04 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: negotium
+[2023-05-04 13:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: orbittools
+[2023-05-04 13:16:09] INFO root fetch - processPackages [ratinabox]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-05-04 13:16:09] WARNING root fetch - processPackages [pinstance]: Skipping, unable to determine old version
+[2023-05-04 13:16:09] INFO root fetch - processPackages [pinstance]: Start processing: prodia-python
+[2023-05-04 13:16:09] INFO root fetch - main [MainThread]: End processing [pinstance] error
+[2023-05-04 13:16:09] INFO root fetch - processPackages [list-cmath]: New version: [0.2] Old Version: [0.1]
+[2023-05-04 13:16:09] INFO root fetch - processPackages [negotium]: New version: [0.1.0] Old Version: [0.0.5a2]
+[2023-05-04 13:16:09] WARNING root fetch - processPackages [sadic]: Skipping, unable to determine old version
+[2023-05-04 13:16:09] INFO root fetch - processPackages [asyncscope]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-04 13:16:09] INFO root fetch - main [MainThread]: End processing [sadic] error
+[2023-05-04 13:16:09] INFO root fetch - processPackages [muffin-rest]: New version: [4.8.1] Old Version: [4.8.0]
+[2023-05-04 13:16:09] INFO root fetch - processPackages [soil]: New version: [1.0.0rc5.post1] Old Version: [1.0.0rc5]
+[2023-05-04 13:16:09] INFO root fetch - processPackages [orbittools]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-04 13:16:09] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: New version: [13.0.1.9.0] Old Version: [13.0.1.8.4.dev1]
+[2023-05-04 13:16:10] INFO root fetch - processPackages [prodia-python]: New version: [2.0] Old Version: [1.6]
+[2023-05-04 13:16:10] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/01/ec/39a10df6d517bc381a2894c5f7ac301f18adf20fdaee6b5ad553e72c82da/muffin_rest-4.8.0.tar.gz
+[2023-05-04 13:16:10] INFO root fetch - processPackages [list-cmath]: Downloading https://files.pythonhosted.org/packages/71/6d/c9c1ef725298c421e699f28a458992f4681ca8c6fb88549025a0ff00ff4c/list_cmath-0.1.tar.gz
+[2023-05-04 13:16:10] INFO root fetch - processPackages [asyncscope]: executing diffoscope
+[2023-05-04 13:16:10] INFO root fetch - processPackages [asyncscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncscope-0.9.2.tar.gz tmp/asyncscope-0.9.3.tar.gz --markdown 20230504/a/asyncscope/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-04 13:16:10] INFO root fetch - processPackages [ratinabox]: Downloading https://files.pythonhosted.org/packages/b2/2f/510c91c8ca26388fa4c117175a7dd78cf8ee86baf604579ef35c7acbe5d7/ratinabox-1.6.1.tar.gz
+[2023-05-04 13:16:10] INFO root fetch - processPackages [negotium]: Downloading https://files.pythonhosted.org/packages/ae/0c/12d8d05042149c0596a2489894ec1f9feb8ab04c24bb5d4914a56b11628b/negotium-0.1.0.tar.gz
+[2023-05-04 13:16:10] INFO root fetch - processPackages [orbittools]: Downloading https://files.pythonhosted.org/packages/01/1a/085926610463f694d46d842bd721b4ea34bbb532b4a70b050f19343f75eb/orbittools-0.0.1.tar.gz
+[2023-05-04 13:16:10] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/35/f8/e462fdad5e63aa086fadee3b812248651b5d07607a33a3f305f6829e9e8e/odoo13_addon_mrp_multi_level-13.0.1.8.4.dev1-py3-none-any.whl
+[2023-05-04 13:16:10] INFO root fetch - processPackages [negotium]: executing diffoscope
+[2023-05-04 13:16:10] INFO root fetch - processPackages [negotium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/negotium-0.0.5a2.tar.gz tmp/negotium-0.1.0.tar.gz --markdown 20230504/n/negotium/0.0.5a2-0.1.0/diff.md --exclude *.pyd
+[2023-05-04 13:16:10] INFO root fetch - processPackages [soil]: Downloading https://files.pythonhosted.org/packages/dd/ec/4ca7d40a6987d718fb9bd84eadf14b7b499106dceac0f3891fbd7ba1dc13/soil-1.0.0rc5.post1.tar.gz
+[2023-05-04 13:16:10] INFO root fetch - processPackages [prodia-python]: Downloading https://files.pythonhosted.org/packages/ae/8c/0d6e168445517ad1f9627280b270635e41445b18579408c6e3879f777afb/prodia-python-1.6.tar.gz
+[2023-05-04 13:16:10] INFO root fetch - processPackages [soil]: executing diffoscope
+[2023-05-04 13:16:10] INFO root fetch - processPackages [soil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soil-1.0.0rc5.tar.gz tmp/soil-1.0.0rc5.post1.tar.gz --markdown 20230504/s/soil/1.0.0rc5-1.0.0rc5.post1/diff.md --exclude *.pyd
+[2023-05-04 13:16:10] INFO root fetch - processPackages [list-cmath]: Downloading https://files.pythonhosted.org/packages/0e/0c/9c33e330f8805fdd9877f47cfefefbd0b711d84f22cc3e520120920ae8e6/list_cmath-0.2.tar.gz
+[2023-05-04 13:16:10] INFO root fetch - processPackages [list-cmath]: executing diffoscope
+[2023-05-04 13:16:10] INFO root fetch - processPackages [list-cmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/list_cmath-0.1.tar.gz tmp/list_cmath-0.2.tar.gz --markdown 20230504/l/list-cmath/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-04 13:16:10] INFO root fetch - processPackages [ratinabox]: Downloading https://files.pythonhosted.org/packages/56/bf/d43180deb55fdfb112af742be03dca1094a0682745642a31af8dd986de09/ratinabox-1.6.2.tar.gz
+[2023-05-04 13:16:10] INFO root fetch - processPackages [orbittools]: Downloading https://files.pythonhosted.org/packages/ea/f0/aaa0223b08785c894194f6602e4d9143eb1770f2265ad7a92989e6b7efce/orbittools-0.1.0.tar.gz
+[2023-05-04 13:16:10] INFO root fetch - processPackages [prodia-python]: Downloading https://files.pythonhosted.org/packages/68/a3/b5ae7fae8d385b4e00e9d6bb79b77fbf7b52e0d8b6c057570b8db132e859/prodia-python-2.0.tar.gz
+[2023-05-04 13:16:10] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/d2/f7/a360bfb9fe4a2408e779d47fa013cd4b2def0c1085c115f2c9b7433fc592/odoo13_addon_mrp_multi_level-13.0.1.9.0-py3-none-any.whl
+[2023-05-04 13:16:10] INFO root fetch - processPackages [ratinabox]: executing diffoscope
+[2023-05-04 13:16:10] INFO root fetch - processPackages [ratinabox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ratinabox-1.6.1.tar.gz tmp/ratinabox-1.6.2.tar.gz --markdown 20230504/r/ratinabox/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-05-04 13:16:10] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/44/f4/2d450a3486af3522b564236e933abbacdeecd6b4bc8cce34fb48de7abb3d/muffin_rest-4.8.1.tar.gz
+[2023-05-04 13:16:10] INFO root fetch - processPackages [orbittools]: executing diffoscope
+[2023-05-04 13:16:10] INFO root fetch - processPackages [orbittools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbittools-0.0.1.tar.gz tmp/orbittools-0.1.0.tar.gz --markdown 20230504/o/orbittools/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-04 13:16:10] INFO root fetch - processPackages [muffin-rest]: executing diffoscope
+[2023-05-04 13:16:10] INFO root fetch - processPackages [muffin-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_rest-4.8.0.tar.gz tmp/muffin_rest-4.8.1.tar.gz --markdown 20230504/m/muffin-rest/4.8.0-4.8.1/diff.md --exclude *.pyd
+[2023-05-04 13:16:10] INFO root fetch - processPackages [prodia-python]: executing diffoscope
+[2023-05-04 13:16:10] INFO root fetch - processPackages [prodia-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodia-python-1.6.tar.gz tmp/prodia-python-2.0.tar.gz --markdown 20230504/p/prodia-python/1.6-2.0/diff.md --exclude *.pyd
+[2023-05-04 13:16:10] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: executing diffoscope
+[2023-05-04 13:16:10] INFO root fetch - processPackages [odoo13-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_mrp_multi_level-13.0.1.8.4.dev1-py3-none-any.whl.zip tmp/odoo13_addon_mrp_multi_level-13.0.1.9.0-py3-none-any.whl.zip --markdown 20230504/o/odoo13-addon-mrp-multi-level/13.0.1.8.4.dev1-13.0.1.9.0/diff.md --exclude *.pyd
+[2023-05-04 13:16:11] INFO root fetch - main [MainThread]: End processing [asyncscope]: success
+[2023-05-04 13:16:11] INFO root fetch - main [MainThread]: End processing [negotium]: success
+[2023-05-04 13:16:11] INFO root fetch - main [MainThread]: End processing [list-cmath]: success
+[2023-05-04 13:16:11] INFO root fetch - main [MainThread]: End processing [orbittools]: success
+[2023-05-04 13:16:12] INFO root fetch - main [MainThread]: End processing [muffin-rest]: success
+[2023-05-04 13:16:12] INFO root fetch - main [MainThread]: End processing [prodia-python]: success
+[2023-05-04 13:16:12] INFO root fetch - main [MainThread]: End processing [odoo13-addon-mrp-multi-level]: success
+[2023-05-04 13:16:13] INFO root fetch - main [MainThread]: End processing [soil]: success
+[2023-05-04 13:16:13] INFO root fetch - main [MainThread]: End processing [ratinabox]: success
+[2023-05-04 13:16:13] INFO root fetch - main [MainThread]: Store serial: [17971239]
