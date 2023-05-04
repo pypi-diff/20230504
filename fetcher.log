@@ -16561,3 +16561,139 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 15:47:45] INFO root fetch - main [MainThread]: End processing [creaap]: success
 [2023-05-04 15:47:45] INFO root fetch - main [MainThread]: End processing [osdu-sdk]: success
 [2023-05-04 15:47:45] INFO root fetch - main [MainThread]: Store serial: [17972893]
+[2023-05-04 15:52:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17972893]
+[2023-05-04 15:52:55] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-04 15:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: creaap
+[2023-05-04 15:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: navalmartin-mir-aws-utils
+[2023-05-04 15:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdcscore
+[2023-05-04 15:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: buckaroo
+[2023-05-04 15:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DXR
+[2023-05-04 15:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quenouille
+[2023-05-04 15:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: VikyvMedNLP
+[2023-05-04 15:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline-service-client
+[2023-05-04 15:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-service-server
+[2023-05-04 15:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-ui
+[2023-05-04 15:52:55] INFO root fetch - processPackages [pdcscore]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-04 15:52:55] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: New version: [0.0.9] Old Version: [0.0.27]
+[2023-05-04 15:52:55] INFO root fetch - processPackages [creaap]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-04 15:52:55] INFO root fetch - processPackages [buckaroo]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-04 15:52:55] INFO root fetch - processPackages [quenouille]: New version: [1.8.0] Old Version: [1.7.1]
+[2023-05-04 15:52:55] WARNING root fetch - processPackages [VikyvMedNLP]: Skipping, unable to determine old version
+[2023-05-04 15:52:55] INFO root fetch - processPackages [VikyvMedNLP]: Start processing: fbgemm-gpu-nightly
+[2023-05-04 15:52:55] INFO root fetch - main [MainThread]: End processing [VikyvMedNLP] error
+[2023-05-04 15:52:55] INFO root fetch - processPackages [DXR]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-05-04 15:52:55] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-04 15:52:55] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-04 15:52:55] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-04 15:52:55] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-05-04 15:52:56] INFO root fetch - processPackages [pdcscore]: Downloading https://files.pythonhosted.org/packages/9c/1c/0d552b9da2c3673c03698c064fe3c509809fe281aab32f21572f48f0242e/pdcscore-1.0.4.tar.gz
+[2023-05-04 15:52:56] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Downloading https://files.pythonhosted.org/packages/37/fb/8ea7d69c4c2bc819ad753a1ed1e1bb40b7048401c2ec9cbc4ae78477a754/navalmartin_mir_aws_utils-0.0.27.tar.gz
+[2023-05-04 15:52:56] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-05-04 15:52:56] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230504/a/assemblyline-service-server/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-04 15:52:56] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-05-04 15:52:56] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230504/a/assemblyline-service-client/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-04 15:52:56] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-05-04 15:52:56] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230504/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-04 15:52:56] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/84/43/8960223d740a8537d9ea0defc92aca812c788e44f1adbe258cb763d01691/DXR-1.7.7.tar.gz
+[2023-05-04 15:52:56] INFO root fetch - processPackages [buckaroo]: Downloading https://files.pythonhosted.org/packages/e0/bd/dd0ad418428cbedf9018b379a44936f403b687d74bf8fb4ca4949dbeac0f/buckaroo-0.2.8.tar.gz
+[2023-05-04 15:52:56] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/8d/88/52c20de528fbf0b0b1ccc462b6492402e326118c9e63bf48af3b40b391b7/fbgemm_gpu_nightly-2023.5.2-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-04 15:52:56] INFO root fetch - processPackages [quenouille]: Downloading https://files.pythonhosted.org/packages/9f/b2/1716aa73c9832cc1337e586383e67d3dd79fe91f32b7e3e3e17d66daa1a5/quenouille-1.7.1.tar.gz
+[2023-05-04 15:52:56] INFO root fetch - processPackages [buckaroo]: executing diffoscope
+[2023-05-04 15:52:56] INFO root fetch - processPackages [buckaroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buckaroo-0.2.7.tar.gz tmp/buckaroo-0.2.8.tar.gz --markdown 20230504/b/buckaroo/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-04 15:52:56] INFO root fetch - processPackages [pdcscore]: Downloading https://files.pythonhosted.org/packages/b2/8b/520124cff9bc2c47e6797abca13206850d43d9ec2a35d44c91e879841f98/pdcscore-1.0.5.tar.gz
+[2023-05-04 15:52:56] INFO root fetch - processPackages [creaap]: executing diffoscope
+[2023-05-04 15:52:56] INFO root fetch - processPackages [creaap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creaap-0.1.4.tar.gz tmp/creaap-0.1.5.tar.gz --markdown 20230504/c/creaap/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-04 15:52:56] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 265809855>=10485760
+[2023-05-04 15:52:56] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: assemblyline-v4-service
+[2023-05-04 15:52:56] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-05-04 15:52:56] INFO root fetch - processPackages [pdcscore]: executing diffoscope
+[2023-05-04 15:52:56] INFO root fetch - processPackages [pdcscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdcscore-1.0.4.tar.gz tmp/pdcscore-1.0.5.tar.gz --markdown 20230504/p/pdcscore/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-04 15:52:56] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-04 15:52:56] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/54/b9/057e708e0bd287955aef50c10bd53d0213901970fe95cf6ee3c1ad286c7f/DXR-1.7.8.tar.gz
+[2023-05-04 15:52:56] INFO root fetch - processPackages [DXR]: executing diffoscope
+[2023-05-04 15:52:56] INFO root fetch - processPackages [DXR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXR-1.7.7.tar.gz tmp/DXR-1.7.8.tar.gz --markdown 20230504/D/DXR/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-05-04 15:52:56] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-05-04 15:52:56] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230504/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-04 15:52:56] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Downloading https://files.pythonhosted.org/packages/de/f2/244dec2c48d5578424e8f0fb82c2f85844a0f0dbbfa4cfe21c326ba1a274/navalmartin_mir_aws_utils-0.0.9.tar.gz
+[2023-05-04 15:52:56] INFO root fetch - processPackages [quenouille]: Downloading https://files.pythonhosted.org/packages/81/11/88ca4999385e9543736ff2580bb1d797dec082e748b6c2f794e3c7b0f62b/quenouille-1.8.0.tar.gz
+[2023-05-04 15:52:56] INFO root fetch - processPackages [quenouille]: executing diffoscope
+[2023-05-04 15:52:56] INFO root fetch - processPackages [quenouille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quenouille-1.7.1.tar.gz tmp/quenouille-1.8.0.tar.gz --markdown 20230504/q/quenouille/1.7.1-1.8.0/diff.md --exclude *.pyd
+[2023-05-04 15:52:56] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: executing diffoscope
+[2023-05-04 15:52:56] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_aws_utils-0.0.27.tar.gz tmp/navalmartin_mir_aws_utils-0.0.9.tar.gz --markdown 20230504/n/navalmartin-mir-aws-utils/0.0.27-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 15:52:57] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: certora-cli-alpha-shelly-nicerresultstxt
+[2023-05-04 15:52:57] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-05-04 15:52:57] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: qoqo-mock
+[2023-05-04 15:52:57] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-05-04 15:52:57] INFO root fetch - processPackages [certora-cli-alpha-shelly-nicerresultstxt]: New version: [20230504.9.44.200099] Old Version: [20230504.13.48.826753]
+[2023-05-04 15:52:57] INFO root fetch - processPackages [qoqo-mock]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-05-04 15:52:57] INFO root fetch - processPackages [certora-cli-alpha-shelly-nicerresultstxt]: Downloading https://files.pythonhosted.org/packages/38/af/6748b4ae2b9a1f60449c0133036a6ce7f539058669bde492583212201784/certora-cli-alpha-shelly-nicerresultstxt-20230504.13.48.826753.tar.gz
+[2023-05-04 15:52:57] WARNING root fetch - processPackages [certora-cli-alpha-shelly-nicerresultstxt]: Skipping package: exceeds size limit 38413379>=10485760
+[2023-05-04 15:52:57] INFO root fetch - processPackages [certora-cli-alpha-shelly-nicerresultstxt]: Start processing: assemblyline
+[2023-05-04 15:52:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-nicerresultstxt] error
+[2023-05-04 15:52:57] INFO root fetch - processPackages [qoqo-mock]: Downloading https://files.pythonhosted.org/packages/df/e0/1442cbe7c58b836af992000aa94e3b656abe647c054601730cf4259182fc/qoqo_mock-0.5.4.tar.gz
+[2023-05-04 15:52:57] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-04 15:52:57] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-05-04 15:52:57] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230504/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-04 15:52:58] INFO root fetch - processPackages [creaap]: Start processing: blobtk
+[2023-05-04 15:52:58] INFO root fetch - main [MainThread]: End processing [creaap]: success
+[2023-05-04 15:52:58] INFO root fetch - processPackages [blobtk]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-04 15:52:58] INFO root fetch - processPackages [qoqo-mock]: Downloading https://files.pythonhosted.org/packages/dc/02/b462ff5f7ea755cd7c8cb3baeb4cf590000c5a08ee69638e7271763b7031/qoqo_mock-0.5.5.tar.gz
+[2023-05-04 15:52:58] INFO root fetch - processPackages [pdcscore]: Start processing: assemblyline-core
+[2023-05-04 15:52:58] INFO root fetch - main [MainThread]: End processing [pdcscore]: success
+[2023-05-04 15:52:58] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-04 15:52:58] INFO root fetch - processPackages [qoqo-mock]: executing diffoscope
+[2023-05-04 15:52:58] INFO root fetch - processPackages [qoqo-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_mock-0.5.4.tar.gz tmp/qoqo_mock-0.5.5.tar.gz --markdown 20230504/q/qoqo-mock/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-05-04 15:52:58] INFO root fetch - processPackages [blobtk]: Downloading https://files.pythonhosted.org/packages/59/98/57961cc4e5b138a9c053f8a9248eb1e39d793fa9d5065fe830f45627239a/blobtk-0.3.1.tar.gz
+[2023-05-04 15:52:58] INFO root fetch - processPackages [blobtk]: executing diffoscope
+[2023-05-04 15:52:58] INFO root fetch - processPackages [blobtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blobtk-0.3.0.tar.gz tmp/blobtk-0.3.1.tar.gz --markdown 20230504/b/blobtk/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-04 15:52:58] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-05-04 15:52:58] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230504/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-04 15:52:58] INFO root fetch - processPackages [DXR]: Start processing: cohere
+[2023-05-04 15:52:58] INFO root fetch - main [MainThread]: End processing [DXR]: success
+[2023-05-04 15:52:58] INFO root fetch - processPackages [cohere]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-05-04 15:52:58] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Start processing: nowcasting-datamodel
+[2023-05-04 15:52:58] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-aws-utils]: success
+[2023-05-04 15:52:58] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-04 15:52:58] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-05-04 15:52:58] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.3.8.tar.gz tmp/nowcasting_datamodel-1.3.9.tar.gz --markdown 20230504/n/nowcasting-datamodel/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-04 15:52:58] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/6f/32/91a5935afb0dea2e8a2c32ba8bdfc49b3519363ce37123d69e03435cd259/cohere-4.3.0.tar.gz
+[2023-05-04 15:52:58] INFO root fetch - processPackages [quenouille]: Start processing: sefazetllib
+[2023-05-04 15:52:58] INFO root fetch - main [MainThread]: End processing [quenouille]: success
+[2023-05-04 15:52:58] INFO root fetch - processPackages [sefazetllib]: New version: [0.1.26] Old Version: [0.1.25]
+[2023-05-04 15:52:58] INFO root fetch - processPackages [assemblyline-ui]: Start processing: trlc
+[2023-05-04 15:52:58] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-05-04 15:52:58] INFO root fetch - processPackages [trlc]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-04 15:52:58] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/59/71/973ceb7c7abacb2dc94405581d3381302838895c38ace0bed97cd4ef6828/cohere-4.3.1.tar.gz
+[2023-05-04 15:52:58] INFO root fetch - processPackages [cohere]: executing diffoscope
+[2023-05-04 15:52:58] INFO root fetch - processPackages [cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-4.3.0.tar.gz tmp/cohere-4.3.1.tar.gz --markdown 20230504/c/cohere/4.3.0-4.3.1/diff.md --exclude *.pyd
+[2023-05-04 15:52:58] INFO root fetch - processPackages [sefazetllib]: Downloading https://files.pythonhosted.org/packages/85/c2/08f02f25b4361b4a0fc13a61d35e53b601d0f1a7185d06d5b9cb91b37f7c/sefazetllib-0.1.26.tar.gz
+[2023-05-04 15:52:59] INFO root fetch - processPackages [sefazetllib]: executing diffoscope
+[2023-05-04 15:52:59] INFO root fetch - processPackages [sefazetllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sefazetllib-0.1.25.tar.gz tmp/sefazetllib-0.1.26.tar.gz --markdown 20230504/s/sefazetllib/0.1.25-0.1.26/diff.md --exclude *.pyd
+[2023-05-04 15:52:59] INFO root fetch - processPackages [trlc]: Downloading https://files.pythonhosted.org/packages/59/31/20fed75a75f264389a45645b584f283e0129968e0009d0dc3e833594964f/trlc-1.1.1.tar.gz
+[2023-05-04 15:52:59] INFO root fetch - processPackages [trlc]: Downloading https://files.pythonhosted.org/packages/25/fc/c60c16c16709697e7c7835b4256579b7257c4aa89cf52b19c0e3503735cf/trlc-1.1.2.tar.gz
+[2023-05-04 15:52:59] INFO root fetch - processPackages [trlc]: executing diffoscope
+[2023-05-04 15:52:59] INFO root fetch - processPackages [trlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trlc-1.1.1.tar.gz tmp/trlc-1.1.2.tar.gz --markdown 20230504/t/trlc/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-04 15:52:59] INFO root fetch - processPackages [assemblyline-v4-service]: Start processing: nucliadb-contributor-assets
+[2023-05-04 15:52:59] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-05-04 15:52:59] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post746] Old Version: [1.0.0.post743]
+[2023-05-04 15:53:00] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/a7/9e/e2c34ac961ee51a472df6d71da9ee9f7227a220bc3372f970ef338b6dd68/nucliadb_contributor_assets-1.0.0.post746-py3-none-any.whl
+[2023-05-04 15:53:00] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-04 15:53:00] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post743-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post746-py3-none-any.whl.zip --markdown 20230504/n/nucliadb-contributor-assets/1.0.0.post743-1.0.0.post746/diff.md --exclude *.pyd
+[2023-05-04 15:53:00] INFO root fetch - processPackages [nowcasting-datamodel]: Start processing: image-similarity-measures
+[2023-05-04 15:53:00] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-05-04 15:53:00] INFO root fetch - main [MainThread]: End processing [cohere]: success
+[2023-05-04 15:53:00] INFO root fetch - processPackages [image-similarity-measures]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-04 15:53:00] INFO root fetch - processPackages [image-similarity-measures]: Downloading https://files.pythonhosted.org/packages/15/5b/31b037324f91788e716ca8a2e8ba49f628525a797f1a7da0d83cfb6fe93a/image-similarity-measures-0.3.5.tar.gz
+[2023-05-04 15:53:00] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-05-04 15:53:00] INFO root fetch - main [MainThread]: End processing [sefazetllib]: success
+[2023-05-04 15:53:01] INFO root fetch - main [MainThread]: End processing [blobtk]: success
+[2023-05-04 15:53:01] INFO root fetch - processPackages [image-similarity-measures]: Downloading https://files.pythonhosted.org/packages/59/9e/3a0f1469f258b75d7743cd344aee1d7f48426720fb654e03cc1c6778ec0b/image_similarity_measures-0.3.6.tar.gz
+[2023-05-04 15:53:01] INFO root fetch - processPackages [image-similarity-measures]: executing diffoscope
+[2023-05-04 15:53:01] INFO root fetch - processPackages [image-similarity-measures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image-similarity-measures-0.3.5.tar.gz tmp/image_similarity_measures-0.3.6.tar.gz --markdown 20230504/i/image-similarity-measures/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-04 15:53:01] INFO root fetch - main [MainThread]: End processing [trlc]: success
+[2023-05-04 15:53:01] INFO root fetch - main [MainThread]: End processing [qoqo-mock]: success
+[2023-05-04 15:53:02] INFO root fetch - main [MainThread]: End processing [image-similarity-measures]: success
+[2023-05-04 15:53:02] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-05-04 15:53:05] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-04 15:53:22] INFO root fetch - main [MainThread]: End processing [buckaroo]: success
+[2023-05-04 15:53:22] INFO root fetch - main [MainThread]: Store serial: [17972973]
