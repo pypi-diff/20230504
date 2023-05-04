@@ -13926,3 +13926,89 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 13:26:37] INFO root fetch - main [MainThread]: End processing [mimeograph]: success
 [2023-05-04 13:26:39] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-05-04 13:26:39] INFO root fetch - main [MainThread]: Store serial: [17971313]
+[2023-05-04 13:31:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17971313]
+[2023-05-04 13:31:48] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-04 13:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmem-plugin-pyshacl
+[2023-05-04 13:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beards-analytics
+[2023-05-04 13:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbsite
+[2023-05-04 13:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testapiv2
+[2023-05-04 13:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: freetype-py
+[2023-05-04 13:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchrl-nightly
+[2023-05-04 13:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: whylabs-toolkit
+[2023-05-04 13:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchserve-nightly
+[2023-05-04 13:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch-model-archiver-nightly
+[2023-05-04 13:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torch-workflow-archiver-nightly
+[2023-05-04 13:31:48] WARNING root fetch - processPackages [beards-analytics]: Skipping, unable to determine old version
+[2023-05-04 13:31:48] INFO root fetch - processPackages [beards-analytics]: Start processing: pikaur
+[2023-05-04 13:31:48] INFO root fetch - main [MainThread]: End processing [beards-analytics] error
+[2023-05-04 13:31:48] INFO root fetch - processPackages [cmem-plugin-pyshacl]: New version: [4.1.3rc3] Old Version: [4.1.3rc2]
+[2023-05-04 13:31:48] INFO root fetch - processPackages [whylabs-toolkit]: New version: [0.0.7.dev0] Old Version: [0.0.6.dev0]
+[2023-05-04 13:31:48] WARNING root fetch - processPackages [testapiv2]: Skipping, unable to determine old version
+[2023-05-04 13:31:48] INFO root fetch - processPackages [testapiv2]: Start processing: openvino
+[2023-05-04 13:31:48] INFO root fetch - main [MainThread]: End processing [testapiv2] error
+[2023-05-04 13:31:48] INFO root fetch - processPackages [freetype-py]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-05-04 13:31:48] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-05-04 13:31:48] INFO root fetch - processPackages [pikaur]: New version: [1.9] Old Version: [1.8]
+[2023-05-04 13:31:48] INFO root fetch - processPackages [nbsite]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-05-04 13:31:48] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-05-04 13:31:48] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-05-04 13:31:48] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-05-04 13:31:48] INFO root fetch - processPackages [openvino]: New version: [2023.0.0.dev20230427] Old Version: [2023.0.0.dev20230407]
+[2023-05-04 13:31:48] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/6c/1e/0bf0f27e84ef11cb9903dced5b35bf5c674745d746b7d42e7e5f7c96a42e/torchserve_nightly-2023.5.2-py3-none-any.whl
+[2023-05-04 13:31:48] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-05-04 13:31:48] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.5.2-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.5.3-py3-none-any.whl.zip --markdown 20230504/t/torch-model-archiver-nightly/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-05-04 13:31:48] INFO root fetch - processPackages [freetype-py]: Downloading https://files.pythonhosted.org/packages/5d/77/341e6c61795a827390f394c7d5f682561c9fd79cc0b650937d3d5885e3cc/freetype-py-2.3.0.zip
+[2023-05-04 13:31:48] INFO root fetch - processPackages [pikaur]: Downloading https://files.pythonhosted.org/packages/18/a4/88b2f0d40d1e90fb8762febb4b163d5d637f36e293b9261e39bbe174c7d4/pikaur-1.8.tar.gz
+[2023-05-04 13:31:48] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-05-04 13:31:48] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.5.2-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.5.3-py3-none-any.whl.zip --markdown 20230504/t/torch-workflow-archiver-nightly/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-05-04 13:31:49] INFO root fetch - processPackages [cmem-plugin-pyshacl]: Downloading https://files.pythonhosted.org/packages/fb/bc/253ac98a3e2c8cd1468fd18dca142b35be241c9c4e2faff58e2a85a97478/cmem_plugin_pyshacl-4.1.3rc3.tar.gz
+[2023-05-04 13:31:49] INFO root fetch - processPackages [whylabs-toolkit]: Downloading https://files.pythonhosted.org/packages/2c/8f/ab6a6de4a9d9bc919bd235658cb57bfa48765d22558c1ce58deb37c1f601/whylabs_toolkit-0.0.6.dev0.tar.gz
+[2023-05-04 13:31:49] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23716796>=10485760
+[2023-05-04 13:31:49] INFO root fetch - processPackages [torchserve-nightly]: Start processing: microdata-validator
+[2023-05-04 13:31:49] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-05-04 13:31:49] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2023-05-04 13:31:49] INFO root fetch - processPackages [microdata-validator]: New version: [7.3.1] Old Version: [7.3.0]
+[2023-05-04 13:31:49] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.0rc8.tar.gz tmp/nbsite-0.8.0rc9.tar.gz --markdown 20230504/n/nbsite/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-05-04 13:31:49] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/21/5f/3c98cd5c59d026ad37b65e15f70f75bec137c1ed5a2f15143c2062c56218/torchrl_nightly-2023.5.3-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-04 13:31:49] INFO root fetch - processPackages [openvino]: Downloading https://files.pythonhosted.org/packages/2f/5a/257dab470c138b25a4605134e63c5c38507e32424bdeb804175bd502d3fa/openvino-2023.0.0.dev20230407-10490-cp39-cp39-win_amd64.whl
+[2023-05-04 13:31:49] INFO root fetch - processPackages [cmem-plugin-pyshacl]: executing diffoscope
+[2023-05-04 13:31:49] INFO root fetch - processPackages [cmem-plugin-pyshacl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_pyshacl-4.1.3rc2.tar.gz tmp/cmem_plugin_pyshacl-4.1.3rc3.tar.gz --markdown 20230504/c/cmem-plugin-pyshacl/4.1.3rc2-4.1.3rc3/diff.md --exclude *.pyd
+[2023-05-04 13:31:49] INFO root fetch - processPackages [microdata-validator]: executing diffoscope
+[2023-05-04 13:31:49] INFO root fetch - processPackages [microdata-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microdata-validator-7.3.0.tar.gz tmp/microdata-validator-7.3.1.tar.gz --markdown 20230504/m/microdata-validator/7.3.0-7.3.1/diff.md --exclude *.pyd
+[2023-05-04 13:31:49] INFO root fetch - processPackages [freetype-py]: Downloading https://files.pythonhosted.org/packages/a7/6d/66c222fae5dc5fd13fd840ab75feb49f78963f560a56e134c85f1236a94c/freetype-py-2.4.0.zip
+[2023-05-04 13:31:49] WARNING root fetch - processPackages [openvino]: Skipping package: exceeds size limit 27145100>=10485760
+[2023-05-04 13:31:49] INFO root fetch - processPackages [openvino]: Start processing: maxbot
+[2023-05-04 13:31:49] INFO root fetch - main [MainThread]: End processing [openvino] error
+[2023-05-04 13:31:49] INFO root fetch - processPackages [whylabs-toolkit]: Downloading https://files.pythonhosted.org/packages/6c/4d/0864a0a316e84214c518020f881dff1fad535977cea89fb3c4bd85eec73f/whylabs_toolkit-0.0.7.dev0.tar.gz
+[2023-05-04 13:31:49] INFO root fetch - processPackages [maxbot]: New version: [0.1.0b0.dev20230417185147] Old Version: [0.1.0b0.dev20230417183114]
+[2023-05-04 13:31:49] INFO root fetch - processPackages [pikaur]: Downloading https://files.pythonhosted.org/packages/44/23/73dc076ab8b6b5f49dc34baca5c2cf564ccc21d12e63fafee3d7cc1f6bca/pikaur-1.9.tar.gz
+[2023-05-04 13:31:49] INFO root fetch - processPackages [freetype-py]: executing diffoscope
+[2023-05-04 13:31:49] INFO root fetch - processPackages [freetype-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freetype-py-2.3.0.zip tmp/freetype-py-2.4.0.zip --markdown 20230504/f/freetype-py/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-05-04 13:31:49] INFO root fetch - processPackages [whylabs-toolkit]: executing diffoscope
+[2023-05-04 13:31:49] INFO root fetch - processPackages [whylabs-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylabs_toolkit-0.0.6.dev0.tar.gz tmp/whylabs_toolkit-0.0.7.dev0.tar.gz --markdown 20230504/w/whylabs-toolkit/0.0.6.dev0-0.0.7.dev0/diff.md --exclude *.pyd
+[2023-05-04 13:31:49] INFO root fetch - processPackages [pikaur]: executing diffoscope
+[2023-05-04 13:31:49] INFO root fetch - processPackages [pikaur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikaur-1.8.tar.gz tmp/pikaur-1.9.tar.gz --markdown 20230504/p/pikaur/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-04 13:31:49] INFO root fetch - processPackages [maxbot]: Downloading https://files.pythonhosted.org/packages/59/3f/46c26ed236661cb388896e4463af44730e371eeb10682fa14b1f749fc4c0/maxbot-0.1.0b0.dev20230417183114.tar.gz
+[2023-05-04 13:31:50] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: alibabacloud-resourcedirectorymaster20220419-py2
+[2023-05-04 13:31:50] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-05-04 13:31:50] INFO root fetch - processPackages [maxbot]: Downloading https://files.pythonhosted.org/packages/8e/66/c6d2ae71b04accbb3873e6107d606d73b5fe168c4403cd5cf34b59323f14/maxbot-0.1.0b0.dev20230417185147.tar.gz
+[2023-05-04 13:31:50] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-05-04 13:31:50] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-05-04 13:31:50] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.5.2-cp39-cp39-manylinux1_x86_64.whl.zip tmp/torchrl_nightly-2023.5.3-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230504/t/torchrl-nightly/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-05-04 13:31:50] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419-py2]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-04 13:31:50] INFO root fetch - processPackages [maxbot]: executing diffoscope
+[2023-05-04 13:31:50] INFO root fetch - processPackages [maxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxbot-0.1.0b0.dev20230417183114.tar.gz tmp/maxbot-0.1.0b0.dev20230417185147.tar.gz --markdown 20230504/m/maxbot/0.1.0b0.dev20230417183114-0.1.0b0.dev20230417185147/diff.md --exclude *.pyd
+[2023-05-04 13:31:50] INFO root fetch - main [MainThread]: End processing [cmem-plugin-pyshacl]: success
+[2023-05-04 13:31:50] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419-py2]: Downloading https://files.pythonhosted.org/packages/0e/18/ba0884abde59229b2d6a0e94c54dde6b43e2543f14ed815875b15877bf17/alibabacloud_resourcedirectorymaster20220419_py2-1.0.1.tar.gz
+[2023-05-04 13:31:50] INFO root fetch - main [MainThread]: End processing [whylabs-toolkit]: success
+[2023-05-04 13:31:50] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419-py2]: Downloading https://files.pythonhosted.org/packages/e5/7e/da6e0242d4c4971c50fe32dc1e81cef2b8d4f8f2efcf7d611d0c20c70cac/alibabacloud_resourcedirectorymaster20220419_py2-1.0.2.tar.gz
+[2023-05-04 13:31:51] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419-py2]: executing diffoscope
+[2023-05-04 13:31:51] INFO root fetch - processPackages [alibabacloud-resourcedirectorymaster20220419-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_resourcedirectorymaster20220419_py2-1.0.1.tar.gz tmp/alibabacloud_resourcedirectorymaster20220419_py2-1.0.2.tar.gz --markdown 20230504/a/alibabacloud-resourcedirectorymaster20220419-py2/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-04 13:31:51] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2023-05-04 13:31:51] INFO root fetch - main [MainThread]: End processing [pikaur]: success
+[2023-05-04 13:31:51] INFO root fetch - main [MainThread]: End processing [microdata-validator]: success
+[2023-05-04 13:31:51] INFO root fetch - main [MainThread]: End processing [freetype-py]: success
+[2023-05-04 13:31:52] INFO root fetch - main [MainThread]: End processing [alibabacloud-resourcedirectorymaster20220419-py2]: success
+[2023-05-04 13:31:52] INFO root fetch - main [MainThread]: End processing [maxbot]: success
+[2023-05-04 13:32:31] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-05-04 13:32:31] INFO root fetch - main [MainThread]: Store serial: [17971361]
