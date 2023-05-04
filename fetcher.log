@@ -7907,3 +7907,35 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 07:31:32] INFO root fetch - main [MainThread]: End processing [absbox]: success
 [2023-05-04 07:31:32] INFO root fetch - main [MainThread]: End processing [emdfile]: success
 [2023-05-04 07:31:32] INFO root fetch - main [MainThread]: Store serial: [17967719]
+[2023-05-04 07:36:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967719]
+[2023-05-04 07:36:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-04 07:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: teelebot
+[2023-05-04 07:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-Ayiin
+[2023-05-04 07:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdcscore
+[2023-05-04 07:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wiserep-api
+[2023-05-04 07:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-jtoman-gmx-init
+[2023-05-04 07:36:40] INFO root fetch - processPackages [wiserep-api]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 07:36:40] INFO root fetch - processPackages [py-Ayiin]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-04 07:36:40] INFO root fetch - processPackages [teelebot]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-04 07:36:40] INFO root fetch - processPackages [pdcscore]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-04 07:36:40] INFO root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: New version: [20230504.5.36.425832] Old Version: [20230503.2.44.693674]
+[2023-05-04 07:36:41] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/bf/c2/aab57e59e1d418488e9c95426307b9530962d279b9991ba8ad31cc1700db/py-Ayiin-0.2.6.tar.gz
+[2023-05-04 07:36:41] INFO root fetch - processPackages [teelebot]: Downloading https://files.pythonhosted.org/packages/10/08/d6959c0d815da4e1bf8fcdf583421c66d4a9580dd5d476a93c090b5524d8/teelebot-2.0.1-py3-none-any.whl
+[2023-05-04 07:36:41] INFO root fetch - processPackages [pdcscore]: Downloading https://files.pythonhosted.org/packages/f8/6e/ceaa656a4215c1c3cec5351bc1a074971bb5255e2475bcf71e3435d25c16/pdcscore-1.0.2.tar.gz
+[2023-05-04 07:36:41] INFO root fetch - processPackages [wiserep-api]: Downloading https://files.pythonhosted.org/packages/12/9c/84bda733c0604f6405beff02ef52a5c1c1e30c51d027b88ee8c99e1fa144/wiserep_api-0.1.2.tar.gz
+[2023-05-04 07:36:41] INFO root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: Downloading https://files.pythonhosted.org/packages/4e/0d/20f8c6709833067f8d20cf6085d6a9e2163e5af88a4612596d81b96b9953/certora-cli-alpha-jtoman-gmx-init-20230503.2.44.693674.tar.gz
+[2023-05-04 07:36:41] INFO root fetch - processPackages [wiserep-api]: executing diffoscope
+[2023-05-04 07:36:41] INFO root fetch - processPackages [wiserep-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiserep_api-0.1.1.tar.gz tmp/wiserep_api-0.1.2.tar.gz --markdown 20230504/w/wiserep-api/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 07:36:41] INFO root fetch - processPackages [pdcscore]: executing diffoscope
+[2023-05-04 07:36:41] INFO root fetch - processPackages [pdcscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdcscore-1.0.1.tar.gz tmp/pdcscore-1.0.2.tar.gz --markdown 20230504/p/pdcscore/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-04 07:36:41] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-gmx-init]: Skipping package: exceeds size limit 38373555>=10485760
+[2023-05-04 07:36:41] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-gmx-init] error
+[2023-05-04 07:36:41] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-05-04 07:36:41] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.2.5.tar.gz tmp/py-Ayiin-0.2.6.tar.gz --markdown 20230504/p/py-Ayiin/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-04 07:36:41] INFO root fetch - processPackages [teelebot]: executing diffoscope
+[2023-05-04 07:36:41] INFO root fetch - processPackages [teelebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teelebot-2.0.0-py3-none-any.whl.zip tmp/teelebot-2.0.1-py3-none-any.whl.zip --markdown 20230504/t/teelebot/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-04 07:36:42] INFO root fetch - main [MainThread]: End processing [pdcscore]: success
+[2023-05-04 07:36:42] INFO root fetch - main [MainThread]: End processing [teelebot]: success
+[2023-05-04 07:36:42] INFO root fetch - main [MainThread]: End processing [wiserep-api]: success
+[2023-05-04 07:36:42] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-05-04 07:36:42] INFO root fetch - main [MainThread]: Store serial: [17967733]
