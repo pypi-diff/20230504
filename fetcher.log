@@ -10952,3 +10952,73 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 10:49:52] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-05-04 10:50:08] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-05-04 10:50:08] INFO root fetch - main [MainThread]: Store serial: [17969469]
+[2023-05-04 10:55:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17969469]
+[2023-05-04 10:55:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-04 10:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: towhee.models
+[2023-05-04 10:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AegosPy
+[2023-05-04 10:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domolibrary
+[2023-05-04 10:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipywebcam
+[2023-05-04 10:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-eval
+[2023-05-04 10:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpflow
+[2023-05-04 10:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fosslight-util
+[2023-05-04 10:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nisdc
+[2023-05-04 10:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-sdk
+[2023-05-04 10:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lusid-sdk-preview
+[2023-05-04 10:55:18] INFO root fetch - processPackages [towhee.models]: New version: [1.0.0rc1] Old Version: [0.9.0]
+[2023-05-04 10:55:18] INFO root fetch - processPackages [AegosPy]: New version: [0.5] Old Version: [0.4]
+[2023-05-04 10:55:18] WARNING root fetch - processPackages [auto-eval]: Skipping, unable to determine old version
+[2023-05-04 10:55:18] INFO root fetch - processPackages [auto-eval]: Start processing: akerbp.mlops
+[2023-05-04 10:55:18] INFO root fetch - main [MainThread]: End processing [auto-eval] error
+[2023-05-04 10:55:18] INFO root fetch - processPackages [ipywebcam]: New version: [0.1.9.dev0] Old Version: [0.1.8.dev0]
+[2023-05-04 10:55:18] WARNING root fetch - processPackages [nisdc]: Skipping, unable to determine old version
+[2023-05-04 10:55:18] INFO root fetch - processPackages [nisdc]: Start processing: aiotubes
+[2023-05-04 10:55:18] INFO root fetch - processPackages [fosslight-util]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-04 10:55:18] INFO root fetch - main [MainThread]: End processing [nisdc] error
+[2023-05-04 10:55:18] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 10:55:18] INFO root fetch - processPackages [gpflow]: New version: [2.8.0] Old Version: [2.7.1]
+[2023-05-04 10:55:18] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-04 10:55:18] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-04 10:55:18] INFO root fetch - processPackages [aiotubes]: New version: [3.5] Old Version: [3.4]
+[2023-05-04 10:55:18] INFO root fetch - processPackages [ipywebcam]: executing diffoscope
+[2023-05-04 10:55:18] INFO root fetch - processPackages [ipywebcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipywebcam-0.1.8.dev0.tar.gz tmp/ipywebcam-0.1.9.dev0.tar.gz --markdown 20230504/i/ipywebcam/0.1.8.dev0-0.1.9.dev0/diff.md --exclude *.pyd
+[2023-05-04 10:55:18] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-04 10:55:18] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230504/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 10:55:18] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.0.1a9] Old Version: [3.0.1a8]
+[2023-05-04 10:55:18] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/d0/ca/3238ee41727edc3bd327f6beb7ef97f2d92d986227f3bf775259a3e223ae/fosslight_util-1.4.8.tar.gz
+[2023-05-04 10:55:18] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-05-04 10:55:18] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230504/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-04 10:55:18] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-05-04 10:55:18] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230504/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-04 10:55:18] INFO root fetch - processPackages [towhee.models]: Downloading https://files.pythonhosted.org/packages/35/0d/78580c41d1df71088697d637fc3d80c362d1aaafc85a8ad0fc4a128d157d/towhee.models-0.9.0-py3-none-any.whl
+[2023-05-04 10:55:18] INFO root fetch - processPackages [gpflow]: Downloading https://files.pythonhosted.org/packages/35/4b/7508ac0fa1c7f05e83f759239bac202ccc952873b4ebd0215f6d7050aa19/gpflow-2.7.1.tar.gz
+[2023-05-04 10:55:18] INFO root fetch - processPackages [AegosPy]: Downloading https://files.pythonhosted.org/packages/e4/a5/a83929ad4f364cba9dbb2f0e72b26243a18951bc3f6d59cd19e2f58c34d1/AegosPy-0.5.tar.gz
+[2023-05-04 10:55:18] INFO root fetch - processPackages [aiotubes]: Downloading https://files.pythonhosted.org/packages/3d/3e/b60fc0380a976a1a662884a712bfc99e29b80e4a824a1f6c6d8bd2ede1d1/aiotubes-3.4.tar.gz
+[2023-05-04 10:55:18] INFO root fetch - processPackages [AegosPy]: executing diffoscope
+[2023-05-04 10:55:18] INFO root fetch - processPackages [AegosPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AegosPy-0.4.tar.gz tmp/AegosPy-0.5.tar.gz --markdown 20230504/A/AegosPy/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-04 10:55:18] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/c3/37/e06d79a9a38bd9b2b9a1dfd38398d99b40e637dbff6b4f598f43d7355f83/akerbp.mlops-3.0.1a8.tar.gz
+[2023-05-04 10:55:18] INFO root fetch - processPackages [towhee.models]: Downloading https://files.pythonhosted.org/packages/13/70/ff427e9f8db13ec93a077c47f4e7e7efe5d8f372cde3ae0b1f193668b008/towhee.models-1.0.0rc1-py3-none-any.whl
+[2023-05-04 10:55:18] INFO root fetch - processPackages [aiotubes]: Downloading https://files.pythonhosted.org/packages/00/5c/7b7fdd0086e513760f3b3a48e0fe8797c72b76461cad1393b3715341c6a6/aiotubes-3.5.tar.gz
+[2023-05-04 10:55:18] INFO root fetch - processPackages [gpflow]: Downloading https://files.pythonhosted.org/packages/dd/e5/9027d1bf04e80ca1df272b01a4874f468df777a9515aac4a5a27d085b71c/gpflow-2.8.0.tar.gz
+[2023-05-04 10:55:18] INFO root fetch - processPackages [gpflow]: executing diffoscope
+[2023-05-04 10:55:18] INFO root fetch - processPackages [gpflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpflow-2.7.1.tar.gz tmp/gpflow-2.8.0.tar.gz --markdown 20230504/g/gpflow/2.7.1-2.8.0/diff.md --exclude *.pyd
+[2023-05-04 10:55:18] INFO root fetch - processPackages [aiotubes]: executing diffoscope
+[2023-05-04 10:55:18] INFO root fetch - processPackages [aiotubes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotubes-3.4.tar.gz tmp/aiotubes-3.5.tar.gz --markdown 20230504/a/aiotubes/3.4-3.5/diff.md --exclude *.pyd
+[2023-05-04 10:55:19] INFO root fetch - processPackages [towhee.models]: executing diffoscope
+[2023-05-04 10:55:19] INFO root fetch - processPackages [towhee.models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/towhee.models-0.9.0-py3-none-any.whl.zip tmp/towhee.models-1.0.0rc1-py3-none-any.whl.zip --markdown 20230504/t/towhee.models/0.9.0-1.0.0rc1/diff.md --exclude *.pyd
+[2023-05-04 10:55:19] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/26/61/3c4af665359f4ebf31e65df9273b9727b862189ab95fa316e3c50d339fde/akerbp.mlops-3.0.1a9.tar.gz
+[2023-05-04 10:55:19] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-05-04 10:55:19] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.0.1a8.tar.gz tmp/akerbp.mlops-3.0.1a9.tar.gz --markdown 20230504/a/akerbp.mlops/3.0.1a8-3.0.1a9/diff.md --exclude *.pyd
+[2023-05-04 10:55:19] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/2d/d2/e674ac0c05f462aeb548384d4b1f6351624dd534bb73301158868691826c/fosslight_util-1.4.9.tar.gz
+[2023-05-04 10:55:19] INFO root fetch - processPackages [fosslight-util]: executing diffoscope
+[2023-05-04 10:55:19] INFO root fetch - processPackages [fosslight-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_util-1.4.8.tar.gz tmp/fosslight_util-1.4.9.tar.gz --markdown 20230504/f/fosslight-util/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-04 10:55:20] INFO root fetch - main [MainThread]: End processing [AegosPy]: success
+[2023-05-04 10:55:20] INFO root fetch - main [MainThread]: End processing [aiotubes]: success
+[2023-05-04 10:55:20] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-04 10:55:20] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-05-04 10:55:22] INFO root fetch - main [MainThread]: End processing [fosslight-util]: success
+[2023-05-04 10:55:22] INFO root fetch - main [MainThread]: End processing [towhee.models]: success
+[2023-05-04 10:55:23] INFO root fetch - main [MainThread]: End processing [gpflow]: success
+[2023-05-04 10:55:24] INFO root fetch - main [MainThread]: End processing [ipywebcam]: success
+[2023-05-04 10:55:38] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-05-04 10:55:50] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-05-04 10:55:50] INFO root fetch - main [MainThread]: Store serial: [17969506]
