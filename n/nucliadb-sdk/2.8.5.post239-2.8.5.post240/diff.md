@@ -1,0 +1,201 @@
+# Comparing `tmp/nucliadb_sdk-2.8.5.post239-py3-none-any.whl.zip` & `tmp/nucliadb_sdk-2.8.5.post240-py3-none-any.whl.zip`
+
+## zipinfo {}
+
+```diff
+@@ -1,28 +1,28 @@
+-Zip file size: 35483 bytes, number of entries: 26
+--rw-r--r--  2.0 unx     1440 b- defN 23-May-04 10:37 nucliadb_sdk/__init__.py
+--rw-r--r--  2.0 unx    18163 b- defN 23-May-04 10:37 nucliadb_sdk/client.py
+--rw-r--r--  2.0 unx     1051 b- defN 23-May-04 10:37 nucliadb_sdk/entities.py
+--rw-r--r--  2.0 unx      978 b- defN 23-May-04 10:37 nucliadb_sdk/file.py
+--rw-r--r--  2.0 unx     1937 b- defN 23-May-04 10:37 nucliadb_sdk/find.py
+--rw-r--r--  2.0 unx    21280 b- defN 23-May-04 10:37 nucliadb_sdk/knowledgebox.py
+--rw-r--r--  2.0 unx     1302 b- defN 23-May-04 10:37 nucliadb_sdk/labels.py
+--rw-r--r--  2.0 unx        0 b- defN 23-May-04 10:37 nucliadb_sdk/py.typed
+--rw-r--r--  2.0 unx    14706 b- defN 23-May-04 10:37 nucliadb_sdk/resource.py
+--rw-r--r--  2.0 unx     5388 b- defN 23-May-04 10:37 nucliadb_sdk/search.py
+--rw-r--r--  2.0 unx     4300 b- defN 23-May-04 10:37 nucliadb_sdk/utils.py
+--rw-r--r--  2.0 unx     1611 b- defN 23-May-04 10:37 nucliadb_sdk/vectors.py
+--rw-r--r--  2.0 unx      833 b- defN 23-May-04 10:37 nucliadb_sdk/tests/__init__.py
+--rw-r--r--  2.0 unx      891 b- defN 23-May-04 10:37 nucliadb_sdk/tests/conftest.py
+--rw-r--r--  2.0 unx     4538 b- defN 23-May-04 10:37 nucliadb_sdk/tests/fixtures.py
+--rw-r--r--  2.0 unx     1277 b- defN 23-May-04 10:37 nucliadb_sdk/tests/test_chat.py
+--rw-r--r--  2.0 unx     9280 b- defN 23-May-04 10:37 nucliadb_sdk/tests/test_crud.py
+--rw-r--r--  2.0 unx     1302 b- defN 23-May-04 10:37 nucliadb_sdk/tests/test_find.py
+--rw-r--r--  2.0 unx     1183 b- defN 23-May-04 10:37 nucliadb_sdk/tests/test_kb.py
+--rw-r--r--  2.0 unx    15977 b- defN 23-May-04 10:37 nucliadb_sdk/tests/test_search.py
+--rw-r--r--  2.0 unx     1429 b- defN 23-May-04 10:37 nucliadb_sdk/tests/test_vectors.py
+--rw-r--r--  2.0 unx      691 b- defN 23-May-04 10:39 nucliadb_sdk-2.8.5.post239.dist-info/METADATA
+--rw-r--r--  2.0 unx       92 b- defN 23-May-04 10:39 nucliadb_sdk-2.8.5.post239.dist-info/WHEEL
+--rw-r--r--  2.0 unx       13 b- defN 23-May-04 10:39 nucliadb_sdk-2.8.5.post239.dist-info/top_level.txt
+--rw-r--r--  2.0 unx        1 b- defN 23-May-04 10:38 nucliadb_sdk-2.8.5.post239.dist-info/zip-safe
+--rw-rw-r--  2.0 unx     2193 b- defN 23-May-04 10:39 nucliadb_sdk-2.8.5.post239.dist-info/RECORD
+-26 files, 111856 bytes uncompressed, 31935 bytes compressed:  71.4%
++Zip file size: 35481 bytes, number of entries: 26
++-rw-r--r--  2.0 unx     1440 b- defN 23-May-04 10:50 nucliadb_sdk/__init__.py
++-rw-r--r--  2.0 unx    18163 b- defN 23-May-04 10:50 nucliadb_sdk/client.py
++-rw-r--r--  2.0 unx     1051 b- defN 23-May-04 10:50 nucliadb_sdk/entities.py
++-rw-r--r--  2.0 unx      978 b- defN 23-May-04 10:50 nucliadb_sdk/file.py
++-rw-r--r--  2.0 unx     1937 b- defN 23-May-04 10:50 nucliadb_sdk/find.py
++-rw-r--r--  2.0 unx    21160 b- defN 23-May-04 10:50 nucliadb_sdk/knowledgebox.py
++-rw-r--r--  2.0 unx     1302 b- defN 23-May-04 10:50 nucliadb_sdk/labels.py
++-rw-r--r--  2.0 unx        0 b- defN 23-May-04 10:50 nucliadb_sdk/py.typed
++-rw-r--r--  2.0 unx    14706 b- defN 23-May-04 10:50 nucliadb_sdk/resource.py
++-rw-r--r--  2.0 unx     5388 b- defN 23-May-04 10:50 nucliadb_sdk/search.py
++-rw-r--r--  2.0 unx     4300 b- defN 23-May-04 10:50 nucliadb_sdk/utils.py
++-rw-r--r--  2.0 unx     1611 b- defN 23-May-04 10:50 nucliadb_sdk/vectors.py
++-rw-r--r--  2.0 unx      833 b- defN 23-May-04 10:50 nucliadb_sdk/tests/__init__.py
++-rw-r--r--  2.0 unx      891 b- defN 23-May-04 10:50 nucliadb_sdk/tests/conftest.py
++-rw-r--r--  2.0 unx     4538 b- defN 23-May-04 10:50 nucliadb_sdk/tests/fixtures.py
++-rw-r--r--  2.0 unx     1277 b- defN 23-May-04 10:50 nucliadb_sdk/tests/test_chat.py
++-rw-r--r--  2.0 unx     9280 b- defN 23-May-04 10:50 nucliadb_sdk/tests/test_crud.py
++-rw-r--r--  2.0 unx     1302 b- defN 23-May-04 10:50 nucliadb_sdk/tests/test_find.py
++-rw-r--r--  2.0 unx     1183 b- defN 23-May-04 10:50 nucliadb_sdk/tests/test_kb.py
++-rw-r--r--  2.0 unx    15977 b- defN 23-May-04 10:50 nucliadb_sdk/tests/test_search.py
++-rw-r--r--  2.0 unx     1429 b- defN 23-May-04 10:50 nucliadb_sdk/tests/test_vectors.py
++-rw-r--r--  2.0 unx      691 b- defN 23-May-04 10:52 nucliadb_sdk-2.8.5.post240.dist-info/METADATA
++-rw-r--r--  2.0 unx       92 b- defN 23-May-04 10:52 nucliadb_sdk-2.8.5.post240.dist-info/WHEEL
++-rw-r--r--  2.0 unx       13 b- defN 23-May-04 10:52 nucliadb_sdk-2.8.5.post240.dist-info/top_level.txt
++-rw-r--r--  2.0 unx        1 b- defN 23-May-04 10:51 nucliadb_sdk-2.8.5.post240.dist-info/zip-safe
++-rw-rw-r--  2.0 unx     2193 b- defN 23-May-04 10:52 nucliadb_sdk-2.8.5.post240.dist-info/RECORD
++26 files, 111736 bytes uncompressed, 31933 bytes compressed:  71.4%
+```
+
+## zipnote {}
+
+```diff
+@@ -57,23 +57,23 @@
+ 
+ Filename: nucliadb_sdk/tests/test_search.py
+ Comment: 
+ 
+ Filename: nucliadb_sdk/tests/test_vectors.py
+ Comment: 
+ 
+-Filename: nucliadb_sdk-2.8.5.post239.dist-info/METADATA
++Filename: nucliadb_sdk-2.8.5.post240.dist-info/METADATA
+ Comment: 
+ 
+-Filename: nucliadb_sdk-2.8.5.post239.dist-info/WHEEL
++Filename: nucliadb_sdk-2.8.5.post240.dist-info/WHEEL
+ Comment: 
+ 
+-Filename: nucliadb_sdk-2.8.5.post239.dist-info/top_level.txt
++Filename: nucliadb_sdk-2.8.5.post240.dist-info/top_level.txt
+ Comment: 
+ 
+-Filename: nucliadb_sdk-2.8.5.post239.dist-info/zip-safe
++Filename: nucliadb_sdk-2.8.5.post240.dist-info/zip-safe
+ Comment: 
+ 
+-Filename: nucliadb_sdk-2.8.5.post239.dist-info/RECORD
++Filename: nucliadb_sdk-2.8.5.post240.dist-info/RECORD
+ Comment: 
+ 
+ Zip file comment:
+```
+
+## nucliadb_sdk/knowledgebox.py
+
+```diff
+@@ -529,26 +529,24 @@
+                 else:
+                     new_filter.append(fil)
+             filter_list = [f"/l/{label.labelset}/{label.label}" for label in new_filter]
+             args["filters"] = filter_list
+ 
+         if text is not None:
+             args["query"] = text
+-            args["features"].append(SearchOptions.DOCUMENT)
+             args["features"].append(SearchOptions.PARAGRAPH)
+ 
+         if vector is not None and vectorset is not None:
+             vector = convert_vector(vector)
+ 
+             args["vector"] = vector
+             args["vectorset"] = vectorset
+             args["features"].append(SearchOptions.VECTOR)
+ 
+         if len(args["features"]) == 0:
+-            args["features"].append(SearchOptions.DOCUMENT)
+             args["features"].append(SearchOptions.PARAGRAPH)
+ 
+         args["min_score"] = min_score
+         request = FindRequest(**args)
+         return request
+ 
+     def build_search_request(
+```
+
+## Comparing `nucliadb_sdk-2.8.5.post239.dist-info/METADATA` & `nucliadb_sdk-2.8.5.post240.dist-info/METADATA`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,21 +1,21 @@
+ Metadata-Version: 2.1
+ Name: nucliadb-sdk
+-Version: 2.8.5.post239
++Version: 2.8.5.post240
+ Summary: UNKNOWN
+ Home-page: https://nucliadb.com
+ License: BSD
+ Platform: UNKNOWN
+ Classifier: Development Status :: 4 - Beta
+ Classifier: Programming Language :: Python :: 3.9
+ Classifier: Topic :: Software Development :: Libraries :: Python Modules
+ Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+ Requires-Dist: httpx
+ Requires-Dist: requests
+-Requires-Dist: nucliadb-models (==2.8.5-post239)
++Requires-Dist: nucliadb-models (==2.8.5-post240)
+ 
+ # NucliaDB SDK
+ 
+ NucliaDB Cloud and NucliaDB OSS sdk
+ 
+ Update and compile the nucliadb image locally before running the tests.
+ From nucliadb root dir:
+```
+
+## Comparing `nucliadb_sdk-2.8.5.post239.dist-info/RECORD` & `nucliadb_sdk-2.8.5.post240.dist-info/RECORD`
+
+ * *Files 16% similar despite different names*
+
+```diff
+@@ -1,13 +1,13 @@
+ nucliadb_sdk/__init__.py,sha256=JwbqnEIcZH81SBm_WP_Fb5RdamFQRNWLpceZnlkTilQ,1440
+ nucliadb_sdk/client.py,sha256=75QsQ-ptmhYlYJ9O-Nhg2dotA1-FGoDV0i5H8g416gk,18163
+ nucliadb_sdk/entities.py,sha256=IMgRL2dj_kFw7z6TeKxGS5UZ5_ZfszDrKyiLt6o-m9M,1051
+ nucliadb_sdk/file.py,sha256=OrgNqziXl15c981zMHlklpWiYENMsgeglFZyvlac71I,978
+ nucliadb_sdk/find.py,sha256=MbfcVxBRgjdMMbS1ZYmJujbSIsQ_xomBwwGOr7vNsvk,1937
+-nucliadb_sdk/knowledgebox.py,sha256=CWrGzkqwplipIGlheI0C4cEWiZCa0ioYuzfwjD6Pu9M,21280
++nucliadb_sdk/knowledgebox.py,sha256=ixme3RicJI4Usbn0cSiEyreABKNSTKG6VCM2m4chkKQ,21160
+ nucliadb_sdk/labels.py,sha256=hJuyOnDSKWZ-Y1Py_PYebD579Nidp0NVsq8uiniz8ac,1302
+ nucliadb_sdk/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ nucliadb_sdk/resource.py,sha256=CE-aTpJyBOfgNxoSyId5YaRh4DChm1hbUbtM6lpvR4M,14706
+ nucliadb_sdk/search.py,sha256=ixx6U1uX8hQWKkacv1-TMG3WlFzO8CxN8-FlnzEfYKE,5388
+ nucliadb_sdk/utils.py,sha256=GGMilqdjWX6pm1JX211-pI5N7UeYSkbi-qX4IHC4R1M,4300
+ nucliadb_sdk/vectors.py,sha256=gf-8adQuJONgywNZnRVDa_PrPoO71xs17mEdM6Qn3GI,1611
+ nucliadb_sdk/tests/__init__.py,sha256=itSI7dtTwFP55YMX4iK7JzdMHS5CQVUiB1XzQu4UBh8,833
+@@ -15,12 +15,12 @@
+ nucliadb_sdk/tests/fixtures.py,sha256=os8ddnA-OQp6fRSoPtW5EJkOmwsWU0O9erV41l-j9uM,4538
+ nucliadb_sdk/tests/test_chat.py,sha256=jbW29qB0-2-i_1NsV3hB-SlwJSLrB3w6lSEpLdM0PwM,1277
+ nucliadb_sdk/tests/test_crud.py,sha256=hDKjbNjmzTsS4BK_YUMN23UWN9cfOZ3my186qciqbog,9280
+ nucliadb_sdk/tests/test_find.py,sha256=yAGHq3JfTwruVuzM9IhlyfUGLm8iumHwMjUk7BnheW4,1302
+ nucliadb_sdk/tests/test_kb.py,sha256=eI2SUacgok1Yls593J1hsIK5j-NwdHjQbSTnNUv6xSw,1183
+ nucliadb_sdk/tests/test_search.py,sha256=5fNQzkZMxCV0kAyZgroBQkgzjZrzyBZhC93RdCBI2RQ,15977
+ nucliadb_sdk/tests/test_vectors.py,sha256=43hlY-Mj6kVwHexixs1YQ5ic5wQUax4Rz-oqEHkFQHE,1429
+-nucliadb_sdk-2.8.5.post239.dist-info/METADATA,sha256=h8f7tlo-VMtxzewWEkz5wNnHBsXV-tJmtcwps7QYKqk,691
+-nucliadb_sdk-2.8.5.post239.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+-nucliadb_sdk-2.8.5.post239.dist-info/top_level.txt,sha256=_dCwt_JnsZ3463lfvc5KcM2wUQJ9aSvKSsAAjGH8R0Y,13
+-nucliadb_sdk-2.8.5.post239.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+-nucliadb_sdk-2.8.5.post239.dist-info/RECORD,,
++nucliadb_sdk-2.8.5.post240.dist-info/METADATA,sha256=pZQaDeNSqMMhA07YKrbd3RUrvVw-4FMzu-BIh9DwVAM,691
++nucliadb_sdk-2.8.5.post240.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
++nucliadb_sdk-2.8.5.post240.dist-info/top_level.txt,sha256=_dCwt_JnsZ3463lfvc5KcM2wUQJ9aSvKSsAAjGH8R0Y,13
++nucliadb_sdk-2.8.5.post240.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
++nucliadb_sdk-2.8.5.post240.dist-info/RECORD,,
+```
+
