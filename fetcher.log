@@ -5425,3 +5425,31 @@
 [2023-05-04 03:53:39] INFO root fetch - main [MainThread]: End processing [ipfs-dict-chain]: success
 [2023-05-04 03:53:46] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-05-04 03:53:46] INFO root fetch - main [MainThread]: Store serial: [17966323]
+[2023-05-04 03:58:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966323]
+[2023-05-04 03:58:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-04 03:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pcb-parser
+[2023-05-04 03:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edge-logger
+[2023-05-04 03:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rxnplot
+[2023-05-04 03:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thonny-autosave
+[2023-05-04 03:58:55] INFO root fetch - processPackages [rxnplot]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-04 03:58:55] INFO root fetch - processPackages [edge-logger]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-04 03:58:55] INFO root fetch - processPackages [thonny-autosave]: New version: [0.0.9] Old Version: [0.0.6]
+[2023-05-04 03:58:55] INFO root fetch - processPackages [pcb-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 03:58:55] INFO root fetch - processPackages [thonny-autosave]: executing diffoscope
+[2023-05-04 03:58:55] INFO root fetch - processPackages [thonny-autosave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thonny-autosave-0.0.6.tar.gz tmp/thonny-autosave-0.0.9.tar.gz --markdown 20230504/t/thonny-autosave/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 03:58:55] INFO root fetch - processPackages [rxnplot]: Downloading https://files.pythonhosted.org/packages/ab/fa/0aad143348dc4ec0c12f905bc211e720a9630c89528343f38202fad3f674/rxnplot-0.9.1.tar.gz
+[2023-05-04 03:58:55] INFO root fetch - processPackages [pcb-parser]: Downloading https://files.pythonhosted.org/packages/38/77/45f14145e5d95fb0f176430a2c3d3b67194d326845df0e711b4fd71a423e/pcb-parser-0.0.8.tar.gz
+[2023-05-04 03:58:55] INFO root fetch - processPackages [edge-logger]: Downloading https://files.pythonhosted.org/packages/71/94/bd49d9f023b01b368aac3ae61b6b2432b7bff7852ff4084ef41b1665a6fd/edge_logger-0.0.7.tar.gz
+[2023-05-04 03:58:55] INFO root fetch - processPackages [edge-logger]: executing diffoscope
+[2023-05-04 03:58:55] INFO root fetch - processPackages [edge-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_logger-0.0.6.tar.gz tmp/edge_logger-0.0.7.tar.gz --markdown 20230504/e/edge-logger/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-04 03:58:55] INFO root fetch - processPackages [rxnplot]: Downloading https://files.pythonhosted.org/packages/da/f7/9152a1b9c53822e41e5f8998177adbe365037925a1069277e2ab1677100a/rxnplot-0.9.2-py3-none-any.whl
+[2023-05-04 03:58:55] INFO root fetch - processPackages [rxnplot]: executing diffoscope
+[2023-05-04 03:58:55] INFO root fetch - processPackages [rxnplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxnplot-0.9.1.tar.gz tmp/rxnplot-0.9.2-py3-none-any.whl.zip --markdown 20230504/r/rxnplot/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-04 03:58:55] INFO root fetch - processPackages [pcb-parser]: Downloading https://files.pythonhosted.org/packages/03/3b/ce1ae85650133b6b1b20b1836ec8f2e8af3eff340b4d76c76aad3377ee10/pcb-parser-0.0.9.tar.gz
+[2023-05-04 03:58:55] INFO root fetch - processPackages [pcb-parser]: executing diffoscope
+[2023-05-04 03:58:55] INFO root fetch - processPackages [pcb-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcb-parser-0.0.8.tar.gz tmp/pcb-parser-0.0.9.tar.gz --markdown 20230504/p/pcb-parser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 03:58:56] INFO root fetch - main [MainThread]: End processing [thonny-autosave]: success
+[2023-05-04 03:58:56] INFO root fetch - main [MainThread]: End processing [edge-logger]: success
+[2023-05-04 03:58:56] INFO root fetch - main [MainThread]: End processing [rxnplot]: success
+[2023-05-04 03:58:57] INFO root fetch - main [MainThread]: End processing [pcb-parser]: success
+[2023-05-04 03:58:57] INFO root fetch - main [MainThread]: Store serial: [17966337]
