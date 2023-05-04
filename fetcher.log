@@ -14839,3 +14839,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 14:17:13] INFO root fetch - main [MainThread]: End processing [ediri-vultr]: success
 [2023-05-04 14:17:17] INFO root fetch - main [MainThread]: End processing [streamlit-keycloak]: success
 [2023-05-04 14:17:17] INFO root fetch - main [MainThread]: Store serial: [17971859]
+[2023-05-04 14:22:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17971859]
+[2023-05-04 14:22:26] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-04 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robin-sd-download
+[2023-05-04 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yetl-framework
+[2023-05-04 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peltak
+[2023-05-04 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfirecrest
+[2023-05-04 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bagbag
+[2023-05-04 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-sdk
+[2023-05-04 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mercurial
+[2023-05-04 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-assaf-UFAttribute2Enum
+[2023-05-04 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gracy
+[2023-05-04 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: efel
+[2023-05-04 14:22:26] INFO root fetch - processPackages [peltak]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-04 14:22:26] INFO root fetch - processPackages [bagbag]: New version: [0.58.3] Old Version: [0.58.2]
+[2023-05-04 14:22:26] INFO root fetch - processPackages [yetl-framework]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-05-04 14:22:26] INFO root fetch - processPackages [qwak-sdk]: New version: [0.2.29rc0] Old Version: [0.2.28rc0]
+[2023-05-04 14:22:26] INFO root fetch - processPackages [robin-sd-download]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-05-04 14:22:26] INFO root fetch - processPackages [pyfirecrest]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-04 14:22:26] INFO root fetch - processPackages [certora-cli-alpha-assaf-UFAttribute2Enum]: New version: [20230504.12.19.415290] Old Version: [20230504.11.51.708711]
+[2023-05-04 14:22:26] INFO root fetch - processPackages [gracy]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-04 14:22:27] INFO root fetch - processPackages [mercurial]: New version: [6.4rc0] Old Version: [6.4.3]
+[2023-05-04 14:22:27] INFO root fetch - processPackages [efel]: New version: [4.2.5] Old Version: [4.2]
+[2023-05-04 14:22:27] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/a0/de/c0740a9f9009139ae5c2ba5d59236ff9e79adc2ca5918867e8c378387443/bagbag-0.58.2.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [certora-cli-alpha-assaf-UFAttribute2Enum]: Downloading https://files.pythonhosted.org/packages/47/92/bb4b60c301a8267e9cca813d3f423e07a4fcdc61244d72f0a0570321a3fe/certora-cli-alpha-assaf-UFAttribute2Enum-20230504.11.51.708711.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/f0/e2/85ff3ed21021b8d5fd82ad543d36b416282abb542cc77687e02d1b161672/efel-4.2.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [mercurial]: Downloading https://files.pythonhosted.org/packages/6a/3d/a3ffbff37a4fdf6a91e0f7e995bcd7c36443ec752775521acbd341b34ebb/mercurial-6.4.3.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/5d/a8/cc93e46665c09444e0e9c6a06cc8da0f8660d0d6d1a208c689da5587b742/qwak_sdk-0.2.28rc0.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/cc/6d/739f82cf7a730a7f14d9d0955edad87218b84e979bb348535e3eb105e250/yetl-framework-0.0.9.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [peltak]: Downloading https://files.pythonhosted.org/packages/66/4d/205aa0d166b97814e9b0cea7187962edd29b8937141dcfd094ffe447733d/peltak-0.9.8.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [gracy]: Downloading https://files.pythonhosted.org/packages/cd/1f/c880607a2c92ea7edf79b474fe69127bf700211792b250de5688cc0f35c4/gracy-1.9.0.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [pyfirecrest]: Downloading https://files.pythonhosted.org/packages/5f/17/a38442c6cbfefd9f231096962055f66dc79debf93b2463ab2269a4797160/pyfirecrest-1.3.0.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [robin-sd-download]: Downloading https://files.pythonhosted.org/packages/0b/ba/7de9ca2c08d858e7a56b2737997436ee4d18becaf020f1a0ca1cf296998a/robin_sd_download-0.3.3.tar.gz
+[2023-05-04 14:22:27] WARNING root fetch - processPackages [certora-cli-alpha-assaf-UFAttribute2Enum]: Skipping package: exceeds size limit 38419349>=10485760
+[2023-05-04 14:22:27] INFO root fetch - processPackages [certora-cli-alpha-assaf-UFAttribute2Enum]: Start processing: aim-ui
+[2023-05-04 14:22:27] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-UFAttribute2Enum] error
+[2023-05-04 14:22:27] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-04 14:22:27] INFO root fetch - processPackages [robin-sd-download]: executing diffoscope
+[2023-05-04 14:22:27] INFO root fetch - processPackages [robin-sd-download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin_sd_download-0.3.1.tar.gz tmp/robin_sd_download-0.3.3.tar.gz --markdown 20230504/r/robin-sd-download/0.3.1-0.3.3/diff.md --exclude *.pyd
+[2023-05-04 14:22:27] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/15/04/0624cfb818b4aa00681fd98b1d6ff24f56e0dc30cc0aa27fb90fce93dcc3/aim-ui-4.0.0.dev4.tar.gz
+[2023-05-04 14:22:27] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 21591110>=10485760
+[2023-05-04 14:22:27] INFO root fetch - processPackages [aim-ui]: Start processing: alphaz
+[2023-05-04 14:22:27] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-05-04 14:22:27] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/8a/a9/ab6b41695b7e1c3a147a48013439b51aa39498cd9fdf9eb52f559b26b3a4/efel-4.2.5.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/43/fcda1da0a9eed77818fc2860abca556e517a2c8fab8780e2fdc7b4a94ab9/bagbag-0.58.3.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [efel]: executing diffoscope
+[2023-05-04 14:22:27] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-4.2.tar.gz tmp/efel-4.2.5.tar.gz --markdown 20230504/e/efel/4.2-4.2.5/diff.md --exclude *.pyd
+[2023-05-04 14:22:27] INFO root fetch - processPackages [alphaz]: New version: [0.7.7.7] Old Version: [0.7.7.6]
+[2023-05-04 14:22:27] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/93/57/bf9c80915e13b6f7d0de1098e74988f9a03ddd3915adfe6d94a51ee5fc67/yetl-framework-1.0.0.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [mercurial]: Downloading https://files.pythonhosted.org/packages/45/70/5868446eae400fb15aedb993cc232fab244cb976c86426a854d371c1010f/mercurial-6.4rc0.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [peltak]: Downloading https://files.pythonhosted.org/packages/1e/41/ccc2532ad5e984e0c35cff6b4361868fa90ef6dd5871712ccf268479fea7/peltak-0.9.9.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [gracy]: Downloading https://files.pythonhosted.org/packages/1e/6f/ce2bfb2b73be0d267e60d390c02a83bd9ad556c22357258727c677517895/gracy-1.9.1.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-05-04 14:22:27] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-0.0.9.tar.gz tmp/yetl-framework-1.0.0.tar.gz --markdown 20230504/y/yetl-framework/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-04 14:22:27] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-04 14:22:27] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.58.2.tar.gz tmp/bagbag-0.58.3.tar.gz --markdown 20230504/b/bagbag/0.58.2-0.58.3/diff.md --exclude *.pyd
+[2023-05-04 14:22:27] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/75/2e/dba4e45a6f2c6d9511990521d9253fdaecbee2c0fc7a67c573bfbec4b412/qwak_sdk-0.2.29rc0.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [pyfirecrest]: Downloading https://files.pythonhosted.org/packages/c1/49/e1959c66684ca5d714a55bad17d2fa84b8787673f56401180e86ea742dee/pyfirecrest-1.4.0.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [alphaz]: Downloading https://files.pythonhosted.org/packages/56/d2/69e48475f3828850287b37244b539875f68e7f59001940525894318986bb/alphaz-0.7.7.6.tar.gz
+[2023-05-04 14:22:27] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2023-05-04 14:22:27] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.2.28rc0.tar.gz tmp/qwak_sdk-0.2.29rc0.tar.gz --markdown 20230504/q/qwak-sdk/0.2.28rc0-0.2.29rc0/diff.md --exclude *.pyd
+[2023-05-04 14:22:27] INFO root fetch - processPackages [pyfirecrest]: executing diffoscope
+[2023-05-04 14:22:27] INFO root fetch - processPackages [pyfirecrest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirecrest-1.3.0.tar.gz tmp/pyfirecrest-1.4.0.tar.gz --markdown 20230504/p/pyfirecrest/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-04 14:22:27] INFO root fetch - processPackages [peltak]: executing diffoscope
+[2023-05-04 14:22:27] INFO root fetch - processPackages [peltak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peltak-0.9.8.tar.gz tmp/peltak-0.9.9.tar.gz --markdown 20230504/p/peltak/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-04 14:22:27] INFO root fetch - processPackages [gracy]: executing diffoscope
+[2023-05-04 14:22:27] INFO root fetch - processPackages [gracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gracy-1.9.0.tar.gz tmp/gracy-1.9.1.tar.gz --markdown 20230504/g/gracy/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-04 14:22:28] INFO root fetch - processPackages [alphaz]: Downloading https://files.pythonhosted.org/packages/28/a4/5c83eb0e938c663e87572a3d34b9bfcd2d1f618c2e4a098163a8e0585b30/alphaz-0.7.7.7.tar.gz
+[2023-05-04 14:22:28] INFO root fetch - processPackages [alphaz]: executing diffoscope
+[2023-05-04 14:22:28] INFO root fetch - processPackages [alphaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-0.7.7.6.tar.gz tmp/alphaz-0.7.7.7.tar.gz --markdown 20230504/a/alphaz/0.7.7.6-0.7.7.7/diff.md --exclude *.pyd
+[2023-05-04 14:22:28] INFO root fetch - processPackages [robin-sd-download]: Start processing: aim
+[2023-05-04 14:22:28] INFO root fetch - main [MainThread]: End processing [robin-sd-download]: success
+[2023-05-04 14:22:28] INFO root fetch - processPackages [aim]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-04 14:22:29] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/bf/77/0a0197c1a2ee5d84592b13fa6e8d94fabeeb6a52152924656a1defe8572c/aim-4.0.0.dev5.tar.gz
+[2023-05-04 14:22:29] INFO root fetch - processPackages [gracy]: Start processing: lincs
+[2023-05-04 14:22:29] INFO root fetch - main [MainThread]: End processing [gracy]: success
+[2023-05-04 14:22:29] WARNING root fetch - processPackages [lincs]: Skipping, unable to determine old version
+[2023-05-04 14:22:29] INFO root fetch - processPackages [lincs]: Start processing: coretex
+[2023-05-04 14:22:29] INFO root fetch - main [MainThread]: End processing [lincs] error
+[2023-05-04 14:22:29] INFO root fetch - main [MainThread]: End processing [peltak]: success
+[2023-05-04 14:22:29] INFO root fetch - processPackages [coretex]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 14:22:29] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-05-04 14:22:29] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0.dev4.tar.gz tmp/aim-4.0.0.dev5.tar.gz --markdown 20230504/a/aim/4.0.0.dev4-4.0.0.dev5/diff.md --exclude *.pyd
+[2023-05-04 14:22:29] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-05-04 14:22:29] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-05-04 14:22:29] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-0.0.8.tar.gz tmp/coretex-0.0.9.tar.gz --markdown 20230504/c/coretex/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 14:22:29] INFO root fetch - processPackages [mercurial]: executing diffoscope
+[2023-05-04 14:22:29] INFO root fetch - processPackages [mercurial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercurial-6.4.3.tar.gz tmp/mercurial-6.4rc0.tar.gz --markdown 20230504/m/mercurial/6.4.3-6.4rc0/diff.md --exclude *.pyd
+[2023-05-04 14:22:29] INFO root fetch - main [MainThread]: End processing [pyfirecrest]: success
+[2023-05-04 14:22:30] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2023-05-04 14:22:31] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-05-04 14:22:32] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-04 14:22:32] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2023-05-04 14:22:32] INFO root fetch - main [MainThread]: End processing [alphaz]: success
+[2023-05-04 14:22:37] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-05-04 14:23:27] INFO root fetch - main [MainThread]: End processing [mercurial]: success
+[2023-05-04 14:23:27] INFO root fetch - main [MainThread]: Store serial: [17971913]
