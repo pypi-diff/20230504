@@ -2108,3 +2108,81 @@
 [2023-05-04 02:34:11] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-05-04 02:34:11] INFO root fetch - main [MainThread]: End processing [nsface-cpu-python]: success
 [2023-05-04 02:34:11] INFO root fetch - main [MainThread]: Store serial: [17964757]
+[2023-05-04 02:39:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17964757]
+[2023-05-04 02:39:20] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-04 02:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatsnack
+[2023-05-04 02:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: state-machine-semaphore
+[2023-05-04 02:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rfrenchseti-cspyce
+[2023-05-04 02:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-json
+[2023-05-04 02:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nsface-python
+[2023-05-04 02:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nsface-cpu-python
+[2023-05-04 02:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cca-zoo
+[2023-05-04 02:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-review
+[2023-05-04 02:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aviatrix-discovery
+[2023-05-04 02:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aviatrix-migration
+[2023-05-04 02:39:20] INFO root fetch - processPackages [gpt-json]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 02:39:20] INFO root fetch - processPackages [chatsnack]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 02:39:20] INFO root fetch - processPackages [nsface-python]: New version: [1.1.71] Old Version: [1.1.61]
+[2023-05-04 02:39:20] INFO root fetch - processPackages [rfrenchseti-cspyce]: New version: [2.0.11.dev0] Old Version: [2.0.10.dev0]
+[2023-05-04 02:39:20] INFO root fetch - processPackages [nsface-cpu-python]: New version: [1.1.59] Old Version: [1.1.51]
+[2023-05-04 02:39:20] INFO root fetch - processPackages [gpt-review]: New version: [0.4.0rc382.post1] Old Version: [0.4.0rc376.post1]
+[2023-05-04 02:39:20] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-04 02:39:20] INFO root fetch - processPackages [cca-zoo]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-04 02:39:20] INFO root fetch - processPackages [aviatrix-discovery]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-04 02:39:20] INFO root fetch - processPackages [aviatrix-migration]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-04 02:39:21] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-05-04 02:39:21] INFO root fetch - processPackages [nsface-cpu-python]: executing diffoscope
+[2023-05-04 02:39:21] INFO root fetch - processPackages [nsface-cpu-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsface_cpu_python-1.1.51-py3-none-any.whl.zip tmp/nsface_cpu_python-1.1.59-py3-none-any.whl.zip --markdown 20230504/n/nsface-cpu-python/1.1.51-1.1.59/diff.md --exclude *.pyd
+[2023-05-04 02:39:21] INFO root fetch - processPackages [cca-zoo]: executing diffoscope
+[2023-05-04 02:39:21] INFO root fetch - processPackages [cca-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cca_zoo-1.9.0.tar.gz tmp/cca_zoo-1.9.1.tar.gz --markdown 20230504/c/cca-zoo/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-04 02:39:21] INFO root fetch - processPackages [gpt-json]: Downloading https://files.pythonhosted.org/packages/bd/18/0ec031e67c2a5f784dd43ef6cddfc15065e1b1186c349924cdfe4c6bf4a7/gpt-json-0.1.0.tar.gz
+[2023-05-04 02:39:21] INFO root fetch - processPackages [chatsnack]: Downloading https://files.pythonhosted.org/packages/bb/68/22d61edb222df73f0f6137accd7d41615f0573d15130a8034ae929b0d14d/chatsnack-0.1.1.tar.gz
+[2023-05-04 02:39:21] INFO root fetch - processPackages [rfrenchseti-cspyce]: Downloading https://files.pythonhosted.org/packages/57/81/e0d30b2ca0a8f48a7d393027ef5f9c7c2ac394a4c90e3663a3c2dbeedecf/rfrenchseti_cspyce-2.0.11.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-04 02:39:21] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/a6/c8/65aab6328de64e5b2557e7715729925da5ee932753f2b0bd4f8f98cc9030/gpt-review-0.4.0rc382.post1.tar.gz
+[2023-05-04 02:39:21] INFO root fetch - processPackages [nsface-python]: Downloading https://files.pythonhosted.org/packages/3d/46/16fc90281b71f6634d8917615ab0ee174c34faddfff239324a31d1253788/nsface_python-1.1.71-py3-none-any.whl
+[2023-05-04 02:39:21] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/eb/5d/5d815901fd246f869c11597b89b558431d2380b03e96cfe1b922fb7f69b8/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl
+[2023-05-04 02:39:21] INFO root fetch - processPackages [rfrenchseti-cspyce]: executing diffoscope
+[2023-05-04 02:39:21] INFO root fetch - processPackages [rfrenchseti-cspyce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfrenchseti_cspyce-2.0.10.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/rfrenchseti_cspyce-2.0.11.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230504/r/rfrenchseti-cspyce/2.0.10.dev0-2.0.11.dev0/diff.md --exclude *.pyd
+[2023-05-04 02:39:21] INFO root fetch - processPackages [gpt-json]: Downloading https://files.pythonhosted.org/packages/7b/52/da1dafd7d1b272a022903a0bd243134e9089fa442ef05ec9448a8c300ea2/gpt_json-0.1.1.tar.gz
+[2023-05-04 02:39:21] INFO root fetch - processPackages [chatsnack]: Downloading https://files.pythonhosted.org/packages/b8/0f/56949f06f94f52fecba49e03b1a27ec2e5c1ae149c4bd09051fb40f20fd2/chatsnack-0.1.2.tar.gz
+[2023-05-04 02:39:21] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-04 02:39:21] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.4.0rc376.post1.tar.gz tmp/gpt-review-0.4.0rc382.post1.tar.gz --markdown 20230504/g/gpt-review/0.4.0rc376.post1-0.4.0rc382.post1/diff.md --exclude *.pyd
+[2023-05-04 02:39:21] INFO root fetch - processPackages [nsface-python]: executing diffoscope
+[2023-05-04 02:39:21] INFO root fetch - processPackages [nsface-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsface_python-1.1.61-py3-none-any.whl.zip tmp/nsface_python-1.1.71-py3-none-any.whl.zip --markdown 20230504/n/nsface-python/1.1.61-1.1.71/diff.md --exclude *.pyd
+[2023-05-04 02:39:21] INFO root fetch - processPackages [gpt-json]: executing diffoscope
+[2023-05-04 02:39:21] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/21/c0/ad0ada02f772026372950703ae1a0caa68d0dea582f9995503a07f9663ca/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl
+[2023-05-04 02:39:21] INFO root fetch - processPackages [gpt-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-json-0.1.0.tar.gz tmp/gpt_json-0.1.1.tar.gz --markdown 20230504/g/gpt-json/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 02:39:21] INFO root fetch - processPackages [chatsnack]: executing diffoscope
+[2023-05-04 02:39:21] INFO root fetch - processPackages [chatsnack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatsnack-0.1.1.tar.gz tmp/chatsnack-0.1.2.tar.gz --markdown 20230504/c/chatsnack/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 02:39:21] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/18/ef/7d0c0938fbb6fab82da833245ac82adaa5314e519d3506c2a7972a598fe5/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl
+[2023-05-04 02:39:21] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-05-04 02:39:21] INFO root fetch - processPackages [aviatrix-discovery]: executing diffoscope
+[2023-05-04 02:39:21] INFO root fetch - processPackages [aviatrix-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230504/a/aviatrix-discovery/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-04 02:39:21] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-05-04 02:39:21] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230504/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-04 02:39:22] INFO root fetch - processPackages [gpt-review]: Start processing: nsface-python
+[2023-05-04 02:39:22] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-04 02:39:22] INFO root fetch - processPackages [nsface-python]: New version: [1.1.71] Old Version: [1.1.61]
+[2023-05-04 02:39:23] INFO root fetch - processPackages [chatsnack]: Start processing: azuredol
+[2023-05-04 02:39:23] INFO root fetch - main [MainThread]: End processing [chatsnack]: success
+[2023-05-04 02:39:23] INFO root fetch - processPackages [nsface-python]: executing diffoscope
+[2023-05-04 02:39:23] INFO root fetch - processPackages [nsface-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsface_python-1.1.61-py3-none-any.whl.zip tmp/nsface_python-1.1.71-py3-none-any.whl.zip --markdown 20230504/n/nsface-python/1.1.61-1.1.71/diff.md --exclude *.pyd
+[2023-05-04 02:39:23] INFO root fetch - main [MainThread]: End processing [gpt-json]: success
+[2023-05-04 02:39:23] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/d0/4d/d0fe16c903b7e89479e55158323464d5451705d11c44dbb079ae8034f3a5/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl
+[2023-05-04 02:39:23] INFO root fetch - processPackages [azuredol]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-04 02:39:23] INFO root fetch - main [MainThread]: End processing [nsface-cpu-python]: success
+[2023-05-04 02:39:23] INFO root fetch - main [MainThread]: End processing [aviatrix-discovery]: success
+[2023-05-04 02:39:23] INFO root fetch - main [MainThread]: End processing [cca-zoo]: success
+[2023-05-04 02:39:23] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-05-04 02:39:23] INFO root fetch - processPackages [azuredol]: Downloading https://files.pythonhosted.org/packages/00/12/446576e56393e8be968c6d4dd5a8a5280cbb9a70bf98748afe060ed91851/azuredol-0.1.2.tar.gz
+[2023-05-04 02:39:23] INFO root fetch - main [MainThread]: End processing [nsface-python]: success
+[2023-05-04 02:39:23] INFO root fetch - processPackages [azuredol]: Downloading https://files.pythonhosted.org/packages/91/83/99b6668c34cee5baf743528f2b0b89e7df0e694323edee3c2df4b874a2a6/azuredol-0.1.3.tar.gz
+[2023-05-04 02:39:23] INFO root fetch - processPackages [azuredol]: executing diffoscope
+[2023-05-04 02:39:23] INFO root fetch - processPackages [azuredol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azuredol-0.1.2.tar.gz tmp/azuredol-0.1.3.tar.gz --markdown 20230504/a/azuredol/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-04 02:39:24] INFO root fetch - processPackages [aviatrix-migration]: executing diffoscope
+[2023-05-04 02:39:24] INFO root fetch - processPackages [aviatrix-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230504/a/aviatrix-migration/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-04 02:39:24] INFO root fetch - main [MainThread]: End processing [azuredol]: success
+[2023-05-04 02:39:24] INFO root fetch - main [MainThread]: End processing [nsface-python]: success
+[2023-05-04 02:39:25] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
+[2023-05-04 02:40:37] INFO root fetch - main [MainThread]: End processing [rfrenchseti-cspyce]: success
+[2023-05-04 02:40:37] INFO root fetch - main [MainThread]: Store serial: [17964818]
