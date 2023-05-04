@@ -7283,3 +7283,25 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 06:35:25] INFO root fetch - main [MainThread]: End processing [qlat]: success
 [2023-05-04 06:35:25] INFO root fetch - main [MainThread]: End processing [ipywebcam]: success
 [2023-05-04 06:35:25] INFO root fetch - main [MainThread]: Store serial: [17967404]
+[2023-05-04 06:40:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967404]
+[2023-05-04 06:40:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-04 06:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grapdb
+[2023-05-04 06:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reasoner-validator
+[2023-05-04 06:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minidatabase
+[2023-05-04 06:40:34] INFO root fetch - processPackages [minidatabase]: New version: [1.7.1] Old Version: [1.7]
+[2023-05-04 06:40:34] INFO root fetch - processPackages [grapdb]: New version: [0.9] Old Version: [0.8]
+[2023-05-04 06:40:34] INFO root fetch - processPackages [reasoner-validator]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-05-04 06:40:34] INFO root fetch - processPackages [grapdb]: executing diffoscope
+[2023-05-04 06:40:34] INFO root fetch - processPackages [grapdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grapdb-0.8.tar.gz tmp/grapdb-0.9.tar.gz --markdown 20230504/g/grapdb/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-04 06:40:34] INFO root fetch - processPackages [minidatabase]: Downloading https://files.pythonhosted.org/packages/6d/7b/9d64fb4316be9e741abbb7aab50f9283bfbd24230a8e753ae05707a5211c/minidatabase-1.7.tar.gz
+[2023-05-04 06:40:35] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/e2/18/1d6bfebe7d98e167f0aff55c0ee9adde572864c53ab5d209f5e4afdc51bf/reasoner_validator-3.4.8.tar.gz
+[2023-05-04 06:40:35] INFO root fetch - processPackages [minidatabase]: Downloading https://files.pythonhosted.org/packages/d4/85/6a44310956fd28082e384822a6f95023e2e80f58219bb4d2d99f1e82c0e8/minidatabase-1.7.1.tar.gz
+[2023-05-04 06:40:35] INFO root fetch - processPackages [minidatabase]: executing diffoscope
+[2023-05-04 06:40:35] INFO root fetch - processPackages [minidatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidatabase-1.7.tar.gz tmp/minidatabase-1.7.1.tar.gz --markdown 20230504/m/minidatabase/1.7-1.7.1/diff.md --exclude *.pyd
+[2023-05-04 06:40:35] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/70/85/413af4653fc722df3fb67007e7b979a17ef49d16cb616175b5b999bcb398/reasoner_validator-3.4.9.tar.gz
+[2023-05-04 06:40:35] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-05-04 06:40:35] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.4.8.tar.gz tmp/reasoner_validator-3.4.9.tar.gz --markdown 20230504/r/reasoner-validator/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-05-04 06:40:35] INFO root fetch - main [MainThread]: End processing [grapdb]: success
+[2023-05-04 06:40:36] INFO root fetch - main [MainThread]: End processing [minidatabase]: success
+[2023-05-04 06:40:37] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-05-04 06:40:37] INFO root fetch - main [MainThread]: Store serial: [17967413]
