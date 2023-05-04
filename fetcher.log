@@ -8180,3 +8180,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 07:58:48] INFO root fetch - main [MainThread]: End processing [Palos]: success
 [2023-05-04 07:58:49] INFO root fetch - main [MainThread]: End processing [satsim]: success
 [2023-05-04 07:58:49] INFO root fetch - main [MainThread]: Store serial: [17967847]
+[2023-05-04 08:03:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967847]
+[2023-05-04 08:03:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-04 08:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: krx-rigger
+[2023-05-04 08:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: semterm
+[2023-05-04 08:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fin-libs
+[2023-05-04 08:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sca-rhythm
+[2023-05-04 08:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jejubts
+[2023-05-04 08:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addons-oca-partner-contact
+[2023-05-04 08:03:58] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-04 08:03:58] INFO root fetch - processPackages [sca-rhythm]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-04 08:03:58] INFO root fetch - processPackages [semterm]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-04 08:03:58] INFO root fetch - processPackages [odoo14-addons-oca-partner-contact]: New version: [14.0.20230503.0] Old Version: [14.0.20221215.0]
+[2023-05-04 08:03:58] INFO root fetch - processPackages [fin-libs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 08:03:58] WARNING root fetch - processPackages [jejubts]: Skipping, unable to determine old version
+[2023-05-04 08:03:58] INFO root fetch - main [MainThread]: End processing [jejubts] error
+[2023-05-04 08:03:58] INFO root fetch - processPackages [sca-rhythm]: Downloading https://files.pythonhosted.org/packages/16/9f/bb4c6d0dd62d92466dc2a15fc093604ca9d07512814bc2e29fcba2bfb899/sca_rhythm-0.1.3.tar.gz
+[2023-05-04 08:03:58] INFO root fetch - processPackages [fin-libs]: Downloading https://files.pythonhosted.org/packages/46/6f/530252d49eb4b6a91fabf37bfee9d9abbf32c8f2e5774d98d49bf5055561/fin_libs-0.1.0.tar.gz
+[2023-05-04 08:03:58] INFO root fetch - processPackages [odoo14-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/08/2c/7df8e8906af9e6721042b51301bfe966ab98de028fe9b4e8988e3907f99d/odoo14_addons_oca_partner_contact-14.0.20221215.0-py3-none-any.whl
+[2023-05-04 08:03:58] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/f5/db/3e1e60a78dac55ea1c8f6e91278d097da33c504123772800e605a8ad0d16/krx_rigger-0.0.8.tar.gz
+[2023-05-04 08:03:58] INFO root fetch - processPackages [semterm]: Downloading https://files.pythonhosted.org/packages/c5/e6/9a5057e0b8edaea026dccda503f6bd302a5cb5b3467b605b4c881388670c/semterm-0.2.2.tar.gz
+[2023-05-04 08:03:58] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-05-04 08:03:58] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.7.tar.gz tmp/krx_rigger-0.0.8.tar.gz --markdown 20230504/k/krx-rigger/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-04 08:03:58] INFO root fetch - processPackages [semterm]: executing diffoscope
+[2023-05-04 08:03:58] INFO root fetch - processPackages [semterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semterm-0.2.1.tar.gz tmp/semterm-0.2.2.tar.gz --markdown 20230504/s/semterm/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-04 08:03:58] INFO root fetch - processPackages [sca-rhythm]: Downloading https://files.pythonhosted.org/packages/de/13/efdbeac3da5e1f850007a62382154b298784fe6fff5f80e12b323c46303c/sca_rhythm-0.2.0.tar.gz
+[2023-05-04 08:03:59] INFO root fetch - processPackages [odoo14-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/28/81/3984717a5d2f97befa96a4d617dd533cbe049597d53e3a669da69a512e4d/odoo14_addons_oca_partner_contact-14.0.20230503.0-py3-none-any.whl
+[2023-05-04 08:03:59] INFO root fetch - processPackages [sca-rhythm]: executing diffoscope
+[2023-05-04 08:03:59] INFO root fetch - processPackages [sca-rhythm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sca_rhythm-0.1.3.tar.gz tmp/sca_rhythm-0.2.0.tar.gz --markdown 20230504/s/sca-rhythm/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-04 08:03:59] INFO root fetch - processPackages [odoo14-addons-oca-partner-contact]: executing diffoscope
+[2023-05-04 08:03:59] INFO root fetch - processPackages [odoo14-addons-oca-partner-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_partner_contact-14.0.20221215.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_partner_contact-14.0.20230503.0-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addons-oca-partner-contact/14.0.20221215.0-14.0.20230503.0/diff.md --exclude *.pyd
+[2023-05-04 08:03:59] INFO root fetch - processPackages [fin-libs]: Downloading https://files.pythonhosted.org/packages/ad/65/e6ee91481fba91be688ce0f40a56ade7f021363dc22b539f5059c6d3d8cb/fin_libs-0.1.1.tar.gz
+[2023-05-04 08:03:59] INFO root fetch - processPackages [fin-libs]: executing diffoscope
+[2023-05-04 08:03:59] INFO root fetch - processPackages [fin-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fin_libs-0.1.0.tar.gz tmp/fin_libs-0.1.1.tar.gz --markdown 20230504/f/fin-libs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 08:04:00] INFO root fetch - main [MainThread]: End processing [sca-rhythm]: success
+[2023-05-04 08:04:00] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-partner-contact]: success
+[2023-05-04 08:04:00] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-05-04 08:04:00] INFO root fetch - main [MainThread]: End processing [semterm]: success
+[2023-05-04 08:04:00] INFO root fetch - main [MainThread]: End processing [fin-libs]: success
+[2023-05-04 08:04:00] INFO root fetch - main [MainThread]: Store serial: [17967866]
