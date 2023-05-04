@@ -8332,3 +8332,122 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 08:14:30] INFO root fetch - main [MainThread]: End processing [document-merge-service]: success
 [2023-05-04 08:14:30] INFO root fetch - main [MainThread]: End processing [fin-libs]: success
 [2023-05-04 08:14:30] INFO root fetch - main [MainThread]: Store serial: [17967916]
+[2023-05-04 08:19:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967916]
+[2023-05-04 08:19:39] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-04 08:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imaginairy-normal-map
+[2023-05-04 08:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nashbanksync
+[2023-05-04 08:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycoreconf
+[2023-05-04 08:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: userfs
+[2023-05-04 08:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-product-product-template-navigation
+[2023-05-04 08:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roblox-asset-publish
+[2023-05-04 08:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addons-oca-product-attribute
+[2023-05-04 08:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yolov5-sp
+[2023-05-04 08:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imaginairy-normal-map
+[2023-05-04 08:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-product-supplierinfo-for-customer
+[2023-05-04 08:19:39] INFO root fetch - processPackages [nashbanksync]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 08:19:39] INFO root fetch - processPackages [imaginairy-normal-map]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-04 08:19:39] INFO root fetch - processPackages [odoo14-addon-product-product-template-navigation]: New version: [14.0.1.0.2.dev1] Old Version: [14.0.1.0.1]
+[2023-05-04 08:19:39] INFO root fetch - processPackages [odoo14-addons-oca-product-attribute]: New version: [14.0.20230503.0] Old Version: [14.0.20230124.0]
+[2023-05-04 08:19:39] INFO root fetch - processPackages [roblox-asset-publish]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-04 08:19:39] WARNING root fetch - processPackages [yolov5-sp]: Skipping, unable to determine old version
+[2023-05-04 08:19:39] INFO root fetch - processPackages [yolov5-sp]: Start processing: odoo-addon-product-cost-security
+[2023-05-04 08:19:39] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-05-04 08:19:39] INFO root fetch - main [MainThread]: End processing [yolov5-sp] error
+[2023-05-04 08:19:39] WARNING root fetch - processPackages [pycoreconf]: Skipping, unable to determine old version
+[2023-05-04 08:19:39] INFO root fetch - processPackages [pycoreconf]: Start processing: plugnplai
+[2023-05-04 08:19:39] INFO root fetch - main [MainThread]: End processing [pycoreconf] error
+[2023-05-04 08:19:39] INFO root fetch - processPackages [imaginairy-normal-map]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-04 08:19:39] INFO root fetch - processPackages [odoo-addon-product-cost-security]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-05-04 08:19:39] INFO root fetch - processPackages [plugnplai]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-04 08:19:39] WARNING root fetch - processPackages [userfs]: Skipping, unable to determine old version
+[2023-05-04 08:19:39] INFO root fetch - processPackages [nashbanksync]: executing diffoscope
+[2023-05-04 08:19:39] INFO root fetch - processPackages [userfs]: Start processing: pz-rail-pipelines
+[2023-05-04 08:19:39] INFO root fetch - processPackages [nashbanksync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nashbanksync-0.1.8.tar.gz tmp/nashbanksync-0.1.9.tar.gz --markdown 20230504/n/nashbanksync/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 08:19:39] INFO root fetch - main [MainThread]: End processing [userfs] error
+[2023-05-04 08:19:39] INFO root fetch - processPackages [pz-rail-pipelines]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-04 08:19:39] INFO root fetch - processPackages [odoo14-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/17/f5/a15bfc0bfdb29b5de1c16e75811f14aea7c2dd653daca72d7d509d37d5b9/odoo14_addons_oca_product_attribute-14.0.20230124.0-py3-none-any.whl
+[2023-05-04 08:19:39] INFO root fetch - processPackages [odoo14-addon-product-product-template-navigation]: Downloading https://files.pythonhosted.org/packages/cf/af/27dbb9f8c7438d6b693029ff23b221e02300221772d2dd08ea3b3d2f4418/odoo14_addon_product_product_template_navigation-14.0.1.0.1-py3-none-any.whl
+[2023-05-04 08:19:39] INFO root fetch - processPackages [imaginairy-normal-map]: Downloading https://files.pythonhosted.org/packages/17/fc/e2af671689fe38f27856a05e06c3fa5658b7ba73aaed98e6e4000ac1ab39/imaginairy_normal_map-0.0.2-py3-none-any.whl
+[2023-05-04 08:19:39] INFO root fetch - processPackages [imaginairy-normal-map]: Downloading https://files.pythonhosted.org/packages/17/fc/e2af671689fe38f27856a05e06c3fa5658b7ba73aaed98e6e4000ac1ab39/imaginairy_normal_map-0.0.2-py3-none-any.whl
+[2023-05-04 08:19:39] INFO root fetch - processPackages [odoo-addon-product-cost-security]: Downloading https://files.pythonhosted.org/packages/41/85/cb3b9ec538c595401a1f69931bb3e527e38870ef4203d96355eb9f67136f/odoo_addon_product_cost_security-16.0.1.0.0.6-py3-none-any.whl
+[2023-05-04 08:19:39] INFO root fetch - processPackages [plugnplai]: Downloading https://files.pythonhosted.org/packages/9c/59/8140c2acfea6eae07e5857895737b366fbd777c6df029f80f8e906c0cb2b/plugnplai-0.0.4.tar.gz
+[2023-05-04 08:19:40] INFO root fetch - processPackages [roblox-asset-publish]: Downloading https://files.pythonhosted.org/packages/00/84/4c21ef240833f779e56dcd30299f82fbc9cc2a961128e710e731c7ec202a/roblox-asset-publish-0.2.8.tar.gz
+[2023-05-04 08:19:40] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Downloading https://files.pythonhosted.org/packages/0b/56/6ea48b6e4d23c48f0ce8700537923b873d435b3904a1de567ad5bc286f13/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.6-py3-none-any.whl
+[2023-05-04 08:19:40] INFO root fetch - processPackages [pz-rail-pipelines]: Downloading https://files.pythonhosted.org/packages/3b/2a/94ac7191f5f13f43eeb79052e41ed5cfd2fdee29f3232c0129a36b02aa20/pz-rail-pipelines-0.0.2.tar.gz
+[2023-05-04 08:19:40] INFO root fetch - processPackages [odoo14-addon-product-product-template-navigation]: Downloading https://files.pythonhosted.org/packages/3f/62/4c9c91edd3195b81e94ca7cef7e8c05c21eda1e83da7e4090491450a5f44/odoo14_addon_product_product_template_navigation-14.0.1.0.2.dev1-py3-none-any.whl
+[2023-05-04 08:19:40] INFO root fetch - processPackages [odoo14-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/a8/87/4a0a01cae22cadbdd59d937ef539326eb7a7feb2208ab7ee1b2c35246778/odoo14_addons_oca_product_attribute-14.0.20230503.0-py3-none-any.whl
+[2023-05-04 08:19:40] INFO root fetch - processPackages [odoo-addon-product-cost-security]: Downloading https://files.pythonhosted.org/packages/79/e4/7bbb80e64f96d7394190afba7b3b011ac861eb6849fbd9ae15dbc52e06a7/odoo_addon_product_cost_security-16.0.1.0.0.7-py3-none-any.whl
+[2023-05-04 08:19:40] INFO root fetch - processPackages [plugnplai]: Downloading https://files.pythonhosted.org/packages/9a/27/4dfd20cfdab8e4ad0860e6acb564e1241c59956448d5b92810ed584135ee/plugnplai-0.0.5.tar.gz
+[2023-05-04 08:19:40] INFO root fetch - processPackages [imaginairy-normal-map]: Downloading https://files.pythonhosted.org/packages/7d/42/36c07efe1296b3f276a25bd34d26565c62b6524b023daddad03131b47953/imaginairy_normal_map-0.0.3-py3-none-any.whl
+[2023-05-04 08:19:40] INFO root fetch - processPackages [imaginairy-normal-map]: Downloading https://files.pythonhosted.org/packages/7d/42/36c07efe1296b3f276a25bd34d26565c62b6524b023daddad03131b47953/imaginairy_normal_map-0.0.3-py3-none-any.whl
+[2023-05-04 08:19:40] INFO root fetch - processPackages [odoo14-addons-oca-product-attribute]: executing diffoscope
+[2023-05-04 08:19:40] INFO root fetch - processPackages [odoo14-addons-oca-product-attribute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_product_attribute-14.0.20230124.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_product_attribute-14.0.20230503.0-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addons-oca-product-attribute/14.0.20230124.0-14.0.20230503.0/diff.md --exclude *.pyd
+[2023-05-04 08:19:40] INFO root fetch - processPackages [odoo14-addon-product-product-template-navigation]: executing diffoscope
+[2023-05-04 08:19:40] INFO root fetch - processPackages [odoo14-addon-product-product-template-navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_product_template_navigation-14.0.1.0.1-py3-none-any.whl.zip tmp/odoo14_addon_product_product_template_navigation-14.0.1.0.2.dev1-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addon-product-product-template-navigation/14.0.1.0.1-14.0.1.0.2.dev1/diff.md --exclude *.pyd
+[2023-05-04 08:19:40] INFO root fetch - processPackages [odoo-addon-product-cost-security]: executing diffoscope
+[2023-05-04 08:19:40] INFO root fetch - processPackages [odoo-addon-product-cost-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_cost_security-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_product_cost_security-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-product-cost-security/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-05-04 08:19:40] INFO root fetch - processPackages [plugnplai]: executing diffoscope
+[2023-05-04 08:19:40] INFO root fetch - processPackages [plugnplai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugnplai-0.0.4.tar.gz tmp/plugnplai-0.0.5.tar.gz --markdown 20230504/p/plugnplai/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-04 08:19:40] INFO root fetch - processPackages [roblox-asset-publish]: Downloading https://files.pythonhosted.org/packages/a4/59/9c80f06240bf89838bfd9e916424dcda7c1c6cfe2bfcc1ed91a2c0523132/roblox-asset-publish-0.2.9.tar.gz
+[2023-05-04 08:19:40] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Downloading https://files.pythonhosted.org/packages/2c/15/b0dbea82f919f8042aed522c52cacef7b2756f47571f12a785abc2634924/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.7-py3-none-any.whl
+[2023-05-04 08:19:40] INFO root fetch - processPackages [imaginairy-normal-map]: executing diffoscope
+[2023-05-04 08:19:40] INFO root fetch - processPackages [imaginairy-normal-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imaginairy_normal_map-0.0.2-py3-none-any.whl.zip tmp/imaginairy_normal_map-0.0.3-py3-none-any.whl.zip --markdown 20230504/i/imaginairy-normal-map/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-04 08:19:40] INFO root fetch - processPackages [imaginairy-normal-map]: executing diffoscope
+[2023-05-04 08:19:40] INFO root fetch - processPackages [imaginairy-normal-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imaginairy_normal_map-0.0.2-py3-none-any.whl.zip tmp/imaginairy_normal_map-0.0.3-py3-none-any.whl.zip --markdown 20230504/i/imaginairy-normal-map/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-04 08:19:40] INFO root fetch - processPackages [pz-rail-pipelines]: Downloading https://files.pythonhosted.org/packages/c5/67/66384e844cfafd51e5e66efffb9baa9bc29e9355bfd4165759e090f34c88/pz-rail-pipelines-0.0.3.tar.gz
+[2023-05-04 08:19:40] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: executing diffoscope
+[2023-05-04 08:19:40] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-product-supplierinfo-for-customer/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-05-04 08:19:40] INFO root fetch - processPackages [pz-rail-pipelines]: executing diffoscope
+[2023-05-04 08:19:40] INFO root fetch - processPackages [pz-rail-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pz-rail-pipelines-0.0.2.tar.gz tmp/pz-rail-pipelines-0.0.3.tar.gz --markdown 20230504/p/pz-rail-pipelines/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-04 08:19:40] INFO root fetch - processPackages [roblox-asset-publish]: executing diffoscope
+[2023-05-04 08:19:40] INFO root fetch - processPackages [roblox-asset-publish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-asset-publish-0.2.8.tar.gz tmp/roblox-asset-publish-0.2.9.tar.gz --markdown 20230504/r/roblox-asset-publish/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-04 08:19:41] INFO root fetch - processPackages [nashbanksync]: Start processing: zope.configuration
+[2023-05-04 08:19:41] INFO root fetch - main [MainThread]: End processing [nashbanksync]: success
+[2023-05-04 08:19:41] INFO root fetch - processPackages [zope.configuration]: New version: [5.0] Old Version: [4.4.1]
+[2023-05-04 08:19:41] INFO root fetch - processPackages [zope.configuration]: Downloading https://files.pythonhosted.org/packages/d5/ef/f9c1dc598189c9a0ca96b392160f68bcbd63428d0f8628588f9a1046143c/zope.configuration-4.4.1.tar.gz
+[2023-05-04 08:19:41] INFO root fetch - processPackages [zope.configuration]: Downloading https://files.pythonhosted.org/packages/f7/ef/06e1600ed7102e1a8c81993c028d90d6da1e1283c25e99a618c353194244/zope.configuration-5.0.tar.gz
+[2023-05-04 08:19:41] INFO root fetch - processPackages [zope.configuration]: executing diffoscope
+[2023-05-04 08:19:41] INFO root fetch - processPackages [zope.configuration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.configuration-4.4.1.tar.gz tmp/zope.configuration-5.0.tar.gz --markdown 20230504/z/zope.configuration/4.4.1-5.0/diff.md --exclude *.pyd
+[2023-05-04 08:19:41] INFO root fetch - processPackages [odoo14-addons-oca-product-attribute]: Start processing: mpservice
+[2023-05-04 08:19:41] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-product-attribute]: success
+[2023-05-04 08:19:41] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-05-04 08:19:41] INFO root fetch - processPackages [odoo14-addon-product-product-template-navigation]: Start processing: imaginairy-normal-map
+[2023-05-04 08:19:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-product-template-navigation]: success
+[2023-05-04 08:19:41] INFO root fetch - processPackages [imaginairy-normal-map]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-04 08:19:42] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-05-04 08:19:42] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230504/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-05-04 08:19:42] INFO root fetch - processPackages [imaginairy-normal-map]: executing diffoscope
+[2023-05-04 08:19:42] INFO root fetch - processPackages [imaginairy-normal-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imaginairy_normal_map-0.0.2-py3-none-any.whl.zip tmp/imaginairy_normal_map-0.0.3-py3-none-any.whl.zip --markdown 20230504/i/imaginairy-normal-map/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-04 08:19:42] INFO root fetch - processPackages [imaginairy-normal-map]: Start processing: zabbix-api
+[2023-05-04 08:19:42] INFO root fetch - main [MainThread]: End processing [imaginairy-normal-map]: success
+[2023-05-04 08:19:42] INFO root fetch - processPackages [imaginairy-normal-map]: Start processing: types-regex
+[2023-05-04 08:19:42] INFO root fetch - main [MainThread]: End processing [imaginairy-normal-map]: success
+[2023-05-04 08:19:42] INFO root fetch - processPackages [zabbix-api]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-04 08:19:42] INFO root fetch - processPackages [types-regex]: New version: [2023.5.5.0] Old Version: [2023.5.4.0]
+[2023-05-04 08:19:42] INFO root fetch - processPackages [odoo-addon-product-cost-security]: Start processing: pretext
+[2023-05-04 08:19:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-cost-security]: success
+[2023-05-04 08:19:42] INFO root fetch - processPackages [pretext]: New version: [1.5.3.dev20230504] Old Version: [1.5.3.dev20230503]
+[2023-05-04 08:19:42] INFO root fetch - processPackages [pz-rail-pipelines]: Start processing: atomict
+[2023-05-04 08:19:42] INFO root fetch - main [MainThread]: End processing [pz-rail-pipelines]: success
+[2023-05-04 08:19:42] INFO root fetch - processPackages [zabbix-api]: Downloading https://files.pythonhosted.org/packages/53/ff/b0817b791bce12fb7def0aefafd09f4336f952e21c7b202a1f579f25146c/zabbix-api-0.5.5.tar.gz
+[2023-05-04 08:19:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-supplierinfo-for-customer]: success
+[2023-05-04 08:19:42] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/f2/a3/af77884454690985bd6bf66373664449ffbd12505ee0a17f809a386bc1d2/pretext-1.5.3.dev20230504.tar.gz
+[2023-05-04 08:19:42] INFO root fetch - main [MainThread]: End processing [roblox-asset-publish]: success
+[2023-05-04 08:19:42] INFO root fetch - main [MainThread]: End processing [plugnplai]: success
+[2023-05-04 08:19:42] WARNING root fetch - processPackages [atomict]: Skipping, unable to determine old version
+[2023-05-04 08:19:42] INFO root fetch - main [MainThread]: End processing [atomict] error
+[2023-05-04 08:19:42] INFO root fetch - processPackages [types-regex]: Downloading https://files.pythonhosted.org/packages/e9/9a/8b7c4f4b7b03bdad6239379eb297062554f55c69e21f70ac67bb312dd7b6/types-regex-2023.5.5.0.tar.gz
+[2023-05-04 08:19:42] INFO root fetch - processPackages [zabbix-api]: Downloading https://files.pythonhosted.org/packages/4a/ce/893d6ab7e978d0c00d9154c0cf385016b862438da069302e7ceac0f6c429/zabbix-api-0.5.6.tar.gz
+[2023-05-04 08:19:42] INFO root fetch - processPackages [types-regex]: executing diffoscope
+[2023-05-04 08:19:42] INFO root fetch - processPackages [types-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-regex-2023.5.4.0.tar.gz tmp/types-regex-2023.5.5.0.tar.gz --markdown 20230504/t/types-regex/2023.5.4.0-2023.5.5.0/diff.md --exclude *.pyd
+[2023-05-04 08:19:42] INFO root fetch - processPackages [zabbix-api]: executing diffoscope
+[2023-05-04 08:19:42] INFO root fetch - processPackages [zabbix-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zabbix-api-0.5.5.tar.gz tmp/zabbix-api-0.5.6.tar.gz --markdown 20230504/z/zabbix-api/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-04 08:19:42] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-05-04 08:19:42] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.3.dev20230503.tar.gz tmp/pretext-1.5.3.dev20230504.tar.gz --markdown 20230504/p/pretext/1.5.3.dev20230503-1.5.3.dev20230504/diff.md --exclude *.pyd
+[2023-05-04 08:19:43] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-05-04 08:19:43] INFO root fetch - main [MainThread]: End processing [imaginairy-normal-map]: success
+[2023-05-04 08:19:43] INFO root fetch - main [MainThread]: End processing [types-regex]: success
+[2023-05-04 08:19:43] INFO root fetch - main [MainThread]: End processing [zabbix-api]: success
+[2023-05-04 08:19:45] INFO root fetch - main [MainThread]: End processing [zope.configuration]: success
+[2023-05-04 08:19:47] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-05-04 08:19:47] INFO root fetch - main [MainThread]: Store serial: [17967977]
