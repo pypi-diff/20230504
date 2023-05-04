@@ -19580,3 +19580,139 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 18:14:39] INFO root fetch - main [MainThread]: End processing [yangsuite-filemanager]: success
 [2023-05-04 18:14:43] INFO root fetch - main [MainThread]: End processing [reportlab]: success
 [2023-05-04 18:14:43] INFO root fetch - main [MainThread]: Store serial: [17974704]
+[2023-05-04 18:19:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17974704]
+[2023-05-04 18:19:57] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-04 18:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vision-explanation-methods
+[2023-05-04 18:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain
+[2023-05-04 18:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webtraste
+[2023-05-04 18:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: requests-hawk
+[2023-05-04 18:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amazon-sagemaker-jupyter-scheduler
+[2023-05-04 18:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: notification-service-nightly
+[2023-05-04 18:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: s7r
+[2023-05-04 18:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ai-flow-nightly
+[2023-05-04 18:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dankware
+[2023-05-04 18:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alphaz
+[2023-05-04 18:19:57] ERROR root fetch - processPackages [webtraste]: Unable to get metadata: No such project 'webtraste'
+[2023-05-04 18:19:57] INFO root fetch - processPackages [webtraste]: Start processing: edc-qol
+[2023-05-04 18:19:57] INFO root fetch - processPackages [vision-explanation-methods]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-04 18:19:57] INFO root fetch - main [MainThread]: End processing [webtraste] error
+[2023-05-04 18:19:57] INFO root fetch - processPackages [requests-hawk]: New version: [1.2.1] Old Version: [1.1.1]
+[2023-05-04 18:19:57] WARNING root fetch - processPackages [amazon-sagemaker-jupyter-scheduler]: Skipping, unable to determine old version
+[2023-05-04 18:19:57] INFO root fetch - processPackages [amazon-sagemaker-jupyter-scheduler]: Start processing: prefect-kubernetes
+[2023-05-04 18:19:57] INFO root fetch - main [MainThread]: End processing [amazon-sagemaker-jupyter-scheduler] error
+[2023-05-04 18:19:57] INFO root fetch - processPackages [s7r]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 18:19:57] INFO root fetch - processPackages [alphaz]: New version: [0.7.7.8] Old Version: [0.7.7.7]
+[2023-05-04 18:19:57] INFO root fetch - processPackages [dankware]: New version: [3.3.7] Old Version: [3.3.6]
+[2023-05-04 18:19:57] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-05-04 18:19:57] INFO root fetch - processPackages [prefect-kubernetes]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-04 18:19:57] INFO root fetch - processPackages [edc-qol]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 18:19:58] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.5.4] Old Version: [2023.5.3]
+[2023-05-04 18:19:58] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.5.4] Old Version: [2023.5.3]
+[2023-05-04 18:19:58] INFO root fetch - processPackages [vision-explanation-methods]: Downloading https://files.pythonhosted.org/packages/6f/88/714d92df491fb7347441b37330ccc8510427e565efada44880f6c1ac0f66/vision_explanation_methods-0.0.6.tar.gz
+[2023-05-04 18:19:58] INFO root fetch - processPackages [s7r]: Downloading https://files.pythonhosted.org/packages/56/7e/182ab66ae3c67ee3b2e61b883f339df11bc01b7b3b9537711c11fea4119c/s7r-0.1.8.tar.gz
+[2023-05-04 18:19:58] INFO root fetch - processPackages [requests-hawk]: Downloading https://files.pythonhosted.org/packages/ed/e8/eefb1c0cef7219cb550ea83f39b8f20ff450a5dee635b3a54f71afb58d61/requests-hawk-1.1.1.tar.gz
+[2023-05-04 18:19:58] INFO root fetch - processPackages [alphaz]: Downloading https://files.pythonhosted.org/packages/5b/a3/6cfa2b64f818469c22fd51f822bed7803719e10fc0d2a096cdcce74d1861/alphaz-0.7.7.8.tar.gz
+[2023-05-04 18:19:58] INFO root fetch - processPackages [edc-qol]: Downloading https://files.pythonhosted.org/packages/22/3e/1606e88c3327ced5222951425cfd4fc0195702c74192c6fc5aa147edb9a7/edc-qol-0.1.8.tar.gz
+[2023-05-04 18:19:58] INFO root fetch - processPackages [prefect-kubernetes]: Downloading https://files.pythonhosted.org/packages/ed/3c/43b65d52da125054ea284062d79d08108745ab0fba1f95adef6de6c471c1/prefect-kubernetes-0.2.6.tar.gz
+[2023-05-04 18:19:58] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/34/89/f23000a3399d10d1492f95e88b61bcb24e16c627c8a0a8b9a35c70a63683/notification_service_nightly-2023.5.3.tar.gz
+[2023-05-04 18:19:58] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/8f/68/bcabc866e1e9585875e3ce70e63e6715a375cc40d01c1a3b6a40d9b9be61/ai_flow_nightly-2023.5.3.tar.gz
+[2023-05-04 18:19:58] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-05-04 18:19:58] INFO root fetch - processPackages [dankware]: Downloading https://files.pythonhosted.org/packages/41/94/eeca2d2b68b955f7ed1e6a6a1200146ff112102f43645b2e146c32c27f14/dankware-3.3.7.tar.gz
+[2023-05-04 18:19:58] INFO root fetch - processPackages [dankware]: executing diffoscope
+[2023-05-04 18:19:58] INFO root fetch - processPackages [dankware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dankware-3.3.6.tar.gz tmp/dankware-3.3.7.tar.gz --markdown 20230504/d/dankware/3.3.6-3.3.7/diff.md --exclude *.pyd
+[2023-05-04 18:19:58] INFO root fetch - processPackages [s7r]: Downloading https://files.pythonhosted.org/packages/f7/8d/144289ef840e20bcb40dc4c7367be76e10092b629fb2e1c0177a758ad706/s7r-0.1.9.tar.gz
+[2023-05-04 18:19:58] INFO root fetch - processPackages [requests-hawk]: Downloading https://files.pythonhosted.org/packages/af/48/35c2adbe796eee460dc3b69704dae66c2b6647c3f9d85ab156aa4b0443a6/requests-hawk-1.2.1.tar.gz
+[2023-05-04 18:19:58] INFO root fetch - processPackages [prefect-kubernetes]: Downloading https://files.pythonhosted.org/packages/82/f7/592da963105c4cc250617b2f8f9e13ce18c42fadf81335b2233b03ff4711/prefect-kubernetes-0.2.7.tar.gz
+[2023-05-04 18:19:58] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/be/2a/71e42028dd3925868d1a9410eb97e4e81b4ba15d2d636767711122f88223/ai_flow_nightly-2023.5.4.tar.gz
+[2023-05-04 18:19:58] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/ac/a1/575df1083e4bd218d6ee68a8ade2e4aba74b9bb757b5954ba8e1cd6d3f00/notification_service_nightly-2023.5.4.tar.gz
+[2023-05-04 18:19:58] INFO root fetch - processPackages [vision-explanation-methods]: Downloading https://files.pythonhosted.org/packages/96/c4/ef3647ac90bf6c32bf3a2a6285b8eb4688d69aedcbc6efd269446ee5099a/vision_explanation_methods-0.0.7.tar.gz
+[2023-05-04 18:19:58] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-05-04 18:19:58] INFO root fetch - processPackages [requests-hawk]: executing diffoscope
+[2023-05-04 18:19:58] INFO root fetch - processPackages [requests-hawk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests-hawk-1.1.1.tar.gz tmp/requests-hawk-1.2.1.tar.gz --markdown 20230504/r/requests-hawk/1.1.1-1.2.1/diff.md --exclude *.pyd
+[2023-05-04 18:19:58] INFO root fetch - processPackages [prefect-kubernetes]: executing diffoscope
+[2023-05-04 18:19:58] INFO root fetch - processPackages [prefect-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-kubernetes-0.2.6.tar.gz tmp/prefect-kubernetes-0.2.7.tar.gz --markdown 20230504/p/prefect-kubernetes/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-04 18:19:58] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-05-04 18:19:58] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.5.3.tar.gz tmp/notification_service_nightly-2023.5.4.tar.gz --markdown 20230504/n/notification-service-nightly/2023.5.3-2023.5.4/diff.md --exclude *.pyd
+[2023-05-04 18:19:58] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-05-04 18:19:58] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.5.3.tar.gz tmp/ai_flow_nightly-2023.5.4.tar.gz --markdown 20230504/a/ai-flow-nightly/2023.5.3-2023.5.4/diff.md --exclude *.pyd
+[2023-05-04 18:19:58] INFO root fetch - processPackages [vision-explanation-methods]: executing diffoscope
+[2023-05-04 18:19:58] INFO root fetch - processPackages [vision-explanation-methods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_explanation_methods-0.0.6.tar.gz tmp/vision_explanation_methods-0.0.7.tar.gz --markdown 20230504/v/vision-explanation-methods/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-04 18:19:58] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-05-04 18:19:58] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230504/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-05-04 18:19:58] INFO root fetch - processPackages [s7r]: executing diffoscope
+[2023-05-04 18:19:58] INFO root fetch - processPackages [s7r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s7r-0.1.8.tar.gz tmp/s7r-0.1.9.tar.gz --markdown 20230504/s/s7r/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 18:19:58] INFO root fetch - processPackages [edc-qol]: Downloading https://files.pythonhosted.org/packages/c9/4c/18db3c92b50d28f788e638b1868fc2030807b21fdff6888eb6512f6b9374/edc-qol-0.1.9.tar.gz
+[2023-05-04 18:19:59] INFO root fetch - processPackages [edc-qol]: executing diffoscope
+[2023-05-04 18:19:59] INFO root fetch - processPackages [edc-qol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-qol-0.1.8.tar.gz tmp/edc-qol-0.1.9.tar.gz --markdown 20230504/e/edc-qol/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 18:19:59] INFO root fetch - processPackages [alphaz]: executing diffoscope
+[2023-05-04 18:19:59] INFO root fetch - processPackages [alphaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-0.7.7.7.tar.gz tmp/alphaz-0.7.7.8.tar.gz --markdown 20230504/a/alphaz/0.7.7.7-0.7.7.8/diff.md --exclude *.pyd
+[2023-05-04 18:19:59] INFO root fetch - processPackages [dankware]: Start processing: pyekfmm
+[2023-05-04 18:19:59] INFO root fetch - main [MainThread]: End processing [dankware]: success
+[2023-05-04 18:19:59] INFO root fetch - processPackages [pyekfmm]: New version: [0.0.8.5] Old Version: [0.0.8.4]
+[2023-05-04 18:20:00] INFO root fetch - processPackages [vision-explanation-methods]: Start processing: askedith
+[2023-05-04 18:20:00] INFO root fetch - main [MainThread]: End processing [vision-explanation-methods]: success
+[2023-05-04 18:20:00] INFO root fetch - processPackages [pyekfmm]: Downloading https://files.pythonhosted.org/packages/52/9c/cce99a6b876e5618ee79cd579088e8cda5fc444d8f04a6966397864699af/pyekfmm-0.0.8.4.tar.gz
+[2023-05-04 18:20:00] INFO root fetch - processPackages [askedith]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-04 18:20:00] INFO root fetch - processPackages [requests-hawk]: Start processing: edx-enterprise
+[2023-05-04 18:20:00] INFO root fetch - main [MainThread]: End processing [requests-hawk]: success
+[2023-05-04 18:20:00] INFO root fetch - processPackages [edx-enterprise]: New version: [3.9.9] Old Version: [3.9.7]
+[2023-05-04 18:20:00] INFO root fetch - processPackages [askedith]: Downloading https://files.pythonhosted.org/packages/8b/9c/d857e04273c372f4bc184a0812fe15424d0c269deca5617a8486d4fd8e97/askedith-0.9.6-py3-none-any.whl
+[2023-05-04 18:20:00] INFO root fetch - processPackages [pyekfmm]: Downloading https://files.pythonhosted.org/packages/5a/9f/d944c7db23bc1b7fc365c7d15125ef7aa23ac8fe062a5e659344926a9ef6/pyekfmm-0.0.8.5.tar.gz
+[2023-05-04 18:20:00] INFO root fetch - processPackages [edc-qol]: Start processing: s7r
+[2023-05-04 18:20:00] INFO root fetch - main [MainThread]: End processing [edc-qol]: success
+[2023-05-04 18:20:00] INFO root fetch - processPackages [pyekfmm]: executing diffoscope
+[2023-05-04 18:20:00] INFO root fetch - processPackages [pyekfmm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyekfmm-0.0.8.4.tar.gz tmp/pyekfmm-0.0.8.5.tar.gz --markdown 20230504/p/pyekfmm/0.0.8.4-0.0.8.5/diff.md --exclude *.pyd
+[2023-05-04 18:20:00] INFO root fetch - processPackages [s7r]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 18:20:00] INFO root fetch - processPackages [s7r]: executing diffoscope
+[2023-05-04 18:20:00] INFO root fetch - processPackages [s7r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s7r-0.1.8.tar.gz tmp/s7r-0.1.9.tar.gz --markdown 20230504/s/s7r/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 18:20:00] INFO root fetch - processPackages [askedith]: Downloading https://files.pythonhosted.org/packages/56/82/c1a6938e9e7452568ffff201a420669db73f22068f98a93e809a76c1381e/askedith-0.9.7-py3-none-any.whl
+[2023-05-04 18:20:00] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2023-05-04 18:20:00] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-3.9.7.tar.gz tmp/edx-enterprise-3.9.9.tar.gz --markdown 20230504/e/edx-enterprise/3.9.7-3.9.9/diff.md --exclude *.pyd
+[2023-05-04 18:20:00] INFO root fetch - processPackages [askedith]: executing diffoscope
+[2023-05-04 18:20:00] INFO root fetch - processPackages [askedith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askedith-0.9.6-py3-none-any.whl.zip tmp/askedith-0.9.7-py3-none-any.whl.zip --markdown 20230504/a/askedith/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-04 18:20:01] INFO root fetch - processPackages [notification-service-nightly]: Start processing: gh-utils
+[2023-05-04 18:20:01] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-05-04 18:20:01] INFO root fetch - processPackages [gh-utils]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-05-04 18:20:01] INFO root fetch - processPackages [prefect-kubernetes]: Start processing: aioauth
+[2023-05-04 18:20:01] INFO root fetch - main [MainThread]: End processing [prefect-kubernetes]: success
+[2023-05-04 18:20:01] INFO root fetch - processPackages [aioauth]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-05-04 18:20:01] INFO root fetch - processPackages [gh-utils]: Downloading https://files.pythonhosted.org/packages/6a/f3/1664f6ab434cb8085b8de9a014ec1b209438e4c2ff783651ba9f561376c8/gh_utils-0.6.5.tar.gz
+[2023-05-04 18:20:01] INFO root fetch - processPackages [aioauth]: Downloading https://files.pythonhosted.org/packages/8b/7b/46ce157223f3f52814bfa104fdcbacf1f8d7588dc562488ffa9fa3d2e10f/aioauth-1.5.3.tar.gz
+[2023-05-04 18:20:01] INFO root fetch - processPackages [gh-utils]: Downloading https://files.pythonhosted.org/packages/a6/fc/8ba7b4a19baf9e1d24595529a476195892d9ce29b5db4a6df37372d690ad/gh_utils-0.6.6.tar.gz
+[2023-05-04 18:20:01] INFO root fetch - processPackages [aioauth]: Downloading https://files.pythonhosted.org/packages/37/5e/991ada8a7eb02c60ae2c95ad3283db114b3e9189b8ea421de7917ee28019/aioauth-1.5.4.tar.gz
+[2023-05-04 18:20:01] INFO root fetch - processPackages [gh-utils]: executing diffoscope
+[2023-05-04 18:20:01] INFO root fetch - processPackages [gh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gh_utils-0.6.5.tar.gz tmp/gh_utils-0.6.6.tar.gz --markdown 20230504/g/gh-utils/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-05-04 18:20:01] INFO root fetch - processPackages [aioauth]: executing diffoscope
+[2023-05-04 18:20:01] INFO root fetch - processPackages [aioauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioauth-1.5.3.tar.gz tmp/aioauth-1.5.4.tar.gz --markdown 20230504/a/aioauth/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-05-04 18:20:01] INFO root fetch - processPackages [s7r]: Start processing: flask-simplelogin
+[2023-05-04 18:20:01] INFO root fetch - main [MainThread]: End processing [s7r]: success
+[2023-05-04 18:20:01] INFO root fetch - processPackages [flask-simplelogin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 18:20:01] INFO root fetch - processPackages [flask-simplelogin]: Downloading https://files.pythonhosted.org/packages/66/4d/3ac1bbca76fbb65d8aa89564147a34ad4e73d88bd3fc75b75f24542e91e2/flask_simplelogin-0.1.1.tar.gz
+[2023-05-04 18:20:02] INFO root fetch - processPackages [flask-simplelogin]: Downloading https://files.pythonhosted.org/packages/e3/9b/942c42c1122e502e0bea52ac96230591df3bf58369de11ad3ad2e0c448d3/flask_simplelogin-0.1.2.tar.gz
+[2023-05-04 18:20:02] INFO root fetch - processPackages [askedith]: Start processing: st-searchbar
+[2023-05-04 18:20:02] INFO root fetch - main [MainThread]: End processing [askedith]: success
+[2023-05-04 18:20:02] INFO root fetch - processPackages [st-searchbar]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 18:20:02] INFO root fetch - processPackages [flask-simplelogin]: executing diffoscope
+[2023-05-04 18:20:02] INFO root fetch - processPackages [flask-simplelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_simplelogin-0.1.1.tar.gz tmp/flask_simplelogin-0.1.2.tar.gz --markdown 20230504/f/flask-simplelogin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 18:20:02] INFO root fetch - processPackages [pyekfmm]: Start processing: ovos-dinkum-listener
+[2023-05-04 18:20:02] INFO root fetch - main [MainThread]: End processing [pyekfmm]: success
+[2023-05-04 18:20:02] INFO root fetch - main [MainThread]: End processing [s7r]: success
+[2023-05-04 18:20:02] INFO root fetch - processPackages [ovos-dinkum-listener]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-05-04 18:20:02] INFO root fetch - processPackages [st-searchbar]: Downloading https://files.pythonhosted.org/packages/4b/17/d75e11cfbc85da7c5dcc77da527a558d39236cc733ff09a9a9e51a35cc8f/st-searchbar-0.0.8.tar.gz
+[2023-05-04 18:20:02] INFO root fetch - processPackages [ovos-dinkum-listener]: Downloading https://files.pythonhosted.org/packages/54/9d/f4a7d3d070c3e43f01821753e98fd2cfbbbf6ceeb574e5d9627bddcc9359/ovos_dinkum_listener-0.0.2a8-py3-none-any.whl
+[2023-05-04 18:20:02] INFO root fetch - processPackages [st-searchbar]: Downloading https://files.pythonhosted.org/packages/fd/1d/ef0468a702cdbeee89ae31d85aa6414d132cefd4427d77785071c4d8562d/st-searchbar-0.0.9.tar.gz
+[2023-05-04 18:20:02] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-05-04 18:20:02] INFO root fetch - processPackages [ovos-dinkum-listener]: Downloading https://files.pythonhosted.org/packages/22/12/90004795d7f36c8a2ddc6dd54b12d22f1c0eaeb096c07098c4d980132a21/ovos_dinkum_listener-0.0.2a9-py3-none-any.whl
+[2023-05-04 18:20:02] INFO root fetch - processPackages [st-searchbar]: executing diffoscope
+[2023-05-04 18:20:02] INFO root fetch - processPackages [st-searchbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st-searchbar-0.0.8.tar.gz tmp/st-searchbar-0.0.9.tar.gz --markdown 20230504/s/st-searchbar/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 18:20:03] INFO root fetch - processPackages [ovos-dinkum-listener]: executing diffoscope
+[2023-05-04 18:20:03] INFO root fetch - processPackages [ovos-dinkum-listener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_dinkum_listener-0.0.2a8-py3-none-any.whl.zip tmp/ovos_dinkum_listener-0.0.2a9-py3-none-any.whl.zip --markdown 20230504/o/ovos-dinkum-listener/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-05-04 18:20:03] INFO root fetch - main [MainThread]: End processing [gh-utils]: success
+[2023-05-04 18:20:03] INFO root fetch - main [MainThread]: End processing [flask-simplelogin]: success
+[2023-05-04 18:20:03] INFO root fetch - main [MainThread]: End processing [aioauth]: success
+[2023-05-04 18:20:04] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-05-04 18:20:04] INFO root fetch - main [MainThread]: End processing [ovos-dinkum-listener]: success
+[2023-05-04 18:20:04] INFO root fetch - main [MainThread]: End processing [alphaz]: success
+[2023-05-04 18:20:05] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2023-05-04 18:20:05] INFO root fetch - main [MainThread]: End processing [st-searchbar]: success
+[2023-05-04 18:20:05] INFO root fetch - main [MainThread]: Store serial: [17974772]
