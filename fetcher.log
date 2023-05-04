@@ -22076,3 +22076,129 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 20:02:08] INFO root fetch - main [MainThread]: End processing [kfp]: success
 [2023-05-04 20:02:43] INFO root fetch - main [MainThread]: End processing [bokeh]: success
 [2023-05-04 20:02:43] INFO root fetch - main [MainThread]: Store serial: [17976088]
+[2023-05-04 20:07:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17976088]
+[2023-05-04 20:07:53] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-04 20:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bihc
+[2023-05-04 20:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drishti-io
+[2023-05-04 20:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lhf
+[2023-05-04 20:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-azure-native
+[2023-05-04 20:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wombat
+[2023-05-04 20:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphblas-algorithms
+[2023-05-04 20:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hebi-py
+[2023-05-04 20:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: for-django-projects
+[2023-05-04 20:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lightning-toolbox
+[2023-05-04 20:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Pypicor
+[2023-05-04 20:07:53] INFO root fetch - processPackages [lhf]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-04 20:07:53] INFO root fetch - processPackages [bihc]: New version: [0.0.7.2] Old Version: [0.0.7.1]
+[2023-05-04 20:07:53] INFO root fetch - processPackages [drishti-io]: New version: [0.6] Old Version: [0.5]
+[2023-05-04 20:07:53] INFO root fetch - processPackages [for-django-projects]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-04 20:07:53] INFO root fetch - processPackages [wombat]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-04 20:07:53] INFO root fetch - processPackages [lightning-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 20:07:53] INFO root fetch - processPackages [graphblas-algorithms]: New version: [2023.5.0] Old Version: [2023.2.1a0]
+[2023-05-04 20:07:53] INFO root fetch - processPackages [pulumi-azure-native]: New version: [1.99.3a1681807800] Old Version: [1.99.3a1681488349]
+[2023-05-04 20:07:53] INFO root fetch - processPackages [Pypicor]: New version: [1.0.1] Old Version: [1.0]
+[2023-05-04 20:07:53] INFO root fetch - processPackages [hebi-py]: New version: [2.7.2] Old Version: [2.7.1]
+[2023-05-04 20:07:53] INFO root fetch - processPackages [bihc]: Downloading https://files.pythonhosted.org/packages/67/88/47996bed96a6b27d1b66c7f39ddf808bc3797e2625bb5ada4fbfeefa3963/bihc-0.0.7.1.tar.gz
+[2023-05-04 20:07:53] INFO root fetch - processPackages [Pypicor]: Downloading https://files.pythonhosted.org/packages/65/30/9a2c3651f64697c78c6ab166d5dad8cc0e56a1852ea76f99c100f4fa4092/pypicor-1.0-py3.11.egg
+[2023-05-04 20:07:53] INFO root fetch - processPackages [lhf]: Downloading https://files.pythonhosted.org/packages/57/b4/bb20717b6f4bb9a7b96821586069bfb5162178f6d45535b4952727a0cc90/lhf-1.3.1-py3-none-manylinux_2_28_x86_64.whl
+[2023-05-04 20:07:53] INFO root fetch - processPackages [for-django-projects]: Downloading https://files.pythonhosted.org/packages/a7/96/5b2b707a4141da8eac223ed3ea10238d1def9f2df5b56fb2f9385b38f11f/for-django-projects-1.0.4.tar.gz
+[2023-05-04 20:07:53] INFO root fetch - processPackages [drishti-io]: Downloading https://files.pythonhosted.org/packages/c9/b3/0dcf3d501d1eeec1e37d6f54a492ac123fb5d7879a7095f0e6a076128a0c/drishti-io-0.5.tar.gz
+[2023-05-04 20:07:53] INFO root fetch - processPackages [hebi-py]: Downloading https://files.pythonhosted.org/packages/e4/59/24d1ac9011404c31ed82909d7894b438233224fbc3aa4b68997a2b122b94/hebi-py-2.7.1.tar.gz
+[2023-05-04 20:07:53] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/52/f3/3693eef5572581c854b7baa4a23609bed3bd058874015c550b7dfcf8d321/pulumi_azure_native-1.99.3a1681488349.tar.gz
+[2023-05-04 20:07:53] INFO root fetch - processPackages [graphblas-algorithms]: Downloading https://files.pythonhosted.org/packages/f5/9a/5054929cdd2552e2f923c9f2423590a3da7ac7576d24bc514a66058f7f53/graphblas-algorithms-2023.2.1a0.tar.gz
+[2023-05-04 20:07:53] INFO root fetch - processPackages [lightning-toolbox]: Downloading https://files.pythonhosted.org/packages/0e/a2/e33a2f505b9b8fa696b16975fe34a55c42dc96902865f16c6627044aa9b8/lightning_toolbox-0.0.8.tar.gz
+[2023-05-04 20:07:53] INFO root fetch - processPackages [for-django-projects]: executing diffoscope
+[2023-05-04 20:07:53] INFO root fetch - processPackages [for-django-projects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/for-django-projects-1.0.3.tar.gz tmp/for-django-projects-1.0.4.tar.gz --markdown 20230504/f/for-django-projects/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-04 20:07:53] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 62615676>=10485760
+[2023-05-04 20:07:53] INFO root fetch - processPackages [pulumi-azure-native]: Start processing: navalmartin-mir-aws-utils
+[2023-05-04 20:07:53] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-05-04 20:07:53] INFO root fetch - processPackages [wombat]: Downloading https://files.pythonhosted.org/packages/f8/df/3607e61ce8d45a4cac3558e8f9fe76f7b30955e6e17ea8aa8efb25fdbe6a/wombat-0.7.1.tar.gz
+[2023-05-04 20:07:53] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: New version: [0.0.9] Old Version: [0.0.28]
+[2023-05-04 20:07:53] WARNING root fetch - processPackages [hebi-py]: Skipping package: exceeds size limit 48443992>=10485760
+[2023-05-04 20:07:53] INFO root fetch - processPackages [hebi-py]: Start processing: tksheet
+[2023-05-04 20:07:53] INFO root fetch - main [MainThread]: End processing [hebi-py] error
+[2023-05-04 20:07:53] INFO root fetch - processPackages [bihc]: Downloading https://files.pythonhosted.org/packages/21/cf/cdf8dd2116a58db48db7d85e2c4890b611ff70f0c8003ce63f19f49d8e28/bihc-0.0.7.2.tar.gz
+[2023-05-04 20:07:53] INFO root fetch - processPackages [tksheet]: New version: [6.0.5] Old Version: [6.0.4]
+[2023-05-04 20:07:53] INFO root fetch - processPackages [Pypicor]: Downloading https://files.pythonhosted.org/packages/be/20/1483a9c03058cbf211e7e18437f8ef26f73faec9c16616a44d524452579c/Pypicor-1.0.1-py3.11.egg
+[2023-05-04 20:07:53] INFO root fetch - processPackages [bihc]: executing diffoscope
+[2023-05-04 20:07:53] INFO root fetch - processPackages [bihc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bihc-0.0.7.1.tar.gz tmp/bihc-0.0.7.2.tar.gz --markdown 20230504/b/bihc/0.0.7.1-0.0.7.2/diff.md --exclude *.pyd
+[2023-05-04 20:07:53] INFO root fetch - processPackages [wombat]: executing diffoscope
+[2023-05-04 20:07:53] INFO root fetch - processPackages [wombat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wombat-0.7.0.tar.gz tmp/wombat-0.7.1.tar.gz --markdown 20230504/w/wombat/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-04 20:07:54] INFO root fetch - processPackages [Pypicor]: executing diffoscope
+[2023-05-04 20:07:54] INFO root fetch - processPackages [Pypicor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypicor-1.0-py3.11.egg tmp/Pypicor-1.0.1-py3.11.egg --markdown 20230504/P/Pypicor/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 20:07:54] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Downloading https://files.pythonhosted.org/packages/db/17/f483695c3db024a015a89f84f79e0a0a2a958ef34adf22b7ddd74a759561/navalmartin_mir_aws_utils-0.0.28.tar.gz
+[2023-05-04 20:07:54] INFO root fetch - processPackages [drishti-io]: Downloading https://files.pythonhosted.org/packages/cf/ac/171f362cca5c8752d52e0a771d1c6ed535f8a50c913e26e277465c17d08b/drishti-io-0.6.tar.gz
+[2023-05-04 20:07:54] INFO root fetch - processPackages [drishti-io]: executing diffoscope
+[2023-05-04 20:07:54] INFO root fetch - processPackages [drishti-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drishti-io-0.5.tar.gz tmp/drishti-io-0.6.tar.gz --markdown 20230504/d/drishti-io/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-04 20:07:54] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: executing diffoscope
+[2023-05-04 20:07:54] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_aws_utils-0.0.28.tar.gz tmp/navalmartin_mir_aws_utils-0.0.9.tar.gz --markdown 20230504/n/navalmartin-mir-aws-utils/0.0.28-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 20:07:54] INFO root fetch - processPackages [tksheet]: Downloading https://files.pythonhosted.org/packages/2b/7b/87ab6df1d9d66737130b2ca626cf2a60d7441d05b4a0a62a80c70633f3ab/tksheet-6.0.5.tar.gz
+[2023-05-04 20:07:54] INFO root fetch - processPackages [tksheet]: executing diffoscope
+[2023-05-04 20:07:54] INFO root fetch - processPackages [tksheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tksheet-6.0.4.tar.gz tmp/tksheet-6.0.5.tar.gz --markdown 20230504/t/tksheet/6.0.4-6.0.5/diff.md --exclude *.pyd
+[2023-05-04 20:07:54] INFO root fetch - processPackages [graphblas-algorithms]: Downloading https://files.pythonhosted.org/packages/19/c3/4600843947ff45241dc8f31e55198bc48de81d0acc8a4cd4b1d98667b526/graphblas-algorithms-2023.5.0.tar.gz
+[2023-05-04 20:07:54] INFO root fetch - processPackages [graphblas-algorithms]: executing diffoscope
+[2023-05-04 20:07:54] INFO root fetch - processPackages [graphblas-algorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphblas-algorithms-2023.2.1a0.tar.gz tmp/graphblas-algorithms-2023.5.0.tar.gz --markdown 20230504/g/graphblas-algorithms/2023.2.1a0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-04 20:07:54] INFO root fetch - processPackages [lightning-toolbox]: Downloading https://files.pythonhosted.org/packages/c9/f1/39547b268254026a2f0a4856694ac92d2cb143183580588cfd3696575465/lightning_toolbox-0.0.9.tar.gz
+[2023-05-04 20:07:54] INFO root fetch - processPackages [lightning-toolbox]: executing diffoscope
+[2023-05-04 20:07:54] INFO root fetch - processPackages [lightning-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_toolbox-0.0.8.tar.gz tmp/lightning_toolbox-0.0.9.tar.gz --markdown 20230504/l/lightning-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 20:07:55] INFO root fetch - processPackages [lhf]: Downloading https://files.pythonhosted.org/packages/85/d1/4496118eca6ce441372923a8227bcaf50744df629bebcd022cbe4391eae0/lhf-1.3.2-py3-none-manylinux_2_28_x86_64.whl
+[2023-05-04 20:07:55] INFO root fetch - processPackages [lhf]: executing diffoscope
+[2023-05-04 20:07:55] INFO root fetch - processPackages [lhf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lhf-1.3.1-py3-none-manylinux_2_28_x86_64.whl.zip tmp/lhf-1.3.2-py3-none-manylinux_2_28_x86_64.whl.zip --markdown 20230504/l/lhf/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-04 20:07:55] INFO root fetch - processPackages [Pypicor]: Start processing: mpipartition
+[2023-05-04 20:07:55] INFO root fetch - main [MainThread]: End processing [Pypicor]: success
+[2023-05-04 20:07:55] INFO root fetch - processPackages [mpipartition]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-04 20:07:55] INFO root fetch - processPackages [bihc]: Start processing: bihc
+[2023-05-04 20:07:55] INFO root fetch - main [MainThread]: End processing [bihc]: success
+[2023-05-04 20:07:55] INFO root fetch - processPackages [bihc]: New version: [0.0.7.2] Old Version: [0.0.7.1]
+[2023-05-04 20:07:55] INFO root fetch - processPackages [navalmartin-mir-aws-utils]: Start processing: piperider-nightly
+[2023-05-04 20:07:55] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-aws-utils]: success
+[2023-05-04 20:07:55] INFO root fetch - processPackages [bihc]: executing diffoscope
+[2023-05-04 20:07:55] INFO root fetch - processPackages [bihc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bihc-0.0.7.1.tar.gz tmp/bihc-0.0.7.2.tar.gz --markdown 20230504/b/bihc/0.0.7.1-0.0.7.2/diff.md --exclude *.pyd
+[2023-05-04 20:07:55] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-05-04 20:07:55] INFO root fetch - processPackages [drishti-io]: Start processing: splight-cli
+[2023-05-04 20:07:55] INFO root fetch - main [MainThread]: End processing [drishti-io]: success
+[2023-05-04 20:07:55] INFO root fetch - processPackages [mpipartition]: Downloading https://files.pythonhosted.org/packages/6b/67/1f6716646f2969c30d74df8aec8e704836e36a1e82a5a321e825b87be2f9/mpipartition-1.0.3.tar.gz
+[2023-05-04 20:07:55] INFO root fetch - processPackages [splight-cli]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-04 20:07:55] INFO root fetch - processPackages [for-django-projects]: Start processing: pulumi-kubernetes
+[2023-05-04 20:07:55] INFO root fetch - main [MainThread]: End processing [for-django-projects]: success
+[2023-05-04 20:07:55] INFO root fetch - processPackages [mpipartition]: executing diffoscope
+[2023-05-04 20:07:55] INFO root fetch - processPackages [mpipartition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpipartition-1.0.2.tar.gz tmp/mpipartition-1.0.3.tar.gz --markdown 20230504/m/mpipartition/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-04 20:07:55] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [3.9.0] Old Version: [3.8.3]
+[2023-05-04 20:07:55] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-05-04 20:07:55] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230504/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-05-04 20:07:55] INFO root fetch - processPackages [splight-cli]: Downloading https://files.pythonhosted.org/packages/e2/18/2fecbd3353d20cfbcd568fd4477ae48db2ce8f345e7628d12352c36a074b/splight-cli-2.3.8.tar.gz
+[2023-05-04 20:07:55] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/ba/a4/6c41a4f50461ed3028a83a534b2370550bfd5ae0fb6dd3efba44e06a2547/pulumi_kubernetes-3.8.3.tar.gz
+[2023-05-04 20:07:56] INFO root fetch - processPackages [tksheet]: Start processing: maxeqx-dc-webhook.py
+[2023-05-04 20:07:56] INFO root fetch - main [MainThread]: End processing [tksheet]: success
+[2023-05-04 20:07:56] ERROR root fetch - processPackages [maxeqx-dc-webhook.py]: Unable to get metadata: No such project 'maxeqx-dc-webhook.py'
+[2023-05-04 20:07:56] INFO root fetch - processPackages [maxeqx-dc-webhook.py]: Start processing: ultracart-rest-sdk
+[2023-05-04 20:07:56] INFO root fetch - main [MainThread]: End processing [maxeqx-dc-webhook.py] error
+[2023-05-04 20:07:56] INFO root fetch - processPackages [ultracart-rest-sdk]: New version: [4.0.99rc0] Old Version: [4.0.98rc0]
+[2023-05-04 20:07:56] INFO root fetch - processPackages [ultracart-rest-sdk]: executing diffoscope
+[2023-05-04 20:07:56] INFO root fetch - processPackages [ultracart-rest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz --markdown 20230504/u/ultracart-rest-sdk/4.0.98rc0-4.0.99rc0/diff.md --exclude *.pyd
+[2023-05-04 20:07:56] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/0f/a9/6759fd282fa569f4592dc30878e4ced26d260895c12602ac69c7737fe07f/pulumi_kubernetes-3.9.0.tar.gz
+[2023-05-04 20:07:56] INFO root fetch - processPackages [lightning-toolbox]: Start processing: virtue
+[2023-05-04 20:07:56] INFO root fetch - main [MainThread]: End processing [lightning-toolbox]: success
+[2023-05-04 20:07:56] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-05-04 20:07:56] INFO root fetch - processPackages [splight-cli]: Downloading https://files.pythonhosted.org/packages/00/cc/31c3fe41cd2bd1be86c2e70ea2ff58d854bdc6e3ae16d0a20b4d618c9db1/splight-cli-2.3.9.tar.gz
+[2023-05-04 20:07:56] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.8.3.tar.gz tmp/pulumi_kubernetes-3.9.0.tar.gz --markdown 20230504/p/pulumi-kubernetes/3.8.3-3.9.0/diff.md --exclude *.pyd
+[2023-05-04 20:07:56] INFO root fetch - processPackages [virtue]: New version: [2023.5.1] Old Version: [2.5.2]
+[2023-05-04 20:07:56] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-05-04 20:07:56] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-2.3.8.tar.gz tmp/splight-cli-2.3.9.tar.gz --markdown 20230504/s/splight-cli/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-04 20:07:56] INFO root fetch - processPackages [virtue]: Downloading https://files.pythonhosted.org/packages/cf/ff/b11c0217d8a86151d59ec0a5fc51de29bab2e782d24db323cd432ea4ee73/virtue-2.5.2.tar.gz
+[2023-05-04 20:07:56] INFO root fetch - main [MainThread]: End processing [bihc]: success
+[2023-05-04 20:07:56] INFO root fetch - processPackages [virtue]: Downloading https://files.pythonhosted.org/packages/b2/9e/540e256b4c0a6e549cbe39d58f08a37b84b4cf7a290ad82025e109e13a6c/virtue-2023.5.1.tar.gz
+[2023-05-04 20:07:57] INFO root fetch - processPackages [virtue]: executing diffoscope
+[2023-05-04 20:07:57] INFO root fetch - processPackages [virtue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtue-2.5.2.tar.gz tmp/virtue-2023.5.1.tar.gz --markdown 20230504/v/virtue/2.5.2-2023.5.1/diff.md --exclude *.pyd
+[2023-05-04 20:07:57] INFO root fetch - main [MainThread]: End processing [mpipartition]: success
+[2023-05-04 20:07:57] ERROR root fetch - processPackages [virtue]: Diffoscope failed: Error: error creating container storage: the container name "determined_mcnulty" is already in use by "e0d0f823dc0ab51ced7caea9bca0f707d799a42474776401c5d2b19679ee5c95". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-04 20:07:57] INFO root fetch - main [MainThread]: End processing [virtue] error
+[2023-05-04 20:07:57] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-05-04 20:07:58] INFO root fetch - main [MainThread]: End processing [graphblas-algorithms]: success
+[2023-05-04 20:07:58] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-05-04 20:08:00] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-05-04 20:08:00] INFO root fetch - main [MainThread]: End processing [wombat]: success
+[2023-05-04 20:08:04] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
+[2023-05-04 20:08:15] INFO root fetch - main [MainThread]: End processing [lhf]: success
+[2023-05-04 20:08:15] INFO root fetch - main [MainThread]: Store serial: [17976144]
