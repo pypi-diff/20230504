@@ -18862,3 +18862,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 17:35:28] INFO root fetch - main [MainThread]: End processing [dgenies]: success
 [2023-05-04 17:36:19] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-05-04 17:36:19] INFO root fetch - main [MainThread]: Store serial: [17974237]
+[2023-05-04 17:41:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17974237]
+[2023-05-04 17:41:28] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-04 17:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imgMS
+[2023-05-04 17:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-oz-docker-json5
+[2023-05-04 17:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mytracker-export-api
+[2023-05-04 17:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: textfiles
+[2023-05-04 17:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-mathactive
+[2023-05-04 17:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openxes-cli-py
+[2023-05-04 17:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: VikyvMedNLP
+[2023-05-04 17:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scale-sensor-fusion-io
+[2023-05-04 17:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autumn8
+[2023-05-04 17:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: msgraphy
+[2023-05-04 17:41:28] INFO root fetch - processPackages [VikyvMedNLP]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-04 17:41:28] INFO root fetch - processPackages [scale-sensor-fusion-io]: New version: [0.0.6] Old Version: [0.0.17]
+[2023-05-04 17:41:28] INFO root fetch - processPackages [mytracker-export-api]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-04 17:41:28] INFO root fetch - processPackages [openxes-cli-py]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-04 17:41:28] INFO root fetch - processPackages [msgraphy]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-04 17:41:28] INFO root fetch - processPackages [imgMS]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-04 17:41:28] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: New version: [20230504.8.42.61246] Old Version: [20230504.15.35.189632]
+[2023-05-04 17:41:28] INFO root fetch - processPackages [textfiles]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-04 17:41:28] INFO root fetch - processPackages [autumn8]: New version: [1.0.3rc3] Old Version: [1.0.3rc2]
+[2023-05-04 17:41:28] WARNING root fetch - processPackages [django-mathactive]: Skipping, unable to determine old version
+[2023-05-04 17:41:28] INFO root fetch - processPackages [django-mathactive]: Start processing: vectorGPTBot
+[2023-05-04 17:41:28] INFO root fetch - main [MainThread]: End processing [django-mathactive] error
+[2023-05-04 17:41:28] WARNING root fetch - processPackages [vectorGPTBot]: Skipping, unable to determine old version
+[2023-05-04 17:41:28] INFO root fetch - processPackages [vectorGPTBot]: Start processing: spotlight-dev
+[2023-05-04 17:41:28] INFO root fetch - main [MainThread]: End processing [vectorGPTBot] error
+[2023-05-04 17:41:28] INFO root fetch - processPackages [scale-sensor-fusion-io]: Downloading https://files.pythonhosted.org/packages/83/07/ce837d62318f2492cbf3ecb22cfcacf07b0f021b90576e0ce44feab67dc0/scale_sensor_fusion_io-0.0.17.tar.gz
+[2023-05-04 17:41:29] INFO root fetch - processPackages [VikyvMedNLP]: Downloading https://files.pythonhosted.org/packages/b9/93/780224749b958d5b336cf633e07f1f82c5afc4349b6fe21df37253b0b141/VikyvMedNLP-2.0.2-py38-none-any.whl
+[2023-05-04 17:41:29] INFO root fetch - processPackages [spotlight-dev]: New version: [0.0.1b3] Old Version: [0.0.1b2]
+[2023-05-04 17:41:29] INFO root fetch - processPackages [imgMS]: Downloading https://files.pythonhosted.org/packages/96/a9/e5884fc5e6ec63974494ecf4209d9739dacdc51ecd7b289f5326538a6dbd/imgMS-0.2.1.tar.gz
+[2023-05-04 17:41:29] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Downloading https://files.pythonhosted.org/packages/a9/0d/5801e70b3530b7b7ee6b600db09873879f08e91474686b371ad6b82f1382/certora-cli-alpha-oz-docker-json5-20230504.15.35.189632.tar.gz
+[2023-05-04 17:41:29] INFO root fetch - processPackages [autumn8]: Downloading https://files.pythonhosted.org/packages/b1/6a/51187aeb7441e4c6db64d8a08a10373630e4bdae141ea27d9c33dfbe764d/autumn8-1.0.3rc3.tar.gz
+[2023-05-04 17:41:29] INFO root fetch - processPackages [openxes-cli-py]: Downloading https://files.pythonhosted.org/packages/17/e1/0ad487af158d7180cf58faa7d7d7f5cdb581ceb1527a13f0d79bb875ecba/openxes_cli_py-0.1.8.tar.gz
+[2023-05-04 17:41:29] WARNING root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Skipping package: exceeds size limit 38470230>=10485760
+[2023-05-04 17:41:29] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Start processing: django-tequila
+[2023-05-04 17:41:29] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-docker-json5] error
+[2023-05-04 17:41:29] INFO root fetch - processPackages [msgraphy]: Downloading https://files.pythonhosted.org/packages/ed/7b/910c36ee18b6072116ad71030ac6c2883b4131fbc4d5aa68f74d22ee36d9/msgraphy-0.3.6.tar.gz
+[2023-05-04 17:41:29] INFO root fetch - processPackages [django-tequila]: New version: [4.0.0] Old Version: [3.4.0]
+[2023-05-04 17:41:29] INFO root fetch - processPackages [textfiles]: Downloading https://files.pythonhosted.org/packages/d6/66/f66d796c618bec4f59ac6865b7410563ac2bf65186f0a4db6228d0dedb51/textfiles-0.0.5.tar.gz
+[2023-05-04 17:41:29] INFO root fetch - processPackages [mytracker-export-api]: Downloading https://files.pythonhosted.org/packages/4e/d8/f435465d5794352f8016c1aca94a0dfbc277c5076ddb9491085593db9a03/mytracker_export_api-1.0.5.tar.gz
+[2023-05-04 17:41:29] INFO root fetch - processPackages [spotlight-dev]: Downloading https://files.pythonhosted.org/packages/a8/3b/044a2cb0095c2cea915b08230e201e0157918379a82eff231686c7b9b948/spotlight-dev-0.0.1b3.tar.gz
+[2023-05-04 17:41:29] INFO root fetch - processPackages [textfiles]: executing diffoscope
+[2023-05-04 17:41:29] INFO root fetch - processPackages [textfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textfiles-0.0.4.tar.gz tmp/textfiles-0.0.5.tar.gz --markdown 20230504/t/textfiles/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-04 17:41:29] INFO root fetch - processPackages [openxes-cli-py]: executing diffoscope
+[2023-05-04 17:41:29] INFO root fetch - processPackages [openxes-cli-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openxes_cli_py-0.1.7.tar.gz tmp/openxes_cli_py-0.1.8.tar.gz --markdown 20230504/o/openxes-cli-py/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-04 17:41:29] INFO root fetch - processPackages [autumn8]: executing diffoscope
+[2023-05-04 17:41:29] INFO root fetch - processPackages [autumn8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autumn8-1.0.3rc2.tar.gz tmp/autumn8-1.0.3rc3.tar.gz --markdown 20230504/a/autumn8/1.0.3rc2-1.0.3rc3/diff.md --exclude *.pyd
+[2023-05-04 17:41:29] INFO root fetch - processPackages [VikyvMedNLP]: Downloading https://files.pythonhosted.org/packages/bc/cd/0c6f83ea67b15fc8a16dfc0d1553dfa426dd48ce29160e96185554ee8ac7/VikyvMedNLP-2.0.3-py38-none-any.whl
+[2023-05-04 17:41:29] INFO root fetch - processPackages [mytracker-export-api]: executing diffoscope
+[2023-05-04 17:41:29] INFO root fetch - processPackages [mytracker-export-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mytracker_export_api-1.0.4.tar.gz tmp/mytracker_export_api-1.0.5.tar.gz --markdown 20230504/m/mytracker-export-api/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-04 17:41:29] INFO root fetch - processPackages [django-tequila]: Downloading https://files.pythonhosted.org/packages/50/94/55b23457507b86f6ad954062c4d545728fe993530069114e72ede0b9384f/django-tequila-3.4.0.tar.gz
+[2023-05-04 17:41:29] INFO root fetch - processPackages [msgraphy]: executing diffoscope
+[2023-05-04 17:41:29] INFO root fetch - processPackages [msgraphy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgraphy-0.3.5.tar.gz tmp/msgraphy-0.3.6.tar.gz --markdown 20230504/m/msgraphy/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-04 17:41:29] INFO root fetch - processPackages [imgMS]: Downloading https://files.pythonhosted.org/packages/a3/3b/1e21ed5eed3020a4aec33d3c014e1b28deb012e1b1f3296a736865067d4e/imgMS-0.2.2.tar.gz
+[2023-05-04 17:41:29] INFO root fetch - processPackages [spotlight-dev]: executing diffoscope
+[2023-05-04 17:41:29] INFO root fetch - processPackages [spotlight-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotlight-dev-0.0.1b2.tar.gz tmp/spotlight-dev-0.0.1b3.tar.gz --markdown 20230504/s/spotlight-dev/0.0.1b2-0.0.1b3/diff.md --exclude *.pyd
+[2023-05-04 17:41:29] INFO root fetch - processPackages [imgMS]: executing diffoscope
+[2023-05-04 17:41:29] INFO root fetch - processPackages [imgMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgMS-0.2.1.tar.gz tmp/imgMS-0.2.2.tar.gz --markdown 20230504/i/imgMS/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-04 17:41:29] INFO root fetch - processPackages [VikyvMedNLP]: executing diffoscope
+[2023-05-04 17:41:29] INFO root fetch - processPackages [VikyvMedNLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VikyvMedNLP-2.0.2-py38-none-any.whl.zip tmp/VikyvMedNLP-2.0.3-py38-none-any.whl.zip --markdown 20230504/V/VikyvMedNLP/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-04 17:41:29] INFO root fetch - processPackages [django-tequila]: Downloading https://files.pythonhosted.org/packages/e7/85/00435c3d5804a5ec9cdbefa46e0c2093655bc638bea3c42f795af01c6a9a/django-tequila-4.0.0.tar.gz
+[2023-05-04 17:41:29] INFO root fetch - processPackages [django-tequila]: executing diffoscope
+[2023-05-04 17:41:29] INFO root fetch - processPackages [django-tequila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-tequila-3.4.0.tar.gz tmp/django-tequila-4.0.0.tar.gz --markdown 20230504/d/django-tequila/3.4.0-4.0.0/diff.md --exclude *.pyd
+[2023-05-04 17:41:30] INFO root fetch - processPackages [scale-sensor-fusion-io]: Downloading https://files.pythonhosted.org/packages/6e/6b/364c5837d4889c8048d4abdaa5064f01f9a41a89ac97bc3ecd647e3b03d4/scale_sensor_fusion_io-0.0.6-py3-none-any.whl
+[2023-05-04 17:41:30] INFO root fetch - processPackages [scale-sensor-fusion-io]: executing diffoscope
+[2023-05-04 17:41:30] INFO root fetch - processPackages [scale-sensor-fusion-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale_sensor_fusion_io-0.0.17.tar.gz tmp/scale_sensor_fusion_io-0.0.6-py3-none-any.whl.zip --markdown 20230504/s/scale-sensor-fusion-io/0.0.17-0.0.6/diff.md --exclude *.pyd
+[2023-05-04 17:41:30] INFO root fetch - processPackages [textfiles]: Start processing: module-qc-nonelec-gui
+[2023-05-04 17:41:30] INFO root fetch - main [MainThread]: End processing [textfiles]: success
+[2023-05-04 17:41:30] INFO root fetch - processPackages [module-qc-nonelec-gui]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-04 17:41:30] INFO root fetch - processPackages [mytracker-export-api]: Start processing: jina
+[2023-05-04 17:41:30] INFO root fetch - main [MainThread]: End processing [mytracker-export-api]: success
+[2023-05-04 17:41:30] INFO root fetch - processPackages [module-qc-nonelec-gui]: Downloading https://files.pythonhosted.org/packages/cb/c9/b01566b5ba3057bb5281140c6e859331d50e95d5be18e57a57a20acbc0ec/module_qc_nonelec_gui-0.0.2.tar.gz
+[2023-05-04 17:41:30] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-05-04 17:41:30] INFO root fetch - processPackages [VikyvMedNLP]: Start processing: wwtp-configuration
+[2023-05-04 17:41:30] INFO root fetch - main [MainThread]: End processing [VikyvMedNLP]: success
+[2023-05-04 17:41:31] INFO root fetch - main [MainThread]: End processing [imgMS]: success
+[2023-05-04 17:41:31] INFO root fetch - main [MainThread]: End processing [msgraphy]: success
+[2023-05-04 17:41:31] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-05-04 17:41:31] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230504/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-05-04 17:41:31] INFO root fetch - main [MainThread]: End processing [autumn8]: success
+[2023-05-04 17:41:31] INFO root fetch - processPackages [wwtp-configuration]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-04 17:41:31] INFO root fetch - processPackages [wwtp-configuration]: Downloading https://files.pythonhosted.org/packages/0e/99/ddb66da713a507722715bf5356272508eddfa6672485e71cc4026b545e26/wwtp-configuration-0.2.1.tar.gz
+[2023-05-04 17:41:31] INFO root fetch - processPackages [module-qc-nonelec-gui]: Downloading https://files.pythonhosted.org/packages/4a/2b/59a1a55cad752b4845163f4d4b0720974370272d9173d7877a112f756a7d/module_qc_nonelec_gui-0.0.3.tar.gz
+[2023-05-04 17:41:31] INFO root fetch - processPackages [module-qc-nonelec-gui]: executing diffoscope
+[2023-05-04 17:41:31] INFO root fetch - processPackages [module-qc-nonelec-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/module_qc_nonelec_gui-0.0.2.tar.gz tmp/module_qc_nonelec_gui-0.0.3.tar.gz --markdown 20230504/m/module-qc-nonelec-gui/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-04 17:41:31] INFO root fetch - main [MainThread]: End processing [scale-sensor-fusion-io]: success
+[2023-05-04 17:41:31] INFO root fetch - processPackages [wwtp-configuration]: Downloading https://files.pythonhosted.org/packages/32/c3/73a7fde113beaeaebd82c6f670331931524bbdc691d7a9a540662795ff5e/wwtp-configuration-0.2.2.tar.gz
+[2023-05-04 17:41:32] INFO root fetch - processPackages [wwtp-configuration]: executing diffoscope
+[2023-05-04 17:41:32] INFO root fetch - processPackages [wwtp-configuration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwtp-configuration-0.2.1.tar.gz tmp/wwtp-configuration-0.2.2.tar.gz --markdown 20230504/w/wwtp-configuration/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-04 17:41:33] INFO root fetch - main [MainThread]: End processing [module-qc-nonelec-gui]: success
+[2023-05-04 17:41:33] INFO root fetch - main [MainThread]: End processing [wwtp-configuration]: success
+[2023-05-04 17:41:34] INFO root fetch - main [MainThread]: End processing [django-tequila]: success
+[2023-05-04 17:41:36] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-05-04 17:41:54] INFO root fetch - main [MainThread]: End processing [spotlight-dev]: success
+[2023-05-04 17:42:43] INFO root fetch - main [MainThread]: End processing [openxes-cli-py]: success
+[2023-05-04 17:42:43] INFO root fetch - main [MainThread]: Store serial: [17974293]
