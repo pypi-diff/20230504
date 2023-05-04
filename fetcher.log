@@ -20536,3 +20536,104 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 19:04:41] INFO root fetch - main [MainThread]: End processing [domino-py]: success
 [2023-05-04 19:04:41] INFO root fetch - main [MainThread]: End processing [arosics]: success
 [2023-05-04 19:04:41] INFO root fetch - main [MainThread]: Store serial: [17975237]
+[2023-05-04 19:09:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17975237]
+[2023-05-04 19:09:50] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-04 19:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-Shahar-CERT-1859
+[2023-05-04 19:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: malloy
+[2023-05-04 19:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: widgetron
+[2023-05-04 19:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinx-json-schema-spec
+[2023-05-04 19:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tungstenkit
+[2023-05-04 19:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sbioapputils
+[2023-05-04 19:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hiddifypanel
+[2023-05-04 19:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xia-scw-vpc
+[2023-05-04 19:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-or-treeViewConcurrency
+[2023-05-04 19:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyUAMMD
+[2023-05-04 19:09:50] INFO root fetch - processPackages [malloy]: New version: [2023.1010] Old Version: [2023.1009]
+[2023-05-04 19:09:50] INFO root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: New version: [20230504.17.4.16649] Old Version: [20230504.15.59.731560]
+[2023-05-04 19:09:50] INFO root fetch - processPackages [sphinx-json-schema-spec]: New version: [2023.5.1] Old Version: [2023.2.4]
+[2023-05-04 19:09:50] INFO root fetch - processPackages [widgetron]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 19:09:50] INFO root fetch - processPackages [certora-cli-alpha-or-treeViewConcurrency]: New version: [20230504.17.7.87320] Old Version: [20230504.14.18.356963]
+[2023-05-04 19:09:51] INFO root fetch - processPackages [sbioapputils]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-04 19:09:51] INFO root fetch - processPackages [tungstenkit]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-05-04 19:09:51] INFO root fetch - processPackages [pyUAMMD]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-04 19:09:51] INFO root fetch - processPackages [hiddifypanel]: New version: [6.2.0] Old Version: [6.1.7]
+[2023-05-04 19:09:51] INFO root fetch - processPackages [xia-scw-vpc]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-05-04 19:09:51] INFO root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: Downloading https://files.pythonhosted.org/packages/ca/18/3c42537f8a31bba1d92b809ee1a8b3c509580906842827979854a9280792/certora-cli-alpha-Shahar-CERT-1859-20230504.15.59.731560.tar.gz
+[2023-05-04 19:09:51] INFO root fetch - processPackages [malloy]: Downloading https://files.pythonhosted.org/packages/4c/11/8d6e6d7039a8d2cdf80d0195f738fd5a35ba85f37368514852e901284a10/malloy-2023.1009.tar.gz
+[2023-05-04 19:09:51] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/16/92/5dd70dbaef9e065ff80cd730b136eb99c6945dcbe1904bf9f96bb9c6bef8/tungstenkit-0.0.1a8.tar.gz
+[2023-05-04 19:09:51] WARNING root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: Skipping package: exceeds size limit 38471612>=10485760
+[2023-05-04 19:09:51] INFO root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: Start processing: myNeuropsydia
+[2023-05-04 19:09:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-Shahar-CERT-1859] error
+[2023-05-04 19:09:51] INFO root fetch - processPackages [sphinx-json-schema-spec]: Downloading https://files.pythonhosted.org/packages/0c/5f/bfa1e5b9f4471da1cd4b2f13fec49dbc9e3f881782e9e80dcb0bc4131aa0/sphinx_json_schema_spec-2023.2.4.tar.gz
+[2023-05-04 19:09:51] INFO root fetch - processPackages [certora-cli-alpha-or-treeViewConcurrency]: Downloading https://files.pythonhosted.org/packages/ca/35/e0d21488022c9ed8404987c4cd65b495e423a05fbc29aef07ee3401b0602/certora-cli-alpha-or-treeViewConcurrency-20230504.14.18.356963.tar.gz
+[2023-05-04 19:09:51] WARNING root fetch - processPackages [malloy]: Skipping package: exceeds size limit 80896924>=10485760
+[2023-05-04 19:09:51] INFO root fetch - processPackages [malloy]: Start processing: vectorGPTBot
+[2023-05-04 19:09:51] INFO root fetch - main [MainThread]: End processing [malloy] error
+[2023-05-04 19:09:51] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/fe/82/5c2878a1971b724de5c8953aa53cec44f1c56b7e7e16cd508d72a42c1d87/hiddifypanel-6.1.7-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-04 19:09:51] INFO root fetch - processPackages [myNeuropsydia]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-04 19:09:51] WARNING root fetch - processPackages [certora-cli-alpha-or-treeViewConcurrency]: Skipping package: exceeds size limit 38413439>=10485760
+[2023-05-04 19:09:51] INFO root fetch - processPackages [certora-cli-alpha-or-treeViewConcurrency]: Start processing: bagbag
+[2023-05-04 19:09:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-or-treeViewConcurrency] error
+[2023-05-04 19:09:51] INFO root fetch - processPackages [widgetron]: Downloading https://files.pythonhosted.org/packages/d8/2b/256840beac1a7d534fb1960cb6a5614b2cd882346efdbccffd35bf0a3b0a/widgetron-0.1.8.tar.gz
+[2023-05-04 19:09:51] INFO root fetch - processPackages [pyUAMMD]: Downloading https://files.pythonhosted.org/packages/4c/9e/fbde2fe07226e4ecbfe40e095002155cb9be714899f7642af6c094b983d1/pyUAMMD-1.0.4.tar.gz
+[2023-05-04 19:09:51] INFO root fetch - processPackages [vectorGPTBot]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-04 19:09:51] INFO root fetch - processPackages [sbioapputils]: Downloading https://files.pythonhosted.org/packages/18/26/9a7e6bd03102cfd9518e617b2ef6c03d9413eaa20e8fa8d2288a8f9d4257/sbioapputils-1.0.6.tar.gz
+[2023-05-04 19:09:51] INFO root fetch - processPackages [bagbag]: New version: [0.58.6] Old Version: [0.58.5]
+[2023-05-04 19:09:51] INFO root fetch - processPackages [xia-scw-vpc]: Downloading https://files.pythonhosted.org/packages/30/e1/5cb0308dbe7155f3f6f818442015d09f656eb6cb9c76fa9af952602dc8e7/xia_scw_vpc-0.1.3-cp39-none-win_amd64.whl
+[2023-05-04 19:09:51] INFO root fetch - processPackages [pyUAMMD]: executing diffoscope
+[2023-05-04 19:09:51] INFO root fetch - processPackages [pyUAMMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyUAMMD-1.0.3.tar.gz tmp/pyUAMMD-1.0.4.tar.gz --markdown 20230504/p/pyUAMMD/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-04 19:09:51] INFO root fetch - processPackages [sbioapputils]: executing diffoscope
+[2023-05-04 19:09:51] INFO root fetch - processPackages [sbioapputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbioapputils-1.0.5.tar.gz tmp/sbioapputils-1.0.6.tar.gz --markdown 20230504/s/sbioapputils/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-04 19:09:51] INFO root fetch - processPackages [myNeuropsydia]: Downloading https://files.pythonhosted.org/packages/38/b2/658efef38c9cd86a740f58699949bf7c36800ef8f77e6a1d75462114da34/myNeuropsydia-0.1.3.tar.gz
+[2023-05-04 19:09:51] INFO root fetch - processPackages [myNeuropsydia]: executing diffoscope
+[2023-05-04 19:09:51] INFO root fetch - processPackages [myNeuropsydia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myNeuropsydia-0.1.2.tar.gz tmp/myNeuropsydia-0.1.3.tar.gz --markdown 20230504/m/myNeuropsydia/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-04 19:09:51] INFO root fetch - processPackages [widgetron]: Downloading https://files.pythonhosted.org/packages/e0/b6/be17285ac3bd28f1f13fa5b3d01c239c1f0079fd56ec725e424545df24e1/widgetron-0.1.9.tar.gz
+[2023-05-04 19:09:51] INFO root fetch - processPackages [sphinx-json-schema-spec]: Downloading https://files.pythonhosted.org/packages/f6/42/be26d8a87028ce72bf547300d280934f29eaec73a8d12c404ec89811a42e/sphinx_json_schema_spec-2023.5.1.tar.gz
+[2023-05-04 19:09:51] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/33/91/dfea01a340420ce8afffceb568fc4b151822d7c1c738ca38bc7012cb7929/bagbag-0.58.6.tar.gz
+[2023-05-04 19:09:51] INFO root fetch - processPackages [widgetron]: executing diffoscope
+[2023-05-04 19:09:51] INFO root fetch - processPackages [widgetron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widgetron-0.1.8.tar.gz tmp/widgetron-0.1.9.tar.gz --markdown 20230504/w/widgetron/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 19:09:51] INFO root fetch - processPackages [xia-scw-vpc]: executing diffoscope
+[2023-05-04 19:09:51] INFO root fetch - processPackages [xia-scw-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_scw_vpc-0.1.1-cp39-none-win_amd64.whl.zip tmp/xia_scw_vpc-0.1.3-cp39-none-win_amd64.whl.zip --markdown 20230504/x/xia-scw-vpc/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-04 19:09:51] INFO root fetch - processPackages [vectorGPTBot]: Downloading https://files.pythonhosted.org/packages/ed/8a/3d48f17a1615bc7efa053a451bee1112fd720118ccc135963bffb8daa3c0/vectorGPTBot-0.1.3.tar.gz
+[2023-05-04 19:09:51] INFO root fetch - processPackages [sphinx-json-schema-spec]: executing diffoscope
+[2023-05-04 19:09:51] INFO root fetch - processPackages [sphinx-json-schema-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_json_schema_spec-2023.2.4.tar.gz tmp/sphinx_json_schema_spec-2023.5.1.tar.gz --markdown 20230504/s/sphinx-json-schema-spec/2023.2.4-2023.5.1/diff.md --exclude *.pyd
+[2023-05-04 19:09:51] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/89/b6/90b95d4079e9239357983237f3191895e47fc12dab8883fefd11f0c5432e/tungstenkit-0.0.1a9.tar.gz
+[2023-05-04 19:09:51] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/37/23/0237702d075553173c9ea6d61c3c1d9a680b60dac666d9980a76958cdbc4/hiddifypanel-6.2.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-04 19:09:51] INFO root fetch - processPackages [vectorGPTBot]: executing diffoscope
+[2023-05-04 19:09:51] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-04 19:09:51] INFO root fetch - processPackages [vectorGPTBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectorGPTBot-0.1.2.tar.gz tmp/vectorGPTBot-0.1.3.tar.gz --markdown 20230504/v/vectorGPTBot/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-04 19:09:51] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.58.5.tar.gz tmp/bagbag-0.58.6.tar.gz --markdown 20230504/b/bagbag/0.58.5-0.58.6/diff.md --exclude *.pyd
+[2023-05-04 19:09:51] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-04 19:09:51] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-6.1.7-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-6.2.0-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230504/h/hiddifypanel/6.1.7-6.2.0/diff.md --exclude *.pyd
+[2023-05-04 19:09:51] INFO root fetch - processPackages [tungstenkit]: executing diffoscope
+[2023-05-04 19:09:51] INFO root fetch - processPackages [tungstenkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tungstenkit-0.0.1a8.tar.gz tmp/tungstenkit-0.0.1a9.tar.gz --markdown 20230504/t/tungstenkit/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-05-04 19:09:52] INFO root fetch - processPackages [myNeuropsydia]: Start processing: PaReBrick
+[2023-05-04 19:09:52] INFO root fetch - main [MainThread]: End processing [myNeuropsydia]: success
+[2023-05-04 19:09:52] INFO root fetch - processPackages [PaReBrick]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-04 19:09:52] INFO root fetch - processPackages [sbioapputils]: Start processing: hash-hound
+[2023-05-04 19:09:52] INFO root fetch - main [MainThread]: End processing [sbioapputils]: success
+[2023-05-04 19:09:52] INFO root fetch - processPackages [hash-hound]: New version: [0.2] Old Version: [0.1]
+[2023-05-04 19:09:53] INFO root fetch - processPackages [xia-scw-vpc]: Start processing: loggerml
+[2023-05-04 19:09:53] INFO root fetch - main [MainThread]: End processing [xia-scw-vpc]: success
+[2023-05-04 19:09:53] INFO root fetch - processPackages [loggerml]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-04 19:09:53] INFO root fetch - processPackages [PaReBrick]: Downloading https://files.pythonhosted.org/packages/62/af/2835ad4bdd6914e273dacf835d6c11c263fafa60e17a9fcd374654eb601e/PaReBrick-0.5.4.tar.gz
+[2023-05-04 19:09:53] INFO root fetch - processPackages [PaReBrick]: executing diffoscope
+[2023-05-04 19:09:53] INFO root fetch - processPackages [PaReBrick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PaReBrick-0.5.3.tar.gz tmp/PaReBrick-0.5.4.tar.gz --markdown 20230504/P/PaReBrick/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-04 19:09:53] INFO root fetch - processPackages [hash-hound]: Downloading https://files.pythonhosted.org/packages/57/0f/9e6de472ea4a31bb19f7c0f78eb0e0d19e2958cb93a18f2011b6b6e5c2c4/hash-hound-0.1.tar.gz
+[2023-05-04 19:09:53] INFO root fetch - main [MainThread]: End processing [sphinx-json-schema-spec]: success
+[2023-05-04 19:09:53] INFO root fetch - processPackages [loggerml]: Downloading https://files.pythonhosted.org/packages/72/6f/872377134b44eda36147c3c4b9b959e17a1fa413e3248e91d815cc8dfdd8/loggerml-0.2.9.tar.gz
+[2023-05-04 19:09:53] INFO root fetch - processPackages [hash-hound]: Downloading https://files.pythonhosted.org/packages/fe/39/2f278a05f0f377af4c0bc93011b97742afd819564509f5cfc29647e546ab/hash-hound-0.2.tar.gz
+[2023-05-04 19:09:53] INFO root fetch - main [MainThread]: End processing [vectorGPTBot]: success
+[2023-05-04 19:09:53] INFO root fetch - processPackages [loggerml]: Downloading https://files.pythonhosted.org/packages/b8/bb/98bf8489ef06583e7c64bb6b1a03e49b92aea96e465b5430b24777df5ee3/loggerml-0.3.0.tar.gz
+[2023-05-04 19:09:53] INFO root fetch - main [MainThread]: End processing [widgetron]: success
+[2023-05-04 19:09:53] INFO root fetch - processPackages [hash-hound]: executing diffoscope
+[2023-05-04 19:09:53] INFO root fetch - processPackages [hash-hound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hash-hound-0.1.tar.gz tmp/hash-hound-0.2.tar.gz --markdown 20230504/h/hash-hound/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-04 19:09:53] WARNING root fetch - processPackages [loggerml]: Skipping package: exceeds size limit 28415641>=10485760
+[2023-05-04 19:09:53] INFO root fetch - main [MainThread]: End processing [loggerml] error
+[2023-05-04 19:09:54] INFO root fetch - main [MainThread]: End processing [PaReBrick]: success
+[2023-05-04 19:09:54] INFO root fetch - main [MainThread]: End processing [hash-hound]: success
+[2023-05-04 19:09:55] INFO root fetch - main [MainThread]: End processing [pyUAMMD]: success
+[2023-05-04 19:09:56] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-04 19:09:56] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
+[2023-05-04 19:10:11] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-04 19:10:11] INFO root fetch - main [MainThread]: Store serial: [17975301]
