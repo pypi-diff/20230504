@@ -1,0 +1,976 @@
+# Comparing `tmp/modal_client-0.49.2103-py3-none-any.whl.zip` & `tmp/modal_client-0.49.2108-py3-none-any.whl.zip`
+
+## zipinfo {}
+
+```diff
+@@ -1,154 +1,154 @@
+-Zip file size: 250240 bytes, number of entries: 152
+--rw-r--r--  2.0 unx       28 b- defN 23-May-03 19:11 client_test/__init__.py
+--rw-r--r--  2.0 unx     5409 b- defN 23-May-03 19:11 client_test/async_utils_test.py
+--rw-r--r--  2.0 unx     1507 b- defN 23-May-03 19:11 client_test/blob_test.py
+--rw-r--r--  2.0 unx     3979 b- defN 23-May-03 19:11 client_test/cli_imports_test.py
+--rw-r--r--  2.0 unx    12835 b- defN 23-May-03 19:11 client_test/cli_test.py
+--rw-r--r--  2.0 unx     4850 b- defN 23-May-03 19:11 client_test/client_test.py
+--rw-r--r--  2.0 unx     2698 b- defN 23-May-03 19:11 client_test/cls_test.py
+--rw-r--r--  2.0 unx     2606 b- defN 23-May-03 19:11 client_test/config_test.py
+--rw-r--r--  2.0 unx    31444 b- defN 23-May-03 19:11 client_test/conftest.py
+--rw-r--r--  2.0 unx     4650 b- defN 23-May-03 19:11 client_test/container_app_test.py
+--rw-r--r--  2.0 unx    26633 b- defN 23-May-03 19:11 client_test/container_test.py
+--rw-r--r--  2.0 unx     2247 b- defN 23-May-03 19:11 client_test/decorator_test.py
+--rw-r--r--  2.0 unx     1086 b- defN 23-May-03 19:11 client_test/deprecation_test.py
+--rw-r--r--  2.0 unx     2182 b- defN 23-May-03 19:11 client_test/e2e_test.py
+--rw-r--r--  2.0 unx      165 b- defN 23-May-03 19:11 client_test/error_test.py
+--rw-r--r--  2.0 unx      964 b- defN 23-May-03 19:11 client_test/function_serialization_test.py
+--rw-r--r--  2.0 unx    14439 b- defN 23-May-03 19:11 client_test/function_test.py
+--rw-r--r--  2.0 unx     3924 b- defN 23-May-03 19:11 client_test/gpu_test.py
+--rw-r--r--  2.0 unx     5047 b- defN 23-May-03 19:11 client_test/grpc_utils_test.py
+--rw-r--r--  2.0 unx    15893 b- defN 23-May-03 19:11 client_test/image_test.py
+--rw-r--r--  2.0 unx     2372 b- defN 23-May-03 19:11 client_test/live_reload_test.py
+--rw-r--r--  2.0 unx     2451 b- defN 23-May-03 19:11 client_test/lookup_test.py
+--rw-r--r--  2.0 unx     5345 b- defN 23-May-03 19:11 client_test/mount_test.py
+--rw-r--r--  2.0 unx     5342 b- defN 23-May-03 19:11 client_test/mounted_files_test.py
+--rw-r--r--  2.0 unx     2157 b- defN 23-May-03 19:11 client_test/notebook_test.py
+--rw-r--r--  2.0 unx     1434 b- defN 23-May-03 19:11 client_test/object_test.py
+--rw-r--r--  2.0 unx      413 b- defN 23-May-03 19:11 client_test/package_utils_test.py
+--rw-r--r--  2.0 unx     1677 b- defN 23-May-03 19:11 client_test/retries_test.py
+--rw-r--r--  2.0 unx      359 b- defN 23-May-03 19:11 client_test/schedule_test.py
+--rw-r--r--  2.0 unx     1821 b- defN 23-May-03 19:11 client_test/secret_test.py
+--rw-r--r--  2.0 unx     1098 b- defN 23-May-03 19:11 client_test/serialization_test.py
+--rw-r--r--  2.0 unx     3925 b- defN 23-May-03 19:11 client_test/shared_volume_test.py
+--rw-r--r--  2.0 unx     9406 b- defN 23-May-03 19:11 client_test/stub_test.py
+--rw-r--r--  2.0 unx     2691 b- defN 23-May-03 19:11 client_test/utils_test.py
+--rw-r--r--  2.0 unx     1160 b- defN 23-May-03 19:11 client_test/watcher_test.py
+--rw-r--r--  2.0 unx     3926 b- defN 23-May-03 19:11 client_test/webhook_test.py
+--rw-r--r--  2.0 unx     1045 b- defN 23-May-03 19:11 modal/__init__.py
+--rw-r--r--  2.0 unx      157 b- defN 23-May-03 19:11 modal/__main__.py
+--rw-r--r--  2.0 unx     2106 b- defN 23-May-03 19:11 modal/_asgi.py
+--rw-r--r--  2.0 unx    13413 b- defN 23-May-03 19:11 modal/_blob_utils.py
+--rw-r--r--  2.0 unx    26135 b- defN 23-May-03 19:11 modal/_container_entrypoint.py
+--rw-r--r--  2.0 unx    10314 b- defN 23-May-03 19:11 modal/_function_utils.py
+--rw-r--r--  2.0 unx      450 b- defN 23-May-03 19:11 modal/_ipython.py
+--rw-r--r--  2.0 unx      929 b- defN 23-May-03 19:11 modal/_location.py
+--rw-r--r--  2.0 unx      850 b- defN 23-May-03 19:11 modal/_object_meta.py
+--rw-r--r--  2.0 unx    17552 b- defN 23-May-03 19:11 modal/_output.py
+--rw-r--r--  2.0 unx     1785 b- defN 23-May-03 19:11 modal/_proxy_tunnel.py
+--rw-r--r--  2.0 unx     5043 b- defN 23-May-03 19:11 modal/_pty.py
+--rw-r--r--  2.0 unx     4701 b- defN 23-May-03 19:11 modal/_resolver.py
+--rw-r--r--  2.0 unx     1885 b- defN 23-May-03 19:11 modal/_serialization.py
+--rw-r--r--  2.0 unx     7598 b- defN 23-May-03 19:11 modal/_traceback.py
+--rw-r--r--  2.0 unx     1995 b- defN 23-May-03 19:11 modal/_tracing.py
+--rw-r--r--  2.0 unx      490 b- defN 23-May-03 19:11 modal/_types.py
+--rw-r--r--  2.0 unx     3409 b- defN 23-May-03 19:11 modal/_watcher.py
+--rw-r--r--  2.0 unx     1073 b- defN 23-May-03 19:11 modal/aio.py
+--rw-r--r--  2.0 unx    11136 b- defN 23-May-03 19:11 modal/app.py
+--rw-r--r--  2.0 unx     6277 b- defN 23-May-03 19:22 modal/app.pyi
+--rw-r--r--  2.0 unx     2462 b- defN 23-May-03 19:11 modal/call_graph.py
+--rw-r--r--  2.0 unx     9185 b- defN 23-May-03 19:11 modal/client.py
+--rw-r--r--  2.0 unx     3507 b- defN 23-May-03 19:22 modal/client.pyi
+--rw-r--r--  2.0 unx     6494 b- defN 23-May-03 19:11 modal/config.py
+--rw-r--r--  2.0 unx     5597 b- defN 23-May-03 19:11 modal/dict.py
+--rw-r--r--  2.0 unx     2632 b- defN 23-May-03 19:22 modal/dict.pyi
+--rw-r--r--  2.0 unx     2750 b- defN 23-May-03 19:11 modal/exception.py
+--rw-r--r--  2.0 unx    54672 b- defN 23-May-03 19:22 modal/functions.py
+--rw-r--r--  2.0 unx    19692 b- defN 23-May-03 19:22 modal/functions.pyi
+--rw-r--r--  2.0 unx     4995 b- defN 23-May-03 19:11 modal/gpu.py
+--rw-r--r--  2.0 unx    46024 b- defN 23-May-03 19:11 modal/image.py
+--rw-r--r--  2.0 unx    17684 b- defN 23-May-03 19:22 modal/image.pyi
+--rw-r--r--  2.0 unx    14725 b- defN 23-May-03 19:11 modal/mount.py
+--rw-r--r--  2.0 unx     6788 b- defN 23-May-03 19:22 modal/mount.pyi
+--rw-r--r--  2.0 unx    12812 b- defN 23-May-03 19:11 modal/object.py
+--rw-r--r--  2.0 unx    10631 b- defN 23-May-03 19:22 modal/object.pyi
+--rw-r--r--  2.0 unx      652 b- defN 23-May-03 19:11 modal/proxy.py
+--rw-r--r--  2.0 unx     1111 b- defN 23-May-03 19:22 modal/proxy.pyi
+--rw-r--r--  2.0 unx        0 b- defN 23-May-03 19:11 modal/py.typed
+--rw-r--r--  2.0 unx     5144 b- defN 23-May-03 19:11 modal/queue.py
+--rw-r--r--  2.0 unx     2271 b- defN 23-May-03 19:22 modal/queue.pyi
+--rw-r--r--  2.0 unx      523 b- defN 23-May-03 19:11 modal/requirements.txt
+--rw-r--r--  2.0 unx     3726 b- defN 23-May-03 19:11 modal/retries.py
+--rw-r--r--  2.0 unx     6758 b- defN 23-May-03 19:11 modal/runner.py
+--rw-r--r--  2.0 unx     2619 b- defN 23-May-03 19:11 modal/schedule.py
+--rw-r--r--  2.0 unx     5190 b- defN 23-May-03 19:11 modal/secret.py
+--rw-r--r--  2.0 unx     1150 b- defN 23-May-03 19:22 modal/secret.pyi
+--rw-r--r--  2.0 unx     4308 b- defN 23-May-03 19:11 modal/serving.py
+--rw-r--r--  2.0 unx     8270 b- defN 23-May-03 19:11 modal/shared_volume.py
+--rw-r--r--  2.0 unx     2923 b- defN 23-May-03 19:22 modal/shared_volume.pyi
+--rw-r--r--  2.0 unx    38431 b- defN 23-May-03 19:22 modal/stub.py
+--rw-r--r--  2.0 unx    24182 b- defN 23-May-03 19:22 modal/stub.pyi
+--rw-r--r--  2.0 unx       28 b- defN 23-May-03 19:11 modal/cli/__init__.py
+--rw-r--r--  2.0 unx     3833 b- defN 23-May-03 19:11 modal/cli/app.py
+--rw-r--r--  2.0 unx      484 b- defN 23-May-03 19:11 modal/cli/config.py
+--rw-r--r--  2.0 unx     1881 b- defN 23-May-03 19:11 modal/cli/entry_point.py
+--rw-r--r--  2.0 unx      648 b- defN 23-May-03 19:11 modal/cli/env.py
+--rw-r--r--  2.0 unx    10459 b- defN 23-May-03 19:11 modal/cli/import_refs.py
+--rw-r--r--  2.0 unx     8975 b- defN 23-May-03 19:11 modal/cli/run.py
+--rw-r--r--  2.0 unx     3738 b- defN 23-May-03 19:11 modal/cli/secret.py
+--rw-r--r--  2.0 unx     3046 b- defN 23-May-03 19:11 modal/cli/token.py
+--rw-r--r--  2.0 unx      313 b- defN 23-May-03 19:11 modal/cli/utils.py
+--rw-r--r--  2.0 unx     9677 b- defN 23-May-03 19:11 modal/cli/volume.py
+--rw-r--r--  2.0 unx       28 b- defN 23-May-03 19:11 modal/extensions/__init__.py
+--rw-r--r--  2.0 unx      997 b- defN 23-May-03 19:11 modal/extensions/ipython.py
+--rw-r--r--  2.0 unx     6495 b- defN 23-May-03 19:11 modal/extensions/pymc.py
+--rw-r--r--  2.0 unx       28 b- defN 23-May-03 19:11 modal_base_images/__init__.py
+--rw-r--r--  2.0 unx      461 b- defN 23-May-03 19:11 modal_base_images/client_mount.py
+--rw-r--r--  2.0 unx      264 b- defN 23-May-03 19:11 modal_base_images/conda.py
+--rw-r--r--  2.0 unx      342 b- defN 23-May-03 19:11 modal_base_images/debian_slim.py
+--rw-r--r--  2.0 unx       28 b- defN 23-May-03 19:11 modal_proto/__init__.py
+--rw-r--r--  2.0 unx    25995 b- defN 23-May-03 19:11 modal_proto/api.proto
+--rw-r--r--  2.0 unx    42157 b- defN 23-May-03 19:22 modal_proto/api_grpc.py
+--rw-r--r--  2.0 unx   107864 b- defN 23-May-03 19:22 modal_proto/api_pb2.py
+--rw-r--r--  2.0 unx    91206 b- defN 23-May-03 19:22 modal_proto/api_pb2_grpc.py
+--rw-r--r--  2.0 unx       28 b- defN 23-May-03 19:11 modal_test_support/__init__.py
+--rw-r--r--  2.0 unx      134 b- defN 23-May-03 19:11 modal_test_support/assert_package.py
+--rw-r--r--  2.0 unx      171 b- defN 23-May-03 19:11 modal_test_support/consumed_map.py
+--rw-r--r--  2.0 unx     4683 b- defN 23-May-03 19:11 modal_test_support/functions.py
+--rw-r--r--  2.0 unx      266 b- defN 23-May-03 19:11 modal_test_support/image_run_function.py
+--rw-r--r--  2.0 unx      180 b- defN 23-May-03 19:11 modal_test_support/is_inside.py
+--rw-r--r--  2.0 unx      187 b- defN 23-May-03 19:11 modal_test_support/missing_main_conditional.py
+--rw-r--r--  2.0 unx       59 b- defN 23-May-03 19:11 modal_test_support/module_1.py
+--rw-r--r--  2.0 unx       59 b- defN 23-May-03 19:11 modal_test_support/module_2.py
+--rw-r--r--  2.0 unx      277 b- defN 23-May-03 19:11 modal_test_support/multistub.py
+--rw-r--r--  2.0 unx      228 b- defN 23-May-03 19:11 modal_test_support/multistub_is_inside.py
+--rw-r--r--  2.0 unx      222 b- defN 23-May-03 19:11 modal_test_support/multistub_is_inside_warning.py
+--rw-r--r--  2.0 unx      269 b- defN 23-May-03 19:11 modal_test_support/multistub_privately_decorated.py
+--rw-r--r--  2.0 unx      211 b- defN 23-May-03 19:11 modal_test_support/multistub_privately_decorated_named_stub.py
+--rw-r--r--  2.0 unx      218 b- defN 23-May-03 19:11 modal_test_support/multistub_same_name.py
+--rw-r--r--  2.0 unx      219 b- defN 23-May-03 19:11 modal_test_support/multistub_serialized_func.py
+--rw-r--r--  2.0 unx      197 b- defN 23-May-03 19:11 modal_test_support/package_mount.py
+--rw-r--r--  2.0 unx      171 b- defN 23-May-03 19:11 modal_test_support/progress_info.py
+--rw-r--r--  2.0 unx      153 b- defN 23-May-03 19:11 modal_test_support/script.py
+--rw-r--r--  2.0 unx      178 b- defN 23-May-03 19:11 modal_test_support/startup_failure.py
+--rw-r--r--  2.0 unx      177 b- defN 23-May-03 19:11 modal_test_support/stub.py
+--rw-r--r--  2.0 unx      144 b- defN 23-May-03 19:11 modal_test_support/unconsumed_map.py
+--rw-r--r--  2.0 unx      123 b- defN 23-May-03 19:11 modal_test_support/webhook_forgot_function.py
+--rw-r--r--  2.0 unx       28 b- defN 23-May-03 19:11 modal_utils/__init__.py
+--rw-r--r--  2.0 unx      465 b- defN 23-May-03 19:11 modal_utils/app_utils.py
+--rw-r--r--  2.0 unx    11319 b- defN 23-May-03 19:11 modal_utils/async_utils.py
+--rw-r--r--  2.0 unx     2412 b- defN 23-May-03 19:11 modal_utils/decorator_utils.py
+--rw-r--r--  2.0 unx     9837 b- defN 23-May-03 19:11 modal_utils/grpc_utils.py
+--rw-r--r--  2.0 unx     1597 b- defN 23-May-03 19:11 modal_utils/hash_utils.py
+--rw-r--r--  2.0 unx     1426 b- defN 23-May-03 19:11 modal_utils/http_utils.py
+--rw-r--r--  2.0 unx      113 b- defN 23-May-03 19:11 modal_utils/logger.py
+--rw-r--r--  2.0 unx     1226 b- defN 23-May-03 19:11 modal_utils/package_utils.py
+--rw-r--r--  2.0 unx      458 b- defN 23-May-03 19:11 modal_version/__init__.py
+--rw-r--r--  2.0 unx       48 b- defN 23-May-03 19:22 modal_version/_version_generated.py
+--rw-r--r--  2.0 unx    10173 b- defN 23-May-03 19:22 modal_client-0.49.2103.dist-info/LICENSE
+--rw-r--r--  2.0 unx     1880 b- defN 23-May-03 19:22 modal_client-0.49.2103.dist-info/METADATA
+--rw-r--r--  2.0 unx       92 b- defN 23-May-03 19:22 modal_client-0.49.2103.dist-info/WHEEL
+--rw-r--r--  2.0 unx       46 b- defN 23-May-03 19:22 modal_client-0.49.2103.dist-info/entry_points.txt
+--rw-r--r--  2.0 unx       93 b- defN 23-May-03 19:22 modal_client-0.49.2103.dist-info/top_level.txt
+-?rw-rw-r--  2.0 unx    12389 b- defN 23-May-03 19:22 modal_client-0.49.2103.dist-info/RECORD
+-152 files, 1015517 bytes uncompressed, 231024 bytes compressed:  77.3%
++Zip file size: 250342 bytes, number of entries: 152
++-rw-r--r--  2.0 unx       28 b- defN 23-May-03 20:35 client_test/__init__.py
++-rw-r--r--  2.0 unx     5409 b- defN 23-May-03 20:35 client_test/async_utils_test.py
++-rw-r--r--  2.0 unx     1507 b- defN 23-May-03 20:35 client_test/blob_test.py
++-rw-r--r--  2.0 unx     3979 b- defN 23-May-03 20:35 client_test/cli_imports_test.py
++-rw-r--r--  2.0 unx    12835 b- defN 23-May-03 20:35 client_test/cli_test.py
++-rw-r--r--  2.0 unx     4850 b- defN 23-May-03 20:35 client_test/client_test.py
++-rw-r--r--  2.0 unx     2698 b- defN 23-May-03 20:35 client_test/cls_test.py
++-rw-r--r--  2.0 unx     2606 b- defN 23-May-03 20:35 client_test/config_test.py
++-rw-r--r--  2.0 unx    31444 b- defN 23-May-03 20:35 client_test/conftest.py
++-rw-r--r--  2.0 unx     4650 b- defN 23-May-03 20:35 client_test/container_app_test.py
++-rw-r--r--  2.0 unx    26633 b- defN 23-May-03 20:35 client_test/container_test.py
++-rw-r--r--  2.0 unx     2247 b- defN 23-May-03 20:35 client_test/decorator_test.py
++-rw-r--r--  2.0 unx     1086 b- defN 23-May-03 20:35 client_test/deprecation_test.py
++-rw-r--r--  2.0 unx     2182 b- defN 23-May-03 20:35 client_test/e2e_test.py
++-rw-r--r--  2.0 unx      165 b- defN 23-May-03 20:35 client_test/error_test.py
++-rw-r--r--  2.0 unx      964 b- defN 23-May-03 20:35 client_test/function_serialization_test.py
++-rw-r--r--  2.0 unx    14439 b- defN 23-May-03 20:35 client_test/function_test.py
++-rw-r--r--  2.0 unx     3924 b- defN 23-May-03 20:35 client_test/gpu_test.py
++-rw-r--r--  2.0 unx     5047 b- defN 23-May-03 20:35 client_test/grpc_utils_test.py
++-rw-r--r--  2.0 unx    15893 b- defN 23-May-03 20:35 client_test/image_test.py
++-rw-r--r--  2.0 unx     2372 b- defN 23-May-03 20:35 client_test/live_reload_test.py
++-rw-r--r--  2.0 unx     2451 b- defN 23-May-03 20:35 client_test/lookup_test.py
++-rw-r--r--  2.0 unx     5345 b- defN 23-May-03 20:35 client_test/mount_test.py
++-rw-r--r--  2.0 unx     5342 b- defN 23-May-03 20:35 client_test/mounted_files_test.py
++-rw-r--r--  2.0 unx     2157 b- defN 23-May-03 20:35 client_test/notebook_test.py
++-rw-r--r--  2.0 unx     1434 b- defN 23-May-03 20:35 client_test/object_test.py
++-rw-r--r--  2.0 unx      413 b- defN 23-May-03 20:35 client_test/package_utils_test.py
++-rw-r--r--  2.0 unx     1677 b- defN 23-May-03 20:35 client_test/retries_test.py
++-rw-r--r--  2.0 unx      359 b- defN 23-May-03 20:35 client_test/schedule_test.py
++-rw-r--r--  2.0 unx     1821 b- defN 23-May-03 20:35 client_test/secret_test.py
++-rw-r--r--  2.0 unx     1098 b- defN 23-May-03 20:35 client_test/serialization_test.py
++-rw-r--r--  2.0 unx     3925 b- defN 23-May-03 20:35 client_test/shared_volume_test.py
++-rw-r--r--  2.0 unx     9406 b- defN 23-May-03 20:35 client_test/stub_test.py
++-rw-r--r--  2.0 unx     2691 b- defN 23-May-03 20:35 client_test/utils_test.py
++-rw-r--r--  2.0 unx     1160 b- defN 23-May-03 20:35 client_test/watcher_test.py
++-rw-r--r--  2.0 unx     3926 b- defN 23-May-03 20:35 client_test/webhook_test.py
++-rw-r--r--  2.0 unx     1045 b- defN 23-May-03 20:35 modal/__init__.py
++-rw-r--r--  2.0 unx      157 b- defN 23-May-03 20:35 modal/__main__.py
++-rw-r--r--  2.0 unx     2106 b- defN 23-May-03 20:35 modal/_asgi.py
++-rw-r--r--  2.0 unx    13413 b- defN 23-May-03 20:35 modal/_blob_utils.py
++-rw-r--r--  2.0 unx    26135 b- defN 23-May-03 20:35 modal/_container_entrypoint.py
++-rw-r--r--  2.0 unx    10314 b- defN 23-May-03 20:35 modal/_function_utils.py
++-rw-r--r--  2.0 unx      450 b- defN 23-May-03 20:35 modal/_ipython.py
++-rw-r--r--  2.0 unx      929 b- defN 23-May-03 20:35 modal/_location.py
++-rw-r--r--  2.0 unx      850 b- defN 23-May-03 20:35 modal/_object_meta.py
++-rw-r--r--  2.0 unx    17552 b- defN 23-May-03 20:35 modal/_output.py
++-rw-r--r--  2.0 unx     1785 b- defN 23-May-03 20:35 modal/_proxy_tunnel.py
++-rw-r--r--  2.0 unx     5043 b- defN 23-May-03 20:35 modal/_pty.py
++-rw-r--r--  2.0 unx     4701 b- defN 23-May-03 20:35 modal/_resolver.py
++-rw-r--r--  2.0 unx     1885 b- defN 23-May-03 20:35 modal/_serialization.py
++-rw-r--r--  2.0 unx     7598 b- defN 23-May-03 20:35 modal/_traceback.py
++-rw-r--r--  2.0 unx     1995 b- defN 23-May-03 20:35 modal/_tracing.py
++-rw-r--r--  2.0 unx      490 b- defN 23-May-03 20:35 modal/_types.py
++-rw-r--r--  2.0 unx     3409 b- defN 23-May-03 20:35 modal/_watcher.py
++-rw-r--r--  2.0 unx     1073 b- defN 23-May-03 20:35 modal/aio.py
++-rw-r--r--  2.0 unx    11136 b- defN 23-May-03 20:35 modal/app.py
++-rw-r--r--  2.0 unx     6277 b- defN 23-May-03 20:36 modal/app.pyi
++-rw-r--r--  2.0 unx     2462 b- defN 23-May-03 20:35 modal/call_graph.py
++-rw-r--r--  2.0 unx     9185 b- defN 23-May-03 20:35 modal/client.py
++-rw-r--r--  2.0 unx     3507 b- defN 23-May-03 20:36 modal/client.pyi
++-rw-r--r--  2.0 unx     6494 b- defN 23-May-03 20:35 modal/config.py
++-rw-r--r--  2.0 unx     5597 b- defN 23-May-03 20:35 modal/dict.py
++-rw-r--r--  2.0 unx     2632 b- defN 23-May-03 20:36 modal/dict.pyi
++-rw-r--r--  2.0 unx     2750 b- defN 23-May-03 20:35 modal/exception.py
++-rw-r--r--  2.0 unx    54722 b- defN 23-May-03 20:35 modal/functions.py
++-rw-r--r--  2.0 unx    19864 b- defN 23-May-03 20:36 modal/functions.pyi
++-rw-r--r--  2.0 unx     4995 b- defN 23-May-03 20:35 modal/gpu.py
++-rw-r--r--  2.0 unx    46044 b- defN 23-May-03 20:35 modal/image.py
++-rw-r--r--  2.0 unx    17775 b- defN 23-May-03 20:36 modal/image.pyi
++-rw-r--r--  2.0 unx    14725 b- defN 23-May-03 20:35 modal/mount.py
++-rw-r--r--  2.0 unx     6788 b- defN 23-May-03 20:36 modal/mount.pyi
++-rw-r--r--  2.0 unx    12812 b- defN 23-May-03 20:35 modal/object.py
++-rw-r--r--  2.0 unx    10631 b- defN 23-May-03 20:36 modal/object.pyi
++-rw-r--r--  2.0 unx      652 b- defN 23-May-03 20:35 modal/proxy.py
++-rw-r--r--  2.0 unx     1111 b- defN 23-May-03 20:36 modal/proxy.pyi
++-rw-r--r--  2.0 unx        0 b- defN 23-May-03 20:35 modal/py.typed
++-rw-r--r--  2.0 unx     5144 b- defN 23-May-03 20:35 modal/queue.py
++-rw-r--r--  2.0 unx     2271 b- defN 23-May-03 20:36 modal/queue.pyi
++-rw-r--r--  2.0 unx      523 b- defN 23-May-03 20:35 modal/requirements.txt
++-rw-r--r--  2.0 unx     3726 b- defN 23-May-03 20:35 modal/retries.py
++-rw-r--r--  2.0 unx     6758 b- defN 23-May-03 20:35 modal/runner.py
++-rw-r--r--  2.0 unx     2619 b- defN 23-May-03 20:35 modal/schedule.py
++-rw-r--r--  2.0 unx     5190 b- defN 23-May-03 20:35 modal/secret.py
++-rw-r--r--  2.0 unx     1150 b- defN 23-May-03 20:36 modal/secret.pyi
++-rw-r--r--  2.0 unx     4308 b- defN 23-May-03 20:35 modal/serving.py
++-rw-r--r--  2.0 unx     8270 b- defN 23-May-03 20:35 modal/shared_volume.py
++-rw-r--r--  2.0 unx     2923 b- defN 23-May-03 20:36 modal/shared_volume.pyi
++-rw-r--r--  2.0 unx    38511 b- defN 23-May-03 20:35 modal/stub.py
++-rw-r--r--  2.0 unx    24435 b- defN 23-May-03 20:36 modal/stub.pyi
++-rw-r--r--  2.0 unx       28 b- defN 23-May-03 20:35 modal/cli/__init__.py
++-rw-r--r--  2.0 unx     3833 b- defN 23-May-03 20:35 modal/cli/app.py
++-rw-r--r--  2.0 unx      484 b- defN 23-May-03 20:35 modal/cli/config.py
++-rw-r--r--  2.0 unx     1881 b- defN 23-May-03 20:35 modal/cli/entry_point.py
++-rw-r--r--  2.0 unx      648 b- defN 23-May-03 20:35 modal/cli/env.py
++-rw-r--r--  2.0 unx    10459 b- defN 23-May-03 20:35 modal/cli/import_refs.py
++-rw-r--r--  2.0 unx     8975 b- defN 23-May-03 20:35 modal/cli/run.py
++-rw-r--r--  2.0 unx     3738 b- defN 23-May-03 20:35 modal/cli/secret.py
++-rw-r--r--  2.0 unx     3046 b- defN 23-May-03 20:35 modal/cli/token.py
++-rw-r--r--  2.0 unx      313 b- defN 23-May-03 20:35 modal/cli/utils.py
++-rw-r--r--  2.0 unx     9677 b- defN 23-May-03 20:35 modal/cli/volume.py
++-rw-r--r--  2.0 unx       28 b- defN 23-May-03 20:35 modal/extensions/__init__.py
++-rw-r--r--  2.0 unx      997 b- defN 23-May-03 20:35 modal/extensions/ipython.py
++-rw-r--r--  2.0 unx     6495 b- defN 23-May-03 20:35 modal/extensions/pymc.py
++-rw-r--r--  2.0 unx       28 b- defN 23-May-03 20:35 modal_base_images/__init__.py
++-rw-r--r--  2.0 unx      461 b- defN 23-May-03 20:35 modal_base_images/client_mount.py
++-rw-r--r--  2.0 unx      264 b- defN 23-May-03 20:35 modal_base_images/conda.py
++-rw-r--r--  2.0 unx      342 b- defN 23-May-03 20:35 modal_base_images/debian_slim.py
++-rw-r--r--  2.0 unx       28 b- defN 23-May-03 20:35 modal_proto/__init__.py
++-rw-r--r--  2.0 unx    25995 b- defN 23-May-03 20:35 modal_proto/api.proto
++-rw-r--r--  2.0 unx    42157 b- defN 23-May-03 20:36 modal_proto/api_grpc.py
++-rw-r--r--  2.0 unx   107864 b- defN 23-May-03 20:36 modal_proto/api_pb2.py
++-rw-r--r--  2.0 unx    91206 b- defN 23-May-03 20:36 modal_proto/api_pb2_grpc.py
++-rw-r--r--  2.0 unx       28 b- defN 23-May-03 20:35 modal_test_support/__init__.py
++-rw-r--r--  2.0 unx      134 b- defN 23-May-03 20:35 modal_test_support/assert_package.py
++-rw-r--r--  2.0 unx      171 b- defN 23-May-03 20:35 modal_test_support/consumed_map.py
++-rw-r--r--  2.0 unx     4683 b- defN 23-May-03 20:35 modal_test_support/functions.py
++-rw-r--r--  2.0 unx      266 b- defN 23-May-03 20:35 modal_test_support/image_run_function.py
++-rw-r--r--  2.0 unx      180 b- defN 23-May-03 20:35 modal_test_support/is_inside.py
++-rw-r--r--  2.0 unx      187 b- defN 23-May-03 20:35 modal_test_support/missing_main_conditional.py
++-rw-r--r--  2.0 unx       59 b- defN 23-May-03 20:35 modal_test_support/module_1.py
++-rw-r--r--  2.0 unx       59 b- defN 23-May-03 20:35 modal_test_support/module_2.py
++-rw-r--r--  2.0 unx      277 b- defN 23-May-03 20:35 modal_test_support/multistub.py
++-rw-r--r--  2.0 unx      228 b- defN 23-May-03 20:35 modal_test_support/multistub_is_inside.py
++-rw-r--r--  2.0 unx      222 b- defN 23-May-03 20:35 modal_test_support/multistub_is_inside_warning.py
++-rw-r--r--  2.0 unx      269 b- defN 23-May-03 20:35 modal_test_support/multistub_privately_decorated.py
++-rw-r--r--  2.0 unx      211 b- defN 23-May-03 20:35 modal_test_support/multistub_privately_decorated_named_stub.py
++-rw-r--r--  2.0 unx      218 b- defN 23-May-03 20:35 modal_test_support/multistub_same_name.py
++-rw-r--r--  2.0 unx      219 b- defN 23-May-03 20:35 modal_test_support/multistub_serialized_func.py
++-rw-r--r--  2.0 unx      197 b- defN 23-May-03 20:35 modal_test_support/package_mount.py
++-rw-r--r--  2.0 unx      171 b- defN 23-May-03 20:35 modal_test_support/progress_info.py
++-rw-r--r--  2.0 unx      153 b- defN 23-May-03 20:35 modal_test_support/script.py
++-rw-r--r--  2.0 unx      178 b- defN 23-May-03 20:35 modal_test_support/startup_failure.py
++-rw-r--r--  2.0 unx      177 b- defN 23-May-03 20:35 modal_test_support/stub.py
++-rw-r--r--  2.0 unx      144 b- defN 23-May-03 20:35 modal_test_support/unconsumed_map.py
++-rw-r--r--  2.0 unx      123 b- defN 23-May-03 20:35 modal_test_support/webhook_forgot_function.py
++-rw-r--r--  2.0 unx       28 b- defN 23-May-03 20:35 modal_utils/__init__.py
++-rw-r--r--  2.0 unx      465 b- defN 23-May-03 20:35 modal_utils/app_utils.py
++-rw-r--r--  2.0 unx    11319 b- defN 23-May-03 20:35 modal_utils/async_utils.py
++-rw-r--r--  2.0 unx     2412 b- defN 23-May-03 20:35 modal_utils/decorator_utils.py
++-rw-r--r--  2.0 unx     9837 b- defN 23-May-03 20:35 modal_utils/grpc_utils.py
++-rw-r--r--  2.0 unx     1597 b- defN 23-May-03 20:35 modal_utils/hash_utils.py
++-rw-r--r--  2.0 unx     1426 b- defN 23-May-03 20:35 modal_utils/http_utils.py
++-rw-r--r--  2.0 unx      113 b- defN 23-May-03 20:35 modal_utils/logger.py
++-rw-r--r--  2.0 unx     1226 b- defN 23-May-03 20:35 modal_utils/package_utils.py
++-rw-r--r--  2.0 unx      458 b- defN 23-May-03 20:35 modal_version/__init__.py
++-rw-r--r--  2.0 unx       48 b- defN 23-May-03 20:36 modal_version/_version_generated.py
++-rw-r--r--  2.0 unx    10173 b- defN 23-May-03 20:36 modal_client-0.49.2108.dist-info/LICENSE
++-rw-r--r--  2.0 unx     1880 b- defN 23-May-03 20:36 modal_client-0.49.2108.dist-info/METADATA
++-rw-r--r--  2.0 unx       92 b- defN 23-May-03 20:36 modal_client-0.49.2108.dist-info/WHEEL
++-rw-r--r--  2.0 unx       46 b- defN 23-May-03 20:36 modal_client-0.49.2108.dist-info/entry_points.txt
++-rw-r--r--  2.0 unx       93 b- defN 23-May-03 20:36 modal_client-0.49.2108.dist-info/top_level.txt
++?rw-rw-r--  2.0 unx    12389 b- defN 23-May-03 20:36 modal_client-0.49.2108.dist-info/RECORD
++152 files, 1016183 bytes uncompressed, 231126 bytes compressed:  77.3%
+```
+
+## zipnote {}
+
+```diff
+@@ -432,26 +432,26 @@
+ 
+ Filename: modal_version/__init__.py
+ Comment: 
+ 
+ Filename: modal_version/_version_generated.py
+ Comment: 
+ 
+-Filename: modal_client-0.49.2103.dist-info/LICENSE
++Filename: modal_client-0.49.2108.dist-info/LICENSE
+ Comment: 
+ 
+-Filename: modal_client-0.49.2103.dist-info/METADATA
++Filename: modal_client-0.49.2108.dist-info/METADATA
+ Comment: 
+ 
+-Filename: modal_client-0.49.2103.dist-info/WHEEL
++Filename: modal_client-0.49.2108.dist-info/WHEEL
+ Comment: 
+ 
+-Filename: modal_client-0.49.2103.dist-info/entry_points.txt
++Filename: modal_client-0.49.2108.dist-info/entry_points.txt
+ Comment: 
+ 
+-Filename: modal_client-0.49.2103.dist-info/top_level.txt
++Filename: modal_client-0.49.2108.dist-info/top_level.txt
+ Comment: 
+ 
+-Filename: modal_client-0.49.2103.dist-info/RECORD
++Filename: modal_client-0.49.2108.dist-info/RECORD
+ Comment: 
+ 
+ Zip file comment:
+```
+
+## modal/client.pyi
+
+```diff
+@@ -10,15 +10,15 @@
+ 
+ 
+ async def _grpc_exc_string(exc: grpclib.exceptions.GRPCError, method_name: str, server_url: str, timeout: float) -> str:
+     ...
+ 
+ 
+ class _Client:
+-    def __init__(self, server_url, client_type, credentials, version='0.49.2103', *, no_verify=False):
++    def __init__(self, server_url, client_type, credentials, version='0.49.2108', *, no_verify=False):
+         ...
+ 
+     @property
+     def stub(self):
+         ...
+ 
+     async def _open(self):
+@@ -59,15 +59,15 @@
+ 
+     @classmethod
+     def set_env_client(cls, client):
+         ...
+ 
+ 
+ class Client:
+-    def __init__(self, server_url, client_type, credentials, version='0.49.2103', *, no_verify=False):
++    def __init__(self, server_url, client_type, credentials, version='0.49.2108', *, no_verify=False):
+         ...
+ 
+     @property
+     def stub(self):
+         ...
+ 
+     def _open(self):
+@@ -108,15 +108,15 @@
+ 
+     @classmethod
+     def set_env_client(cls, client):
+         ...
+ 
+ 
+ class AioClient:
+-    def __init__(self, server_url, client_type, credentials, version='0.49.2103', *, no_verify=False):
++    def __init__(self, server_url, client_type, credentials, version='0.49.2108', *, no_verify=False):
+         ...
+ 
+     @property
+     def stub(self):
+         ...
+ 
+     async def _open(self, *args, **kwargs):
+```
+
+## modal/functions.py
+
+```diff
+@@ -1,8 +1,9 @@
+ # Copyright Modal Labs 2022
++import os
+ import asyncio
+ import inspect
+ import posixpath
+ import time
+ import typing
+ import warnings
+ from dataclasses import dataclass
+@@ -738,15 +739,15 @@
+     `@stub.function()` decorator on the `Stub` object for your application.
+     """
+ 
+     # TODO: more type annotations
+     _secrets: Collection[_Secret]
+     _info: FunctionInfo
+     _mounts: Collection[_Mount]
+-    _shared_volumes: Dict[str, _SharedVolume]
++    _shared_volumes: Dict[Union[str, os.PathLike], _SharedVolume]
+     _allow_cross_region_volumes: bool
+     _image: Optional[_Image]
+     _gpu: Optional[GPU_T]
+     _cloud: Optional[str]
+     _function_handle: _FunctionHandle
+     _stub: "modal.stub._Stub"
+     _is_builder_function: bool
+@@ -762,15 +763,15 @@
+         secrets: Collection[_Secret] = (),
+         schedule: Optional[Schedule] = None,
+         is_generator=False,
+         gpu: GPU_T = None,
+         # TODO: maybe break this out into a separate decorator for notebooks.
+         base_mounts: Collection[_Mount] = (),
+         mounts: Collection[_Mount] = (),
+-        shared_volumes: Dict[str, _SharedVolume] = {},
++        shared_volumes: Dict[Union[str, os.PathLike], _SharedVolume] = {},
+         allow_cross_region_volumes: bool = False,
+         webhook_config: Optional[api_pb2.WebhookConfig] = None,
+         memory: Optional[int] = None,
+         proxy: Optional[_Proxy] = None,
+         retries: Optional[Union[int, Retries]] = None,
+         timeout: Optional[int] = None,
+         concurrency_limit: Optional[int] = None,
+```
+
+## modal/functions.pyi
+
+```diff
+@@ -12,14 +12,15 @@
+ import modal.proxy
+ import modal.retries
+ import modal.schedule
+ import modal.secret
+ import modal.shared_volume
+ import modal.stub
+ import modal_proto.api_pb2
++import os
+ import typing
+ 
+ def exc_with_hints(exc: BaseException):
+     ...
+ 
+ 
+ async def _process_result(result, stub, client=None):
+@@ -329,25 +330,25 @@
+         ...
+ 
+ 
+ class _Function(modal.object._Provider[_FunctionHandle]):
+     _secrets: typing.Collection[modal.secret._Secret]
+     _info: modal._function_utils.FunctionInfo
+     _mounts: typing.Collection[modal.mount._Mount]
+-    _shared_volumes: typing.Dict[str, modal.shared_volume._SharedVolume]
++    _shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume._SharedVolume]
+     _allow_cross_region_volumes: bool
+     _image: typing.Union[modal.image._Image, None]
+     _gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig]
+     _cloud: typing.Union[str, None]
+     _function_handle: _FunctionHandle
+     _stub: modal.stub._Stub
+     _is_builder_function: bool
+     _retry_policy: typing.Union[modal_proto.api_pb2.FunctionRetryPolicy, None]
+ 
+-    def __init__(self, function_handle: _FunctionHandle, function_info: modal._function_utils.FunctionInfo, _stub, image=None, secret: typing.Union[modal.secret._Secret, None] = None, secrets: typing.Collection[modal.secret._Secret] = (), schedule: typing.Union[modal.schedule.Schedule, None] = None, is_generator=False, gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, base_mounts: typing.Collection[modal.mount._Mount] = (), mounts: typing.Collection[modal.mount._Mount] = (), shared_volumes: typing.Dict[str, modal.shared_volume._SharedVolume] = {}, allow_cross_region_volumes: bool = False, webhook_config: typing.Union[modal_proto.api_pb2.WebhookConfig, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy._Proxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, timeout: typing.Union[int, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, cpu: typing.Union[float, None] = None, keep_warm: typing.Union[int, None] = None, interactive: bool = False, name: typing.Union[str, None] = None, cloud: typing.Union[str, None] = None, is_builder_function: bool = False, _cls: typing.Union[type, None] = None) -> None:
++    def __init__(self, function_handle: _FunctionHandle, function_info: modal._function_utils.FunctionInfo, _stub, image=None, secret: typing.Union[modal.secret._Secret, None] = None, secrets: typing.Collection[modal.secret._Secret] = (), schedule: typing.Union[modal.schedule.Schedule, None] = None, is_generator=False, gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, base_mounts: typing.Collection[modal.mount._Mount] = (), mounts: typing.Collection[modal.mount._Mount] = (), shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume._SharedVolume] = {}, allow_cross_region_volumes: bool = False, webhook_config: typing.Union[modal_proto.api_pb2.WebhookConfig, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy._Proxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, timeout: typing.Union[int, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, cpu: typing.Union[float, None] = None, keep_warm: typing.Union[int, None] = None, interactive: bool = False, name: typing.Union[str, None] = None, cloud: typing.Union[str, None] = None, is_builder_function: bool = False, _cls: typing.Union[type, None] = None) -> None:
+         ...
+ 
+     async def _preload_f(self, resolver: modal._resolver.Resolver, existing_object_id: typing.Union[str, None]) -> _FunctionHandle:
+         ...
+ 
+     async def _load(self, resolver: modal._resolver.Resolver, existing_object_id: typing.Union[str, None]) -> _FunctionHandle:
+         ...
+@@ -363,25 +364,25 @@
+         ...
+ 
+ 
+ class Function(modal.object.Provider[FunctionHandle]):
+     _secrets: typing.Collection[modal.secret.Secret]
+     _info: modal._function_utils.FunctionInfo
+     _mounts: typing.Collection[modal.mount.Mount]
+-    _shared_volumes: typing.Dict[str, modal.shared_volume.SharedVolume]
++    _shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume.SharedVolume]
+     _allow_cross_region_volumes: bool
+     _image: typing.Union[modal.image.Image, None]
+     _gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig]
+     _cloud: typing.Union[str, None]
+     _function_handle: FunctionHandle
+     _stub: modal.stub.Stub
+     _is_builder_function: bool
+     _retry_policy: typing.Union[modal_proto.api_pb2.FunctionRetryPolicy, None]
+ 
+-    def __init__(self, function_handle: FunctionHandle, function_info: modal._function_utils.FunctionInfo, _stub, image=None, secret: typing.Union[modal.secret.Secret, None] = None, secrets: typing.Collection[modal.secret.Secret] = (), schedule: typing.Union[modal.schedule.Schedule, None] = None, is_generator=False, gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, base_mounts: typing.Collection[modal.mount.Mount] = (), mounts: typing.Collection[modal.mount.Mount] = (), shared_volumes: typing.Dict[str, modal.shared_volume.SharedVolume] = {}, allow_cross_region_volumes: bool = False, webhook_config: typing.Union[modal_proto.api_pb2.WebhookConfig, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy.Proxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, timeout: typing.Union[int, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, cpu: typing.Union[float, None] = None, keep_warm: typing.Union[int, None] = None, interactive: bool = False, name: typing.Union[str, None] = None, cloud: typing.Union[str, None] = None, is_builder_function: bool = False, _cls: typing.Union[type, None] = None) -> None:
++    def __init__(self, function_handle: FunctionHandle, function_info: modal._function_utils.FunctionInfo, _stub, image=None, secret: typing.Union[modal.secret.Secret, None] = None, secrets: typing.Collection[modal.secret.Secret] = (), schedule: typing.Union[modal.schedule.Schedule, None] = None, is_generator=False, gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, base_mounts: typing.Collection[modal.mount.Mount] = (), mounts: typing.Collection[modal.mount.Mount] = (), shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume.SharedVolume] = {}, allow_cross_region_volumes: bool = False, webhook_config: typing.Union[modal_proto.api_pb2.WebhookConfig, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy.Proxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, timeout: typing.Union[int, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, cpu: typing.Union[float, None] = None, keep_warm: typing.Union[int, None] = None, interactive: bool = False, name: typing.Union[str, None] = None, cloud: typing.Union[str, None] = None, is_builder_function: bool = False, _cls: typing.Union[type, None] = None) -> None:
+         ...
+ 
+     def _preload_f(self, resolver: modal._resolver.Resolver, existing_object_id: typing.Union[str, None]) -> FunctionHandle:
+         ...
+ 
+     def _load(self, resolver: modal._resolver.Resolver, existing_object_id: typing.Union[str, None]) -> FunctionHandle:
+         ...
+@@ -397,25 +398,25 @@
+         ...
+ 
+ 
+ class AioFunction(modal.object.AioProvider[AioFunctionHandle]):
+     _secrets: typing.Collection[modal.secret.AioSecret]
+     _info: modal._function_utils.FunctionInfo
+     _mounts: typing.Collection[modal.mount.AioMount]
+-    _shared_volumes: typing.Dict[str, modal.shared_volume.AioSharedVolume]
++    _shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume.AioSharedVolume]
+     _allow_cross_region_volumes: bool
+     _image: typing.Union[modal.image.AioImage, None]
+     _gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig]
+     _cloud: typing.Union[str, None]
+     _function_handle: AioFunctionHandle
+     _stub: modal.stub.AioStub
+     _is_builder_function: bool
+     _retry_policy: typing.Union[modal_proto.api_pb2.FunctionRetryPolicy, None]
+ 
+-    def __init__(self, function_handle: AioFunctionHandle, function_info: modal._function_utils.FunctionInfo, _stub, image=None, secret: typing.Union[modal.secret.AioSecret, None] = None, secrets: typing.Collection[modal.secret.AioSecret] = (), schedule: typing.Union[modal.schedule.Schedule, None] = None, is_generator=False, gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, base_mounts: typing.Collection[modal.mount.AioMount] = (), mounts: typing.Collection[modal.mount.AioMount] = (), shared_volumes: typing.Dict[str, modal.shared_volume.AioSharedVolume] = {}, allow_cross_region_volumes: bool = False, webhook_config: typing.Union[modal_proto.api_pb2.WebhookConfig, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy.AioProxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, timeout: typing.Union[int, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, cpu: typing.Union[float, None] = None, keep_warm: typing.Union[int, None] = None, interactive: bool = False, name: typing.Union[str, None] = None, cloud: typing.Union[str, None] = None, is_builder_function: bool = False, _cls: typing.Union[type, None] = None) -> None:
++    def __init__(self, function_handle: AioFunctionHandle, function_info: modal._function_utils.FunctionInfo, _stub, image=None, secret: typing.Union[modal.secret.AioSecret, None] = None, secrets: typing.Collection[modal.secret.AioSecret] = (), schedule: typing.Union[modal.schedule.Schedule, None] = None, is_generator=False, gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, base_mounts: typing.Collection[modal.mount.AioMount] = (), mounts: typing.Collection[modal.mount.AioMount] = (), shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume.AioSharedVolume] = {}, allow_cross_region_volumes: bool = False, webhook_config: typing.Union[modal_proto.api_pb2.WebhookConfig, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy.AioProxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, timeout: typing.Union[int, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, cpu: typing.Union[float, None] = None, keep_warm: typing.Union[int, None] = None, interactive: bool = False, name: typing.Union[str, None] = None, cloud: typing.Union[str, None] = None, is_builder_function: bool = False, _cls: typing.Union[type, None] = None) -> None:
+         ...
+ 
+     async def _preload_f(self, *args, **kwargs) -> AioFunctionHandle:
+         ...
+ 
+     async def _load(self, *args, **kwargs) -> AioFunctionHandle:
+         ...
+```
+
+## modal/image.py
+
+```diff
+@@ -1054,15 +1054,15 @@
+         self,
+         raw_f: Callable[[], Any],
+         *,
+         secret: Optional[_Secret] = None,  # An optional Modal Secret with environment variables for the container
+         secrets: Sequence[_Secret] = (),  # Plural version of `secret` when multiple secrets are needed
+         gpu: GPU_T = None,  # GPU specification as string ("any", "T4", "A10G", ...) or object (`modal.GPU.A100()`, ...)
+         mounts: Sequence[_Mount] = (),
+-        shared_volumes: Dict[str, _SharedVolume] = {},
++        shared_volumes: Dict[Union[str, os.PathLike], _SharedVolume] = {},
+         cpu: Optional[float] = None,  # How many CPU cores to request. This is a soft limit.
+         memory: Optional[int] = None,  # How much memory to request, in MiB. This is a soft limit.
+         timeout: Optional[int] = 86400,  # Maximum execution time of the function in seconds.
+         cloud: Optional[str] = None,  # Cloud provider to run the function on. Possible values are aws, gcp, auto.
+         force_build: bool = False,
+     ) -> "_Image":
+         """Run user-defined function `raw_function` as an image build step. The function runs just like an ordinary Modal
+```
+
+## modal/image.pyi
+
+```diff
+@@ -3,14 +3,15 @@
+ import modal.functions
+ import modal.gpu
+ import modal.mount
+ import modal.object
+ import modal.secret
+ import modal.shared_volume
+ import modal_proto.api_pb2
++import os
+ import pathlib
+ import typing
+ 
+ def _validate_python_version(version: str) -> None:
+     ...
+ 
+ 
+@@ -113,15 +114,15 @@
+     @staticmethod
+     def debian_slim(python_version: typing.Union[str, None] = None, force_build: bool = False) -> _Image:
+         ...
+ 
+     def apt_install(self, *packages: typing.Union[str, typing.List[str]], force_build: bool = False) -> _Image:
+         ...
+ 
+-    def run_function(self, raw_f: typing.Callable[[], typing.Any], *, secret: typing.Union[modal.secret._Secret, None] = None, secrets: typing.Sequence[modal.secret._Secret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, mounts: typing.Sequence[modal.mount._Mount] = (), shared_volumes: typing.Dict[str, modal.shared_volume._SharedVolume] = {}, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, timeout: typing.Union[int, None] = 86400, cloud: typing.Union[str, None] = None, force_build: bool = False) -> _Image:
++    def run_function(self, raw_f: typing.Callable[[], typing.Any], *, secret: typing.Union[modal.secret._Secret, None] = None, secrets: typing.Sequence[modal.secret._Secret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, mounts: typing.Sequence[modal.mount._Mount] = (), shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume._SharedVolume] = {}, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, timeout: typing.Union[int, None] = 86400, cloud: typing.Union[str, None] = None, force_build: bool = False) -> _Image:
+         ...
+ 
+     def env(self, vars: typing.Dict[str, str]) -> _Image:
+         ...
+ 
+ 
+ class ImageHandle(modal.object.Handle):
+@@ -217,15 +218,15 @@
+     @staticmethod
+     def debian_slim(python_version: typing.Union[str, None] = None, force_build: bool = False) -> Image:
+         ...
+ 
+     def apt_install(self, *packages: typing.Union[str, typing.List[str]], force_build: bool = False) -> Image:
+         ...
+ 
+-    def run_function(self, raw_f: typing.Callable[[], typing.Any], *, secret: typing.Union[modal.secret.Secret, None] = None, secrets: typing.Sequence[modal.secret.Secret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, mounts: typing.Sequence[modal.mount.Mount] = (), shared_volumes: typing.Dict[str, modal.shared_volume.SharedVolume] = {}, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, timeout: typing.Union[int, None] = 86400, cloud: typing.Union[str, None] = None, force_build: bool = False) -> Image:
++    def run_function(self, raw_f: typing.Callable[[], typing.Any], *, secret: typing.Union[modal.secret.Secret, None] = None, secrets: typing.Sequence[modal.secret.Secret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, mounts: typing.Sequence[modal.mount.Mount] = (), shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume.SharedVolume] = {}, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, timeout: typing.Union[int, None] = 86400, cloud: typing.Union[str, None] = None, force_build: bool = False) -> Image:
+         ...
+ 
+     def env(self, vars: typing.Dict[str, str]) -> Image:
+         ...
+ 
+ 
+ class AioImage(modal.object.AioProvider[AioImageHandle]):
+@@ -305,12 +306,12 @@
+     @staticmethod
+     def debian_slim(python_version: typing.Union[str, None] = None, force_build: bool = False) -> AioImage:
+         ...
+ 
+     def apt_install(self, *packages: typing.Union[str, typing.List[str]], force_build: bool = False) -> AioImage:
+         ...
+ 
+-    def run_function(self, raw_f: typing.Callable[[], typing.Any], *, secret: typing.Union[modal.secret.AioSecret, None] = None, secrets: typing.Sequence[modal.secret.AioSecret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, mounts: typing.Sequence[modal.mount.AioMount] = (), shared_volumes: typing.Dict[str, modal.shared_volume.AioSharedVolume] = {}, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, timeout: typing.Union[int, None] = 86400, cloud: typing.Union[str, None] = None, force_build: bool = False) -> AioImage:
++    def run_function(self, raw_f: typing.Callable[[], typing.Any], *, secret: typing.Union[modal.secret.AioSecret, None] = None, secrets: typing.Sequence[modal.secret.AioSecret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, mounts: typing.Sequence[modal.mount.AioMount] = (), shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume.AioSharedVolume] = {}, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, timeout: typing.Union[int, None] = 86400, cloud: typing.Union[str, None] = None, force_build: bool = False) -> AioImage:
+         ...
+ 
+     def env(self, vars: typing.Dict[str, str]) -> AioImage:
+         ...
+```
+
+## modal/stub.py
+
+```diff
+@@ -495,15 +495,15 @@
+         image: Optional[_Image] = None,  # The image to run as the container for the function
+         schedule: Optional[Schedule] = None,  # An optional Modal Schedule for the function
+         secret: Optional[_Secret] = None,  # An optional Modal Secret with environment variables for the container
+         secrets: Sequence[_Secret] = (),  # Plural version of `secret` when multiple secrets are needed
+         gpu: GPU_T = None,  # GPU specification as string ("any", "T4", "A10G", ...) or object (`modal.GPU.A100()`, ...)
+         serialized: bool = False,  # Whether to send the function over using cloudpickle.
+         mounts: Sequence[_Mount] = (),
+-        shared_volumes: Dict[str, _SharedVolume] = {},
++        shared_volumes: Dict[Union[str, os.PathLike], _SharedVolume] = {},
+         allow_cross_region_volumes: bool = False,  # Whether using shared volumes from other regions is allowed.
+         cpu: Optional[float] = None,  # How many CPU cores to request. This is a soft limit.
+         memory: Optional[int] = None,  # How much memory to request, in MiB. This is a soft limit.
+         proxy: Optional[_Proxy] = None,  # Reference to a Modal Proxy to use in front of this function.
+         retries: Optional[Union[int, Retries]] = None,  # Number of times to retry each input in case of failure.
+         concurrency_limit: Optional[int] = None,  # Limit for max concurrent containers running the function.
+         container_idle_timeout: Optional[int] = None,  # Timeout for idle containers waiting for inputs to shut down.
+@@ -526,15 +526,15 @@
+         image: Optional[_Image] = None,  # The image to run as the container for the function
+         schedule: Optional[Schedule] = None,  # An optional Modal Schedule for the function
+         secret: Optional[_Secret] = None,  # An optional Modal Secret with environment variables for the container
+         secrets: Sequence[_Secret] = (),  # Plural version of `secret` when multiple secrets are needed
+         gpu: GPU_T = None,  # GPU specification as string ("any", "T4", "A10G", ...) or object (`modal.GPU.A100()`, ...)
+         serialized: bool = False,  # Whether to send the function over using cloudpickle.
+         mounts: Sequence[_Mount] = (),
+-        shared_volumes: Dict[str, _SharedVolume] = {},
++        shared_volumes: Dict[Union[str, os.PathLike], _SharedVolume] = {},
+         allow_cross_region_volumes: bool = False,  # Whether using shared volumes from other regions is allowed.
+         cpu: Optional[float] = None,  # How many CPU cores to request. This is a soft limit.
+         memory: Optional[int] = None,  # How much memory to request, in MiB. This is a soft limit.
+         proxy: Optional[_Proxy] = None,  # Reference to a Modal Proxy to use in front of this function.
+         retries: Optional[Union[int, Retries]] = None,  # Number of times to retry each input in case of failure.
+         concurrency_limit: Optional[int] = None,  # Limit for max concurrent containers running the function.
+         container_idle_timeout: Optional[int] = None,  # Timeout for idle containers waiting for inputs to shut down.
+@@ -558,15 +558,15 @@
+         image: Optional[_Image] = None,  # The image to run as the container for the function
+         schedule: Optional[Schedule] = None,  # An optional Modal Schedule for the function
+         secret: Optional[_Secret] = None,  # An optional Modal Secret with environment variables for the container
+         secrets: Sequence[_Secret] = (),  # Plural version of `secret` when multiple secrets are needed
+         gpu: GPU_T = None,  # GPU specification as string ("any", "T4", "A10G", ...) or object (`modal.GPU.A100()`, ...)
+         serialized: bool = False,  # Whether to send the function over using cloudpickle.
+         mounts: Sequence[_Mount] = (),
+-        shared_volumes: Dict[str, _SharedVolume] = {},
++        shared_volumes: Dict[Union[str, os.PathLike], _SharedVolume] = {},
+         allow_cross_region_volumes: bool = False,  # Whether using shared volumes from other regions is allowed.
+         cpu: Optional[float] = None,  # How many CPU cores to request. This is a soft limit.
+         memory: Optional[int] = None,  # How much memory to request, in MiB. This is a soft limit.
+         proxy: Optional[_Proxy] = None,  # Reference to a Modal Proxy to use in front of this function.
+         retries: Optional[Union[int, Retries]] = None,  # Number of times to retry each input in case of failure.
+         concurrency_limit: Optional[int] = None,  # Limit for max concurrent containers running the function.
+         container_idle_timeout: Optional[int] = None,  # Timeout for idle containers waiting for inputs to shut down.
+@@ -852,15 +852,15 @@
+         user_cls: Optional[type] = None,
+         image: Optional[_Image] = None,  # The image to run as the container for the function
+         secret: Optional[_Secret] = None,  # An optional Modal Secret with environment variables for the container
+         secrets: Sequence[_Secret] = (),  # Plural version of `secret` when multiple secrets are needed
+         gpu: GPU_T = None,  # GPU specification as string ("any", "T4", "A10G", ...) or object (`modal.GPU.A100()`, ...)
+         serialized: bool = False,  # Whether to send the function over using cloudpickle.
+         mounts: Sequence[_Mount] = (),
+-        shared_volumes: Dict[str, _SharedVolume] = {},
++        shared_volumes: Dict[Union[str, os.PathLike], _SharedVolume] = {},
+         allow_cross_region_volumes: bool = False,  # Whether using shared volumes from other regions is allowed.
+         cpu: Optional[float] = None,  # How many CPU cores to request. This is a soft limit.
+         memory: Optional[int] = None,  # How much memory to request, in MiB. This is a soft limit.
+         proxy: Optional[_Proxy] = None,  # Reference to a Modal Proxy to use in front of this function.
+         retries: Optional[Union[int, Retries]] = None,  # Number of times to retry each input in case of failure.
+         concurrency_limit: Optional[int] = None,  # Limit for max concurrent containers running the function.
+         container_idle_timeout: Optional[int] = None,  # Timeout for idle containers waiting for inputs to shut down.
+```
+
+## modal/stub.pyi
+
+```diff
+@@ -9,14 +9,15 @@
+ import modal.object
+ import modal.proxy
+ import modal.retries
+ import modal.schedule
+ import modal.secret
+ import modal.shared_volume
+ import multiprocessing.synchronize
++import os
+ import synchronicity.overload_tracking
+ import typing
+ 
+ class LocalEntrypoint:
+     raw_f: typing.Callable[..., typing.Any]
+     _stub: _Stub
+ 
+@@ -126,19 +127,19 @@
+     def registered_web_endpoints(self) -> typing.List[str]:
+         ...
+ 
+     def local_entrypoint(self, raw_f=None, name: typing.Union[str, None] = None):
+         ...
+ 
+     @typing.overload
+-    def function(self, f: None = None, *, image: typing.Union[modal.image._Image, None] = None, schedule: typing.Union[modal.schedule.Schedule, None] = None, secret: typing.Union[modal.secret._Secret, None] = None, secrets: typing.Sequence[modal.secret._Secret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = False, mounts: typing.Sequence[modal.mount._Mount] = (), shared_volumes: typing.Dict[str, modal.shared_volume._SharedVolume] = {}, allow_cross_region_volumes: bool = False, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy._Proxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = False, keep_warm: typing.Union[int, None] = None, name: typing.Union[str, None] = None, is_generator: typing.Union[bool, None] = None, cloud: typing.Union[str, None] = None) -> typing.Callable[[typing.Union[modal.functions._PartialFunction, typing.Callable[..., typing.Any]]], modal.functions._FunctionHandle]:
++    def function(self, f: None = None, *, image: typing.Union[modal.image._Image, None] = None, schedule: typing.Union[modal.schedule.Schedule, None] = None, secret: typing.Union[modal.secret._Secret, None] = None, secrets: typing.Sequence[modal.secret._Secret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = False, mounts: typing.Sequence[modal.mount._Mount] = (), shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume._SharedVolume] = {}, allow_cross_region_volumes: bool = False, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy._Proxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = False, keep_warm: typing.Union[int, None] = None, name: typing.Union[str, None] = None, is_generator: typing.Union[bool, None] = None, cloud: typing.Union[str, None] = None) -> typing.Callable[[typing.Union[modal.functions._PartialFunction, typing.Callable[..., typing.Any]]], modal.functions._FunctionHandle]:
+         ...
+ 
+     @typing.overload
+-    def function(self, f: typing.Union[modal.functions._PartialFunction, typing.Callable[..., typing.Any]], *, image: typing.Union[modal.image._Image, None] = None, schedule: typing.Union[modal.schedule.Schedule, None] = None, secret: typing.Union[modal.secret._Secret, None] = None, secrets: typing.Sequence[modal.secret._Secret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = False, mounts: typing.Sequence[modal.mount._Mount] = (), shared_volumes: typing.Dict[str, modal.shared_volume._SharedVolume] = {}, allow_cross_region_volumes: bool = False, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy._Proxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = False, keep_warm: typing.Union[int, None] = None, name: typing.Union[str, None] = None, is_generator: typing.Union[bool, None] = None, cloud: typing.Union[str, None] = None) -> modal.functions._FunctionHandle:
++    def function(self, f: typing.Union[modal.functions._PartialFunction, typing.Callable[..., typing.Any]], *, image: typing.Union[modal.image._Image, None] = None, schedule: typing.Union[modal.schedule.Schedule, None] = None, secret: typing.Union[modal.secret._Secret, None] = None, secrets: typing.Sequence[modal.secret._Secret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = False, mounts: typing.Sequence[modal.mount._Mount] = (), shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume._SharedVolume] = {}, allow_cross_region_volumes: bool = False, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy._Proxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = False, keep_warm: typing.Union[int, None] = None, name: typing.Union[str, None] = None, is_generator: typing.Union[bool, None] = None, cloud: typing.Union[str, None] = None) -> modal.functions._FunctionHandle:
+         ...
+ 
+     def web_endpoint(self, method: str = 'GET', label: typing.Union[str, None] = None, wait_for_response: bool = True):
+         ...
+ 
+     def asgi_app(self, label: typing.Union[str, None] = None, wait_for_response: bool = True):
+         ...
+@@ -154,15 +155,15 @@
+ 
+     def wsgi(self, raw_f, label: typing.Union[str, None] = None, wait_for_response: bool = None, **function_args) -> modal.functions._FunctionHandle:
+         ...
+ 
+     async def interactive_shell(self, cmd=None, image=None, **kwargs):
+         ...
+ 
+-    def cls(self=None, user_cls: typing.Union[type, None] = None, image: typing.Union[modal.image._Image, None] = None, secret: typing.Union[modal.secret._Secret, None] = None, secrets: typing.Sequence[modal.secret._Secret] = None, gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = None, mounts: typing.Sequence[modal.mount._Mount] = None, shared_volumes: typing.Dict[str, modal.shared_volume._SharedVolume] = None, allow_cross_region_volumes: bool = None, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy._Proxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = None, keep_warm: typing.Union[int, None] = None, cloud: typing.Union[str, None] = None) -> type:
++    def cls(self=None, user_cls: typing.Union[type, None] = None, image: typing.Union[modal.image._Image, None] = None, secret: typing.Union[modal.secret._Secret, None] = None, secrets: typing.Sequence[modal.secret._Secret] = None, gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = None, mounts: typing.Sequence[modal.mount._Mount] = None, shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume._SharedVolume] = None, allow_cross_region_volumes: bool = None, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy._Proxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = None, keep_warm: typing.Union[int, None] = None, cloud: typing.Union[str, None] = None) -> type:
+         ...
+ 
+     def _hydrate_function_handles(self, client: modal.client._Client, container_app: modal.app._App):
+         ...
+ 
+ 
+ class Stub:
+@@ -260,19 +261,19 @@
+     def registered_web_endpoints(self) -> typing.List[str]:
+         ...
+ 
+     def local_entrypoint(self, raw_f=None, name: typing.Union[str, None] = None):
+         ...
+ 
+     @typing.overload
+-    def function(self, f: None = None, *, image: typing.Union[modal.image.Image, None] = None, schedule: typing.Union[modal.schedule.Schedule, None] = None, secret: typing.Union[modal.secret.Secret, None] = None, secrets: typing.Sequence[modal.secret.Secret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = False, mounts: typing.Sequence[modal.mount.Mount] = (), shared_volumes: typing.Dict[str, modal.shared_volume.SharedVolume] = {}, allow_cross_region_volumes: bool = False, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy.Proxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = False, keep_warm: typing.Union[int, None] = None, name: typing.Union[str, None] = None, is_generator: typing.Union[bool, None] = None, cloud: typing.Union[str, None] = None) -> typing.Callable[[typing.Union[modal.functions.PartialFunction, typing.Callable[..., typing.Any]]], modal.functions.FunctionHandle]:
++    def function(self, f: None = None, *, image: typing.Union[modal.image.Image, None] = None, schedule: typing.Union[modal.schedule.Schedule, None] = None, secret: typing.Union[modal.secret.Secret, None] = None, secrets: typing.Sequence[modal.secret.Secret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = False, mounts: typing.Sequence[modal.mount.Mount] = (), shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume.SharedVolume] = {}, allow_cross_region_volumes: bool = False, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy.Proxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = False, keep_warm: typing.Union[int, None] = None, name: typing.Union[str, None] = None, is_generator: typing.Union[bool, None] = None, cloud: typing.Union[str, None] = None) -> typing.Callable[[typing.Union[modal.functions.PartialFunction, typing.Callable[..., typing.Any]]], modal.functions.FunctionHandle]:
+         ...
+ 
+     @typing.overload
+-    def function(self, f: typing.Union[modal.functions.PartialFunction, typing.Callable[..., typing.Any]], *, image: typing.Union[modal.image.Image, None] = None, schedule: typing.Union[modal.schedule.Schedule, None] = None, secret: typing.Union[modal.secret.Secret, None] = None, secrets: typing.Sequence[modal.secret.Secret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = False, mounts: typing.Sequence[modal.mount.Mount] = (), shared_volumes: typing.Dict[str, modal.shared_volume.SharedVolume] = {}, allow_cross_region_volumes: bool = False, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy.Proxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = False, keep_warm: typing.Union[int, None] = None, name: typing.Union[str, None] = None, is_generator: typing.Union[bool, None] = None, cloud: typing.Union[str, None] = None) -> modal.functions.FunctionHandle:
++    def function(self, f: typing.Union[modal.functions.PartialFunction, typing.Callable[..., typing.Any]], *, image: typing.Union[modal.image.Image, None] = None, schedule: typing.Union[modal.schedule.Schedule, None] = None, secret: typing.Union[modal.secret.Secret, None] = None, secrets: typing.Sequence[modal.secret.Secret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = False, mounts: typing.Sequence[modal.mount.Mount] = (), shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume.SharedVolume] = {}, allow_cross_region_volumes: bool = False, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy.Proxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = False, keep_warm: typing.Union[int, None] = None, name: typing.Union[str, None] = None, is_generator: typing.Union[bool, None] = None, cloud: typing.Union[str, None] = None) -> modal.functions.FunctionHandle:
+         ...
+ 
+     def web_endpoint(self, method: str = 'GET', label: typing.Union[str, None] = None, wait_for_response: bool = True):
+         ...
+ 
+     def asgi_app(self, label: typing.Union[str, None] = None, wait_for_response: bool = True):
+         ...
+@@ -288,15 +289,15 @@
+ 
+     def wsgi(self, raw_f, label: typing.Union[str, None] = None, wait_for_response: bool = True, **function_args) -> modal.functions.FunctionHandle:
+         ...
+ 
+     def interactive_shell(self, cmd=None, image=None, **kwargs):
+         ...
+ 
+-    def cls(self, user_cls: typing.Union[type, None] = None, image: typing.Union[modal.image.Image, None] = None, secret: typing.Union[modal.secret.Secret, None] = None, secrets: typing.Sequence[modal.secret.Secret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = False, mounts: typing.Sequence[modal.mount.Mount] = (), shared_volumes: typing.Dict[str, modal.shared_volume.SharedVolume] = {}, allow_cross_region_volumes: bool = False, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy.Proxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = False, keep_warm: typing.Union[int, None] = None, cloud: typing.Union[str, None] = None) -> type:
++    def cls(self, user_cls: typing.Union[type, None] = None, image: typing.Union[modal.image.Image, None] = None, secret: typing.Union[modal.secret.Secret, None] = None, secrets: typing.Sequence[modal.secret.Secret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = False, mounts: typing.Sequence[modal.mount.Mount] = (), shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume.SharedVolume] = {}, allow_cross_region_volumes: bool = False, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy.Proxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = False, keep_warm: typing.Union[int, None] = None, cloud: typing.Union[str, None] = None) -> type:
+         ...
+ 
+     def _hydrate_function_handles(self, client: modal.client.Client, container_app: modal.app.App):
+         ...
+ 
+ 
+ class AioStub:
+@@ -394,19 +395,19 @@
+     def registered_web_endpoints(self) -> typing.List[str]:
+         ...
+ 
+     def local_entrypoint(self, raw_f=None, name: typing.Union[str, None] = None):
+         ...
+ 
+     @typing.overload
+-    def function(self, f: None = None, *, image: typing.Union[modal.image.AioImage, None] = None, schedule: typing.Union[modal.schedule.Schedule, None] = None, secret: typing.Union[modal.secret.AioSecret, None] = None, secrets: typing.Sequence[modal.secret.AioSecret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = False, mounts: typing.Sequence[modal.mount.AioMount] = (), shared_volumes: typing.Dict[str, modal.shared_volume.AioSharedVolume] = {}, allow_cross_region_volumes: bool = False, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy.AioProxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = False, keep_warm: typing.Union[int, None] = None, name: typing.Union[str, None] = None, is_generator: typing.Union[bool, None] = None, cloud: typing.Union[str, None] = None) -> typing.Callable[[typing.Union[modal.functions.AioPartialFunction, typing.Callable[..., typing.Any]]], modal.functions.AioFunctionHandle]:
++    def function(self, f: None = None, *, image: typing.Union[modal.image.AioImage, None] = None, schedule: typing.Union[modal.schedule.Schedule, None] = None, secret: typing.Union[modal.secret.AioSecret, None] = None, secrets: typing.Sequence[modal.secret.AioSecret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = False, mounts: typing.Sequence[modal.mount.AioMount] = (), shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume.AioSharedVolume] = {}, allow_cross_region_volumes: bool = False, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy.AioProxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = False, keep_warm: typing.Union[int, None] = None, name: typing.Union[str, None] = None, is_generator: typing.Union[bool, None] = None, cloud: typing.Union[str, None] = None) -> typing.Callable[[typing.Union[modal.functions.AioPartialFunction, typing.Callable[..., typing.Any]]], modal.functions.AioFunctionHandle]:
+         ...
+ 
+     @typing.overload
+-    def function(self, f: typing.Union[modal.functions.AioPartialFunction, typing.Callable[..., typing.Any]], *, image: typing.Union[modal.image.AioImage, None] = None, schedule: typing.Union[modal.schedule.Schedule, None] = None, secret: typing.Union[modal.secret.AioSecret, None] = None, secrets: typing.Sequence[modal.secret.AioSecret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = False, mounts: typing.Sequence[modal.mount.AioMount] = (), shared_volumes: typing.Dict[str, modal.shared_volume.AioSharedVolume] = {}, allow_cross_region_volumes: bool = False, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy.AioProxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = False, keep_warm: typing.Union[int, None] = None, name: typing.Union[str, None] = None, is_generator: typing.Union[bool, None] = None, cloud: typing.Union[str, None] = None) -> modal.functions.AioFunctionHandle:
++    def function(self, f: typing.Union[modal.functions.AioPartialFunction, typing.Callable[..., typing.Any]], *, image: typing.Union[modal.image.AioImage, None] = None, schedule: typing.Union[modal.schedule.Schedule, None] = None, secret: typing.Union[modal.secret.AioSecret, None] = None, secrets: typing.Sequence[modal.secret.AioSecret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = False, mounts: typing.Sequence[modal.mount.AioMount] = (), shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume.AioSharedVolume] = {}, allow_cross_region_volumes: bool = False, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy.AioProxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = False, keep_warm: typing.Union[int, None] = None, name: typing.Union[str, None] = None, is_generator: typing.Union[bool, None] = None, cloud: typing.Union[str, None] = None) -> modal.functions.AioFunctionHandle:
+         ...
+ 
+     def web_endpoint(self, method: str = 'GET', label: typing.Union[str, None] = None, wait_for_response: bool = True):
+         ...
+ 
+     def asgi_app(self, label: typing.Union[str, None] = None, wait_for_response: bool = True):
+         ...
+@@ -422,15 +423,15 @@
+ 
+     def wsgi(self, raw_f, label: typing.Union[str, None] = None, wait_for_response: bool = True, **function_args) -> modal.functions.AioFunctionHandle:
+         ...
+ 
+     async def interactive_shell(self, *args, **kwargs):
+         ...
+ 
+-    def cls(self, user_cls: typing.Union[type, None] = None, image: typing.Union[modal.image.AioImage, None] = None, secret: typing.Union[modal.secret.AioSecret, None] = None, secrets: typing.Sequence[modal.secret.AioSecret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = False, mounts: typing.Sequence[modal.mount.AioMount] = (), shared_volumes: typing.Dict[str, modal.shared_volume.AioSharedVolume] = {}, allow_cross_region_volumes: bool = False, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy.AioProxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = False, keep_warm: typing.Union[int, None] = None, cloud: typing.Union[str, None] = None) -> type:
++    def cls(self, user_cls: typing.Union[type, None] = None, image: typing.Union[modal.image.AioImage, None] = None, secret: typing.Union[modal.secret.AioSecret, None] = None, secrets: typing.Sequence[modal.secret.AioSecret] = (), gpu: typing.Union[None, bool, str, modal.gpu._GPUConfig] = None, serialized: bool = False, mounts: typing.Sequence[modal.mount.AioMount] = (), shared_volumes: typing.Dict[typing.Union[str, os.PathLike], modal.shared_volume.AioSharedVolume] = {}, allow_cross_region_volumes: bool = False, cpu: typing.Union[float, None] = None, memory: typing.Union[int, None] = None, proxy: typing.Union[modal.proxy.AioProxy, None] = None, retries: typing.Union[int, modal.retries.Retries, None] = None, concurrency_limit: typing.Union[int, None] = None, container_idle_timeout: typing.Union[int, None] = None, timeout: typing.Union[int, None] = None, interactive: bool = False, keep_warm: typing.Union[int, None] = None, cloud: typing.Union[str, None] = None) -> type:
+         ...
+ 
+     def _hydrate_function_handles(self, client: modal.client.AioClient, container_app: modal.app.AioApp):
+         ...
+ 
+ 
+ _default_image: modal.image._Image
+```
+
+## modal_version/_version_generated.py
+
+```diff
+@@ -1,2 +1,2 @@
+ # Copyright Modal Labs 2023
+-build_number = 2103
++build_number = 2108
+```
+
+## Comparing `modal_client-0.49.2103.dist-info/LICENSE` & `modal_client-0.49.2108.dist-info/LICENSE`
+
+ * *Files identical despite different names*
+
+## Comparing `modal_client-0.49.2103.dist-info/METADATA` & `modal_client-0.49.2108.dist-info/METADATA`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: modal-client
+-Version: 0.49.2103
++Version: 0.49.2108
+ Summary: Python client library for Modal
+ Author: Modal Labs
+ Author-email: erik@modal.com
+ Project-URL: Homepage, https://modal.com
+ Keywords: modal,client,cloud,serverless,infrastructure
+ Classifier: Topic :: System :: Distributed Computing
+ Classifier: Operating System :: OS Independent
+```
+
+## Comparing `modal_client-0.49.2103.dist-info/RECORD` & `modal_client-0.49.2108.dist-info/RECORD`
+
+ * *Files 6% similar despite different names*
+
+```diff
+@@ -53,24 +53,24 @@
+ modal/_types.py,sha256=vUvweCqAt0S-mni_V_EGc_rDCKgJlU5g0P8r08zl1ko,490
+ modal/_watcher.py,sha256=fTCNt2s5P-l91c6Mc9wWGbQe2CCFsPyRMNRe7GqXQ4o,3409
+ modal/aio.py,sha256=chhI3Iqf-iNEG1yQ-IAD4rO8EMz2QmJHrDCm6RDoCGs,1073
+ modal/app.py,sha256=rGw2IhYZRqVF-3jJwXEWkdrbDFVj6hY24KtenPdtcQQ,11136
+ modal/app.pyi,sha256=93jCVM1U_LELHdIevbvSelXUkugcicyoUiMg_nN3LaE,6277
+ modal/call_graph.py,sha256=_cCMOMg7IeWNiRXdd-gJbb7pUYw2Ahl-KbXsizM6Lcg,2462
+ modal/client.py,sha256=vJ2tck1ewPDpYVGc4thblOFenzKeEDdKGw1OG_4QpJY,9185
+-modal/client.pyi,sha256=G_-w5kWIdVZhcDfUMXAwTpOmwpyk_zCYcJEMu-LlelI,3507
++modal/client.pyi,sha256=NJYoqI3QcA646yNrx5aGNvXX4uFmzBXryM0zxnAjM50,3507
+ modal/config.py,sha256=sjTCnKR_caSOJ5mK70ESwVYCJCKODIrlG7_LIidvB-o,6494
+ modal/dict.py,sha256=OTzOidKAEtHdBI3qbQr0s7Al4TyPDWzq-MXutoB5KC0,5597
+ modal/dict.pyi,sha256=joF2JQUoHjdxPWTWCmbUDX9a0UhO3rhIQi2A6THGmpQ,2632
+ modal/exception.py,sha256=gxHMYe7CiH1ijgGyiPe-KAxJOVkUquIMPgrOc-QIdSc,2750
+-modal/functions.py,sha256=VHUhRh5n-eSf0ZErSOEy-kzsXpHd3PiHiW2z2xStxp0,54672
+-modal/functions.pyi,sha256=133SfcuGUO4AAnv9KzPkbLR6BgrzOFnzJRilYQ73_ME,19692
++modal/functions.py,sha256=Ad_7TBgqNORBE_9DRXa80CCTLGEb6Oj6dALfIaXYP1M,54722
++modal/functions.pyi,sha256=tdcgQLtsm3f11P9xEgcY84Y6QiDH6XXJ6dGPnf9koVo,19864
+ modal/gpu.py,sha256=CXpA2TLKXNhegMkRufAFBOeCqN2S8sKtW62p6G-z4Fc,4995
+-modal/image.py,sha256=HL8bT8Bw-uYkdJNTZjqWhop-ysBJKn9fYWx2qxiIwHk,46024
+-modal/image.pyi,sha256=i41EjJzAuCmUdOsKmKmlwcfaaR_EkEYb-DQcifURUG0,17684
++modal/image.py,sha256=j8uZs6s-ISP4txgN47n72sLZkj9kNOrr3P-TpOutmnY,46044
++modal/image.pyi,sha256=vvyd-qKk9h50TI6G43Thc9SOtuvqgYUvaWNM--qb9hw,17775
+ modal/mount.py,sha256=UAGyaZYYskUbWeC9bu3gMdBQ6NoHPLHnCb0DnLGaMIc,14725
+ modal/mount.pyi,sha256=PPygf1YzVBfaL-wGWjBUfdOypPCCEC3RUtaNs-o6FIU,6788
+ modal/object.py,sha256=fH2diu-4bNTbZhqstp9LF4axR3cGKn9-GFqgFY2Pu6c,12812
+ modal/object.pyi,sha256=miLCmZh6xkwXQFJ5RLLOOx4xjHUi96Sg-pTqzA2PT94,10631
+ modal/proxy.py,sha256=W4K4gAOzWTzyCQ9GJS9eHxh0REXW-j7PZfVALk2G2KY,652
+ modal/proxy.pyi,sha256=TDSPr6qtqnvl43w9QkflvnjK5SqGQxxy0txq_Yn9ndw,1111
+ modal/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+@@ -81,16 +81,16 @@
+ modal/runner.py,sha256=CnZtGH6GSnaXOTGbWGG_C8XG6dFQGiTbwJ1SLERD12E,6758
+ modal/schedule.py,sha256=KUzkyV8bUZ1Oclx9thoR6q1ujX0JwPHkHKroJFS4X4k,2619
+ modal/secret.py,sha256=R3wcQQBg2lQYtQ0xX279BOLehmpSOjiGAUWThiySJdg,5190
+ modal/secret.pyi,sha256=IYILwn2aLELTwS3bjKBWhvuP2urZK3ucp6GGnzzeTPM,1150
+ modal/serving.py,sha256=zfUqbpVNzgyOeqHCIgPvo_t4re-bcadkvddr-yr9mcY,4308
+ modal/shared_volume.py,sha256=jSCLAHdl9Fq60b5FGa4OLbID7zi98kTaxBBOBevYOIA,8270
+ modal/shared_volume.pyi,sha256=XGJchoXc1qyUjuPu8zVZSzYYDJTQSQpDZCY0CTrurf0,2923
+-modal/stub.py,sha256=LXP8MGx4gkUpT9YWcodQ2brixzYU-mh50x_Ol3RcW2M,38431
+-modal/stub.pyi,sha256=YBNb1-HRNkXTUD3mjWxDMS_Dr2-7cMsGEskAGdGmC14,24182
++modal/stub.py,sha256=aJQQVC_jErUGqUgNwAZJZAVqXD2B9ber70-MliXPilg,38511
++modal/stub.pyi,sha256=usq2lDItuwrCfcvvoJYc1iZZO2o7u3q2EzCqVrzH6J8,24435
+ modal/cli/__init__.py,sha256=waLjl5c6IPDhSsdWAm9Bji4e2PVxamYABKAze6CHVXY,28
+ modal/cli/app.py,sha256=KEBJvp7dOenIxu8gvdU4isbaZgdTnAdMkyHgd594Y_I,3833
+ modal/cli/config.py,sha256=yqBFZh5MLplDkpUKFG8BVDzAxe_n8cqHHJdQC_bhJL0,484
+ modal/cli/entry_point.py,sha256=RAzDNgy-Ayvfji5gTMSosY2rXbp06xSBzqPuW1sAyz0,1881
+ modal/cli/env.py,sha256=xbA80dlszGWC9A6c6qKapnW_K8sncgiJpa9oQJi_V58,648
+ modal/cli/import_refs.py,sha256=3oBdSGr5yFJUSmRbyZEBe_GypG3Y0D8WZs64YODITBg,10459
+ modal/cli/run.py,sha256=K6EPjO4rR0snM1O-EXKJl6D8InzAeSqOTQTyY_PFOoc,8975
+@@ -139,14 +139,14 @@
+ modal_utils/decorator_utils.py,sha256=_Iu2WmM3rq_py93hHx1_CEEy2EVDfDSCHKkBtctoqmA,2412
+ modal_utils/grpc_utils.py,sha256=qQu1Xc0O5eKaMqGYY8AIq-2sYBKZ6sVMov-OgnDjpVc,9837
+ modal_utils/hash_utils.py,sha256=YOE1LZwyqaTQSZajrF-H_5_iJkjxMclJewC0SgH_8xA,1597
+ modal_utils/http_utils.py,sha256=DGKvrSQxAHjP_LNdM6EaL-TIQPGDX5vt3gcMGg2xkz4,1426
+ modal_utils/logger.py,sha256=odPE0R8_9GkufC_74wqolLikZVIbdxmwDF5xeoILklU,113
+ modal_utils/package_utils.py,sha256=TLF7GygWqsqZpL-dVnchts55IcTwkMPFLBGeZjuRXCw,1226
+ modal_version/__init__.py,sha256=mvujZot4MZ2ZzvN-QWqUcdJ-AG3rsuVzC_r7Jfwzh4E,458
+-modal_version/_version_generated.py,sha256=LDhZzSl0ULF8KQu2Iz6lJNuSeCcR7Xuv50D-o8H_wEk,48
+-modal_client-0.49.2103.dist-info/LICENSE,sha256=psuoW8kuDP96RQsdhzwOqi6fyWv0ct8CR6Jr7He_P_k,10173
+-modal_client-0.49.2103.dist-info/METADATA,sha256=Ek_KNd9BVYxt_R41bTzr2J3i_KS1piiFwSym4Kdz9zU,1880
+-modal_client-0.49.2103.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+-modal_client-0.49.2103.dist-info/entry_points.txt,sha256=An-wYgeEUnm6xzrAP9_NTSTSciYvvEWsMZILtYrvpAI,46
+-modal_client-0.49.2103.dist-info/top_level.txt,sha256=vTBZ60jGY6Z2jEeHlo3uEJRmrR3M1rZoXur0ZaqOrS4,93
+-modal_client-0.49.2103.dist-info/RECORD,,
++modal_version/_version_generated.py,sha256=3G_NgDaA2NEzIDj50FLDT7YP5bQjeg7s9g7Vmrz6E9U,48
++modal_client-0.49.2108.dist-info/LICENSE,sha256=psuoW8kuDP96RQsdhzwOqi6fyWv0ct8CR6Jr7He_P_k,10173
++modal_client-0.49.2108.dist-info/METADATA,sha256=cNvlWW5Rl2cfegqei2qTKlKxlIUhKddQB4vv3vVG5jg,1880
++modal_client-0.49.2108.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
++modal_client-0.49.2108.dist-info/entry_points.txt,sha256=An-wYgeEUnm6xzrAP9_NTSTSciYvvEWsMZILtYrvpAI,46
++modal_client-0.49.2108.dist-info/top_level.txt,sha256=vTBZ60jGY6Z2jEeHlo3uEJRmrR3M1rZoXur0ZaqOrS4,93
++modal_client-0.49.2108.dist-info/RECORD,,
+```
+
