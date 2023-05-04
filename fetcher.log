@@ -5364,3 +5364,45 @@
 [2023-05-04 03:42:45] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
 [2023-05-04 03:43:10] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
 [2023-05-04 03:43:10] INFO root fetch - main [MainThread]: Store serial: [17966293]
+[2023-05-04 03:48:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966293]
+[2023-05-04 03:48:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-04 03:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proactive-jupyter-kernel
+[2023-05-04 03:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CoLT5-attention
+[2023-05-04 03:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CoLT5-attention
+[2023-05-04 03:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: serial-packets
+[2023-05-04 03:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fedml
+[2023-05-04 03:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: utils-uiauto
+[2023-05-04 03:48:19] INFO root fetch - processPackages [fedml]: New version: [0.8.4a9] Old Version: [0.8.4a8]
+[2023-05-04 03:48:19] INFO root fetch - processPackages [serial-packets]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-04 03:48:19] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-04 03:48:19] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-04 03:48:19] INFO root fetch - processPackages [utils-uiauto]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-04 03:48:19] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-05-04 03:48:19] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/2d/89/5e240b8c4bde2ab2881929287116b110fb3b2f843b4e4943c85367ef9518/fedml-0.8.4a8.tar.gz
+[2023-05-04 03:48:20] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/f8/d1/a2d971251a73aec51ba65aff290657c2bd9c0dd81e27722c4770cf400d94/CoLT5-attention-0.5.1.tar.gz
+[2023-05-04 03:48:20] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/f8/d1/a2d971251a73aec51ba65aff290657c2bd9c0dd81e27722c4770cf400d94/CoLT5-attention-0.5.1.tar.gz
+[2023-05-04 03:48:20] INFO root fetch - processPackages [utils-uiauto]: Downloading https://files.pythonhosted.org/packages/e2/c4/d14f72abb7e5f14d81706c022eaef9970574322aea1e637bdb88230fed89/utils_uiauto-0.2.0.tar.gz
+[2023-05-04 03:48:20] INFO root fetch - processPackages [serial-packets]: Downloading https://files.pythonhosted.org/packages/ee/7d/cd6b9a9c4bc27d26cd2e72ef4e79262e1652b9f610e0e6b80f06192cbb46/serial_packets-0.0.3.tar.gz
+[2023-05-04 03:48:20] WARNING root fetch - processPackages [utils-uiauto]: Skipping package: exceeds size limit 13392302>=10485760
+[2023-05-04 03:48:20] INFO root fetch - main [MainThread]: End processing [utils-uiauto] error
+[2023-05-04 03:48:20] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-05-04 03:48:20] INFO root fetch - processPackages [serial-packets]: executing diffoscope
+[2023-05-04 03:48:20] INFO root fetch - processPackages [serial-packets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serial_packets-0.0.2.tar.gz tmp/serial_packets-0.0.3.tar.gz --markdown 20230504/s/serial-packets/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-04 03:48:20] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/33/9b/be9e98195d0e435792d20db883ee2ae3f9b661f8bc6a8d98bb9c8a460195/fedml-0.8.4a9.tar.gz
+[2023-05-04 03:48:20] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/d3/a9/d2bb9216238a12ef43d2546fc0d2c4f74b9c7e7cf4bf9f96649f6a91ee06/CoLT5-attention-0.5.2.tar.gz
+[2023-05-04 03:48:20] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/d3/a9/d2bb9216238a12ef43d2546fc0d2c4f74b9c7e7cf4bf9f96649f6a91ee06/CoLT5-attention-0.5.2.tar.gz
+[2023-05-04 03:48:20] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-05-04 03:48:20] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.4a8.tar.gz tmp/fedml-0.8.4a9.tar.gz --markdown 20230504/f/fedml/0.8.4a8-0.8.4a9/diff.md --exclude *.pyd
+[2023-05-04 03:48:20] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-04 03:48:20] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.5.1.tar.gz tmp/CoLT5-attention-0.5.2.tar.gz --markdown 20230504/C/CoLT5-attention/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-04 03:48:20] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-04 03:48:20] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.5.1.tar.gz tmp/CoLT5-attention-0.5.2.tar.gz --markdown 20230504/C/CoLT5-attention/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-04 03:48:20] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-05-04 03:48:20] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-05-04 03:48:20] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230504/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-05-04 03:48:21] INFO root fetch - main [MainThread]: End processing [serial-packets]: success
+[2023-05-04 03:48:21] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-04 03:48:21] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-04 03:48:21] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-05-04 03:48:29] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-05-04 03:48:29] INFO root fetch - main [MainThread]: Store serial: [17966311]
