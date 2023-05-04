@@ -6299,3 +6299,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2023-05-04 05:16:05] INFO root fetch - main [MainThread]: End processing [sherpa-ncnn] error
 [2023-05-04 05:16:05] INFO root fetch - main [MainThread]: Store serial: [17966813]
+[2023-05-04 05:21:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966813]
+[2023-05-04 05:21:13] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-04 05:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chalkpy
+[2023-05-04 05:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dreamai-dl
+[2023-05-04 05:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PlanetProfile
+[2023-05-04 05:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: csst-ifs-gehong
+[2023-05-04 05:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terrascope-sdk
+[2023-05-04 05:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-cdktf-provider-vault
+[2023-05-04 05:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quantuaninvest-download
+[2023-05-04 05:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: always-updates
+[2023-05-04 05:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mojo-interop
+[2023-05-04 05:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: NJUlogin
+[2023-05-04 05:21:13] INFO root fetch - processPackages [dreamai-dl]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-05-04 05:21:13] INFO root fetch - processPackages [terrascope-sdk]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-04 05:21:13] INFO root fetch - processPackages [csst-ifs-gehong]: New version: [0.0.1.6] Old Version: [0.0.1.5]
+[2023-05-04 05:21:13] INFO root fetch - processPackages [mojo-interop]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-04 05:21:13] INFO root fetch - processPackages [quantuaninvest-download]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 05:21:13] INFO root fetch - processPackages [PlanetProfile]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-04 05:21:13] INFO root fetch - processPackages [chalkpy]: New version: [2.1.0] Old Version: [2.0.4]
+[2023-05-04 05:21:13] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-04 05:21:13] INFO root fetch - processPackages [quantuaninvest-download]: executing diffoscope
+[2023-05-04 05:21:13] INFO root fetch - processPackages [quantuaninvest-download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantuaninvest_download-1.0.8-py3-none-any.whl.zip tmp/quantuaninvest_download-1.0.9-py3-none-any.whl.zip --markdown 20230504/q/quantuaninvest-download/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 05:21:13] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-05-04 05:21:13] INFO root fetch - processPackages [NJUlogin]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-05-04 05:21:13] INFO root fetch - processPackages [mojo-interop]: executing diffoscope
+[2023-05-04 05:21:13] INFO root fetch - processPackages [mojo-interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_interop-0.0.1.tar.gz tmp/mojo_interop-0.0.2.tar.gz --markdown 20230504/m/mojo-interop/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-04 05:21:13] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-04 05:21:13] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230504/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-04 05:21:13] INFO root fetch - processPackages [terrascope-sdk]: Downloading https://files.pythonhosted.org/packages/73/7d/de16df1ab60a7be3b2d34da8ec552c6bc4177d6d845e5afcc8715bd058f7/terrascope-sdk-1.0.4.tar.gz
+[2023-05-04 05:21:13] INFO root fetch - processPackages [csst-ifs-gehong]: Downloading https://files.pythonhosted.org/packages/91/c5/2532922a89f0dffe0874dc79f233e0b8c43c5af8291111afc237bdc64465/csst-ifs-gehong-0.0.1.6.tar.gz
+[2023-05-04 05:21:13] INFO root fetch - processPackages [PlanetProfile]: Downloading https://files.pythonhosted.org/packages/65/29/cb2a9202508a8e95a257628e98a760d9d325bc8d3660522085c5936cd904/PlanetProfile-2.3.8.tar.gz
+[2023-05-04 05:21:13] INFO root fetch - processPackages [csst-ifs-gehong]: executing diffoscope
+[2023-05-04 05:21:13] INFO root fetch - processPackages [csst-ifs-gehong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csst-ifs-gehong-0.0.1.5.tar.gz tmp/csst-ifs-gehong-0.0.1.6.tar.gz --markdown 20230504/c/csst-ifs-gehong/0.0.1.5-0.0.1.6/diff.md --exclude *.pyd
+[2023-05-04 05:21:13] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/b9/68/6f5db9081c17bf7cb469ffb0615929deb40496240f8d5f212d177e132332/cdktf-cdktf-provider-vault-7.0.0.tar.gz
+[2023-05-04 05:21:13] INFO root fetch - processPackages [NJUlogin]: Downloading https://files.pythonhosted.org/packages/70/ae/bc396c25191d418a9b616555b5aaf19721ea4c938943ff7266456a4df8c8/NJUlogin-3.0.4.tar.gz
+[2023-05-04 05:21:13] INFO root fetch - processPackages [dreamai-dl]: Downloading https://files.pythonhosted.org/packages/75/11/1a8d8dfe8bf9f31ffd419ecea84f06ade773b8357cac8348cf088949f67c/dreamai_dl-0.0.8.tar.gz
+[2023-05-04 05:21:13] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/1e/97/974699009ab0417e2b087d3fd849dfa671c545df0283eca1e00112c7f8b5/chalkpy-2.1.0.tar.gz
+[2023-05-04 05:21:13] WARNING root fetch - processPackages [PlanetProfile]: Skipping package: exceeds size limit 90531347>=10485760
+[2023-05-04 05:21:13] INFO root fetch - processPackages [PlanetProfile]: Start processing: cdktf-cdktf-provider-datadog
+[2023-05-04 05:21:13] INFO root fetch - main [MainThread]: End processing [PlanetProfile] error
+[2023-05-04 05:21:13] INFO root fetch - processPackages [dreamai-dl]: executing diffoscope
+[2023-05-04 05:21:13] INFO root fetch - processPackages [dreamai-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai_dl-0.0.6.tar.gz tmp/dreamai_dl-0.0.8.tar.gz --markdown 20230504/d/dreamai-dl/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-05-04 05:21:13] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-04 05:21:13] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.0.4.tar.gz tmp/chalkpy-2.1.0.tar.gz --markdown 20230504/c/chalkpy/2.0.4-2.1.0/diff.md --exclude *.pyd
+[2023-05-04 05:21:14] INFO root fetch - processPackages [terrascope-sdk]: Downloading https://files.pythonhosted.org/packages/dc/ba/1e76d794d221c669fce31d037696682b9836c380ed2bde58162e2f2e4cb1/terrascope-sdk-1.0.5.tar.gz
+[2023-05-04 05:21:14] INFO root fetch - processPackages [NJUlogin]: Downloading https://files.pythonhosted.org/packages/53/18/380a1b1a225a89b18fa719db7c6f3bb3b523d508fafc4142314f3c8486db/NJUlogin-3.0.5.tar.gz
+[2023-05-04 05:21:14] INFO root fetch - processPackages [terrascope-sdk]: executing diffoscope
+[2023-05-04 05:21:14] INFO root fetch - processPackages [terrascope-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrascope-sdk-1.0.4.tar.gz tmp/terrascope-sdk-1.0.5.tar.gz --markdown 20230504/t/terrascope-sdk/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-04 05:21:14] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-05-04 05:21:14] INFO root fetch - processPackages [NJUlogin]: executing diffoscope
+[2023-05-04 05:21:14] INFO root fetch - processPackages [NJUlogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NJUlogin-3.0.4.tar.gz tmp/NJUlogin-3.0.5.tar.gz --markdown 20230504/N/NJUlogin/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-05-04 05:21:14] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: Downloading https://files.pythonhosted.org/packages/02/7d/171ed3eaa4942eaf18d0c458d3c89c9461dea48b96841b2402775dc560b6/cdktf-cdktf-provider-datadog-6.0.1.tar.gz
+[2023-05-04 05:21:14] INFO root fetch - main [MainThread]: End processing [quantuaninvest-download]: success
+[2023-05-04 05:21:14] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-04 05:21:15] INFO root fetch - main [MainThread]: End processing [csst-ifs-gehong]: success
+[2023-05-04 05:21:15] INFO root fetch - main [MainThread]: End processing [dreamai-dl]: success
+[2023-05-04 05:21:15] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/72/42/ccee29d623ebddab19b68f2439a067aeaf3d21660849446a9a42dfad6097/cdktf-cdktf-provider-vault-7.0.1.tar.gz
+[2023-05-04 05:21:15] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: Downloading https://files.pythonhosted.org/packages/a2/88/b9ac7e69417ceee5a16310691bf7af5b01a0aef3faada5b694574d8babee/cdktf-cdktf-provider-datadog-6.0.2.tar.gz
+[2023-05-04 05:21:15] INFO root fetch - main [MainThread]: End processing [NJUlogin]: success
+[2023-05-04 05:21:15] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: executing diffoscope
+[2023-05-04 05:21:15] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-vault-7.0.0.tar.gz tmp/cdktf-cdktf-provider-vault-7.0.1.tar.gz --markdown 20230504/c/cdktf-cdktf-provider-vault/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-05-04 05:21:16] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: executing diffoscope
+[2023-05-04 05:21:16] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-datadog-6.0.1.tar.gz tmp/cdktf-cdktf-provider-datadog-6.0.2.tar.gz --markdown 20230504/c/cdktf-cdktf-provider-datadog/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-05-04 05:21:16] INFO root fetch - main [MainThread]: End processing [terrascope-sdk]: success
+[2023-05-04 05:21:17] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
+[2023-05-04 05:21:19] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-04 05:21:22] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vault]: success
+[2023-05-04 05:21:27] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-datadog]: success
+[2023-05-04 05:21:27] INFO root fetch - main [MainThread]: Store serial: [17966909]
