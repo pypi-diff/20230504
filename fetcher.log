@@ -13800,3 +13800,62 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 13:16:13] INFO root fetch - main [MainThread]: End processing [soil]: success
 [2023-05-04 13:16:13] INFO root fetch - main [MainThread]: End processing [ratinabox]: success
 [2023-05-04 13:16:13] INFO root fetch - main [MainThread]: Store serial: [17971239]
+[2023-05-04 13:21:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17971239]
+[2023-05-04 13:21:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-04 13:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-retrieval-plugin
+[2023-05-04 13:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudshell-rest-api
+[2023-05-04 13:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: forbidden
+[2023-05-04 13:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tootstagram
+[2023-05-04 13:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-jtoman-fixes-python-curse
+[2023-05-04 13:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gad-common-utils
+[2023-05-04 13:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nomenklatura
+[2023-05-04 13:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robin-sd-upload
+[2023-05-04 13:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-laboratory
+[2023-05-04 13:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dactim-mri
+[2023-05-04 13:21:22] INFO root fetch - processPackages [auto-retrieval-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 13:21:22] INFO root fetch - processPackages [certora-cli-alpha-jtoman-fixes-python-curse]: New version: [20230504.11.19.562436] Old Version: [20230504.1.42.685350]
+[2023-05-04 13:21:22] INFO root fetch - processPackages [gad-common-utils]: New version: [0.21] Old Version: [0.20]
+[2023-05-04 13:21:22] INFO root fetch - processPackages [tootstagram]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-04 13:21:22] INFO root fetch - processPackages [forbidden]: New version: [9.6] Old Version: [9.5]
+[2023-05-04 13:21:22] INFO root fetch - processPackages [nomenklatura]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-05-04 13:21:22] INFO root fetch - processPackages [dactim-mri]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 13:21:22] INFO root fetch - processPackages [cloudshell-rest-api]: New version: [9.0.0] Old Version: [8.2.4.0]
+[2023-05-04 13:21:22] INFO root fetch - processPackages [dactim-mri]: Downloading https://files.pythonhosted.org/packages/bd/16/80b20f5bbabdc0989d96d0b3fbcafceae2713709179f4e9c6e4dfeb2904d/dactim_mri-0.0.8.tar.gz
+[2023-05-04 13:21:22] INFO root fetch - processPackages [robin-sd-upload]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-04 13:21:22] WARNING root fetch - processPackages [django-laboratory]: Skipping, unable to determine old version
+[2023-05-04 13:21:22] WARNING root fetch - processPackages [dactim-mri]: Skipping package: exceeds size limit 26534398>=10485760
+[2023-05-04 13:21:22] INFO root fetch - main [MainThread]: End processing [django-laboratory] error
+[2023-05-04 13:21:22] INFO root fetch - processPackages [certora-cli-alpha-jtoman-fixes-python-curse]: Downloading https://files.pythonhosted.org/packages/a8/35/75d426b46a559804355c49a2ce1a4a47610b1bd9ac46b304fbdb9993d0a3/certora-cli-alpha-jtoman-fixes-python-curse-20230504.1.42.685350.tar.gz
+[2023-05-04 13:21:22] INFO root fetch - processPackages [nomenklatura]: executing diffoscope
+[2023-05-04 13:21:22] INFO root fetch - main [MainThread]: End processing [dactim-mri] error
+[2023-05-04 13:21:22] INFO root fetch - processPackages [nomenklatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomenklatura-2.9.4.tar.gz tmp/nomenklatura-2.9.5.tar.gz --markdown 20230504/n/nomenklatura/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-05-04 13:21:22] INFO root fetch - processPackages [tootstagram]: Downloading https://files.pythonhosted.org/packages/dc/d2/4a18afd1215aaf1e3b7be0f8ffc9220212c2f4f144751a8381761082f5e7/tootstagram-0.0.4.tar.gz
+[2023-05-04 13:21:22] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-fixes-python-curse]: Skipping package: exceeds size limit 38420075>=10485760
+[2023-05-04 13:21:22] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-fixes-python-curse] error
+[2023-05-04 13:21:22] INFO root fetch - processPackages [forbidden]: Downloading https://files.pythonhosted.org/packages/50/be/15f0618e2e732a69b3cd632d56ebcd972bb53a7cf03001c60c2a192ea9e6/forbidden-9.5.tar.gz
+[2023-05-04 13:21:23] INFO root fetch - processPackages [auto-retrieval-plugin]: Downloading https://files.pythonhosted.org/packages/6d/01/e134cad7b645c7e14854da5582ca31a2b312017bbd15701865c88982bc43/auto_retrieval_plugin-0.1.2.tar.gz
+[2023-05-04 13:21:23] INFO root fetch - processPackages [cloudshell-rest-api]: Downloading https://files.pythonhosted.org/packages/79/7a/5cd6ce7ce2f1b0eaf7acc245afafc8f11a9eb6a0bf3ccd1961fe6e6c8bf1/cloudshell-rest-api-8.2.4.0.tar.gz
+[2023-05-04 13:21:23] INFO root fetch - processPackages [gad-common-utils]: Downloading https://files.pythonhosted.org/packages/12/04/9e9b03771fba35f814c5f8e800914c21225296b0d9892d070a4d15f36caf/gad_common_utils-0.21.tar.gz
+[2023-05-04 13:21:23] INFO root fetch - processPackages [auto-retrieval-plugin]: executing diffoscope
+[2023-05-04 13:21:23] INFO root fetch - processPackages [auto-retrieval-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_retrieval_plugin-0.1.1.tar.gz tmp/auto_retrieval_plugin-0.1.2.tar.gz --markdown 20230504/a/auto-retrieval-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 13:21:23] INFO root fetch - processPackages [gad-common-utils]: executing diffoscope
+[2023-05-04 13:21:23] INFO root fetch - processPackages [gad-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gad_common_utils-0.20.tar.gz tmp/gad_common_utils-0.21.tar.gz --markdown 20230504/g/gad-common-utils/0.20-0.21/diff.md --exclude *.pyd
+[2023-05-04 13:21:23] INFO root fetch - processPackages [tootstagram]: Downloading https://files.pythonhosted.org/packages/17/4f/68ef84be6b50efb9a14572e96329469836869c7c166f76a10af50637ad3c/tootstagram-0.0.5.tar.gz
+[2023-05-04 13:21:23] INFO root fetch - processPackages [forbidden]: Downloading https://files.pythonhosted.org/packages/cf/24/6d465bdc8ad311e0385bbb08d2c8498ac4296dbd05d99ca1d0d8542376ba/forbidden-9.6.tar.gz
+[2023-05-04 13:21:23] INFO root fetch - processPackages [cloudshell-rest-api]: Downloading https://files.pythonhosted.org/packages/d5/d5/47dd50b8338781a3e2aabc3d4941b4c160d51a0ab9bd75073944f5fb638e/cloudshell-rest-api-9.0.0.zip
+[2023-05-04 13:21:23] INFO root fetch - processPackages [robin-sd-upload]: executing diffoscope
+[2023-05-04 13:21:23] INFO root fetch - processPackages [robin-sd-upload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin_sd_upload-0.2.8.tar.gz tmp/robin_sd_upload-0.2.9.tar.gz --markdown 20230504/r/robin-sd-upload/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-04 13:21:23] INFO root fetch - processPackages [tootstagram]: executing diffoscope
+[2023-05-04 13:21:23] INFO root fetch - processPackages [tootstagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tootstagram-0.0.4.tar.gz tmp/tootstagram-0.0.5.tar.gz --markdown 20230504/t/tootstagram/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-04 13:21:23] INFO root fetch - processPackages [forbidden]: executing diffoscope
+[2023-05-04 13:21:23] INFO root fetch - processPackages [forbidden]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forbidden-9.5.tar.gz tmp/forbidden-9.6.tar.gz --markdown 20230504/f/forbidden/9.5-9.6/diff.md --exclude *.pyd
+[2023-05-04 13:21:23] INFO root fetch - processPackages [cloudshell-rest-api]: executing diffoscope
+[2023-05-04 13:21:23] INFO root fetch - processPackages [cloudshell-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudshell-rest-api-8.2.4.0.tar.gz tmp/cloudshell-rest-api-9.0.0.zip --markdown 20230504/c/cloudshell-rest-api/8.2.4.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-04 13:21:24] INFO root fetch - main [MainThread]: End processing [nomenklatura]: success
+[2023-05-04 13:21:24] INFO root fetch - main [MainThread]: End processing [gad-common-utils]: success
+[2023-05-04 13:21:24] INFO root fetch - main [MainThread]: End processing [robin-sd-upload]: success
+[2023-05-04 13:21:24] INFO root fetch - main [MainThread]: End processing [forbidden]: success
+[2023-05-04 13:21:24] INFO root fetch - main [MainThread]: End processing [cloudshell-rest-api]: success
+[2023-05-04 13:21:24] INFO root fetch - main [MainThread]: End processing [tootstagram]: success
+[2023-05-04 13:21:24] INFO root fetch - main [MainThread]: End processing [auto-retrieval-plugin]: success
+[2023-05-04 13:21:24] INFO root fetch - main [MainThread]: Store serial: [17971273]
