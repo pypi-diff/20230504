@@ -5785,3 +5785,58 @@
 [2023-05-04 04:38:26] INFO root fetch - main [MainThread]: End processing [reviewbot-worker]: success
 [2023-05-04 04:38:26] INFO root fetch - main [MainThread]: End processing [dbt-artifacts-parser]: success
 [2023-05-04 04:38:26] INFO root fetch - main [MainThread]: Store serial: [17966594]
+[2023-05-04 04:43:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966594]
+[2023-05-04 04:43:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-04 04:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reviewbot-extension
+[2023-05-04 04:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LogAssist
+[2023-05-04 04:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-editor
+[2023-05-04 04:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: je-editor-dev
+[2023-05-04 04:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coordinate-descent-attention
+[2023-05-04 04:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edge-logger
+[2023-05-04 04:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: megadata
+[2023-05-04 04:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: elifecleaner
+[2023-05-04 04:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aliyun-python-sdk-dyplsapi
+[2023-05-04 04:43:35] WARNING root fetch - processPackages [LogAssist]: Skipping, unable to determine old version
+[2023-05-04 04:43:35] INFO root fetch - main [MainThread]: End processing [LogAssist] error
+[2023-05-04 04:43:35] INFO root fetch - processPackages [megadata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 04:43:35] INFO root fetch - processPackages [reviewbot-extension]: New version: [3.2] Old Version: [3.1.1]
+[2023-05-04 04:43:35] INFO root fetch - processPackages [elifecleaner]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-04 04:43:35] INFO root fetch - processPackages [aliyun-python-sdk-dyplsapi]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-05-04 04:43:35] INFO root fetch - processPackages [edge-logger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 04:43:35] INFO root fetch - processPackages [je-editor]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-04 04:43:35] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-04 04:43:35] INFO root fetch - processPackages [coordinate-descent-attention]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-04 04:43:35] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-05-04 04:43:35] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.98.tar.gz tmp/je_editor-0.0.99.tar.gz --markdown 20230504/j/je-editor/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-04 04:43:35] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-04 04:43:35] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230504/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-04 04:43:35] INFO root fetch - processPackages [reviewbot-extension]: Downloading https://files.pythonhosted.org/packages/6f/19/50080ee8bbfb3d1b23c47d15b2c6442a03f6cf43dc7801362799f9f9f0df/reviewbot-extension-3.1.1.tar.gz
+[2023-05-04 04:43:35] INFO root fetch - processPackages [aliyun-python-sdk-dyplsapi]: Downloading https://files.pythonhosted.org/packages/1f/00/009d4df5415e24d2a362b61d016a58131d9d7100ec6b2508829eb0b5ec69/aliyun-python-sdk-dyplsapi-1.3.4.tar.gz
+[2023-05-04 04:43:35] INFO root fetch - processPackages [megadata]: Downloading https://files.pythonhosted.org/packages/db/18/1acacd008c750e61bf570a49c63150ce5e2f6f63fc27290d33af9f68c426/megadata-0.0.8.tar.gz
+[2023-05-04 04:43:35] INFO root fetch - processPackages [edge-logger]: Downloading https://files.pythonhosted.org/packages/8b/f4/dd2c1531e1354a1fe55f30c302fc0317ae5e0fb9537e0ac329060d80fe33/edge_logger-0.0.9.tar.gz
+[2023-05-04 04:43:35] INFO root fetch - processPackages [coordinate-descent-attention]: Downloading https://files.pythonhosted.org/packages/eb/56/556de5770352fb4ce4364b98b47208415c40b0e28e471793a8ccc120bb3d/coordinate-descent-attention-0.0.7.tar.gz
+[2023-05-04 04:43:35] INFO root fetch - processPackages [elifecleaner]: executing diffoscope
+[2023-05-04 04:43:35] INFO root fetch - processPackages [elifecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elifecleaner-0.9.0.tar.gz tmp/elifecleaner-0.9.1.tar.gz --markdown 20230504/e/elifecleaner/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-04 04:43:36] INFO root fetch - processPackages [edge-logger]: executing diffoscope
+[2023-05-04 04:43:36] INFO root fetch - processPackages [edge-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_logger-0.0.8.tar.gz tmp/edge_logger-0.0.9.tar.gz --markdown 20230504/e/edge-logger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 04:43:36] INFO root fetch - processPackages [reviewbot-extension]: Downloading https://files.pythonhosted.org/packages/88/d2/23e84c8b43c3da5bd5bbc690edf1461fa71f04a62dbf5a6b17d3d36c068d/reviewbot-extension-3.2.tar.gz
+[2023-05-04 04:43:36] INFO root fetch - processPackages [coordinate-descent-attention]: Downloading https://files.pythonhosted.org/packages/06/08/2053f2d321ff86747aeba1ffdd1eedd519a900ef5579af4c341f1af1c063/coordinate-descent-attention-0.0.8.tar.gz
+[2023-05-04 04:43:36] INFO root fetch - processPackages [reviewbot-extension]: executing diffoscope
+[2023-05-04 04:43:36] INFO root fetch - processPackages [reviewbot-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reviewbot-extension-3.1.1.tar.gz tmp/reviewbot-extension-3.2.tar.gz --markdown 20230504/r/reviewbot-extension/3.1.1-3.2/diff.md --exclude *.pyd
+[2023-05-04 04:43:36] INFO root fetch - processPackages [aliyun-python-sdk-dyplsapi]: Downloading https://files.pythonhosted.org/packages/1a/07/2a4c0084bf0ac28c3b37e365925227a65110df8d4d6da454800e085d1889/aliyun-python-sdk-dyplsapi-1.3.5.tar.gz
+[2023-05-04 04:43:36] INFO root fetch - processPackages [coordinate-descent-attention]: executing diffoscope
+[2023-05-04 04:43:36] INFO root fetch - processPackages [coordinate-descent-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coordinate-descent-attention-0.0.7.tar.gz tmp/coordinate-descent-attention-0.0.8.tar.gz --markdown 20230504/c/coordinate-descent-attention/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-04 04:43:36] INFO root fetch - processPackages [aliyun-python-sdk-dyplsapi]: executing diffoscope
+[2023-05-04 04:43:36] INFO root fetch - processPackages [aliyun-python-sdk-dyplsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dyplsapi-1.3.4.tar.gz tmp/aliyun-python-sdk-dyplsapi-1.3.5.tar.gz --markdown 20230504/a/aliyun-python-sdk-dyplsapi/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-05-04 04:43:36] INFO root fetch - processPackages [megadata]: Downloading https://files.pythonhosted.org/packages/34/d3/1b1e3069204cfd5341c0be3bad7df7e60019431a6959b3182db14b874807/megadata-0.0.9.tar.gz
+[2023-05-04 04:43:36] INFO root fetch - processPackages [megadata]: executing diffoscope
+[2023-05-04 04:43:36] INFO root fetch - processPackages [megadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megadata-0.0.8.tar.gz tmp/megadata-0.0.9.tar.gz --markdown 20230504/m/megadata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 04:43:37] INFO root fetch - main [MainThread]: End processing [edge-logger]: success
+[2023-05-04 04:43:37] INFO root fetch - main [MainThread]: End processing [elifecleaner]: success
+[2023-05-04 04:43:37] INFO root fetch - main [MainThread]: End processing [coordinate-descent-attention]: success
+[2023-05-04 04:43:37] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-05-04 04:43:37] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dyplsapi]: success
+[2023-05-04 04:43:37] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-04 04:43:37] INFO root fetch - main [MainThread]: End processing [megadata]: success
+[2023-05-04 04:43:37] INFO root fetch - main [MainThread]: End processing [reviewbot-extension]: success
+[2023-05-04 04:43:37] INFO root fetch - main [MainThread]: Store serial: [17966624]
