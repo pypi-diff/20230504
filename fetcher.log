@@ -17261,3 +17261,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 16:15:07] INFO root fetch - main [MainThread]: End processing [buckaroo]: success
 [2023-05-04 16:15:40] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-04 16:15:40] INFO root fetch - main [MainThread]: Store serial: [17973291]
+[2023-05-04 16:20:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17973291]
+[2023-05-04 16:20:51] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-04 16:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: schoolware-api
+[2023-05-04 16:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qiskit-ibm-experiment
+[2023-05-04 16:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: capellambse
+[2023-05-04 16:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eksupgrade
+[2023-05-04 16:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PaReBrick
+[2023-05-04 16:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: honkaistarrail
+[2023-05-04 16:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pear-xai
+[2023-05-04 16:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: veetility
+[2023-05-04 16:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ovos-stt-plugin-fasterwhisper
+[2023-05-04 16:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ghastoolkit
+[2023-05-04 16:20:52] INFO root fetch - processPackages [schoolware-api]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-04 16:20:52] INFO root fetch - processPackages [qiskit-ibm-experiment]: New version: [0.3.1] Old Version: [0.3]
+[2023-05-04 16:20:52] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 16:20:52] INFO root fetch - processPackages [eksupgrade]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-04 16:20:52] INFO root fetch - processPackages [pear-xai]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-04 16:20:52] INFO root fetch - processPackages [ghastoolkit]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-04 16:20:52] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-05-04 16:20:52] INFO root fetch - processPackages [PaReBrick]: New version: [0.5] Old Version: [0.4]
+[2023-05-04 16:20:52] INFO root fetch - processPackages [honkaistarrail]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-04 16:20:52] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-05-04 16:20:52] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-05-04 16:20:52] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.8.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230504/v/veetility/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 16:20:52] INFO root fetch - processPackages [pear-xai]: Downloading https://files.pythonhosted.org/packages/d4/22/184ce7a97ce97ee0f14ce5f5f3f267c614e6e5c6b64fb37c241dc86a3a28/pear-xai-0.0.6.tar.gz
+[2023-05-04 16:20:52] INFO root fetch - processPackages [PaReBrick]: Downloading https://files.pythonhosted.org/packages/c4/c6/9e51a52f6f700ccde56a17edbe820458da690db8a3965caf47a93bd7267d/PaReBrick-0.4.tar.gz
+[2023-05-04 16:20:52] INFO root fetch - processPackages [qiskit-ibm-experiment]: Downloading https://files.pythonhosted.org/packages/07/3c/ae24e4f718d800467ba776ea6778713bdbf21009dac5a8641af712b0900f/qiskit-ibm-experiment-0.3.tar.gz
+[2023-05-04 16:20:52] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/9c/28/ab231b8023edd2afc2e7bcbae3deea4e1d8e521ee38f95261ae9171237e1/ghastoolkit-0.2.1.tar.gz
+[2023-05-04 16:20:52] INFO root fetch - processPackages [schoolware-api]: Downloading https://files.pythonhosted.org/packages/d2/63/cdada80a09f9c7b64de3ed81ca75044cb213076dd15e33a786d0ab5154d4/schoolware_api-1.0.7.tar.gz
+[2023-05-04 16:20:52] INFO root fetch - processPackages [honkaistarrail]: Downloading https://files.pythonhosted.org/packages/a8/ca/307d81b3a774a7080b496ae5d5ae7d208fd126bed0b3cfc614e2e30295ab/honkaistarrail-0.0.2.tar.gz
+[2023-05-04 16:20:52] INFO root fetch - processPackages [eksupgrade]: Downloading https://files.pythonhosted.org/packages/ce/d2/ee42301d2adbd8b2ccb69f320e6f2ceff8d56e1bf3c3fc71520f67a8afee/eksupgrade-0.8.3.tar.gz
+[2023-05-04 16:20:52] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: Downloading https://files.pythonhosted.org/packages/ba/c8/022e61fa4d36f81c4ba6036851ee238643d1596cbc8e6e93607310a02c7c/ovos-stt-plugin-fasterwhisper-0.0.1a2.tar.gz
+[2023-05-04 16:20:52] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-05-04 16:20:52] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.2.0.tar.gz tmp/ghastoolkit-0.2.1.tar.gz --markdown 20230504/g/ghastoolkit/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-04 16:20:52] INFO root fetch - processPackages [pear-xai]: executing diffoscope
+[2023-05-04 16:20:52] INFO root fetch - processPackages [pear-xai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pear-xai-0.0.5.tar.gz tmp/pear-xai-0.0.6.tar.gz --markdown 20230504/p/pear-xai/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-04 16:20:52] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: executing diffoscope
+[2023-05-04 16:20:52] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-stt-plugin-fasterwhisper-0.0.1a1.tar.gz tmp/ovos-stt-plugin-fasterwhisper-0.0.1a2.tar.gz --markdown 20230504/o/ovos-stt-plugin-fasterwhisper/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-05-04 16:20:52] INFO root fetch - processPackages [honkaistarrail]: Downloading https://files.pythonhosted.org/packages/91/14/ecc2e62d8e644cbc40e27b8ca17bfd62defe20dbeb63a5d2e3d15fc8ad1b/honkaistarrail-0.0.3.tar.gz
+[2023-05-04 16:20:52] INFO root fetch - processPackages [PaReBrick]: Downloading https://files.pythonhosted.org/packages/cc/80/ac56d9a70132b9cfe49fe797c4bc2b1108aadb52c68d7431c56b14659e13/PaReBrick-0.5.tar.gz
+[2023-05-04 16:20:52] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-05-04 16:20:52] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230504/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-05-04 16:20:52] INFO root fetch - processPackages [schoolware-api]: Downloading https://files.pythonhosted.org/packages/b5/a9/5d3f953d3e49c40326ea905caea00a6817cb5052781ea7cae43dadb04eab/schoolware_api-1.0.8.tar.gz
+[2023-05-04 16:20:52] INFO root fetch - processPackages [honkaistarrail]: executing diffoscope
+[2023-05-04 16:20:52] INFO root fetch - processPackages [honkaistarrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honkaistarrail-0.0.2.tar.gz tmp/honkaistarrail-0.0.3.tar.gz --markdown 20230504/h/honkaistarrail/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-04 16:20:52] INFO root fetch - processPackages [qiskit-ibm-experiment]: Downloading https://files.pythonhosted.org/packages/16/aa/d51c0050bc47b9460449ea4602d993f53e48debf761b7a268a0851bb0a84/qiskit-ibm-experiment-0.3.1.tar.gz
+[2023-05-04 16:20:52] INFO root fetch - processPackages [PaReBrick]: executing diffoscope
+[2023-05-04 16:20:52] INFO root fetch - processPackages [PaReBrick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PaReBrick-0.4.tar.gz tmp/PaReBrick-0.5.tar.gz --markdown 20230504/P/PaReBrick/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-04 16:20:52] INFO root fetch - processPackages [eksupgrade]: Downloading https://files.pythonhosted.org/packages/b2/88/28769ae21acb8060b6604d192b136e8d8a1eab76dd6c39372ae1dd86cd1f/eksupgrade-0.9.0.tar.gz
+[2023-05-04 16:20:52] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-04 16:20:52] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.0.7.tar.gz tmp/schoolware_api-1.0.8.tar.gz --markdown 20230504/s/schoolware-api/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-04 16:20:52] INFO root fetch - processPackages [qiskit-ibm-experiment]: executing diffoscope
+[2023-05-04 16:20:52] INFO root fetch - processPackages [qiskit-ibm-experiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-ibm-experiment-0.3.tar.gz tmp/qiskit-ibm-experiment-0.3.1.tar.gz --markdown 20230504/q/qiskit-ibm-experiment/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-05-04 16:20:52] INFO root fetch - processPackages [eksupgrade]: executing diffoscope
+[2023-05-04 16:20:52] INFO root fetch - processPackages [eksupgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eksupgrade-0.8.3.tar.gz tmp/eksupgrade-0.9.0.tar.gz --markdown 20230504/e/eksupgrade/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 16:20:53] INFO root fetch - processPackages [veetility]: Start processing: certora-cli-alpha-or-treeViewConcurrency
+[2023-05-04 16:20:53] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-05-04 16:20:53] INFO root fetch - processPackages [certora-cli-alpha-or-treeViewConcurrency]: New version: [20230504.14.18.356963] Old Version: [20230503.13.57.759479]
+[2023-05-04 16:20:53] INFO root fetch - processPackages [certora-cli-alpha-or-treeViewConcurrency]: Downloading https://files.pythonhosted.org/packages/6d/b8/5ae894981b905057f4726623fa50c3c1ced9f7f2ba748ab55e1ebbccf182/certora-cli-alpha-or-treeViewConcurrency-20230503.13.57.759479.tar.gz
+[2023-05-04 16:20:53] WARNING root fetch - processPackages [certora-cli-alpha-or-treeViewConcurrency]: Skipping package: exceeds size limit 38383608>=10485760
+[2023-05-04 16:20:53] INFO root fetch - processPackages [certora-cli-alpha-or-treeViewConcurrency]: Start processing: pydash
+[2023-05-04 16:20:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-or-treeViewConcurrency] error
+[2023-05-04 16:20:53] INFO root fetch - processPackages [ghastoolkit]: Start processing: OWR
+[2023-05-04 16:20:53] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-05-04 16:20:53] INFO root fetch - processPackages [pydash]: New version: [7.0.3] Old Version: [7.0.2]
+[2023-05-04 16:20:53] INFO root fetch - processPackages [OWR]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-05-04 16:20:53] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: Start processing: certora-cli-alpha-alex-more-cvlrange-meta
+[2023-05-04 16:20:53] INFO root fetch - main [MainThread]: End processing [ovos-stt-plugin-fasterwhisper]: success
+[2023-05-04 16:20:54] INFO root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: New version: [20230504.14.18.235019] Old Version: [20230503.14.10.531174]
+[2023-05-04 16:20:54] INFO root fetch - processPackages [pydash]: Downloading https://files.pythonhosted.org/packages/22/05/9d25ed0fa39c639ed16c9424771ec10a2b773b21fff76e6f6f731a1eefa1/pydash-7.0.2.tar.gz
+[2023-05-04 16:20:54] INFO root fetch - processPackages [OWR]: Downloading https://files.pythonhosted.org/packages/b4/2f/c0dd419e841777e30ea888e9137f96389076b1b1260828ab4a2fcd78999a/OWR-2.6.1.tar.gz
+[2023-05-04 16:20:54] INFO root fetch - processPackages [OWR]: executing diffoscope
+[2023-05-04 16:20:54] INFO root fetch - processPackages [OWR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OWR-2.6.0.tar.gz tmp/OWR-2.6.1.tar.gz --markdown 20230504/O/OWR/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-05-04 16:20:54] INFO root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: Downloading https://files.pythonhosted.org/packages/2c/6a/075bdbfacbd101f2dc233f7dcf40d9317e6543766780297511185a161657/certora-cli-alpha-alex-more-cvlrange-meta-20230503.14.10.531174.tar.gz
+[2023-05-04 16:20:54] INFO root fetch - processPackages [honkaistarrail]: Start processing: modelw-docker
+[2023-05-04 16:20:54] INFO root fetch - main [MainThread]: End processing [honkaistarrail]: success
+[2023-05-04 16:20:54] WARNING root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: Skipping package: exceeds size limit 38383634>=10485760
+[2023-05-04 16:20:54] INFO root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: Start processing: home-assistant-frontend
+[2023-05-04 16:20:54] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-more-cvlrange-meta] error
+[2023-05-04 16:20:54] INFO root fetch - processPackages [modelw-docker]: New version: [2023.4.0b2] Old Version: [2023.4.0b1]
+[2023-05-04 16:20:54] INFO root fetch - processPackages [home-assistant-frontend]: New version: [20230503.2] Old Version: [20230503.1]
+[2023-05-04 16:20:54] INFO root fetch - processPackages [pydash]: Downloading https://files.pythonhosted.org/packages/68/41/cfac2c25b610d05511714c3702d415e1687f7c2c2a758371963e1d65f69b/pydash-7.0.3.tar.gz
+[2023-05-04 16:20:54] INFO root fetch - processPackages [pydash]: executing diffoscope
+[2023-05-04 16:20:54] INFO root fetch - processPackages [pydash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydash-7.0.2.tar.gz tmp/pydash-7.0.3.tar.gz --markdown 20230504/p/pydash/7.0.2-7.0.3/diff.md --exclude *.pyd
+[2023-05-04 16:20:54] INFO root fetch - processPackages [home-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/53/23/b0f4805a261620ee31f442d8bfca69797ccd5ed5866b2dd3dbf37fe5b427/home_assistant_frontend-20230503.1-py3-none-any.whl
+[2023-05-04 16:20:54] INFO root fetch - processPackages [modelw-docker]: Downloading https://files.pythonhosted.org/packages/5a/15/9f5bc66f54b817823d9de75a9ad16f29c5bc1aab2306272c34234b317866/modelw_docker-2023.4.0b2.tar.gz
+[2023-05-04 16:20:54] WARNING root fetch - processPackages [home-assistant-frontend]: Skipping package: exceeds size limit 52545470>=10485760
+[2023-05-04 16:20:54] INFO root fetch - processPackages [home-assistant-frontend]: Start processing: LeoLeeeCommon
+[2023-05-04 16:20:54] INFO root fetch - main [MainThread]: End processing [home-assistant-frontend] error
+[2023-05-04 16:20:54] INFO root fetch - processPackages [schoolware-api]: Start processing: bytecodemanipulation
+[2023-05-04 16:20:54] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-04 16:20:54] WARNING root fetch - processPackages [LeoLeeeCommon]: Skipping, unable to determine old version
+[2023-05-04 16:20:54] INFO root fetch - main [MainThread]: End processing [LeoLeeeCommon] error
+[2023-05-04 16:20:54] INFO root fetch - processPackages [bytecodemanipulation]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-05-04 16:20:54] INFO root fetch - main [MainThread]: End processing [eksupgrade]: success
+[2023-05-04 16:20:54] INFO root fetch - processPackages [modelw-docker]: executing diffoscope
+[2023-05-04 16:20:54] INFO root fetch - processPackages [modelw-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelw_docker-2023.4.0b1.tar.gz tmp/modelw_docker-2023.4.0b2.tar.gz --markdown 20230504/m/modelw-docker/2023.4.0b1-2023.4.0b2/diff.md --exclude *.pyd
+[2023-05-04 16:20:54] INFO root fetch - main [MainThread]: End processing [qiskit-ibm-experiment]: success
+[2023-05-04 16:20:54] INFO root fetch - processPackages [bytecodemanipulation]: Downloading https://files.pythonhosted.org/packages/39/95/6635a5645f4c9baf3a1dfa784f1c8682b050de904a379e3eadcfc14a2d51/bytecodemanipulation-0.2.2.tar.gz
+[2023-05-04 16:20:54] INFO root fetch - main [MainThread]: End processing [PaReBrick]: success
+[2023-05-04 16:20:54] INFO root fetch - processPackages [bytecodemanipulation]: Downloading https://files.pythonhosted.org/packages/86/eb/1e723a6f38ae521f79c58bf118af0f506393e50adffcf2147eae84920c8b/bytecodemanipulation-0.2.4.tar.gz
+[2023-05-04 16:20:54] INFO root fetch - processPackages [bytecodemanipulation]: executing diffoscope
+[2023-05-04 16:20:54] INFO root fetch - processPackages [bytecodemanipulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytecodemanipulation-0.2.2.tar.gz tmp/bytecodemanipulation-0.2.4.tar.gz --markdown 20230504/b/bytecodemanipulation/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2023-05-04 16:20:55] INFO root fetch - main [MainThread]: End processing [OWR]: success
+[2023-05-04 16:20:55] INFO root fetch - main [MainThread]: End processing [modelw-docker]: success
+[2023-05-04 16:20:56] INFO root fetch - main [MainThread]: End processing [bytecodemanipulation]: success
+[2023-05-04 16:20:57] INFO root fetch - main [MainThread]: End processing [pydash]: success
+[2023-05-04 16:20:57] INFO root fetch - main [MainThread]: End processing [pear-xai]: success
+[2023-05-04 16:21:01] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-05-04 16:21:01] INFO root fetch - main [MainThread]: Store serial: [17973365]
