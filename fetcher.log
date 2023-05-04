@@ -12229,3 +12229,110 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 11:54:37] INFO root fetch - main [MainThread]: End processing [blond]: success
 [2023-05-04 11:55:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-repair-stock-move]: success
 [2023-05-04 11:55:03] INFO root fetch - main [MainThread]: Store serial: [17970315]
+[2023-05-04 12:00:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17970315]
+[2023-05-04 12:00:17] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-04 12:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pequenawebview
+[2023-05-04 12:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: soil
+[2023-05-04 12:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vnfaker
+[2023-05-04 12:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Pequena
+[2023-05-04 12:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: changepoynt
+[2023-05-04 12:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Sandra
+[2023-05-04 12:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: appium-flutter-report
+[2023-05-04 12:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-master
+[2023-05-04 12:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edwh-pipcompile-plugin
+[2023-05-04 12:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tinybird-cli
+[2023-05-04 12:00:17] INFO root fetch - processPackages [pequenawebview]: New version: [4.1.1] Old Version: [4.1]
+[2023-05-04 12:00:17] INFO root fetch - processPackages [Sandra]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-05-04 12:00:17] INFO root fetch - processPackages [vnfaker]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-04 12:00:17] INFO root fetch - processPackages [changepoynt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-04 12:00:17] INFO root fetch - processPackages [soil]: New version: [1.0.0rc4] Old Version: [1.0.0rc3]
+[2023-05-04 12:00:17] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 12:00:17] INFO root fetch - processPackages [edwh-pipcompile-plugin]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-04 12:00:17] INFO root fetch - processPackages [appium-flutter-report]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-04 12:00:17] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-05-04 12:00:17] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230504.9.57.726431] Old Version: [20230503.8.57.91126]
+[2023-05-04 12:00:17] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-05-04 12:00:17] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230504/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:00:17] INFO root fetch - processPackages [pequenawebview]: Downloading https://files.pythonhosted.org/packages/84/3f/6b9757a90833b1282a249e2e91cb3bed117031527b791aed0a98d0cf75b3/pequenawebview-4.1.tar.gz
+[2023-05-04 12:00:17] INFO root fetch - processPackages [Sandra]: Downloading https://files.pythonhosted.org/packages/5c/70/f193455b774d0d9e6e24a60fc580efe4af8ec5102153c4356c7459a19817/Sandra-0.0.16.tar.gz
+[2023-05-04 12:00:17] INFO root fetch - processPackages [appium-flutter-report]: Downloading https://files.pythonhosted.org/packages/3f/e6/ecdd0776e08fe99f29dd1787b275f1f3c3cbbed9f8eefc376bd02fc16cba/appium_flutter_report-0.1.6.tar.gz
+[2023-05-04 12:00:17] INFO root fetch - processPackages [vnfaker]: Downloading https://files.pythonhosted.org/packages/75/c8/7bfe7c6a32dcd3832a1e4675812daf98c76bf38d09008b45c52765898f25/vnfaker-0.0.4.tar.gz
+[2023-05-04 12:00:17] INFO root fetch - processPackages [changepoynt]: Downloading https://files.pythonhosted.org/packages/31/c4/93a249c280f04252eebab89119b09dcef7df1ec5547c8633db0e4b1ec780/changepoynt-0.0.3.tar.gz
+[2023-05-04 12:00:17] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/02/3d/7baeb5306ea39f8c2592ec1ede0c704ab9e40de631db73db94d6cf42b077/certora-cli-alpha-master-20230503.8.57.91126.tar.gz
+[2023-05-04 12:00:17] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-05-04 12:00:17] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38380258>=10485760
+[2023-05-04 12:00:17] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: chesscomwrapper
+[2023-05-04 12:00:17] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-04 12:00:17] INFO root fetch - processPackages [edwh-pipcompile-plugin]: Downloading https://files.pythonhosted.org/packages/f6/ec/7e7f26c741b8089fa6cf2eb013403f5f50c4761de08abbc7ea55d5f9758e/edwh_pipcompile_plugin-0.1.7.tar.gz
+[2023-05-04 12:00:17] INFO root fetch - processPackages [appium-flutter-report]: executing diffoscope
+[2023-05-04 12:00:17] INFO root fetch - processPackages [appium-flutter-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appium_flutter_report-0.1.5.tar.gz tmp/appium_flutter_report-0.1.6.tar.gz --markdown 20230504/a/appium-flutter-report/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-04 12:00:17] INFO root fetch - processPackages [vnfaker]: executing diffoscope
+[2023-05-04 12:00:17] INFO root fetch - processPackages [vnfaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnfaker-0.0.3.tar.gz tmp/vnfaker-0.0.4.tar.gz --markdown 20230504/v/vnfaker/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-04 12:00:17] INFO root fetch - processPackages [chesscomwrapper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 12:00:17] INFO root fetch - processPackages [pequenawebview]: Downloading https://files.pythonhosted.org/packages/2b/25/9643e2c4f10f8800d44410fb4596dff50efd1d7821e405103f374cdb9a37/pequenawebview-4.1.1.tar.gz
+[2023-05-04 12:00:17] INFO root fetch - processPackages [soil]: Downloading https://files.pythonhosted.org/packages/15/2d/92abbafefcdf2cd90191d1aabdad90512ab06e6bb2c2246639e4e826c779/soil-1.0.0rc4.tar.gz
+[2023-05-04 12:00:17] INFO root fetch - processPackages [chesscomwrapper]: executing diffoscope
+[2023-05-04 12:00:17] INFO root fetch - processPackages [chesscomwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chesscomwrapper-0.0.8.tar.gz tmp/chesscomwrapper-0.0.9.tar.gz --markdown 20230504/c/chesscomwrapper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:00:17] INFO root fetch - processPackages [pequenawebview]: executing diffoscope
+[2023-05-04 12:00:17] INFO root fetch - processPackages [pequenawebview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pequenawebview-4.1.tar.gz tmp/pequenawebview-4.1.1.tar.gz --markdown 20230504/p/pequenawebview/4.1-4.1.1/diff.md --exclude *.pyd
+[2023-05-04 12:00:17] INFO root fetch - processPackages [edwh-pipcompile-plugin]: Downloading https://files.pythonhosted.org/packages/d5/6a/86b7f6fc7490d21b9a5d35d31421762e4cb5492b8955f47ddc693af9c145/edwh_pipcompile_plugin-0.1.8.tar.gz
+[2023-05-04 12:00:18] INFO root fetch - processPackages [Sandra]: Downloading https://files.pythonhosted.org/packages/9a/79/a7c215e9576460cdd79892f410ae370788228c5b2ef99fdf64d5c70f3492/Sandra-0.0.17.tar.gz
+[2023-05-04 12:00:18] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-05-04 12:00:18] INFO root fetch - processPackages [changepoynt]: Downloading https://files.pythonhosted.org/packages/21/78/17a9eeaf9505e70e17bdc3a5af74d17b2a9c3dc7b3a1d73cacccd5803808/changepoynt-0.0.4.tar.gz
+[2023-05-04 12:00:18] INFO root fetch - processPackages [soil]: executing diffoscope
+[2023-05-04 12:00:18] INFO root fetch - processPackages [soil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soil-1.0.0rc3.tar.gz tmp/soil-1.0.0rc4.tar.gz --markdown 20230504/s/soil/1.0.0rc3-1.0.0rc4/diff.md --exclude *.pyd
+[2023-05-04 12:00:18] INFO root fetch - processPackages [Sandra]: executing diffoscope
+[2023-05-04 12:00:18] INFO root fetch - processPackages [Sandra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Sandra-0.0.16.tar.gz tmp/Sandra-0.0.17.tar.gz --markdown 20230504/S/Sandra/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-05-04 12:00:18] INFO root fetch - processPackages [changepoynt]: executing diffoscope
+[2023-05-04 12:00:18] INFO root fetch - processPackages [changepoynt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changepoynt-0.0.3.tar.gz tmp/changepoynt-0.0.4.tar.gz --markdown 20230504/c/changepoynt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-04 12:00:18] INFO root fetch - processPackages [edwh-pipcompile-plugin]: executing diffoscope
+[2023-05-04 12:00:18] INFO root fetch - processPackages [edwh-pipcompile-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_pipcompile_plugin-0.1.7.tar.gz tmp/edwh_pipcompile_plugin-0.1.8.tar.gz --markdown 20230504/e/edwh-pipcompile-plugin/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-04 12:00:18] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-05-04 12:00:18] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230504/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-05-04 12:00:19] INFO root fetch - processPackages [Pequena]: Start processing: certora-cli-alpha-roy-CERT-1844-usage
+[2023-05-04 12:00:19] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-05-04 12:00:19] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: New version: [20230504.9.58.528177] Old Version: [20230503.8.53.104658]
+[2023-05-04 12:00:19] INFO root fetch - processPackages [appium-flutter-report]: Start processing: cpmax-toolbox
+[2023-05-04 12:00:19] INFO root fetch - main [MainThread]: End processing [appium-flutter-report]: success
+[2023-05-04 12:00:19] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Downloading https://files.pythonhosted.org/packages/ef/c5/f1464668f062118f4b0ac0b46b7a2fb09d3c4f8d047de227b02b3f13e36f/certora-cli-alpha-roy-CERT-1844-usage-20230503.8.53.104658.tar.gz
+[2023-05-04 12:00:19] INFO root fetch - processPackages [cpmax-toolbox]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-05-04 12:00:19] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Skipping package: exceeds size limit 38384178>=10485760
+[2023-05-04 12:00:19] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Start processing: craft-ai-sdk
+[2023-05-04 12:00:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1844-usage] error
+[2023-05-04 12:00:19] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-04 12:00:19] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2023-05-04 12:00:19] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20230504/c/craft-ai-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-04 12:00:19] INFO root fetch - processPackages [cpmax-toolbox]: Downloading https://files.pythonhosted.org/packages/ef/ca/1f6f50880b2fcdfeb1d6b2b217a2dd6f936f6ab401b5cd7aff88e31eeafd/cpmax_toolbox-0.3.7.tar.gz
+[2023-05-04 12:00:19] INFO root fetch - processPackages [cpmax-toolbox]: executing diffoscope
+[2023-05-04 12:00:19] INFO root fetch - processPackages [cpmax-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpmax_toolbox-0.3.6.tar.gz tmp/cpmax_toolbox-0.3.7.tar.gz --markdown 20230504/c/cpmax-toolbox/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-05-04 12:00:19] INFO root fetch - processPackages [soil]: Start processing: certora-cli-alpha-otakar-single-race-mode2
+[2023-05-04 12:00:19] INFO root fetch - main [MainThread]: End processing [soil]: success
+[2023-05-04 12:00:19] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: New version: [20230504.7.14.754863] Old Version: [20230503.8.53.191468]
+[2023-05-04 12:00:19] INFO root fetch - processPackages [Sandra]: Start processing: cat-win
+[2023-05-04 12:00:19] INFO root fetch - main [MainThread]: End processing [Sandra]: success
+[2023-05-04 12:00:19] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Downloading https://files.pythonhosted.org/packages/8c/13/0250838d72215a816dc47175aa9e992ce4aa6b876669fb64d80d8247f43a/certora-cli-alpha-otakar-single_race_mode2-20230503.8.53.191468.tar.gz
+[2023-05-04 12:00:19] WARNING root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Skipping package: exceeds size limit 38382090>=10485760
+[2023-05-04 12:00:19] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Start processing: store-var
+[2023-05-04 12:00:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-otakar-single-race-mode2] error
+[2023-05-04 12:00:19] INFO root fetch - processPackages [edwh-pipcompile-plugin]: Start processing: Pequena
+[2023-05-04 12:00:19] INFO root fetch - main [MainThread]: End processing [edwh-pipcompile-plugin]: success
+[2023-05-04 12:00:19] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 12:00:19] INFO root fetch - processPackages [cat-win]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-04 12:00:20] WARNING root fetch - processPackages [store-var]: Skipping, unable to determine old version
+[2023-05-04 12:00:20] INFO root fetch - main [MainThread]: End processing [store-var] error
+[2023-05-04 12:00:20] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-05-04 12:00:20] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-05-04 12:00:20] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230504/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:00:20] INFO root fetch - main [MainThread]: End processing [chesscomwrapper]: success
+[2023-05-04 12:00:20] INFO root fetch - processPackages [cat-win]: Downloading https://files.pythonhosted.org/packages/95/a4/8cad3589a4e0a0f4336d22716573439572f5428455a2aba65e1139629ae9/cat_win-1.4.0.tar.gz
+[2023-05-04 12:00:20] INFO root fetch - main [MainThread]: End processing [vnfaker]: success
+[2023-05-04 12:00:20] INFO root fetch - processPackages [cat-win]: Downloading https://files.pythonhosted.org/packages/b9/d5/883475498237d3c76090c036313cbe681919ad26b9194668edc28d983e18/cat_win-1.4.1.tar.gz
+[2023-05-04 12:00:20] INFO root fetch - main [MainThread]: End processing [changepoynt]: success
+[2023-05-04 12:00:20] INFO root fetch - processPackages [cat-win]: executing diffoscope
+[2023-05-04 12:00:20] INFO root fetch - processPackages [cat-win]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cat_win-1.4.0.tar.gz tmp/cat_win-1.4.1.tar.gz --markdown 20230504/c/cat-win/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-04 12:00:20] INFO root fetch - main [MainThread]: End processing [cpmax-toolbox]: success
+[2023-05-04 12:00:21] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-05-04 12:00:21] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2023-05-04 12:00:21] INFO root fetch - main [MainThread]: End processing [cat-win]: success
+[2023-05-04 12:00:22] INFO root fetch - main [MainThread]: End processing [pequenawebview]: success
+[2023-05-04 12:00:22] INFO root fetch - main [MainThread]: Store serial: [17970379]
