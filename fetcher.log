@@ -9122,3 +9122,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 09:07:58] INFO root fetch - main [MainThread]: End processing [xj-user]: success
 [2023-05-04 09:08:23] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
 [2023-05-04 09:08:23] INFO root fetch - main [MainThread]: Store serial: [17968427]
+[2023-05-04 09:13:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17968427]
+[2023-05-04 09:13:32] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-04 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ifd-python
+[2023-05-04 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-04 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suitesparse-graphblas
+[2023-05-04 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gotji
+[2023-05-04 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-models-nightly
+[2023-05-04 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pynetinstall
+[2023-05-04 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-hub-nightly
+[2023-05-04 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: streamlit-nightly
+[2023-05-04 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hoyo-daily-logins-helper
+[2023-05-04 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blackjax-nightly
+[2023-05-04 09:13:32] INFO root fetch - processPackages [ifd-python]: New version: [7.6.9] Old Version: [7.6.8]
+[2023-05-04 09:13:32] WARNING root fetch - processPackages [gotji]: Skipping, unable to determine old version
+[2023-05-04 09:13:32] INFO root fetch - processPackages [gotji]: Start processing: certora-cli-alpha-gereon-cert-1923-rm-bv-operators
+[2023-05-04 09:13:32] INFO root fetch - main [MainThread]: End processing [gotji] error
+[2023-05-04 09:13:32] WARNING root fetch - processPackages [pynetinstall]: Skipping, unable to determine old version
+[2023-05-04 09:13:32] INFO root fetch - processPackages [pynetinstall]: Start processing: certora-cli-alpha-gereon-cert-1932-rm-query-from-results
+[2023-05-04 09:13:32] INFO root fetch - main [MainThread]: End processing [pynetinstall] error
+[2023-05-04 09:13:32] INFO root fetch - processPackages [suitesparse-graphblas]: New version: [7.4.4.1a0] Old Version: [7.4.4.0]
+[2023-05-04 09:13:32] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-05-04 09:13:32] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-04 09:13:32] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-05-04 09:13:32] INFO root fetch - processPackages [hoyo-daily-logins-helper]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-04 09:13:32] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-1923-rm-bv-operators]: Skipping, unable to determine old version
+[2023-05-04 09:13:32] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-1923-rm-bv-operators] error
+[2023-05-04 09:13:32] INFO root fetch - processPackages [blackjax-nightly]: New version: [0.9.6.post99] Old Version: [0.9.6.post98]
+[2023-05-04 09:13:32] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-1932-rm-query-from-results]: Skipping, unable to determine old version
+[2023-05-04 09:13:32] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-05-04 09:13:32] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-1932-rm-query-from-results] error
+[2023-05-04 09:13:32] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-05-04 09:13:32] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-05-04 09:13:32] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-05-04 09:13:32] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/f1/e1/d80b17ad147f2d56c59193440109ed3d34663bc4293d09330897d3eea2c3/ifd_python-7.6.8.tar.gz
+[2023-05-04 09:13:33] INFO root fetch - processPackages [suitesparse-graphblas]: Downloading https://files.pythonhosted.org/packages/28/35/3e39487f774ca1773296dcab42c67d99969b06ad5ec7212532276cc6533c/suitesparse-graphblas-7.4.4.0.tar.gz
+[2023-05-04 09:13:33] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-05-04 09:13:33] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Downloading https://files.pythonhosted.org/packages/06/ac/504c3a4e65156b04f0e2006acb6f5b616a216913e13a6b67d106627116d0/hoyo_daily_logins_helper-1.0.1-py3-none-any.whl
+[2023-05-04 09:13:33] INFO root fetch - processPackages [blackjax-nightly]: Downloading https://files.pythonhosted.org/packages/92/6d/422e9e95a27c826c4b864ee3e0b55710e81e9082ed87a8b3cffb4c50bc6a/blackjax-nightly-0.9.6.post98.tar.gz
+[2023-05-04 09:13:33] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-05-04 09:13:33] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-04 09:13:33] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230504/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-04 09:13:33] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/52/a3/3444855dbb4ae60692b8f7c036cbaa6a867834b19a5cd6c033a316117da6/ifd_python-7.6.9.tar.gz
+[2023-05-04 09:13:33] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2023-05-04 09:13:33] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-05-04 09:13:33] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230504/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-05-04 09:13:33] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Downloading https://files.pythonhosted.org/packages/f6/9c/00ed69425db543993ecc7a9570d97374dfd0d52d32386516ff8e93e5e58f/hoyo_daily_logins_helper-1.1.0-py3-none-any.whl
+[2023-05-04 09:13:33] INFO root fetch - processPackages [suitesparse-graphblas]: Downloading https://files.pythonhosted.org/packages/52/30/697ed9c03a89e2c09cdcd17d4f66c361c0346a789c20bbea5f683297fd56/suitesparse-graphblas-7.4.4.1a0.tar.gz
+[2023-05-04 09:13:33] INFO root fetch - processPackages [ifd-python]: executing diffoscope
+[2023-05-04 09:13:33] INFO root fetch - processPackages [ifd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifd_python-7.6.8.tar.gz tmp/ifd_python-7.6.9.tar.gz --markdown 20230504/i/ifd-python/7.6.8-7.6.9/diff.md --exclude *.pyd
+[2023-05-04 09:13:33] INFO root fetch - processPackages [hoyo-daily-logins-helper]: executing diffoscope
+[2023-05-04 09:13:33] INFO root fetch - processPackages [hoyo-daily-logins-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoyo_daily_logins_helper-1.0.1-py3-none-any.whl.zip tmp/hoyo_daily_logins_helper-1.1.0-py3-none-any.whl.zip --markdown 20230504/h/hoyo-daily-logins-helper/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-04 09:13:33] INFO root fetch - processPackages [blackjax-nightly]: Downloading https://files.pythonhosted.org/packages/0a/e7/14592c365bf8ffb51707e15763cef8c10eeae142ca25ce02085d7e87d6cc/blackjax-nightly-0.9.6.post99.tar.gz
+[2023-05-04 09:13:33] INFO root fetch - processPackages [suitesparse-graphblas]: executing diffoscope
+[2023-05-04 09:13:33] INFO root fetch - processPackages [suitesparse-graphblas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suitesparse-graphblas-7.4.4.0.tar.gz tmp/suitesparse-graphblas-7.4.4.1a0.tar.gz --markdown 20230504/s/suitesparse-graphblas/7.4.4.0-7.4.4.1a0/diff.md --exclude *.pyd
+[2023-05-04 09:13:33] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2023-05-04 09:13:33] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-05-04 09:13:33] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230504/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-05-04 09:13:33] INFO root fetch - processPackages [blackjax-nightly]: executing diffoscope
+[2023-05-04 09:13:33] INFO root fetch - processPackages [blackjax-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackjax-nightly-0.9.6.post98.tar.gz tmp/blackjax-nightly-0.9.6.post99.tar.gz --markdown 20230504/b/blackjax-nightly/0.9.6.post98-0.9.6.post99/diff.md --exclude *.pyd
+[2023-05-04 09:13:34] INFO root fetch - main [MainThread]: End processing [ifd-python]: success
+[2023-05-04 09:13:34] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-05-04 09:13:34] INFO root fetch - main [MainThread]: End processing [hoyo-daily-logins-helper]: success
+[2023-05-04 09:13:34] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-04 09:13:35] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-05-04 09:13:35] INFO root fetch - main [MainThread]: End processing [suitesparse-graphblas]: success
+[2023-05-04 09:13:35] INFO root fetch - main [MainThread]: End processing [blackjax-nightly]: success
+[2023-05-04 09:13:37] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-05-04 09:13:37] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230504/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-05-04 09:13:47] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-05-04 09:13:49] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-05-04 09:13:49] INFO root fetch - main [MainThread]: Store serial: [17968512]
