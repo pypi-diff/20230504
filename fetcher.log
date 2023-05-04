@@ -5203,3 +5203,66 @@
 [2023-05-04 03:26:10] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte]: success
 [2023-05-04 03:27:02] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-05-04 03:27:02] INFO root fetch - main [MainThread]: Store serial: [17965859]
+[2023-05-04 03:32:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17965859]
+[2023-05-04 03:32:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-04 03:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dpdata
+[2023-05-04 03:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-05-04 03:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: split-file-reader
+[2023-05-04 03:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-wordpress
+[2023-05-04 03:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-bilifan
+[2023-05-04 03:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deadnews-template-python
+[2023-05-04 03:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipfs-dict-chain
+[2023-05-04 03:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipfs-dict-chain
+[2023-05-04 03:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-lambda-layer-wget
+[2023-05-04 03:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SDTcloud
+[2023-05-04 03:32:12] INFO root fetch - processPackages [deadnews-template-python]: New version: [1.0.2a5] Old Version: [1.0.2a4]
+[2023-05-04 03:32:12] INFO root fetch - processPackages [SDTcloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 03:32:12] INFO root fetch - processPackages [split-file-reader]: New version: [0.1.3] Old Version: [0.1.0]
+[2023-05-04 03:32:12] INFO root fetch - processPackages [nonebot-plugin-bilifan]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-04 03:32:12] INFO root fetch - processPackages [ipfs-dict-chain]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-04 03:32:12] INFO root fetch - processPackages [ipfs-dict-chain]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-04 03:32:12] INFO root fetch - processPackages [dpdata]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-04 03:32:12] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-04 03:32:12] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-04 03:32:12] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-04 03:32:12] INFO root fetch - processPackages [deadnews-template-python]: Downloading https://files.pythonhosted.org/packages/58/46/e54c23c137c4031864cefe7c0f2b88d3a4bafe86206e25cf76807b974228/deadnews_template_python-1.0.2a4.tar.gz
+[2023-05-04 03:32:12] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-05-04 03:32:12] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.0.8.tar.gz tmp/SDTcloud-0.0.9.tar.gz --markdown 20230504/S/SDTcloud/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 03:32:12] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-05-04 03:32:12] INFO root fetch - processPackages [ipfs-dict-chain]: executing diffoscope
+[2023-05-04 03:32:12] INFO root fetch - processPackages [ipfs-dict-chain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfs_dict_chain-1.0.0.tar.gz tmp/ipfs_dict_chain-1.0.1.tar.gz --markdown 20230504/i/ipfs-dict-chain/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 03:32:12] INFO root fetch - processPackages [ipfs-dict-chain]: executing diffoscope
+[2023-05-04 03:32:12] INFO root fetch - processPackages [ipfs-dict-chain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfs_dict_chain-1.0.0.tar.gz tmp/ipfs_dict_chain-1.0.1.tar.gz --markdown 20230504/i/ipfs-dict-chain/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 03:32:12] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-04 03:32:12] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230504/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-04 03:32:12] INFO root fetch - processPackages [split-file-reader]: Downloading https://files.pythonhosted.org/packages/38/61/1caa9675ed0bbb667d82b190573366a0553befc6cdd39918e2bc6c07bb3e/split_file_reader-0.1.0.tar.gz
+[2023-05-04 03:32:12] INFO root fetch - processPackages [dpdata]: Downloading https://files.pythonhosted.org/packages/b2/ee/ddecb281cd70858c196984eab4f23983df8b2deec1fa27961c2839707a2c/dpdata-0.2.8.tar.gz
+[2023-05-04 03:32:12] INFO root fetch - processPackages [nonebot-plugin-bilifan]: Downloading https://files.pythonhosted.org/packages/a8/4e/1938c27510266258c3271a593a4a039df6c339321873f4a7a07060832795/nonebot_plugin_bilifan-0.1.2.tar.gz
+[2023-05-04 03:32:12] INFO root fetch - processPackages [deadnews-template-python]: Downloading https://files.pythonhosted.org/packages/88/50/a94e160deafc79ae100440ed33bb9e7aabc8986b23b058c83964edab75da/deadnews_template_python-1.0.2a5.tar.gz
+[2023-05-04 03:32:12] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-05-04 03:32:12] INFO root fetch - processPackages [split-file-reader]: Downloading https://files.pythonhosted.org/packages/cc/96/36a2948b5e7772ad3b1ea4407d89bd2118181d1656467326c0ebe87f8353/split_file_reader-0.1.3.tar.gz
+[2023-05-04 03:32:12] INFO root fetch - processPackages [deadnews-template-python]: executing diffoscope
+[2023-05-04 03:32:12] INFO root fetch - processPackages [deadnews-template-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadnews_template_python-1.0.2a4.tar.gz tmp/deadnews_template_python-1.0.2a5.tar.gz --markdown 20230504/d/deadnews-template-python/1.0.2a4-1.0.2a5/diff.md --exclude *.pyd
+[2023-05-04 03:32:12] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-04 03:32:12] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230504/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-04 03:32:12] INFO root fetch - processPackages [nonebot-plugin-bilifan]: Downloading https://files.pythonhosted.org/packages/f5/d1/dcc4476778a1fd783464a5d8c642ac89d02f8f8fb171e222dfbe2cfe6568/nonebot_plugin_bilifan-0.1.3.tar.gz
+[2023-05-04 03:32:12] INFO root fetch - processPackages [split-file-reader]: executing diffoscope
+[2023-05-04 03:32:12] INFO root fetch - processPackages [split-file-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/split_file_reader-0.1.0.tar.gz tmp/split_file_reader-0.1.3.tar.gz --markdown 20230504/s/split-file-reader/0.1.0-0.1.3/diff.md --exclude *.pyd
+[2023-05-04 03:32:12] INFO root fetch - processPackages [nonebot-plugin-bilifan]: executing diffoscope
+[2023-05-04 03:32:12] INFO root fetch - processPackages [nonebot-plugin-bilifan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilifan-0.1.2.tar.gz tmp/nonebot_plugin_bilifan-0.1.3.tar.gz --markdown 20230504/n/nonebot-plugin-bilifan/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-04 03:32:13] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-05-04 03:32:13] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230504/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-04 03:32:13] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-05-04 03:32:13] INFO root fetch - main [MainThread]: End processing [ipfs-dict-chain]: success
+[2023-05-04 03:32:13] INFO root fetch - main [MainThread]: End processing [ipfs-dict-chain]: success
+[2023-05-04 03:32:13] INFO root fetch - main [MainThread]: End processing [deadnews-template-python]: success
+[2023-05-04 03:32:14] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-04 03:32:14] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-04 03:32:14] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilifan]: success
+[2023-05-04 03:32:14] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-05-04 03:32:14] INFO root fetch - processPackages [dpdata]: Downloading https://files.pythonhosted.org/packages/c5/da/9baae33acf8e7ec3552c9a31aeb5fe38b5d3fd0f8c1289264287394620d9/dpdata-0.2.9.tar.gz
+[2023-05-04 03:32:14] INFO root fetch - main [MainThread]: End processing [split-file-reader]: success
+[2023-05-04 03:32:16] INFO root fetch - processPackages [dpdata]: executing diffoscope
+[2023-05-04 03:32:16] INFO root fetch - processPackages [dpdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpdata-0.2.8.tar.gz tmp/dpdata-0.2.9.tar.gz --markdown 20230504/d/dpdata/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-04 03:32:22] INFO root fetch - main [MainThread]: End processing [dpdata]: success
+[2023-05-04 03:32:22] INFO root fetch - main [MainThread]: Store serial: [17966196]
