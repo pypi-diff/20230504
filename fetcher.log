@@ -13161,3 +13161,101 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 12:43:50] INFO root fetch - main [MainThread]: End processing [safe-pysha3]: success
 [2023-05-04 12:43:52] INFO root fetch - main [MainThread]: End processing [mainnet]: success
 [2023-05-04 12:43:52] INFO root fetch - main [MainThread]: Store serial: [17970834]
+[2023-05-04 12:48:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17970834]
+[2023-05-04 12:49:01] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-04 12:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spatialdata-io
+[2023-05-04 12:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aij-webcam
+[2023-05-04 12:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: negotium
+[2023-05-04 12:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syncmaster
+[2023-05-04 12:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tes-lib
+[2023-05-04 12:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: axiom-logger
+[2023-05-04 12:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mammopy
+[2023-05-04 12:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yeref
+[2023-05-04 12:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rs-drift
+[2023-05-04 12:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: udata
+[2023-05-04 12:49:02] INFO root fetch - processPackages [aij-webcam]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 12:49:02] WARNING root fetch - processPackages [rs-drift]: Skipping, unable to determine old version
+[2023-05-04 12:49:02] INFO root fetch - processPackages [rs-drift]: Start processing: conduit-sdk
+[2023-05-04 12:49:02] INFO root fetch - main [MainThread]: End processing [rs-drift] error
+[2023-05-04 12:49:02] INFO root fetch - processPackages [yeref]: New version: [0.1.53] Old Version: [0.1.52]
+[2023-05-04 12:49:02] WARNING root fetch - processPackages [spatialdata-io]: Skipping, unable to determine old version
+[2023-05-04 12:49:02] INFO root fetch - processPackages [spatialdata-io]: Start processing: rebasin
+[2023-05-04 12:49:02] INFO root fetch - main [MainThread]: End processing [spatialdata-io] error
+[2023-05-04 12:49:02] INFO root fetch - processPackages [mammopy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 12:49:02] INFO root fetch - processPackages [tes-lib]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-04 12:49:02] INFO root fetch - processPackages [negotium]: New version: [0.0.5a2] Old Version: [0.0.5a1]
+[2023-05-04 12:49:02] INFO root fetch - processPackages [syncmaster]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-04 12:49:02] INFO root fetch - processPackages [udata]: New version: [6.1.4.dev25380] Old Version: [6.1.4.dev25352]
+[2023-05-04 12:49:02] INFO root fetch - processPackages [axiom-logger]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-04 12:49:02] INFO root fetch - processPackages [rebasin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 12:49:02] INFO root fetch - processPackages [aij-webcam]: executing diffoscope
+[2023-05-04 12:49:02] INFO root fetch - processPackages [aij-webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-webcam-1.0.8.tar.gz tmp/aij-webcam-1.0.9.tar.gz --markdown 20230504/a/aij-webcam/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:49:02] INFO root fetch - processPackages [conduit-sdk]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-04 12:49:02] INFO root fetch - processPackages [rebasin]: executing diffoscope
+[2023-05-04 12:49:02] INFO root fetch - processPackages [rebasin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebasin-0.0.8.tar.gz tmp/rebasin-0.0.9.tar.gz --markdown 20230504/r/rebasin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:49:02] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/b2/cf/8af0aa9b3ad898d99096a3430aefe0158d4b4ad2d22b80acd5b9d2a257a7/udata-6.1.4.dev25352-py2.py3-none-any.whl
+[2023-05-04 12:49:02] INFO root fetch - processPackages [mammopy]: Downloading https://files.pythonhosted.org/packages/24/5c/02bf3c5d9dfcf6e6821825ae9ab864ade5f01fc208a66abe0def39a19fcd/mammopy-0.0.8.tar.gz
+[2023-05-04 12:49:02] INFO root fetch - processPackages [tes-lib]: Downloading https://files.pythonhosted.org/packages/a9/1d/dcb7b88bc53713fb3e263e0f925266c152f7bca7d9ae1fd8423514f4c441/tes-lib-1.0.0.tar.gz
+[2023-05-04 12:49:02] INFO root fetch - processPackages [syncmaster]: Downloading https://files.pythonhosted.org/packages/d0/b2/dba8c639e5c51c0ffa62faa4cfc3f1af2eaa4e36d12cfd00d0d7a709ed1b/syncmaster-1.0.4.tar.gz
+[2023-05-04 12:49:02] INFO root fetch - processPackages [axiom-logger]: Downloading https://files.pythonhosted.org/packages/06/28/34f5bc55542e7464c683969da3ba698e63143bb2549a359192b97208c057/axiom_logger-1.0.1.tar.gz
+[2023-05-04 12:49:02] INFO root fetch - processPackages [negotium]: Downloading https://files.pythonhosted.org/packages/68/a5/628a88a03e0b54634549293613b5db18613ac907c26701505a5356222d83/negotium-0.0.5a2.tar.gz
+[2023-05-04 12:49:02] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/9a/60/53934eb439d2a81afa1a0041d401f5bb71ed77ae19413f460e51e861de60/yeref-0.1.53.tar.gz
+[2023-05-04 12:49:02] INFO root fetch - processPackages [conduit-sdk]: Downloading https://files.pythonhosted.org/packages/80/c6/408625b1abec93e0a56bebf06f14be0275f6a3e0174b2fc1c2bdd8d09f17/conduit-sdk-0.2.4.tar.gz
+[2023-05-04 12:49:02] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19605978>=10485760
+[2023-05-04 12:49:02] INFO root fetch - processPackages [udata]: Start processing: filter-stations
+[2023-05-04 12:49:02] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-05-04 12:49:02] INFO root fetch - processPackages [negotium]: executing diffoscope
+[2023-05-04 12:49:02] INFO root fetch - processPackages [negotium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/negotium-0.0.5a1.tar.gz tmp/negotium-0.0.5a2.tar.gz --markdown 20230504/n/negotium/0.0.5a1-0.0.5a2/diff.md --exclude *.pyd
+[2023-05-04 12:49:02] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-05-04 12:49:02] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.52.tar.gz tmp/yeref-0.1.53.tar.gz --markdown 20230504/y/yeref/0.1.52-0.1.53/diff.md --exclude *.pyd
+[2023-05-04 12:49:02] INFO root fetch - processPackages [axiom-logger]: Downloading https://files.pythonhosted.org/packages/04/a9/dbbcbc039986e8e6e14142b964efd892942640f3acb72a629c4163316aeb/axiom_logger-1.0.2.tar.gz
+[2023-05-04 12:49:02] INFO root fetch - processPackages [tes-lib]: Downloading https://files.pythonhosted.org/packages/e0/bf/e482b03bfedede4ab12ea49979969ff5f6b60ceebef0849afbd26941c8fb/tes-lib-1.1.0.tar.gz
+[2023-05-04 12:49:02] INFO root fetch - processPackages [syncmaster]: Downloading https://files.pythonhosted.org/packages/fe/91/9099ea16dd53d0d23a278af509824e8c1961f8c9c682382b28a5156eb364/syncmaster-1.0.5.tar.gz
+[2023-05-04 12:49:02] INFO root fetch - processPackages [syncmaster]: executing diffoscope
+[2023-05-04 12:49:02] INFO root fetch - processPackages [syncmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmaster-1.0.4.tar.gz tmp/syncmaster-1.0.5.tar.gz --markdown 20230504/s/syncmaster/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-04 12:49:02] INFO root fetch - processPackages [filter-stations]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-04 12:49:02] INFO root fetch - processPackages [mammopy]: Downloading https://files.pythonhosted.org/packages/86/f1/55f642a9bd84319511236455fc327834fc5acecd861f4e282433aa8c0fcb/mammopy-0.0.9.tar.gz
+[2023-05-04 12:49:02] INFO root fetch - processPackages [mammopy]: executing diffoscope
+[2023-05-04 12:49:02] INFO root fetch - processPackages [mammopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mammopy-0.0.8.tar.gz tmp/mammopy-0.0.9.tar.gz --markdown 20230504/m/mammopy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:49:02] INFO root fetch - processPackages [conduit-sdk]: Downloading https://files.pythonhosted.org/packages/ca/cd/58c1dceebde9e7c9b1fa7960fbb2bf4aec4c77d720ec176efc35537e868d/conduit_sdk-0.2.5.tar.gz
+[2023-05-04 12:49:02] INFO root fetch - processPackages [axiom-logger]: executing diffoscope
+[2023-05-04 12:49:02] INFO root fetch - processPackages [axiom-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axiom_logger-1.0.1.tar.gz tmp/axiom_logger-1.0.2.tar.gz --markdown 20230504/a/axiom-logger/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-04 12:49:02] INFO root fetch - processPackages [tes-lib]: executing diffoscope
+[2023-05-04 12:49:02] INFO root fetch - processPackages [tes-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tes-lib-1.0.0.tar.gz tmp/tes-lib-1.1.0.tar.gz --markdown 20230504/t/tes-lib/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-04 12:49:02] INFO root fetch - processPackages [conduit-sdk]: executing diffoscope
+[2023-05-04 12:49:02] INFO root fetch - processPackages [conduit-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conduit-sdk-0.2.4.tar.gz tmp/conduit_sdk-0.2.5.tar.gz --markdown 20230504/c/conduit-sdk/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-04 12:49:02] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/e7/13/bb50a73096f8116be5b47e2f2713451d6df2dda30a32faaa51ff0e2a44cd/filter_stations-0.3.3.tar.gz
+[2023-05-04 12:49:03] INFO root fetch - processPackages [filter-stations]: executing diffoscope
+[2023-05-04 12:49:03] INFO root fetch - processPackages [filter-stations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter_stations-0.3.2.tar.gz tmp/filter_stations-0.3.3.tar.gz --markdown 20230504/f/filter-stations/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-04 12:49:03] INFO root fetch - processPackages [aij-webcam]: Start processing: xyz-util
+[2023-05-04 12:49:03] INFO root fetch - main [MainThread]: End processing [aij-webcam]: success
+[2023-05-04 12:49:03] INFO root fetch - processPackages [xyz-util]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-04 12:49:03] INFO root fetch - processPackages [rebasin]: Start processing: toolium
+[2023-05-04 12:49:03] INFO root fetch - main [MainThread]: End processing [rebasin]: success
+[2023-05-04 12:49:03] INFO root fetch - processPackages [xyz-util]: Downloading https://files.pythonhosted.org/packages/5d/0c/872a400eecaa55ee1697fd5e7eb3b7506b46370cd086e8cb4e3a1b5217de/xyz_util-0.7.8-py3-none-any.whl
+[2023-05-04 12:49:03] INFO root fetch - processPackages [toolium]: New version: [3.0.1.dev0] Old Version: [3.0.0b1]
+[2023-05-04 12:49:03] INFO root fetch - processPackages [negotium]: Start processing: finbourne-access-sdk
+[2023-05-04 12:49:03] INFO root fetch - main [MainThread]: End processing [negotium]: success
+[2023-05-04 12:49:04] INFO root fetch - processPackages [xyz-util]: Downloading https://files.pythonhosted.org/packages/18/21/740885711ec8b1b2af373a45be8f3107f48dff754a7f0ae735e1f705908e/xyz_util-0.7.9-py3-none-any.whl
+[2023-05-04 12:49:04] INFO root fetch - processPackages [toolium]: Downloading https://files.pythonhosted.org/packages/55/1c/410bd44125245df5c4252e6b59c59c26969539211de0c3d19cdc60748217/toolium-3.0.0b1.tar.gz
+[2023-05-04 12:49:04] INFO root fetch - main [MainThread]: End processing [axiom-logger]: success
+[2023-05-04 12:49:04] INFO root fetch - processPackages [xyz-util]: executing diffoscope
+[2023-05-04 12:49:04] INFO root fetch - processPackages [xyz-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_util-0.7.8-py3-none-any.whl.zip tmp/xyz_util-0.7.9-py3-none-any.whl.zip --markdown 20230504/x/xyz-util/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-04 12:49:04] INFO root fetch - main [MainThread]: End processing [conduit-sdk]: success
+[2023-05-04 12:49:04] INFO root fetch - main [MainThread]: End processing [syncmaster]: success
+[2023-05-04 12:49:04] INFO root fetch - processPackages [toolium]: Downloading https://files.pythonhosted.org/packages/e1/4d/555761f86249371e54edcafe3e60dd931ab62105d715a6b0b8e52be39dc4/toolium-3.0.1.dev0.tar.gz
+[2023-05-04 12:49:04] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-04 12:49:04] INFO root fetch - processPackages [toolium]: executing diffoscope
+[2023-05-04 12:49:04] INFO root fetch - processPackages [toolium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolium-3.0.0b1.tar.gz tmp/toolium-3.0.1.dev0.tar.gz --markdown 20230504/t/toolium/3.0.0b1-3.0.1.dev0/diff.md --exclude *.pyd
+[2023-05-04 12:49:04] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-05-04 12:49:04] INFO root fetch - main [MainThread]: End processing [tes-lib]: success
+[2023-05-04 12:49:04] INFO root fetch - main [MainThread]: End processing [filter-stations]: success
+[2023-05-04 12:49:04] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-05-04 12:49:04] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-04 12:49:04] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230504/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-04 12:49:05] INFO root fetch - main [MainThread]: End processing [xyz-util]: success
+[2023-05-04 12:49:05] INFO root fetch - main [MainThread]: End processing [mammopy]: success
+[2023-05-04 12:49:05] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-05-04 12:49:05] INFO root fetch - main [MainThread]: End processing [toolium]: success
+[2023-05-04 12:49:07] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-04 12:49:07] INFO root fetch - main [MainThread]: Store serial: [17970885]
