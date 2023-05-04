@@ -19965,3 +19965,104 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 18:35:49] INFO root fetch - main [MainThread]: End processing [miditok]: success
 [2023-05-04 18:35:51] INFO root fetch - main [MainThread]: End processing [tortuemobile]: success
 [2023-05-04 18:35:51] INFO root fetch - main [MainThread]: Store serial: [17974912]
+[2023-05-04 18:40:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17974912]
+[2023-05-04 18:41:02] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-04 18:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lnsync
+[2023-05-04 18:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bumpver
+[2023-05-04 18:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-access-sdk
+[2023-05-04 18:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scorecardpipeline
+[2023-05-04 18:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: splight-lib
+[2023-05-04 18:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-eytan-inline-instrumentation
+[2023-05-04 18:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: celerity
+[2023-05-04 18:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pdcscore
+[2023-05-04 18:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gimme-aws-creds
+[2023-05-04 18:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: atlas-mpl-style
+[2023-05-04 18:41:02] INFO root fetch - processPackages [lnsync]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-05-04 18:41:02] WARNING root fetch - processPackages [certora-cli-alpha-eytan-inline-instrumentation]: Skipping, unable to determine old version
+[2023-05-04 18:41:02] INFO root fetch - processPackages [certora-cli-alpha-eytan-inline-instrumentation]: Start processing: pyrfc
+[2023-05-04 18:41:02] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eytan-inline-instrumentation] error
+[2023-05-04 18:41:02] WARNING root fetch - processPackages [scorecardpipeline]: Skipping, unable to determine old version
+[2023-05-04 18:41:02] INFO root fetch - processPackages [scorecardpipeline]: Start processing: pydelling
+[2023-05-04 18:41:02] INFO root fetch - main [MainThread]: End processing [scorecardpipeline] error
+[2023-05-04 18:41:02] INFO root fetch - processPackages [splight-lib]: New version: [2.3.8.dev3] Old Version: [2.3.7]
+[2023-05-04 18:41:02] INFO root fetch - processPackages [celerity]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-04 18:41:02] INFO root fetch - processPackages [bumpver]: New version: [2023.1121] Old Version: [2022.1120]
+[2023-05-04 18:41:02] INFO root fetch - processPackages [pdcscore]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-04 18:41:02] INFO root fetch - processPackages [gimme-aws-creds]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-05-04 18:41:02] INFO root fetch - processPackages [atlas-mpl-style]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-04 18:41:02] INFO root fetch - processPackages [pyrfc]: New version: [3.0.0a3] Old Version: [3.0.0a1]
+[2023-05-04 18:41:02] INFO root fetch - processPackages [pydelling]: New version: [1.9.1] Old Version: [1.9]
+[2023-05-04 18:41:02] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-04 18:41:02] INFO root fetch - processPackages [bumpver]: Downloading https://files.pythonhosted.org/packages/09/90/b276575a9c718e029e9c3b39087c793e594422db4b04df33921868b77b0b/bumpver-2022.1120.tar.gz
+[2023-05-04 18:41:02] INFO root fetch - processPackages [pyrfc]: Downloading https://files.pythonhosted.org/packages/d2/ef/d276aac25cc21db097cface8661d6e715a01afa838e1058612b9c1e9d3dc/pyrfc-3.0.0a1.tar.gz
+[2023-05-04 18:41:02] INFO root fetch - processPackages [lnsync]: Downloading https://files.pythonhosted.org/packages/6a/ad/8ab94126fc2df6c5a926a7b29070c683bad6d6fa3f03c2acda0327f1a7ae/lnsync-0.8.5.tar.gz
+[2023-05-04 18:41:02] INFO root fetch - processPackages [pdcscore]: Downloading https://files.pythonhosted.org/packages/5d/e5/4eaff7c88f15d129368fcffab5f2941441a6e7d19f4028cabded8d964608/pdcscore-1.0.8.tar.gz
+[2023-05-04 18:41:02] INFO root fetch - processPackages [celerity]: Downloading https://files.pythonhosted.org/packages/bc/5a/c16cc27ce2c247e7fe36a4d557f6884f561b284385d3a96a75ffd4f43db8/celerity-0.4.0.tar.gz
+[2023-05-04 18:41:02] INFO root fetch - processPackages [pydelling]: Downloading https://files.pythonhosted.org/packages/a3/71/2b832fe77da75a61746f8b011ccc7ea358525ae1ae78b0341e41628b375b/pydelling-1.9.tar.gz
+[2023-05-04 18:41:02] INFO root fetch - processPackages [atlas-mpl-style]: Downloading https://files.pythonhosted.org/packages/cb/b9/a5ce2d7f78362bb0cedd99046df8fa71a908e8aac5b1ce5f5758b82ebebf/atlas-mpl-style-0.9.1.tar.gz
+[2023-05-04 18:41:02] INFO root fetch - processPackages [gimme-aws-creds]: Downloading https://files.pythonhosted.org/packages/22/d3/a5454142db3bbb936591f2a13955cf589db8c4f6ea29142e80169eb8bb5b/gimme%20aws%20creds-2.6.1.tar.gz
+[2023-05-04 18:41:03] ERROR root fetch - processPackages [splight-lib]: Unable to fetch info: No such project/version 'splight-lib' 2.3.8.dev3
+[2023-05-04 18:41:03] INFO root fetch - processPackages [splight-lib]: Start processing: certora-cli-alpha-alex-more-cvlrange-meta
+[2023-05-04 18:41:03] INFO root fetch - main [MainThread]: End processing [splight-lib] error
+[2023-05-04 18:41:03] INFO root fetch - processPackages [bumpver]: Downloading https://files.pythonhosted.org/packages/36/c4/9c6d38cb04c71c5ed4d0ba620c013470ab9e124521152b6fe504917ecf85/bumpver-2023.1121.tar.gz
+[2023-05-04 18:41:03] INFO root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: New version: [20230504.16.38.984168] Old Version: [20230504.15.56.311507]
+[2023-05-04 18:41:03] INFO root fetch - processPackages [celerity]: executing diffoscope
+[2023-05-04 18:41:03] INFO root fetch - processPackages [celerity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celerity-0.3.0.tar.gz tmp/celerity-0.4.0.tar.gz --markdown 20230504/c/celerity/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-04 18:41:03] INFO root fetch - processPackages [pdcscore]: executing diffoscope
+[2023-05-04 18:41:03] INFO root fetch - processPackages [pdcscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdcscore-1.0.7.tar.gz tmp/pdcscore-1.0.8.tar.gz --markdown 20230504/p/pdcscore/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-04 18:41:03] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-04 18:41:03] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230504/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-04 18:41:03] INFO root fetch - processPackages [gimme-aws-creds]: executing diffoscope
+[2023-05-04 18:41:03] INFO root fetch - processPackages [gimme-aws-creds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimme aws creds-2.6.0.tar.gz tmp/gimme aws creds-2.6.1.tar.gz --markdown 20230504/g/gimme-aws-creds/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-05-04 18:41:03] INFO root fetch - processPackages [pyrfc]: Downloading https://files.pythonhosted.org/packages/6e/8d/8203063f5410f332f1ec5fd567fd77e536bda95dceb86de686c9b04d6622/pyrfc-3.0.0a3.tar.gz
+[2023-05-04 18:41:03] INFO root fetch - processPackages [bumpver]: executing diffoscope
+[2023-05-04 18:41:03] INFO root fetch - processPackages [bumpver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bumpver-2022.1120.tar.gz tmp/bumpver-2023.1121.tar.gz --markdown 20230504/b/bumpver/2022.1120-2023.1121/diff.md --exclude *.pyd
+[2023-05-04 18:41:03] INFO root fetch - processPackages [lnsync]: Downloading https://files.pythonhosted.org/packages/92/df/67cec0c2986214eae3bc296b89122ffc63184d3d9cc6d37b0e64d1e85ca8/lnsync-0.8.6.tar.gz
+[2023-05-04 18:41:03] INFO root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: Downloading https://files.pythonhosted.org/packages/4d/5f/a05efc0284d85969afd84ed6eea4561ac0b451034befc1eecaa4ca1206dc/certora-cli-alpha-alex-more-cvlrange-meta-20230504.15.56.311507.tar.gz
+[2023-05-04 18:41:03] WARNING root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: Skipping package: exceeds size limit 38470450>=10485760
+[2023-05-04 18:41:03] INFO root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: Start processing: tradchat
+[2023-05-04 18:41:03] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-more-cvlrange-meta] error
+[2023-05-04 18:41:03] INFO root fetch - processPackages [pyrfc]: executing diffoscope
+[2023-05-04 18:41:03] INFO root fetch - processPackages [pyrfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrfc-3.0.0a1.tar.gz tmp/pyrfc-3.0.0a3.tar.gz --markdown 20230504/p/pyrfc/3.0.0a1-3.0.0a3/diff.md --exclude *.pyd
+[2023-05-04 18:41:03] INFO root fetch - processPackages [lnsync]: executing diffoscope
+[2023-05-04 18:41:03] INFO root fetch - processPackages [lnsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnsync-0.8.5.tar.gz tmp/lnsync-0.8.6.tar.gz --markdown 20230504/l/lnsync/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-05-04 18:41:03] INFO root fetch - processPackages [atlas-mpl-style]: Downloading https://files.pythonhosted.org/packages/0c/c6/22d9393def06ce025a1e7d91b1469198b19d0ff4bf89d120a622d0b6bcbd/atlas-mpl-style-0.9.2.tar.gz
+[2023-05-04 18:41:03] WARNING root fetch - processPackages [tradchat]: Skipping, unable to determine old version
+[2023-05-04 18:41:03] INFO root fetch - processPackages [tradchat]: Start processing: python-roborock
+[2023-05-04 18:41:03] INFO root fetch - main [MainThread]: End processing [tradchat] error
+[2023-05-04 18:41:03] INFO root fetch - processPackages [pydelling]: Downloading https://files.pythonhosted.org/packages/4d/b1/4a49f0016ac9d1b541d6347d823280a184b94bc566082dff0a527e78aa56/pydelling-1.9.1.tar.gz
+[2023-05-04 18:41:03] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-04 18:41:03] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/bc/a5/7bd08437421c34e92b81b72e3d3eaf9ab00bc7dcca9dd03a427476c13e59/python_roborock-0.9.0.tar.gz
+[2023-05-04 18:41:03] INFO root fetch - processPackages [pydelling]: executing diffoscope
+[2023-05-04 18:41:03] INFO root fetch - processPackages [pydelling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydelling-1.9.tar.gz tmp/pydelling-1.9.1.tar.gz --markdown 20230504/p/pydelling/1.9-1.9.1/diff.md --exclude *.pyd
+[2023-05-04 18:41:03] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-04 18:41:03] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230504/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-04 18:41:03] INFO root fetch - processPackages [atlas-mpl-style]: executing diffoscope
+[2023-05-04 18:41:03] INFO root fetch - processPackages [atlas-mpl-style]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlas-mpl-style-0.9.1.tar.gz tmp/atlas-mpl-style-0.9.2.tar.gz --markdown 20230504/a/atlas-mpl-style/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-04 18:41:04] INFO root fetch - processPackages [celerity]: Start processing: oloren
+[2023-05-04 18:41:04] INFO root fetch - main [MainThread]: End processing [celerity]: success
+[2023-05-04 18:41:04] INFO root fetch - processPackages [oloren]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-04 18:41:04] INFO root fetch - processPackages [pdcscore]: Start processing: pydelling
+[2023-05-04 18:41:04] INFO root fetch - main [MainThread]: End processing [pdcscore]: success
+[2023-05-04 18:41:04] INFO root fetch - processPackages [pydelling]: New version: [1.9.1] Old Version: [1.9]
+[2023-05-04 18:41:04] INFO root fetch - processPackages [pydelling]: executing diffoscope
+[2023-05-04 18:41:04] INFO root fetch - processPackages [pydelling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydelling-1.9.tar.gz tmp/pydelling-1.9.1.tar.gz --markdown 20230504/p/pydelling/1.9-1.9.1/diff.md --exclude *.pyd
+[2023-05-04 18:41:04] INFO root fetch - processPackages [gimme-aws-creds]: Start processing: arkitekt
+[2023-05-04 18:41:04] INFO root fetch - main [MainThread]: End processing [gimme-aws-creds]: success
+[2023-05-04 18:41:04] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-05-04 18:41:04] INFO root fetch - main [MainThread]: End processing [pyrfc]: success
+[2023-05-04 18:41:05] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-04 18:41:05] INFO root fetch - processPackages [arkitekt]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-04 18:41:05] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-05-04 18:41:05] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.98.tar.gz tmp/arkitekt-0.4.99.tar.gz --markdown 20230504/a/arkitekt/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-04 18:41:05] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-04 18:41:05] INFO root fetch - main [MainThread]: End processing [atlas-mpl-style]: success
+[2023-05-04 18:41:05] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-05-04 18:41:05] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.7.tar.gz tmp/oloren-0.0.8.tar.gz --markdown 20230504/o/oloren/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-04 18:41:06] INFO root fetch - main [MainThread]: End processing [lnsync]: success
+[2023-05-04 18:41:06] INFO root fetch - main [MainThread]: End processing [pydelling]: success
+[2023-05-04 18:41:06] INFO root fetch - main [MainThread]: End processing [bumpver]: success
+[2023-05-04 18:41:06] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-05-04 18:41:07] INFO root fetch - main [MainThread]: End processing [pydelling]: success
+[2023-05-04 18:41:14] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-05-04 18:41:14] INFO root fetch - main [MainThread]: Store serial: [17974970]
