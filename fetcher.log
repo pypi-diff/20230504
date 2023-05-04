@@ -14207,3 +14207,136 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 13:44:00] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
 [2023-05-04 13:44:02] INFO root fetch - main [MainThread]: End processing [pulumiverse-exoscale]: success
 [2023-05-04 13:44:02] INFO root fetch - main [MainThread]: Store serial: [17971466]
+[2023-05-04 13:49:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17971466]
+[2023-05-04 13:49:11] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-04 13:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: calcure
+[2023-05-04 13:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llamabot
+[2023-05-04 13:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: androidtvremote2
+[2023-05-04 13:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenFG
+[2023-05-04 13:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: firex-flame-ui
+[2023-05-04 13:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-vpc-module
+[2023-05-04 13:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybrid-api-id-python
+[2023-05-04 13:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yaecs
+[2023-05-04 13:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-bank-python
+[2023-05-04 13:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cybrid-api-organization-python
+[2023-05-04 13:49:11] WARNING root fetch - processPackages [OpenFG]: Skipping, unable to determine old version
+[2023-05-04 13:49:11] INFO root fetch - processPackages [OpenFG]: Start processing: hubspot-api-client
+[2023-05-04 13:49:11] INFO root fetch - main [MainThread]: End processing [OpenFG] error
+[2023-05-04 13:49:11] INFO root fetch - processPackages [firex-flame-ui]: New version: [0.5] Old Version: [0.4]
+[2023-05-04 13:49:11] INFO root fetch - processPackages [calcure]: New version: [2.9] Old Version: [2.8.6]
+[2023-05-04 13:49:11] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 13:49:11] INFO root fetch - processPackages [androidtvremote2]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-04 13:49:11] INFO root fetch - processPackages [yaecs]: New version: [3.2.4] Old Version: [3.2.3]
+[2023-05-04 13:49:11] INFO root fetch - processPackages [cdk-vpc-module]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-04 13:49:11] INFO root fetch - processPackages [hubspot-api-client]: New version: [8.0.0b3] Old Version: [8.0.0b2]
+[2023-05-04 13:49:11] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-04 13:49:11] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-04 13:49:11] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-04 13:49:11] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-05-04 13:49:11] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-04 13:49:11] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230504/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-04 13:49:11] INFO root fetch - processPackages [androidtvremote2]: Downloading https://files.pythonhosted.org/packages/d2/1d/de0376bcd8b134e6c20884aca6bbe1598089b47568d89366ea97f978cc8c/androidtvremote2-0.0.7.tar.gz
+[2023-05-04 13:49:11] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-04 13:49:11] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230504/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-04 13:49:11] INFO root fetch - processPackages [calcure]: Downloading https://files.pythonhosted.org/packages/61/e3/c960430852d4322d42e02421690958f47fa2b42aaf4f3befb25c1c8baf21/calcure-2.8.6.tar.gz
+[2023-05-04 13:49:11] INFO root fetch - processPackages [firex-flame-ui]: Downloading https://files.pythonhosted.org/packages/16/35/e5827a063bd5bc86bcfb1203dcfe119f3d65f5bbd5a6242765b475767f0f/firex_flame_ui-0.4.tar.gz
+[2023-05-04 13:49:11] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-04 13:49:11] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230504/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-04 13:49:11] INFO root fetch - processPackages [cdk-vpc-module]: Downloading https://files.pythonhosted.org/packages/90/96/752bd3ff04ae66ac165bb79a6b729cceb6bc6df654284ca9581412863217/cdk-vpc-module-0.0.7.tar.gz
+[2023-05-04 13:49:11] INFO root fetch - processPackages [yaecs]: Downloading https://files.pythonhosted.org/packages/ee/f7/867c8253df4c585d404aad31e77fda8e7730dd8c68ecf939493122e192f2/yaecs-3.2.4.tar.gz
+[2023-05-04 13:49:11] INFO root fetch - processPackages [hubspot-api-client]: Downloading https://files.pythonhosted.org/packages/f4/d5/2501895901bb8309d562f5cd14744b07d317a3ddff2b6625a005ead20466/hubspot-api-client-8.0.0b2.tar.gz
+[2023-05-04 13:49:11] INFO root fetch - processPackages [yaecs]: executing diffoscope
+[2023-05-04 13:49:11] INFO root fetch - processPackages [yaecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaecs-3.2.3.tar.gz tmp/yaecs-3.2.4.tar.gz --markdown 20230504/y/yaecs/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2023-05-04 13:49:11] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-05-04 13:49:11] INFO root fetch - processPackages [calcure]: Downloading https://files.pythonhosted.org/packages/13/d0/bb767c9b54f48fe09ccaa084c8199bf1bc4e9736b6bda4b141e1eec55d4a/calcure-2.9.tar.gz
+[2023-05-04 13:49:11] INFO root fetch - processPackages [cdk-vpc-module]: Downloading https://files.pythonhosted.org/packages/77/fc/4b99cee9e0c40d490e1d73abccc96560171319e65f274e17df1d13b6c7bb/cdk-vpc-module-0.0.8.tar.gz
+[2023-05-04 13:49:11] INFO root fetch - processPackages [androidtvremote2]: Downloading https://files.pythonhosted.org/packages/19/6f/aad4c2068cc9383cad1fe138f54fed29dd5f9e1268af2aff976a1fac7998/androidtvremote2-0.0.8.tar.gz
+[2023-05-04 13:49:11] INFO root fetch - processPackages [hubspot-api-client]: Downloading https://files.pythonhosted.org/packages/49/3b/d45d7b78256b3b3585ca333e6a914ba83ff818994654fc58b8490fff8c16/hubspot-api-client-8.0.0b3.tar.gz
+[2023-05-04 13:49:11] INFO root fetch - processPackages [firex-flame-ui]: Downloading https://files.pythonhosted.org/packages/df/b9/4a36f6c021003eb03a13e164b40b96cd12546c19265317674e26e3f26452/firex_flame_ui-0.5.tar.gz
+[2023-05-04 13:49:11] INFO root fetch - processPackages [calcure]: executing diffoscope
+[2023-05-04 13:49:11] INFO root fetch - processPackages [calcure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calcure-2.8.6.tar.gz tmp/calcure-2.9.tar.gz --markdown 20230504/c/calcure/2.8.6-2.9/diff.md --exclude *.pyd
+[2023-05-04 13:49:11] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-05-04 13:49:11] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230504/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 13:49:11] INFO root fetch - processPackages [androidtvremote2]: executing diffoscope
+[2023-05-04 13:49:11] INFO root fetch - processPackages [androidtvremote2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/androidtvremote2-0.0.7.tar.gz tmp/androidtvremote2-0.0.8.tar.gz --markdown 20230504/a/androidtvremote2/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-04 13:49:11] INFO root fetch - processPackages [cdk-vpc-module]: executing diffoscope
+[2023-05-04 13:49:11] INFO root fetch - processPackages [cdk-vpc-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-vpc-module-0.0.7.tar.gz tmp/cdk-vpc-module-0.0.8.tar.gz --markdown 20230504/c/cdk-vpc-module/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-04 13:49:11] INFO root fetch - processPackages [hubspot-api-client]: executing diffoscope
+[2023-05-04 13:49:11] INFO root fetch - processPackages [hubspot-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubspot-api-client-8.0.0b2.tar.gz tmp/hubspot-api-client-8.0.0b3.tar.gz --markdown 20230504/h/hubspot-api-client/8.0.0b2-8.0.0b3/diff.md --exclude *.pyd
+[2023-05-04 13:49:12] INFO root fetch - processPackages [firex-flame-ui]: executing diffoscope
+[2023-05-04 13:49:12] INFO root fetch - processPackages [firex-flame-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firex_flame_ui-0.4.tar.gz tmp/firex_flame_ui-0.5.tar.gz --markdown 20230504/f/firex-flame-ui/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-04 13:49:13] INFO root fetch - processPackages [yaecs]: Start processing: openmetadata-ingestion
+[2023-05-04 13:49:13] INFO root fetch - main [MainThread]: End processing [yaecs]: success
+[2023-05-04 13:49:13] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.0.0.2] Old Version: [1.0.0.1]
+[2023-05-04 13:49:13] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: django-literature
+[2023-05-04 13:49:13] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-04 13:49:13] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: OWR
+[2023-05-04 13:49:13] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-04 13:49:13] INFO root fetch - processPackages [django-literature]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-04 13:49:13] INFO root fetch - processPackages [OWR]: New version: [2.4] Old Version: [2.3]
+[2023-05-04 13:49:13] INFO root fetch - processPackages [llamabot]: Start processing: datacooker
+[2023-05-04 13:49:13] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-05-04 13:49:13] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/1d/77/35fca68981fdf7b96d5041a94871b16220f8628c9ba988a78ca50f0ecadb/openmetadata-ingestion-1.0.0.1.tar.gz
+[2023-05-04 13:49:13] INFO root fetch - processPackages [datacooker]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-04 13:49:13] INFO root fetch - processPackages [OWR]: Downloading https://files.pythonhosted.org/packages/f4/2e/5c7fdf343b2c4a40da265040402b2a8d51e9533f32354fa7137fb3e28be8/OWR-2.4.tar.gz
+[2023-05-04 13:49:13] INFO root fetch - processPackages [androidtvremote2]: Start processing: certora-cli-alpha-oz-docker-json5
+[2023-05-04 13:49:13] INFO root fetch - main [MainThread]: End processing [androidtvremote2]: success
+[2023-05-04 13:49:13] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: New version: [20230504.8.42.61246] Old Version: [20230504.11.46.529156]
+[2023-05-04 13:49:13] INFO root fetch - processPackages [django-literature]: Downloading https://files.pythonhosted.org/packages/a3/13/a9406feb3af8da68e08e62393016ae6ccbd53ff8577275976a5effee0c1b/django_literature-0.1.2.tar.gz
+[2023-05-04 13:49:13] INFO root fetch - processPackages [cdk-vpc-module]: Start processing: domino-py
+[2023-05-04 13:49:13] INFO root fetch - main [MainThread]: End processing [cdk-vpc-module]: success
+[2023-05-04 13:49:13] INFO root fetch - processPackages [domino-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 13:49:13] INFO root fetch - processPackages [OWR]: executing diffoscope
+[2023-05-04 13:49:13] INFO root fetch - processPackages [OWR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OWR-2.3.tar.gz tmp/OWR-2.4.tar.gz --markdown 20230504/O/OWR/2.3-2.4/diff.md --exclude *.pyd
+[2023-05-04 13:49:13] INFO root fetch - processPackages [datacooker]: Downloading https://files.pythonhosted.org/packages/bd/63/c6728439bfe6063c808af7e3686e5cf136b5f44d054fd2e42652a8fc4a31/datacooker-0.4.0.tar.gz
+[2023-05-04 13:49:13] INFO root fetch - processPackages [domino-py]: executing diffoscope
+[2023-05-04 13:49:13] INFO root fetch - processPackages [domino-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domino-py-0.1.8.tar.gz tmp/domino-py-0.1.9.tar.gz --markdown 20230504/d/domino-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 13:49:13] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Downloading https://files.pythonhosted.org/packages/77/6a/088a0f5f24c05dbed89c0995e11abb95536e38b4403b65d6ef99b54d4d1e/certora-cli-alpha-oz-docker-json5-20230504.11.46.529156.tar.gz
+[2023-05-04 13:49:13] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/ef/d8/c467ca3d9dd2e768f2f289c9a93a06cd16344a24fa0669481669e7ac260e/openmetadata-ingestion-1.0.0.2.tar.gz
+[2023-05-04 13:49:13] WARNING root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Skipping package: exceeds size limit 38419022>=10485760
+[2023-05-04 13:49:13] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Start processing: akeyless
+[2023-05-04 13:49:13] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-docker-json5] error
+[2023-05-04 13:49:14] INFO root fetch - processPackages [akeyless]: New version: [3.3.2] Old Version: [3.3.1]
+[2023-05-04 13:49:14] INFO root fetch - processPackages [calcure]: Start processing: aicli
+[2023-05-04 13:49:14] INFO root fetch - main [MainThread]: End processing [calcure]: success
+[2023-05-04 13:49:14] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2023-05-04 13:49:14] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.0.0.1.tar.gz tmp/openmetadata-ingestion-1.0.0.2.tar.gz --markdown 20230504/o/openmetadata-ingestion/1.0.0.1-1.0.0.2/diff.md --exclude *.pyd
+[2023-05-04 13:49:14] INFO root fetch - processPackages [aicli]: New version: [99.0.202305041148] Old Version: [99.0.202304201338]
+[2023-05-04 13:49:14] INFO root fetch - processPackages [datacooker]: Downloading https://files.pythonhosted.org/packages/ff/6a/8fd6815442ff2e6b116c1d50510d785431026a1af551c4af01b398639858/datacooker-0.4.1.tar.gz
+[2023-05-04 13:49:14] INFO root fetch - processPackages [akeyless]: Downloading https://files.pythonhosted.org/packages/b4/a4/a8f9beace5649685a971bb808c71a744d61cdc9ff02dbde6ca53ebf487d5/akeyless-3.3.2.tar.gz
+[2023-05-04 13:49:14] INFO root fetch - processPackages [django-literature]: Downloading https://files.pythonhosted.org/packages/1f/4f/1b59f53d60e94c6e480f92289a1869758a5069c7ce2ba6f490ed1119df05/django_literature-0.1.3.tar.gz
+[2023-05-04 13:49:14] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/33/32/d23fd5c686fc36423463a34fd68b55a0301fa14d10450c933efb0da81066/aicli-99.0.202304201338-py3-none-any.whl
+[2023-05-04 13:49:14] INFO root fetch - processPackages [datacooker]: executing diffoscope
+[2023-05-04 13:49:14] INFO root fetch - processPackages [datacooker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datacooker-0.4.0.tar.gz tmp/datacooker-0.4.1.tar.gz --markdown 20230504/d/datacooker/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-04 13:49:14] INFO root fetch - processPackages [django-literature]: executing diffoscope
+[2023-05-04 13:49:14] INFO root fetch - processPackages [django-literature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_literature-0.1.2.tar.gz tmp/django_literature-0.1.3.tar.gz --markdown 20230504/d/django-literature/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-04 13:49:14] INFO root fetch - processPackages [akeyless]: executing diffoscope
+[2023-05-04 13:49:14] INFO root fetch - processPackages [akeyless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akeyless-3.3.1.tar.gz tmp/akeyless-3.3.2.tar.gz --markdown 20230504/a/akeyless/3.3.1-3.3.2/diff.md --exclude *.pyd
+[2023-05-04 13:49:14] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/12/4e/e3cbe19f8adaf34aa97fb14ef1e1cce37f9227fc0dc781c17c3911b607ae/aicli-99.0.202305041148-py3-none-any.whl
+[2023-05-04 13:49:14] INFO root fetch - processPackages [cybrid-api-bank-python]: Start processing: quickstart-rhy
+[2023-05-04 13:49:14] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-04 13:49:14] INFO root fetch - processPackages [quickstart-rhy]: New version: [0.7.1] Old Version: [0.6.9]
+[2023-05-04 13:49:14] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2023-05-04 13:49:14] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202304201338-py3-none-any.whl.zip tmp/aicli-99.0.202305041148-py3-none-any.whl.zip --markdown 20230504/a/aicli/99.0.202304201338-99.0.202305041148/diff.md --exclude *.pyd
+[2023-05-04 13:49:14] INFO root fetch - processPackages [quickstart-rhy]: Downloading https://files.pythonhosted.org/packages/ca/7d/c9f74268170260093e807e48238728845ab9c5149721300e7abea647e24b/QuickStart_Rhy-0.6.9.tar.gz
+[2023-05-04 13:49:15] INFO root fetch - processPackages [quickstart-rhy]: Downloading https://files.pythonhosted.org/packages/bb/db/ad4e3d0d06deeb6571fadbb491d67f0e53f4ea0e1802a29ad4dbf879389f/quickstart_rhy-0.7.1.tar.gz
+[2023-05-04 13:49:15] INFO root fetch - processPackages [OWR]: Start processing: kfish
+[2023-05-04 13:49:15] INFO root fetch - main [MainThread]: End processing [OWR]: success
+[2023-05-04 13:49:15] INFO root fetch - processPackages [kfish]: New version: [99.0.202305041148] Old Version: [99.0.202304201338]
+[2023-05-04 13:49:15] INFO root fetch - processPackages [quickstart-rhy]: executing diffoscope
+[2023-05-04 13:49:15] INFO root fetch - processPackages [quickstart-rhy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuickStart_Rhy-0.6.9.tar.gz tmp/quickstart_rhy-0.7.1.tar.gz --markdown 20230504/q/quickstart-rhy/0.6.9-0.7.1/diff.md --exclude *.pyd
+[2023-05-04 13:49:15] INFO root fetch - main [MainThread]: End processing [datacooker]: success
+[2023-05-04 13:49:15] INFO root fetch - main [MainThread]: End processing [domino-py]: success
+[2023-05-04 13:49:15] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/7d/91/78c1a3f6dfc2d2e05e02e55c0a80f9e136542389853baaf6de442e98dcc9/kfish-99.0.202304201338-py3-none-any.whl
+[2023-05-04 13:49:15] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2023-05-04 13:49:16] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/de/4f/3939c5272a77f9a393a2d3f23fdad229692bfc0eab8b4164c165dfb91d7b/kfish-99.0.202305041148-py3-none-any.whl
+[2023-05-04 13:49:16] INFO root fetch - main [MainThread]: End processing [django-literature]: success
+[2023-05-04 13:49:16] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-04 13:49:16] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202304201338-py3-none-any.whl.zip tmp/kfish-99.0.202305041148-py3-none-any.whl.zip --markdown 20230504/k/kfish/99.0.202304201338-99.0.202305041148/diff.md --exclude *.pyd
+[2023-05-04 13:49:16] INFO root fetch - main [MainThread]: End processing [quickstart-rhy]: success
+[2023-05-04 13:49:17] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-04 13:49:21] INFO root fetch - main [MainThread]: End processing [firex-flame-ui]: success
+[2023-05-04 13:49:34] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2023-05-04 13:49:36] INFO root fetch - main [MainThread]: End processing [akeyless]: success
+[2023-05-04 13:50:17] INFO root fetch - main [MainThread]: End processing [hubspot-api-client]: success
+[2023-05-04 13:50:17] INFO root fetch - main [MainThread]: Store serial: [17971528]
