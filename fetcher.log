@@ -7963,3 +7963,43 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 07:41:53] INFO root fetch - processPackages [Red-DiscordBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Red-DiscordBot-3.4.9.tar.gz tmp/Red-DiscordBot-3.5.0.tar.gz --markdown 20230504/R/Red-DiscordBot/3.4.9-3.5.0/diff.md --exclude *.pyd
 [2023-05-04 07:43:00] INFO root fetch - main [MainThread]: End processing [Red-DiscordBot]: success
 [2023-05-04 07:43:00] INFO root fetch - main [MainThread]: Store serial: [17967746]
+[2023-05-04 07:48:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967746]
+[2023-05-04 07:48:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-04 07:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: church-of-jesus-christ-api
+[2023-05-04 07:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coredis
+[2023-05-04 07:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oobabot
+[2023-05-04 07:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sshg
+[2023-05-04 07:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: czthry
+[2023-05-04 07:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plivo
+[2023-05-04 07:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xj-migrate
+[2023-05-04 07:48:10] INFO root fetch - processPackages [church-of-jesus-christ-api]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-04 07:48:10] INFO root fetch - processPackages [czthry]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-04 07:48:10] WARNING root fetch - processPackages [sshg]: Skipping, unable to determine old version
+[2023-05-04 07:48:10] INFO root fetch - main [MainThread]: End processing [sshg] error
+[2023-05-04 07:48:10] WARNING root fetch - processPackages [oobabot]: Skipping, unable to determine old version
+[2023-05-04 07:48:10] INFO root fetch - main [MainThread]: End processing [oobabot] error
+[2023-05-04 07:48:10] INFO root fetch - processPackages [plivo]: New version: [4.9.0] Old Version: [4.8.1]
+[2023-05-04 07:48:10] INFO root fetch - processPackages [coredis]: New version: [4.9.0] Old Version: [4.8.3]
+[2023-05-04 07:48:11] INFO root fetch - processPackages [xj-migrate]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-04 07:48:11] INFO root fetch - processPackages [coredis]: executing diffoscope
+[2023-05-04 07:48:11] INFO root fetch - processPackages [coredis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coredis-4.8.3.tar.gz tmp/coredis-4.9.0.tar.gz --markdown 20230504/c/coredis/4.8.3-4.9.0/diff.md --exclude *.pyd
+[2023-05-04 07:48:11] INFO root fetch - processPackages [church-of-jesus-christ-api]: Downloading https://files.pythonhosted.org/packages/97/33/49add7099c1264cce9edcffb0c0baff4c2f6821dfa0cf0d0e063fdd4ed41/church_of_jesus_christ_api-0.2.3.tar.gz
+[2023-05-04 07:48:11] INFO root fetch - processPackages [plivo]: Downloading https://files.pythonhosted.org/packages/0a/98/99826a7c72ddaccf707946547e62379085f668142ac0d12ee8ce5976e8db/plivo-4.8.1.tar.gz
+[2023-05-04 07:48:11] INFO root fetch - processPackages [czthry]: Downloading https://files.pythonhosted.org/packages/6a/55/aa61a50d8c0463bdd17b19edad63b204f5beeed97a071597b8fc62d709d8/czthry-0.0.7.tar.gz
+[2023-05-04 07:48:11] INFO root fetch - processPackages [xj-migrate]: Downloading https://files.pythonhosted.org/packages/79/b7/47163ebd89814453fcce295a069a99a94a491cda828cff3e5d52196cfdfc/xj-migrate-1.0.6.tar.gz
+[2023-05-04 07:48:11] WARNING root fetch - processPackages [church-of-jesus-christ-api]: Skipping package: exceeds size limit 10988233>=10485760
+[2023-05-04 07:48:11] INFO root fetch - main [MainThread]: End processing [church-of-jesus-christ-api] error
+[2023-05-04 07:48:11] INFO root fetch - processPackages [czthry]: Downloading https://files.pythonhosted.org/packages/29/a6/3b677a7916d25eb5ea7599fe4e6c74da36ce5cbc913fe131950dc876472e/czthry-0.0.9.tar.gz
+[2023-05-04 07:48:11] INFO root fetch - processPackages [plivo]: Downloading https://files.pythonhosted.org/packages/44/fb/2b8994c1e34a8038dd5d9053ab3ae690961311ff4ff8296765c93f34d440/plivo-4.9.0.tar.gz
+[2023-05-04 07:48:11] INFO root fetch - processPackages [xj-migrate]: Downloading https://files.pythonhosted.org/packages/89/7e/95932d51ad1672d645b9f606bc82feca1410dabaede7772d5fcf195134f6/xj-migrate-1.0.7.tar.gz
+[2023-05-04 07:48:11] INFO root fetch - processPackages [czthry]: executing diffoscope
+[2023-05-04 07:48:11] INFO root fetch - processPackages [czthry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czthry-0.0.7.tar.gz tmp/czthry-0.0.9.tar.gz --markdown 20230504/c/czthry/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 07:48:11] INFO root fetch - processPackages [xj-migrate]: executing diffoscope
+[2023-05-04 07:48:11] INFO root fetch - processPackages [xj-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj-migrate-1.0.6.tar.gz tmp/xj-migrate-1.0.7.tar.gz --markdown 20230504/x/xj-migrate/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-04 07:48:11] INFO root fetch - processPackages [plivo]: executing diffoscope
+[2023-05-04 07:48:11] INFO root fetch - processPackages [plivo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plivo-4.8.1.tar.gz tmp/plivo-4.9.0.tar.gz --markdown 20230504/p/plivo/4.8.1-4.9.0/diff.md --exclude *.pyd
+[2023-05-04 07:48:12] INFO root fetch - main [MainThread]: End processing [czthry]: success
+[2023-05-04 07:48:12] INFO root fetch - main [MainThread]: End processing [coredis]: success
+[2023-05-04 07:48:12] INFO root fetch - main [MainThread]: End processing [xj-migrate]: success
+[2023-05-04 07:48:13] INFO root fetch - main [MainThread]: End processing [plivo]: success
+[2023-05-04 07:48:13] INFO root fetch - main [MainThread]: Store serial: [17967799]
