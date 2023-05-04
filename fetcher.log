@@ -14645,3 +14645,77 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 14:06:41] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-05-04 14:06:43] INFO root fetch - main [MainThread]: End processing [acconeer-exptool]: success
 [2023-05-04 14:06:43] INFO root fetch - main [MainThread]: Store serial: [17971708]
+[2023-05-04 14:11:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17971708]
+[2023-05-04 14:11:52] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-04 14:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dna-audit-new4
+[2023-05-04 14:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assisted-service-client
+[2023-05-04 14:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2023-05-04 14:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qoqo-myqlm
+[2023-05-04 14:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulp-certguard
+[2023-05-04 14:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulp-certguard-client
+[2023-05-04 14:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bridgecrew
+[2023-05-04 14:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bagbag
+[2023-05-04 14:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-roy-CERT-1891-allocId-c
+[2023-05-04 14:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finflo
+[2023-05-04 14:11:52] INFO root fetch - processPackages [pulp-certguard]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-05-04 14:11:52] WARNING root fetch - processPackages [dna-audit-new4]: Skipping, unable to determine old version
+[2023-05-04 14:11:52] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230504.9.57.726431] Old Version: [20230504.12.6.145215]
+[2023-05-04 14:11:52] INFO root fetch - processPackages [dna-audit-new4]: Start processing: pulp-file
+[2023-05-04 14:11:52] INFO root fetch - main [MainThread]: End processing [dna-audit-new4] error
+[2023-05-04 14:11:52] ERROR root fetch - processPackages [bagbag]: Unable to get metadata: No such project 'bagbag'
+[2023-05-04 14:11:52] INFO root fetch - processPackages [bagbag]: Start processing: pulp-file-client
+[2023-05-04 14:11:52] INFO root fetch - main [MainThread]: End processing [bagbag] error
+[2023-05-04 14:11:52] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: New version: [20230504.12.9.509941] Old Version: [20230503.15.37.368954]
+[2023-05-04 14:11:52] INFO root fetch - processPackages [qoqo-myqlm]: New version: [0.4.6] Old Version: [0.4.4]
+[2023-05-04 14:11:52] INFO root fetch - processPackages [finflo]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-05-04 14:11:52] INFO root fetch - processPackages [pulp-certguard-client]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-05-04 14:11:52] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-04 14:11:52] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-04 14:11:52] INFO root fetch - processPackages [pulp-file]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-04 14:11:52] INFO root fetch - processPackages [pulp-file-client]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-04 14:11:52] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/1f/55/f709ad16e6ccafe1d61ae79dde495cbf763807bcf80b25e1c7a0cd91db9e/certora-cli-alpha-master-20230504.12.6.145215.tar.gz
+[2023-05-04 14:11:52] INFO root fetch - processPackages [qoqo-myqlm]: Downloading https://files.pythonhosted.org/packages/97/e6/ccb0f06f3a0759d8c8bd634af6aa09c678f5d0e59d11590a4a9eb88d342d/qoqo_myqlm-0.4.4.tar.gz
+[2023-05-04 14:11:52] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: Downloading https://files.pythonhosted.org/packages/8e/74/e5b7d64e332d82db2a64f0b5874fbea8699f5201cbf272887ee2f2d7e8a6/certora-cli-alpha-roy-CERT-1891-allocId-c-20230503.15.37.368954.tar.gz
+[2023-05-04 14:11:52] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/b2/a6/846c4b2673e8aeb792447e16e25e9f52389afe571939bac4fb091abe4c22/finflo-2.0.7.tar.gz
+[2023-05-04 14:11:52] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-04 14:11:52] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230504/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-04 14:11:52] INFO root fetch - processPackages [pulp-certguard]: Downloading https://files.pythonhosted.org/packages/27/be/6e0fec91da381c78deae9a27565636427ae2299068373eb1398ba41eb432/pulp-certguard-1.6.4.tar.gz
+[2023-05-04 14:11:52] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38417586>=10485760
+[2023-05-04 14:11:52] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: bigdl-orca-spark2
+[2023-05-04 14:11:52] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-04 14:11:52] INFO root fetch - processPackages [pulp-file-client]: Downloading https://files.pythonhosted.org/packages/8e/63/0d0a3e1cb55dd5bb28c5de448a3c3f2be75823c2f5c80fb2fe9b0075ffe0/pulp_file-client-1.9.0.tar.gz
+[2023-05-04 14:11:52] INFO root fetch - processPackages [pulp-file]: Downloading https://files.pythonhosted.org/packages/c0/24/b4a3bfeb3b66a81e730e7e3ea37b12e52dd5ac3560250953d2b841c46ca3/pulp-file-1.9.0.tar.gz
+[2023-05-04 14:11:52] INFO root fetch - processPackages [pulp-certguard]: executing diffoscope
+[2023-05-04 14:11:52] INFO root fetch - processPackages [pulp-certguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-certguard-1.6.3.tar.gz tmp/pulp-certguard-1.6.4.tar.gz --markdown 20230504/p/pulp-certguard/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-05-04 14:11:52] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230503] Old Version: [2.4.0b20230502]
+[2023-05-04 14:11:52] INFO root fetch - processPackages [pulp-certguard-client]: Downloading https://files.pythonhosted.org/packages/2c/53/ad01bfb691298f52416c39c8b78ef24b831888779dd870a30b519af08cd8/pulp_certguard-client-1.6.4.tar.gz
+[2023-05-04 14:11:52] INFO root fetch - processPackages [pulp-certguard-client]: executing diffoscope
+[2023-05-04 14:11:52] INFO root fetch - processPackages [pulp-certguard-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_certguard-client-1.6.3.tar.gz tmp/pulp_certguard-client-1.6.4.tar.gz --markdown 20230504/p/pulp-certguard-client/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-05-04 14:11:52] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: Skipping package: exceeds size limit 38391644>=10485760
+[2023-05-04 14:11:52] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1891-allocId-c] error
+[2023-05-04 14:11:52] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-04 14:11:52] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230504/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-04 14:11:52] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/04/d4/473c3170b2653947ae4fdf747350d5d9da37102ff9e555728fe31155c998/finflo-2.0.8.tar.gz
+[2023-05-04 14:11:52] INFO root fetch - processPackages [finflo]: executing diffoscope
+[2023-05-04 14:11:52] INFO root fetch - processPackages [finflo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finflo-2.0.7.tar.gz tmp/finflo-2.0.8.tar.gz --markdown 20230504/f/finflo/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-05-04 14:11:52] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/6f/c6/874214a45b31eb912c5717107972d0aa20e3b2ced60d48d80bf22d80bc7f/bigdl_orca_spark2-2.4.0b20230502-py3-none-manylinux1_x86_64.whl
+[2023-05-04 14:11:53] INFO root fetch - processPackages [pulp-file]: Downloading https://files.pythonhosted.org/packages/29/2b/e8809ab67ee58b6ac48e0ac150451e3e8c2ef10999e6033c237d87a4b381/pulp-file-1.9.1.tar.gz
+[2023-05-04 14:11:53] INFO root fetch - processPackages [qoqo-myqlm]: Downloading https://files.pythonhosted.org/packages/11/4d/85ab9335439e00bab2fdedd8c8f86c0fd4b4237e0e3102ec56050dec6dc0/qoqo_myqlm-0.4.6.tar.gz
+[2023-05-04 14:11:53] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369251>=10485760
+[2023-05-04 14:11:53] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-05-04 14:11:53] INFO root fetch - processPackages [qoqo-myqlm]: executing diffoscope
+[2023-05-04 14:11:53] INFO root fetch - processPackages [qoqo-myqlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_myqlm-0.4.4.tar.gz tmp/qoqo_myqlm-0.4.6.tar.gz --markdown 20230504/q/qoqo-myqlm/0.4.4-0.4.6/diff.md --exclude *.pyd
+[2023-05-04 14:11:53] INFO root fetch - processPackages [pulp-file]: executing diffoscope
+[2023-05-04 14:11:53] INFO root fetch - processPackages [pulp-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-file-1.9.0.tar.gz tmp/pulp-file-1.9.1.tar.gz --markdown 20230504/p/pulp-file/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-04 14:11:53] INFO root fetch - processPackages [pulp-file-client]: Downloading https://files.pythonhosted.org/packages/96/9b/2d7f15fbd788b2dc4615275026620be01431085383535a3a0dd379990e9c/pulp_file-client-1.9.1.tar.gz
+[2023-05-04 14:11:53] INFO root fetch - processPackages [pulp-file-client]: executing diffoscope
+[2023-05-04 14:11:53] INFO root fetch - processPackages [pulp-file-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_file-client-1.9.0.tar.gz tmp/pulp_file-client-1.9.1.tar.gz --markdown 20230504/p/pulp-file-client/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-04 14:11:53] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-04 14:11:54] INFO root fetch - main [MainThread]: End processing [pulp-certguard]: success
+[2023-05-04 14:11:54] INFO root fetch - main [MainThread]: End processing [finflo]: success
+[2023-05-04 14:11:54] INFO root fetch - main [MainThread]: End processing [qoqo-myqlm]: success
+[2023-05-04 14:11:54] INFO root fetch - main [MainThread]: End processing [pulp-file]: success
+[2023-05-04 14:11:54] INFO root fetch - main [MainThread]: End processing [pulp-certguard-client]: success
+[2023-05-04 14:11:55] INFO root fetch - main [MainThread]: End processing [pulp-file-client]: success
+[2023-05-04 14:11:56] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-04 14:11:56] INFO root fetch - main [MainThread]: Store serial: [17971803]
