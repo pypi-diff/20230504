@@ -20754,3 +20754,82 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 19:15:25] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
 [2023-05-04 19:15:29] INFO root fetch - main [MainThread]: End processing [lona-picocss]: success
 [2023-05-04 19:15:29] INFO root fetch - main [MainThread]: Store serial: [17975380]
+[2023-05-04 19:20:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17975380]
+[2023-05-04 19:20:38] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-04 19:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openmldb-exporter
+[2023-05-04 19:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AutoGenerateMKD
+[2023-05-04 19:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SpotifyPictureHelper
+[2023-05-04 19:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydicts
+[2023-05-04 19:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: network-analysis
+[2023-05-04 19:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: for-django-projects
+[2023-05-04 19:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pythonCSVutils
+[2023-05-04 19:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jina
+[2023-05-04 19:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hyperspyUI
+[2023-05-04 19:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jarvis-ironman
+[2023-05-04 19:20:38] INFO root fetch - processPackages [SpotifyPictureHelper]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-04 19:20:38] INFO root fetch - processPackages [openmldb-exporter]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-04 19:20:38] INFO root fetch - processPackages [AutoGenerateMKD]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-04 19:20:38] INFO root fetch - processPackages [for-django-projects]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-04 19:20:38] INFO root fetch - processPackages [pythonCSVutils]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-04 19:20:38] INFO root fetch - processPackages [pydicts]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-04 19:20:38] INFO root fetch - processPackages [network-analysis]: New version: [0.0.2b0] Old Version: [0.0.2]
+[2023-05-04 19:20:38] INFO root fetch - processPackages [hyperspyUI]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-04 19:20:38] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-05-04 19:20:38] INFO root fetch - processPackages [jarvis-ironman]: New version: [2.7a0] Old Version: [2.5]
+[2023-05-04 19:20:38] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-05-04 19:20:38] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230504/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-05-04 19:20:38] INFO root fetch - processPackages [pythonCSVutils]: Downloading https://files.pythonhosted.org/packages/cc/82/b4effe992460c1e7d556a8cc32d2447c40f437f4d3ac922aff4597d0bfaa/pythonCSVutils-0.1.tar.gz
+[2023-05-04 19:20:38] INFO root fetch - processPackages [pydicts]: Downloading https://files.pythonhosted.org/packages/7f/27/b5fd3edcb0a7a3fb2b15a33de41f52d09347d53242c56a75bff16af91490/pydicts-0.4.0.tar.gz
+[2023-05-04 19:20:38] INFO root fetch - processPackages [openmldb-exporter]: Downloading https://files.pythonhosted.org/packages/d9/7a/8239ac031c6f1dfcaacf4fa16e5f1a3bbf4138dce64d35052a0a2d74cf36/openmldb-exporter-0.6.0.tar.gz
+[2023-05-04 19:20:38] INFO root fetch - processPackages [for-django-projects]: Downloading https://files.pythonhosted.org/packages/51/01/42cb96f96916b869a4666ecd5fdadedd22bbed9512260b7fb8c5d7b15850/for-django-projects-1.0.2.tar.gz
+[2023-05-04 19:20:38] INFO root fetch - processPackages [hyperspyUI]: Downloading https://files.pythonhosted.org/packages/1d/d1/f49e7fdf3d407f136dd51ac448f32b5df8c863785d37dba583fcbdd95f70/hyperspyUI-1.2.0.tar.gz
+[2023-05-04 19:20:38] INFO root fetch - processPackages [network-analysis]: Downloading https://files.pythonhosted.org/packages/8f/59/3bcc0082304bac7b995cf1bab9323dee9e7b4d9268d797cd013a0956271f/network-analysis-0.0.2b0.tar.gz
+[2023-05-04 19:20:38] INFO root fetch - processPackages [AutoGenerateMKD]: Downloading https://files.pythonhosted.org/packages/22/d3/17bab7b6e6f30a15299de7778cab4281dcaf3b0ba5779b3f67906e2a4b03/AutoGenerateMKD-0.0.3.tar.gz
+[2023-05-04 19:20:38] INFO root fetch - processPackages [for-django-projects]: executing diffoscope
+[2023-05-04 19:20:38] INFO root fetch - processPackages [for-django-projects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/for-django-projects-1.0.1.tar.gz tmp/for-django-projects-1.0.2.tar.gz --markdown 20230504/f/for-django-projects/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-04 19:20:38] INFO root fetch - processPackages [AutoGenerateMKD]: executing diffoscope
+[2023-05-04 19:20:38] INFO root fetch - processPackages [AutoGenerateMKD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoGenerateMKD-0.0.2.tar.gz tmp/AutoGenerateMKD-0.0.3.tar.gz --markdown 20230504/A/AutoGenerateMKD/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-04 19:20:38] INFO root fetch - processPackages [SpotifyPictureHelper]: Downloading https://files.pythonhosted.org/packages/68/10/5944d6842fc21b3670fc59fb0c9685c0c5df3744d6339cb9bd34deb3d5ae/SpotifyPictureHelper-0.2.1.tar.gz
+[2023-05-04 19:20:38] INFO root fetch - processPackages [jarvis-ironman]: Downloading https://files.pythonhosted.org/packages/c6/9f/54cde9bc9f57a624148abbad306576922bbc112dc3e0adc5981c78fbd68e/jarvis_ironman-2.5-py3-none-any.whl
+[2023-05-04 19:20:39] INFO root fetch - processPackages [SpotifyPictureHelper]: executing diffoscope
+[2023-05-04 19:20:39] INFO root fetch - processPackages [SpotifyPictureHelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpotifyPictureHelper-0.2.0.tar.gz tmp/SpotifyPictureHelper-0.2.1.tar.gz --markdown 20230504/S/SpotifyPictureHelper/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-04 19:20:39] INFO root fetch - processPackages [network-analysis]: executing diffoscope
+[2023-05-04 19:20:39] INFO root fetch - processPackages [network-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network-analysis-0.0.2.tar.gz tmp/network-analysis-0.0.2b0.tar.gz --markdown 20230504/n/network-analysis/0.0.2-0.0.2b0/diff.md --exclude *.pyd
+[2023-05-04 19:20:39] INFO root fetch - processPackages [pythonCSVutils]: Downloading https://files.pythonhosted.org/packages/47/0c/4d304fb05933b6f4a77da1eb51025c3226ea3cdc6446d2d4d74060f65d00/pythonCSVutils-0.1.1.tar.gz
+[2023-05-04 19:20:39] INFO root fetch - processPackages [pythonCSVutils]: executing diffoscope
+[2023-05-04 19:20:39] INFO root fetch - processPackages [pythonCSVutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonCSVutils-0.1.tar.gz tmp/pythonCSVutils-0.1.1.tar.gz --markdown 20230504/p/pythonCSVutils/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 19:20:39] INFO root fetch - processPackages [pydicts]: Downloading https://files.pythonhosted.org/packages/39/42/1c2ffa4d8293e308ce19d70fcc26b632ed0705297ed648b2f386015c2483/pydicts-0.5.0.tar.gz
+[2023-05-04 19:20:39] INFO root fetch - processPackages [openmldb-exporter]: Downloading https://files.pythonhosted.org/packages/5c/be/f11a8de4000d37019a3d5782a7fcaebd38a4bc4e68628724f9937cb352c2/openmldb_exporter-0.7.0.tar.gz
+[2023-05-04 19:20:39] INFO root fetch - processPackages [pydicts]: executing diffoscope
+[2023-05-04 19:20:39] INFO root fetch - processPackages [hyperspyUI]: Downloading https://files.pythonhosted.org/packages/c2/9c/7fee0bedda64abdc62bd9658d93b1b68cb3a6f866c9821d238209722758c/hyperspyUI-1.3.0.tar.gz
+[2023-05-04 19:20:39] INFO root fetch - processPackages [pydicts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydicts-0.4.0.tar.gz tmp/pydicts-0.5.0.tar.gz --markdown 20230504/p/pydicts/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-04 19:20:39] INFO root fetch - processPackages [openmldb-exporter]: executing diffoscope
+[2023-05-04 19:20:39] INFO root fetch - processPackages [openmldb-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmldb-exporter-0.6.0.tar.gz tmp/openmldb_exporter-0.7.0.tar.gz --markdown 20230504/o/openmldb-exporter/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-04 19:20:39] INFO root fetch - processPackages [hyperspyUI]: executing diffoscope
+[2023-05-04 19:20:39] INFO root fetch - processPackages [hyperspyUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperspyUI-1.2.0.tar.gz tmp/hyperspyUI-1.3.0.tar.gz --markdown 20230504/h/hyperspyUI/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-04 19:20:39] INFO root fetch - processPackages [jarvis-ironman]: Downloading https://files.pythonhosted.org/packages/7d/01/02d7ad92d741cd546b645110d6bf462df86fcdc6b16c477276cefefe260f/jarvis_ironman-2.7a0-py3-none-any.whl
+[2023-05-04 19:20:40] INFO root fetch - processPackages [jarvis-ironman]: executing diffoscope
+[2023-05-04 19:20:40] INFO root fetch - processPackages [jarvis-ironman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis_ironman-2.5-py3-none-any.whl.zip tmp/jarvis_ironman-2.7a0-py3-none-any.whl.zip --markdown 20230504/j/jarvis-ironman/2.5-2.7a0/diff.md --exclude *.pyd
+[2023-05-04 19:20:40] INFO root fetch - processPackages [AutoGenerateMKD]: Start processing: hash-hound
+[2023-05-04 19:20:40] INFO root fetch - main [MainThread]: End processing [AutoGenerateMKD]: success
+[2023-05-04 19:20:40] INFO root fetch - processPackages [hash-hound]: New version: [0.2] Old Version: [0.1]
+[2023-05-04 19:20:40] INFO root fetch - processPackages [pythonCSVutils]: Start processing: asf-search
+[2023-05-04 19:20:40] INFO root fetch - main [MainThread]: End processing [pythonCSVutils]: success
+[2023-05-04 19:20:40] INFO root fetch - processPackages [hash-hound]: executing diffoscope
+[2023-05-04 19:20:40] INFO root fetch - processPackages [hash-hound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hash-hound-0.1.tar.gz tmp/hash-hound-0.2.tar.gz --markdown 20230504/h/hash-hound/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-04 19:20:40] INFO root fetch - processPackages [asf-search]: New version: [6.4.0] Old Version: [6.3.1]
+[2023-05-04 19:20:40] INFO root fetch - main [MainThread]: End processing [openmldb-exporter]: success
+[2023-05-04 19:20:40] INFO root fetch - processPackages [asf-search]: Downloading https://files.pythonhosted.org/packages/a6/e1/d7355cfa33d61c6dfba3055c861e216fcf3f32fb374f6fcda49115f634b1/asf_search-6.3.1.tar.gz
+[2023-05-04 19:20:40] INFO root fetch - main [MainThread]: End processing [for-django-projects]: success
+[2023-05-04 19:20:40] INFO root fetch - main [MainThread]: End processing [network-analysis]: success
+[2023-05-04 19:20:41] INFO root fetch - main [MainThread]: End processing [pydicts]: success
+[2023-05-04 19:20:41] INFO root fetch - processPackages [asf-search]: Downloading https://files.pythonhosted.org/packages/85/d8/34b03128482031dc3c033a3c33a08e4403860cb54cb0ac2df63d773f0408/asf_search-6.4.0.tar.gz
+[2023-05-04 19:20:41] INFO root fetch - processPackages [asf-search]: executing diffoscope
+[2023-05-04 19:20:41] INFO root fetch - processPackages [asf-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asf_search-6.3.1.tar.gz tmp/asf_search-6.4.0.tar.gz --markdown 20230504/a/asf-search/6.3.1-6.4.0/diff.md --exclude *.pyd
+[2023-05-04 19:20:41] INFO root fetch - main [MainThread]: End processing [hash-hound]: success
+[2023-05-04 19:20:41] INFO root fetch - main [MainThread]: End processing [hyperspyUI]: success
+[2023-05-04 19:20:42] INFO root fetch - main [MainThread]: End processing [SpotifyPictureHelper]: success
+[2023-05-04 19:20:42] INFO root fetch - main [MainThread]: End processing [jarvis-ironman]: success
+[2023-05-04 19:20:42] INFO root fetch - main [MainThread]: End processing [asf-search]: success
+[2023-05-04 19:20:43] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-05-04 19:20:43] INFO root fetch - main [MainThread]: Store serial: [17975431]
