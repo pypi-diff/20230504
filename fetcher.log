@@ -17968,3 +17968,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 16:52:38] INFO root fetch - main [MainThread]: End processing [yeref]: success
 [2023-05-04 16:52:38] INFO root fetch - main [MainThread]: End processing [addons-installer]: success
 [2023-05-04 16:52:38] INFO root fetch - main [MainThread]: Store serial: [17973717]
+[2023-05-04 16:57:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17973717]
+[2023-05-04 16:57:48] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enrRiceTrait
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: epitools
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ABCParse
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudnetpy-qc
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-management
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psidata
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deepclient
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nkululeko
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plex-nfs-watchdog
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: logcat-color3
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ABCParse]: New version: [0.0.4] Old Version: [0.0.3rc0]
+[2023-05-04 16:57:48] INFO root fetch - processPackages [enrRiceTrait]: New version: [1.4.2] Old Version: [1.4.0]
+[2023-05-04 16:57:48] INFO root fetch - processPackages [plex-nfs-watchdog]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-04 16:57:48] WARNING root fetch - processPackages [epitools]: Skipping, unable to determine old version
+[2023-05-04 16:57:48] INFO root fetch - processPackages [epitools]: Start processing: cagpaint
+[2023-05-04 16:57:48] INFO root fetch - main [MainThread]: End processing [epitools] error
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ml-management]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-05-04 16:57:48] INFO root fetch - processPackages [psidata]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 16:57:48] INFO root fetch - processPackages [deepclient]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-04 16:57:48] INFO root fetch - processPackages [nkululeko]: New version: [0.45.0] Old Version: [0.44.1]
+[2023-05-04 16:57:48] INFO root fetch - processPackages [cloudnetpy-qc]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-04 16:57:48] INFO root fetch - processPackages [logcat-color3]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-04 16:57:48] INFO root fetch - processPackages [cagpaint]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-05-04 16:57:48] INFO root fetch - processPackages [deepclient]: Downloading https://files.pythonhosted.org/packages/11/b2/11517c27333ab162978d2c089814a92f7a0f117c65492b054f78ac3a8c2f/deepclient-0.0.1.tar.gz
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ABCParse]: Downloading https://files.pythonhosted.org/packages/44/28/d96ad70d59f6cd6d8d8cf886a82c725c8602d8cc1ee34b0b0500abe8a255/ABCParse-0.0.3rc0.tar.gz
+[2023-05-04 16:57:48] INFO root fetch - processPackages [enrRiceTrait]: Downloading https://files.pythonhosted.org/packages/23/c5/5cffc21837da3190199dddd7a90841b8435f16f993036551598e836fd23e/enrRiceTrait-1.4.0.tar.gz
+[2023-05-04 16:57:48] INFO root fetch - processPackages [plex-nfs-watchdog]: Downloading https://files.pythonhosted.org/packages/d7/c2/0f29d6bcd53cd2c2e0862b8b5a6fc024391c9250cdb4c6866eabda98dc34/plex-nfs-watchdog-0.0.7.tar.gz
+[2023-05-04 16:57:48] INFO root fetch - processPackages [cloudnetpy-qc]: Downloading https://files.pythonhosted.org/packages/57/a5/6f5aaa8885c4ed16e2680099cf9d4093b234d68138749c6818f89785aaba/cloudnetpy_qc-1.9.1.tar.gz
+[2023-05-04 16:57:48] INFO root fetch - processPackages [cagpaint]: Downloading https://files.pythonhosted.org/packages/7b/da/81424ea3b397cfbd664eb455f9ecc7001c566a3f5ce3afd26174d1790d1c/cagpaint-0.1.3.tar.gz
+[2023-05-04 16:57:48] INFO root fetch - processPackages [psidata]: Downloading https://files.pythonhosted.org/packages/92/ab/87454862b8475b128c72d1acb1766f40ebd24b00c723d309a764c84692d1/psidata-0.1.1.tar.gz
+[2023-05-04 16:57:48] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/f6/b2/54c8680bf2effdd240504e48bb61d4cbc4e6be8bb5d59ad6431112851849/nkululeko-0.44.1.tar.gz
+[2023-05-04 16:57:48] INFO root fetch - processPackages [logcat-color3]: Downloading https://files.pythonhosted.org/packages/3b/af/cd61e9a827bf1ba58096c52db36191122cc18f834e0b6a67b64c5c7872dd/logcat-color3-0.9.1.tar.gz
+[2023-05-04 16:57:48] INFO root fetch - processPackages [plex-nfs-watchdog]: executing diffoscope
+[2023-05-04 16:57:48] INFO root fetch - processPackages [plex-nfs-watchdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plex-nfs-watchdog-0.0.6.tar.gz tmp/plex-nfs-watchdog-0.0.7.tar.gz --markdown 20230504/p/plex-nfs-watchdog/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-04 16:57:48] INFO root fetch - processPackages [cagpaint]: executing diffoscope
+[2023-05-04 16:57:48] INFO root fetch - processPackages [cagpaint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagpaint-0.1.1.tar.gz tmp/cagpaint-0.1.3.tar.gz --markdown 20230504/c/cagpaint/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/e4/02/23dadd23b2903ceafb94e182d492c90497f254d1abaa4890108c5b486bc5/ml-management-0.0.31.tar.gz
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ml-management]: executing diffoscope
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ml-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-management-0.0.30.tar.gz tmp/ml-management-0.0.31.tar.gz --markdown 20230504/m/ml-management/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-05-04 16:57:48] INFO root fetch - processPackages [cloudnetpy-qc]: Downloading https://files.pythonhosted.org/packages/83/dd/e253919df32c5099cd8e39643495d07e1a2c6c5d179982dc1a9038814d5d/cloudnetpy_qc-1.9.2.tar.gz
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ABCParse]: Downloading https://files.pythonhosted.org/packages/70/28/4d86abd4d86b6ac09a6a6de6860072244bc68a94b9ab0e5e91c6484bb1a4/ABCParse-0.0.4.tar.gz
+[2023-05-04 16:57:48] INFO root fetch - processPackages [cloudnetpy-qc]: executing diffoscope
+[2023-05-04 16:57:48] INFO root fetch - processPackages [cloudnetpy-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudnetpy_qc-1.9.1.tar.gz tmp/cloudnetpy_qc-1.9.2.tar.gz --markdown 20230504/c/cloudnetpy-qc/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ABCParse]: executing diffoscope
+[2023-05-04 16:57:48] INFO root fetch - processPackages [ABCParse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ABCParse-0.0.3rc0.tar.gz tmp/ABCParse-0.0.4.tar.gz --markdown 20230504/A/ABCParse/0.0.3rc0-0.0.4/diff.md --exclude *.pyd
+[2023-05-04 16:57:48] INFO root fetch - processPackages [deepclient]: Downloading https://files.pythonhosted.org/packages/b4/c1/6bf32ea849b0636b5d19824a62698781700b9270e77f638bba2c82703aaf/deepclient-1.0.0.tar.gz
+[2023-05-04 16:57:48] INFO root fetch - processPackages [enrRiceTrait]: Downloading https://files.pythonhosted.org/packages/f3/87/9ca726c092fcaea8b54db39b98e5a586e0096abbba695c34e9e1c727c460/enrRiceTrait-1.4.2.tar.gz
+[2023-05-04 16:57:48] INFO root fetch - processPackages [psidata]: Downloading https://files.pythonhosted.org/packages/a6/03/7d72abc65f016583251726817d5c506da4056f208b3d502d139532b8ca58/psidata-0.1.2.tar.gz
+[2023-05-04 16:57:48] INFO root fetch - processPackages [deepclient]: executing diffoscope
+[2023-05-04 16:57:48] INFO root fetch - processPackages [deepclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepclient-0.0.1.tar.gz tmp/deepclient-1.0.0.tar.gz --markdown 20230504/d/deepclient/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-04 16:57:48] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/30/85/7ae21d04bd95604190cf09d5372aac592f365b4690e0e0eb02f6fa36bd5e/nkululeko-0.45.0.tar.gz
+[2023-05-04 16:57:48] INFO root fetch - processPackages [logcat-color3]: Downloading https://files.pythonhosted.org/packages/02/2a/a4b5d0ec126e305cc5e61af608b804307fbbc3759db13c3dff3757e01234/logcat-color3-0.9.2.tar.gz
+[2023-05-04 16:57:48] INFO root fetch - processPackages [enrRiceTrait]: executing diffoscope
+[2023-05-04 16:57:48] INFO root fetch - processPackages [enrRiceTrait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enrRiceTrait-1.4.0.tar.gz tmp/enrRiceTrait-1.4.2.tar.gz --markdown 20230504/e/enrRiceTrait/1.4.0-1.4.2/diff.md --exclude *.pyd
+[2023-05-04 16:57:48] INFO root fetch - processPackages [psidata]: executing diffoscope
+[2023-05-04 16:57:48] INFO root fetch - processPackages [psidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psidata-0.1.1.tar.gz tmp/psidata-0.1.2.tar.gz --markdown 20230504/p/psidata/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 16:57:48] INFO root fetch - processPackages [logcat-color3]: executing diffoscope
+[2023-05-04 16:57:48] INFO root fetch - processPackages [logcat-color3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logcat-color3-0.9.1.tar.gz tmp/logcat-color3-0.9.2.tar.gz --markdown 20230504/l/logcat-color3/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-04 16:57:48] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2023-05-04 16:57:48] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.44.1.tar.gz tmp/nkululeko-0.45.0.tar.gz --markdown 20230504/n/nkululeko/0.44.1-0.45.0/diff.md --exclude *.pyd
+[2023-05-04 16:57:49] INFO root fetch - processPackages [plex-nfs-watchdog]: Start processing: oh-einstein-temp-convert
+[2023-05-04 16:57:49] INFO root fetch - main [MainThread]: End processing [plex-nfs-watchdog]: success
+[2023-05-04 16:57:49] WARNING root fetch - processPackages [oh-einstein-temp-convert]: Skipping, unable to determine old version
+[2023-05-04 16:57:49] INFO root fetch - processPackages [oh-einstein-temp-convert]: Start processing: sefazetllib
+[2023-05-04 16:57:49] INFO root fetch - main [MainThread]: End processing [oh-einstein-temp-convert] error
+[2023-05-04 16:57:49] INFO root fetch - processPackages [sefazetllib]: New version: [0.1.28] Old Version: [0.1.27]
+[2023-05-04 16:57:50] INFO root fetch - processPackages [ABCParse]: Start processing: pycolouringlibrary
+[2023-05-04 16:57:50] INFO root fetch - main [MainThread]: End processing [ABCParse]: success
+[2023-05-04 16:57:50] ERROR root fetch - processPackages [pycolouringlibrary]: Unable to get metadata: No such project 'pycolouringlibrary'
+[2023-05-04 16:57:50] INFO root fetch - processPackages [pycolouringlibrary]: Start processing: edc-lab
+[2023-05-04 16:57:50] INFO root fetch - main [MainThread]: End processing [pycolouringlibrary] error
+[2023-05-04 16:57:50] INFO root fetch - processPackages [sefazetllib]: Downloading https://files.pythonhosted.org/packages/d6/16/9cc22af68b4ad3e889b892297aec5f2019c2b67ca42b0e110a7c0bf8bc8e/sefazetllib-0.1.27.tar.gz
+[2023-05-04 16:57:50] INFO root fetch - processPackages [edc-lab]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-04 16:57:50] INFO root fetch - processPackages [deepclient]: Start processing: cdk-stacksets
+[2023-05-04 16:57:50] INFO root fetch - main [MainThread]: End processing [deepclient]: success
+[2023-05-04 16:57:50] INFO root fetch - processPackages [cdk-stacksets]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-05-04 16:57:50] INFO root fetch - processPackages [cdk-stacksets]: executing diffoscope
+[2023-05-04 16:57:50] INFO root fetch - processPackages [cdk-stacksets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-stacksets-0.0.93.tar.gz tmp/cdk-stacksets-0.0.94.tar.gz --markdown 20230504/c/cdk-stacksets/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-05-04 16:57:50] INFO root fetch - processPackages [sefazetllib]: Downloading https://files.pythonhosted.org/packages/0c/c8/ae247a46fa7a50ee788382954c767a4c66e04c7d67dc75cf1a1aeeaf5e0a/sefazetllib-0.1.28.tar.gz
+[2023-05-04 16:57:50] INFO root fetch - processPackages [ml-management]: Start processing: modelw-preset-django
+[2023-05-04 16:57:50] INFO root fetch - main [MainThread]: End processing [ml-management]: success
+[2023-05-04 16:57:50] INFO root fetch - processPackages [edc-lab]: Downloading https://files.pythonhosted.org/packages/a7/85/79ac43d88d756948cc62062c3b1428c11fbd675f831a656891e076fa9ad9/edc_lab-0.3.8-py3-none-any.whl
+[2023-05-04 16:57:50] INFO root fetch - processPackages [logcat-color3]: Start processing: hexicapi
+[2023-05-04 16:57:50] INFO root fetch - main [MainThread]: End processing [logcat-color3]: success
+[2023-05-04 16:57:50] INFO root fetch - processPackages [sefazetllib]: executing diffoscope
+[2023-05-04 16:57:50] INFO root fetch - processPackages [sefazetllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sefazetllib-0.1.27.tar.gz tmp/sefazetllib-0.1.28.tar.gz --markdown 20230504/s/sefazetllib/0.1.27-0.1.28/diff.md --exclude *.pyd
+[2023-05-04 16:57:50] INFO root fetch - processPackages [modelw-preset-django]: New version: [2023.4.0b1] Old Version: [2023.3.0]
+[2023-05-04 16:57:50] INFO root fetch - processPackages [hexicapi]: New version: [1.0.733] Old Version: [1.0.732]
+[2023-05-04 16:57:50] INFO root fetch - processPackages [psidata]: Start processing: panfeed
+[2023-05-04 16:57:50] INFO root fetch - main [MainThread]: End processing [psidata]: success
+[2023-05-04 16:57:50] INFO root fetch - processPackages [panfeed]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-04 16:57:50] INFO root fetch - processPackages [modelw-preset-django]: Downloading https://files.pythonhosted.org/packages/de/2c/d022c9cf19b227476e7cdf13f72a2228a86258dc381d80164bfa7a71f729/modelw_preset_django-2023.3.0.tar.gz
+[2023-05-04 16:57:50] INFO root fetch - processPackages [panfeed]: executing diffoscope
+[2023-05-04 16:57:50] INFO root fetch - processPackages [panfeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panfeed-1.0.0.tar.gz tmp/panfeed-1.1.0.tar.gz --markdown 20230504/p/panfeed/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-04 16:57:50] INFO root fetch - processPackages [nkululeko]: Start processing: pyswitchbee
+[2023-05-04 16:57:50] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2023-05-04 16:57:50] INFO root fetch - processPackages [hexicapi]: Downloading https://files.pythonhosted.org/packages/df/3b/86eba718e2d21e2a8c8d8c2e6411675c17a93563fa3b58adf0c7c15935eb/hexicapi-1.0.733.tar.gz
+[2023-05-04 16:57:50] INFO root fetch - processPackages [pyswitchbee]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-05-04 16:57:50] INFO root fetch - main [MainThread]: End processing [enrRiceTrait]: success
+[2023-05-04 16:57:50] INFO root fetch - processPackages [hexicapi]: executing diffoscope
+[2023-05-04 16:57:50] INFO root fetch - processPackages [hexicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexicapi-1.0.732.tar.gz tmp/hexicapi-1.0.733.tar.gz --markdown 20230504/h/hexicapi/1.0.732-1.0.733/diff.md --exclude *.pyd
+[2023-05-04 16:57:50] INFO root fetch - main [MainThread]: End processing [cagpaint]: success
+[2023-05-04 16:57:50] INFO root fetch - processPackages [modelw-preset-django]: Downloading https://files.pythonhosted.org/packages/e6/c2/8a1c7179c4661c12dfdd91fc3d07dfc0cdbbb2063af923bde38b55bfeff2/modelw_preset_django-2023.4.0b1.tar.gz
+[2023-05-04 16:57:50] INFO root fetch - processPackages [edc-lab]: Downloading https://files.pythonhosted.org/packages/57/2a/2cf53e2d5a12609174f36cabceac51b9d64206272a6f3082ca18c484cb7e/edc_lab-0.3.9-py3-none-any.whl
+[2023-05-04 16:57:51] INFO root fetch - processPackages [modelw-preset-django]: executing diffoscope
+[2023-05-04 16:57:51] INFO root fetch - processPackages [modelw-preset-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelw_preset_django-2023.3.0.tar.gz tmp/modelw_preset_django-2023.4.0b1.tar.gz --markdown 20230504/m/modelw-preset-django/2023.3.0-2023.4.0b1/diff.md --exclude *.pyd
+[2023-05-04 16:57:51] INFO root fetch - processPackages [pyswitchbee]: Downloading https://files.pythonhosted.org/packages/d8/c1/4d28a1a1017c8e5b061865b87a5163251c9d3a54ff94eb1a9e3bd24ee1a6/pyswitchbee-1.7.8.tar.gz
+[2023-05-04 16:57:51] INFO root fetch - processPackages [edc-lab]: executing diffoscope
+[2023-05-04 16:57:51] INFO root fetch - processPackages [edc-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_lab-0.3.8-py3-none-any.whl.zip tmp/edc_lab-0.3.9-py3-none-any.whl.zip --markdown 20230504/e/edc-lab/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-04 16:57:51] INFO root fetch - processPackages [pyswitchbee]: Downloading https://files.pythonhosted.org/packages/c9/79/49cc582a6d4deaf7f0b9c117756743df4cd6d5578d2a577f6048c88030c8/pyswitchbee-1.7.9.tar.gz
+[2023-05-04 16:57:51] INFO root fetch - main [MainThread]: End processing [cdk-stacksets]: success
+[2023-05-04 16:57:51] INFO root fetch - processPackages [pyswitchbee]: executing diffoscope
+[2023-05-04 16:57:51] INFO root fetch - processPackages [pyswitchbee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyswitchbee-1.7.8.tar.gz tmp/pyswitchbee-1.7.9.tar.gz --markdown 20230504/p/pyswitchbee/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-05-04 16:57:51] INFO root fetch - main [MainThread]: End processing [hexicapi]: success
+[2023-05-04 16:57:52] INFO root fetch - main [MainThread]: End processing [panfeed]: success
+[2023-05-04 16:57:52] INFO root fetch - main [MainThread]: End processing [modelw-preset-django]: success
+[2023-05-04 16:57:52] INFO root fetch - main [MainThread]: End processing [sefazetllib]: success
+[2023-05-04 16:57:52] INFO root fetch - main [MainThread]: End processing [pyswitchbee]: success
+[2023-05-04 16:57:53] INFO root fetch - main [MainThread]: End processing [edc-lab]: success
+[2023-05-04 16:57:54] INFO root fetch - main [MainThread]: End processing [cloudnetpy-qc]: success
+[2023-05-04 16:57:54] INFO root fetch - main [MainThread]: Store serial: [17973779]
