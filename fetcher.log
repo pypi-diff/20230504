@@ -9055,3 +9055,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 09:02:46] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
 [2023-05-04 09:02:46] INFO root fetch - main [MainThread]: End processing [zoviz]: success
 [2023-05-04 09:02:46] INFO root fetch - main [MainThread]: Store serial: [17968388]
+[2023-05-04 09:07:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17968388]
+[2023-05-04 09:07:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-04 09:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deskaone-sdk-scrypt-2023
+[2023-05-04 09:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: urgxy-env
+[2023-05-04 09:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NDETCStemmer-kaenova
+[2023-05-04 09:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jykj
+[2023-05-04 09:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apppium-flutter-report-generator
+[2023-05-04 09:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: japyconjugator
+[2023-05-04 09:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zdatabase
+[2023-05-04 09:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apppium-flutter-report-generator
+[2023-05-04 09:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xj-user
+[2023-05-04 09:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: feffery-antd-components
+[2023-05-04 09:07:55] INFO root fetch - processPackages [apppium-flutter-report-generator]: New version: [0.1.2] Old Version: [0.0.1]
+[2023-05-04 09:07:55] INFO root fetch - processPackages [japyconjugator]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-04 09:07:55] INFO root fetch - processPackages [deskaone-sdk-scrypt-2023]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-04 09:07:55] INFO root fetch - processPackages [urgxy-env]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-04 09:07:55] INFO root fetch - processPackages [NDETCStemmer-kaenova]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-04 09:07:55] INFO root fetch - processPackages [apppium-flutter-report-generator]: New version: [0.1.2] Old Version: [0.0.1]
+[2023-05-04 09:07:55] WARNING root fetch - processPackages [jykj]: Skipping, unable to determine old version
+[2023-05-04 09:07:55] INFO root fetch - main [MainThread]: End processing [jykj] error
+[2023-05-04 09:07:55] INFO root fetch - processPackages [zdatabase]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-04 09:07:55] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-05-04 09:07:55] INFO root fetch - processPackages [feffery-antd-components]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-04 09:07:55] INFO root fetch - processPackages [apppium-flutter-report-generator]: Downloading https://files.pythonhosted.org/packages/9f/64/2b2ed6925d8efaa9e059a0408da0fc9491473adf684db51b8bf42d9a8644/apppium_flutter_report_generator-0.0.1-py3-none-any.whl
+[2023-05-04 09:07:55] INFO root fetch - processPackages [apppium-flutter-report-generator]: Downloading https://files.pythonhosted.org/packages/9f/64/2b2ed6925d8efaa9e059a0408da0fc9491473adf684db51b8bf42d9a8644/apppium_flutter_report_generator-0.0.1-py3-none-any.whl
+[2023-05-04 09:07:55] INFO root fetch - processPackages [urgxy-env]: Downloading https://files.pythonhosted.org/packages/c2/8f/1f9eade9ae2c97a1d4e5b171213800dcf2309fd85947b27e4e42f40415d4/urgxy_env-0.1.5.tar.gz
+[2023-05-04 09:07:55] INFO root fetch - processPackages [japyconjugator]: Downloading https://files.pythonhosted.org/packages/cd/5f/b41b89ced58dbdada518012b9f63d92d0a717292c790b08f0f297eb90055/japyconjugator-1.0.2.tar.gz
+[2023-05-04 09:07:55] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/1a/81/fcaeba07f671611dbb9259d524885d329846bea3b1bc62ecfb7a5bc4afff/zdatabase-0.2.9.tar.gz
+[2023-05-04 09:07:55] INFO root fetch - processPackages [deskaone-sdk-scrypt-2023]: Downloading https://files.pythonhosted.org/packages/c0/bd/f3181762d54bbcb52f38ce6282ac88d1218e8b26d804394cbb9f720914f6/deskaone_sdk_scrypt_2023-1.0.4.tar.gz
+[2023-05-04 09:07:55] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-05-04 09:07:55] INFO root fetch - processPackages [NDETCStemmer-kaenova]: Downloading https://files.pythonhosted.org/packages/9c/94/86d2d2c7abc3488ca2484bc50db3b0387b8dadbc3bf8a267afa49b1ce9b3/NDETCStemmer_kaenova-1.4.2.tar.gz
+[2023-05-04 09:07:55] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/37/de/e5329e98a8230e700feada20de8cae3358a0b58a4913ea71f3d1e13f3c21/feffery_antd_components-0.2.5.tar.gz
+[2023-05-04 09:07:55] INFO root fetch - processPackages [NDETCStemmer-kaenova]: executing diffoscope
+[2023-05-04 09:07:55] INFO root fetch - processPackages [NDETCStemmer-kaenova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NDETCStemmer_kaenova-1.4.1.tar.gz tmp/NDETCStemmer_kaenova-1.4.2.tar.gz --markdown 20230504/N/NDETCStemmer-kaenova/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-04 09:07:55] INFO root fetch - processPackages [deskaone-sdk-scrypt-2023]: executing diffoscope
+[2023-05-04 09:07:55] INFO root fetch - processPackages [deskaone-sdk-scrypt-2023]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deskaone_sdk_scrypt_2023-1.0.3.tar.gz tmp/deskaone_sdk_scrypt_2023-1.0.4.tar.gz --markdown 20230504/d/deskaone-sdk-scrypt-2023/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-04 09:07:56] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/e2/95/42ddba304d21fee206639820022eab216b9e62053bc2122a5496e1bb1d2a/zdatabase-0.3.0.tar.gz
+[2023-05-04 09:07:56] INFO root fetch - processPackages [urgxy-env]: Downloading https://files.pythonhosted.org/packages/14/29/1432d4471ba640159c7a9ef658387ca4a2740f70f2fbd6f297851d01d54b/urgxy_env-0.1.6.tar.gz
+[2023-05-04 09:07:56] INFO root fetch - processPackages [apppium-flutter-report-generator]: Downloading https://files.pythonhosted.org/packages/e0/3e/24d51e21508792f26cc597c7ee4da6564ba9d360eca367d440668a5a1f9c/apppium_flutter_report_generator-0.1.2-py3-none-any.whl
+[2023-05-04 09:07:56] INFO root fetch - processPackages [apppium-flutter-report-generator]: Downloading https://files.pythonhosted.org/packages/e0/3e/24d51e21508792f26cc597c7ee4da6564ba9d360eca367d440668a5a1f9c/apppium_flutter_report_generator-0.1.2-py3-none-any.whl
+[2023-05-04 09:07:56] INFO root fetch - processPackages [urgxy-env]: executing diffoscope
+[2023-05-04 09:07:56] INFO root fetch - processPackages [urgxy-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urgxy_env-0.1.5.tar.gz tmp/urgxy_env-0.1.6.tar.gz --markdown 20230504/u/urgxy-env/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-04 09:07:56] INFO root fetch - processPackages [japyconjugator]: Downloading https://files.pythonhosted.org/packages/76/19/c60534d27a6b7f3c097d6147833a0b988d4e775f06e4ec4fb528f3c1e0d8/japyconjugator-1.1.0.tar.gz
+[2023-05-04 09:07:56] INFO root fetch - processPackages [apppium-flutter-report-generator]: executing diffoscope
+[2023-05-04 09:07:56] INFO root fetch - processPackages [apppium-flutter-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apppium_flutter_report_generator-0.0.1-py3-none-any.whl.zip tmp/apppium_flutter_report_generator-0.1.2-py3-none-any.whl.zip --markdown 20230504/a/apppium-flutter-report-generator/0.0.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 09:07:56] INFO root fetch - processPackages [apppium-flutter-report-generator]: executing diffoscope
+[2023-05-04 09:07:56] INFO root fetch - processPackages [apppium-flutter-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apppium_flutter_report_generator-0.0.1-py3-none-any.whl.zip tmp/apppium_flutter_report_generator-0.1.2-py3-none-any.whl.zip --markdown 20230504/a/apppium-flutter-report-generator/0.0.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 09:07:56] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/1d/66/60c0ebc5c3cb32ab68f51e3298c0ef88d85fc5a918a2afbc533a14f19d7d/feffery_antd_components-0.2.6.tar.gz
+[2023-05-04 09:07:56] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-05-04 09:07:56] INFO root fetch - processPackages [zdatabase]: executing diffoscope
+[2023-05-04 09:07:56] INFO root fetch - processPackages [zdatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zdatabase-0.2.9.tar.gz tmp/zdatabase-0.3.0.tar.gz --markdown 20230504/z/zdatabase/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-04 09:07:56] INFO root fetch - processPackages [japyconjugator]: executing diffoscope
+[2023-05-04 09:07:56] INFO root fetch - processPackages [japyconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/japyconjugator-1.0.2.tar.gz tmp/japyconjugator-1.1.0.tar.gz --markdown 20230504/j/japyconjugator/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-04 09:07:56] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-05-04 09:07:56] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230504/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-05-04 09:07:56] INFO root fetch - processPackages [feffery-antd-components]: executing diffoscope
+[2023-05-04 09:07:56] INFO root fetch - processPackages [feffery-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_antd_components-0.2.5.tar.gz tmp/feffery_antd_components-0.2.6.tar.gz --markdown 20230504/f/feffery-antd-components/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-04 09:07:57] INFO root fetch - main [MainThread]: End processing [deskaone-sdk-scrypt-2023]: success
+[2023-05-04 09:07:57] INFO root fetch - main [MainThread]: End processing [NDETCStemmer-kaenova]: success
+[2023-05-04 09:07:57] INFO root fetch - main [MainThread]: End processing [apppium-flutter-report-generator]: success
+[2023-05-04 09:07:57] INFO root fetch - main [MainThread]: End processing [apppium-flutter-report-generator]: success
+[2023-05-04 09:07:57] INFO root fetch - main [MainThread]: End processing [urgxy-env]: success
+[2023-05-04 09:07:57] INFO root fetch - main [MainThread]: End processing [zdatabase]: success
+[2023-05-04 09:07:57] INFO root fetch - main [MainThread]: End processing [japyconjugator]: success
+[2023-05-04 09:07:58] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-05-04 09:08:23] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
+[2023-05-04 09:08:23] INFO root fetch - main [MainThread]: Store serial: [17968427]
