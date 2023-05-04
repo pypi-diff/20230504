@@ -5453,3 +5453,44 @@
 [2023-05-04 03:58:56] INFO root fetch - main [MainThread]: End processing [rxnplot]: success
 [2023-05-04 03:58:57] INFO root fetch - main [MainThread]: End processing [pcb-parser]: success
 [2023-05-04 03:58:57] INFO root fetch - main [MainThread]: Store serial: [17966337]
+[2023-05-04 04:04:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966337]
+[2023-05-04 04:04:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-04 04:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywaterflood
+[2023-05-04 04:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tilt-pitch
+[2023-05-04 04:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weni-rp-apps
+[2023-05-04 04:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hoffmanstmpy
+[2023-05-04 04:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: formant
+[2023-05-04 04:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightmotif
+[2023-05-04 04:04:05] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.0a9] Old Version: [2.4.0a8]
+[2023-05-04 04:04:05] INFO root fetch - processPackages [pywaterflood]: New version: [0.3.0rc1] Old Version: [0.3.0]
+[2023-05-04 04:04:05] WARNING root fetch - processPackages [hoffmanstmpy]: Skipping, unable to determine old version
+[2023-05-04 04:04:05] INFO root fetch - processPackages [lightmotif]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 04:04:05] INFO root fetch - main [MainThread]: End processing [hoffmanstmpy] error
+[2023-05-04 04:04:05] INFO root fetch - processPackages [formant]: New version: [1.99.25] Old Version: [1.99.10]
+[2023-05-04 04:04:05] INFO root fetch - processPackages [tilt-pitch]: New version: [1.0.0] Old Version: [0.9.1]
+[2023-05-04 04:04:05] INFO root fetch - processPackages [pywaterflood]: Downloading https://files.pythonhosted.org/packages/4f/fb/a6c6b6483c930cbd8fc97badcd0511f33bffc15697e5573e9b5e24ed9f88/pywaterflood-0.3.0.tar.gz
+[2023-05-04 04:04:05] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/8e/f2/ab806bc871ef3a3a1edec7d70c837e915f17ba37b2d9024c05ea09517aee/weni_rp_apps-2.4.0a8.tar.gz
+[2023-05-04 04:04:05] INFO root fetch - processPackages [formant]: Downloading https://files.pythonhosted.org/packages/b4/ae/48e0e0cc421f59b739a0933ff541c564d705ba0f03ab53b6ad242e88d6dd/formant-1.99.10.tar.gz
+[2023-05-04 04:04:05] INFO root fetch - processPackages [tilt-pitch]: Downloading https://files.pythonhosted.org/packages/9c/22/05a36face4432c585c707983bf1f4fe363a6c6c5da4eae0ee101b455e845/tilt-pitch-0.9.1.tar.gz
+[2023-05-04 04:04:05] INFO root fetch - processPackages [lightmotif]: Downloading https://files.pythonhosted.org/packages/f1/36/d2da98d2e1a92ea7ad67a707b941062b018f5c79a02cfd7435b23c21ae9c/lightmotif-0.1.0.tar.gz
+[2023-05-04 04:04:05] INFO root fetch - processPackages [pywaterflood]: Downloading https://files.pythonhosted.org/packages/a3/bf/946c2a4aa41aaac43e33ab11e95bea3f9e086e413240f052d45690015c37/pywaterflood-0.3.0rc1.tar.gz
+[2023-05-04 04:04:06] INFO root fetch - processPackages [tilt-pitch]: Downloading https://files.pythonhosted.org/packages/85/e8/468617f88b4423e3074c8416aadf095fcd69cc8bacd80c0a9ddbbbc0cb48/tilt-pitch-1.0.0.tar.gz
+[2023-05-04 04:04:06] INFO root fetch - processPackages [lightmotif]: Downloading https://files.pythonhosted.org/packages/7b/92/ed3917ed4f8d3dd37014d0e6389e5a3fd879d721feeb89939f084ed29c66/lightmotif-0.1.1.tar.gz
+[2023-05-04 04:04:06] INFO root fetch - processPackages [tilt-pitch]: executing diffoscope
+[2023-05-04 04:04:06] INFO root fetch - processPackages [tilt-pitch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tilt-pitch-0.9.1.tar.gz tmp/tilt-pitch-1.0.0.tar.gz --markdown 20230504/t/tilt-pitch/0.9.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-04 04:04:06] INFO root fetch - processPackages [formant]: Downloading https://files.pythonhosted.org/packages/0f/87/d41a560174ff1aede53afa1480b906376d1d5d3f7263147c18f90dda6c0f/formant-1.99.25.tar.gz
+[2023-05-04 04:04:06] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/18/c4/0b1020e71002c9ed2a232688f10664c901d5fd9975b5c6e5e82ccaf82140/weni_rp_apps-2.4.0a9.tar.gz
+[2023-05-04 04:04:06] INFO root fetch - processPackages [pywaterflood]: executing diffoscope
+[2023-05-04 04:04:06] INFO root fetch - processPackages [pywaterflood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywaterflood-0.3.0.tar.gz tmp/pywaterflood-0.3.0rc1.tar.gz --markdown 20230504/p/pywaterflood/0.3.0-0.3.0rc1/diff.md --exclude *.pyd
+[2023-05-04 04:04:06] INFO root fetch - processPackages [lightmotif]: executing diffoscope
+[2023-05-04 04:04:06] INFO root fetch - processPackages [lightmotif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightmotif-0.1.0.tar.gz tmp/lightmotif-0.1.1.tar.gz --markdown 20230504/l/lightmotif/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 04:04:06] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-05-04 04:04:06] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.4.0a8.tar.gz tmp/weni_rp_apps-2.4.0a9.tar.gz --markdown 20230504/w/weni-rp-apps/2.4.0a8-2.4.0a9/diff.md --exclude *.pyd
+[2023-05-04 04:04:06] INFO root fetch - processPackages [formant]: executing diffoscope
+[2023-05-04 04:04:06] INFO root fetch - processPackages [formant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formant-1.99.10.tar.gz tmp/formant-1.99.25.tar.gz --markdown 20230504/f/formant/1.99.10-1.99.25/diff.md --exclude *.pyd
+[2023-05-04 04:04:07] INFO root fetch - main [MainThread]: End processing [tilt-pitch]: success
+[2023-05-04 04:04:07] INFO root fetch - main [MainThread]: End processing [lightmotif]: success
+[2023-05-04 04:04:07] INFO root fetch - main [MainThread]: End processing [pywaterflood]: success
+[2023-05-04 04:04:07] INFO root fetch - main [MainThread]: End processing [formant]: success
+[2023-05-04 04:04:08] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-05-04 04:04:08] INFO root fetch - main [MainThread]: Store serial: [17966411]
