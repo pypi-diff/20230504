@@ -10172,3 +10172,138 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 10:06:28] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
 [2023-05-04 10:06:37] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
 [2023-05-04 10:06:37] INFO root fetch - main [MainThread]: Store serial: [17969050]
+[2023-05-04 10:11:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17969050]
+[2023-05-04 10:11:47] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-04 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SDTcloud
+[2023-05-04 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyglove
+[2023-05-04 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-split-picking
+[2023-05-04 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: etiq
+[2023-05-04 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vectice
+[2023-05-04 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: virt-firmware
+[2023-05-04 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: starrail-toolkit
+[2023-05-04 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-stock-split-picking
+[2023-05-04 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Pyckson
+[2023-05-04 10:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yolov5-sp
+[2023-05-04 10:11:47] INFO root fetch - processPackages [vectice]: New version: [23.2.2.1] Old Version: [23.2.1.1]
+[2023-05-04 10:11:47] INFO root fetch - processPackages [SDTcloud]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-04 10:11:47] INFO root fetch - processPackages [Pyckson]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-04 10:11:47] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.2]
+[2023-05-04 10:11:47] INFO root fetch - processPackages [starrail-toolkit]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-04 10:11:47] INFO root fetch - processPackages [virt-firmware]: New version: [23.5] Old Version: [23.4]
+[2023-05-04 10:11:47] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230504] Old Version: [0.3.1.dev20230503]
+[2023-05-04 10:11:47] INFO root fetch - processPackages [yolov5-sp]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-04 10:11:47] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.2]
+[2023-05-04 10:11:47] INFO root fetch - processPackages [etiq]: New version: [1.3.8b3] Old Version: [1.3.8b2]
+[2023-05-04 10:11:47] INFO root fetch - processPackages [Pyckson]: executing diffoscope
+[2023-05-04 10:11:47] INFO root fetch - processPackages [Pyckson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pyckson-1.8.1.tar.gz tmp/Pyckson-1.9.0.tar.gz --markdown 20230504/P/Pyckson/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-04 10:11:47] INFO root fetch - processPackages [SDTcloud]: Downloading https://files.pythonhosted.org/packages/d0/6d/972e70f31b19192a850a3796fed99b4d1af6d70d4aa74bf4cba83ff7a058/SDTcloud-0.1.7.tar.gz
+[2023-05-04 10:11:47] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/da/f3/26a4c0be1fa00419351d6fffe32ff6e8cb76fcb89ff2c435ac24cc723894/vectice-23.2.1.1.tar.gz
+[2023-05-04 10:11:47] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: Downloading https://files.pythonhosted.org/packages/48/65/0f115676c1f8c2a6dc10391688c9d4aba0999c7274306517157d42e6841a/odoo_addon_stock_split_picking-16.0.1.0.1.2-py3-none-any.whl
+[2023-05-04 10:11:47] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: Downloading https://files.pythonhosted.org/packages/48/65/0f115676c1f8c2a6dc10391688c9d4aba0999c7274306517157d42e6841a/odoo_addon_stock_split_picking-16.0.1.0.1.2-py3-none-any.whl
+[2023-05-04 10:11:47] INFO root fetch - processPackages [yolov5-sp]: Downloading https://files.pythonhosted.org/packages/81/f2/e041cea75a1a33e61ecd26ca034c835b9da2ed1d180cf19c56676962f247/yolov5_sp-1.0.0.tar.gz
+[2023-05-04 10:11:47] INFO root fetch - processPackages [virt-firmware]: Downloading https://files.pythonhosted.org/packages/17/82/5e855e254e1911e44c48351844ec6f1054ad3b2056f2e4da8f38e8b204c3/virt-firmware-23.4.tar.gz
+[2023-05-04 10:11:47] INFO root fetch - processPackages [etiq]: Downloading https://files.pythonhosted.org/packages/47/24/643ee3b221a209c90dce9d1c2bf6bb86b4b7d02e6ccb6ba6a6e5dc5c359a/etiq-1.3.8b2-cp39-cp39-win_amd64.whl
+[2023-05-04 10:11:47] INFO root fetch - processPackages [starrail-toolkit]: Downloading https://files.pythonhosted.org/packages/7b/6d/9fb3785a16c132449e0d60059b199389e8ac4bf65478dd901b6857eb11f3/starrail-toolkit-0.4.0.tar.gz
+[2023-05-04 10:11:47] INFO root fetch - processPackages [SDTcloud]: Downloading https://files.pythonhosted.org/packages/df/14/a7d846cb21842e94588b0df44ead9370b975a192042e929ed496daf392a6/SDTcloud-0.1.8.tar.gz
+[2023-05-04 10:11:47] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/b1/5c/05cfffc57477de50ac7a661ad16a99f47fec44ef23091719fbef8a82b0f6/vectice-23.2.2.1.tar.gz
+[2023-05-04 10:11:47] INFO root fetch - processPackages [starrail-toolkit]: executing diffoscope
+[2023-05-04 10:11:47] INFO root fetch - processPackages [starrail-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrail-toolkit-0.3.0.tar.gz tmp/starrail-toolkit-0.4.0.tar.gz --markdown 20230504/s/starrail-toolkit/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-04 10:11:47] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/9b/93/630c6ff83e4f908c503e5825d9210e1fa5c3ed8d98bca49fe3775f860530/pyglove-0.3.1.dev20230504.tar.gz
+[2023-05-04 10:11:47] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: Downloading https://files.pythonhosted.org/packages/8b/e1/d8917d7a0258cf755960c95346a92e324d22110422ee03aa4d6175c84d9a/odoo_addon_stock_split_picking-16.0.1.0.2-py3-none-any.whl
+[2023-05-04 10:11:47] INFO root fetch - processPackages [yolov5-sp]: Downloading https://files.pythonhosted.org/packages/04/0c/0536958753ee56d187d081c54253b49399bf2bdbb3f5345fa398654d348d/yolov5_sp-1.0.1.tar.gz
+[2023-05-04 10:11:47] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: Downloading https://files.pythonhosted.org/packages/8b/e1/d8917d7a0258cf755960c95346a92e324d22110422ee03aa4d6175c84d9a/odoo_addon_stock_split_picking-16.0.1.0.2-py3-none-any.whl
+[2023-05-04 10:11:47] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-05-04 10:11:47] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.1.7.tar.gz tmp/SDTcloud-0.1.8.tar.gz --markdown 20230504/S/SDTcloud/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-04 10:11:47] INFO root fetch - processPackages [vectice]: executing diffoscope
+[2023-05-04 10:11:47] INFO root fetch - processPackages [vectice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectice-23.2.1.1.tar.gz tmp/vectice-23.2.2.1.tar.gz --markdown 20230504/v/vectice/23.2.1.1-23.2.2.1/diff.md --exclude *.pyd
+[2023-05-04 10:11:47] INFO root fetch - processPackages [virt-firmware]: Downloading https://files.pythonhosted.org/packages/c2/f8/204dc513d2d3f0f3d3aead03600f7db1b763cf02998ad7b35e7ac5ef6849/virt-firmware-23.5.tar.gz
+[2023-05-04 10:11:47] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-05-04 10:11:47] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230503.tar.gz tmp/pyglove-0.3.1.dev20230504.tar.gz --markdown 20230504/p/pyglove/0.3.1.dev20230503-0.3.1.dev20230504/diff.md --exclude *.pyd
+[2023-05-04 10:11:47] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: executing diffoscope
+[2023-05-04 10:11:47] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_split_picking-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_stock_split_picking-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-stock-split-picking/16.0.1.0.1.2-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-05-04 10:11:47] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: executing diffoscope
+[2023-05-04 10:11:47] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_split_picking-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_stock_split_picking-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-stock-split-picking/16.0.1.0.1.2-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-05-04 10:11:47] INFO root fetch - processPackages [virt-firmware]: executing diffoscope
+[2023-05-04 10:11:47] INFO root fetch - processPackages [virt-firmware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virt-firmware-23.4.tar.gz tmp/virt-firmware-23.5.tar.gz --markdown 20230504/v/virt-firmware/23.4-23.5/diff.md --exclude *.pyd
+[2023-05-04 10:11:47] INFO root fetch - processPackages [yolov5-sp]: executing diffoscope
+[2023-05-04 10:11:47] INFO root fetch - processPackages [yolov5-sp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolov5_sp-1.0.0.tar.gz tmp/yolov5_sp-1.0.1.tar.gz --markdown 20230504/y/yolov5-sp/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 10:11:48] INFO root fetch - processPackages [Pyckson]: Start processing: Reda-Utils
+[2023-05-04 10:11:48] INFO root fetch - main [MainThread]: End processing [Pyckson]: success
+[2023-05-04 10:11:48] INFO root fetch - processPackages [Reda-Utils]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-04 10:11:49] INFO root fetch - processPackages [Reda-Utils]: Downloading https://files.pythonhosted.org/packages/38/32/e4236250c662b8e36ffc23aa115a2a7007bf17d451413ae5cb647c85e43a/Reda_Utils-2.0.1-py2-none-any.whl
+[2023-05-04 10:11:49] INFO root fetch - processPackages [etiq]: Downloading https://files.pythonhosted.org/packages/3c/62/1f45a5f16cbdb58ae062f21e7f88db6f1664e23d5232c74e7d59b2b85560/etiq-1.3.8b3-cp39-cp39-win_amd64.whl
+[2023-05-04 10:11:49] INFO root fetch - processPackages [SDTcloud]: Start processing: qiboconnection
+[2023-05-04 10:11:49] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-05-04 10:11:49] INFO root fetch - processPackages [starrail-toolkit]: Start processing: odoo14-addon-account-invoice-overdue-reminder
+[2023-05-04 10:11:49] INFO root fetch - main [MainThread]: End processing [starrail-toolkit]: success
+[2023-05-04 10:11:49] INFO root fetch - processPackages [qiboconnection]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-04 10:11:49] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: New version: [14.0.1.4.0] Old Version: [14.0.1.3.1.dev4]
+[2023-05-04 10:11:49] INFO root fetch - processPackages [Reda-Utils]: executing diffoscope
+[2023-05-04 10:11:49] INFO root fetch - processPackages [Reda-Utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Reda_Utils-2.0.0-py2-none-any.whl.zip tmp/Reda_Utils-2.0.1-py2-none-any.whl.zip --markdown 20230504/R/Reda-Utils/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-04 10:11:49] INFO root fetch - processPackages [qiboconnection]: Downloading https://files.pythonhosted.org/packages/c0/7e/52332123d25e3580ad7d134b66038ac5fd66acfe8458f5a2a4e301169cde/qiboconnection-0.8.0.tar.gz
+[2023-05-04 10:11:49] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/d0/5b/f095c16f7ea1af34fc1cf3c7782b74a3c2b3ea969321b75c64efc9c49b43/odoo14_addon_account_invoice_overdue_reminder-14.0.1.3.1.dev4-py3-none-any.whl
+[2023-05-04 10:11:49] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: Start processing: chellow
+[2023-05-04 10:11:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-split-picking]: success
+[2023-05-04 10:11:49] INFO root fetch - processPackages [qiboconnection]: Downloading https://files.pythonhosted.org/packages/d4/2d/3f1d0364d3607959bead29d60d6b0cb81a4b827b21162386355755b94f38/qiboconnection-0.9.0.tar.gz
+[2023-05-04 10:11:49] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: Start processing: jaxsim
+[2023-05-04 10:11:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-split-picking]: success
+[2023-05-04 10:11:49] INFO root fetch - processPackages [yolov5-sp]: Start processing: akeyless
+[2023-05-04 10:11:49] INFO root fetch - main [MainThread]: End processing [yolov5-sp]: success
+[2023-05-04 10:11:49] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-05-04 10:11:49] INFO root fetch - processPackages [jaxsim]: New version: [0.1.dev151] Old Version: [0.1.dev149]
+[2023-05-04 10:11:49] INFO root fetch - processPackages [akeyless]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-05-04 10:11:49] INFO root fetch - processPackages [qiboconnection]: executing diffoscope
+[2023-05-04 10:11:49] INFO root fetch - processPackages [qiboconnection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiboconnection-0.8.0.tar.gz tmp/qiboconnection-0.9.0.tar.gz --markdown 20230504/q/qiboconnection/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 10:11:49] INFO root fetch - processPackages [etiq]: executing diffoscope
+[2023-05-04 10:11:49] INFO root fetch - processPackages [etiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etiq-1.3.8b2-cp39-cp39-win_amd64.whl.zip tmp/etiq-1.3.8b3-cp39-cp39-win_amd64.whl.zip --markdown 20230504/e/etiq/1.3.8b2-1.3.8b3/diff.md --exclude *.pyd
+[2023-05-04 10:11:49] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/af/36/0a309fd83b2ab56bbd247ac6ea25370d0fb4497c5be0b1708d2279c60605/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.0-py3-none-any.whl
+[2023-05-04 10:11:49] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2023-05-04 10:11:49] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: executing diffoscope
+[2023-05-04 10:11:49] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_overdue_reminder-14.0.1.3.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.0-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addon-account-invoice-overdue-reminder/14.0.1.3.1.dev4-14.0.1.4.0/diff.md --exclude *.pyd
+[2023-05-04 10:11:49] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/fe/79/507a55f0a8a5baa770c00c92892fd0138f98dd6c1740b73e4738ba2a2d17/jaxsim-0.1.dev151.tar.gz
+[2023-05-04 10:11:49] INFO root fetch - processPackages [akeyless]: Downloading https://files.pythonhosted.org/packages/d5/8a/954065ed34f952f2dbdfee5f9ce42d8ccb4e6ebb4598f017d1a4e3f166f6/akeyless-3.3.0.tar.gz
+[2023-05-04 10:11:50] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2023-05-04 10:11:50] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.1.dev149.tar.gz tmp/jaxsim-0.1.dev151.tar.gz --markdown 20230504/j/jaxsim/0.1.dev149-0.1.dev151/diff.md --exclude *.pyd
+[2023-05-04 10:11:50] INFO root fetch - processPackages [akeyless]: Downloading https://files.pythonhosted.org/packages/42/2f/a57cd8173d530b3926f7a4f33b80d879c31ba521b5aaa75b1672b7273c18/akeyless-3.3.1.tar.gz
+[2023-05-04 10:11:50] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2023-05-04 10:11:50] INFO root fetch - processPackages [vectice]: Start processing: pastell-admin
+[2023-05-04 10:11:50] INFO root fetch - main [MainThread]: End processing [vectice]: success
+[2023-05-04 10:11:50] INFO root fetch - processPackages [akeyless]: executing diffoscope
+[2023-05-04 10:11:50] INFO root fetch - processPackages [akeyless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akeyless-3.3.0.tar.gz tmp/akeyless-3.3.1.tar.gz --markdown 20230504/a/akeyless/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-05-04 10:11:50] INFO root fetch - processPackages [pastell-admin]: New version: [0.1.17] Old Version: [0.1.16]
+[2023-05-04 10:11:50] INFO root fetch - processPackages [Reda-Utils]: Start processing: nowcasting-forecast
+[2023-05-04 10:11:50] INFO root fetch - main [MainThread]: End processing [Reda-Utils]: success
+[2023-05-04 10:11:50] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-05-04 10:11:50] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230504/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-05-04 10:11:50] INFO root fetch - processPackages [nowcasting-forecast]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-04 10:11:50] INFO root fetch - processPackages [pastell-admin]: Downloading https://files.pythonhosted.org/packages/6e/74/bc25fec3eb90bb5ad7e8b25503c7d486c6cdfc7b84c35cfda4e680b2f928/pastell-admin-0.1.16.tar.gz
+[2023-05-04 10:11:50] INFO root fetch - processPackages [nowcasting-forecast]: Downloading https://files.pythonhosted.org/packages/03/c4/2f246b083fb6aa900f6e08fac2126d3d89fe7ae8dc44d977a690ccd74e50/nowcasting_forecast-1.3.6.tar.gz
+[2023-05-04 10:11:50] INFO root fetch - processPackages [pyglove]: Start processing: monotonic-derivative
+[2023-05-04 10:11:50] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-05-04 10:11:50] INFO root fetch - processPackages [monotonic-derivative]: New version: [0.12] Old Version: [0.11]
+[2023-05-04 10:11:50] INFO root fetch - processPackages [virt-firmware]: Start processing: odoo14-addon-stock-split-picking
+[2023-05-04 10:11:50] INFO root fetch - main [MainThread]: End processing [virt-firmware]: success
+[2023-05-04 10:11:50] INFO root fetch - processPackages [odoo14-addon-stock-split-picking]: New version: [14.0.1.1.1.dev5] Old Version: [14.0.1.1.1.dev4]
+[2023-05-04 10:11:50] INFO root fetch - processPackages [nowcasting-forecast]: executing diffoscope
+[2023-05-04 10:11:50] INFO root fetch - processPackages [nowcasting-forecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_forecast-1.3.5.tar.gz tmp/nowcasting_forecast-1.3.6.tar.gz --markdown 20230504/n/nowcasting-forecast/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-04 10:11:50] INFO root fetch - processPackages [pastell-admin]: Downloading https://files.pythonhosted.org/packages/1f/a6/f9c80bee20a698caba790a99cb546ff4d3f256f4cd7e456d7391b395575f/pastell-admin-0.1.17.tar.gz
+[2023-05-04 10:11:50] INFO root fetch - processPackages [monotonic-derivative]: Downloading https://files.pythonhosted.org/packages/c5/51/070b6ec8ee838734e1f414a47d560b3105a3363e2bf1840992fed2239df4/monotonic%20derivative-0.12.tar.gz
+[2023-05-04 10:11:51] INFO root fetch - processPackages [pastell-admin]: executing diffoscope
+[2023-05-04 10:11:51] INFO root fetch - processPackages [pastell-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pastell-admin-0.1.16.tar.gz tmp/pastell-admin-0.1.17.tar.gz --markdown 20230504/p/pastell-admin/0.1.16-0.1.17/diff.md --exclude *.pyd
+[2023-05-04 10:11:51] INFO root fetch - processPackages [odoo14-addon-stock-split-picking]: Downloading https://files.pythonhosted.org/packages/bd/db/58ccfbb274fbe7efa00c0f50aead5a9d76ecdd53aa30b88207951305809a/odoo14_addon_stock_split_picking-14.0.1.1.1.dev4-py3-none-any.whl
+[2023-05-04 10:11:51] INFO root fetch - processPackages [monotonic-derivative]: executing diffoscope
+[2023-05-04 10:11:51] INFO root fetch - processPackages [monotonic-derivative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monotonic derivative-0.11.tar.gz tmp/monotonic derivative-0.12.tar.gz --markdown 20230504/m/monotonic-derivative/0.11-0.12/diff.md --exclude *.pyd
+[2023-05-04 10:11:51] INFO root fetch - main [MainThread]: End processing [etiq]: success
+[2023-05-04 10:11:51] INFO root fetch - processPackages [odoo14-addon-stock-split-picking]: Downloading https://files.pythonhosted.org/packages/e4/54/43105bc2e41ac7e7e68946ed45e4cd8cb1c8e631cc3f0f72cfb42117d4fe/odoo14_addon_stock_split_picking-14.0.1.1.1.dev5-py3-none-any.whl
+[2023-05-04 10:11:51] INFO root fetch - processPackages [odoo14-addon-stock-split-picking]: executing diffoscope
+[2023-05-04 10:11:51] INFO root fetch - processPackages [odoo14-addon-stock-split-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_split_picking-14.0.1.1.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_stock_split_picking-14.0.1.1.1.dev5-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addon-stock-split-picking/14.0.1.1.1.dev4-14.0.1.1.1.dev5/diff.md --exclude *.pyd
+[2023-05-04 10:11:51] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2023-05-04 10:11:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-overdue-reminder]: success
+[2023-05-04 10:11:52] INFO root fetch - main [MainThread]: End processing [qiboconnection]: success
+[2023-05-04 10:11:52] INFO root fetch - main [MainThread]: End processing [nowcasting-forecast]: success
+[2023-05-04 10:11:52] INFO root fetch - main [MainThread]: End processing [monotonic-derivative]: success
+[2023-05-04 10:11:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-split-picking]: success
+[2023-05-04 10:11:52] INFO root fetch - main [MainThread]: End processing [pastell-admin]: success
+[2023-05-04 10:11:57] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-05-04 10:12:11] INFO root fetch - main [MainThread]: End processing [akeyless]: success
+[2023-05-04 10:12:11] INFO root fetch - main [MainThread]: Store serial: [17969125]
