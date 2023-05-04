@@ -22376,3 +22376,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 20:13:37] INFO root fetch - main [MainThread]: End processing [neurotechdevkit]: success
 [2023-05-04 20:13:38] INFO root fetch - main [MainThread]: End processing [caikit]: success
 [2023-05-04 20:13:38] INFO root fetch - main [MainThread]: Store serial: [17976243]
+[2023-05-04 20:18:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17976243]
+[2023-05-04 20:18:48] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-04 20:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-transactional-mail
+[2023-05-04 20:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cerc-hub
+[2023-05-04 20:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mainnet
+[2023-05-04 20:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fiddler-client
+[2023-05-04 20:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: selfdiffusion
+[2023-05-04 20:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shellgenius
+[2023-05-04 20:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyproject-generator
+[2023-05-04 20:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bthome-ble
+[2023-05-04 20:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: napatrackmater
+[2023-05-04 20:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mabby
+[2023-05-04 20:18:48] INFO root fetch - processPackages [django-transactional-mail]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-04 20:18:48] INFO root fetch - processPackages [cerc-hub]: New version: [0.1.7.9] Old Version: [0.1.7.8]
+[2023-05-04 20:18:48] INFO root fetch - processPackages [pyproject-generator]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-04 20:18:48] INFO root fetch - processPackages [shellgenius]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 20:18:48] INFO root fetch - processPackages [bthome-ble]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-04 20:18:48] INFO root fetch - processPackages [mabby]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 20:18:48] INFO root fetch - processPackages [selfdiffusion]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-04 20:18:48] INFO root fetch - processPackages [fiddler-client]: New version: [2.0.0.dev1] Old Version: [1.7.3]
+[2023-05-04 20:18:48] INFO root fetch - processPackages [napatrackmater]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-05-04 20:18:48] INFO root fetch - processPackages [mainnet]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-04 20:18:48] INFO root fetch - processPackages [django-transactional-mail]: executing diffoscope
+[2023-05-04 20:18:48] INFO root fetch - processPackages [django-transactional-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-transactional-mail-0.3.0.tar.gz tmp/django-transactional-mail-0.3.1.tar.gz --markdown 20230504/d/django-transactional-mail/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-04 20:18:48] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-05-04 20:18:48] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.8.tar.gz tmp/mainnet-1.1.9.tar.gz --markdown 20230504/m/mainnet/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-04 20:18:48] INFO root fetch - processPackages [shellgenius]: Downloading https://files.pythonhosted.org/packages/37/9d/2331f3dcbc83c0056f0e6c158ad61eecc5b6720285539d83c7f9bd03160a/shellgenius-0.1.0.tar.gz
+[2023-05-04 20:18:48] INFO root fetch - processPackages [mabby]: Downloading https://files.pythonhosted.org/packages/62/ad/ab6d6f8851c58e6a35f95b993d2a877bc466c164ddc7ae3dafe10e93a069/mabby-0.1.1.tar.gz
+[2023-05-04 20:18:48] INFO root fetch - processPackages [pyproject-generator]: Downloading https://files.pythonhosted.org/packages/8e/39/6fc9d383761b75d6cd91ff10d70f6be50931a87ce2b5eddb3e729ea5cbd8/pyproject-generator-0.1.5.tar.gz
+[2023-05-04 20:18:48] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/e6/50/1ea35c6112d94305333e30e9c8bf57fc2dcd59767a411894f3ac40336dc6/fiddler-client-1.7.3.tar.gz
+[2023-05-04 20:18:48] INFO root fetch - processPackages [bthome-ble]: Downloading https://files.pythonhosted.org/packages/e9/0f/9ca2cf96ba3a52a2a6b9a741ac53b57b00c27e1007839331c2f61d234930/bthome_ble-2.8.0.tar.gz
+[2023-05-04 20:18:48] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/2e/fc/6d9eb13ea2f85b22055d93413d65f0c5f6466087c1513ce65ddadea3096d/napatrackmater-3.5.1.tar.gz
+[2023-05-04 20:18:48] INFO root fetch - processPackages [selfdiffusion]: Downloading https://files.pythonhosted.org/packages/77/3c/8af201815a754d43cddc19aeec8c0eb07e087f2c0bbfc1b7dff1cdb943f0/selfdiffusion-0.1.7.tar.gz
+[2023-05-04 20:18:48] INFO root fetch - processPackages [cerc-hub]: Downloading https://files.pythonhosted.org/packages/6d/33/f365e3e2fe6c500d310c8c061af11ca9df554eedf0e37aac8435c026923b/cerc-hub-0.1.7.8.tar.gz
+[2023-05-04 20:18:48] INFO root fetch - processPackages [pyproject-generator]: executing diffoscope
+[2023-05-04 20:18:48] INFO root fetch - processPackages [pyproject-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject-generator-0.1.4.tar.gz tmp/pyproject-generator-0.1.5.tar.gz --markdown 20230504/p/pyproject-generator/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-04 20:18:48] INFO root fetch - processPackages [selfdiffusion]: executing diffoscope
+[2023-05-04 20:18:48] INFO root fetch - processPackages [selfdiffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfdiffusion-0.1.6.tar.gz tmp/selfdiffusion-0.1.7.tar.gz --markdown 20230504/s/selfdiffusion/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-04 20:18:48] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2023-05-04 20:18:48] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-1.7.3.tar.gz tmp/fiddler-client-2.0.0.dev1.tar.gz --markdown 20230504/f/fiddler-client/1.7.3-2.0.0.dev1/diff.md --exclude *.pyd
+[2023-05-04 20:18:48] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-05-04 20:18:48] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.5.0.tar.gz tmp/napatrackmater-3.5.1.tar.gz --markdown 20230504/n/napatrackmater/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-05-04 20:18:48] INFO root fetch - processPackages [shellgenius]: Downloading https://files.pythonhosted.org/packages/ae/0d/f55cd148ccd53d4b78b76a540ac11a1293c9ec407e2bf32b0552853c7cef/shellgenius-0.1.1.tar.gz
+[2023-05-04 20:18:49] INFO root fetch - processPackages [mabby]: Downloading https://files.pythonhosted.org/packages/d7/91/e2eaad9eaf64b1af0e6cd5f5c47f159babb8f481a849a9f15f3e36270084/mabby-0.1.2.tar.gz
+[2023-05-04 20:18:49] INFO root fetch - processPackages [bthome-ble]: Downloading https://files.pythonhosted.org/packages/8e/3d/5c42e5be156cd1acdd04a976aa049d2ebb9860e6d9904b9b052d0ad91263/bthome_ble-2.9.0.tar.gz
+[2023-05-04 20:18:49] INFO root fetch - processPackages [mabby]: executing diffoscope
+[2023-05-04 20:18:49] INFO root fetch - processPackages [shellgenius]: executing diffoscope
+[2023-05-04 20:18:49] INFO root fetch - processPackages [shellgenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellgenius-0.1.0.tar.gz tmp/shellgenius-0.1.1.tar.gz --markdown 20230504/s/shellgenius/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 20:18:49] INFO root fetch - processPackages [mabby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mabby-0.1.1.tar.gz tmp/mabby-0.1.2.tar.gz --markdown 20230504/m/mabby/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 20:18:49] INFO root fetch - processPackages [bthome-ble]: executing diffoscope
+[2023-05-04 20:18:49] INFO root fetch - processPackages [bthome-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bthome_ble-2.8.0.tar.gz tmp/bthome_ble-2.9.0.tar.gz --markdown 20230504/b/bthome-ble/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-04 20:18:49] INFO root fetch - processPackages [cerc-hub]: Downloading https://files.pythonhosted.org/packages/33/55/f0edc801e45da6463e24a00cbc0ec0efb36b958fffa0b679d637448f9bb7/cerc-hub-0.1.7.9.tar.gz
+[2023-05-04 20:18:50] INFO root fetch - processPackages [django-transactional-mail]: Start processing: nowcasting-datamodel
+[2023-05-04 20:18:50] INFO root fetch - main [MainThread]: End processing [django-transactional-mail]: success
+[2023-05-04 20:18:50] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-04 20:18:50] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-05-04 20:18:50] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.3.8.tar.gz tmp/nowcasting_datamodel-1.3.9.tar.gz --markdown 20230504/n/nowcasting-datamodel/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-04 20:18:50] INFO root fetch - processPackages [selfdiffusion]: Start processing: myNeuropsydia
+[2023-05-04 20:18:50] INFO root fetch - main [MainThread]: End processing [selfdiffusion]: success
+[2023-05-04 20:18:50] INFO root fetch - processPackages [myNeuropsydia]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-04 20:18:50] INFO root fetch - main [MainThread]: End processing [pyproject-generator]: success
+[2023-05-04 20:18:50] INFO root fetch - processPackages [myNeuropsydia]: executing diffoscope
+[2023-05-04 20:18:50] INFO root fetch - processPackages [myNeuropsydia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myNeuropsydia-0.1.3.tar.gz tmp/myNeuropsydia-0.1.4.tar.gz --markdown 20230504/m/myNeuropsydia/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-04 20:18:50] INFO root fetch - main [MainThread]: End processing [mabby]: success
+[2023-05-04 20:18:50] INFO root fetch - main [MainThread]: End processing [shellgenius]: success
+[2023-05-04 20:18:50] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-05-04 20:18:50] INFO root fetch - main [MainThread]: End processing [bthome-ble]: success
+[2023-05-04 20:18:50] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2023-05-04 20:18:50] INFO root fetch - processPackages [cerc-hub]: executing diffoscope
+[2023-05-04 20:18:50] INFO root fetch - processPackages [cerc-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerc-hub-0.1.7.8.tar.gz tmp/cerc-hub-0.1.7.9.tar.gz --markdown 20230504/c/cerc-hub/0.1.7.8-0.1.7.9/diff.md --exclude *.pyd
+[2023-05-04 20:18:51] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-05-04 20:18:52] INFO root fetch - main [MainThread]: End processing [myNeuropsydia]: success
+[2023-05-04 20:18:56] INFO root fetch - main [MainThread]: End processing [cerc-hub]: success
+[2023-05-04 20:18:57] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-05-04 20:18:57] INFO root fetch - main [MainThread]: Store serial: [17976280]
