@@ -19716,3 +19716,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 18:20:05] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
 [2023-05-04 18:20:05] INFO root fetch - main [MainThread]: End processing [st-searchbar]: success
 [2023-05-04 18:20:05] INFO root fetch - main [MainThread]: Store serial: [17974772]
+[2023-05-04 18:25:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17974772]
+[2023-05-04 18:25:14] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-04 18:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oceano-algos
+[2023-05-04 18:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybalonor
+[2023-05-04 18:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tcw
+[2023-05-04 18:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyBerries
+[2023-05-04 18:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webtraste
+[2023-05-04 18:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytrafikverket
+[2023-05-04 18:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: itkdb
+[2023-05-04 18:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: penne
+[2023-05-04 18:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modal-client
+[2023-05-04 18:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: c2cciutils
+[2023-05-04 18:25:14] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-04 18:25:14] WARNING root fetch - processPackages [webtraste]: Skipping, unable to determine old version
+[2023-05-04 18:25:15] INFO root fetch - processPackages [webtraste]: Start processing: auto-gptq
+[2023-05-04 18:25:15] INFO root fetch - main [MainThread]: End processing [webtraste] error
+[2023-05-04 18:25:15] INFO root fetch - processPackages [PyBerries]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-05-04 18:25:15] WARNING root fetch - processPackages [pybalonor]: Skipping, unable to determine old version
+[2023-05-04 18:25:15] INFO root fetch - processPackages [pybalonor]: Start processing: webtraste
+[2023-05-04 18:25:15] INFO root fetch - main [MainThread]: End processing [pybalonor] error
+[2023-05-04 18:25:15] INFO root fetch - processPackages [pytrafikverket]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-04 18:25:15] INFO root fetch - processPackages [tcw]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-04 18:25:15] INFO root fetch - processPackages [penne]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-05-04 18:25:15] INFO root fetch - processPackages [auto-gptq]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-05-04 18:25:15] WARNING root fetch - processPackages [webtraste]: Skipping, unable to determine old version
+[2023-05-04 18:25:15] INFO root fetch - processPackages [webtraste]: Start processing: llama-cpp-python
+[2023-05-04 18:25:15] INFO root fetch - main [MainThread]: End processing [webtraste] error
+[2023-05-04 18:25:15] INFO root fetch - processPackages [itkdb]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-04 18:25:15] INFO root fetch - processPackages [modal-client]: New version: [0.49.2114] Old Version: [0.49.2109]
+[2023-05-04 18:25:15] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 18:25:15] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev95] Old Version: [1.6.0.dev93]
+[2023-05-04 18:25:15] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/8c/75/92932d507ed501a0be98064413a831027b19a6ad5493d3d49e5fc9aa37c5/modal_client-0.49.2109-py3-none-any.whl
+[2023-05-04 18:25:15] INFO root fetch - processPackages [itkdb]: Downloading https://files.pythonhosted.org/packages/d9/a2/1debf336669148e0885a33adb67430d7d678070c7d0044dd40ecd5e83438/itkdb-0.4.2.tar.gz
+[2023-05-04 18:25:15] INFO root fetch - processPackages [pytrafikverket]: Downloading https://files.pythonhosted.org/packages/aa/82/7ea9162968a948769d8fb409e3a622a12b0a75395df44bd720994962d1c6/pytrafikverket-0.3.1.tar.gz
+[2023-05-04 18:25:15] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/7e/3b/b5f7e1ec5f43a4e980733c63bd4f05e1b7e14fd3b7aa72d9ca91f2415323/llama_cpp_python-0.1.8.tar.gz
+[2023-05-04 18:25:15] INFO root fetch - processPackages [tcw]: Downloading https://files.pythonhosted.org/packages/76/14/2299437371f4f4790db11ff52b24f8aa7b54eac1baf307f18c01158cb8fe/tcw-0.1.3.tar.gz
+[2023-05-04 18:25:15] INFO root fetch - processPackages [PyBerries]: Downloading https://files.pythonhosted.org/packages/7a/aa/868f280ab3a2cfd7eeaab1001de8763e33ec05d60673a8db12ca2df67dc2/PyBerries-0.2.5.tar.gz
+[2023-05-04 18:25:15] INFO root fetch - processPackages [auto-gptq]: Downloading https://files.pythonhosted.org/packages/5a/fb/0d0354a87df5820c1df784e92df8d3f9ebe602077dcc7c612fe1c49cdbe8/auto_gptq-0.0.5.tar.gz
+[2023-05-04 18:25:15] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/c8/51/d63b86e02389105dc4f978e891c4a6384319f196f6f5d3274a839a3dd73c/c2cciutils-1.6.0.dev95.tar.gz
+[2023-05-04 18:25:15] INFO root fetch - processPackages [penne]: Downloading https://files.pythonhosted.org/packages/a5/bf/5cf54f2ddf7df797e65449375c6c712f868f3b0db55dd4ae67edb2b763da/penne-0.3.9.tar.gz
+[2023-05-04 18:25:15] INFO root fetch - processPackages [pytrafikverket]: executing diffoscope
+[2023-05-04 18:25:15] INFO root fetch - processPackages [pytrafikverket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrafikverket-0.3.0.tar.gz tmp/pytrafikverket-0.3.1.tar.gz --markdown 20230504/p/pytrafikverket/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-04 18:25:15] INFO root fetch - processPackages [PyBerries]: executing diffoscope
+[2023-05-04 18:25:15] INFO root fetch - processPackages [PyBerries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBerries-0.2.3.tar.gz tmp/PyBerries-0.2.5.tar.gz --markdown 20230504/P/PyBerries/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-05-04 18:25:15] INFO root fetch - processPackages [tcw]: executing diffoscope
+[2023-05-04 18:25:15] INFO root fetch - processPackages [tcw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcw-0.1.2.tar.gz tmp/tcw-0.1.3.tar.gz --markdown 20230504/t/tcw/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-04 18:25:15] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-05-04 18:25:15] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230504/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-04 18:25:15] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-05-04 18:25:15] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev93.tar.gz tmp/c2cciutils-1.6.0.dev95.tar.gz --markdown 20230504/c/c2cciutils/1.6.0.dev93-1.6.0.dev95/diff.md --exclude *.pyd
+[2023-05-04 18:25:15] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/fd/2b/d53b1f2be3a991e6ce73af6d06feff382add6aed5033482a9992f4168fa7/modal_client-0.49.2114-py3-none-any.whl
+[2023-05-04 18:25:15] INFO root fetch - processPackages [auto-gptq]: Downloading https://files.pythonhosted.org/packages/79/3d/f68eb5c2e2c58f1f1797fed7540e96c1029f5ec77a61bcd424315431e960/auto_gptq-0.1.0.tar.gz
+[2023-05-04 18:25:15] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/9f/24/45a5a3beee1354f668d916eb1a2146835a0eda4dbad0da45252170e105a6/llama_cpp_python-0.1.9.tar.gz
+[2023-05-04 18:25:15] INFO root fetch - processPackages [penne]: Downloading https://files.pythonhosted.org/packages/f8/f8/7217cb08904b1359d8373cb4da29149bc3283caa77f4bf81c94131c4b9cb/penne-0.4.0.tar.gz
+[2023-05-04 18:25:15] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-05-04 18:25:15] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2109-py3-none-any.whl.zip tmp/modal_client-0.49.2114-py3-none-any.whl.zip --markdown 20230504/m/modal-client/0.49.2109-0.49.2114/diff.md --exclude *.pyd
+[2023-05-04 18:25:15] INFO root fetch - processPackages [auto-gptq]: executing diffoscope
+[2023-05-04 18:25:15] INFO root fetch - processPackages [auto-gptq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_gptq-0.0.5.tar.gz tmp/auto_gptq-0.1.0.tar.gz --markdown 20230504/a/auto-gptq/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-05-04 18:25:15] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-05-04 18:25:15] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230504/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 18:25:15] INFO root fetch - processPackages [penne]: executing diffoscope
+[2023-05-04 18:25:15] INFO root fetch - processPackages [penne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/penne-0.3.9.tar.gz tmp/penne-0.4.0.tar.gz --markdown 20230504/p/penne/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-05-04 18:25:16] INFO root fetch - processPackages [itkdb]: Downloading https://files.pythonhosted.org/packages/0a/9d/156b2b3bff453bc56a049f15ff96b6b039e367a744204c65e738a8bcded7/itkdb-0.4.3.tar.gz
+[2023-05-04 18:25:16] INFO root fetch - processPackages [itkdb]: executing diffoscope
+[2023-05-04 18:25:16] INFO root fetch - processPackages [itkdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb-0.4.2.tar.gz tmp/itkdb-0.4.3.tar.gz --markdown 20230504/i/itkdb/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-04 18:25:16] INFO root fetch - processPackages [pytrafikverket]: Start processing: sfctools
+[2023-05-04 18:25:16] INFO root fetch - main [MainThread]: End processing [pytrafikverket]: success
+[2023-05-04 18:25:16] INFO root fetch - processPackages [sfctools]: New version: [1.0.6.1] Old Version: [1.0.6.0]
+[2023-05-04 18:25:17] INFO root fetch - processPackages [PyBerries]: Start processing: c2cciutils
+[2023-05-04 18:25:17] INFO root fetch - main [MainThread]: End processing [PyBerries]: success
+[2023-05-04 18:25:17] INFO root fetch - processPackages [tcw]: Start processing: idefix-cli
+[2023-05-04 18:25:17] INFO root fetch - main [MainThread]: End processing [tcw]: success
+[2023-05-04 18:25:17] INFO root fetch - processPackages [idefix-cli]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-04 18:25:17] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev95] Old Version: [1.6.0.dev93]
+[2023-05-04 18:25:17] INFO root fetch - processPackages [sfctools]: Downloading https://files.pythonhosted.org/packages/6e/e5/e020556e76cd82a404c95cd9641f70d4ce0ba7bd95e1dd86c9e9eed9355f/sfctools-1.0.6.1.tar.gz
+[2023-05-04 18:25:17] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-05-04 18:25:17] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-05-04 18:25:17] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev93.tar.gz tmp/c2cciutils-1.6.0.dev95.tar.gz --markdown 20230504/c/c2cciutils/1.6.0.dev93-1.6.0.dev95/diff.md --exclude *.pyd
+[2023-05-04 18:25:17] INFO root fetch - processPackages [idefix-cli]: Downloading https://files.pythonhosted.org/packages/26/11/c92a607313603def94f48e39d91970baa1fc30bb3223d2cea205e8247a65/idefix_cli-2.1.1.tar.gz
+[2023-05-04 18:25:17] INFO root fetch - processPackages [sfctools]: executing diffoscope
+[2023-05-04 18:25:17] INFO root fetch - processPackages [sfctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfctools-1.0.6.0.tar.gz tmp/sfctools-1.0.6.1.tar.gz --markdown 20230504/s/sfctools/1.0.6.0-1.0.6.1/diff.md --exclude *.pyd
+[2023-05-04 18:25:17] INFO root fetch - processPackages [idefix-cli]: executing diffoscope
+[2023-05-04 18:25:17] INFO root fetch - processPackages [idefix-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idefix_cli-2.1.0.tar.gz tmp/idefix_cli-2.1.1.tar.gz --markdown 20230504/i/idefix-cli/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-04 18:25:17] INFO root fetch - main [MainThread]: End processing [penne]: success
+[2023-05-04 18:25:17] INFO root fetch - main [MainThread]: End processing [auto-gptq]: success
+[2023-05-04 18:25:18] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-05-04 18:25:18] INFO root fetch - main [MainThread]: End processing [idefix-cli]: success
+[2023-05-04 18:25:19] INFO root fetch - main [MainThread]: End processing [sfctools]: success
+[2023-05-04 18:25:19] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-05-04 18:25:20] INFO root fetch - main [MainThread]: End processing [itkdb]: success
+[2023-05-04 18:25:23] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-05-04 18:25:23] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-05-04 18:25:23] INFO root fetch - main [MainThread]: Store serial: [17974816]
