@@ -8265,3 +8265,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 08:09:15] INFO root fetch - main [MainThread]: End processing [piperider]: success
 [2023-05-04 08:09:18] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-05-04 08:09:18] INFO root fetch - main [MainThread]: Store serial: [17967889]
+[2023-05-04 08:14:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967889]
+[2023-05-04 08:14:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-04 08:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duckdb
+[2023-05-04 08:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fc-client
+[2023-05-04 08:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fc-guarder
+[2023-05-04 08:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fc-server
+[2023-05-04 08:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-pos
+[2023-05-04 08:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xdat
+[2023-05-04 08:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fin-libs
+[2023-05-04 08:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: document-merge-service
+[2023-05-04 08:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oobabot
+[2023-05-04 08:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-dotenv-vault
+[2023-05-04 08:14:27] INFO root fetch - processPackages [fc-guarder]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-04 08:14:27] INFO root fetch - processPackages [fc-server]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-04 08:14:27] INFO root fetch - processPackages [fc-client]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-04 08:14:27] INFO root fetch - processPackages [odoo-addons-oca-pos]: New version: [16.0.20230503.0] Old Version: [16.0.20230418.0]
+[2023-05-04 08:14:27] INFO root fetch - processPackages [oobabot]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-04 08:14:27] INFO root fetch - processPackages [fin-libs]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-04 08:14:27] INFO root fetch - processPackages [document-merge-service]: New version: [6.1.1] Old Version: [6.1.0]
+[2023-05-04 08:14:27] INFO root fetch - processPackages [python-dotenv-vault]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-04 08:14:27] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-04 08:14:27] INFO root fetch - processPackages [duckdb]: New version: [0.7.2.dev2867] Old Version: [0.7.2.dev2820]
+[2023-05-04 08:14:27] INFO root fetch - processPackages [oobabot]: Downloading https://files.pythonhosted.org/packages/64/01/ef47704622a7d052af537faecb999ab86bade1ef586848d8327dff6731c0/oobabot-0.1.0.tar.gz
+[2023-05-04 08:14:27] INFO root fetch - processPackages [fc-client]: Downloading https://files.pythonhosted.org/packages/0b/de/9f31ecf1088ee6f9badc4f7bd235a27881313c9c26def26c235788ec8b4a/fc-client-0.5.1.tar.gz
+[2023-05-04 08:14:27] INFO root fetch - processPackages [fc-guarder]: Downloading https://files.pythonhosted.org/packages/e9/f5/23b9455cf66a24ea8eb4c373fdb58d70540ea556b963e0da32ec1864e040/fc-guarder-0.5.1.tar.gz
+[2023-05-04 08:14:27] INFO root fetch - processPackages [fc-server]: Downloading https://files.pythonhosted.org/packages/2f/52/7ebee6d08d2f29e12a6e4e5b4ca88ec72d13ba0d42d6593cdf05f96636bb/fc-server-0.5.1.tar.gz
+[2023-05-04 08:14:27] INFO root fetch - processPackages [python-dotenv-vault]: Downloading https://files.pythonhosted.org/packages/7e/50/1193657d5b444e4f2ebc309a86933b726a8a4435d6cbd44d835bca7bbe1a/python-dotenv-vault-0.5.1.tar.gz
+[2023-05-04 08:14:27] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/22/3a/fb0f8406e8633128d9c5f16262e72d490d17d9f28ce92549df6055174085/odoo_addons_oca_pos-16.0.20230418.0-py3-none-any.whl
+[2023-05-04 08:14:27] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/1f/59/50979d7bd38d3b54ebda88cfebaad892786056349707120dd15b0f3ac4a6/xdat-0.1.98.tar.gz
+[2023-05-04 08:14:27] INFO root fetch - processPackages [document-merge-service]: Downloading https://files.pythonhosted.org/packages/1a/c9/93695840538aa0559023376302e651a95c8c6cf13b3f4550dc32b2950eaa/document_merge_service-6.1.0.tar.gz
+[2023-05-04 08:14:27] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/7a/5d/876a272f79c6a8dc13e455ff48f583342ae7598b10f27b8cdd8c349472f2/duckdb-0.7.2.dev2820-cp39-cp39-win_amd64.whl
+[2023-05-04 08:14:27] INFO root fetch - processPackages [fc-guarder]: executing diffoscope
+[2023-05-04 08:14:27] INFO root fetch - processPackages [fc-guarder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-guarder-0.5.0.tar.gz tmp/fc-guarder-0.5.1.tar.gz --markdown 20230504/f/fc-guarder/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-04 08:14:27] INFO root fetch - processPackages [fin-libs]: Downloading https://files.pythonhosted.org/packages/dd/40/97e2db17456ae96817620bf7fe192d59e010cd28ed19154f21db45933fa7/fin_libs-0.2.0.tar.gz
+[2023-05-04 08:14:27] INFO root fetch - processPackages [fc-client]: executing diffoscope
+[2023-05-04 08:14:27] INFO root fetch - processPackages [fc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-client-0.5.0.tar.gz tmp/fc-client-0.5.1.tar.gz --markdown 20230504/f/fc-client/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-04 08:14:27] INFO root fetch - processPackages [python-dotenv-vault]: executing diffoscope
+[2023-05-04 08:14:27] INFO root fetch - processPackages [python-dotenv-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-dotenv-vault-0.5.0.tar.gz tmp/python-dotenv-vault-0.5.1.tar.gz --markdown 20230504/p/python-dotenv-vault/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-04 08:14:27] INFO root fetch - processPackages [fc-server]: executing diffoscope
+[2023-05-04 08:14:27] INFO root fetch - processPackages [fc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-server-0.5.0.tar.gz tmp/fc-server-0.5.1.tar.gz --markdown 20230504/f/fc-server/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-04 08:14:27] INFO root fetch - processPackages [oobabot]: Downloading https://files.pythonhosted.org/packages/82/28/f32e01c50710e23e6ff8e0e2cf5c861d81c5cc30cc3575b96b3636b92015/oobabot-0.1.2.tar.gz
+[2023-05-04 08:14:27] INFO root fetch - processPackages [fin-libs]: executing diffoscope
+[2023-05-04 08:14:27] INFO root fetch - processPackages [fin-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fin_libs-0.1.0.tar.gz tmp/fin_libs-0.2.0.tar.gz --markdown 20230504/f/fin-libs/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-04 08:14:27] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/69/ed/eb1bf290a9f2b458f7b7e31815979f70866093eb5531544c0e5ff106928c/odoo_addons_oca_pos-16.0.20230503.0-py3-none-any.whl
+[2023-05-04 08:14:27] INFO root fetch - processPackages [odoo-addons-oca-pos]: executing diffoscope
+[2023-05-04 08:14:27] INFO root fetch - processPackages [odoo-addons-oca-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_pos-16.0.20230418.0-py3-none-any.whl.zip tmp/odoo_addons_oca_pos-16.0.20230503.0-py3-none-any.whl.zip --markdown 20230504/o/odoo-addons-oca-pos/16.0.20230418.0-16.0.20230503.0/diff.md --exclude *.pyd
+[2023-05-04 08:14:27] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/d0/e3/ecf7c10d606f2862128b9da370c3e776b0887345b9a5b2163f3df25f34f1/duckdb-0.7.2.dev2867-cp36-cp36m-macosx_10_9_x86_64.whl
+[2023-05-04 08:14:27] INFO root fetch - processPackages [oobabot]: executing diffoscope
+[2023-05-04 08:14:27] INFO root fetch - processPackages [oobabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oobabot-0.1.0.tar.gz tmp/oobabot-0.1.2.tar.gz --markdown 20230504/o/oobabot/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 08:14:27] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 14390565>=10485760
+[2023-05-04 08:14:27] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-05-04 08:14:27] INFO root fetch - processPackages [document-merge-service]: Downloading https://files.pythonhosted.org/packages/34/c1/5a33f303255ae8f4c12e217e44d62903537e009193ed403b5d4aaf5844e4/document_merge_service-6.1.1.tar.gz
+[2023-05-04 08:14:27] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/00/b5/44d6ceebadb7e9f19552d1b65fe724db78a16ae9e19ae608960562ff5d39/xdat-0.1.99.tar.gz
+[2023-05-04 08:14:28] INFO root fetch - processPackages [document-merge-service]: executing diffoscope
+[2023-05-04 08:14:28] INFO root fetch - processPackages [document-merge-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/document_merge_service-6.1.0.tar.gz tmp/document_merge_service-6.1.1.tar.gz --markdown 20230504/d/document-merge-service/6.1.0-6.1.1/diff.md --exclude *.pyd
+[2023-05-04 08:14:28] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-05-04 08:14:28] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230504/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-04 08:14:28] INFO root fetch - main [MainThread]: End processing [fc-guarder]: success
+[2023-05-04 08:14:28] INFO root fetch - main [MainThread]: End processing [fc-client]: success
+[2023-05-04 08:14:29] INFO root fetch - main [MainThread]: End processing [fc-server]: success
+[2023-05-04 08:14:29] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-pos]: success
+[2023-05-04 08:14:29] INFO root fetch - main [MainThread]: End processing [python-dotenv-vault]: success
+[2023-05-04 08:14:29] INFO root fetch - main [MainThread]: End processing [oobabot]: success
+[2023-05-04 08:14:30] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-05-04 08:14:30] INFO root fetch - main [MainThread]: End processing [document-merge-service]: success
+[2023-05-04 08:14:30] INFO root fetch - main [MainThread]: End processing [fin-libs]: success
+[2023-05-04 08:14:30] INFO root fetch - main [MainThread]: Store serial: [17967916]
