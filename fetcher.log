@@ -11607,3 +11607,52 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 11:22:55] INFO root fetch - main [MainThread]: End processing [MMEdu]: success
 [2023-05-04 11:22:57] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-05-04 11:22:57] INFO root fetch - main [MainThread]: Store serial: [17969861]
+[2023-05-04 11:28:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17969861]
+[2023-05-04 11:28:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-04 11:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qoqo-qryd
+[2023-05-04 11:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: requestsbankrko
+[2023-05-04 11:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lsst-daf-butler
+[2023-05-04 11:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybiolib
+[2023-05-04 11:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stockgetter2
+[2023-05-04 11:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: srtk
+[2023-05-04 11:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: earthquakereport-indonesia
+[2023-05-04 11:28:07] INFO root fetch - processPackages [stockgetter2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 11:28:07] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.91]
+[2023-05-04 11:28:07] INFO root fetch - processPackages [qoqo-qryd]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-05-04 11:28:07] INFO root fetch - processPackages [earthquakereport-indonesia]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 11:28:07] INFO root fetch - processPackages [srtk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-04 11:28:07] INFO root fetch - processPackages [requestsbankrko]: New version: [0.2.0] Old Version: [0.1.99]
+[2023-05-04 11:28:07] INFO root fetch - processPackages [lsst-daf-butler]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-04 11:28:07] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-05-04 11:28:07] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.91.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230504/p/pybiolib/1.1.91-1.1.94/diff.md --exclude *.pyd
+[2023-05-04 11:28:07] INFO root fetch - processPackages [stockgetter2]: Downloading https://files.pythonhosted.org/packages/5f/26/003b5d335e14863b93f79456abae55677df3eac06561b73f3a82c12dfc2d/stockgetter2-1.0.8.tar.gz
+[2023-05-04 11:28:07] INFO root fetch - processPackages [qoqo-qryd]: Downloading https://files.pythonhosted.org/packages/71/b5/0d83ff2c917d1528daea5220f28398e8e85cf6bac530991046f96b1c1b98/qoqo_qryd-0.8.5.tar.gz
+[2023-05-04 11:28:07] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/5e/f1/034047bfd2d86814c3742a4f365372bda9689857cd6ef8e5c8d9b0fea125/requestsbankrko-0.1.99.tar.gz
+[2023-05-04 11:28:07] INFO root fetch - processPackages [srtk]: Downloading https://files.pythonhosted.org/packages/ac/bf/f4763d2ca854c1bed53e91de7907fed0757f10a50373f97f611a5f52749a/srtk-0.0.1.tar.gz
+[2023-05-04 11:28:07] INFO root fetch - processPackages [earthquakereport-indonesia]: Downloading https://files.pythonhosted.org/packages/79/e4/93685e620062b42394c9f230346c3b002516b3ea71ab0ba8a507921ec2c0/earthquakereport-indonesia-0.1.2.tar.gz
+[2023-05-04 11:28:07] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/dc/b1/9f18559a0567653c67511c02f80d8778d9d0fd3e9873efffb923379924eb/lsst-daf-butler-26.0.0a20230400.tar.gz
+[2023-05-04 11:28:07] INFO root fetch - processPackages [earthquakereport-indonesia]: executing diffoscope
+[2023-05-04 11:28:07] INFO root fetch - processPackages [earthquakereport-indonesia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthquakereport-indonesia-0.1.1.tar.gz tmp/earthquakereport-indonesia-0.1.2.tar.gz --markdown 20230504/e/earthquakereport-indonesia/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 11:28:07] INFO root fetch - processPackages [srtk]: Downloading https://files.pythonhosted.org/packages/7f/fc/438358337779b159942e8448070b813cc579d0a1d5e074227059359a34a1/srtk-0.0.2.tar.gz
+[2023-05-04 11:28:08] INFO root fetch - processPackages [srtk]: executing diffoscope
+[2023-05-04 11:28:08] INFO root fetch - processPackages [srtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srtk-0.0.1.tar.gz tmp/srtk-0.0.2.tar.gz --markdown 20230504/s/srtk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-04 11:28:08] INFO root fetch - processPackages [stockgetter2]: Downloading https://files.pythonhosted.org/packages/71/22/407aa1f9f0d9e9fa70ca3e4473072b8fffa98e4eb531f940739cd625f7fe/stockgetter2-1.0.9.tar.gz
+[2023-05-04 11:28:08] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/c9/8c/24193c0ebc85aa9a6a69945eb04381d153582bf92a2c3b3a9aa29b9c909f/requestsbankrko-0.2.0.tar.gz
+[2023-05-04 11:28:08] INFO root fetch - processPackages [requestsbankrko]: executing diffoscope
+[2023-05-04 11:28:08] INFO root fetch - processPackages [requestsbankrko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requestsbankrko-0.1.99.tar.gz tmp/requestsbankrko-0.2.0.tar.gz --markdown 20230504/r/requestsbankrko/0.1.99-0.2.0/diff.md --exclude *.pyd
+[2023-05-04 11:28:08] INFO root fetch - processPackages [stockgetter2]: executing diffoscope
+[2023-05-04 11:28:08] INFO root fetch - processPackages [stockgetter2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stockgetter2-1.0.8.tar.gz tmp/stockgetter2-1.0.9.tar.gz --markdown 20230504/s/stockgetter2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 11:28:08] INFO root fetch - processPackages [qoqo-qryd]: Downloading https://files.pythonhosted.org/packages/47/90/67afa2d5d6a740c2a09f29e5976ec8314dac72a831d56715aca403606167/qoqo_qryd-0.8.6.tar.gz
+[2023-05-04 11:28:08] INFO root fetch - processPackages [qoqo-qryd]: executing diffoscope
+[2023-05-04 11:28:08] INFO root fetch - processPackages [qoqo-qryd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_qryd-0.8.5.tar.gz tmp/qoqo_qryd-0.8.6.tar.gz --markdown 20230504/q/qoqo-qryd/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-05-04 11:28:08] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/63/f1/05460b4cbb11577f16194d576ae8d564636b13a457f218b01be5e8977fcc/lsst-daf-butler-26.0.0a20230500.tar.gz
+[2023-05-04 11:28:08] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2023-05-04 11:28:08] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-butler-26.0.0a20230400.tar.gz tmp/lsst-daf-butler-26.0.0a20230500.tar.gz --markdown 20230504/l/lsst-daf-butler/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-04 11:28:08] INFO root fetch - main [MainThread]: End processing [earthquakereport-indonesia]: success
+[2023-05-04 11:28:09] INFO root fetch - main [MainThread]: End processing [requestsbankrko]: success
+[2023-05-04 11:28:09] INFO root fetch - main [MainThread]: End processing [srtk]: success
+[2023-05-04 11:28:09] INFO root fetch - main [MainThread]: End processing [stockgetter2]: success
+[2023-05-04 11:28:10] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-05-04 11:28:13] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2023-05-04 11:28:14] INFO root fetch - main [MainThread]: End processing [qoqo-qryd]: success
+[2023-05-04 11:28:14] INFO root fetch - main [MainThread]: Store serial: [17969892]
