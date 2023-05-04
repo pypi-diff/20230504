@@ -15653,3 +15653,130 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 15:01:04] INFO root fetch - main [MainThread]: End processing [hidefix]: success
 [2023-05-04 15:01:41] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-04 15:01:41] INFO root fetch - main [MainThread]: Store serial: [17972376]
+[2023-05-04 15:06:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17972376]
+[2023-05-04 15:06:50] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-04 15:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mstrio-py
+[2023-05-04 15:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pikaur
+[2023-05-04 15:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellpy
+[2023-05-04 15:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytos2-ce
+[2023-05-04 15:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-shelly-usabilityfixserialization
+[2023-05-04 15:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gad-common-utils
+[2023-05-04 15:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simple-spinner
+[2023-05-04 15:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: warpzone-sdk
+[2023-05-04 15:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-05-04 15:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-assaf-TACNewFormat-autoPrinting
+[2023-05-04 15:06:50] INFO root fetch - processPackages [mstrio-py]: New version: [11.3.9.103] Old Version: [11.3.9.101]
+[2023-05-04 15:06:50] INFO root fetch - processPackages [pikaur]: New version: [1.9] Old Version: [1.8]
+[2023-05-04 15:06:50] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACNewFormat-autoPrinting]: New version: [20230504.13.3.447874] Old Version: [20230504.12.48.169640]
+[2023-05-04 15:06:50] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-05-04 15:06:50] INFO root fetch - processPackages [warpzone-sdk]: New version: [6.0.5] Old Version: [6.0.4]
+[2023-05-04 15:06:50] WARNING root fetch - processPackages [simple-spinner]: Skipping, unable to determine old version
+[2023-05-04 15:06:50] INFO root fetch - processPackages [pytos2-ce]: New version: [2.3.11] Old Version: [2.3.10]
+[2023-05-04 15:06:50] INFO root fetch - processPackages [cellpy]: New version: [1.0.0a3] Old Version: [1.0.0a0]
+[2023-05-04 15:06:50] INFO root fetch - processPackages [simple-spinner]: Start processing: ImageMagic
+[2023-05-04 15:06:50] INFO root fetch - main [MainThread]: End processing [simple-spinner] error
+[2023-05-04 15:06:50] INFO root fetch - processPackages [gad-common-utils]: New version: [0.22] Old Version: [0.21]
+[2023-05-04 15:06:50] INFO root fetch - processPackages [certora-cli-alpha-shelly-usabilityfixserialization]: New version: [20230504.13.1.808261] Old Version: [20230504.12.27.211084]
+[2023-05-04 15:06:50] INFO root fetch - processPackages [ImageMagic]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-05-04 15:06:50] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-05-04 15:06:50] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.5.2-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.5.3-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230504/f/fbgemm-gpu-nightly-cpu/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-05-04 15:06:50] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACNewFormat-autoPrinting]: Downloading https://files.pythonhosted.org/packages/94/5e/6a9aa26646f2c3397d8092bbee4d2ae9c8e3e9e90fa821bd9b2f3c316c61/certora-cli-alpha-assaf-TACNewFormat_autoPrinting-20230504.12.48.169640.tar.gz
+[2023-05-04 15:06:50] INFO root fetch - processPackages [cellpy]: Downloading https://files.pythonhosted.org/packages/a8/e0/97c9aec8feb89a9ebb6048b6343abc3604c8624fee0d8ce544de10df4b09/cellpy-1.0.0a0.tar.gz
+[2023-05-04 15:06:50] WARNING root fetch - processPackages [certora-cli-alpha-assaf-TACNewFormat-autoPrinting]: Skipping package: exceeds size limit 38473390>=10485760
+[2023-05-04 15:06:50] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACNewFormat-autoPrinting]: Start processing: certora-cli-alpha-shelly-fixviewreentrancy
+[2023-05-04 15:06:50] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-TACNewFormat-autoPrinting] error
+[2023-05-04 15:06:50] INFO root fetch - processPackages [mstrio-py]: Downloading https://files.pythonhosted.org/packages/a4/d2/b42ff7f4678478c1e261af14f326b5e893d426d1ec4aed816b5f09208632/mstrio-py-11.3.9.101.tar.gz
+[2023-05-04 15:06:50] INFO root fetch - processPackages [certora-cli-alpha-shelly-usabilityfixserialization]: Downloading https://files.pythonhosted.org/packages/0a/94/3b3681b9e1857a46a925dcb010187f65abe0c6519e4e0f91f7961ab88f23/certora-cli-alpha-shelly-usabilityfixserialization-20230504.12.27.211084.tar.gz
+[2023-05-04 15:06:50] INFO root fetch - processPackages [pytos2-ce]: Downloading https://files.pythonhosted.org/packages/14/11/2ec637520fd83e50b823d997d599f676b0efef04e532b74b9684cb2b5be9/pytos2-ce-2.3.10.tar.gz
+[2023-05-04 15:06:50] WARNING root fetch - processPackages [certora-cli-alpha-shelly-usabilityfixserialization]: Skipping package: exceeds size limit 38413598>=10485760
+[2023-05-04 15:06:50] INFO root fetch - processPackages [certora-cli-alpha-shelly-usabilityfixserialization]: Start processing: PyTestLog2DB
+[2023-05-04 15:06:50] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-usabilityfixserialization] error
+[2023-05-04 15:06:50] INFO root fetch - processPackages [gad-common-utils]: Downloading https://files.pythonhosted.org/packages/31/a4/ef6adf67660d34b027198c3a1db838c851b5abd63d3efe91e5b8a46a851e/gad_common_utils-0.22.tar.gz
+[2023-05-04 15:06:50] WARNING root fetch - processPackages [certora-cli-alpha-shelly-fixviewreentrancy]: Skipping, unable to determine old version
+[2023-05-04 15:06:50] INFO root fetch - processPackages [certora-cli-alpha-shelly-fixviewreentrancy]: Start processing: openlimit
+[2023-05-04 15:06:50] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-fixviewreentrancy] error
+[2023-05-04 15:06:50] INFO root fetch - processPackages [PyTestLog2DB]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-04 15:06:50] INFO root fetch - processPackages [openlimit]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-04 15:06:50] INFO root fetch - processPackages [gad-common-utils]: executing diffoscope
+[2023-05-04 15:06:50] INFO root fetch - processPackages [gad-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gad_common_utils-0.21.tar.gz tmp/gad_common_utils-0.22.tar.gz --markdown 20230504/g/gad-common-utils/0.21-0.22/diff.md --exclude *.pyd
+[2023-05-04 15:06:50] INFO root fetch - processPackages [pikaur]: executing diffoscope
+[2023-05-04 15:06:50] INFO root fetch - processPackages [pikaur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikaur-1.8.tar.gz tmp/pikaur-1.9.tar.gz --markdown 20230504/p/pikaur/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-04 15:06:50] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/ab/10/44b4997760919d5f183f16624780ff8c06288e48967f070ef669f2eae4d3/warpzone_sdk-6.0.5.tar.gz
+[2023-05-04 15:06:50] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2023-05-04 15:06:50] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-6.0.4.tar.gz tmp/warpzone_sdk-6.0.5.tar.gz --markdown 20230504/w/warpzone-sdk/6.0.4-6.0.5/diff.md --exclude *.pyd
+[2023-05-04 15:06:50] INFO root fetch - processPackages [ImageMagic]: Downloading https://files.pythonhosted.org/packages/5a/e7/1eef3bda4693f567929b9af02a2494403b5750b13c96c70eefeefe5fe2ea/ImageMagic-0.1.5.tar.gz
+[2023-05-04 15:06:50] INFO root fetch - processPackages [ImageMagic]: executing diffoscope
+[2023-05-04 15:06:50] INFO root fetch - processPackages [ImageMagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImageMagic-0.1.3.tar.gz tmp/ImageMagic-0.1.5.tar.gz --markdown 20230504/I/ImageMagic/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-05-04 15:06:50] INFO root fetch - processPackages [openlimit]: Downloading https://files.pythonhosted.org/packages/09/81/824e0dfacac381459cf78c3459aa623f66d50de13ec4c65352567e5680fc/openlimit-0.2.5.tar.gz
+[2023-05-04 15:06:50] INFO root fetch - processPackages [PyTestLog2DB]: Downloading https://files.pythonhosted.org/packages/5b/2e/5fe0fd3733b2c12681219f11c2ac2e362567962c70b313340bfa2626ab9b/PyTestLog2DB-0.2.4.tar.gz
+[2023-05-04 15:06:51] INFO root fetch - processPackages [openlimit]: Downloading https://files.pythonhosted.org/packages/49/eb/76f71e55f88ce4d4279be2242055bdfa808ca0f833123cd39c260e3be6bb/openlimit-0.2.6.tar.gz
+[2023-05-04 15:06:51] INFO root fetch - processPackages [openlimit]: executing diffoscope
+[2023-05-04 15:06:51] INFO root fetch - processPackages [openlimit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlimit-0.2.5.tar.gz tmp/openlimit-0.2.6.tar.gz --markdown 20230504/o/openlimit/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-04 15:06:51] INFO root fetch - processPackages [pytos2-ce]: Downloading https://files.pythonhosted.org/packages/e6/8c/ad20c9c6335ccf42a5bd06a4689fafeca47ed64ccff2b4454b51c471f6fd/pytos2-ce-2.3.11.tar.gz
+[2023-05-04 15:06:51] INFO root fetch - processPackages [PyTestLog2DB]: Downloading https://files.pythonhosted.org/packages/23/cd/fc565b1e5011eb4fb27d5ec836e33e7190405b0846754dfa57f405f27f2c/PyTestLog2DB-0.2.5.tar.gz
+[2023-05-04 15:06:51] INFO root fetch - processPackages [pytos2-ce]: executing diffoscope
+[2023-05-04 15:06:51] INFO root fetch - processPackages [pytos2-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytos2-ce-2.3.10.tar.gz tmp/pytos2-ce-2.3.11.tar.gz --markdown 20230504/p/pytos2-ce/2.3.10-2.3.11/diff.md --exclude *.pyd
+[2023-05-04 15:06:51] INFO root fetch - processPackages [PyTestLog2DB]: executing diffoscope
+[2023-05-04 15:06:51] INFO root fetch - processPackages [PyTestLog2DB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTestLog2DB-0.2.4.tar.gz tmp/PyTestLog2DB-0.2.5.tar.gz --markdown 20230504/P/PyTestLog2DB/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-04 15:06:51] INFO root fetch - processPackages [mstrio-py]: Downloading https://files.pythonhosted.org/packages/89/7d/26554e41bec458147ea8ec867cfb44d29d9bad1d5219f1a9685e5787dd94/mstrio-py-11.3.9.103.tar.gz
+[2023-05-04 15:06:51] INFO root fetch - processPackages [mstrio-py]: executing diffoscope
+[2023-05-04 15:06:51] INFO root fetch - processPackages [mstrio-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mstrio-py-11.3.9.101.tar.gz tmp/mstrio-py-11.3.9.103.tar.gz --markdown 20230504/m/mstrio-py/11.3.9.101-11.3.9.103/diff.md --exclude *.pyd
+[2023-05-04 15:06:52] INFO root fetch - processPackages [warpzone-sdk]: Start processing: invenio-rdm-migrator
+[2023-05-04 15:06:52] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2023-05-04 15:06:52] INFO root fetch - processPackages [cellpy]: Downloading https://files.pythonhosted.org/packages/13/0c/9a0d2c1fbe5592942d6b4ef5bd6d0af195d602e2a5d1666f3ef84c1d821b/cellpy-1.0.0a3.tar.gz
+[2023-05-04 15:06:52] INFO root fetch - processPackages [invenio-rdm-migrator]: New version: [1.0.0a8] Old Version: [1.0.0a7]
+[2023-05-04 15:06:52] INFO root fetch - processPackages [ImageMagic]: Start processing: django-workflow-engine
+[2023-05-04 15:06:52] INFO root fetch - main [MainThread]: End processing [ImageMagic]: success
+[2023-05-04 15:06:52] INFO root fetch - processPackages [invenio-rdm-migrator]: Downloading https://files.pythonhosted.org/packages/f2/35/df1d3d1fd116accb444b432b3a6355ab02c1c2c7fc74df9355a7b4183460/invenio-rdm-migrator-1.0.0a8.tar.gz
+[2023-05-04 15:06:52] INFO root fetch - processPackages [django-workflow-engine]: New version: [0.1.0rc7] Old Version: [0.1.0rc6]
+[2023-05-04 15:06:52] INFO root fetch - processPackages [invenio-rdm-migrator]: executing diffoscope
+[2023-05-04 15:06:52] INFO root fetch - processPackages [invenio-rdm-migrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-migrator-1.0.0a7.tar.gz tmp/invenio-rdm-migrator-1.0.0a8.tar.gz --markdown 20230504/i/invenio-rdm-migrator/1.0.0a7-1.0.0a8/diff.md --exclude *.pyd
+[2023-05-04 15:06:52] INFO root fetch - processPackages [cellpy]: executing diffoscope
+[2023-05-04 15:06:52] INFO root fetch - processPackages [cellpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellpy-1.0.0a0.tar.gz tmp/cellpy-1.0.0a3.tar.gz --markdown 20230504/c/cellpy/1.0.0a0-1.0.0a3/diff.md --exclude *.pyd
+[2023-05-04 15:06:52] INFO root fetch - processPackages [openlimit]: Start processing: probabilistic-word-embeddings
+[2023-05-04 15:06:52] INFO root fetch - main [MainThread]: End processing [openlimit]: success
+[2023-05-04 15:06:52] INFO root fetch - processPackages [pikaur]: Start processing: simplepg
+[2023-05-04 15:06:52] INFO root fetch - main [MainThread]: End processing [pikaur]: success
+[2023-05-04 15:06:52] INFO root fetch - processPackages [django-workflow-engine]: Downloading https://files.pythonhosted.org/packages/a6/ba/7dc2aeb2572bc6e698ab7d34161807b0d7afe665bd1df41db4690f665514/django_workflow_engine-0.1.0rc6.tar.gz
+[2023-05-04 15:06:52] INFO root fetch - processPackages [probabilistic-word-embeddings]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-04 15:06:52] INFO root fetch - processPackages [gad-common-utils]: Start processing: access2theMatrix
+[2023-05-04 15:06:52] INFO root fetch - main [MainThread]: End processing [gad-common-utils]: success
+[2023-05-04 15:06:52] INFO root fetch - processPackages [simplepg]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-04 15:06:52] INFO root fetch - processPackages [access2theMatrix]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-04 15:06:52] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/ab/74/5dc59af1d61adc8425e4069661afae2810e1b617c88876ab8ac203cf0e14/probabilistic_word_embeddings-1.3.1.tar.gz
+[2023-05-04 15:06:52] INFO root fetch - processPackages [probabilistic-word-embeddings]: executing diffoscope
+[2023-05-04 15:06:52] INFO root fetch - processPackages [probabilistic-word-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probabilistic_word_embeddings-1.3.0.tar.gz tmp/probabilistic_word_embeddings-1.3.1.tar.gz --markdown 20230504/p/probabilistic-word-embeddings/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-04 15:06:52] INFO root fetch - processPackages [django-workflow-engine]: Downloading https://files.pythonhosted.org/packages/96/c5/05dcc0863e4dc0859bc847ae6eb77208502b640d494090cf16fa48803537/django_workflow_engine-0.1.0rc7.tar.gz
+[2023-05-04 15:06:52] INFO root fetch - processPackages [access2theMatrix]: Downloading https://files.pythonhosted.org/packages/c7/d9/2cb832dfc17b276c7f2d8c97429a3e37042ebf2b320d1ae55d30e1fb7130/access2theMatrix-0.4.3-py2.py3-none-any.whl
+[2023-05-04 15:06:52] INFO root fetch - processPackages [simplepg]: Downloading https://files.pythonhosted.org/packages/51/99/150df6367ce542317c8eef0f8e9234460514c37735f01c1828776a5e9b8e/simplepg-0.1.5.tar.gz
+[2023-05-04 15:06:53] INFO root fetch - processPackages [django-workflow-engine]: executing diffoscope
+[2023-05-04 15:06:53] INFO root fetch - processPackages [django-workflow-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_workflow_engine-0.1.0rc6.tar.gz tmp/django_workflow_engine-0.1.0rc7.tar.gz --markdown 20230504/d/django-workflow-engine/0.1.0rc6-0.1.0rc7/diff.md --exclude *.pyd
+[2023-05-04 15:06:53] INFO root fetch - processPackages [simplepg]: executing diffoscope
+[2023-05-04 15:06:53] INFO root fetch - processPackages [simplepg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplepg-0.1.4.tar.gz tmp/simplepg-0.1.5.tar.gz --markdown 20230504/s/simplepg/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-04 15:06:53] INFO root fetch - processPackages [access2theMatrix]: Downloading https://files.pythonhosted.org/packages/b8/73/c6d492769537ccc60bf753740cb6477116b4939427eb100810ce5ca0bbf0/access2theMatrix-0.4.4.tar.gz
+[2023-05-04 15:06:53] INFO root fetch - processPackages [access2theMatrix]: executing diffoscope
+[2023-05-04 15:06:53] INFO root fetch - processPackages [access2theMatrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/access2theMatrix-0.4.3-py2.py3-none-any.whl.zip tmp/access2theMatrix-0.4.4.tar.gz --markdown 20230504/a/access2theMatrix/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-04 15:06:53] INFO root fetch - processPackages [PyTestLog2DB]: Start processing: OWR
+[2023-05-04 15:06:53] INFO root fetch - main [MainThread]: End processing [PyTestLog2DB]: success
+[2023-05-04 15:06:54] INFO root fetch - processPackages [OWR]: New version: [2.5.1] Old Version: [2.4]
+[2023-05-04 15:06:54] INFO root fetch - processPackages [OWR]: Downloading https://files.pythonhosted.org/packages/50/ca/e2c5ad5c2d946cf75a5c735cf20b12f77e12396b9219d07d65a71783209c/OWR-2.5.1.tar.gz
+[2023-05-04 15:06:54] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Start processing: dbqq
+[2023-05-04 15:06:54] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-05-04 15:06:54] INFO root fetch - processPackages [OWR]: executing diffoscope
+[2023-05-04 15:06:54] INFO root fetch - processPackages [OWR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OWR-2.4.tar.gz tmp/OWR-2.5.1.tar.gz --markdown 20230504/O/OWR/2.4-2.5.1/diff.md --exclude *.pyd
+[2023-05-04 15:06:54] INFO root fetch - processPackages [dbqq]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-05-04 15:06:54] INFO root fetch - processPackages [dbqq]: Downloading https://files.pythonhosted.org/packages/f4/1f/e924b773f7a4922c6391a2ca15804e7627b5967d399322e3d3ef52af8471/dbqq-1.3.6.tar.gz
+[2023-05-04 15:06:54] INFO root fetch - main [MainThread]: End processing [probabilistic-word-embeddings]: success
+[2023-05-04 15:06:54] INFO root fetch - main [MainThread]: End processing [invenio-rdm-migrator]: success
+[2023-05-04 15:06:54] INFO root fetch - main [MainThread]: End processing [simplepg]: success
+[2023-05-04 15:06:54] INFO root fetch - main [MainThread]: End processing [access2theMatrix]: success
+[2023-05-04 15:06:54] INFO root fetch - processPackages [dbqq]: Downloading https://files.pythonhosted.org/packages/5f/f2/251ffb9d8bfcfc2e7b4fd67be29e9af7fd3e0a1ff32262522c5d96866013/dbqq-1.3.7.tar.gz
+[2023-05-04 15:06:54] INFO root fetch - main [MainThread]: End processing [django-workflow-engine]: success
+[2023-05-04 15:06:54] INFO root fetch - processPackages [dbqq]: executing diffoscope
+[2023-05-04 15:06:54] INFO root fetch - processPackages [dbqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbqq-1.3.6.tar.gz tmp/dbqq-1.3.7.tar.gz --markdown 20230504/d/dbqq/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-05-04 15:06:55] INFO root fetch - main [MainThread]: End processing [OWR]: success
+[2023-05-04 15:06:55] INFO root fetch - main [MainThread]: End processing [cellpy]: success
+[2023-05-04 15:06:56] INFO root fetch - main [MainThread]: End processing [dbqq]: success
+[2023-05-04 15:06:57] INFO root fetch - main [MainThread]: End processing [mstrio-py]: success
+[2023-05-04 15:06:58] INFO root fetch - main [MainThread]: End processing [pytos2-ce]: success
+[2023-05-04 15:06:58] INFO root fetch - main [MainThread]: Store serial: [17972448]
