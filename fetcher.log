@@ -20066,3 +20066,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 18:41:07] INFO root fetch - main [MainThread]: End processing [pydelling]: success
 [2023-05-04 18:41:14] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-05-04 18:41:14] INFO root fetch - main [MainThread]: Store serial: [17974970]
+[2023-05-04 18:46:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17974970]
+[2023-05-04 18:46:23] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-04 18:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arkitekt
+[2023-05-04 18:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openxes-cli-py
+[2023-05-04 18:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atlas-mpl-style
+[2023-05-04 18:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pvbm
+[2023-05-04 18:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly-intel
+[2023-05-04 18:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anylabeling
+[2023-05-04 18:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alacorder
+[2023-05-04 18:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: easier
+[2023-05-04 18:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyveb
+[2023-05-04 18:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torch-conduit
+[2023-05-04 18:46:24] INFO root fetch - processPackages [anylabeling]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-04 18:46:24] INFO root fetch - processPackages [openxes-cli-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 18:46:24] INFO root fetch - processPackages [pvbm]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-05-04 18:46:24] INFO root fetch - processPackages [arkitekt]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-04 18:46:24] INFO root fetch - processPackages [atlas-mpl-style]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-04 18:46:24] INFO root fetch - processPackages [easier]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-04 18:46:24] INFO root fetch - processPackages [torch-conduit]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-04 18:46:24] INFO root fetch - processPackages [pyveb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-04 18:46:24] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230503] Old Version: [2.14.0.dev20230502]
+[2023-05-04 18:46:24] INFO root fetch - processPackages [alacorder]: New version: [80.2.0] Old Version: [80.1.9]
+[2023-05-04 18:46:24] INFO root fetch - processPackages [atlas-mpl-style]: executing diffoscope
+[2023-05-04 18:46:24] INFO root fetch - processPackages [atlas-mpl-style]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlas-mpl-style-0.9.1.tar.gz tmp/atlas-mpl-style-0.9.2.tar.gz --markdown 20230504/a/atlas-mpl-style/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-04 18:46:24] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-05-04 18:46:24] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.98.tar.gz tmp/arkitekt-0.4.99.tar.gz --markdown 20230504/a/arkitekt/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-04 18:46:24] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/09/d7/b212d3149f691d13f84f9ce60c90b03264df1205eaad1baee29692dfb02f/tf_nightly_intel-2.14.0.dev20230502-cp39-cp39-win_amd64.whl
+[2023-05-04 18:46:24] INFO root fetch - processPackages [anylabeling]: Downloading https://files.pythonhosted.org/packages/42/30/905d0fffab23c77bb74416b7af5a94384c349998fe31ec9ec537c1a734f5/anylabeling-0.2.8.tar.gz
+[2023-05-04 18:46:24] INFO root fetch - processPackages [pvbm]: Downloading https://files.pythonhosted.org/packages/4b/f5/0edac986cb92d85162e98be8a15502214bfe2e253afa51ae3d3fdb2b0623/pvbm-1.6.0.tar.gz
+[2023-05-04 18:46:24] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 179334493>=10485760
+[2023-05-04 18:46:24] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: rad-tools
+[2023-05-04 18:46:24] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-05-04 18:46:24] INFO root fetch - processPackages [easier]: Downloading https://files.pythonhosted.org/packages/cd/8c/e167503627e2a577917d0a38c754146f8721bb9f67634324f35238feec5e/easier-1.3.1.tar.gz
+[2023-05-04 18:46:24] INFO root fetch - processPackages [rad-tools]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-04 18:46:24] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/54/b8/9bbf30a8284be9ff3243e29678dedd04b0d4f544eb9eb4f25b413efc2fb5/alacorder-80.2.0.tar.gz
+[2023-05-04 18:46:24] INFO root fetch - processPackages [torch-conduit]: Downloading https://files.pythonhosted.org/packages/a1/68/cbaa238ac008da8dc2b6417d97f96d597337b6897ad0eb514921bce5c338/torch_conduit-0.2.1.tar.gz
+[2023-05-04 18:46:24] INFO root fetch - processPackages [openxes-cli-py]: Downloading https://files.pythonhosted.org/packages/3b/99/2388e0d7e18aaf6f611a9a6061b4f7b9c6252bedd59477849faada34c8d1/openxes_cli_py-0.1.9.tar.gz
+[2023-05-04 18:46:24] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-04 18:46:24] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.1.9.tar.gz tmp/alacorder-80.2.0.tar.gz --markdown 20230504/a/alacorder/80.1.9-80.2.0/diff.md --exclude *.pyd
+[2023-05-04 18:46:24] INFO root fetch - processPackages [rad-tools]: executing diffoscope
+[2023-05-04 18:46:24] INFO root fetch - processPackages [rad-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rad-tools-0.5.8.tar.gz tmp/rad-tools-0.5.9.tar.gz --markdown 20230504/r/rad-tools/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-04 18:46:24] INFO root fetch - processPackages [pvbm]: Downloading https://files.pythonhosted.org/packages/ae/2f/9e6ac544bb7dc459e8784860e3adace794c111614b166a6f970fa4119cab/pvbm-1.7.0.tar.gz
+[2023-05-04 18:46:24] INFO root fetch - processPackages [pvbm]: executing diffoscope
+[2023-05-04 18:46:24] INFO root fetch - processPackages [pvbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvbm-1.6.0.tar.gz tmp/pvbm-1.7.0.tar.gz --markdown 20230504/p/pvbm/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-05-04 18:46:24] INFO root fetch - processPackages [pyveb]: executing diffoscope
+[2023-05-04 18:46:24] INFO root fetch - processPackages [pyveb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyveb-0.2.8.tar.gz tmp/pyveb-0.2.9.tar.gz --markdown 20230504/p/pyveb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-04 18:46:24] INFO root fetch - processPackages [openxes-cli-py]: executing diffoscope
+[2023-05-04 18:46:24] INFO root fetch - processPackages [openxes-cli-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openxes_cli_py-0.1.8.tar.gz tmp/openxes_cli_py-0.1.9.tar.gz --markdown 20230504/o/openxes-cli-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 18:46:24] INFO root fetch - processPackages [easier]: Downloading https://files.pythonhosted.org/packages/44/45/4354d575f85dccad1d403257c158fb185f0414feb36cc5f4f226a2521563/easier-1.3.2.tar.gz
+[2023-05-04 18:46:24] INFO root fetch - processPackages [anylabeling]: Downloading https://files.pythonhosted.org/packages/a1/f6/b481803051cb87f4ac45a08869fbef2f0dc3c7541bf3abecb466191b1f2e/anylabeling-0.2.9.tar.gz
+[2023-05-04 18:46:24] INFO root fetch - processPackages [easier]: executing diffoscope
+[2023-05-04 18:46:24] INFO root fetch - processPackages [easier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easier-1.3.1.tar.gz tmp/easier-1.3.2.tar.gz --markdown 20230504/e/easier/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-04 18:46:24] INFO root fetch - processPackages [torch-conduit]: Downloading https://files.pythonhosted.org/packages/9a/5e/82d710b26f02e9886a02eabd891a6f2e001b7d746764fed35fbd69caa09a/torch_conduit-0.3.0.tar.gz
+[2023-05-04 18:46:24] INFO root fetch - processPackages [anylabeling]: executing diffoscope
+[2023-05-04 18:46:24] INFO root fetch - processPackages [anylabeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylabeling-0.2.8.tar.gz tmp/anylabeling-0.2.9.tar.gz --markdown 20230504/a/anylabeling/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-04 18:46:24] INFO root fetch - processPackages [torch-conduit]: executing diffoscope
+[2023-05-04 18:46:24] INFO root fetch - processPackages [torch-conduit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_conduit-0.2.1.tar.gz tmp/torch_conduit-0.3.0.tar.gz --markdown 20230504/t/torch-conduit/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-04 18:46:25] INFO root fetch - processPackages [pvbm]: Start processing: redis-elastic
+[2023-05-04 18:46:25] INFO root fetch - main [MainThread]: End processing [pvbm]: success
+[2023-05-04 18:46:25] WARNING root fetch - processPackages [redis-elastic]: Skipping, unable to determine old version
+[2023-05-04 18:46:25] INFO root fetch - processPackages [redis-elastic]: Start processing: axdd-person-client
+[2023-05-04 18:46:25] INFO root fetch - main [MainThread]: End processing [redis-elastic] error
+[2023-05-04 18:46:25] INFO root fetch - processPackages [axdd-person-client]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-04 18:46:26] INFO root fetch - processPackages [axdd-person-client]: Downloading https://files.pythonhosted.org/packages/a7/41/5a7816e6d71fa17b20ad8f8fc072e965342d86f6a9155802e5647d88614c/axdd-person-client-1.1.3.tar.gz
+[2023-05-04 18:46:26] INFO root fetch - processPackages [atlas-mpl-style]: Start processing: network-analysis
+[2023-05-04 18:46:26] INFO root fetch - main [MainThread]: End processing [atlas-mpl-style]: success
+[2023-05-04 18:46:26] INFO root fetch - processPackages [network-analysis]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-04 18:46:26] INFO root fetch - processPackages [rad-tools]: Start processing: klp-commons
+[2023-05-04 18:46:26] INFO root fetch - main [MainThread]: End processing [rad-tools]: success
+[2023-05-04 18:46:26] INFO root fetch - processPackages [klp-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 18:46:26] INFO root fetch - processPackages [alacorder]: Start processing: fieldedge-utilities
+[2023-05-04 18:46:26] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-04 18:46:26] INFO root fetch - processPackages [axdd-person-client]: Downloading https://files.pythonhosted.org/packages/99/6c/e060464ae22010a3b2349d9f4c5935ee6094f753dc2dd08765aca2c2f4eb/axdd-person-client-1.1.4.tar.gz
+[2023-05-04 18:46:26] INFO root fetch - processPackages [easier]: Start processing: caep
+[2023-05-04 18:46:26] INFO root fetch - main [MainThread]: End processing [easier]: success
+[2023-05-04 18:46:26] INFO root fetch - processPackages [fieldedge-utilities]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-04 18:46:26] INFO root fetch - processPackages [klp-commons]: executing diffoscope
+[2023-05-04 18:46:26] INFO root fetch - processPackages [klp-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klp-commons-0.0.8.tar.gz tmp/klp-commons-0.0.9.tar.gz --markdown 20230504/k/klp-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 18:46:26] INFO root fetch - processPackages [network-analysis]: Downloading https://files.pythonhosted.org/packages/6d/7b/b2399225e04e812e785ed76afb3b9a2c885ec18e425c3ef5c210e6eb6f94/network-analysis-0.0.1.tar.gz
+[2023-05-04 18:46:26] INFO root fetch - processPackages [caep]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-04 18:46:26] INFO root fetch - processPackages [axdd-person-client]: executing diffoscope
+[2023-05-04 18:46:26] INFO root fetch - processPackages [axdd-person-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axdd-person-client-1.1.3.tar.gz tmp/axdd-person-client-1.1.4.tar.gz --markdown 20230504/a/axdd-person-client/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-04 18:46:26] INFO root fetch - processPackages [pyveb]: Start processing: frazzle
+[2023-05-04 18:46:26] INFO root fetch - main [MainThread]: End processing [pyveb]: success
+[2023-05-04 18:46:26] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-05-04 18:46:26] INFO root fetch - processPackages [frazzle]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-04 18:46:26] INFO root fetch - processPackages [fieldedge-utilities]: Downloading https://files.pythonhosted.org/packages/94/51/27351e27b84fb88e4cafeee9829c12c91fa3a932466885fd524f7745c83c/fieldedge-utilities-0.9.4.tar.gz
+[2023-05-04 18:46:26] INFO root fetch - processPackages [caep]: Downloading https://files.pythonhosted.org/packages/76/0a/516c5827cda0e6cd723a84171f70bbd6b0816c5096c75861f5414748a453/caep-0.1.7.tar.gz
+[2023-05-04 18:46:26] INFO root fetch - processPackages [network-analysis]: Downloading https://files.pythonhosted.org/packages/68/22/4c2f27aa69e6a2dd8168d74fd82448e7e03ae65654654a6dff7e2bf7de66/network-analysis-0.0.2.tar.gz
+[2023-05-04 18:46:26] INFO root fetch - processPackages [network-analysis]: executing diffoscope
+[2023-05-04 18:46:26] INFO root fetch - processPackages [network-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network-analysis-0.0.1.tar.gz tmp/network-analysis-0.0.2.tar.gz --markdown 20230504/n/network-analysis/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-04 18:46:26] INFO root fetch - processPackages [frazzle]: Downloading https://files.pythonhosted.org/packages/ac/98/d62a678c34b6e49748cc86f7f45429993d2706ae55c54d87c68d125789a8/frazzle-0.2.0.tar.gz
+[2023-05-04 18:46:26] INFO root fetch - processPackages [frazzle]: executing diffoscope
+[2023-05-04 18:46:26] INFO root fetch - processPackages [frazzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frazzle-0.1.2.tar.gz tmp/frazzle-0.2.0.tar.gz --markdown 20230504/f/frazzle/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-04 18:46:26] INFO root fetch - processPackages [caep]: Downloading https://files.pythonhosted.org/packages/31/6f/71f88e70e6ee3a5f1aff9217c261c3d8049017aa967f424677093fba81a6/caep-0.1.8.tar.gz
+[2023-05-04 18:46:26] INFO root fetch - processPackages [caep]: executing diffoscope
+[2023-05-04 18:46:26] INFO root fetch - processPackages [caep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caep-0.1.7.tar.gz tmp/caep-0.1.8.tar.gz --markdown 20230504/c/caep/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-04 18:46:27] INFO root fetch - processPackages [fieldedge-utilities]: Downloading https://files.pythonhosted.org/packages/a4/cc/5e3cca6cf81fd198ab60061c1fc2991aa7d6101683864c4fac3709547e03/fieldedge-utilities-0.9.5.tar.gz
+[2023-05-04 18:46:27] INFO root fetch - main [MainThread]: End processing [axdd-person-client]: success
+[2023-05-04 18:46:27] INFO root fetch - processPackages [fieldedge-utilities]: executing diffoscope
+[2023-05-04 18:46:27] INFO root fetch - processPackages [fieldedge-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fieldedge-utilities-0.9.4.tar.gz tmp/fieldedge-utilities-0.9.5.tar.gz --markdown 20230504/f/fieldedge-utilities/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-04 18:46:27] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
+[2023-05-04 18:46:27] INFO root fetch - main [MainThread]: End processing [frazzle]: success
+[2023-05-04 18:46:27] INFO root fetch - main [MainThread]: End processing [network-analysis]: success
+[2023-05-04 18:46:28] INFO root fetch - main [MainThread]: End processing [caep]: success
+[2023-05-04 18:46:28] INFO root fetch - main [MainThread]: End processing [torch-conduit]: success
+[2023-05-04 18:46:28] INFO root fetch - main [MainThread]: End processing [fieldedge-utilities]: success
+[2023-05-04 18:46:29] INFO root fetch - main [MainThread]: End processing [anylabeling]: success
+[2023-05-04 18:47:34] INFO root fetch - main [MainThread]: End processing [openxes-cli-py]: success
+[2023-05-04 18:47:34] INFO root fetch - main [MainThread]: Store serial: [17975027]
