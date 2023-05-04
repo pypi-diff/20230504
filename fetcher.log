@@ -20316,3 +20316,106 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 18:54:03] INFO root fetch - main [MainThread]: End processing [rfrenchseti-cspyce]: success
 [2023-05-04 18:54:05] INFO root fetch - main [MainThread]: End processing [rfrenchseti-cspyce]: success
 [2023-05-04 18:54:05] INFO root fetch - main [MainThread]: Store serial: [17975095]
+[2023-05-04 18:59:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17975095]
+[2023-05-04 18:59:18] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-04 18:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sphinx-api-sidebar
+[2023-05-04 18:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: not1mm
+[2023-05-04 18:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: for-django-projects
+[2023-05-04 18:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: capsulecorp
+[2023-05-04 18:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napatrackmater
+[2023-05-04 18:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: better-python-lists
+[2023-05-04 18:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autora
+[2023-05-04 18:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mikro
+[2023-05-04 18:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sbioapputils
+[2023-05-04 18:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anylabeling
+[2023-05-04 18:59:18] WARNING root fetch - processPackages [for-django-projects]: Skipping, unable to determine old version
+[2023-05-04 18:59:18] INFO root fetch - processPackages [for-django-projects]: Start processing: redis-elastic
+[2023-05-04 18:59:18] INFO root fetch - main [MainThread]: End processing [for-django-projects] error
+[2023-05-04 18:59:18] INFO root fetch - processPackages [napatrackmater]: New version: [3.5.0] Old Version: [3.4.9]
+[2023-05-04 18:59:18] INFO root fetch - processPackages [not1mm]: New version: [23.5.4] Old Version: [23.5.1.1]
+[2023-05-04 18:59:18] WARNING root fetch - processPackages [sphinx-api-sidebar]: Skipping, unable to determine old version
+[2023-05-04 18:59:18] INFO root fetch - processPackages [sbioapputils]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-04 18:59:18] WARNING root fetch - processPackages [better-python-lists]: Skipping, unable to determine old version
+[2023-05-04 18:59:18] INFO root fetch - processPackages [sphinx-api-sidebar]: Start processing: vmware-nsxlib
+[2023-05-04 18:59:18] INFO root fetch - main [MainThread]: End processing [sphinx-api-sidebar] error
+[2023-05-04 18:59:18] INFO root fetch - processPackages [capsulecorp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 18:59:18] INFO root fetch - processPackages [better-python-lists]: Start processing: convert_markmonitor_domain_list_to_mozilla
+[2023-05-04 18:59:18] INFO root fetch - processPackages [anylabeling]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-04 18:59:18] INFO root fetch - processPackages [autora]: New version: [3.0.0a8] Old Version: [3.0.0a7]
+[2023-05-04 18:59:18] INFO root fetch - main [MainThread]: End processing [better-python-lists] error
+[2023-05-04 18:59:18] INFO root fetch - processPackages [redis-elastic]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-04 18:59:18] WARNING root fetch - processPackages [convert_markmonitor_domain_list_to_mozilla]: Skipping, unable to determine old version
+[2023-05-04 18:59:18] INFO root fetch - processPackages [convert_markmonitor_domain_list_to_mozilla]: Start processing: juriscraper
+[2023-05-04 18:59:18] INFO root fetch - main [MainThread]: End processing [convert_markmonitor_domain_list_to_mozilla] error
+[2023-05-04 18:59:18] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-04 18:59:18] INFO root fetch - processPackages [vmware-nsxlib]: New version: [19.3.1] Old Version: [19.3.0]
+[2023-05-04 18:59:19] INFO root fetch - processPackages [juriscraper]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-05-04 18:59:19] INFO root fetch - processPackages [capsulecorp]: executing diffoscope
+[2023-05-04 18:59:19] INFO root fetch - processPackages [capsulecorp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsulecorp-0.0.8.tar.gz tmp/capsulecorp-0.0.9.tar.gz --markdown 20230504/c/capsulecorp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 18:59:19] INFO root fetch - processPackages [anylabeling]: executing diffoscope
+[2023-05-04 18:59:19] INFO root fetch - processPackages [anylabeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylabeling-0.2.8.tar.gz tmp/anylabeling-0.2.9.tar.gz --markdown 20230504/a/anylabeling/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-04 18:59:19] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-05-04 18:59:19] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/bd/7b/e12ccc772c7ff10e8325c620d52b499a45c37bca4f854c7a30b467e3cd66/napatrackmater-3.4.9.tar.gz
+[2023-05-04 18:59:19] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.8.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230504/m/mikro/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-04 18:59:19] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/56/50/ce85aa02de1f3c96d5d74891a1e7216bdc774b1baad84b647fe568a4a67e/not1mm-23.5.1.1.tar.gz
+[2023-05-04 18:59:19] INFO root fetch - processPackages [redis-elastic]: Downloading https://files.pythonhosted.org/packages/c9/1a/ad749c5f2ce544dbb6edff2e00d1efcb5e6d6b065381283f41414dc2f86c/redis_elastic-0.3.3.tar.gz
+[2023-05-04 18:59:19] INFO root fetch - processPackages [vmware-nsxlib]: Downloading https://files.pythonhosted.org/packages/89/c6/f7d2c06a1282201ac7a0b715ce1eb121aabd5d512ed869f31a1966578130/vmware-nsxlib-19.3.0.tar.gz
+[2023-05-04 18:59:19] INFO root fetch - processPackages [autora]: Downloading https://files.pythonhosted.org/packages/22/f9/22c39dca9998f5664384a488ad9e1bb6b765b5ee2d6897bb8b6e85aa4a2e/autora-3.0.0a8.tar.gz
+[2023-05-04 18:59:19] INFO root fetch - processPackages [redis-elastic]: executing diffoscope
+[2023-05-04 18:59:19] INFO root fetch - processPackages [redis-elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_elastic-0.3.2.tar.gz tmp/redis_elastic-0.3.3.tar.gz --markdown 20230504/r/redis-elastic/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-04 18:59:19] INFO root fetch - processPackages [juriscraper]: Downloading https://files.pythonhosted.org/packages/06/e9/d9736ce605b0adb715a2da5d2f72437623aabd121bdcd4161eac596aa495/juriscraper-2.5.8.tar.gz
+[2023-05-04 18:59:19] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/7b/0f/0f36867d368ac0a0cfa6751ca01b8a250a8edd557c199bd3c6d2422f715e/napatrackmater-3.5.0.tar.gz
+[2023-05-04 18:59:19] INFO root fetch - processPackages [sbioapputils]: Downloading https://files.pythonhosted.org/packages/82/12/01539b66a2fa32822b02f738008851c3c6dd2c7a883fe08e650e59aac4a1/sbioapputils-1.0.5.tar.gz
+[2023-05-04 18:59:19] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-05-04 18:59:19] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.4.9.tar.gz tmp/napatrackmater-3.5.0.tar.gz --markdown 20230504/n/napatrackmater/3.4.9-3.5.0/diff.md --exclude *.pyd
+[2023-05-04 18:59:19] INFO root fetch - processPackages [autora]: executing diffoscope
+[2023-05-04 18:59:19] INFO root fetch - processPackages [autora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-3.0.0a7.tar.gz tmp/autora-3.0.0a8.tar.gz --markdown 20230504/a/autora/3.0.0a7-3.0.0a8/diff.md --exclude *.pyd
+[2023-05-04 18:59:19] INFO root fetch - processPackages [sbioapputils]: executing diffoscope
+[2023-05-04 18:59:19] INFO root fetch - processPackages [sbioapputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbioapputils-1.0.4.tar.gz tmp/sbioapputils-1.0.5.tar.gz --markdown 20230504/s/sbioapputils/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-04 18:59:19] INFO root fetch - processPackages [vmware-nsxlib]: Downloading https://files.pythonhosted.org/packages/83/60/ad4ceebc882c61b1660c935b73dccc2723fcc139e7b6de2c3df049a13a29/vmware-nsxlib-19.3.1.tar.gz
+[2023-05-04 18:59:19] INFO root fetch - processPackages [vmware-nsxlib]: executing diffoscope
+[2023-05-04 18:59:19] INFO root fetch - processPackages [vmware-nsxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmware-nsxlib-19.3.0.tar.gz tmp/vmware-nsxlib-19.3.1.tar.gz --markdown 20230504/v/vmware-nsxlib/19.3.0-19.3.1/diff.md --exclude *.pyd
+[2023-05-04 18:59:19] INFO root fetch - processPackages [juriscraper]: Downloading https://files.pythonhosted.org/packages/5f/25/693a53a8b0f40a035585409fb51a372b6f0292d864d13a6feac4974db145/juriscraper-2.5.9.tar.gz
+[2023-05-04 18:59:19] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/5a/af/66bc21e92d37d6e03bb044a672ea3daee68bea3cd52ff3fd061e1a198de4/not1mm-23.5.4.tar.gz
+[2023-05-04 18:59:19] INFO root fetch - processPackages [juriscraper]: executing diffoscope
+[2023-05-04 18:59:19] INFO root fetch - processPackages [juriscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juriscraper-2.5.8.tar.gz tmp/juriscraper-2.5.9.tar.gz --markdown 20230504/j/juriscraper/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-05-04 18:59:19] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-05-04 18:59:19] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.5.1.1.tar.gz tmp/not1mm-23.5.4.tar.gz --markdown 20230504/n/not1mm/23.5.1.1-23.5.4/diff.md --exclude *.pyd
+[2023-05-04 18:59:20] INFO root fetch - processPackages [capsulecorp]: Start processing: arkitekt
+[2023-05-04 18:59:20] INFO root fetch - main [MainThread]: End processing [capsulecorp]: success
+[2023-05-04 18:59:20] INFO root fetch - processPackages [arkitekt]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-04 18:59:20] INFO root fetch - processPackages [redis-elastic]: Start processing: gradio
+[2023-05-04 18:59:20] INFO root fetch - main [MainThread]: End processing [redis-elastic]: success
+[2023-05-04 18:59:20] INFO root fetch - processPackages [gradio]: New version: [3.9.1] Old Version: [3.9]
+[2023-05-04 18:59:20] INFO root fetch - processPackages [sbioapputils]: Start processing: sqlalchemy-jdbc-generic
+[2023-05-04 18:59:20] INFO root fetch - main [MainThread]: End processing [sbioapputils]: success
+[2023-05-04 18:59:20] INFO root fetch - processPackages [gradio]: Downloading https://files.pythonhosted.org/packages/b2/2d/f8dc88b392cdaac54b5bf6b56af321211f705494f4a0b2a1589717c06ff5/gradio-3.9.tar.gz
+[2023-05-04 18:59:20] WARNING root fetch - processPackages [sqlalchemy-jdbc-generic]: Skipping, unable to determine old version
+[2023-05-04 18:59:20] INFO root fetch - processPackages [sqlalchemy-jdbc-generic]: Start processing: myNeuropsydia
+[2023-05-04 18:59:20] INFO root fetch - main [MainThread]: End processing [sqlalchemy-jdbc-generic] error
+[2023-05-04 18:59:20] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-05-04 18:59:20] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.98.tar.gz tmp/arkitekt-0.4.99.tar.gz --markdown 20230504/a/arkitekt/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-04 18:59:20] WARNING root fetch - processPackages [gradio]: Skipping package: exceeds size limit 12444246>=10485760
+[2023-05-04 18:59:20] INFO root fetch - processPackages [gradio]: Start processing: dash-extensions
+[2023-05-04 18:59:20] INFO root fetch - main [MainThread]: End processing [gradio] error
+[2023-05-04 18:59:20] INFO root fetch - processPackages [myNeuropsydia]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 18:59:20] INFO root fetch - processPackages [dash-extensions]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-05-04 18:59:20] INFO root fetch - processPackages [myNeuropsydia]: Downloading https://files.pythonhosted.org/packages/92/27/2e8158a480eb8ce10dce4f6a888a72028413e4d05eac56c5bc208ce8137e/myNeuropsydia-0.1.1.tar.gz
+[2023-05-04 18:59:20] INFO root fetch - main [MainThread]: End processing [autora]: success
+[2023-05-04 18:59:21] INFO root fetch - processPackages [dash-extensions]: Downloading https://files.pythonhosted.org/packages/1f/63/69d65c7c96da764f61655c16499ec69f9b9e87ca7e612d0bb00392783427/dash_extensions-1.0.0rc1.tar.gz
+[2023-05-04 18:59:21] INFO root fetch - processPackages [myNeuropsydia]: Downloading https://files.pythonhosted.org/packages/2d/a6/6381a4a0432fc789a92de3a6914ea9b882c964fe88d0af0b97d983dec203/myNeuropsydia-0.1.2.tar.gz
+[2023-05-04 18:59:21] INFO root fetch - processPackages [myNeuropsydia]: executing diffoscope
+[2023-05-04 18:59:21] INFO root fetch - processPackages [myNeuropsydia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myNeuropsydia-0.1.1.tar.gz tmp/myNeuropsydia-0.1.2.tar.gz --markdown 20230504/m/myNeuropsydia/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 18:59:21] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-05-04 18:59:21] INFO root fetch - main [MainThread]: End processing [mikro]: success
+[2023-05-04 18:59:21] INFO root fetch - main [MainThread]: End processing [vmware-nsxlib]: success
+[2023-05-04 18:59:21] INFO root fetch - processPackages [dash-extensions]: Downloading https://files.pythonhosted.org/packages/61/0d/c2248ab3a3e479093039b3f8d7c763b787cffc4cebae841a105756b7ea82/dash_extensions-1.0.0rc2.tar.gz
+[2023-05-04 18:59:21] INFO root fetch - processPackages [dash-extensions]: executing diffoscope
+[2023-05-04 18:59:21] INFO root fetch - processPackages [dash-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_extensions-1.0.0rc1.tar.gz tmp/dash_extensions-1.0.0rc2.tar.gz --markdown 20230504/d/dash-extensions/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-05-04 18:59:22] INFO root fetch - main [MainThread]: End processing [myNeuropsydia]: success
+[2023-05-04 18:59:22] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-05-04 18:59:23] INFO root fetch - main [MainThread]: End processing [juriscraper]: success
+[2023-05-04 18:59:23] INFO root fetch - main [MainThread]: End processing [anylabeling]: success
+[2023-05-04 18:59:25] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-05-04 18:59:26] INFO root fetch - main [MainThread]: End processing [dash-extensions]: success
+[2023-05-04 18:59:26] INFO root fetch - main [MainThread]: Store serial: [17975164]
