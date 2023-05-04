@@ -11547,3 +11547,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 11:17:32] INFO root fetch - main [MainThread]: End processing [uk-gov-dash-components]: success
 [2023-05-04 11:17:43] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-04 11:17:43] INFO root fetch - main [MainThread]: Store serial: [17969831]
+[2023-05-04 11:22:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17969831]
+[2023-05-04 11:22:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-04 11:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MMEdu
+[2023-05-04 11:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lmo
+[2023-05-04 11:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edwh-migrate
+[2023-05-04 11:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsaugmentation
+[2023-05-04 11:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tbp-nightly
+[2023-05-04 11:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botanix
+[2023-05-04 11:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: auto-retrieval-plugin
+[2023-05-04 11:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-05-04 11:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-05-04 11:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lumigo-tracer
+[2023-05-04 11:22:52] INFO root fetch - processPackages [edwh-migrate]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-04 11:22:52] INFO root fetch - processPackages [lmo]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-04 11:22:52] INFO root fetch - processPackages [MMEdu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 11:22:52] WARNING root fetch - processPackages [auto-retrieval-plugin]: Skipping, unable to determine old version
+[2023-05-04 11:22:52] INFO root fetch - main [MainThread]: End processing [auto-retrieval-plugin] error
+[2023-05-04 11:22:52] INFO root fetch - processPackages [tsaugmentation]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-04 11:22:52] INFO root fetch - processPackages [botanix]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-04 11:22:52] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-05-04 11:22:52] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-04 11:22:52] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-04 11:22:52] INFO root fetch - processPackages [edwh-migrate]: Downloading https://files.pythonhosted.org/packages/8e/5d/8d6c9c78b10624ee9c0f835b869427855b2a01d4919b261ac51f787e618b/edwh_migrate-0.2.0.tar.gz
+[2023-05-04 11:22:52] INFO root fetch - processPackages [lumigo-tracer]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-04 11:22:52] INFO root fetch - processPackages [MMEdu]: Downloading https://files.pythonhosted.org/packages/ab/1e/588ba9856221eb0f1fdb52ad1f4ec1112510c4d8806e8ce3fe35dc706347/MMEdu-0.1.8.tar.gz
+[2023-05-04 11:22:52] INFO root fetch - processPackages [lmo]: Downloading https://files.pythonhosted.org/packages/a3/9b/03da090e41daac3415386aee201dce70f46b551e0900fabd567cf2a46d29/lmo-0.1.0.tar.gz
+[2023-05-04 11:22:52] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-05-04 11:22:52] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230504/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-05-04 11:22:52] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-04 11:22:52] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230504/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-04 11:22:52] INFO root fetch - processPackages [tsaugmentation]: executing diffoscope
+[2023-05-04 11:22:52] INFO root fetch - processPackages [tsaugmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsaugmentation-0.5.8.tar.gz tmp/tsaugmentation-0.5.9.tar.gz --markdown 20230504/t/tsaugmentation/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-04 11:22:52] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-04 11:22:52] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230504/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-04 11:22:52] INFO root fetch - processPackages [botanix]: Downloading https://files.pythonhosted.org/packages/18/eb/d6ffddeb1a5cde04d16b5ef8617cbb05cd11a91228e35ca0ccd797d40355/botanix-0.2.3.tar.gz
+[2023-05-04 11:22:53] INFO root fetch - processPackages [lumigo-tracer]: Downloading https://files.pythonhosted.org/packages/dd/ef/fbba7a946946680f2f99ab0d2aa9d13aa14919c5e1cb645488afbb0767b8/lumigo_tracer-1.1.98-py3-none-any.whl
+[2023-05-04 11:22:53] INFO root fetch - processPackages [lmo]: Downloading https://files.pythonhosted.org/packages/e8/1d/3beb42788b43253b51969f47c786d4f85c662e0b62895ba3728848b301b0/lmo-0.2.0.tar.gz
+[2023-05-04 11:22:53] INFO root fetch - processPackages [edwh-migrate]: Downloading https://files.pythonhosted.org/packages/67/0f/b4973a4a5b683aaaffb3fdebd514aaed5cfb97dcec66f8d51c144d680b72/edwh_migrate-0.3.0.tar.gz
+[2023-05-04 11:22:53] INFO root fetch - processPackages [botanix]: executing diffoscope
+[2023-05-04 11:22:53] INFO root fetch - processPackages [botanix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botanix-0.2.2.tar.gz tmp/botanix-0.2.3.tar.gz --markdown 20230504/b/botanix/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-04 11:22:53] INFO root fetch - processPackages [lmo]: executing diffoscope
+[2023-05-04 11:22:53] INFO root fetch - processPackages [lmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmo-0.1.0.tar.gz tmp/lmo-0.2.0.tar.gz --markdown 20230504/l/lmo/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-04 11:22:53] INFO root fetch - processPackages [edwh-migrate]: executing diffoscope
+[2023-05-04 11:22:53] INFO root fetch - processPackages [edwh-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_migrate-0.2.0.tar.gz tmp/edwh_migrate-0.3.0.tar.gz --markdown 20230504/e/edwh-migrate/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-04 11:22:53] INFO root fetch - processPackages [MMEdu]: Downloading https://files.pythonhosted.org/packages/47/39/353c28206b6bb14419b0637ed054cdda8882895e90995b407e8ac6891b0e/MMEdu-0.1.9.tar.gz
+[2023-05-04 11:22:53] INFO root fetch - processPackages [lumigo-tracer]: Downloading https://files.pythonhosted.org/packages/45/61/9eb6225f0ca75858f699d8748b94dc6354527f49d9d9b609f70404bf5b44/lumigo_tracer-1.1.99-py3-none-any.whl
+[2023-05-04 11:22:53] INFO root fetch - processPackages [MMEdu]: executing diffoscope
+[2023-05-04 11:22:53] INFO root fetch - processPackages [MMEdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MMEdu-0.1.8.tar.gz tmp/MMEdu-0.1.9.tar.gz --markdown 20230504/M/MMEdu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 11:22:53] INFO root fetch - processPackages [lumigo-tracer]: executing diffoscope
+[2023-05-04 11:22:53] INFO root fetch - processPackages [lumigo-tracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_tracer-1.1.98-py3-none-any.whl.zip tmp/lumigo_tracer-1.1.99-py3-none-any.whl.zip --markdown 20230504/l/lumigo-tracer/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-04 11:22:54] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-04 11:22:54] INFO root fetch - main [MainThread]: End processing [lmo]: success
+[2023-05-04 11:22:54] INFO root fetch - main [MainThread]: End processing [edwh-migrate]: success
+[2023-05-04 11:22:54] INFO root fetch - main [MainThread]: End processing [botanix]: success
+[2023-05-04 11:22:54] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-04 11:22:54] INFO root fetch - main [MainThread]: End processing [tsaugmentation]: success
+[2023-05-04 11:22:54] INFO root fetch - main [MainThread]: End processing [lumigo-tracer]: success
+[2023-05-04 11:22:55] INFO root fetch - main [MainThread]: End processing [MMEdu]: success
+[2023-05-04 11:22:57] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-05-04 11:22:57] INFO root fetch - main [MainThread]: Store serial: [17969861]
