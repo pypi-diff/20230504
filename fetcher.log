@@ -15100,3 +15100,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 14:29:05] INFO root fetch - main [MainThread]: End processing [visualdl]: success
 [2023-05-04 14:29:10] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-05-04 14:29:10] INFO root fetch - main [MainThread]: Store serial: [17972017]
+[2023-05-04 14:34:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17972017]
+[2023-05-04 14:34:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-04 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: primestg
+[2023-05-04 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gptdeploy
+[2023-05-04 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: x21
+[2023-05-04 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-05-04 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Hashhound
+[2023-05-04 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DL-ANN-pkg-VaibhavJoshi95
+[2023-05-04 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: annotation-tool
+[2023-05-04 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OWR
+[2023-05-04 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: EverLoguru
+[2023-05-04 14:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arubomber
+[2023-05-04 14:34:20] INFO root fetch - processPackages [DL-ANN-pkg-VaibhavJoshi95]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-04 14:34:20] INFO root fetch - processPackages [OWR]: New version: [2.4] Old Version: [2.3]
+[2023-05-04 14:34:20] INFO root fetch - processPackages [Hashhound]: New version: [0.4] Old Version: [0.3]
+[2023-05-04 14:34:20] INFO root fetch - processPackages [primestg]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-04 14:34:20] INFO root fetch - processPackages [annotation-tool]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-04 14:34:20] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-05-04 14:34:20] INFO root fetch - processPackages [x21]: New version: [0.4.9] Old Version: [0.4.6]
+[2023-05-04 14:34:20] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-04 14:34:20] INFO root fetch - processPackages [arubomber]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-05-04 14:34:20] INFO root fetch - processPackages [EverLoguru]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-04 14:34:20] INFO root fetch - processPackages [DL-ANN-pkg-VaibhavJoshi95]: Downloading https://files.pythonhosted.org/packages/c2/3c/98a80702f0946dbca5087e462780ca074a8e9554e5b5ba0f37c4d629c621/DL-ANN_pkg-VaibhavJoshi95-0.0.2.tar.gz
+[2023-05-04 14:34:20] INFO root fetch - processPackages [OWR]: executing diffoscope
+[2023-05-04 14:34:20] INFO root fetch - processPackages [OWR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OWR-2.3.tar.gz tmp/OWR-2.4.tar.gz --markdown 20230504/O/OWR/2.3-2.4/diff.md --exclude *.pyd
+[2023-05-04 14:34:20] INFO root fetch - processPackages [Hashhound]: Downloading https://files.pythonhosted.org/packages/85/f7/bbf830a62427c41b856a090011653918326b35e6dadca49b83d3e12093d5/Hashhound-0.3.tar.gz
+[2023-05-04 14:34:20] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-04 14:34:20] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230504/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-04 14:34:20] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-05-04 14:34:20] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230504/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-05-04 14:34:20] INFO root fetch - processPackages [annotation-tool]: Downloading https://files.pythonhosted.org/packages/5f/b3/86ec5baad808ebcff1e81ba9c9e41b40fcf67ebc41d1db432434b5fc5727/annotation_tool-0.8.2.tar.gz
+[2023-05-04 14:34:20] INFO root fetch - processPackages [x21]: Downloading https://files.pythonhosted.org/packages/6e/33/7090126440e92e2441d66dcd6b628faab210ffcbef3dc19654ae524483b5/x21-0.4.6-cp39-cp39-win_amd64.whl
+[2023-05-04 14:34:20] INFO root fetch - processPackages [primestg]: Downloading https://files.pythonhosted.org/packages/f5/06/6b4f53d32ba3629a273be0af7836c915bdb0912d3c097dc7cd3a20cdc3dd/primestg-1.8.0.tar.gz
+[2023-05-04 14:34:20] INFO root fetch - processPackages [EverLoguru]: Downloading https://files.pythonhosted.org/packages/3d/9b/1db92d25dd1791861d3c89066f9ee4a3dbebca35d6ed2327f8841630899f/EverLoguru-1.1.5.tar.gz
+[2023-05-04 14:34:20] INFO root fetch - processPackages [arubomber]: Downloading https://files.pythonhosted.org/packages/78/01/b1105142102ba30035187b38f1767459f4228a84c7d0bf254f1039526a7d/arubomber-2.1.6.tar.gz
+[2023-05-04 14:34:20] INFO root fetch - processPackages [DL-ANN-pkg-VaibhavJoshi95]: Downloading https://files.pythonhosted.org/packages/87/ab/4cbf45736534b5b76db87493347a13921a2eb11fd5445e51b661cdac72d7/DL-ANN-pkg-VaibhavJoshi95-0.0.4.tar.gz
+[2023-05-04 14:34:20] INFO root fetch - processPackages [DL-ANN-pkg-VaibhavJoshi95]: executing diffoscope
+[2023-05-04 14:34:20] INFO root fetch - processPackages [DL-ANN-pkg-VaibhavJoshi95]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DL-ANN_pkg-VaibhavJoshi95-0.0.2.tar.gz tmp/DL-ANN-pkg-VaibhavJoshi95-0.0.4.tar.gz --markdown 20230504/D/DL-ANN-pkg-VaibhavJoshi95/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-04 14:34:20] INFO root fetch - processPackages [Hashhound]: Downloading https://files.pythonhosted.org/packages/ff/3b/582681e99f2c2015a3da061b035c11248ada80e2d1add464a76bf2a5e7ea/Hashhound-0.4.tar.gz
+[2023-05-04 14:34:20] INFO root fetch - processPackages [EverLoguru]: Downloading https://files.pythonhosted.org/packages/0f/dc/a0538b9ebca6caca7e2f12b2e114ee35f94dab6b27a0f0332922396a3671/EverLoguru-1.1.6.tar.gz
+[2023-05-04 14:34:20] INFO root fetch - processPackages [Hashhound]: executing diffoscope
+[2023-05-04 14:34:20] INFO root fetch - processPackages [Hashhound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hashhound-0.3.tar.gz tmp/Hashhound-0.4.tar.gz --markdown 20230504/H/Hashhound/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-04 14:34:20] INFO root fetch - processPackages [annotation-tool]: Downloading https://files.pythonhosted.org/packages/cd/38/da0283ad0dd9a4a16a7b62ca02ed9729dff2baa316b1e70dfbd2e22e1b5e/annotation_tool-0.8.3.tar.gz
+[2023-05-04 14:34:20] INFO root fetch - processPackages [annotation-tool]: executing diffoscope
+[2023-05-04 14:34:20] INFO root fetch - processPackages [annotation-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annotation_tool-0.8.2.tar.gz tmp/annotation_tool-0.8.3.tar.gz --markdown 20230504/a/annotation-tool/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-04 14:34:20] INFO root fetch - processPackages [primestg]: Downloading https://files.pythonhosted.org/packages/e1/c1/3ac2fc975d5839b72d7ba440abaee9c5d478970eecdfdc342dde30086daa/primestg-1.9.0.tar.gz
+[2023-05-04 14:34:20] INFO root fetch - processPackages [x21]: Downloading https://files.pythonhosted.org/packages/76/7d/a1a28bf03d4ddb450a0004e07be72fa1c9a883ac739bd0b0fce5509b5188/x21-0.4.9-cp39-cp39-win_amd64.whl
+[2023-05-04 14:34:20] INFO root fetch - processPackages [arubomber]: Downloading https://files.pythonhosted.org/packages/19/17/238c4f5202b19ff8b8b48f2efe702eb7146f48d93bd078ee004b0f48a425/arubomber-2.1.7.tar.gz
+[2023-05-04 14:34:20] INFO root fetch - processPackages [EverLoguru]: executing diffoscope
+[2023-05-04 14:34:20] INFO root fetch - processPackages [EverLoguru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EverLoguru-1.1.5.tar.gz tmp/EverLoguru-1.1.6.tar.gz --markdown 20230504/E/EverLoguru/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-04 14:34:20] INFO root fetch - processPackages [primestg]: executing diffoscope
+[2023-05-04 14:34:20] INFO root fetch - processPackages [primestg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primestg-1.8.0.tar.gz tmp/primestg-1.9.0.tar.gz --markdown 20230504/p/primestg/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-04 14:34:20] INFO root fetch - processPackages [arubomber]: executing diffoscope
+[2023-05-04 14:34:20] INFO root fetch - processPackages [arubomber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arubomber-2.1.6.tar.gz tmp/arubomber-2.1.7.tar.gz --markdown 20230504/a/arubomber/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-05-04 14:34:21] INFO root fetch - processPackages [x21]: executing diffoscope
+[2023-05-04 14:34:21] INFO root fetch - processPackages [x21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x21-0.4.6-cp39-cp39-win_amd64.whl.zip tmp/x21-0.4.9-cp39-cp39-win_amd64.whl.zip --markdown 20230504/x/x21/0.4.6-0.4.9/diff.md --exclude *.pyd
+[2023-05-04 14:34:21] INFO root fetch - processPackages [OWR]: Start processing: algokit-utils
+[2023-05-04 14:34:21] INFO root fetch - main [MainThread]: End processing [OWR]: success
+[2023-05-04 14:34:21] INFO root fetch - processPackages [algokit-utils]: New version: [1.1.1b1] Old Version: [1.1.1]
+[2023-05-04 14:34:21] INFO root fetch - processPackages [DL-ANN-pkg-VaibhavJoshi95]: Start processing: certora-cli-alpha-otakar-single-race-mode2
+[2023-05-04 14:34:21] INFO root fetch - main [MainThread]: End processing [DL-ANN-pkg-VaibhavJoshi95]: success
+[2023-05-04 14:34:21] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: New version: [20230504.9.59.715367] Old Version: [20230504.7.14.754863]
+[2023-05-04 14:34:21] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/e5/02/bd4cf74bdca8bfced13b371bd0a109ba6890a3d6e4969ca48bf64dceefb8/algokit_utils-1.1.1-py3-none-any.whl
+[2023-05-04 14:34:21] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Downloading https://files.pythonhosted.org/packages/22/00/47d381bfcfb8a2f0f0b571545e881ead0ece177e6a4d6e733008956433d4/certora-cli-alpha-otakar-single_race_mode2-20230504.7.14.754863.tar.gz
+[2023-05-04 14:34:21] INFO root fetch - main [MainThread]: End processing [Hashhound]: success
+[2023-05-04 14:34:21] WARNING root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Skipping package: exceeds size limit 38420702>=10485760
+[2023-05-04 14:34:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-otakar-single-race-mode2] error
+[2023-05-04 14:34:21] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-05-04 14:34:21] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.1.1-py3-none-any.whl.zip tmp/algokit_utils-1.1.1b1-py3-none-any.whl.zip --markdown 20230504/a/algokit-utils/1.1.1-1.1.1b1/diff.md --exclude *.pyd
+[2023-05-04 14:34:22] INFO root fetch - main [MainThread]: End processing [EverLoguru]: success
+[2023-05-04 14:34:22] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-05-04 14:34:22] INFO root fetch - main [MainThread]: End processing [x21]: success
+[2023-05-04 14:34:22] INFO root fetch - main [MainThread]: End processing [primestg]: success
+[2023-05-04 14:34:23] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-05-04 14:34:23] INFO root fetch - main [MainThread]: End processing [arubomber]: success
+[2023-05-04 14:34:23] INFO root fetch - main [MainThread]: End processing [annotation-tool]: success
+[2023-05-04 14:34:26] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-04 14:34:26] INFO root fetch - main [MainThread]: Store serial: [17972079]
