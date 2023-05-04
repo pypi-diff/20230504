@@ -6368,3 +6368,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 05:21:22] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vault]: success
 [2023-05-04 05:21:27] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-datadog]: success
 [2023-05-04 05:21:27] INFO root fetch - main [MainThread]: Store serial: [17966909]
+[2023-05-04 05:26:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966909]
+[2023-05-04 05:26:37] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-04 05:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloud-asset
+[2023-05-04 05:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-runtime
+[2023-05-04 05:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyobjectify
+[2023-05-04 05:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: base-system
+[2023-05-04 05:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ahk
+[2023-05-04 05:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: firemoth
+[2023-05-04 05:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aisdb
+[2023-05-04 05:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fc-client
+[2023-05-04 05:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fc-guarder
+[2023-05-04 05:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fc-server
+[2023-05-04 05:26:37] INFO root fetch - processPackages [mojo-runtime]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 05:26:37] INFO root fetch - processPackages [cloud-asset]: New version: [0.0.4.3] Old Version: [0.0.4.2]
+[2023-05-04 05:26:37] WARNING root fetch - processPackages [base-system]: Skipping, unable to determine old version
+[2023-05-04 05:26:37] INFO root fetch - processPackages [base-system]: Start processing: flygui
+[2023-05-04 05:26:37] INFO root fetch - main [MainThread]: End processing [base-system] error
+[2023-05-04 05:26:37] INFO root fetch - processPackages [ahk]: New version: [1.1.0rc2] Old Version: [1.1.0rc1]
+[2023-05-04 05:26:37] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/db/37/516fe709f86d258be0f5a778c40223cf5664bee23872366db528c38d1fa0/mojo_runtime-0.0.8.tar.gz
+[2023-05-04 05:26:37] INFO root fetch - processPackages [pyobjectify]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-05-04 05:26:37] WARNING root fetch - processPackages [firemoth]: Skipping, unable to determine old version
+[2023-05-04 05:26:37] INFO root fetch - processPackages [aisdb]: New version: [1.6.0] Old Version: [1.5.8]
+[2023-05-04 05:26:37] INFO root fetch - processPackages [firemoth]: Start processing: pypipr
+[2023-05-04 05:26:37] INFO root fetch - main [MainThread]: End processing [firemoth] error
+[2023-05-04 05:26:37] INFO root fetch - processPackages [fc-server]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-05-04 05:26:37] INFO root fetch - processPackages [fc-guarder]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-05-04 05:26:37] INFO root fetch - processPackages [fc-client]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-05-04 05:26:37] INFO root fetch - processPackages [ahk]: executing diffoscope
+[2023-05-04 05:26:37] INFO root fetch - processPackages [ahk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahk-1.1.0rc1.tar.gz tmp/ahk-1.1.0rc2.tar.gz --markdown 20230504/a/ahk/1.1.0rc1-1.1.0rc2/diff.md --exclude *.pyd
+[2023-05-04 05:26:37] WARNING root fetch - processPackages [flygui]: Skipping, unable to determine old version
+[2023-05-04 05:26:37] INFO root fetch - processPackages [flygui]: Start processing: konfuzio-sdk
+[2023-05-04 05:26:37] INFO root fetch - main [MainThread]: End processing [flygui] error
+[2023-05-04 05:26:37] INFO root fetch - processPackages [cloud-asset]: Downloading https://files.pythonhosted.org/packages/3f/8a/931b554ded1b8597b7bad636f0e6c421103775eb908a72fe6dadb4816f6a/cloud_asset-0.0.4.2-py3-none-any.whl
+[2023-05-04 05:26:37] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-05-04 05:26:37] INFO root fetch - processPackages [pypipr]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 05:26:37] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-05-04 05:26:37] INFO root fetch - processPackages [pyobjectify]: Downloading https://files.pythonhosted.org/packages/46/32/f47a0488c10e209207d50728af9fff6d6ce33ebb731e7da90571bfba4f46/pyobjectify-0.1.1.tar.gz
+[2023-05-04 05:26:37] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/01/a6/585a2c7f79b275fe281946b36941136d6e09296a144056c0b4a78c26b94d/mojo_runtime-0.0.9.tar.gz
+[2023-05-04 05:26:37] INFO root fetch - processPackages [fc-client]: Downloading https://files.pythonhosted.org/packages/00/81/05233447eeb5914f84f7bb76759d6baf2c852751d78dc7bf65a233284de2/fc-client-0.4.3.tar.gz
+[2023-05-04 05:26:37] INFO root fetch - processPackages [fc-guarder]: Downloading https://files.pythonhosted.org/packages/c3/6c/b4746d317a3a09777623e2dc02f5a5bdbb24bd2368d29a8e523cbc9dbbe5/fc-guarder-0.4.3.tar.gz
+[2023-05-04 05:26:37] INFO root fetch - processPackages [aisdb]: Downloading https://files.pythonhosted.org/packages/b7/a0/18b0e81e048dac848813b91a4613ac05f95cada75a395b1940e5ca7d43fd/aisdb-1.5.8-cp39-none-win_amd64.whl
+[2023-05-04 05:26:37] INFO root fetch - processPackages [fc-server]: Downloading https://files.pythonhosted.org/packages/37/48/373e57501928064272871a9e4566e61319069ac2ec508a06cc99c6ef866a/fc-server-0.4.3.tar.gz
+[2023-05-04 05:26:37] INFO root fetch - processPackages [cloud-asset]: Downloading https://files.pythonhosted.org/packages/9e/8f/6b3d3cbeec1e4072bc365908bed9ac193a8076a1d2d7d923269a9da3691d/cloud-asset-0.0.4.3.tar.gz
+[2023-05-04 05:26:37] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/96/9a/b4e5b61d4b178d265ca556d4ebcb041539c485d12e29f84255fa171e2164/pypipr-0.1.8.tar.gz
+[2023-05-04 05:26:37] INFO root fetch - processPackages [cloud-asset]: executing diffoscope
+[2023-05-04 05:26:37] INFO root fetch - processPackages [cloud-asset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_asset-0.0.4.2-py3-none-any.whl.zip tmp/cloud-asset-0.0.4.3.tar.gz --markdown 20230504/c/cloud-asset/0.0.4.2-0.0.4.3/diff.md --exclude *.pyd
+[2023-05-04 05:26:37] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2023-05-04 05:26:37] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-0.0.8.tar.gz tmp/mojo_runtime-0.0.9.tar.gz --markdown 20230504/m/mojo-runtime/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 05:26:38] INFO root fetch - processPackages [pyobjectify]: Downloading https://files.pythonhosted.org/packages/66/73/989039914ee172d4574cec07af337a1b2d99ebf2f1e25312a86115af797d/pyobjectify-0.2.1.tar.gz
+[2023-05-04 05:26:38] INFO root fetch - processPackages [fc-guarder]: Downloading https://files.pythonhosted.org/packages/7b/5f/5620137c8363b0af2244ea58c1d1cbc49d6eab96021d30bfb63ec6080071/fc-guarder-0.5.0.tar.gz
+[2023-05-04 05:26:38] INFO root fetch - processPackages [fc-client]: Downloading https://files.pythonhosted.org/packages/c4/0d/2c1a7167b569be8fb164fa8f140ece39ece6a82b9d030c76884459abbce3/fc-client-0.5.0.tar.gz
+[2023-05-04 05:26:38] INFO root fetch - processPackages [pyobjectify]: executing diffoscope
+[2023-05-04 05:26:38] INFO root fetch - processPackages [pyobjectify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjectify-0.1.1.tar.gz tmp/pyobjectify-0.2.1.tar.gz --markdown 20230504/p/pyobjectify/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-05-04 05:26:38] INFO root fetch - processPackages [fc-server]: Downloading https://files.pythonhosted.org/packages/25/cf/43f7b46bea8a5d2ef72d6772b482b7ca00dc11426c6d511149dd29e6c373/fc-server-0.5.0.tar.gz
+[2023-05-04 05:26:38] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-05-04 05:26:38] INFO root fetch - processPackages [fc-guarder]: executing diffoscope
+[2023-05-04 05:26:38] INFO root fetch - processPackages [fc-guarder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-guarder-0.4.3.tar.gz tmp/fc-guarder-0.5.0.tar.gz --markdown 20230504/f/fc-guarder/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-05-04 05:26:38] INFO root fetch - processPackages [fc-client]: executing diffoscope
+[2023-05-04 05:26:38] INFO root fetch - processPackages [fc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-client-0.4.3.tar.gz tmp/fc-client-0.5.0.tar.gz --markdown 20230504/f/fc-client/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-05-04 05:26:38] INFO root fetch - processPackages [fc-server]: executing diffoscope
+[2023-05-04 05:26:38] INFO root fetch - processPackages [fc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-server-0.4.3.tar.gz tmp/fc-server-0.5.0.tar.gz --markdown 20230504/f/fc-server/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-05-04 05:26:38] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/32/cd/c83422ecc5ba1244068c6dfd0f5e7f794651ea68108be50ec4a3d8392b72/pypipr-0.1.9.tar.gz
+[2023-05-04 05:26:38] INFO root fetch - processPackages [aisdb]: Downloading https://files.pythonhosted.org/packages/d3/a3/529fd1c5c2e295268be58cca0054d66f2510557cd86c1373a07fedbfdb45/aisdb-1.6.0-cp39-none-win_amd64.whl
+[2023-05-04 05:26:38] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-05-04 05:26:38] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.8.tar.gz tmp/pypipr-0.1.9.tar.gz --markdown 20230504/p/pypipr/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 05:26:38] INFO root fetch - processPackages [aisdb]: executing diffoscope
+[2023-05-04 05:26:38] INFO root fetch - processPackages [aisdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aisdb-1.5.8-cp39-none-win_amd64.whl.zip tmp/aisdb-1.6.0-cp39-none-win_amd64.whl.zip --markdown 20230504/a/aisdb/1.5.8-1.6.0/diff.md --exclude *.pyd
+[2023-05-04 05:26:38] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-05-04 05:26:38] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230504/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-05-04 05:26:39] INFO root fetch - processPackages [ahk]: Start processing: griseo
+[2023-05-04 05:26:39] INFO root fetch - main [MainThread]: End processing [ahk]: success
+[2023-05-04 05:26:39] INFO root fetch - processPackages [griseo]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-04 05:26:39] INFO root fetch - main [MainThread]: End processing [cloud-asset]: success
+[2023-05-04 05:26:39] INFO root fetch - processPackages [griseo]: Downloading https://files.pythonhosted.org/packages/4b/15/f11c52c8e432ac89ffbe9dc5a7ce8b766721a54032901240baa82b985877/griseo-0.8.0.tar.gz
+[2023-05-04 05:26:39] INFO root fetch - main [MainThread]: End processing [fc-guarder]: success
+[2023-05-04 05:26:39] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2023-05-04 05:26:39] INFO root fetch - processPackages [griseo]: Downloading https://files.pythonhosted.org/packages/0c/4c/8b341707a6a364d57be3d2cd9287385a06f00d6af645eab16d55bbeca4a3/griseo-0.9.0.tar.gz
+[2023-05-04 05:26:39] INFO root fetch - main [MainThread]: End processing [fc-client]: success
+[2023-05-04 05:26:39] INFO root fetch - main [MainThread]: End processing [fc-server]: success
+[2023-05-04 05:26:39] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-05-04 05:26:39] INFO root fetch - processPackages [griseo]: executing diffoscope
+[2023-05-04 05:26:39] INFO root fetch - processPackages [griseo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griseo-0.8.0.tar.gz tmp/griseo-0.9.0.tar.gz --markdown 20230504/g/griseo/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 05:26:40] INFO root fetch - main [MainThread]: End processing [pyobjectify]: success
+[2023-05-04 05:26:40] INFO root fetch - main [MainThread]: End processing [aisdb]: success
+[2023-05-04 05:26:40] INFO root fetch - main [MainThread]: End processing [griseo]: success
+[2023-05-04 05:26:40] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-05-04 05:26:40] INFO root fetch - main [MainThread]: Store serial: [17966959]
