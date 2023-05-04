@@ -7025,3 +7025,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 06:04:04] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.11.53.35.tar.gz tmp/ChatLLM-2023.5.4.11.58.59.tar.gz --markdown 20230504/C/ChatLLM/2023.5.4.11.53.35-2023.5.4.11.58.59/diff.md --exclude *.pyd
 [2023-05-04 06:04:07] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-05-04 06:04:07] INFO root fetch - main [MainThread]: Store serial: [17967278]
+[2023-05-04 06:09:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967278]
+[2023-05-04 06:09:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-04 06:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-website-sale-checkout-skip-payment
+[2023-05-04 06:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-website-sale-checkout-skip-payment
+[2023-05-04 06:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skill-easter-eggs
+[2023-05-04 06:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ChatLLM
+[2023-05-04 06:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coshell
+[2023-05-04 06:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MeUtils
+[2023-05-04 06:09:16] INFO root fetch - processPackages [odoo14-addon-website-sale-checkout-skip-payment]: New version: [14.0.1.2.1.dev2] Old Version: [14.0.1.2.0]
+[2023-05-04 06:09:16] INFO root fetch - processPackages [odoo-addon-website-sale-checkout-skip-payment]: New version: [15.0.1.2.0.2] Old Version: [15.0.1.2.0]
+[2023-05-04 06:09:16] INFO root fetch - processPackages [coshell]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 06:09:16] WARNING root fetch - processPackages [skill-easter-eggs]: Skipping, unable to determine old version
+[2023-05-04 06:09:16] INFO root fetch - main [MainThread]: End processing [skill-easter-eggs] error
+[2023-05-04 06:09:16] INFO root fetch - processPackages [ChatLLM]: New version: [2023.5.4.12.7.23] Old Version: [2023.5.4.11.58.59]
+[2023-05-04 06:09:16] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.4.9.19.24] Old Version: [2023.5.4.10.57.11]
+[2023-05-04 06:09:16] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-04 06:09:16] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.4.10.57.11.tar.gz tmp/MeUtils-2023.5.4.9.19.24.tar.gz --markdown 20230504/M/MeUtils/2023.5.4.10.57.11-2023.5.4.9.19.24/diff.md --exclude *.pyd
+[2023-05-04 06:09:16] INFO root fetch - processPackages [coshell]: Downloading https://files.pythonhosted.org/packages/89/e5/2c7109d58758d8fcc4d7900814ef060ef60f7e3e37b340d008c24501543c/coshell-0.1.0.tar.gz
+[2023-05-04 06:09:16] INFO root fetch - processPackages [odoo-addon-website-sale-checkout-skip-payment]: Downloading https://files.pythonhosted.org/packages/0f/ac/dd6738b03f936d68f4cd0c2f5d493e70ac64340cf69b6e580504e9ac5417/odoo_addon_website_sale_checkout_skip_payment-15.0.1.2.0-py3-none-any.whl
+[2023-05-04 06:09:16] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/2f/20/c9d8c5c3c71419885cd5267c90f673374f91b0ad413f7bf055104f81bfc2/ChatLLM-2023.5.4.12.7.23.tar.gz
+[2023-05-04 06:09:16] INFO root fetch - processPackages [odoo14-addon-website-sale-checkout-skip-payment]: Downloading https://files.pythonhosted.org/packages/7b/c4/68de3cd51b5771afa078840722ab689863aa2ac892a4d929a7187fd90935/odoo14_addon_website_sale_checkout_skip_payment-14.0.1.2.0-py3-none-any.whl
+[2023-05-04 06:09:16] INFO root fetch - processPackages [coshell]: Downloading https://files.pythonhosted.org/packages/0c/75/448949857c367b06269f8cf0c8267f2d51391f92026391fe157f6fa9a787/coshell-0.1.1.tar.gz
+[2023-05-04 06:09:16] INFO root fetch - processPackages [odoo14-addon-website-sale-checkout-skip-payment]: Downloading https://files.pythonhosted.org/packages/45/2d/3eb7968e2ee1a04a552913e0848ef56f342764d7479ce5409538818d3366/odoo14_addon_website_sale_checkout_skip_payment-14.0.1.2.1.dev2-py3-none-any.whl
+[2023-05-04 06:09:16] INFO root fetch - processPackages [odoo-addon-website-sale-checkout-skip-payment]: Downloading https://files.pythonhosted.org/packages/6b/c2/77de3964b95f4dfd1d506987016becc449a0c295402544be7fbbce7e8aff/odoo_addon_website_sale_checkout_skip_payment-15.0.1.2.0.2-py3-none-any.whl
+[2023-05-04 06:09:17] INFO root fetch - processPackages [coshell]: executing diffoscope
+[2023-05-04 06:09:17] INFO root fetch - processPackages [coshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coshell-0.1.0.tar.gz tmp/coshell-0.1.1.tar.gz --markdown 20230504/c/coshell/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 06:09:17] INFO root fetch - processPackages [odoo-addon-website-sale-checkout-skip-payment]: executing diffoscope
+[2023-05-04 06:09:17] INFO root fetch - processPackages [odoo-addon-website-sale-checkout-skip-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_checkout_skip_payment-15.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_website_sale_checkout_skip_payment-15.0.1.2.0.2-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-website-sale-checkout-skip-payment/15.0.1.2.0-15.0.1.2.0.2/diff.md --exclude *.pyd
+[2023-05-04 06:09:17] INFO root fetch - processPackages [odoo14-addon-website-sale-checkout-skip-payment]: executing diffoscope
+[2023-05-04 06:09:17] INFO root fetch - processPackages [odoo14-addon-website-sale-checkout-skip-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_website_sale_checkout_skip_payment-14.0.1.2.0-py3-none-any.whl.zip tmp/odoo14_addon_website_sale_checkout_skip_payment-14.0.1.2.1.dev2-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addon-website-sale-checkout-skip-payment/14.0.1.2.0-14.0.1.2.1.dev2/diff.md --exclude *.pyd
+[2023-05-04 06:09:17] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-05-04 06:09:17] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.11.58.59.tar.gz tmp/ChatLLM-2023.5.4.12.7.23.tar.gz --markdown 20230504/C/ChatLLM/2023.5.4.11.58.59-2023.5.4.12.7.23/diff.md --exclude *.pyd
+[2023-05-04 06:09:18] INFO root fetch - main [MainThread]: End processing [coshell]: success
+[2023-05-04 06:09:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-website-sale-checkout-skip-payment]: success
+[2023-05-04 06:09:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-checkout-skip-payment]: success
+[2023-05-04 06:09:19] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-05-04 06:09:22] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-04 06:09:22] INFO root fetch - main [MainThread]: Store serial: [17967304]
