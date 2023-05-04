@@ -7939,3 +7939,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 07:36:42] INFO root fetch - main [MainThread]: End processing [wiserep-api]: success
 [2023-05-04 07:36:42] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
 [2023-05-04 07:36:42] INFO root fetch - main [MainThread]: Store serial: [17967733]
+[2023-05-04 07:41:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967733]
+[2023-05-04 07:41:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-04 07:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MDbrew
+[2023-05-04 07:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Red-DiscordBot
+[2023-05-04 07:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dagknows
+[2023-05-04 07:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sds011lib
+[2023-05-04 07:41:51] WARNING root fetch - processPackages [sds011lib]: Skipping, unable to determine old version
+[2023-05-04 07:41:51] INFO root fetch - main [MainThread]: End processing [sds011lib] error
+[2023-05-04 07:41:51] INFO root fetch - processPackages [dagknows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 07:41:51] INFO root fetch - processPackages [Red-DiscordBot]: New version: [3.5.0] Old Version: [3.4.9]
+[2023-05-04 07:41:51] INFO root fetch - processPackages [MDbrew]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-05-04 07:41:51] INFO root fetch - processPackages [dagknows]: executing diffoscope
+[2023-05-04 07:41:51] INFO root fetch - processPackages [dagknows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagknows-0.0.8-py3-none-any.whl.zip tmp/dagknows-0.0.9-py3-none-any.whl.zip --markdown 20230504/d/dagknows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 07:41:51] INFO root fetch - processPackages [MDbrew]: Downloading https://files.pythonhosted.org/packages/48/3a/6f62f273c98e3e7b1898b5b9093efb336d0a7d1c27d2558453bf16d8fbef/MDbrew-2.2.5.tar.gz
+[2023-05-04 07:41:51] INFO root fetch - processPackages [Red-DiscordBot]: Downloading https://files.pythonhosted.org/packages/07/c3/098dd185bc5276d01810b003a0d10698bc2dbd077e6310d082abba4066c3/Red-DiscordBot-3.4.9.tar.gz
+[2023-05-04 07:41:51] INFO root fetch - processPackages [MDbrew]: executing diffoscope
+[2023-05-04 07:41:51] INFO root fetch - processPackages [MDbrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MDbrew-2.2.4.tar.gz tmp/MDbrew-2.2.5.tar.gz --markdown 20230504/M/MDbrew/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-05-04 07:41:52] INFO root fetch - main [MainThread]: End processing [dagknows]: success
+[2023-05-04 07:41:52] INFO root fetch - processPackages [Red-DiscordBot]: Downloading https://files.pythonhosted.org/packages/f4/e2/ec68126f98f52a49e979f88f9fd5812688ae175e0aebf8adac74bd2122eb/Red-DiscordBot-3.5.0.tar.gz
+[2023-05-04 07:41:52] INFO root fetch - main [MainThread]: End processing [MDbrew]: success
+[2023-05-04 07:41:53] INFO root fetch - processPackages [Red-DiscordBot]: executing diffoscope
+[2023-05-04 07:41:53] INFO root fetch - processPackages [Red-DiscordBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Red-DiscordBot-3.4.9.tar.gz tmp/Red-DiscordBot-3.5.0.tar.gz --markdown 20230504/R/Red-DiscordBot/3.4.9-3.5.0/diff.md --exclude *.pyd
+[2023-05-04 07:43:00] INFO root fetch - main [MainThread]: End processing [Red-DiscordBot]: success
+[2023-05-04 07:43:00] INFO root fetch - main [MainThread]: Store serial: [17967746]
