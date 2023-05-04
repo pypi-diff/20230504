@@ -12064,3 +12064,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 11:44:07] INFO root fetch - main [MainThread]: End processing [redis]: success
 [2023-05-04 11:44:08] INFO root fetch - main [MainThread]: End processing [wcferry]: success
 [2023-05-04 11:44:08] INFO root fetch - main [MainThread]: Store serial: [17970164]
+[2023-05-04 11:49:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17970164]
+[2023-05-04 11:49:17] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-04 11:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-shelly-nicerresultstxt
+[2023-05-04 11:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipeline-toolkit-mad
+[2023-05-04 11:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytket-qsharp
+[2023-05-04 11:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipeline-csv
+[2023-05-04 11:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors
+[2023-05-04 11:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipeline-toolkit-predict
+[2023-05-04 11:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gotji
+[2023-05-04 11:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: questdb-connect
+[2023-05-04 11:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: common-task-system-client
+[2023-05-04 11:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: AegosPy
+[2023-05-04 11:49:17] WARNING root fetch - processPackages [questdb-connect]: Skipping, unable to determine old version
+[2023-05-04 11:49:17] INFO root fetch - processPackages [questdb-connect]: Start processing: bp-data-fabric
+[2023-05-04 11:49:17] INFO root fetch - main [MainThread]: End processing [questdb-connect] error
+[2023-05-04 11:49:17] INFO root fetch - processPackages [certora-cli-alpha-shelly-nicerresultstxt]: New version: [20230504.9.44.200099] Old Version: [20230503.20.58.383497]
+[2023-05-04 11:49:17] WARNING root fetch - processPackages [pipeline-toolkit-mad]: Skipping, unable to determine old version
+[2023-05-04 11:49:17] INFO root fetch - processPackages [pipeline-toolkit-mad]: Start processing: mo-logs
+[2023-05-04 11:49:17] INFO root fetch - main [MainThread]: End processing [pipeline-toolkit-mad] error
+[2023-05-04 11:49:17] INFO root fetch - processPackages [AegosPy]: New version: [0.5] Old Version: [0.4]
+[2023-05-04 11:49:17] INFO root fetch - processPackages [gotji]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-04 11:49:17] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors]: New version: [20230503.13.18.203397] Old Version: [20230503.12.18.178935]
+[2023-05-04 11:49:17] INFO root fetch - processPackages [bp-data-fabric]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-05-04 11:49:17] INFO root fetch - processPackages [gotji]: executing diffoscope
+[2023-05-04 11:49:17] INFO root fetch - processPackages [gotji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gotji-1.0.7.tar.gz tmp/gotji-1.0.8.tar.gz --markdown 20230504/g/gotji/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-04 11:49:17] WARNING root fetch - processPackages [pipeline-toolkit-predict]: Skipping, unable to determine old version
+[2023-05-04 11:49:17] INFO root fetch - processPackages [pipeline-toolkit-predict]: Start processing: fft-multiplication
+[2023-05-04 11:49:17] INFO root fetch - main [MainThread]: End processing [pipeline-toolkit-predict] error
+[2023-05-04 11:49:17] INFO root fetch - processPackages [pytket-qsharp]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-04 11:49:17] INFO root fetch - processPackages [pipeline-csv]: New version: [1.4] Old Version: [1.3]
+[2023-05-04 11:49:17] INFO root fetch - processPackages [common-task-system-client]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-04 11:49:17] INFO root fetch - processPackages [AegosPy]: executing diffoscope
+[2023-05-04 11:49:17] INFO root fetch - processPackages [AegosPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AegosPy-0.4.tar.gz tmp/AegosPy-0.5.tar.gz --markdown 20230504/A/AegosPy/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-04 11:49:17] INFO root fetch - processPackages [mo-logs]: New version: [7.4.21313] Old Version: [7.378.23124]
+[2023-05-04 11:49:17] INFO root fetch - processPackages [bp-data-fabric]: executing diffoscope
+[2023-05-04 11:49:17] INFO root fetch - processPackages [bp-data-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_fabric-1.0.0.tar.gz tmp/bp_data_fabric-1.0.2.tar.gz --markdown 20230504/b/bp-data-fabric/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-05-04 11:49:17] INFO root fetch - processPackages [certora-cli-alpha-shelly-nicerresultstxt]: Downloading https://files.pythonhosted.org/packages/a8/66/5d25a63aa4b3c728d1e25443e44a05e3ecd04b8a77e1ecf8c301e48ea6bf/certora-cli-alpha-shelly-nicerresultstxt-20230503.20.58.383497.tar.gz
+[2023-05-04 11:49:17] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors]: Downloading https://files.pythonhosted.org/packages/0d/d1/2dd51a1ad7dc1b965c45a612b1b6605806910e9d8bd762cd71a2b7f1a943/certora-cli-alpha-naftali-CERT-1936_multiple_envfree_errors-20230503.12.18.178935.tar.gz
+[2023-05-04 11:49:17] WARNING root fetch - processPackages [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors]: Skipping package: exceeds size limit 38371574>=10485760
+[2023-05-04 11:49:17] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors]: Start processing: numbers-c2pa
+[2023-05-04 11:49:17] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-CERT-1936-multiple-envfree-errors] error
+[2023-05-04 11:49:17] WARNING root fetch - processPackages [fft-multiplication]: Skipping, unable to determine old version
+[2023-05-04 11:49:17] INFO root fetch - processPackages [fft-multiplication]: Start processing: luigi
+[2023-05-04 11:49:17] INFO root fetch - main [MainThread]: End processing [fft-multiplication] error
+[2023-05-04 11:49:17] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/86/b7/dc6865a56d6d1230842dbe19aca4a6d49d776e9e7b7a2e91e1e941837aa9/mo_logs-7.378.23124-py2.py3-none-any.whl
+[2023-05-04 11:49:17] WARNING root fetch - processPackages [certora-cli-alpha-shelly-nicerresultstxt]: Skipping package: exceeds size limit 38387482>=10485760
+[2023-05-04 11:49:17] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-nicerresultstxt] error
+[2023-05-04 11:49:17] INFO root fetch - processPackages [numbers-c2pa]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-04 11:49:17] INFO root fetch - processPackages [common-task-system-client]: Downloading https://files.pythonhosted.org/packages/5b/e9/8cadfc359a4fa98b1819c73abc4d092f4153889b90926c6d871998179bfa/common-task-system-client-1.1.1.tar.gz
+[2023-05-04 11:49:17] INFO root fetch - processPackages [pytket-qsharp]: Downloading https://files.pythonhosted.org/packages/77/4f/dcb6aedce60a85c69f0da1cf41cd3d83d3195fa6bb8e282e5e69d0cbe57f/pytket-qsharp-0.8.3.tar.gz
+[2023-05-04 11:49:17] INFO root fetch - processPackages [luigi]: New version: [3.3.0] Old Version: [3.2.1]
+[2023-05-04 11:49:17] INFO root fetch - processPackages [pipeline-csv]: Downloading https://files.pythonhosted.org/packages/2c/e6/d9d8db328b5aee84706dd7610dbe6dd1c7145f1cc7525dcc201e082029f0/pipeline_csv-1.3.tar.gz
+[2023-05-04 11:49:17] INFO root fetch - processPackages [luigi]: Downloading https://files.pythonhosted.org/packages/f8/8c/d8354945b6d181bc03ccb2c6b87d8e691b9c2fb6f08422b0c3ebf1fc63de/luigi-3.2.1.tar.gz
+[2023-05-04 11:49:17] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/0c/0a/90e0c43e163f6018467d4f5f3322697b7529b7eb8708da24aee5cee11d85/mo-logs-7.4.21313.tar.gz
+[2023-05-04 11:49:18] INFO root fetch - processPackages [common-task-system-client]: Downloading https://files.pythonhosted.org/packages/4e/d5/ae3002e908d0cce4ab8418a31b599eeaf1a995a60d818a651cfb2e73ff2f/common-task-system-client-1.1.2.tar.gz
+[2023-05-04 11:49:18] INFO root fetch - processPackages [mo-logs]: executing diffoscope
+[2023-05-04 11:49:18] INFO root fetch - processPackages [mo-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_logs-7.378.23124-py2.py3-none-any.whl.zip tmp/mo-logs-7.4.21313.tar.gz --markdown 20230504/m/mo-logs/7.378.23124-7.4.21313/diff.md --exclude *.pyd
+[2023-05-04 11:49:18] INFO root fetch - processPackages [luigi]: Downloading https://files.pythonhosted.org/packages/ff/d6/5ab618182bf71c803aa4bf4e61330f3ddb01c199577166eb423ee929ccaa/luigi-3.3.0.tar.gz
+[2023-05-04 11:49:18] INFO root fetch - processPackages [pytket-qsharp]: Downloading https://files.pythonhosted.org/packages/a9/01/81faaa5783ebfb2a0d82715aea295bffd428cf8cc4add7856e0ecd9ed919/pytket-qsharp-0.9.0.tar.gz
+[2023-05-04 11:49:18] INFO root fetch - processPackages [pipeline-csv]: Downloading https://files.pythonhosted.org/packages/c7/11/f2a23f555b9db0366b9e18c5a73cb131c17447d35fe0f394dc03b6167415/pipeline_csv-1.4.tar.gz
+[2023-05-04 11:49:18] INFO root fetch - processPackages [common-task-system-client]: executing diffoscope
+[2023-05-04 11:49:18] INFO root fetch - processPackages [common-task-system-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-task-system-client-1.1.1.tar.gz tmp/common-task-system-client-1.1.2.tar.gz --markdown 20230504/c/common-task-system-client/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-04 11:49:18] INFO root fetch - processPackages [numbers-c2pa]: Downloading https://files.pythonhosted.org/packages/e0/ea/35fea4e1103fdf8d11a1a3e711f848545a88af409178729a7df1dff1e1f2/numbers-c2pa-0.0.5.tar.gz
+[2023-05-04 11:49:18] INFO root fetch - processPackages [pipeline-csv]: executing diffoscope
+[2023-05-04 11:49:18] INFO root fetch - processPackages [pipeline-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_csv-1.3.tar.gz tmp/pipeline_csv-1.4.tar.gz --markdown 20230504/p/pipeline-csv/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-04 11:49:18] INFO root fetch - processPackages [pytket-qsharp]: executing diffoscope
+[2023-05-04 11:49:18] INFO root fetch - processPackages [pytket-qsharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket-qsharp-0.8.3.tar.gz tmp/pytket-qsharp-0.9.0.tar.gz --markdown 20230504/p/pytket-qsharp/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 11:49:18] INFO root fetch - processPackages [luigi]: executing diffoscope
+[2023-05-04 11:49:18] INFO root fetch - processPackages [luigi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luigi-3.2.1.tar.gz tmp/luigi-3.3.0.tar.gz --markdown 20230504/l/luigi/3.2.1-3.3.0/diff.md --exclude *.pyd
+[2023-05-04 11:49:18] INFO root fetch - processPackages [numbers-c2pa]: executing diffoscope
+[2023-05-04 11:49:18] INFO root fetch - processPackages [numbers-c2pa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numbers-c2pa-0.0.4.tar.gz tmp/numbers-c2pa-0.0.5.tar.gz --markdown 20230504/n/numbers-c2pa/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-04 11:49:18] INFO root fetch - main [MainThread]: End processing [bp-data-fabric]: success
+[2023-05-04 11:49:18] INFO root fetch - main [MainThread]: End processing [AegosPy]: success
+[2023-05-04 11:49:18] INFO root fetch - main [MainThread]: End processing [gotji]: success
+[2023-05-04 11:49:19] INFO root fetch - main [MainThread]: End processing [mo-logs]: success
+[2023-05-04 11:49:19] INFO root fetch - main [MainThread]: End processing [common-task-system-client]: success
+[2023-05-04 11:49:19] INFO root fetch - main [MainThread]: End processing [pipeline-csv]: success
+[2023-05-04 11:49:19] INFO root fetch - main [MainThread]: End processing [pytket-qsharp]: success
+[2023-05-04 11:49:19] INFO root fetch - main [MainThread]: End processing [numbers-c2pa]: success
+[2023-05-04 11:49:21] INFO root fetch - main [MainThread]: End processing [luigi]: success
+[2023-05-04 11:49:21] INFO root fetch - main [MainThread]: Store serial: [17970261]
