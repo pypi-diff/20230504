@@ -18642,3 +18642,120 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 17:24:39] INFO root fetch - main [MainThread]: End processing [qbandas]: success
 [2023-05-04 17:24:41] INFO root fetch - main [MainThread]: End processing [pear-xai]: success
 [2023-05-04 17:24:41] INFO root fetch - main [MainThread]: Store serial: [17974096]
+[2023-05-04 17:29:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17974096]
+[2023-05-04 17:29:51] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-04 17:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: googlegallary
+[2023-05-04 17:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2023-05-04 17:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roiextractors
+[2023-05-04 17:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HACNet
+[2023-05-04 17:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oceano-algos
+[2023-05-04 17:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PiML
+[2023-05-04 17:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-alexstolr-events-metadata-json
+[2023-05-04 17:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-otakar-single-race-mode2
+[2023-05-04 17:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AICreator
+[2023-05-04 17:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netpolymigrator
+[2023-05-04 17:29:51] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-events-metadata-json]: New version: [20230504.15.25.746585] Old Version: [20230504.10.37.669549]
+[2023-05-04 17:29:51] INFO root fetch - processPackages [googlegallary]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-04 17:29:51] INFO root fetch - processPackages [netpolymigrator]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-04 17:29:51] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-04 17:29:51] INFO root fetch - processPackages [HACNet]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-04 17:29:51] WARNING root fetch - processPackages [AICreator]: Skipping, unable to determine old version
+[2023-05-04 17:29:51] INFO root fetch - processPackages [AICreator]: Start processing: transcript-transformer
+[2023-05-04 17:29:51] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: New version: [20230504.9.59.715367] Old Version: [20230504.7.14.754863]
+[2023-05-04 17:29:51] INFO root fetch - processPackages [roiextractors]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-04 17:29:51] INFO root fetch - main [MainThread]: End processing [AICreator] error
+[2023-05-04 17:29:51] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230504.9.57.726431] Old Version: [20230504.15.24.420177]
+[2023-05-04 17:29:51] INFO root fetch - processPackages [PiML]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-05-04 17:29:51] INFO root fetch - processPackages [transcript-transformer]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-04 17:29:51] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Downloading https://files.pythonhosted.org/packages/22/00/47d381bfcfb8a2f0f0b571545e881ead0ece177e6a4d6e733008956433d4/certora-cli-alpha-otakar-single_race_mode2-20230504.7.14.754863.tar.gz
+[2023-05-04 17:29:51] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-events-metadata-json]: Downloading https://files.pythonhosted.org/packages/00/d7/de8cf37c840ef98c0f588d5e3c223f396927926a1f166afc267d93bfaf26/certora-cli-alpha-alexstolr-events_metadata_json-20230504.10.37.669549.tar.gz
+[2023-05-04 17:29:51] WARNING root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Skipping package: exceeds size limit 38420702>=10485760
+[2023-05-04 17:29:51] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Start processing: volttron-dnp3-outstation
+[2023-05-04 17:29:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-otakar-single-race-mode2] error
+[2023-05-04 17:29:51] INFO root fetch - processPackages [netpolymigrator]: Downloading https://files.pythonhosted.org/packages/26/1a/b1a3aef52524f56de55f8d1ae3d9eeeea5bf1a680567f8c641b43afebd43/netpolymigrator-0.1.0.tar.gz
+[2023-05-04 17:29:51] INFO root fetch - processPackages [googlegallary]: Downloading https://files.pythonhosted.org/packages/dc/be/960973997a6483013d2fedeb2e9e6d43afa3795cc97c902ef627a59babea/googlegallary-0.4.0.tar.gz
+[2023-05-04 17:29:51] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/9b/b0/934952a3b214488acd67d9e9b9be6d713bdf1f4b2ba1050a02ee8a9790cc/certora-cli-alpha-master-20230504.15.24.420177.tar.gz
+[2023-05-04 17:29:51] INFO root fetch - processPackages [volttron-dnp3-outstation]: New version: [0.1.1a4] Old Version: [0.1.1a3]
+[2023-05-04 17:29:51] INFO root fetch - processPackages [transcript-transformer]: Downloading https://files.pythonhosted.org/packages/f9/7e/133d797c92e9ed2e4a33de31a946ea04670ba6295c198a4ebd32a66ced3d/transcript%20transformer-0.2.0.tar.gz
+[2023-05-04 17:29:51] WARNING root fetch - processPackages [certora-cli-alpha-alexstolr-events-metadata-json]: Skipping package: exceeds size limit 38418279>=10485760
+[2023-05-04 17:29:51] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-events-metadata-json]: Start processing: google-cloud-tpu
+[2023-05-04 17:29:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alexstolr-events-metadata-json] error
+[2023-05-04 17:29:51] INFO root fetch - processPackages [google-cloud-tpu]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-04 17:29:51] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38469868>=10485760
+[2023-05-04 17:29:51] INFO root fetch - processPackages [roiextractors]: Downloading https://files.pythonhosted.org/packages/5c/21/ae564e0cb1161ada9f71f038c01b666f7ec071a09f5f647e2e9f756651da/roiextractors-0.5.1.tar.gz
+[2023-05-04 17:29:51] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: VectorDBGPTBot
+[2023-05-04 17:29:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-04 17:29:51] WARNING root fetch - processPackages [transcript-transformer]: Skipping package: exceeds size limit 11136606>=10485760
+[2023-05-04 17:29:51] INFO root fetch - processPackages [transcript-transformer]: Start processing: ReverseTwitterScraper
+[2023-05-04 17:29:51] INFO root fetch - main [MainThread]: End processing [transcript-transformer] error
+[2023-05-04 17:29:51] INFO root fetch - processPackages [PiML]: Downloading https://files.pythonhosted.org/packages/3a/02/de420bc37cffe8a5904b9e9a85a8433012b3b551ea1929ff809c21dd2bbe/PiML-0.4.3-cp39-none-win_amd64.whl
+[2023-05-04 17:29:51] WARNING root fetch - processPackages [VectorDBGPTBot]: Skipping, unable to determine old version
+[2023-05-04 17:29:51] INFO root fetch - processPackages [VectorDBGPTBot]: Start processing: DataProperty
+[2023-05-04 17:29:51] INFO root fetch - main [MainThread]: End processing [VectorDBGPTBot] error
+[2023-05-04 17:29:51] INFO root fetch - processPackages [ReverseTwitterScraper]: New version: [0.5] Old Version: [0.4]
+[2023-05-04 17:29:51] INFO root fetch - processPackages [DataProperty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-04 17:29:51] INFO root fetch - processPackages [HACNet]: Downloading https://files.pythonhosted.org/packages/51/f9/3c7fcdfe4c319b98618f12dab7072472f88b1c3671ad26ab4c0bdcc3d212/HACNet-1.4.3.tar.gz
+[2023-05-04 17:29:51] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-05-04 17:29:51] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230504/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-04 17:29:51] INFO root fetch - processPackages [google-cloud-tpu]: Downloading https://files.pythonhosted.org/packages/10/3e/d83a2b2187b8189af5ab355528d5d2ceff9194da43ec91056ffe31c3cbea/google-cloud-tpu-1.8.0.tar.gz
+[2023-05-04 17:29:51] INFO root fetch - processPackages [netpolymigrator]: Downloading https://files.pythonhosted.org/packages/40/44/05816568de84659a5cf1847f475203f62412739a62edf93ea84d075cb173/netpolymigrator-0.2.0.tar.gz
+[2023-05-04 17:29:51] INFO root fetch - processPackages [HACNet]: executing diffoscope
+[2023-05-04 17:29:51] INFO root fetch - processPackages [HACNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HACNet-1.4.2.tar.gz tmp/HACNet-1.4.3.tar.gz --markdown 20230504/H/HACNet/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-04 17:29:51] INFO root fetch - processPackages [googlegallary]: Downloading https://files.pythonhosted.org/packages/ca/02/bd5d1c0ad4c4e7ed779ad2abbbe3825efc100041813dfbb5eb6f964d2002/googlegallary-0.5.0.tar.gz
+[2023-05-04 17:29:51] INFO root fetch - processPackages [volttron-dnp3-outstation]: Downloading https://files.pythonhosted.org/packages/bd/72/9e627c82d6890ae2cc541d5dba5607581709bd55339b9afdce514f5b2ae4/volttron_dnp3_outstation-0.1.1a4.tar.gz
+[2023-05-04 17:29:51] INFO root fetch - processPackages [DataProperty]: Downloading https://files.pythonhosted.org/packages/42/73/b703046f9381c5ae1ae71f900298e672837ac6d01136b0fe8f6f9c876ad1/DataProperty-0.8.1.tar.gz
+[2023-05-04 17:29:51] INFO root fetch - processPackages [ReverseTwitterScraper]: Downloading https://files.pythonhosted.org/packages/2d/b0/ae57046eda42bd475aff836f2f33b8696cf25ee63791402db9adc18e8e07/ReverseTwitterScraper-0.4.tar.gz
+[2023-05-04 17:29:51] INFO root fetch - processPackages [googlegallary]: executing diffoscope
+[2023-05-04 17:29:51] INFO root fetch - processPackages [googlegallary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googlegallary-0.4.0.tar.gz tmp/googlegallary-0.5.0.tar.gz --markdown 20230504/g/googlegallary/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-04 17:29:51] INFO root fetch - processPackages [roiextractors]: Downloading https://files.pythonhosted.org/packages/92/0d/3c7d34bad9df7aac4110477931f848b31ddf5c13adf36e6d52d432d06e2d/roiextractors-0.5.2.tar.gz
+[2023-05-04 17:29:51] INFO root fetch - processPackages [volttron-dnp3-outstation]: executing diffoscope
+[2023-05-04 17:29:51] INFO root fetch - processPackages [volttron-dnp3-outstation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_dnp3_outstation-0.1.1a3-py3-none-any.whl.zip tmp/volttron_dnp3_outstation-0.1.1a4.tar.gz --markdown 20230504/v/volttron-dnp3-outstation/0.1.1a3-0.1.1a4/diff.md --exclude *.pyd
+[2023-05-04 17:29:51] INFO root fetch - processPackages [netpolymigrator]: executing diffoscope
+[2023-05-04 17:29:51] INFO root fetch - processPackages [netpolymigrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netpolymigrator-0.1.0.tar.gz tmp/netpolymigrator-0.2.0.tar.gz --markdown 20230504/n/netpolymigrator/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-04 17:29:52] INFO root fetch - processPackages [roiextractors]: executing diffoscope
+[2023-05-04 17:29:52] INFO root fetch - processPackages [roiextractors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roiextractors-0.5.1.tar.gz tmp/roiextractors-0.5.2.tar.gz --markdown 20230504/r/roiextractors/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-04 17:29:52] INFO root fetch - processPackages [ReverseTwitterScraper]: Downloading https://files.pythonhosted.org/packages/c8/33/5fb1194f42869d5b1ead50bad97b2e120704364be37fb7671b9dbf4c448d/ReverseTwitterScraper-0.5.tar.gz
+[2023-05-04 17:29:52] INFO root fetch - processPackages [DataProperty]: Downloading https://files.pythonhosted.org/packages/d4/7a/8a214fc3c6eb2aeb42282a25355296f391cdcfd6c6b51c80bd644ce6b229/DataProperty-0.9.0.tar.gz
+[2023-05-04 17:29:52] INFO root fetch - processPackages [ReverseTwitterScraper]: executing diffoscope
+[2023-05-04 17:29:52] INFO root fetch - processPackages [ReverseTwitterScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReverseTwitterScraper-0.4.tar.gz tmp/ReverseTwitterScraper-0.5.tar.gz --markdown 20230504/R/ReverseTwitterScraper/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-04 17:29:52] INFO root fetch - processPackages [google-cloud-tpu]: Downloading https://files.pythonhosted.org/packages/c5/30/ff329b5a24653995f2188d596c6dfaeb8167ce02a2ef54202431e7a32730/google-cloud-tpu-1.9.0.tar.gz
+[2023-05-04 17:29:52] INFO root fetch - processPackages [DataProperty]: executing diffoscope
+[2023-05-04 17:29:52] INFO root fetch - processPackages [DataProperty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DataProperty-0.8.1.tar.gz tmp/DataProperty-0.9.0.tar.gz --markdown 20230504/D/DataProperty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 17:29:52] INFO root fetch - processPackages [google-cloud-tpu]: executing diffoscope
+[2023-05-04 17:29:52] INFO root fetch - processPackages [google-cloud-tpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-tpu-1.8.0.tar.gz tmp/google-cloud-tpu-1.9.0.tar.gz --markdown 20230504/g/google-cloud-tpu/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-04 17:29:53] INFO root fetch - processPackages [googlegallary]: Start processing: wav2samp
+[2023-05-04 17:29:53] INFO root fetch - main [MainThread]: End processing [googlegallary]: success
+[2023-05-04 17:29:53] INFO root fetch - processPackages [wav2samp]: New version: [0.2] Old Version: [0.1]
+[2023-05-04 17:29:53] INFO root fetch - processPackages [HACNet]: Start processing: pen-world
+[2023-05-04 17:29:53] INFO root fetch - main [MainThread]: End processing [HACNet]: success
+[2023-05-04 17:29:53] WARNING root fetch - processPackages [pen-world]: Skipping, unable to determine old version
+[2023-05-04 17:29:53] INFO root fetch - processPackages [pen-world]: Start processing: edwh
+[2023-05-04 17:29:53] INFO root fetch - main [MainThread]: End processing [pen-world] error
+[2023-05-04 17:29:53] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-04 17:29:53] INFO root fetch - processPackages [volttron-dnp3-outstation]: Start processing: lart-research-assistant
+[2023-05-04 17:29:53] INFO root fetch - main [MainThread]: End processing [volttron-dnp3-outstation]: success
+[2023-05-04 17:29:53] INFO root fetch - processPackages [netpolymigrator]: Start processing: CoLT5-attention
+[2023-05-04 17:29:53] INFO root fetch - main [MainThread]: End processing [netpolymigrator]: success
+[2023-05-04 17:29:53] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-04 17:29:53] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-04 17:29:53] INFO root fetch - processPackages [wav2samp]: Downloading https://files.pythonhosted.org/packages/72/fe/45e1b793a11d134ca52862ef3a50321d6564bb145fb5d08fa90e13dc8a79/wav2samp-0.1-py3-none-any.whl
+[2023-05-04 17:29:53] WARNING root fetch - processPackages [lart-research-assistant]: Skipping, unable to determine old version
+[2023-05-04 17:29:53] INFO root fetch - main [MainThread]: End processing [lart-research-assistant] error
+[2023-05-04 17:29:53] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-05-04 17:29:53] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-04 17:29:53] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.5.1.tar.gz tmp/CoLT5-attention-0.5.2.tar.gz --markdown 20230504/C/CoLT5-attention/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-04 17:29:53] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-04 17:29:53] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-04 17:29:53] INFO root fetch - main [MainThread]: End processing [ReverseTwitterScraper]: success
+[2023-05-04 17:29:53] INFO root fetch - processPackages [wav2samp]: Downloading https://files.pythonhosted.org/packages/9e/7b/0c275c66e2caf76de9e813ea90e30a58efd270894e6032997e85dd8fedbc/wav2samp-0.2-py3-none-any.whl
+[2023-05-04 17:29:53] INFO root fetch - processPackages [wav2samp]: executing diffoscope
+[2023-05-04 17:29:53] INFO root fetch - processPackages [wav2samp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wav2samp-0.1-py3-none-any.whl.zip tmp/wav2samp-0.2-py3-none-any.whl.zip --markdown 20230504/w/wav2samp/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-04 17:29:53] INFO root fetch - processPackages [PiML]: Downloading https://files.pythonhosted.org/packages/54/27/583b5af042b5c906f404a2d1437e94cff80cdbaf7c55702594afcbcdaa4c/PiML-0.5.0-cp38-none-macosx_10_14_x86_64.whl
+[2023-05-04 17:29:54] WARNING root fetch - processPackages [PiML]: Skipping package: exceeds size limit 11832021>=10485760
+[2023-05-04 17:29:54] INFO root fetch - main [MainThread]: End processing [PiML] error
+[2023-05-04 17:29:54] INFO root fetch - main [MainThread]: End processing [roiextractors]: success
+[2023-05-04 17:29:54] INFO root fetch - main [MainThread]: End processing [DataProperty]: success
+[2023-05-04 17:29:54] INFO root fetch - main [MainThread]: End processing [google-cloud-tpu]: success
+[2023-05-04 17:29:54] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-04 17:29:54] INFO root fetch - main [MainThread]: End processing [wav2samp]: success
+[2023-05-04 17:29:54] INFO root fetch - main [MainThread]: Store serial: [17974180]
