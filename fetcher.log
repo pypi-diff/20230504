@@ -6154,3 +6154,148 @@
 [2023-05-04 05:10:23] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230504/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
 [2023-05-04 05:10:26] INFO root fetch - main [MainThread]: End processing [piperider]: success
 [2023-05-04 05:10:26] INFO root fetch - main [MainThread]: Store serial: [17966777]
+[2023-05-04 05:15:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966777]
+[2023-05-04 05:15:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-04 05:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mojo-xmodules
+[2023-05-04 05:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmlibs.utils
+[2023-05-04 05:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GANDLF
+[2023-05-04 05:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: machkit
+[2023-05-04 05:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-payment-order
+[2023-05-04 05:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: terrascope-api
+[2023-05-04 05:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vgs-api-client
+[2023-05-04 05:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sherpa-ncnn
+[2023-05-04 05:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pythoncryptolibrary
+[2023-05-04 05:15:35] INFO root fetch - processPackages [GANDLF]: New version: [0.0.16.dev20230504] Old Version: [0.0.16.dev20230503]
+[2023-05-04 05:15:35] INFO root fetch - processPackages [odoo-addon-account-payment-order]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-05-04 05:15:35] INFO root fetch - processPackages [cmlibs.utils]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-04 05:15:35] WARNING root fetch - processPackages [machkit]: Skipping, unable to determine old version
+[2023-05-04 05:15:35] INFO root fetch - main [MainThread]: End processing [machkit] error
+[2023-05-04 05:15:35] INFO root fetch - processPackages [terrascope-api]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-04 05:15:35] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 05:15:35] ERROR root fetch - processPackages [pythoncryptolibrary]: Unable to get metadata: No such project 'pythoncryptolibrary'
+[2023-05-04 05:15:35] INFO root fetch - main [MainThread]: End processing [pythoncryptolibrary] error
+[2023-05-04 05:15:35] INFO root fetch - processPackages [sherpa-ncnn]: New version: [1.8.6] Old Version: [1.8.1]
+[2023-05-04 05:15:35] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-05-04 05:15:35] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-05-04 05:15:35] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230504/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-05-04 05:15:35] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/5b/91/c3ca094889ef186f462a7695470871566c306d5cba5bc240bd741085fd0a/GANDLF-0.0.16.dev20230503.tar.gz
+[2023-05-04 05:15:35] INFO root fetch - processPackages [sherpa-ncnn]: Downloading https://files.pythonhosted.org/packages/54/6f/e49859924ad6890441273510b1bcb68829c8ad95489d8aab70307d0d61f1/sherpa_ncnn-1.8.1-cp39-cp39-win_amd64.whl
+[2023-05-04 05:15:35] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/2f/b5/d01d0c0d4d1c05231ed2686544a72d8186a4a0036a2b3a3cd5778a6649ee/odoo_addon_account_payment_order-16.0.1.1.0.1-py3-none-any.whl
+[2023-05-04 05:15:35] INFO root fetch - processPackages [cmlibs.utils]: Downloading https://files.pythonhosted.org/packages/b6/2f/18fa933d91cb0f3bc8432ca6477bbd63ddf34bec98fde489dc0d073f12ce/cmlibs.utils-0.5.0.tar.gz
+[2023-05-04 05:15:35] INFO root fetch - processPackages [terrascope-api]: Downloading https://files.pythonhosted.org/packages/e6/78/55b9800fc35e6abd6bf69f420f453b05547714e35ad56598ff3d42509319/terrascope-api-1.0.4.tar.gz
+[2023-05-04 05:15:35] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/bf/10/b6d851a854a3a852050415af6786fb226d0646a35f4666d322f49ccea4dd/mojo_xmodules-0.0.8.tar.gz
+[2023-05-04 05:15:35] INFO root fetch - processPackages [odoo-addon-account-payment-order]: executing diffoscope
+[2023-05-04 05:15:35] INFO root fetch - processPackages [odoo-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-account-payment-order/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-05-04 05:15:35] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/2d/5d/e719c052d4895fd0a6a9613589e5fb9bde90a9bfdce48a2b7e467ff1bbc8/GANDLF-0.0.16.dev20230504.tar.gz
+[2023-05-04 05:15:35] INFO root fetch - processPackages [cmlibs.utils]: Downloading https://files.pythonhosted.org/packages/6e/a2/bd682a4682e89536c7834d71d8bcb5adf2610682ff3ddcca07574e70e452/cmlibs.utils-0.5.1-py3-none-any.whl
+[2023-05-04 05:15:35] INFO root fetch - processPackages [terrascope-api]: Downloading https://files.pythonhosted.org/packages/81/ae/b1db15ffd6afefdd9d5ae66d22be90a85424e6513a5bcdc93b146c59b396/terrascope-api-1.0.5.tar.gz
+[2023-05-04 05:15:35] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/ae/80/363a71f08c20912ecd84ee3a80f80c40bbdc4555837b08dedc72e5a6ad01/mojo_xmodules-0.0.9.tar.gz
+[2023-05-04 05:15:35] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-05-04 05:15:35] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.16.dev20230503.tar.gz tmp/GANDLF-0.0.16.dev20230504.tar.gz --markdown 20230504/G/GANDLF/0.0.16.dev20230503-0.0.16.dev20230504/diff.md --exclude *.pyd
+[2023-05-04 05:15:35] INFO root fetch - processPackages [cmlibs.utils]: executing diffoscope
+[2023-05-04 05:15:35] INFO root fetch - processPackages [cmlibs.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmlibs.utils-0.5.0.tar.gz tmp/cmlibs.utils-0.5.1-py3-none-any.whl.zip --markdown 20230504/c/cmlibs.utils/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-04 05:15:36] INFO root fetch - processPackages [terrascope-api]: executing diffoscope
+[2023-05-04 05:15:36] INFO root fetch - processPackages [terrascope-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrascope-api-1.0.4.tar.gz tmp/terrascope-api-1.0.5.tar.gz --markdown 20230504/t/terrascope-api/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-04 05:15:36] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-05-04 05:15:36] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230504/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 05:15:36] INFO root fetch - processPackages [sherpa-ncnn]: Downloading https://files.pythonhosted.org/packages/6a/cd/dacd661b83f30b78e0a02983ebeaa0fa28a470f045e24f1842f27f7a1d98/sherpa_ncnn-1.8.6-cp39-cp39-win_amd64.whl
+[2023-05-04 05:15:36] INFO root fetch - processPackages [sherpa-ncnn]: executing diffoscope
+[2023-05-04 05:15:36] INFO root fetch - processPackages [sherpa-ncnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherpa_ncnn-1.8.1-cp39-cp39-win_amd64.whl.zip tmp/sherpa_ncnn-1.8.6-cp39-cp39-win_amd64.whl.zip --markdown 20230504/s/sherpa-ncnn/1.8.1-1.8.6/diff.md --exclude *.pyd
+[2023-05-04 05:15:36] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-05-04 05:15:37] INFO root fetch - main [MainThread]: End processing [cmlibs.utils]: success
+[2023-05-04 05:15:37] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-05-04 05:15:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
+[2023-05-04 05:15:38] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-05-04 05:15:38] INFO root fetch - main [MainThread]: End processing [terrascope-api]: success
+[2023-05-04 05:16:05] ERROR root fetch - processPackages [sherpa-ncnn]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140018551102976)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140018685320544)
+
+[2023-05-04 05:16:05] INFO root fetch - main [MainThread]: End processing [sherpa-ncnn] error
+[2023-05-04 05:16:05] INFO root fetch - main [MainThread]: Store serial: [17966813]
