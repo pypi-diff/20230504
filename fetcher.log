@@ -22861,3 +22861,82 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 20:40:48] INFO root fetch - main [MainThread]: End processing [aquasec-cli]: success
 [2023-05-04 20:40:50] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
 [2023-05-04 20:40:50] INFO root fetch - main [MainThread]: Store serial: [17976498]
+[2023-05-04 20:45:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17976498]
+[2023-05-04 20:45:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-04 20:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-speech
+[2023-05-04 20:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyathena
+[2023-05-04 20:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fibsem-tools
+[2023-05-04 20:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-events
+[2023-05-04 20:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: veetility
+[2023-05-04 20:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-admin-dashboard
+[2023-05-04 20:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smartsheet-pydantic
+[2023-05-04 20:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: meraki
+[2023-05-04 20:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pequenawebview
+[2023-05-04 20:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tabularai
+[2023-05-04 20:45:59] INFO root fetch - processPackages [meraki]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-05-04 20:45:59] INFO root fetch - processPackages [smartsheet-pydantic]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-05-04 20:45:59] INFO root fetch - processPackages [pyathena]: New version: [3.0.0] Old Version: [2.9.6]
+[2023-05-04 20:45:59] INFO root fetch - processPackages [fibsem-tools]: New version: [4.0.0] Old Version: [3.2.0]
+[2023-05-04 20:45:59] INFO root fetch - processPackages [google-events]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-04 20:45:59] ERROR root fetch - processPackages [tabularai]: Unable to get metadata: No such project 'tabularai'
+[2023-05-04 20:45:59] INFO root fetch - processPackages [flask-admin-dashboard]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-04 20:45:59] INFO root fetch - processPackages [pequenawebview]: New version: [4.1.3] Old Version: [4.1.2]
+[2023-05-04 20:45:59] INFO root fetch - processPackages [neon-speech]: New version: [3.3.1a3] Old Version: [3.3.1a2]
+[2023-05-04 20:45:59] INFO root fetch - processPackages [tabularai]: Start processing: govtech-data
+[2023-05-04 20:45:59] INFO root fetch - main [MainThread]: End processing [tabularai] error
+[2023-05-04 20:45:59] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 20:45:59] INFO root fetch - processPackages [govtech-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 20:45:59] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-05-04 20:45:59] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.8.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230504/v/veetility/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 20:46:00] INFO root fetch - processPackages [smartsheet-pydantic]: Downloading https://files.pythonhosted.org/packages/19/65/47ab15f19b9e4013d2ba1d333125a1e2e8475cfdfea14b96f46221801f82/smartsheet-pydantic-1.4.4.tar.gz
+[2023-05-04 20:46:00] INFO root fetch - processPackages [google-events]: Downloading https://files.pythonhosted.org/packages/3e/cd/cdea628192f5960688342386a5fbc2d6053234bd8c3232412c435cbb7101/google-events-0.5.0.tar.gz
+[2023-05-04 20:46:00] INFO root fetch - processPackages [neon-speech]: Downloading https://files.pythonhosted.org/packages/6e/75/36ea893c798da4dc0d84bb10d0cb8d248602b3888ea53ac5f0ccad95b4f5/neon_speech-3.3.1a3-py3-none-any.whl
+[2023-05-04 20:46:00] INFO root fetch - processPackages [fibsem-tools]: Downloading https://files.pythonhosted.org/packages/84/86/6fbd8d3172c57935bbc38db0c89514abadc54e84f7aea93340cf4940d03d/fibsem_tools-3.2.0.tar.gz
+[2023-05-04 20:46:00] INFO root fetch - processPackages [meraki]: Downloading https://files.pythonhosted.org/packages/20/52/de333d0487eea821f3befe418fd7c045ca3ac811856dac79a0b9ca996024/meraki-1.7.1.tar.gz
+[2023-05-04 20:46:00] INFO root fetch - processPackages [pyathena]: Downloading https://files.pythonhosted.org/packages/fe/d0/1d42ee02f8c5180d7b51cec5ba9a6b8c49317e9499139cbad947a348c5d4/PyAthena-2.9.6.tar.gz
+[2023-05-04 20:46:00] INFO root fetch - processPackages [flask-admin-dashboard]: Downloading https://files.pythonhosted.org/packages/88/d5/1d4cbe993c09276083a1fad4c21b0316c9066cde63d3ff12136050e3eeb7/flask_admin_dashboard-1.0.3.tar.gz
+[2023-05-04 20:46:00] INFO root fetch - processPackages [pequenawebview]: Downloading https://files.pythonhosted.org/packages/c4/b3/afae0966c8bd3fb17799b65789f1eb79603f7c504cb030cee0cd0daf97b2/pequenawebview-4.1.2.tar.gz
+[2023-05-04 20:46:00] INFO root fetch - processPackages [govtech-data]: Downloading https://files.pythonhosted.org/packages/bb/aa/590dca710c7623f047f33cc26090a8386c7febe4081f0b10e752cd06f244/govtech_data-0.1.8.tar.gz
+[2023-05-04 20:46:00] INFO root fetch - processPackages [smartsheet-pydantic]: executing diffoscope
+[2023-05-04 20:46:00] INFO root fetch - processPackages [smartsheet-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartsheet-pydantic-1.4.3.tar.gz tmp/smartsheet-pydantic-1.4.4.tar.gz --markdown 20230504/s/smartsheet-pydantic/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-05-04 20:46:00] INFO root fetch - processPackages [neon-speech]: executing diffoscope
+[2023-05-04 20:46:00] INFO root fetch - processPackages [neon-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_speech-3.3.1a2-py3-none-any.whl.zip tmp/neon_speech-3.3.1a3-py3-none-any.whl.zip --markdown 20230504/n/neon-speech/3.3.1a2-3.3.1a3/diff.md --exclude *.pyd
+[2023-05-04 20:46:00] INFO root fetch - processPackages [flask-admin-dashboard]: executing diffoscope
+[2023-05-04 20:46:00] INFO root fetch - processPackages [flask-admin-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_admin_dashboard-1.0.2.tar.gz tmp/flask_admin_dashboard-1.0.3.tar.gz --markdown 20230504/f/flask-admin-dashboard/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-04 20:46:00] INFO root fetch - processPackages [fibsem-tools]: Downloading https://files.pythonhosted.org/packages/64/93/abd7938e7cc1a84761b6f5c1314ac91e9717d2278878edab4a8f6962311c/fibsem_tools-4.0.0.tar.gz
+[2023-05-04 20:46:00] INFO root fetch - processPackages [pequenawebview]: Downloading https://files.pythonhosted.org/packages/45/aa/f4429378af95784797c78038db092818e83f43a16600fa1da31363d80ab4/pequenawebview-4.1.3.tar.gz
+[2023-05-04 20:46:00] INFO root fetch - processPackages [google-events]: Downloading https://files.pythonhosted.org/packages/72/f1/5e7caed04954c4e80c01ac32fb23bd781af65d35fa618c5661fa85427597/google-events-0.6.0.tar.gz
+[2023-05-04 20:46:00] INFO root fetch - processPackages [pyathena]: Downloading https://files.pythonhosted.org/packages/46/45/97d95cc84ab4d71b4fefae806873297ed367de506e257f8691d7f4fb2302/pyathena-3.0.0.tar.gz
+[2023-05-04 20:46:00] INFO root fetch - processPackages [fibsem-tools]: executing diffoscope
+[2023-05-04 20:46:00] INFO root fetch - processPackages [fibsem-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fibsem_tools-3.2.0.tar.gz tmp/fibsem_tools-4.0.0.tar.gz --markdown 20230504/f/fibsem-tools/3.2.0-4.0.0/diff.md --exclude *.pyd
+[2023-05-04 20:46:00] INFO root fetch - processPackages [pequenawebview]: executing diffoscope
+[2023-05-04 20:46:00] INFO root fetch - processPackages [pequenawebview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pequenawebview-4.1.2.tar.gz tmp/pequenawebview-4.1.3.tar.gz --markdown 20230504/p/pequenawebview/4.1.2-4.1.3/diff.md --exclude *.pyd
+[2023-05-04 20:46:00] INFO root fetch - processPackages [govtech-data]: Downloading https://files.pythonhosted.org/packages/38/27/bfc2b116c599d8a7ebd76ab6512ee38a1b5d1a16499059770372bc29e6e2/govtech_data-0.1.9.tar.gz
+[2023-05-04 20:46:00] INFO root fetch - processPackages [google-events]: executing diffoscope
+[2023-05-04 20:46:00] INFO root fetch - processPackages [google-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-events-0.5.0.tar.gz tmp/google-events-0.6.0.tar.gz --markdown 20230504/g/google-events/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-04 20:46:00] INFO root fetch - processPackages [pyathena]: executing diffoscope
+[2023-05-04 20:46:00] INFO root fetch - processPackages [pyathena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAthena-2.9.6.tar.gz tmp/pyathena-3.0.0.tar.gz --markdown 20230504/p/pyathena/2.9.6-3.0.0/diff.md --exclude *.pyd
+[2023-05-04 20:46:00] INFO root fetch - processPackages [govtech-data]: executing diffoscope
+[2023-05-04 20:46:00] INFO root fetch - processPackages [govtech-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govtech_data-0.1.8.tar.gz tmp/govtech_data-0.1.9.tar.gz --markdown 20230504/g/govtech-data/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 20:46:00] INFO root fetch - processPackages [meraki]: Downloading https://files.pythonhosted.org/packages/76/fd/d35d51325ea61bafb273cc25f384325274be941afeaf95198490d25602b1/meraki-1.7.2.tar.gz
+[2023-05-04 20:46:00] INFO root fetch - processPackages [meraki]: executing diffoscope
+[2023-05-04 20:46:00] INFO root fetch - processPackages [meraki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meraki-1.7.1.tar.gz tmp/meraki-1.7.2.tar.gz --markdown 20230504/m/meraki/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-05-04 20:46:01] INFO root fetch - processPackages [veetility]: Start processing: certora-cli-alpha-oz-docker-json5
+[2023-05-04 20:46:01] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-05-04 20:46:01] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: New version: [20230504.8.42.61246] Old Version: [20230504.18.44.719551]
+[2023-05-04 20:46:01] INFO root fetch - processPackages [neon-speech]: Start processing: om-quant
+[2023-05-04 20:46:01] INFO root fetch - main [MainThread]: End processing [neon-speech]: success
+[2023-05-04 20:46:01] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Downloading https://files.pythonhosted.org/packages/d2/94/f5451c717a69d60505f7d6938b1a99706a42937cd9b08048f5264579102b/certora-cli-alpha-oz-docker-json5-20230504.18.44.719551.tar.gz
+[2023-05-04 20:46:01] WARNING root fetch - processPackages [om-quant]: Skipping, unable to determine old version
+[2023-05-04 20:46:01] INFO root fetch - main [MainThread]: End processing [om-quant] error
+[2023-05-04 20:46:01] WARNING root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Skipping package: exceeds size limit 38472090>=10485760
+[2023-05-04 20:46:01] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-docker-json5] error
+[2023-05-04 20:46:01] INFO root fetch - main [MainThread]: End processing [smartsheet-pydantic]: success
+[2023-05-04 20:46:02] INFO root fetch - main [MainThread]: End processing [govtech-data]: success
+[2023-05-04 20:46:02] INFO root fetch - main [MainThread]: End processing [fibsem-tools]: success
+[2023-05-04 20:46:02] INFO root fetch - main [MainThread]: End processing [flask-admin-dashboard]: success
+[2023-05-04 20:46:02] INFO root fetch - main [MainThread]: End processing [pyathena]: success
+[2023-05-04 20:46:04] INFO root fetch - main [MainThread]: End processing [pequenawebview]: success
+[2023-05-04 20:46:05] INFO root fetch - main [MainThread]: End processing [meraki]: success
+[2023-05-04 20:46:05] INFO root fetch - main [MainThread]: End processing [google-events]: success
+[2023-05-04 20:46:05] INFO root fetch - main [MainThread]: Store serial: [17976553]
