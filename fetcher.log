@@ -20637,3 +20637,120 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 19:09:56] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
 [2023-05-04 19:10:11] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-05-04 19:10:11] INFO root fetch - main [MainThread]: Store serial: [17975301]
+[2023-05-04 19:15:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17975301]
+[2023-05-04 19:15:21] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-04 19:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shellgenius
+[2023-05-04 19:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voai
+[2023-05-04 19:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbioapputils
+[2023-05-04 19:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nowcasting-forecast
+[2023-05-04 19:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lona-picocss
+[2023-05-04 19:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: waveforms
+[2023-05-04 19:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kube-api
+[2023-05-04 19:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: circuitpython-stts22h
+[2023-05-04 19:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AutoGenerateMKD
+[2023-05-04 19:15:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: selfdiffusion
+[2023-05-04 19:15:21] WARNING root fetch - processPackages [shellgenius]: Skipping, unable to determine old version
+[2023-05-04 19:15:21] INFO root fetch - processPackages [sbioapputils]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-04 19:15:21] INFO root fetch - processPackages [shellgenius]: Start processing: async-pjsekai
+[2023-05-04 19:15:21] INFO root fetch - processPackages [voai]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-04 19:15:21] INFO root fetch - main [MainThread]: End processing [shellgenius] error
+[2023-05-04 19:15:21] WARNING root fetch - processPackages [circuitpython-stts22h]: Skipping, unable to determine old version
+[2023-05-04 19:15:21] INFO root fetch - processPackages [circuitpython-stts22h]: Start processing: tungstenkit
+[2023-05-04 19:15:21] INFO root fetch - main [MainThread]: End processing [circuitpython-stts22h] error
+[2023-05-04 19:15:21] INFO root fetch - processPackages [lona-picocss]: New version: [0.3] Old Version: [0.2]
+[2023-05-04 19:15:21] INFO root fetch - processPackages [AutoGenerateMKD]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-04 19:15:21] WARNING root fetch - processPackages [selfdiffusion]: Skipping, unable to determine old version
+[2023-05-04 19:15:21] INFO root fetch - processPackages [kube-api]: New version: [0.1.59] Old Version: [0.1.58]
+[2023-05-04 19:15:21] INFO root fetch - processPackages [selfdiffusion]: Start processing: jadecobra
+[2023-05-04 19:15:21] INFO root fetch - main [MainThread]: End processing [selfdiffusion] error
+[2023-05-04 19:15:21] INFO root fetch - processPackages [nowcasting-forecast]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-05-04 19:15:21] INFO root fetch - processPackages [async-pjsekai]: New version: [0.0.10.dev1] Old Version: [0.0.10.dev0]
+[2023-05-04 19:15:21] INFO root fetch - processPackages [tungstenkit]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-05-04 19:15:21] INFO root fetch - processPackages [waveforms]: New version: [1.5.96] Old Version: [1.5.95]
+[2023-05-04 19:15:21] INFO root fetch - processPackages [jadecobra]: New version: [0.3.7] Old Version: [0.3.64]
+[2023-05-04 19:15:21] INFO root fetch - processPackages [tungstenkit]: executing diffoscope
+[2023-05-04 19:15:21] INFO root fetch - processPackages [tungstenkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tungstenkit-0.0.1a8.tar.gz tmp/tungstenkit-0.0.1a9.tar.gz --markdown 20230504/t/tungstenkit/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-05-04 19:15:22] INFO root fetch - processPackages [sbioapputils]: Downloading https://files.pythonhosted.org/packages/c1/3e/124b040b3545d6e0067e6e338f17e85ee7b077790596da628453741dee29/sbioapputils-1.0.7.tar.gz
+[2023-05-04 19:15:22] INFO root fetch - processPackages [AutoGenerateMKD]: Downloading https://files.pythonhosted.org/packages/af/e9/25067260a5530e7f4df860060356cf5e0982291aa933c36f38a4e5302080/AutoGenerateMKD-0.0.1.tar.gz
+[2023-05-04 19:15:22] INFO root fetch - processPackages [voai]: Downloading https://files.pythonhosted.org/packages/5b/4b/e7542eaaf70ace7aba205089d0473b531764dc65b9581d8f7289998bc6c5/voai-0.0.3.tar.gz
+[2023-05-04 19:15:22] INFO root fetch - processPackages [async-pjsekai]: Downloading https://files.pythonhosted.org/packages/ce/6e/65ccc2261f29caefaca0c399d5a86665931eff6c652815239227edcc7c03/async_pjsekai-0.0.10.dev0.tar.gz
+[2023-05-04 19:15:22] INFO root fetch - processPackages [jadecobra]: Downloading https://files.pythonhosted.org/packages/40/06/067f43de12d3c1b45cda53a62b1f21865d8dffcd2e0fd571d676d55235aa/jadecobra-0.3.64.tar.gz
+[2023-05-04 19:15:22] INFO root fetch - processPackages [lona-picocss]: Downloading https://files.pythonhosted.org/packages/3a/a9/b4da6d946e21e3e286a0bf02042f3034fc303ff2d1620cfe11d0c06f85ae/lona-picocss-0.2.tar.gz
+[2023-05-04 19:15:22] INFO root fetch - processPackages [sbioapputils]: executing diffoscope
+[2023-05-04 19:15:22] INFO root fetch - processPackages [sbioapputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbioapputils-1.0.6.tar.gz tmp/sbioapputils-1.0.7.tar.gz --markdown 20230504/s/sbioapputils/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-04 19:15:22] INFO root fetch - processPackages [nowcasting-forecast]: Downloading https://files.pythonhosted.org/packages/1a/9b/94e5686d4db8e17ec07f89821d9eec001024ac34e78d6ca9b3580d9b5adf/nowcasting_forecast-1.3.8.tar.gz
+[2023-05-04 19:15:22] INFO root fetch - processPackages [kube-api]: Downloading https://files.pythonhosted.org/packages/6c/17/74c3ca5ae0d037cb8dd9b32e0bd36012065932a55f59aef72a52def06c7e/kube_api-0.1.58.tar.gz
+[2023-05-04 19:15:22] INFO root fetch - processPackages [nowcasting-forecast]: executing diffoscope
+[2023-05-04 19:15:22] INFO root fetch - processPackages [nowcasting-forecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_forecast-1.3.7.tar.gz tmp/nowcasting_forecast-1.3.8.tar.gz --markdown 20230504/n/nowcasting-forecast/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-05-04 19:15:22] INFO root fetch - processPackages [jadecobra]: executing diffoscope
+[2023-05-04 19:15:22] INFO root fetch - processPackages [jadecobra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jadecobra-0.3.64.tar.gz tmp/jadecobra-0.3.7.tar.gz --markdown 20230504/j/jadecobra/0.3.64-0.3.7/diff.md --exclude *.pyd
+[2023-05-04 19:15:22] INFO root fetch - processPackages [AutoGenerateMKD]: Downloading https://files.pythonhosted.org/packages/90/07/f0c1aab611c8b93cc6e533768afc38d19f836a09531b8a3dfac7b47a4964/AutoGenerateMKD-0.0.2.tar.gz
+[2023-05-04 19:15:22] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/51/d4/89232fcd20aff640d2fa3c1516ee881c112bfa797a6ac3e9828e99917450/waveforms-1.5.96.tar.gz
+[2023-05-04 19:15:22] INFO root fetch - processPackages [AutoGenerateMKD]: executing diffoscope
+[2023-05-04 19:15:22] INFO root fetch - processPackages [AutoGenerateMKD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoGenerateMKD-0.0.1.tar.gz tmp/AutoGenerateMKD-0.0.2.tar.gz --markdown 20230504/A/AutoGenerateMKD/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-04 19:15:22] INFO root fetch - processPackages [waveforms]: executing diffoscope
+[2023-05-04 19:15:22] INFO root fetch - processPackages [waveforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveforms-1.5.95.tar.gz tmp/waveforms-1.5.96.tar.gz --markdown 20230504/w/waveforms/1.5.95-1.5.96/diff.md --exclude *.pyd
+[2023-05-04 19:15:22] INFO root fetch - processPackages [async-pjsekai]: Downloading https://files.pythonhosted.org/packages/a6/e4/c1de4e719251f53d96986270e2b19635a9499721a1152efbfb5f77bfaa0f/async_pjsekai-0.0.10.dev1.tar.gz
+[2023-05-04 19:15:22] INFO root fetch - processPackages [voai]: Downloading https://files.pythonhosted.org/packages/35/ce/ce8cfc3002efe480f032f0715e7c79d44febb2ead94c1f2d9b68d586c091/voai-0.0.4.tar.gz
+[2023-05-04 19:15:22] INFO root fetch - processPackages [kube-api]: Downloading https://files.pythonhosted.org/packages/c4/da/812f9c7e6338e8f9914ba3482785f544177096ab86c0caf6e7ff542518f7/kube_api-0.1.59.tar.gz
+[2023-05-04 19:15:22] INFO root fetch - processPackages [voai]: executing diffoscope
+[2023-05-04 19:15:22] INFO root fetch - processPackages [voai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voai-0.0.3.tar.gz tmp/voai-0.0.4.tar.gz --markdown 20230504/v/voai/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-04 19:15:22] INFO root fetch - processPackages [kube-api]: executing diffoscope
+[2023-05-04 19:15:22] INFO root fetch - processPackages [kube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_api-0.1.58.tar.gz tmp/kube_api-0.1.59.tar.gz --markdown 20230504/k/kube-api/0.1.58-0.1.59/diff.md --exclude *.pyd
+[2023-05-04 19:15:22] INFO root fetch - processPackages [async-pjsekai]: executing diffoscope
+[2023-05-04 19:15:22] INFO root fetch - processPackages [async-pjsekai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_pjsekai-0.0.10.dev0.tar.gz tmp/async_pjsekai-0.0.10.dev1.tar.gz --markdown 20230504/a/async-pjsekai/0.0.10.dev0-0.0.10.dev1/diff.md --exclude *.pyd
+[2023-05-04 19:15:22] INFO root fetch - processPackages [lona-picocss]: Downloading https://files.pythonhosted.org/packages/ba/d9/8678f58c11c18fa2b2aa208b3cd03c6e86edc2b8192b60f0edfd6c69acb0/lona-picocss-0.3.tar.gz
+[2023-05-04 19:15:22] INFO root fetch - processPackages [lona-picocss]: executing diffoscope
+[2023-05-04 19:15:22] INFO root fetch - processPackages [lona-picocss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lona-picocss-0.2.tar.gz tmp/lona-picocss-0.3.tar.gz --markdown 20230504/l/lona-picocss/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-04 19:15:23] INFO root fetch - processPackages [sbioapputils]: Start processing: certora-cli-alpha-alex-more-cvlrange-meta
+[2023-05-04 19:15:23] INFO root fetch - main [MainThread]: End processing [sbioapputils]: success
+[2023-05-04 19:15:23] INFO root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: New version: [20230504.17.13.598751] Old Version: [20230504.16.38.984168]
+[2023-05-04 19:15:23] INFO root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: Downloading https://files.pythonhosted.org/packages/7b/8b/c12a8a9afd68bdd586006093468a45aa6c77eed620e7ce626acc3e4f14da/certora-cli-alpha-alex-more-cvlrange-meta-20230504.16.38.984168.tar.gz
+[2023-05-04 19:15:23] WARNING root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: Skipping package: exceeds size limit 38470457>=10485760
+[2023-05-04 19:15:23] INFO root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: Start processing: rohdeschwarz
+[2023-05-04 19:15:23] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-more-cvlrange-meta] error
+[2023-05-04 19:15:23] INFO root fetch - processPackages [rohdeschwarz]: New version: [1.9.2.dev1] Old Version: [1.9.1.dev1]
+[2023-05-04 19:15:23] INFO root fetch - processPackages [AutoGenerateMKD]: Start processing: onionrequests
+[2023-05-04 19:15:23] INFO root fetch - main [MainThread]: End processing [AutoGenerateMKD]: success
+[2023-05-04 19:15:23] INFO root fetch - processPackages [onionrequests]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-04 19:15:23] INFO root fetch - processPackages [jadecobra]: Start processing: for-django-projects
+[2023-05-04 19:15:23] INFO root fetch - main [MainThread]: End processing [jadecobra]: success
+[2023-05-04 19:15:23] INFO root fetch - processPackages [for-django-projects]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-04 19:15:23] INFO root fetch - processPackages [voai]: Start processing: pimgu
+[2023-05-04 19:15:23] INFO root fetch - processPackages [rohdeschwarz]: Downloading https://files.pythonhosted.org/packages/bf/bb/72b50f62fbeecc79381316fcc6269417547124a405e67848e431d9a1aa7c/rohdeschwarz-1.9.1.dev1.tar.gz
+[2023-05-04 19:15:23] INFO root fetch - main [MainThread]: End processing [voai]: success
+[2023-05-04 19:15:23] WARNING root fetch - processPackages [pimgu]: Skipping, unable to determine old version
+[2023-05-04 19:15:23] INFO root fetch - processPackages [pimgu]: Start processing: NikeCA
+[2023-05-04 19:15:23] INFO root fetch - main [MainThread]: End processing [pimgu] error
+[2023-05-04 19:15:23] INFO root fetch - processPackages [NikeCA]: New version: [0.1.90] Old Version: [0.1.89]
+[2023-05-04 19:15:23] INFO root fetch - processPackages [onionrequests]: Downloading https://files.pythonhosted.org/packages/ea/47/d2be95890ae62b35c2227642da6d7fd7bdcdc365ebc82b4aa07e777e060a/onionrequests-0.0.1.tar.gz
+[2023-05-04 19:15:24] INFO root fetch - processPackages [for-django-projects]: Downloading https://files.pythonhosted.org/packages/e4/b0/6d39b314c4cefdb3e24204d937ffee145d7b319f24ac9cdadacb164206a3/for-django-projects-1.0.0.tar.gz
+[2023-05-04 19:15:24] INFO root fetch - processPackages [nowcasting-forecast]: Start processing: jadecobra
+[2023-05-04 19:15:24] INFO root fetch - main [MainThread]: End processing [nowcasting-forecast]: success
+[2023-05-04 19:15:24] INFO root fetch - processPackages [jadecobra]: New version: [0.3.7] Old Version: [0.3.64]
+[2023-05-04 19:15:24] INFO root fetch - main [MainThread]: End processing [async-pjsekai]: success
+[2023-05-04 19:15:24] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/02/4b/bb7719d6fd64b2aa2fef7f4a8495fd27e9f2290d38c9a150acb07b727ce6/NikeCA-0.1.89.tar.gz
+[2023-05-04 19:15:24] INFO root fetch - processPackages [jadecobra]: executing diffoscope
+[2023-05-04 19:15:24] INFO root fetch - processPackages [jadecobra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jadecobra-0.3.64.tar.gz tmp/jadecobra-0.3.7.tar.gz --markdown 20230504/j/jadecobra/0.3.64-0.3.7/diff.md --exclude *.pyd
+[2023-05-04 19:15:24] INFO root fetch - main [MainThread]: End processing [kube-api]: success
+[2023-05-04 19:15:24] INFO root fetch - processPackages [onionrequests]: Downloading https://files.pythonhosted.org/packages/e8/84/60a688a79240f9981c9a1a10606454444bf344ede71a9f28ebd0cbe32c86/onionrequests-0.0.2.tar.gz
+[2023-05-04 19:15:24] INFO root fetch - processPackages [onionrequests]: executing diffoscope
+[2023-05-04 19:15:24] INFO root fetch - processPackages [onionrequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onionrequests-0.0.1.tar.gz tmp/onionrequests-0.0.2.tar.gz --markdown 20230504/o/onionrequests/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-04 19:15:24] INFO root fetch - processPackages [rohdeschwarz]: Downloading https://files.pythonhosted.org/packages/c6/cb/e8e8b26404d8355b718e57b3599ea37723324e5303b210a209d49231fdbb/rohdeschwarz-1.9.2.dev1.tar.gz
+[2023-05-04 19:15:24] INFO root fetch - processPackages [for-django-projects]: Downloading https://files.pythonhosted.org/packages/a9/e7/8d2bc79c7e87c4b39409ec16b320dd6a3ea469859d71feb78158954bde71/for-django-projects-1.0.1.tar.gz
+[2023-05-04 19:15:24] INFO root fetch - processPackages [for-django-projects]: executing diffoscope
+[2023-05-04 19:15:24] INFO root fetch - processPackages [for-django-projects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/for-django-projects-1.0.0.tar.gz tmp/for-django-projects-1.0.1.tar.gz --markdown 20230504/f/for-django-projects/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 19:15:24] INFO root fetch - processPackages [rohdeschwarz]: executing diffoscope
+[2023-05-04 19:15:24] INFO root fetch - processPackages [rohdeschwarz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rohdeschwarz-1.9.1.dev1.tar.gz tmp/rohdeschwarz-1.9.2.dev1.tar.gz --markdown 20230504/r/rohdeschwarz/1.9.1.dev1-1.9.2.dev1/diff.md --exclude *.pyd
+[2023-05-04 19:15:24] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
+[2023-05-04 19:15:24] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/28/19/b479bfdf65b20ee8770c1f80c9337b366a8207f91ff2eeff662c3ea79b5c/NikeCA-0.1.90.tar.gz
+[2023-05-04 19:15:24] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-05-04 19:15:24] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.89.tar.gz tmp/NikeCA-0.1.90.tar.gz --markdown 20230504/N/NikeCA/0.1.89-0.1.90/diff.md --exclude *.pyd
+[2023-05-04 19:15:25] INFO root fetch - main [MainThread]: End processing [waveforms]: success
+[2023-05-04 19:15:25] INFO root fetch - main [MainThread]: End processing [jadecobra]: success
+[2023-05-04 19:15:25] INFO root fetch - main [MainThread]: End processing [for-django-projects]: success
+[2023-05-04 19:15:25] INFO root fetch - main [MainThread]: End processing [onionrequests]: success
+[2023-05-04 19:15:25] INFO root fetch - main [MainThread]: End processing [rohdeschwarz]: success
+[2023-05-04 19:15:25] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-05-04 19:15:29] INFO root fetch - main [MainThread]: End processing [lona-picocss]: success
+[2023-05-04 19:15:29] INFO root fetch - main [MainThread]: Store serial: [17975380]
