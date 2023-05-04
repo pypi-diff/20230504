@@ -5736,3 +5736,52 @@
 [2023-05-04 04:33:14] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
 [2023-05-04 04:33:15] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
 [2023-05-04 04:33:15] INFO root fetch - main [MainThread]: Store serial: [17966559]
+[2023-05-04 04:38:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966559]
+[2023-05-04 04:38:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-04 04:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyghostdb
+[2023-05-04 04:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: immsubtype-utils
+[2023-05-04 04:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: base-system
+[2023-05-04 04:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: klp-commons
+[2023-05-04 04:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvm
+[2023-05-04 04:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reviewbot-worker
+[2023-05-04 04:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-artifacts-parser
+[2023-05-04 04:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qa-keys-test
+[2023-05-04 04:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: w2-utils
+[2023-05-04 04:38:23] INFO root fetch - processPackages [base-system]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-04 04:38:23] WARNING root fetch - processPackages [pyghostdb]: Skipping, unable to determine old version
+[2023-05-04 04:38:23] INFO root fetch - main [MainThread]: End processing [pyghostdb] error
+[2023-05-04 04:38:23] WARNING root fetch - processPackages [immsubtype-utils]: Skipping, unable to determine old version
+[2023-05-04 04:38:23] INFO root fetch - main [MainThread]: End processing [immsubtype-utils] error
+[2023-05-04 04:38:23] INFO root fetch - processPackages [reviewbot-worker]: New version: [3.2] Old Version: [3.1.1]
+[2023-05-04 04:38:23] INFO root fetch - processPackages [nvm]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-04 04:38:23] INFO root fetch - processPackages [klp-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 04:38:23] INFO root fetch - processPackages [qa-keys-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 04:38:23] INFO root fetch - processPackages [dbt-artifacts-parser]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-04 04:38:23] WARNING root fetch - processPackages [w2-utils]: Skipping, unable to determine old version
+[2023-05-04 04:38:23] INFO root fetch - main [MainThread]: End processing [w2-utils] error
+[2023-05-04 04:38:24] INFO root fetch - processPackages [base-system]: Downloading https://files.pythonhosted.org/packages/63/b9/3bcdecdaba345ca8bd12e3192bf688068d7f6399370a19dbe9be0d98f482/base_system-0.1.6.tar.gz
+[2023-05-04 04:38:24] INFO root fetch - processPackages [qa-keys-test]: executing diffoscope
+[2023-05-04 04:38:24] INFO root fetch - processPackages [qa-keys-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qa-keys-test-0.0.8.tar.gz tmp/qa-keys-test-0.0.9.tar.gz --markdown 20230504/q/qa-keys-test/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 04:38:24] INFO root fetch - processPackages [klp-commons]: executing diffoscope
+[2023-05-04 04:38:24] INFO root fetch - processPackages [klp-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klp-commons-0.0.8.tar.gz tmp/klp-commons-0.0.9.tar.gz --markdown 20230504/k/klp-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 04:38:24] INFO root fetch - processPackages [nvm]: Downloading https://files.pythonhosted.org/packages/2c/c5/5f5649c1988469aa657975b7e5409f5b54ae03d1a543932e609db37e26cb/nvm-0.0.4.tar.gz
+[2023-05-04 04:38:24] INFO root fetch - processPackages [dbt-artifacts-parser]: Downloading https://files.pythonhosted.org/packages/5b/7f/ffec8b0558fd62867c7c1824c98a86bc1052af876841fce28bb960aaaa54/dbt-artifacts-parser-0.3.0.tar.gz
+[2023-05-04 04:38:24] INFO root fetch - processPackages [nvm]: executing diffoscope
+[2023-05-04 04:38:24] INFO root fetch - processPackages [nvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvm-0.0.2.tar.gz tmp/nvm-0.0.4.tar.gz --markdown 20230504/n/nvm/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-04 04:38:24] INFO root fetch - processPackages [base-system]: Downloading https://files.pythonhosted.org/packages/bb/23/b314bb97eec4a668895619a9abecbaea07200958fe8e5e287bb2a76ddca9/base_system-0.1.7.tar.gz
+[2023-05-04 04:38:24] INFO root fetch - processPackages [reviewbot-worker]: Downloading https://files.pythonhosted.org/packages/1f/15/dabc2edb1212f0a39fd4957082bdc6a6f5b9c0b674403ec1eb7b65feb90e/reviewbot-worker-3.1.1.tar.gz
+[2023-05-04 04:38:24] INFO root fetch - processPackages [base-system]: executing diffoscope
+[2023-05-04 04:38:24] INFO root fetch - processPackages [base-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/base_system-0.1.6.tar.gz tmp/base_system-0.1.7.tar.gz --markdown 20230504/b/base-system/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-04 04:38:24] INFO root fetch - processPackages [reviewbot-worker]: Downloading https://files.pythonhosted.org/packages/6b/c3/dc0632307eb33c33f6762a6a057a1bd9d0bcff8a87a359f2c88dfaea7059/reviewbot-worker-3.2.tar.gz
+[2023-05-04 04:38:24] INFO root fetch - processPackages [reviewbot-worker]: executing diffoscope
+[2023-05-04 04:38:24] INFO root fetch - processPackages [reviewbot-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reviewbot-worker-3.1.1.tar.gz tmp/reviewbot-worker-3.2.tar.gz --markdown 20230504/r/reviewbot-worker/3.1.1-3.2/diff.md --exclude *.pyd
+[2023-05-04 04:38:24] INFO root fetch - processPackages [dbt-artifacts-parser]: Downloading https://files.pythonhosted.org/packages/f3/ab/b439ba5d4514245875e48b27ab7a2f4365205806556408fef9e4c429db21/dbt-artifacts-parser-0.3.1.tar.gz
+[2023-05-04 04:38:24] INFO root fetch - processPackages [dbt-artifacts-parser]: executing diffoscope
+[2023-05-04 04:38:24] INFO root fetch - processPackages [dbt-artifacts-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-artifacts-parser-0.3.0.tar.gz tmp/dbt-artifacts-parser-0.3.1.tar.gz --markdown 20230504/d/dbt-artifacts-parser/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-04 04:38:25] INFO root fetch - main [MainThread]: End processing [qa-keys-test]: success
+[2023-05-04 04:38:25] INFO root fetch - main [MainThread]: End processing [nvm]: success
+[2023-05-04 04:38:25] INFO root fetch - main [MainThread]: End processing [base-system]: success
+[2023-05-04 04:38:26] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
+[2023-05-04 04:38:26] INFO root fetch - main [MainThread]: End processing [reviewbot-worker]: success
+[2023-05-04 04:38:26] INFO root fetch - main [MainThread]: End processing [dbt-artifacts-parser]: success
+[2023-05-04 04:38:26] INFO root fetch - main [MainThread]: Store serial: [17966594]
