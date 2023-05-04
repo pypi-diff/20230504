@@ -7305,3 +7305,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 06:40:36] INFO root fetch - main [MainThread]: End processing [minidatabase]: success
 [2023-05-04 06:40:37] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
 [2023-05-04 06:40:37] INFO root fetch - main [MainThread]: Store serial: [17967413]
+[2023-05-04 06:45:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967413]
+[2023-05-04 06:45:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-04 06:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: power-analysis
+[2023-05-04 06:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pz-rail
+[2023-05-04 06:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crms
+[2023-05-04 06:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stocktracer
+[2023-05-04 06:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openhab-pythonrule-engine
+[2023-05-04 06:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kangas
+[2023-05-04 06:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kBmc
+[2023-05-04 06:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: manifest-ml
+[2023-05-04 06:45:45] INFO root fetch - processPackages [power-analysis]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 06:45:45] INFO root fetch - processPackages [kangas]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-05-04 06:45:45] INFO root fetch - processPackages [openhab-pythonrule-engine]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-04 06:45:45] INFO root fetch - processPackages [pz-rail]: New version: [0.98.4] Old Version: [0.98.2]
+[2023-05-04 06:45:45] INFO root fetch - processPackages [kBmc]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-04 06:45:45] INFO root fetch - processPackages [crms]: New version: [2023.5.3.1340] Old Version: [2023.4.5.1739]
+[2023-05-04 06:45:45] WARNING root fetch - processPackages [stocktracer]: Skipping, unable to determine old version
+[2023-05-04 06:45:45] INFO root fetch - main [MainThread]: End processing [stocktracer] error
+[2023-05-04 06:45:45] INFO root fetch - processPackages [manifest-ml]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-04 06:45:45] INFO root fetch - processPackages [kBmc]: executing diffoscope
+[2023-05-04 06:45:45] INFO root fetch - processPackages [kBmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kBmc-2.1.8.tar.gz tmp/kBmc-2.1.9.tar.gz --markdown 20230504/k/kBmc/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-04 06:45:45] INFO root fetch - processPackages [kangas]: Downloading https://files.pythonhosted.org/packages/bd/5e/0647da874a1b180b05db7ba4bba88e3cc820a80350e605f1b6898b2c208b/kangas-2.3.6-py3-none-any.whl
+[2023-05-04 06:45:45] INFO root fetch - processPackages [power-analysis]: Downloading https://files.pythonhosted.org/packages/60/c3/e4f52b52ac0af436b4ecceea5c91d6a88e09b0fc8fe1457798c1b8af9861/power_analysis-0.1.0.tar.gz
+[2023-05-04 06:45:45] INFO root fetch - processPackages [pz-rail]: Downloading https://files.pythonhosted.org/packages/2c/0b/24445c990aed2dcdb08a512cb034dad3b43d06d62eb02ca06803dfb64a34/pz-rail-0.98.2.tar.gz
+[2023-05-04 06:45:46] INFO root fetch - processPackages [crms]: Downloading https://files.pythonhosted.org/packages/75/ec/31fc26514db92f9c6ddafcd502e6f5cbe6b57a0e799018b7d9b67b562fce/crms-2023.4.5.1739.tar.gz
+[2023-05-04 06:45:46] WARNING root fetch - processPackages [kangas]: Skipping package: exceeds size limit 15706592>=10485760
+[2023-05-04 06:45:46] INFO root fetch - main [MainThread]: End processing [kangas] error
+[2023-05-04 06:45:46] INFO root fetch - processPackages [openhab-pythonrule-engine]: executing diffoscope
+[2023-05-04 06:45:46] INFO root fetch - processPackages [openhab-pythonrule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhab_pythonrule_engine-1.1.8.tar.gz tmp/openhab_pythonrule_engine-1.1.9.tar.gz --markdown 20230504/o/openhab-pythonrule-engine/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-04 06:45:46] INFO root fetch - processPackages [manifest-ml]: Downloading https://files.pythonhosted.org/packages/2c/d6/da38cca29c2b3789fb9140632a16d24a281ea63d2b8f7d41f1de36c416c7/manifest-ml-0.1.4.tar.gz
+[2023-05-04 06:45:46] WARNING root fetch - processPackages [pz-rail]: Skipping package: exceeds size limit 12630053>=10485760
+[2023-05-04 06:45:46] INFO root fetch - main [MainThread]: End processing [pz-rail] error
+[2023-05-04 06:45:46] INFO root fetch - processPackages [power-analysis]: Downloading https://files.pythonhosted.org/packages/9c/24/d3071b00e61aeec2bb9b9deb74bcf573e4e8b56c5e5fde1c8cd3e4056f26/power_analysis-0.1.1.tar.gz
+[2023-05-04 06:45:46] INFO root fetch - processPackages [power-analysis]: executing diffoscope
+[2023-05-04 06:45:46] INFO root fetch - processPackages [power-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power_analysis-0.1.0.tar.gz tmp/power_analysis-0.1.1.tar.gz --markdown 20230504/p/power-analysis/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 06:45:46] INFO root fetch - processPackages [manifest-ml]: Downloading https://files.pythonhosted.org/packages/d2/9a/93c85a4b3bd46822a925eab5cb23da1970a505a3711ca6c09a2811ba9b81/manifest-ml-0.1.5.tar.gz
+[2023-05-04 06:45:46] INFO root fetch - processPackages [manifest-ml]: executing diffoscope
+[2023-05-04 06:45:46] INFO root fetch - processPackages [manifest-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manifest-ml-0.1.4.tar.gz tmp/manifest-ml-0.1.5.tar.gz --markdown 20230504/m/manifest-ml/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-04 06:45:47] INFO root fetch - main [MainThread]: End processing [openhab-pythonrule-engine]: success
+[2023-05-04 06:45:47] INFO root fetch - processPackages [crms]: Downloading https://files.pythonhosted.org/packages/ab/d0/418b00d555c59cc02b88034f226d171c219a3c69cf1b773bdf233b15c6ec/crms-2023.5.3.1340.tar.gz
+[2023-05-04 06:45:47] INFO root fetch - main [MainThread]: End processing [kBmc]: success
+[2023-05-04 06:45:47] INFO root fetch - main [MainThread]: End processing [power-analysis]: success
+[2023-05-04 06:45:47] INFO root fetch - processPackages [crms]: executing diffoscope
+[2023-05-04 06:45:47] INFO root fetch - processPackages [crms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crms-2023.4.5.1739.tar.gz tmp/crms-2023.5.3.1340.tar.gz --markdown 20230504/c/crms/2023.4.5.1739-2023.5.3.1340/diff.md --exclude *.pyd
+[2023-05-04 06:45:47] INFO root fetch - main [MainThread]: End processing [manifest-ml]: success
+[2023-05-04 06:45:53] INFO root fetch - main [MainThread]: End processing [crms]: success
+[2023-05-04 06:45:53] INFO root fetch - main [MainThread]: Store serial: [17967436]
