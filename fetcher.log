@@ -15313,3 +15313,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 14:39:42] INFO root fetch - main [MainThread]: End processing [shapash]: success
 [2023-05-04 14:39:44] INFO root fetch - main [MainThread]: End processing [ipython]: success
 [2023-05-04 14:39:44] INFO root fetch - main [MainThread]: Store serial: [17972161]
+[2023-05-04 14:44:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17972161]
+[2023-05-04 14:44:53] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-04 14:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlalchemy-gql
+[2023-05-04 14:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rayvision-api
+[2023-05-04 14:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorcircuit-nightly
+[2023-05-04 14:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oblv-ctl
+[2023-05-04 14:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-yaml-schema-plugin
+[2023-05-04 14:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: elm-messenger
+[2023-05-04 14:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: textract2page
+[2023-05-04 14:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tdasha
+[2023-05-04 14:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hash-hound
+[2023-05-04 14:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jupyter-s3contents
+[2023-05-04 14:44:53] INFO root fetch - processPackages [sqlalchemy-gql]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-04 14:44:53] INFO root fetch - processPackages [oblv-ctl]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-04 14:44:53] INFO root fetch - processPackages [elm-messenger]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 14:44:53] INFO root fetch - processPackages [mkdocs-yaml-schema-plugin]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-04 14:44:53] WARNING root fetch - processPackages [hash-hound]: Skipping, unable to determine old version
+[2023-05-04 14:44:53] WARNING root fetch - processPackages [jupyter-s3contents]: Skipping, unable to determine old version
+[2023-05-04 14:44:53] INFO root fetch - processPackages [hash-hound]: Start processing: LaueTools
+[2023-05-04 14:44:53] WARNING root fetch - processPackages [textract2page]: Skipping, unable to determine old version
+[2023-05-04 14:44:53] INFO root fetch - processPackages [jupyter-s3contents]: Start processing: matfree
+[2023-05-04 14:44:53] INFO root fetch - main [MainThread]: End processing [hash-hound] error
+[2023-05-04 14:44:53] INFO root fetch - processPackages [rayvision-api]: New version: [3.0.3.1] Old Version: [3.0.1]
+[2023-05-04 14:44:53] INFO root fetch - main [MainThread]: End processing [jupyter-s3contents] error
+[2023-05-04 14:44:53] INFO root fetch - main [MainThread]: End processing [textract2page] error
+[2023-05-04 14:44:53] WARNING root fetch - processPackages [tdasha]: Skipping, unable to determine old version
+[2023-05-04 14:44:53] INFO root fetch - main [MainThread]: End processing [tdasha] error
+[2023-05-04 14:44:53] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.8.0.dev20230503] Old Version: [0.8.0.dev20230502]
+[2023-05-04 14:44:53] INFO root fetch - processPackages [sqlalchemy-gql]: executing diffoscope
+[2023-05-04 14:44:53] INFO root fetch - processPackages [sqlalchemy-gql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-gql-1.3.8.tar.gz tmp/sqlalchemy-gql-1.3.9.tar.gz --markdown 20230504/s/sqlalchemy-gql/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-04 14:44:53] INFO root fetch - processPackages [oblv-ctl]: Downloading https://files.pythonhosted.org/packages/e3/33/1b5e490e1424edff91c244cd6c4d40035b4599522548b41a26c89793e3d0/oblv-ctl-0.3.0.tar.gz
+[2023-05-04 14:44:53] INFO root fetch - processPackages [elm-messenger]: Downloading https://files.pythonhosted.org/packages/62/eb/13b4e72df847f383170f8c5b30ba7a91ec52e4e61b11831025c8c96cfb6a/elm-messenger-0.1.1.tar.gz
+[2023-05-04 14:44:53] INFO root fetch - processPackages [matfree]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-04 14:44:53] INFO root fetch - processPackages [LaueTools]: New version: [3.0.64] Old Version: [3.0.63]
+[2023-05-04 14:44:53] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/01/41/30dd8398e11fe5016c377518510c7fe7c7e34fb85521102d2305ff075f8d/tensorcircuit-nightly-0.8.0.dev20230503.tar.gz
+[2023-05-04 14:44:53] INFO root fetch - processPackages [rayvision-api]: Downloading https://files.pythonhosted.org/packages/10/e1/d418480db84e4729d5e8dccdde08699327e7a826b99ff04fbcbe35eaaccd/rayvision_api-3.0.1.tar.gz
+[2023-05-04 14:44:53] INFO root fetch - processPackages [mkdocs-yaml-schema-plugin]: Downloading https://files.pythonhosted.org/packages/01/5e/be5a2dbd5a21dac4a003c18b0fed7d2d04d8615ccdf77ab1cad1f3292b75/mkdocs-yaml-schema-plugin-0.2.2.tar.gz
+[2023-05-04 14:44:53] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-05-04 14:44:53] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.8.0.dev20230502.tar.gz tmp/tensorcircuit-nightly-0.8.0.dev20230503.tar.gz --markdown 20230504/t/tensorcircuit-nightly/0.8.0.dev20230502-0.8.0.dev20230503/diff.md --exclude *.pyd
+[2023-05-04 14:44:53] INFO root fetch - processPackages [elm-messenger]: Downloading https://files.pythonhosted.org/packages/65/7e/d4c507427c057b5f3ba2a52e93062fd7a20607f1885b4383d7677ea7d23e/elm-messenger-0.1.2.tar.gz
+[2023-05-04 14:44:53] INFO root fetch - processPackages [oblv-ctl]: Downloading https://files.pythonhosted.org/packages/4f/95/fc33ada4a2fd3e986f26fc7e1a469b8488009740c388dcb0f20bdb68809e/oblv_ctl-0.3.1.tar.gz
+[2023-05-04 14:44:53] INFO root fetch - processPackages [matfree]: Downloading https://files.pythonhosted.org/packages/d2/b8/89864fdc5fc6b7136fe1bcdc9ea1d63c5cd2345d750f4f97423701f63aef/matfree-0.0.3.tar.gz
+[2023-05-04 14:44:53] INFO root fetch - processPackages [LaueTools]: Downloading https://files.pythonhosted.org/packages/ed/f1/ede66087979a1a646539b2424e84bbf36334d0be28b9e92ec855f144273a/LaueTools-3.0.63.tar.gz
+[2023-05-04 14:44:53] INFO root fetch - processPackages [mkdocs-yaml-schema-plugin]: Downloading https://files.pythonhosted.org/packages/b2/69/deb8ee2d4afaa52a35c31158092196ff0931fe684bb60edc6ada998751f1/mkdocs-yaml-schema-plugin-0.2.3.tar.gz
+[2023-05-04 14:44:53] INFO root fetch - processPackages [oblv-ctl]: executing diffoscope
+[2023-05-04 14:44:53] INFO root fetch - processPackages [oblv-ctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oblv-ctl-0.3.0.tar.gz tmp/oblv_ctl-0.3.1.tar.gz --markdown 20230504/o/oblv-ctl/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-04 14:44:53] WARNING root fetch - processPackages [LaueTools]: Skipping package: exceeds size limit 48276991>=10485760
+[2023-05-04 14:44:53] INFO root fetch - main [MainThread]: End processing [LaueTools] error
+[2023-05-04 14:44:53] INFO root fetch - processPackages [elm-messenger]: executing diffoscope
+[2023-05-04 14:44:53] INFO root fetch - processPackages [elm-messenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elm-messenger-0.1.1.tar.gz tmp/elm-messenger-0.1.2.tar.gz --markdown 20230504/e/elm-messenger/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 14:44:53] INFO root fetch - processPackages [mkdocs-yaml-schema-plugin]: executing diffoscope
+[2023-05-04 14:44:53] INFO root fetch - processPackages [mkdocs-yaml-schema-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-yaml-schema-plugin-0.2.2.tar.gz tmp/mkdocs-yaml-schema-plugin-0.2.3.tar.gz --markdown 20230504/m/mkdocs-yaml-schema-plugin/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-04 14:44:53] INFO root fetch - processPackages [rayvision-api]: Downloading https://files.pythonhosted.org/packages/53/7e/0743d0c60bbea9f39dd92f653b873401450ecef3ee7cda5b4c1d347960fa/rayvision_api-3.0.3.1.tar.gz
+[2023-05-04 14:44:53] INFO root fetch - processPackages [rayvision-api]: executing diffoscope
+[2023-05-04 14:44:53] INFO root fetch - processPackages [rayvision-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayvision_api-3.0.1.tar.gz tmp/rayvision_api-3.0.3.1.tar.gz --markdown 20230504/r/rayvision-api/3.0.1-3.0.3.1/diff.md --exclude *.pyd
+[2023-05-04 14:44:54] INFO root fetch - processPackages [matfree]: Downloading https://files.pythonhosted.org/packages/76/e9/5fd6ec3d14f3b1fcd760a4d7296bb197ad2c4d9f7150dacfbcc05e4aae8b/matfree-0.0.4.tar.gz
+[2023-05-04 14:44:54] INFO root fetch - processPackages [matfree]: executing diffoscope
+[2023-05-04 14:44:54] INFO root fetch - processPackages [matfree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matfree-0.0.3.tar.gz tmp/matfree-0.0.4.tar.gz --markdown 20230504/m/matfree/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-04 14:44:54] INFO root fetch - main [MainThread]: End processing [sqlalchemy-gql]: success
+[2023-05-04 14:44:54] INFO root fetch - main [MainThread]: End processing [elm-messenger]: success
+[2023-05-04 14:44:55] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-05-04 14:44:55] INFO root fetch - main [MainThread]: End processing [mkdocs-yaml-schema-plugin]: success
+[2023-05-04 14:44:55] INFO root fetch - main [MainThread]: End processing [oblv-ctl]: success
+[2023-05-04 14:44:55] INFO root fetch - main [MainThread]: End processing [rayvision-api]: success
+[2023-05-04 14:44:55] INFO root fetch - main [MainThread]: End processing [matfree]: success
+[2023-05-04 14:44:55] INFO root fetch - main [MainThread]: Store serial: [17972212]
