@@ -15780,3 +15780,138 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 15:06:57] INFO root fetch - main [MainThread]: End processing [mstrio-py]: success
 [2023-05-04 15:06:58] INFO root fetch - main [MainThread]: End processing [pytos2-ce]: success
 [2023-05-04 15:06:58] INFO root fetch - main [MainThread]: Store serial: [17972448]
+[2023-05-04 15:12:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17972448]
+[2023-05-04 15:12:07] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-04 15:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-stdlib
+[2023-05-04 15:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: canonical
+[2023-05-04 15:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openxes-cli-py
+[2023-05-04 15:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emmett-prometheus
+[2023-05-04 15:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tupa123
+[2023-05-04 15:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytos2-ce
+[2023-05-04 15:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: into-dbus-python
+[2023-05-04 15:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-otakar-single-race-mode2
+[2023-05-04 15:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-numpy
+[2023-05-04 15:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bridgecrew
+[2023-05-04 15:12:07] INFO root fetch - processPackages [emmett-prometheus]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-04 15:12:07] INFO root fetch - processPackages [openxes-cli-py]: New version: [0.1.5] Old Version: [0.1.2]
+[2023-05-04 15:12:07] INFO root fetch - processPackages [canonical]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-04 15:12:07] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: New version: [20230504.9.59.715367] Old Version: [20230504.7.14.754863]
+[2023-05-04 15:12:07] INFO root fetch - processPackages [pytos2-ce]: New version: [2.3.13] Old Version: [2.3.11]
+[2023-05-04 15:12:07] INFO root fetch - processPackages [tupa123]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-05-04 15:12:07] INFO root fetch - processPackages [into-dbus-python]: New version: [0.8.2] Old Version: [0.8]
+[2023-05-04 15:12:07] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-04 15:12:07] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-04 15:12:07] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-04 15:12:07] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Downloading https://files.pythonhosted.org/packages/22/00/47d381bfcfb8a2f0f0b571545e881ead0ece177e6a4d6e733008956433d4/certora-cli-alpha-otakar-single_race_mode2-20230504.7.14.754863.tar.gz
+[2023-05-04 15:12:07] INFO root fetch - processPackages [openxes-cli-py]: Downloading https://files.pythonhosted.org/packages/92/90/f1c9bafdb39a2439cf72137a0e1b1477cfc11a6f1ee611abf62ebcbbebc5/openxes_cli_py-0.1.2.tar.gz
+[2023-05-04 15:12:07] WARNING root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Skipping package: exceeds size limit 38420702>=10485760
+[2023-05-04 15:12:07] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Start processing: ChordScaleWizard
+[2023-05-04 15:12:07] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-otakar-single-race-mode2] error
+[2023-05-04 15:12:07] INFO root fetch - processPackages [tupa123]: Downloading https://files.pythonhosted.org/packages/69/4d/447a059b1f6a0bc12fbda9f980c3ed10466d0d302959b3f065a9c4d0aaac/tupa123-1.4.6.tar.gz
+[2023-05-04 15:12:07] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-04 15:12:07] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230504/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-04 15:12:07] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-04 15:12:07] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230504/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-04 15:12:07] INFO root fetch - processPackages [into-dbus-python]: Downloading https://files.pythonhosted.org/packages/d6/02/32987a5c3d5b881d65a4c109fbaad6b058504b874143250d92f80f3b9905/into-dbus-python-0.8.tar.gz
+[2023-05-04 15:12:07] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-04 15:12:07] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230504/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-04 15:12:07] INFO root fetch - processPackages [emmett-prometheus]: Downloading https://files.pythonhosted.org/packages/14/9f/2b9d954b03d5f99429237538c0ace61fd97e9303adb5c59f353faf84cebd/emmett_prometheus-0.1.5.tar.gz
+[2023-05-04 15:12:08] ERROR root fetch - processPackages [ChordScaleWizard]: Unable to get metadata: No such project 'ChordScaleWizard'
+[2023-05-04 15:12:08] INFO root fetch - processPackages [pytos2-ce]: Downloading https://files.pythonhosted.org/packages/3c/d6/5101a9e78566120360de01e46ed5c85ff880220a4475724b760ba30c4cd7/pytos2-ce-2.3.13.tar.gz
+[2023-05-04 15:12:08] INFO root fetch - processPackages [ChordScaleWizard]: Start processing: pyshtools
+[2023-05-04 15:12:08] INFO root fetch - main [MainThread]: End processing [ChordScaleWizard] error
+[2023-05-04 15:12:08] INFO root fetch - processPackages [emmett-prometheus]: executing diffoscope
+[2023-05-04 15:12:08] INFO root fetch - processPackages [emmett-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmett_prometheus-0.1.4.tar.gz tmp/emmett_prometheus-0.1.5.tar.gz --markdown 20230504/e/emmett-prometheus/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-04 15:12:08] INFO root fetch - processPackages [pyshtools]: New version: [4.9.1] Old Version: [4.8]
+[2023-05-04 15:12:08] INFO root fetch - processPackages [pytos2-ce]: executing diffoscope
+[2023-05-04 15:12:08] INFO root fetch - processPackages [pytos2-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytos2-ce-2.3.11.tar.gz tmp/pytos2-ce-2.3.13.tar.gz --markdown 20230504/p/pytos2-ce/2.3.11-2.3.13/diff.md --exclude *.pyd
+[2023-05-04 15:12:08] INFO root fetch - processPackages [tupa123]: Downloading https://files.pythonhosted.org/packages/ba/b9/52c9360dd2a07dca57c70e29ed192d671c4da9b994e90b5115c950465950/tupa123-1.4.7.tar.gz
+[2023-05-04 15:12:08] INFO root fetch - processPackages [openxes-cli-py]: Downloading https://files.pythonhosted.org/packages/c9/3a/28f2f45979179615aab0faa752a5df20b187137c2ae45b05e4febf65df4b/openxes_cli_py-0.1.5.tar.gz
+[2023-05-04 15:12:08] INFO root fetch - processPackages [canonical]: executing diffoscope
+[2023-05-04 15:12:08] INFO root fetch - processPackages [canonical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canonical-0.8.0.tar.gz tmp/canonical-0.9.0.tar.gz --markdown 20230504/c/canonical/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 15:12:08] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-05-04 15:12:08] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.4.6.tar.gz tmp/tupa123-1.4.7.tar.gz --markdown 20230504/t/tupa123/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-05-04 15:12:08] INFO root fetch - processPackages [openxes-cli-py]: executing diffoscope
+[2023-05-04 15:12:08] INFO root fetch - processPackages [openxes-cli-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openxes_cli_py-0.1.2.tar.gz tmp/openxes_cli_py-0.1.5.tar.gz --markdown 20230504/o/openxes-cli-py/0.1.2-0.1.5/diff.md --exclude *.pyd
+[2023-05-04 15:12:08] INFO root fetch - processPackages [pyshtools]: Downloading https://files.pythonhosted.org/packages/28/9b/9ae96312f9be2289eaf0e4953e7889c3db2724624d43d55585d684ef3a73/pyshtools-4.8.tar.gz
+[2023-05-04 15:12:08] INFO root fetch - processPackages [into-dbus-python]: Downloading https://files.pythonhosted.org/packages/8e/fa/b2bd260802048ce8e67d924038335956bbcdb2e913505c925240c4a279ce/into-dbus-python-0.8.2.tar.gz
+[2023-05-04 15:12:08] INFO root fetch - processPackages [into-dbus-python]: executing diffoscope
+[2023-05-04 15:12:08] INFO root fetch - processPackages [into-dbus-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/into-dbus-python-0.8.tar.gz tmp/into-dbus-python-0.8.2.tar.gz --markdown 20230504/i/into-dbus-python/0.8-0.8.2/diff.md --exclude *.pyd
+[2023-05-04 15:12:08] WARNING root fetch - processPackages [pyshtools]: Skipping package: exceeds size limit 85733910>=10485760
+[2023-05-04 15:12:08] INFO root fetch - processPackages [pyshtools]: Start processing: bioplotz
+[2023-05-04 15:12:08] INFO root fetch - main [MainThread]: End processing [pyshtools] error
+[2023-05-04 15:12:08] INFO root fetch - processPackages [bioplotz]: New version: [0.1.0.dev3] Old Version: [0.1.0.dev2]
+[2023-05-04 15:12:08] INFO root fetch - processPackages [bioplotz]: Downloading https://files.pythonhosted.org/packages/3d/32/42650cdfad2b54501c85b1a0c68d77ae8c645725cb0fc6514038387f7c8c/bioplotz-0.1.0.dev3.tar.gz
+[2023-05-04 15:12:09] INFO root fetch - processPackages [bioplotz]: executing diffoscope
+[2023-05-04 15:12:09] INFO root fetch - processPackages [bioplotz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioplotz-0.1.0.dev2.tar.gz tmp/bioplotz-0.1.0.dev3.tar.gz --markdown 20230504/b/bioplotz/0.1.0.dev2-0.1.0.dev3/diff.md --exclude *.pyd
+[2023-05-04 15:12:09] INFO root fetch - processPackages [bridgecrew]: Start processing: plot-data
+[2023-05-04 15:12:09] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-04 15:12:09] INFO root fetch - processPackages [plot-data]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-05-04 15:12:09] INFO root fetch - processPackages [plot-data]: executing diffoscope
+[2023-05-04 15:12:09] INFO root fetch - processPackages [plot-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plot_data-0.8.5.tar.gz tmp/plot_data-0.9.0.tar.gz --markdown 20230504/p/plot-data/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 15:12:09] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: nbdev-pandas
+[2023-05-04 15:12:09] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-04 15:12:09] INFO root fetch - processPackages [tupa123]: Start processing: ambient-toolbox
+[2023-05-04 15:12:09] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-05-04 15:12:09] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-04 15:12:09] INFO root fetch - processPackages [ambient-toolbox]: New version: [8.0.1] Old Version: [8.0.0]
+[2023-05-04 15:12:09] INFO root fetch - processPackages [emmett-prometheus]: Start processing: autumn8
+[2023-05-04 15:12:09] INFO root fetch - main [MainThread]: End processing [emmett-prometheus]: success
+[2023-05-04 15:12:09] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-04 15:12:09] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230504/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-04 15:12:09] INFO root fetch - processPackages [ambient-toolbox]: Downloading https://files.pythonhosted.org/packages/83/f0/618f7833a503c9fbd82906d96d3a6cb5d908abadda1b4d560ad65c05ca28/ambient-toolbox-8.0.0.tar.gz
+[2023-05-04 15:12:10] INFO root fetch - processPackages [canonical]: Start processing: vwo-python-sdk
+[2023-05-04 15:12:10] INFO root fetch - main [MainThread]: End processing [canonical]: success
+[2023-05-04 15:12:10] INFO root fetch - processPackages [autumn8]: New version: [1.0.2rc7] Old Version: [1.0.2rc6]
+[2023-05-04 15:12:10] INFO root fetch - processPackages [vwo-python-sdk]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-05-04 15:12:10] INFO root fetch - processPackages [ambient-toolbox]: Downloading https://files.pythonhosted.org/packages/9a/92/e49e01e99587c4f00fe14f709c6d3acd933f98d222a94aabd6a1e843663e/ambient-toolbox-8.0.1.tar.gz
+[2023-05-04 15:12:10] INFO root fetch - processPackages [ambient-toolbox]: executing diffoscope
+[2023-05-04 15:12:10] INFO root fetch - processPackages [ambient-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient-toolbox-8.0.0.tar.gz tmp/ambient-toolbox-8.0.1.tar.gz --markdown 20230504/a/ambient-toolbox/8.0.0-8.0.1/diff.md --exclude *.pyd
+[2023-05-04 15:12:10] INFO root fetch - processPackages [autumn8]: Downloading https://files.pythonhosted.org/packages/5b/56/6b16683f39d57f8b52d68af0617ad9c436efe1228fd0d4cda811ae7c78da/autumn8-1.0.2rc6.tar.gz
+[2023-05-04 15:12:10] INFO root fetch - processPackages [nbdev-numpy]: Start processing: tartanair
+[2023-05-04 15:12:10] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-04 15:12:10] INFO root fetch - processPackages [vwo-python-sdk]: Downloading https://files.pythonhosted.org/packages/43/9e/831877c33ce8e4f020b1efcae45cc76f3cf9f114301cf91c925dadedbad4/vwo-python-sdk-1.8.2.tar.gz
+[2023-05-04 15:12:10] INFO root fetch - processPackages [into-dbus-python]: Start processing: pyfields
+[2023-05-04 15:12:10] INFO root fetch - main [MainThread]: End processing [into-dbus-python]: success
+[2023-05-04 15:12:10] INFO root fetch - processPackages [tartanair]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-04 15:12:10] INFO root fetch - processPackages [pyfields]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-05-04 15:12:10] INFO root fetch - processPackages [autumn8]: Downloading https://files.pythonhosted.org/packages/dd/33/77093b7c5ca96b65f6b489086203a0ec6cc8fc360c5576f80863bddc86b8/autumn8-1.0.2rc7.tar.gz
+[2023-05-04 15:12:10] INFO root fetch - processPackages [bioplotz]: Start processing: papai-public
+[2023-05-04 15:12:10] INFO root fetch - main [MainThread]: End processing [bioplotz]: success
+[2023-05-04 15:12:10] INFO root fetch - processPackages [papai-public]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 15:12:10] INFO root fetch - processPackages [tartanair]: Downloading https://files.pythonhosted.org/packages/fe/29/a8aabc857416f4a53050e2c1c03ec49b8486ea2ca489325657a6b8282e96/tartanair-1.0.2.tar.gz
+[2023-05-04 15:12:10] INFO root fetch - processPackages [vwo-python-sdk]: Downloading https://files.pythonhosted.org/packages/da/72/3c1b74f57b5b647b27a01d8c3a65b25ee7acc4aa566fa905f1dde110e5d2/vwo-python-sdk-1.9.0.tar.gz
+[2023-05-04 15:12:10] INFO root fetch - processPackages [papai-public]: executing diffoscope
+[2023-05-04 15:12:10] INFO root fetch - processPackages [papai-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papai_public-0.1.8.tar.gz tmp/papai_public-0.1.9.tar.gz --markdown 20230504/p/papai-public/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 15:12:10] INFO root fetch - processPackages [autumn8]: executing diffoscope
+[2023-05-04 15:12:10] INFO root fetch - processPackages [pyfields]: Downloading https://files.pythonhosted.org/packages/a2/0e/72b2de5558573ab4df18b766c8b9b36439f0b04880719e2d30185e49e790/pyfields-1.7.0.tar.gz
+[2023-05-04 15:12:10] INFO root fetch - processPackages [autumn8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autumn8-1.0.2rc6.tar.gz tmp/autumn8-1.0.2rc7.tar.gz --markdown 20230504/a/autumn8/1.0.2rc6-1.0.2rc7/diff.md --exclude *.pyd
+[2023-05-04 15:12:10] INFO root fetch - processPackages [tartanair]: Downloading https://files.pythonhosted.org/packages/38/8d/a2bda697ed97f3ba9778f58c220cf00669bec7b4fcf598767397f168b338/tartanair-1.0.3.tar.gz
+[2023-05-04 15:12:10] INFO root fetch - processPackages [vwo-python-sdk]: executing diffoscope
+[2023-05-04 15:12:10] INFO root fetch - processPackages [vwo-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vwo-python-sdk-1.8.2.tar.gz tmp/vwo-python-sdk-1.9.0.tar.gz --markdown 20230504/v/vwo-python-sdk/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-05-04 15:12:10] INFO root fetch - processPackages [tartanair]: executing diffoscope
+[2023-05-04 15:12:10] INFO root fetch - processPackages [tartanair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tartanair-1.0.2.tar.gz tmp/tartanair-1.0.3.tar.gz --markdown 20230504/t/tartanair/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-04 15:12:10] INFO root fetch - processPackages [plot-data]: Start processing: nbdev-pytorch
+[2023-05-04 15:12:10] INFO root fetch - main [MainThread]: End processing [plot-data]: success
+[2023-05-04 15:12:10] INFO root fetch - processPackages [pyfields]: Downloading https://files.pythonhosted.org/packages/ce/da/7cc19ec12f4d3c66a70e561bd974e7632db87b278f9b8a9e53dcaa23486d/pyfields-1.7.1.tar.gz
+[2023-05-04 15:12:11] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-04 15:12:11] INFO root fetch - processPackages [pyfields]: executing diffoscope
+[2023-05-04 15:12:11] INFO root fetch - processPackages [pyfields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfields-1.7.0.tar.gz tmp/pyfields-1.7.1.tar.gz --markdown 20230504/p/pyfields/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-05-04 15:12:11] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-04 15:12:11] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230504/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-04 15:12:11] INFO root fetch - processPackages [papai-public]: Start processing: xmos-ai-tools
+[2023-05-04 15:12:11] INFO root fetch - main [MainThread]: End processing [papai-public]: success
+[2023-05-04 15:12:12] INFO root fetch - processPackages [xmos-ai-tools]: New version: [0.2.2.dev91] Old Version: [0.2.2.dev51]
+[2023-05-04 15:12:12] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-04 15:12:12] INFO root fetch - main [MainThread]: End processing [openxes-cli-py]: success
+[2023-05-04 15:12:12] INFO root fetch - processPackages [xmos-ai-tools]: Downloading https://files.pythonhosted.org/packages/45/ec/1596423fa6f0d2c54b1d97912de474f453e7e855296ee673b664073e93ea/xmos_ai_tools-0.2.2.dev51-py3-none-win_amd64.whl
+[2023-05-04 15:12:12] INFO root fetch - main [MainThread]: End processing [autumn8]: success
+[2023-05-04 15:12:12] WARNING root fetch - processPackages [xmos-ai-tools]: Skipping package: exceeds size limit 12231762>=10485760
+[2023-05-04 15:12:12] INFO root fetch - main [MainThread]: End processing [xmos-ai-tools] error
+[2023-05-04 15:12:12] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-04 15:12:12] INFO root fetch - main [MainThread]: End processing [ambient-toolbox]: success
+[2023-05-04 15:12:12] INFO root fetch - main [MainThread]: End processing [pyfields]: success
+[2023-05-04 15:12:12] INFO root fetch - main [MainThread]: End processing [vwo-python-sdk]: success
+[2023-05-04 15:12:14] INFO root fetch - main [MainThread]: End processing [tartanair]: success
+[2023-05-04 15:12:16] INFO root fetch - main [MainThread]: End processing [pytos2-ce]: success
+[2023-05-04 15:12:16] INFO root fetch - main [MainThread]: Store serial: [17972534]
