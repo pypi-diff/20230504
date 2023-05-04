@@ -23045,3 +23045,103 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 20:51:24] INFO root fetch - main [MainThread]: End processing [tasknet]: success
 [2023-05-04 20:51:24] INFO root fetch - main [MainThread]: End processing [autoplugin]: success
 [2023-05-04 20:51:24] INFO root fetch - main [MainThread]: Store serial: [17976606]
+[2023-05-04 20:56:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17976606]
+[2023-05-04 20:56:33] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-04 20:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-admin-dashboard
+[2023-05-04 20:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whisper-cli-tool
+[2023-05-04 20:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-05-04 20:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chalkpy
+[2023-05-04 20:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: e-models
+[2023-05-04 20:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cebra
+[2023-05-04 20:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spacy-huggingface-pipelines
+[2023-05-04 20:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cloudone-vsapi
+[2023-05-04 20:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: caikit-tgis-backend
+[2023-05-04 20:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chalkpy
+[2023-05-04 20:56:33] INFO root fetch - processPackages [flask-admin-dashboard]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-04 20:56:33] INFO root fetch - processPackages [whisper-cli-tool]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-04 20:56:33] INFO root fetch - processPackages [e-models]: New version: [1.3] Old Version: [1.2.1.4]
+[2023-05-04 20:56:33] INFO root fetch - processPackages [coiled]: New version: [0.6.1.dev8] Old Version: [0.6.1.dev6]
+[2023-05-04 20:56:33] INFO root fetch - processPackages [cebra]: New version: [0.2.0rc4] Old Version: [0.2.0rc3]
+[2023-05-04 20:56:33] INFO root fetch - processPackages [caikit-tgis-backend]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 20:56:33] INFO root fetch - processPackages [cloudone-vsapi]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-04 20:56:33] INFO root fetch - processPackages [spacy-huggingface-pipelines]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-04 20:56:33] INFO root fetch - processPackages [chalkpy]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-04 20:56:33] INFO root fetch - processPackages [chalkpy]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-04 20:56:33] INFO root fetch - processPackages [caikit-tgis-backend]: Downloading https://files.pythonhosted.org/packages/75/4e/6ada2d4bbdb48c033f45b7df2bf31f9d98edc250dbebf5c319eeac78f9c4/caikit-tgis-backend-0.1.0.tar.gz
+[2023-05-04 20:56:33] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/d3/4d/e7075923a0b4fc9e27e8e522a46a1c24b9055ba2a5d744b56e7fd78052de/e-models-1.2.1.4.tar.gz
+[2023-05-04 20:56:33] INFO root fetch - processPackages [cebra]: Downloading https://files.pythonhosted.org/packages/28/67/1a9a41f1318027a1d47a38e6ebd355205ded5424e500a226bd9e1d793913/cebra-0.2.0rc3.tar.gz
+[2023-05-04 20:56:33] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/62/c0/3d824bd0c5fc6be236621716e4118eb1806a723be0567ab29b03e745443a/chalkpy-2.1.2.tar.gz
+[2023-05-04 20:56:33] INFO root fetch - processPackages [whisper-cli-tool]: Downloading https://files.pythonhosted.org/packages/86/3b/fceb1f353fc5e1821e2e53157ae6fff1bf7a99e43a6dfe9e92e46c961b33/whisper-cli-tool-1.0.0.tar.gz
+[2023-05-04 20:56:33] INFO root fetch - processPackages [cloudone-vsapi]: Downloading https://files.pythonhosted.org/packages/39/02/79405a58096a563decbd62b65aeef54797efdeda6aab3318cb2c1e28ddbf/cloudone-vsapi-1.0.0.tar.gz
+[2023-05-04 20:56:33] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/62/c0/3d824bd0c5fc6be236621716e4118eb1806a723be0567ab29b03e745443a/chalkpy-2.1.2.tar.gz
+[2023-05-04 20:56:33] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/29/05/cd7d963efc125ade7196d8a201c97045c0e367f4a1bcf4f74e203b23e329/coiled-0.6.1.dev8.tar.gz
+[2023-05-04 20:56:33] INFO root fetch - processPackages [spacy-huggingface-pipelines]: Downloading https://files.pythonhosted.org/packages/3e/da/a4004f013a7c137a35761ace2e6376df4af955cd7b634a1a81a6b05cc889/spacy_huggingface_pipelines-0.0.2.tar.gz
+[2023-05-04 20:56:33] INFO root fetch - processPackages [flask-admin-dashboard]: Downloading https://files.pythonhosted.org/packages/59/a1/46847f83816716e03c65b1fcdacdaef2039b1338c6bbc3ea064fda871ca7/flask_admin_dashboard-1.0.5.tar.gz
+[2023-05-04 20:56:34] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-04 20:56:34] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.1.dev6.tar.gz tmp/coiled-0.6.1.dev8.tar.gz --markdown 20230504/c/coiled/0.6.1.dev6-0.6.1.dev8/diff.md --exclude *.pyd
+[2023-05-04 20:56:34] INFO root fetch - processPackages [caikit-tgis-backend]: Downloading https://files.pythonhosted.org/packages/e1/bf/5ac520061543dec6740681f4571bcdd26cb6cb8ab014c653820047236f8c/caikit-tgis-backend-0.1.1.tar.gz
+[2023-05-04 20:56:34] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/00/e0/41a61b287ec1bba6cf418e4a8fec6731a3df24f211d514003d36fe463093/e-models-1.3.tar.gz
+[2023-05-04 20:56:34] INFO root fetch - processPackages [flask-admin-dashboard]: executing diffoscope
+[2023-05-04 20:56:34] INFO root fetch - processPackages [flask-admin-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_admin_dashboard-1.0.4.tar.gz tmp/flask_admin_dashboard-1.0.5.tar.gz --markdown 20230504/f/flask-admin-dashboard/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-04 20:56:34] INFO root fetch - processPackages [whisper-cli-tool]: Downloading https://files.pythonhosted.org/packages/69/a8/e6fb90385ac06b44174ab0b48084a62e3f07e131b1a98756c549d4cc6fae/whisper-cli-tool-1.0.1.tar.gz
+[2023-05-04 20:56:34] INFO root fetch - processPackages [spacy-huggingface-pipelines]: Downloading https://files.pythonhosted.org/packages/65/33/c8af9190ecd3925f6a00b09c4c3ef3b874a5a6207fad1bf5a1f0c334060c/spacy_huggingface_pipelines-0.0.3.tar.gz
+[2023-05-04 20:56:34] INFO root fetch - processPackages [cebra]: executing diffoscope
+[2023-05-04 20:56:34] INFO root fetch - processPackages [cebra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cebra-0.2.0rc3.tar.gz tmp/cebra-0.2.0rc4.tar.gz --markdown 20230504/c/cebra/0.2.0rc3-0.2.0rc4/diff.md --exclude *.pyd
+[2023-05-04 20:56:34] INFO root fetch - processPackages [cloudone-vsapi]: Downloading https://files.pythonhosted.org/packages/de/94/cedd6ddea8f1bd72a5fc1afb02d7bc980fa484caf5488c857b35558b2f72/cloudone-vsapi-1.0.1.tar.gz
+[2023-05-04 20:56:34] INFO root fetch - processPackages [caikit-tgis-backend]: executing diffoscope
+[2023-05-04 20:56:34] INFO root fetch - processPackages [caikit-tgis-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caikit-tgis-backend-0.1.0.tar.gz tmp/caikit-tgis-backend-0.1.1.tar.gz --markdown 20230504/c/caikit-tgis-backend/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 20:56:34] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/27/70/c9a82f7caef9f1bfd7352278634ba4ff55c7f9d099ebd97724190211f280/chalkpy-2.1.3.tar.gz
+[2023-05-04 20:56:34] INFO root fetch - processPackages [e-models]: executing diffoscope
+[2023-05-04 20:56:34] INFO root fetch - processPackages [e-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-models-1.2.1.4.tar.gz tmp/e-models-1.3.tar.gz --markdown 20230504/e/e-models/1.2.1.4-1.3/diff.md --exclude *.pyd
+[2023-05-04 20:56:34] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/27/70/c9a82f7caef9f1bfd7352278634ba4ff55c7f9d099ebd97724190211f280/chalkpy-2.1.3.tar.gz
+[2023-05-04 20:56:34] INFO root fetch - processPackages [whisper-cli-tool]: executing diffoscope
+[2023-05-04 20:56:34] INFO root fetch - processPackages [whisper-cli-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper-cli-tool-1.0.0.tar.gz tmp/whisper-cli-tool-1.0.1.tar.gz --markdown 20230504/w/whisper-cli-tool/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 20:56:34] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-04 20:56:34] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.1.2.tar.gz tmp/chalkpy-2.1.3.tar.gz --markdown 20230504/c/chalkpy/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-05-04 20:56:34] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-04 20:56:34] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.1.2.tar.gz tmp/chalkpy-2.1.3.tar.gz --markdown 20230504/c/chalkpy/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-05-04 20:56:34] INFO root fetch - processPackages [spacy-huggingface-pipelines]: executing diffoscope
+[2023-05-04 20:56:34] INFO root fetch - processPackages [spacy-huggingface-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy_huggingface_pipelines-0.0.2.tar.gz tmp/spacy_huggingface_pipelines-0.0.3.tar.gz --markdown 20230504/s/spacy-huggingface-pipelines/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-04 20:56:34] INFO root fetch - processPackages [cloudone-vsapi]: executing diffoscope
+[2023-05-04 20:56:34] INFO root fetch - processPackages [cloudone-vsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudone-vsapi-1.0.0.tar.gz tmp/cloudone-vsapi-1.0.1.tar.gz --markdown 20230504/c/cloudone-vsapi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 20:56:35] INFO root fetch - processPackages [flask-admin-dashboard]: Start processing: ninfo
+[2023-05-04 20:56:35] INFO root fetch - main [MainThread]: End processing [flask-admin-dashboard]: success
+[2023-05-04 20:56:35] INFO root fetch - processPackages [ninfo]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-04 20:56:35] INFO root fetch - processPackages [caikit-tgis-backend]: Start processing: certora-cli-alpha-alexstolr-events-metadata-json
+[2023-05-04 20:56:35] INFO root fetch - main [MainThread]: End processing [caikit-tgis-backend]: success
+[2023-05-04 20:56:35] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-events-metadata-json]: New version: [20230504.18.55.891123] Old Version: [20230504.15.25.746585]
+[2023-05-04 20:56:35] INFO root fetch - processPackages [ninfo]: Downloading https://files.pythonhosted.org/packages/b5/92/cdc793b2d7f1f808b59f0e3a625bd02c000858f12ad2908bd8817bb2d53d/ninfo-1.0.1.tar.gz
+[2023-05-04 20:56:35] INFO root fetch - processPackages [whisper-cli-tool]: Start processing: benchling-api-client
+[2023-05-04 20:56:35] INFO root fetch - main [MainThread]: End processing [whisper-cli-tool]: success
+[2023-05-04 20:56:35] INFO root fetch - processPackages [ninfo]: executing diffoscope
+[2023-05-04 20:56:35] INFO root fetch - processPackages [ninfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninfo-1.0.0.tar.gz tmp/ninfo-1.0.1.tar.gz --markdown 20230504/n/ninfo/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 20:56:35] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-04 20:56:35] INFO root fetch - processPackages [cloudone-vsapi]: Start processing: arize
+[2023-05-04 20:56:35] INFO root fetch - main [MainThread]: End processing [cloudone-vsapi]: success
+[2023-05-04 20:56:35] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-events-metadata-json]: Downloading https://files.pythonhosted.org/packages/98/f0/e6e7bf1158ce6fe78eaab1790fd68986d27f1a35fd097cdc6de5052d9a56/certora-cli-alpha-alexstolr-events_metadata_json-20230504.15.25.746585.tar.gz
+[2023-05-04 20:56:35] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-05-04 20:56:35] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230504/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-04 20:56:36] INFO root fetch - processPackages [arize]: New version: [7.0.2rc0] Old Version: [7.0.1rc0]
+[2023-05-04 20:56:36] WARNING root fetch - processPackages [certora-cli-alpha-alexstolr-events-metadata-json]: Skipping package: exceeds size limit 38470492>=10485760
+[2023-05-04 20:56:36] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-events-metadata-json]: Start processing: typst-pyimage
+[2023-05-04 20:56:36] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alexstolr-events-metadata-json] error
+[2023-05-04 20:56:36] INFO root fetch - processPackages [typst-pyimage]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-04 20:56:36] INFO root fetch - main [MainThread]: End processing [spacy-huggingface-pipelines]: success
+[2023-05-04 20:56:36] INFO root fetch - processPackages [arize]: Downloading https://files.pythonhosted.org/packages/1a/19/a3b08be1db2f555f449cec1d7b17ab9ca51f2757226b5e14a9cad118bebe/arize-7.0.1rc0.tar.gz
+[2023-05-04 20:56:36] INFO root fetch - processPackages [typst-pyimage]: Downloading https://files.pythonhosted.org/packages/3e/7a/23351d78d0d3816f586f25d42afa7317f870146ad063a9057b03d4fd0f68/typst_pyimage-0.0.1.tar.gz
+[2023-05-04 20:56:36] INFO root fetch - processPackages [arize]: Downloading https://files.pythonhosted.org/packages/2d/d8/b44209105db578b299a5193f78297e323fc6e2d55cc92a4ed581e1828e59/arize-7.0.2rc0.tar.gz
+[2023-05-04 20:56:36] INFO root fetch - main [MainThread]: End processing [e-models]: success
+[2023-05-04 20:56:36] INFO root fetch - processPackages [typst-pyimage]: Downloading https://files.pythonhosted.org/packages/c4/89/97591e39baa17f9b4f2b2c65dc198d3068eb6b55688d29f7b5872239d37f/typst_pyimage-0.0.2.tar.gz
+[2023-05-04 20:56:36] INFO root fetch - processPackages [arize]: executing diffoscope
+[2023-05-04 20:56:36] INFO root fetch - processPackages [arize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize-7.0.1rc0.tar.gz tmp/arize-7.0.2rc0.tar.gz --markdown 20230504/a/arize/7.0.1rc0-7.0.2rc0/diff.md --exclude *.pyd
+[2023-05-04 20:56:36] INFO root fetch - processPackages [typst-pyimage]: executing diffoscope
+[2023-05-04 20:56:36] INFO root fetch - processPackages [typst-pyimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typst_pyimage-0.0.1.tar.gz tmp/typst_pyimage-0.0.2.tar.gz --markdown 20230504/t/typst-pyimage/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-04 20:56:36] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-04 20:56:37] INFO root fetch - main [MainThread]: End processing [ninfo]: success
+[2023-05-04 20:56:37] INFO root fetch - main [MainThread]: End processing [typst-pyimage]: success
+[2023-05-04 20:56:38] INFO root fetch - main [MainThread]: End processing [arize]: success
+[2023-05-04 20:56:38] INFO root fetch - main [MainThread]: End processing [cebra]: success
+[2023-05-04 20:56:40] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-04 20:56:40] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-04 20:58:24] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-05-04 20:58:24] INFO root fetch - main [MainThread]: Store serial: [17976656]
