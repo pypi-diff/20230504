@@ -1,0 +1,665 @@
+# Comparing `tmp/pdcscore-1.0.5.tar.gz` & `tmp/pdcscore-1.0.6.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "pdcscore-1.0.5.tar", last modified: Thu May  4 13:36:14 2023, max compression
++gzip compressed data, was "pdcscore-1.0.6.tar", last modified: Thu May  4 13:59:14 2023, max compression
+```
+
+## Comparing `pdcscore-1.0.5.tar` & `pdcscore-1.0.6.tar`
+
+### file list
+
+```diff
+@@ -1,15 +1,15 @@
+-drwxrwxrwx   0        0        0        0 2023-05-04 13:36:14.339563 pdcscore-1.0.5/
+--rw-rw-rw-   0        0        0     1099 2023-05-04 02:23:33.000000 pdcscore-1.0.5/LICENSE
+--rw-rw-rw-   0        0        0     5162 2023-05-04 13:36:14.339563 pdcscore-1.0.5/PKG-INFO
+--rw-rw-rw-   0        0        0     4012 2023-05-04 13:32:04.000000 pdcscore-1.0.5/README.md
+-drwxrwxrwx   0        0        0        0 2023-05-04 13:36:14.317637 pdcscore-1.0.5/pdcscore/
+--rw-rw-rw-   0        0        0       79 2023-05-04 06:00:07.000000 pdcscore-1.0.5/pdcscore/__init__.py
+--rw-rw-rw-   0        0        0     3487 2023-05-04 06:22:38.000000 pdcscore-1.0.5/pdcscore/pdcscore.py
+-drwxrwxrwx   0        0        0        0 2023-05-04 13:36:14.337564 pdcscore-1.0.5/pdcscore.egg-info/
+--rw-rw-rw-   0        0        0     5162 2023-05-04 13:36:14.000000 pdcscore-1.0.5/pdcscore.egg-info/PKG-INFO
+--rw-rw-rw-   0        0        0      227 2023-05-04 13:36:14.000000 pdcscore-1.0.5/pdcscore.egg-info/SOURCES.txt
+--rw-rw-rw-   0        0        0        1 2023-05-04 13:36:14.000000 pdcscore-1.0.5/pdcscore.egg-info/dependency_links.txt
+--rw-rw-rw-   0        0        0       13 2023-05-04 13:36:14.000000 pdcscore-1.0.5/pdcscore.egg-info/requires.txt
+--rw-rw-rw-   0        0        0        9 2023-05-04 13:36:14.000000 pdcscore-1.0.5/pdcscore.egg-info/top_level.txt
+--rw-rw-rw-   0        0        0       42 2023-05-04 13:36:14.340562 pdcscore-1.0.5/setup.cfg
+--rw-rw-rw-   0        0        0     1502 2023-05-04 13:29:28.000000 pdcscore-1.0.5/setup.py
++drwxrwxrwx   0        0        0        0 2023-05-04 13:59:14.841398 pdcscore-1.0.6/
++-rw-rw-rw-   0        0        0     1099 2023-05-04 02:23:33.000000 pdcscore-1.0.6/LICENSE
++-rw-rw-rw-   0        0        0     5215 2023-05-04 13:59:14.840397 pdcscore-1.0.6/PKG-INFO
++-rw-rw-rw-   0        0        0     4070 2023-05-04 13:57:50.000000 pdcscore-1.0.6/README.md
++drwxrwxrwx   0        0        0        0 2023-05-04 13:59:14.824398 pdcscore-1.0.6/pdcscore/
++-rw-rw-rw-   0        0        0       79 2023-05-04 06:00:07.000000 pdcscore-1.0.6/pdcscore/__init__.py
++-rw-rw-rw-   0        0        0     3487 2023-05-04 06:22:38.000000 pdcscore-1.0.6/pdcscore/pdcscore.py
++drwxrwxrwx   0        0        0        0 2023-05-04 13:59:14.839397 pdcscore-1.0.6/pdcscore.egg-info/
++-rw-rw-rw-   0        0        0     5215 2023-05-04 13:59:14.000000 pdcscore-1.0.6/pdcscore.egg-info/PKG-INFO
++-rw-rw-rw-   0        0        0      227 2023-05-04 13:59:14.000000 pdcscore-1.0.6/pdcscore.egg-info/SOURCES.txt
++-rw-rw-rw-   0        0        0        1 2023-05-04 13:59:14.000000 pdcscore-1.0.6/pdcscore.egg-info/dependency_links.txt
++-rw-rw-rw-   0        0        0       13 2023-05-04 13:59:14.000000 pdcscore-1.0.6/pdcscore.egg-info/requires.txt
++-rw-rw-rw-   0        0        0        9 2023-05-04 13:59:14.000000 pdcscore-1.0.6/pdcscore.egg-info/top_level.txt
++-rw-rw-rw-   0        0        0       42 2023-05-04 13:59:14.841398 pdcscore-1.0.6/setup.cfg
++-rw-rw-rw-   0        0        0     1502 2023-05-04 13:58:07.000000 pdcscore-1.0.6/setup.py
+```
+
+### Comparing `pdcscore-1.0.5/LICENSE` & `pdcscore-1.0.6/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `pdcscore-1.0.5/PKG-INFO` & `pdcscore-1.0.6/PKG-INFO`
+
+ * *Files 13% similar despite different names*
+
+```diff
+@@ -1,11 +1,11 @@
+ 00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
+ 00000010: 3a20 322e 310d 0a4e 616d 653a 2070 6463  : 2.1..Name: pdc
+ 00000020: 7363 6f72 650d 0a56 6572 7369 6f6e 3a20  score..Version: 
+-00000030: 312e 302e 350d 0a53 756d 6d61 7279 3a20  1.0.5..Summary: 
++00000030: 312e 302e 360d 0a53 756d 6d61 7279 3a20  1.0.6..Summary: 
+ 00000040: 4120 7061 636b 6167 6520 746f 2066 6163  A package to fac
+ 00000050: 696c 6974 6174 6520 6566 6669 6369 656e  ilitate efficien
+ 00000060: 7420 616e 6420 6163 6375 7261 7465 2063  t and accurate c
+ 00000070: 616c 6375 6c61 7469 6f6e 206f 6620 7468  alculation of th
+ 00000080: 6520 6d65 6469 6361 7469 6f6e 2061 6468  e medication adh
+ 00000090: 6572 656e 6365 206d 6574 7269 6320 2250  erence metric "P
+ 000000a0: 726f 706f 7274 696f 6e20 6f66 2044 6179  roportion of Day
+@@ -210,114 +210,117 @@
+ 00000d10: 2d20 2a54 6865 2070 6174 6965 6e74 2773  - *The patient's
+ 00000d20: 2050 4443 2073 636f 7265 2c20 6361 6c63   PDC score, calc
+ 00000d30: 756c 6174 6564 2061 7320 4441 5953 434f  ulated as DAYSCO
+ 00000d40: 5645 5245 4420 2f20 544f 5441 4c44 4159  VERED / TOTALDAY
+ 00000d50: 532e 2053 6574 2074 6f20 3020 6966 2064  S. Set to 0 if d
+ 00000d60: 6179 7320 6f66 2063 6f76 6572 6167 6520  ays of coverage 
+ 00000d70: 6973 2030 2e20 464f 524d 4154 203d 2046  is 0. FORMAT = F
+-00000d80: 4c4f 4154 2a0d 0a0d 0a0d 0a0d 0a0d 0a0d  LOAT*...........
+-00000d90: 0a23 2320 5573 6167 6520 4578 616d 706c  .## Usage Exampl
+-00000da0: 650d 0a60 6060 7079 7468 6f6e 0d0a 0d0a  e..```python....
+-00000db0: 2320 2049 6d70 6f72 7420 7265 7175 6972  #  Import requir
+-00000dc0: 6564 206c 6962 7261 7269 6573 0d0a 696d  ed libraries..im
+-00000dd0: 706f 7274 2070 616e 6461 7320 6173 2070  port pandas as p
+-00000de0: 640d 0a69 6d70 6f72 7420 6e75 6d70 7920  d..import numpy 
+-00000df0: 6173 206e 700d 0a66 726f 6d20 7064 6373  as np..from pdcs
+-00000e00: 636f 7265 2069 6d70 6f72 7420 7064 6363  core import pdcc
+-00000e10: 616c 630d 0a0d 0a23 2043 7265 6174 6520  alc....# Create 
+-00000e20: 6120 7361 6d70 6c65 2064 6174 6166 7261  a sample datafra
+-00000e30: 6d65 0d0a 6466 203d 2070 642e 4461 7461  me..df = pd.Data
+-00000e40: 4672 616d 6528 7b0d 0a20 2020 2027 4d43  Frame({..    'MC
+-00000e50: 4944 273a 205b 2741 272c 2027 4127 2c20  ID': ['A', 'A', 
+-00000e60: 2741 272c 2027 4227 2c20 2742 272c 2027  'A', 'B', 'B', '
+-00000e70: 4227 5d2c 0d0a 2020 2020 2744 5255 474e  B'],..    'DRUGN
+-00000e80: 414d 4527 3a20 5b27 5827 2c20 2758 272c  AME': ['X', 'X',
+-00000e90: 2027 5827 2c20 2759 272c 2027 5927 2c20   'X', 'Y', 'Y', 
+-00000ea0: 2759 275d 2c0d 0a20 2020 2027 5258 5f46  'Y'],..    'RX_F
+-00000eb0: 494c 4c45 445f 4454 273a 2070 642e 746f  ILLED_DT': pd.to
+-00000ec0: 5f64 6174 6574 696d 6528 5b27 3230 3232  _datetime(['2022
+-00000ed0: 2d30 312d 3031 272c 2027 3230 3232 2d30  -01-01', '2022-0
+-00000ee0: 312d 3231 272c 2027 3230 3232 2d30 332d  1-21', '2022-03-
+-00000ef0: 3230 272c 0d0a 2020 2020 2020 2020 2020  20',..          
+-00000f00: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00000f10: 2020 2020 2020 2732 3032 322d 3031 2d30        '2022-01-0
+-00000f20: 3127 2c20 2732 3032 322d 3032 2d30 3127  1', '2022-02-01'
+-00000f30: 2c20 2732 3032 322d 3033 2d30 3127 5d29  , '2022-03-01'])
+-00000f40: 2c0d 0a20 2020 2027 4441 5953 5f53 504c  ,..    'DAYS_SPL
+-00000f50: 595f 4e42 5227 3a20 5b33 302c 2033 302c  Y_NBR': [30, 30,
+-00000f60: 2033 302c 2033 302c 2033 302c 2033 305d   30, 30, 30, 30]
+-00000f70: 2c0d 0a20 2020 2027 5354 4152 545f 4454  ,..    'START_DT
+-00000f80: 273a 2070 642e 746f 5f64 6174 6574 696d  ': pd.to_datetim
+-00000f90: 6528 5b27 3230 3232 2d30 312d 3031 272c  e(['2022-01-01',
+-00000fa0: 2027 3230 3232 2d30 312d 3031 272c 2027   '2022-01-01', '
+-00000fb0: 3230 3232 2d30 312d 3031 272c 0d0a 2020  2022-01-01',..  
+-00000fc0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00000fd0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00000fe0: 2020 2020 2020 2027 3230 3232 2d30 322d         '2022-02-
+-00000ff0: 3031 272c 2027 3230 3232 2d30 322d 3031  01', '2022-02-01
+-00001000: 272c 2027 3230 3232 2d30 322d 3031 275d  ', '2022-02-01']
+-00001010: 292c 0d0a 2020 2020 2745 4e44 5f44 5427  ),..    'END_DT'
+-00001020: 3a20 7064 2e74 6f5f 6461 7465 7469 6d65  : pd.to_datetime
+-00001030: 285b 2732 3032 322d 3033 2d33 3127 2c20  (['2022-03-31', 
+-00001040: 2732 3032 322d 3033 2d33 3127 2c20 2732  '2022-03-31', '2
+-00001050: 3032 322d 3033 2d33 3127 2c0d 0a20 2020  022-03-31',..   
+-00001060: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00001070: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00001080: 2020 2020 2732 3032 322d 3033 2d33 3127      '2022-03-31'
+-00001090: 2c20 2732 3032 322d 3033 2d33 3127 2c20  , '2022-03-31', 
+-000010a0: 2732 3032 322d 3033 2d33 3127 5d29 0d0a  '2022-03-31'])..
+-000010b0: 7d29 0d0a 0d0a 2320 496e 7370 6563 7420  })....# Inspect 
+-000010c0: 7361 6d70 6c65 2064 6174 610d 0a64 662e  sample data..df.
+-000010d0: 6865 6164 286e 3d6c 656e 2864 6629 290d  head(n=len(df)).
+-000010e0: 0a0d 0a23 2063 616c 6375 6c61 7465 2050  ...# calculate P
+-000010f0: 4443 2073 636f 7265 7320 6f6e 2074 6865  DC scores on the
+-00001100: 2069 6e70 7574 2044 6174 6146 7261 6d65   input DataFrame
+-00001110: 0d0a 6361 6c63 6675 6e63 3d20 7064 6363  ..calcfunc= pdcc
+-00001120: 616c 6328 6461 7461 6672 616d 653d 6466  alc(dataframe=df
+-00001130: 2c20 7061 7469 656e 745f 6964 5f63 6f6c  , patient_id_col
+-00001140: 3d27 4d43 4944 272c 2064 7275 676e 616d  ='MCID', drugnam
+-00001150: 655f 636f 6c3d 2744 5255 474e 414d 4527  e_col='DRUGNAME'
+-00001160: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00001170: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00001180: 2020 2020 2020 2020 2020 202c 2066 696c             , fil
+-00001190: 6c64 6174 655f 636f 6c3d 2752 585f 4649  ldate_col='RX_FI
+-000011a0: 4c4c 4544 5f44 5427 2c20 7375 7070 6c79  LLED_DT', supply
+-000011b0: 5f64 6179 735f 636f 6c3d 2744 4159 535f  _days_col='DAYS_
+-000011c0: 5350 4c59 5f4e 4252 270d 0a20 2020 2020  SPLY_NBR'..     
+-000011d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000011e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000011f0: 2020 2020 2c20 6d62 725f 656c 6967 5f73      , mbr_elig_s
+-00001200: 7461 7274 5f64 745f 636f 6c3d 2753 5441  tart_dt_col='STA
+-00001210: 5254 5f44 5427 2c20 6d62 725f 656c 6967  RT_DT', mbr_elig
+-00001220: 5f65 6e64 5f64 745f 636f 6c3d 2745 4e44  _end_dt_col='END
+-00001230: 5f44 5427 290d 0a70 6463 5f73 636f 7265  _DT')..pdc_score
+-00001240: 735f 6466 203d 2063 616c 6366 756e 632e  s_df = calcfunc.
+-00001250: 6361 6c63 756c 6174 655f 7064 6328 290d  calculate_pdc().
+-00001260: 0a0d 0a23 2049 6e73 7065 6374 206f 7574  ...# Inspect out
+-00001270: 7075 740d 0a70 6463 5f73 636f 7265 735f  put..pdc_scores_
+-00001280: 6466 2e68 6561 6428 290d 0a0d 0a0d 0a3c  df.head()......<
+-00001290: 6275 7474 6f6e 2063 6c61 7373 3d22 6274  button class="bt
+-000012a0: 6e22 2064 6174 612d 636c 6970 626f 6172  n" data-clipboar
+-000012b0: 642d 7461 7267 6574 3d22 2375 7361 6765  d-target="#usage
+-000012c0: 2d65 7861 6d70 6c65 223e 436f 7079 3c2f  -example">Copy</
+-000012d0: 6275 7474 6f6e 3e0d 0a0d 0a3c 7363 7269  button>....<scri
+-000012e0: 7074 2073 7263 3d22 6874 7470 733a 2f2f  pt src="https://
+-000012f0: 6364 6e6a 732e 636c 6f75 6466 6c61 7265  cdnjs.cloudflare
+-00001300: 2e63 6f6d 2f61 6a61 782f 6c69 6273 2f63  .com/ajax/libs/c
+-00001310: 6c69 7062 6f61 7264 2e6a 732f 322e 302e  lipboard.js/2.0.
+-00001320: 382f 636c 6970 626f 6172 642e 6d69 6e2e  8/clipboard.min.
+-00001330: 6a73 223e 3c2f 7363 7269 7074 3e0d 0a3c  js"></script>..<
+-00001340: 7363 7269 7074 3e0d 0a20 2076 6172 2063  script>..  var c
+-00001350: 6c69 7062 6f61 7264 203d 206e 6577 2043  lipboard = new C
+-00001360: 6c69 7062 6f61 7264 4a53 2827 2e62 746e  lipboardJS('.btn
+-00001370: 2729 3b0d 0a0d 0a20 2063 6c69 7062 6f61  ');....  clipboa
+-00001380: 7264 2e6f 6e28 2773 7563 6365 7373 272c  rd.on('success',
+-00001390: 2066 756e 6374 696f 6e28 6529 207b 0d0a   function(e) {..
+-000013a0: 2020 2020 636f 6e73 6f6c 652e 6c6f 6728      console.log(
+-000013b0: 2743 6f70 6965 6421 2729 3b0d 0a20 207d  'Copied!');..  }
+-000013c0: 293b 0d0a 0d0a 2020 636c 6970 626f 6172  );....  clipboar
+-000013d0: 642e 6f6e 2827 6572 726f 7227 2c20 6675  d.on('error', fu
+-000013e0: 6e63 7469 6f6e 2865 2920 7b0d 0a20 2020  nction(e) {..   
+-000013f0: 2063 6f6e 736f 6c65 2e6c 6f67 2827 4572   console.log('Er
+-00001400: 726f 7220 636f 7079 696e 673a 2027 202b  ror copying: ' +
+-00001410: 2065 293b 0d0a 2020 7d29 3b0d 0a3c 2f73   e);..  });..</s
+-00001420: 6372 6970 743e 0d0a 0d0a                 cript>....
++00000d80: 4c4f 4154 2a0d 0a0d 0a0d 0a3c 6275 7474  LOAT*......<butt
++00000d90: 6f6e 206f 6e63 6c69 636b 3d22 636f 7079  on onclick="copy
++00000da0: 546f 436c 6970 626f 6172 6428 2723 7573  ToClipboard('#us
++00000db0: 6167 652d 6578 616d 706c 6527 2922 3e43  age-example')">C
++00000dc0: 6f70 793c 2f62 7574 746f 6e3e 0d0a 0d0a  opy</button>....
++00000dd0: 3c73 6372 6970 743e 0d0a 2020 6675 6e63  <script>..  func
++00000de0: 7469 6f6e 2063 6f70 7954 6f43 6c69 7062  tion copyToClipb
++00000df0: 6f61 7264 2865 6c65 6d65 6e74 2920 7b0d  oard(element) {.
++00000e00: 0a20 2020 2076 6172 2063 6f70 7954 6578  .    var copyTex
++00000e10: 7420 3d20 646f 6375 6d65 6e74 2e71 7565  t = document.que
++00000e20: 7279 5365 6c65 6374 6f72 2865 6c65 6d65  rySelector(eleme
++00000e30: 6e74 293b 0d0a 2020 2020 7661 7220 7261  nt);..    var ra
++00000e40: 6e67 6520 3d20 646f 6375 6d65 6e74 2e63  nge = document.c
++00000e50: 7265 6174 6552 616e 6765 2829 3b0d 0a20  reateRange();.. 
++00000e60: 2020 2072 616e 6765 2e73 656c 6563 744e     range.selectN
++00000e70: 6f64 6528 636f 7079 5465 7874 293b 0d0a  ode(copyText);..
++00000e80: 2020 2020 7769 6e64 6f77 2e67 6574 5365      window.getSe
++00000e90: 6c65 6374 696f 6e28 292e 7265 6d6f 7665  lection().remove
++00000ea0: 416c 6c52 616e 6765 7328 293b 0d0a 2020  AllRanges();..  
++00000eb0: 2020 7769 6e64 6f77 2e67 6574 5365 6c65    window.getSele
++00000ec0: 6374 696f 6e28 292e 6164 6452 616e 6765  ction().addRange
++00000ed0: 2872 616e 6765 293b 0d0a 2020 2020 646f  (range);..    do
++00000ee0: 6375 6d65 6e74 2e65 7865 6343 6f6d 6d61  cument.execComma
++00000ef0: 6e64 2822 636f 7079 2229 3b0d 0a20 2020  nd("copy");..   
++00000f00: 2061 6c65 7274 2822 436f 7069 6564 2074   alert("Copied t
++00000f10: 6865 2074 6578 743a 2022 202b 2063 6f70  he text: " + cop
++00000f20: 7954 6578 742e 696e 6e65 7254 6578 7429  yText.innerText)
++00000f30: 3b0d 0a20 207d 0d0a 3c2f 7363 7269 7074  ;..  }..</script
++00000f40: 3e0d 0a3c 6469 7620 6964 3d22 7573 6167  >..<div id="usag
++00000f50: 652d 6578 616d 706c 6522 2073 7479 6c65  e-example" style
++00000f60: 3d22 6469 7370 6c61 793a 6e6f 6e65 3b22  ="display:none;"
++00000f70: 3e0d 0a0d 0a60 6060 7079 7468 6f6e 0d0a  >....```python..
++00000f80: 0d0a 2320 2049 6d70 6f72 7420 7265 7175  ..#  Import requ
++00000f90: 6972 6564 206c 6962 7261 7269 6573 0d0a  ired libraries..
++00000fa0: 696d 706f 7274 2070 616e 6461 7320 6173  import pandas as
++00000fb0: 2070 640d 0a69 6d70 6f72 7420 6e75 6d70   pd..import nump
++00000fc0: 7920 6173 206e 700d 0a66 726f 6d20 7064  y as np..from pd
++00000fd0: 6373 636f 7265 2069 6d70 6f72 7420 7064  cscore import pd
++00000fe0: 6363 616c 630d 0a0d 0a23 2043 7265 6174  ccalc....# Creat
++00000ff0: 6520 6120 7361 6d70 6c65 2064 6174 6166  e a sample dataf
++00001000: 7261 6d65 0d0a 6466 203d 2070 642e 4461  rame..df = pd.Da
++00001010: 7461 4672 616d 6528 7b0d 0a20 2020 2027  taFrame({..    '
++00001020: 4d43 4944 273a 205b 2741 272c 2027 4127  MCID': ['A', 'A'
++00001030: 2c20 2741 272c 2027 4227 2c20 2742 272c  , 'A', 'B', 'B',
++00001040: 2027 4227 5d2c 0d0a 2020 2020 2744 5255   'B'],..    'DRU
++00001050: 474e 414d 4527 3a20 5b27 5827 2c20 2758  GNAME': ['X', 'X
++00001060: 272c 2027 5827 2c20 2759 272c 2027 5927  ', 'X', 'Y', 'Y'
++00001070: 2c20 2759 275d 2c0d 0a20 2020 2027 5258  , 'Y'],..    'RX
++00001080: 5f46 494c 4c45 445f 4454 273a 2070 642e  _FILLED_DT': pd.
++00001090: 746f 5f64 6174 6574 696d 6528 5b27 3230  to_datetime(['20
++000010a0: 3232 2d30 312d 3031 272c 2027 3230 3232  22-01-01', '2022
++000010b0: 2d30 312d 3231 272c 2027 3230 3232 2d30  -01-21', '2022-0
++000010c0: 332d 3230 272c 0d0a 2020 2020 2020 2020  3-20',..        
++000010d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000010e0: 2020 2020 2020 2020 2732 3032 322d 3031          '2022-01
++000010f0: 2d30 3127 2c20 2732 3032 322d 3032 2d30  -01', '2022-02-0
++00001100: 3127 2c20 2732 3032 322d 3033 2d30 3127  1', '2022-03-01'
++00001110: 5d29 2c0d 0a20 2020 2027 4441 5953 5f53  ]),..    'DAYS_S
++00001120: 504c 595f 4e42 5227 3a20 5b33 302c 2033  PLY_NBR': [30, 3
++00001130: 302c 2033 302c 2033 302c 2033 302c 2033  0, 30, 30, 30, 3
++00001140: 305d 2c0d 0a20 2020 2027 5354 4152 545f  0],..    'START_
++00001150: 4454 273a 2070 642e 746f 5f64 6174 6574  DT': pd.to_datet
++00001160: 696d 6528 5b27 3230 3232 2d30 312d 3031  ime(['2022-01-01
++00001170: 272c 2027 3230 3232 2d30 312d 3031 272c  ', '2022-01-01',
++00001180: 2027 3230 3232 2d30 312d 3031 272c 0d0a   '2022-01-01',..
++00001190: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000011a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000011b0: 2020 2020 2020 2020 2027 3230 3232 2d30           '2022-0
++000011c0: 322d 3031 272c 2027 3230 3232 2d30 322d  2-01', '2022-02-
++000011d0: 3031 272c 2027 3230 3232 2d30 322d 3031  01', '2022-02-01
++000011e0: 275d 292c 0d0a 2020 2020 2745 4e44 5f44  ']),..    'END_D
++000011f0: 5427 3a20 7064 2e74 6f5f 6461 7465 7469  T': pd.to_dateti
++00001200: 6d65 285b 2732 3032 322d 3033 2d33 3127  me(['2022-03-31'
++00001210: 2c20 2732 3032 322d 3033 2d33 3127 2c20  , '2022-03-31', 
++00001220: 2732 3032 322d 3033 2d33 3127 2c0d 0a20  '2022-03-31',.. 
++00001230: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00001240: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00001250: 2020 2020 2020 2732 3032 322d 3033 2d33        '2022-03-3
++00001260: 3127 2c20 2732 3032 322d 3033 2d33 3127  1', '2022-03-31'
++00001270: 2c20 2732 3032 322d 3033 2d33 3127 5d29  , '2022-03-31'])
++00001280: 0d0a 7d29 0d0a 0d0a 2320 496e 7370 6563  ..})....# Inspec
++00001290: 7420 7361 6d70 6c65 2064 6174 610d 0a64  t sample data..d
++000012a0: 662e 6865 6164 286e 3d6c 656e 2864 6629  f.head(n=len(df)
++000012b0: 290d 0a0d 0a23 2063 616c 6375 6c61 7465  )....# calculate
++000012c0: 2050 4443 2073 636f 7265 7320 6f6e 2074   PDC scores on t
++000012d0: 6865 2069 6e70 7574 2044 6174 6146 7261  he input DataFra
++000012e0: 6d65 0d0a 6361 6c63 6675 6e63 3d20 7064  me..calcfunc= pd
++000012f0: 6363 616c 6328 6461 7461 6672 616d 653d  ccalc(dataframe=
++00001300: 6466 2c20 7061 7469 656e 745f 6964 5f63  df, patient_id_c
++00001310: 6f6c 3d27 4d43 4944 272c 2064 7275 676e  ol='MCID', drugn
++00001320: 616d 655f 636f 6c3d 2744 5255 474e 414d  ame_col='DRUGNAM
++00001330: 4527 0d0a 2020 2020 2020 2020 2020 2020  E'..            
++00001340: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00001350: 2020 2020 2020 2020 2020 2020 202c 2066               , f
++00001360: 696c 6c64 6174 655f 636f 6c3d 2752 585f  illdate_col='RX_
++00001370: 4649 4c4c 4544 5f44 5427 2c20 7375 7070  FILLED_DT', supp
++00001380: 6c79 5f64 6179 735f 636f 6c3d 2744 4159  ly_days_col='DAY
++00001390: 535f 5350 4c59 5f4e 4252 270d 0a20 2020  S_SPLY_NBR'..   
++000013a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000013b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000013c0: 2020 2020 2020 2c20 6d62 725f 656c 6967        , mbr_elig
++000013d0: 5f73 7461 7274 5f64 745f 636f 6c3d 2753  _start_dt_col='S
++000013e0: 5441 5254 5f44 5427 2c20 6d62 725f 656c  TART_DT', mbr_el
++000013f0: 6967 5f65 6e64 5f64 745f 636f 6c3d 2745  ig_end_dt_col='E
++00001400: 4e44 5f44 5427 290d 0a70 6463 5f73 636f  ND_DT')..pdc_sco
++00001410: 7265 735f 6466 203d 2063 616c 6366 756e  res_df = calcfun
++00001420: 632e 6361 6c63 756c 6174 655f 7064 6328  c.calculate_pdc(
++00001430: 290d 0a0d 0a23 2049 6e73 7065 6374 206f  )....# Inspect o
++00001440: 7574 7075 740d 0a70 6463 5f73 636f 7265  utput..pdc_score
++00001450: 735f 6466 2e68 6561 6428 290d 0a0d 0a    s_df.head()....
+```
+
+### Comparing `pdcscore-1.0.5/README.md` & `pdcscore-1.0.6/README.md`
+
+ * *Files 7% similar despite different names*
+
+```diff
+@@ -33,18 +33,29 @@
+ **DAYSCOVERED**- *The number of unique days of drug coverage, after shifting coverage to accommodate early refills. FORMAT = INTEGER*
+ 
+ **TOTALDAYS** - *The total number of days in patient analysis window. Set to 0 if days of coverage is 0. FORMAT = INTEGER*
+ 
+ **PDC_SCORE** - *The patient's PDC score, calculated as DAYSCOVERED / TOTALDAYS. Set to 0 if days of coverage is 0. FORMAT = FLOAT*
+ 
+ 
++<button onclick="copyToClipboard('#usage-example')">Copy</button>
+ 
++<script>
++  function copyToClipboard(element) {
++    var copyText = document.querySelector(element);
++    var range = document.createRange();
++    range.selectNode(copyText);
++    window.getSelection().removeAllRanges();
++    window.getSelection().addRange(range);
++    document.execCommand("copy");
++    alert("Copied the text: " + copyText.innerText);
++  }
++</script>
++<div id="usage-example" style="display:none;">
+ 
+-
+-## Usage Example
+ ```python
+ 
+ #  Import required libraries
+ import pandas as pd
+ import numpy as np
+ from pdcscore import pdccalc
+ 
+@@ -67,24 +78,8 @@
+ # calculate PDC scores on the input DataFrame
+ calcfunc= pdccalc(dataframe=df, patient_id_col='MCID', drugname_col='DRUGNAME'
+                                          , filldate_col='RX_FILLED_DT', supply_days_col='DAYS_SPLY_NBR'
+                                          , mbr_elig_start_dt_col='START_DT', mbr_elig_end_dt_col='END_DT')
+ pdc_scores_df = calcfunc.calculate_pdc()
+ 
+ # Inspect output
+-pdc_scores_df.head()
+-
+-
+-<button class="btn" data-clipboard-target="#usage-example">Copy</button>
+-
+-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+-<script>
+-  var clipboard = new ClipboardJS('.btn');
+-
+-  clipboard.on('success', function(e) {
+-    console.log('Copied!');
+-  });
+-
+-  clipboard.on('error', function(e) {
+-    console.log('Error copying: ' + e);
+-  });
+-</script>
++pdc_scores_df.head()
+```
+
+#### html2text {}
+
+```diff
+@@ -24,22 +24,22 @@
+ patient identifier as provided in original input dataframe. FORMAT = STRING*
+ **drugname_col** - *The name of the drug being filled or drug class or Generic
+ name, as provided in original input dataframe.* **DAYSCOVERED**- *The number of
+ unique days of drug coverage, after shifting coverage to accommodate early
+ refills. FORMAT = INTEGER* **TOTALDAYS** - *The total number of days in patient
+ analysis window. Set to 0 if days of coverage is 0. FORMAT = INTEGER*
+ **PDC_SCORE** - *The patient's PDC score, calculated as DAYSCOVERED /
+-TOTALDAYS. Set to 0 if days of coverage is 0. FORMAT = FLOAT* ## Usage Example
++TOTALDAYS. Set to 0 if days of coverage is 0. FORMAT = FLOAT* Copy
+ ```python # Import required libraries import pandas as pd import numpy as np
+ from pdcscore import pdccalc # Create a sample dataframe df = pd.DataFrame(
+ { 'MCID': ['A', 'A', 'A', 'B', 'B', 'B'], 'DRUGNAME': ['X', 'X', 'X', 'Y', 'Y',
+ 'Y'], 'RX_FILLED_DT': pd.to_datetime(['2022-01-01', '2022-01-21', '2022-03-20',
+ '2022-01-01', '2022-02-01', '2022-03-01']), 'DAYS_SPLY_NBR': [30, 30, 30, 30,
+ 30, 30], 'START_DT': pd.to_datetime(['2022-01-01', '2022-01-01', '2022-01-01',
+ '2022-02-01', '2022-02-01', '2022-02-01']), 'END_DT': pd.to_datetime(['2022-03-
+ 31', '2022-03-31', '2022-03-31', '2022-03-31', '2022-03-31', '2022-03-31']) })
+ # Inspect sample data df.head(n=len(df)) # calculate PDC scores on the input
+ DataFrame calcfunc= pdccalc(dataframe=df, patient_id_col='MCID',
+ drugname_col='DRUGNAME' , filldate_col='RX_FILLED_DT',
+ supply_days_col='DAYS_SPLY_NBR' , mbr_elig_start_dt_col='START_DT',
+ mbr_elig_end_dt_col='END_DT') pdc_scores_df = calcfunc.calculate_pdc() #
+-Inspect output pdc_scores_df.head() Copy
++Inspect output pdc_scores_df.head()
+```
+
+### Comparing `pdcscore-1.0.5/pdcscore/pdcscore.py` & `pdcscore-1.0.6/pdcscore/pdcscore.py`
+
+ * *Files identical despite different names*
+
+### Comparing `pdcscore-1.0.5/pdcscore.egg-info/PKG-INFO` & `pdcscore-1.0.6/pdcscore.egg-info/PKG-INFO`
+
+ * *Files 13% similar despite different names*
+
+```diff
+@@ -1,11 +1,11 @@
+ 00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
+ 00000010: 3a20 322e 310d 0a4e 616d 653a 2070 6463  : 2.1..Name: pdc
+ 00000020: 7363 6f72 650d 0a56 6572 7369 6f6e 3a20  score..Version: 
+-00000030: 312e 302e 350d 0a53 756d 6d61 7279 3a20  1.0.5..Summary: 
++00000030: 312e 302e 360d 0a53 756d 6d61 7279 3a20  1.0.6..Summary: 
+ 00000040: 4120 7061 636b 6167 6520 746f 2066 6163  A package to fac
+ 00000050: 696c 6974 6174 6520 6566 6669 6369 656e  ilitate efficien
+ 00000060: 7420 616e 6420 6163 6375 7261 7465 2063  t and accurate c
+ 00000070: 616c 6375 6c61 7469 6f6e 206f 6620 7468  alculation of th
+ 00000080: 6520 6d65 6469 6361 7469 6f6e 2061 6468  e medication adh
+ 00000090: 6572 656e 6365 206d 6574 7269 6320 2250  erence metric "P
+ 000000a0: 726f 706f 7274 696f 6e20 6f66 2044 6179  roportion of Day
+@@ -210,114 +210,117 @@
+ 00000d10: 2d20 2a54 6865 2070 6174 6965 6e74 2773  - *The patient's
+ 00000d20: 2050 4443 2073 636f 7265 2c20 6361 6c63   PDC score, calc
+ 00000d30: 756c 6174 6564 2061 7320 4441 5953 434f  ulated as DAYSCO
+ 00000d40: 5645 5245 4420 2f20 544f 5441 4c44 4159  VERED / TOTALDAY
+ 00000d50: 532e 2053 6574 2074 6f20 3020 6966 2064  S. Set to 0 if d
+ 00000d60: 6179 7320 6f66 2063 6f76 6572 6167 6520  ays of coverage 
+ 00000d70: 6973 2030 2e20 464f 524d 4154 203d 2046  is 0. FORMAT = F
+-00000d80: 4c4f 4154 2a0d 0a0d 0a0d 0a0d 0a0d 0a0d  LOAT*...........
+-00000d90: 0a23 2320 5573 6167 6520 4578 616d 706c  .## Usage Exampl
+-00000da0: 650d 0a60 6060 7079 7468 6f6e 0d0a 0d0a  e..```python....
+-00000db0: 2320 2049 6d70 6f72 7420 7265 7175 6972  #  Import requir
+-00000dc0: 6564 206c 6962 7261 7269 6573 0d0a 696d  ed libraries..im
+-00000dd0: 706f 7274 2070 616e 6461 7320 6173 2070  port pandas as p
+-00000de0: 640d 0a69 6d70 6f72 7420 6e75 6d70 7920  d..import numpy 
+-00000df0: 6173 206e 700d 0a66 726f 6d20 7064 6373  as np..from pdcs
+-00000e00: 636f 7265 2069 6d70 6f72 7420 7064 6363  core import pdcc
+-00000e10: 616c 630d 0a0d 0a23 2043 7265 6174 6520  alc....# Create 
+-00000e20: 6120 7361 6d70 6c65 2064 6174 6166 7261  a sample datafra
+-00000e30: 6d65 0d0a 6466 203d 2070 642e 4461 7461  me..df = pd.Data
+-00000e40: 4672 616d 6528 7b0d 0a20 2020 2027 4d43  Frame({..    'MC
+-00000e50: 4944 273a 205b 2741 272c 2027 4127 2c20  ID': ['A', 'A', 
+-00000e60: 2741 272c 2027 4227 2c20 2742 272c 2027  'A', 'B', 'B', '
+-00000e70: 4227 5d2c 0d0a 2020 2020 2744 5255 474e  B'],..    'DRUGN
+-00000e80: 414d 4527 3a20 5b27 5827 2c20 2758 272c  AME': ['X', 'X',
+-00000e90: 2027 5827 2c20 2759 272c 2027 5927 2c20   'X', 'Y', 'Y', 
+-00000ea0: 2759 275d 2c0d 0a20 2020 2027 5258 5f46  'Y'],..    'RX_F
+-00000eb0: 494c 4c45 445f 4454 273a 2070 642e 746f  ILLED_DT': pd.to
+-00000ec0: 5f64 6174 6574 696d 6528 5b27 3230 3232  _datetime(['2022
+-00000ed0: 2d30 312d 3031 272c 2027 3230 3232 2d30  -01-01', '2022-0
+-00000ee0: 312d 3231 272c 2027 3230 3232 2d30 332d  1-21', '2022-03-
+-00000ef0: 3230 272c 0d0a 2020 2020 2020 2020 2020  20',..          
+-00000f00: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00000f10: 2020 2020 2020 2732 3032 322d 3031 2d30        '2022-01-0
+-00000f20: 3127 2c20 2732 3032 322d 3032 2d30 3127  1', '2022-02-01'
+-00000f30: 2c20 2732 3032 322d 3033 2d30 3127 5d29  , '2022-03-01'])
+-00000f40: 2c0d 0a20 2020 2027 4441 5953 5f53 504c  ,..    'DAYS_SPL
+-00000f50: 595f 4e42 5227 3a20 5b33 302c 2033 302c  Y_NBR': [30, 30,
+-00000f60: 2033 302c 2033 302c 2033 302c 2033 305d   30, 30, 30, 30]
+-00000f70: 2c0d 0a20 2020 2027 5354 4152 545f 4454  ,..    'START_DT
+-00000f80: 273a 2070 642e 746f 5f64 6174 6574 696d  ': pd.to_datetim
+-00000f90: 6528 5b27 3230 3232 2d30 312d 3031 272c  e(['2022-01-01',
+-00000fa0: 2027 3230 3232 2d30 312d 3031 272c 2027   '2022-01-01', '
+-00000fb0: 3230 3232 2d30 312d 3031 272c 0d0a 2020  2022-01-01',..  
+-00000fc0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00000fd0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00000fe0: 2020 2020 2020 2027 3230 3232 2d30 322d         '2022-02-
+-00000ff0: 3031 272c 2027 3230 3232 2d30 322d 3031  01', '2022-02-01
+-00001000: 272c 2027 3230 3232 2d30 322d 3031 275d  ', '2022-02-01']
+-00001010: 292c 0d0a 2020 2020 2745 4e44 5f44 5427  ),..    'END_DT'
+-00001020: 3a20 7064 2e74 6f5f 6461 7465 7469 6d65  : pd.to_datetime
+-00001030: 285b 2732 3032 322d 3033 2d33 3127 2c20  (['2022-03-31', 
+-00001040: 2732 3032 322d 3033 2d33 3127 2c20 2732  '2022-03-31', '2
+-00001050: 3032 322d 3033 2d33 3127 2c0d 0a20 2020  022-03-31',..   
+-00001060: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00001070: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00001080: 2020 2020 2732 3032 322d 3033 2d33 3127      '2022-03-31'
+-00001090: 2c20 2732 3032 322d 3033 2d33 3127 2c20  , '2022-03-31', 
+-000010a0: 2732 3032 322d 3033 2d33 3127 5d29 0d0a  '2022-03-31'])..
+-000010b0: 7d29 0d0a 0d0a 2320 496e 7370 6563 7420  })....# Inspect 
+-000010c0: 7361 6d70 6c65 2064 6174 610d 0a64 662e  sample data..df.
+-000010d0: 6865 6164 286e 3d6c 656e 2864 6629 290d  head(n=len(df)).
+-000010e0: 0a0d 0a23 2063 616c 6375 6c61 7465 2050  ...# calculate P
+-000010f0: 4443 2073 636f 7265 7320 6f6e 2074 6865  DC scores on the
+-00001100: 2069 6e70 7574 2044 6174 6146 7261 6d65   input DataFrame
+-00001110: 0d0a 6361 6c63 6675 6e63 3d20 7064 6363  ..calcfunc= pdcc
+-00001120: 616c 6328 6461 7461 6672 616d 653d 6466  alc(dataframe=df
+-00001130: 2c20 7061 7469 656e 745f 6964 5f63 6f6c  , patient_id_col
+-00001140: 3d27 4d43 4944 272c 2064 7275 676e 616d  ='MCID', drugnam
+-00001150: 655f 636f 6c3d 2744 5255 474e 414d 4527  e_col='DRUGNAME'
+-00001160: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
+-00001170: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00001180: 2020 2020 2020 2020 2020 202c 2066 696c             , fil
+-00001190: 6c64 6174 655f 636f 6c3d 2752 585f 4649  ldate_col='RX_FI
+-000011a0: 4c4c 4544 5f44 5427 2c20 7375 7070 6c79  LLED_DT', supply
+-000011b0: 5f64 6179 735f 636f 6c3d 2744 4159 535f  _days_col='DAYS_
+-000011c0: 5350 4c59 5f4e 4252 270d 0a20 2020 2020  SPLY_NBR'..     
+-000011d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000011e0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-000011f0: 2020 2020 2c20 6d62 725f 656c 6967 5f73      , mbr_elig_s
+-00001200: 7461 7274 5f64 745f 636f 6c3d 2753 5441  tart_dt_col='STA
+-00001210: 5254 5f44 5427 2c20 6d62 725f 656c 6967  RT_DT', mbr_elig
+-00001220: 5f65 6e64 5f64 745f 636f 6c3d 2745 4e44  _end_dt_col='END
+-00001230: 5f44 5427 290d 0a70 6463 5f73 636f 7265  _DT')..pdc_score
+-00001240: 735f 6466 203d 2063 616c 6366 756e 632e  s_df = calcfunc.
+-00001250: 6361 6c63 756c 6174 655f 7064 6328 290d  calculate_pdc().
+-00001260: 0a0d 0a23 2049 6e73 7065 6374 206f 7574  ...# Inspect out
+-00001270: 7075 740d 0a70 6463 5f73 636f 7265 735f  put..pdc_scores_
+-00001280: 6466 2e68 6561 6428 290d 0a0d 0a0d 0a3c  df.head()......<
+-00001290: 6275 7474 6f6e 2063 6c61 7373 3d22 6274  button class="bt
+-000012a0: 6e22 2064 6174 612d 636c 6970 626f 6172  n" data-clipboar
+-000012b0: 642d 7461 7267 6574 3d22 2375 7361 6765  d-target="#usage
+-000012c0: 2d65 7861 6d70 6c65 223e 436f 7079 3c2f  -example">Copy</
+-000012d0: 6275 7474 6f6e 3e0d 0a0d 0a3c 7363 7269  button>....<scri
+-000012e0: 7074 2073 7263 3d22 6874 7470 733a 2f2f  pt src="https://
+-000012f0: 6364 6e6a 732e 636c 6f75 6466 6c61 7265  cdnjs.cloudflare
+-00001300: 2e63 6f6d 2f61 6a61 782f 6c69 6273 2f63  .com/ajax/libs/c
+-00001310: 6c69 7062 6f61 7264 2e6a 732f 322e 302e  lipboard.js/2.0.
+-00001320: 382f 636c 6970 626f 6172 642e 6d69 6e2e  8/clipboard.min.
+-00001330: 6a73 223e 3c2f 7363 7269 7074 3e0d 0a3c  js"></script>..<
+-00001340: 7363 7269 7074 3e0d 0a20 2076 6172 2063  script>..  var c
+-00001350: 6c69 7062 6f61 7264 203d 206e 6577 2043  lipboard = new C
+-00001360: 6c69 7062 6f61 7264 4a53 2827 2e62 746e  lipboardJS('.btn
+-00001370: 2729 3b0d 0a0d 0a20 2063 6c69 7062 6f61  ');....  clipboa
+-00001380: 7264 2e6f 6e28 2773 7563 6365 7373 272c  rd.on('success',
+-00001390: 2066 756e 6374 696f 6e28 6529 207b 0d0a   function(e) {..
+-000013a0: 2020 2020 636f 6e73 6f6c 652e 6c6f 6728      console.log(
+-000013b0: 2743 6f70 6965 6421 2729 3b0d 0a20 207d  'Copied!');..  }
+-000013c0: 293b 0d0a 0d0a 2020 636c 6970 626f 6172  );....  clipboar
+-000013d0: 642e 6f6e 2827 6572 726f 7227 2c20 6675  d.on('error', fu
+-000013e0: 6e63 7469 6f6e 2865 2920 7b0d 0a20 2020  nction(e) {..   
+-000013f0: 2063 6f6e 736f 6c65 2e6c 6f67 2827 4572   console.log('Er
+-00001400: 726f 7220 636f 7079 696e 673a 2027 202b  ror copying: ' +
+-00001410: 2065 293b 0d0a 2020 7d29 3b0d 0a3c 2f73   e);..  });..</s
+-00001420: 6372 6970 743e 0d0a 0d0a                 cript>....
++00000d80: 4c4f 4154 2a0d 0a0d 0a0d 0a3c 6275 7474  LOAT*......<butt
++00000d90: 6f6e 206f 6e63 6c69 636b 3d22 636f 7079  on onclick="copy
++00000da0: 546f 436c 6970 626f 6172 6428 2723 7573  ToClipboard('#us
++00000db0: 6167 652d 6578 616d 706c 6527 2922 3e43  age-example')">C
++00000dc0: 6f70 793c 2f62 7574 746f 6e3e 0d0a 0d0a  opy</button>....
++00000dd0: 3c73 6372 6970 743e 0d0a 2020 6675 6e63  <script>..  func
++00000de0: 7469 6f6e 2063 6f70 7954 6f43 6c69 7062  tion copyToClipb
++00000df0: 6f61 7264 2865 6c65 6d65 6e74 2920 7b0d  oard(element) {.
++00000e00: 0a20 2020 2076 6172 2063 6f70 7954 6578  .    var copyTex
++00000e10: 7420 3d20 646f 6375 6d65 6e74 2e71 7565  t = document.que
++00000e20: 7279 5365 6c65 6374 6f72 2865 6c65 6d65  rySelector(eleme
++00000e30: 6e74 293b 0d0a 2020 2020 7661 7220 7261  nt);..    var ra
++00000e40: 6e67 6520 3d20 646f 6375 6d65 6e74 2e63  nge = document.c
++00000e50: 7265 6174 6552 616e 6765 2829 3b0d 0a20  reateRange();.. 
++00000e60: 2020 2072 616e 6765 2e73 656c 6563 744e     range.selectN
++00000e70: 6f64 6528 636f 7079 5465 7874 293b 0d0a  ode(copyText);..
++00000e80: 2020 2020 7769 6e64 6f77 2e67 6574 5365      window.getSe
++00000e90: 6c65 6374 696f 6e28 292e 7265 6d6f 7665  lection().remove
++00000ea0: 416c 6c52 616e 6765 7328 293b 0d0a 2020  AllRanges();..  
++00000eb0: 2020 7769 6e64 6f77 2e67 6574 5365 6c65    window.getSele
++00000ec0: 6374 696f 6e28 292e 6164 6452 616e 6765  ction().addRange
++00000ed0: 2872 616e 6765 293b 0d0a 2020 2020 646f  (range);..    do
++00000ee0: 6375 6d65 6e74 2e65 7865 6343 6f6d 6d61  cument.execComma
++00000ef0: 6e64 2822 636f 7079 2229 3b0d 0a20 2020  nd("copy");..   
++00000f00: 2061 6c65 7274 2822 436f 7069 6564 2074   alert("Copied t
++00000f10: 6865 2074 6578 743a 2022 202b 2063 6f70  he text: " + cop
++00000f20: 7954 6578 742e 696e 6e65 7254 6578 7429  yText.innerText)
++00000f30: 3b0d 0a20 207d 0d0a 3c2f 7363 7269 7074  ;..  }..</script
++00000f40: 3e0d 0a3c 6469 7620 6964 3d22 7573 6167  >..<div id="usag
++00000f50: 652d 6578 616d 706c 6522 2073 7479 6c65  e-example" style
++00000f60: 3d22 6469 7370 6c61 793a 6e6f 6e65 3b22  ="display:none;"
++00000f70: 3e0d 0a0d 0a60 6060 7079 7468 6f6e 0d0a  >....```python..
++00000f80: 0d0a 2320 2049 6d70 6f72 7420 7265 7175  ..#  Import requ
++00000f90: 6972 6564 206c 6962 7261 7269 6573 0d0a  ired libraries..
++00000fa0: 696d 706f 7274 2070 616e 6461 7320 6173  import pandas as
++00000fb0: 2070 640d 0a69 6d70 6f72 7420 6e75 6d70   pd..import nump
++00000fc0: 7920 6173 206e 700d 0a66 726f 6d20 7064  y as np..from pd
++00000fd0: 6373 636f 7265 2069 6d70 6f72 7420 7064  cscore import pd
++00000fe0: 6363 616c 630d 0a0d 0a23 2043 7265 6174  ccalc....# Creat
++00000ff0: 6520 6120 7361 6d70 6c65 2064 6174 6166  e a sample dataf
++00001000: 7261 6d65 0d0a 6466 203d 2070 642e 4461  rame..df = pd.Da
++00001010: 7461 4672 616d 6528 7b0d 0a20 2020 2027  taFrame({..    '
++00001020: 4d43 4944 273a 205b 2741 272c 2027 4127  MCID': ['A', 'A'
++00001030: 2c20 2741 272c 2027 4227 2c20 2742 272c  , 'A', 'B', 'B',
++00001040: 2027 4227 5d2c 0d0a 2020 2020 2744 5255   'B'],..    'DRU
++00001050: 474e 414d 4527 3a20 5b27 5827 2c20 2758  GNAME': ['X', 'X
++00001060: 272c 2027 5827 2c20 2759 272c 2027 5927  ', 'X', 'Y', 'Y'
++00001070: 2c20 2759 275d 2c0d 0a20 2020 2027 5258  , 'Y'],..    'RX
++00001080: 5f46 494c 4c45 445f 4454 273a 2070 642e  _FILLED_DT': pd.
++00001090: 746f 5f64 6174 6574 696d 6528 5b27 3230  to_datetime(['20
++000010a0: 3232 2d30 312d 3031 272c 2027 3230 3232  22-01-01', '2022
++000010b0: 2d30 312d 3231 272c 2027 3230 3232 2d30  -01-21', '2022-0
++000010c0: 332d 3230 272c 0d0a 2020 2020 2020 2020  3-20',..        
++000010d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000010e0: 2020 2020 2020 2020 2732 3032 322d 3031          '2022-01
++000010f0: 2d30 3127 2c20 2732 3032 322d 3032 2d30  -01', '2022-02-0
++00001100: 3127 2c20 2732 3032 322d 3033 2d30 3127  1', '2022-03-01'
++00001110: 5d29 2c0d 0a20 2020 2027 4441 5953 5f53  ]),..    'DAYS_S
++00001120: 504c 595f 4e42 5227 3a20 5b33 302c 2033  PLY_NBR': [30, 3
++00001130: 302c 2033 302c 2033 302c 2033 302c 2033  0, 30, 30, 30, 3
++00001140: 305d 2c0d 0a20 2020 2027 5354 4152 545f  0],..    'START_
++00001150: 4454 273a 2070 642e 746f 5f64 6174 6574  DT': pd.to_datet
++00001160: 696d 6528 5b27 3230 3232 2d30 312d 3031  ime(['2022-01-01
++00001170: 272c 2027 3230 3232 2d30 312d 3031 272c  ', '2022-01-01',
++00001180: 2027 3230 3232 2d30 312d 3031 272c 0d0a   '2022-01-01',..
++00001190: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000011a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000011b0: 2020 2020 2020 2020 2027 3230 3232 2d30           '2022-0
++000011c0: 322d 3031 272c 2027 3230 3232 2d30 322d  2-01', '2022-02-
++000011d0: 3031 272c 2027 3230 3232 2d30 322d 3031  01', '2022-02-01
++000011e0: 275d 292c 0d0a 2020 2020 2745 4e44 5f44  ']),..    'END_D
++000011f0: 5427 3a20 7064 2e74 6f5f 6461 7465 7469  T': pd.to_dateti
++00001200: 6d65 285b 2732 3032 322d 3033 2d33 3127  me(['2022-03-31'
++00001210: 2c20 2732 3032 322d 3033 2d33 3127 2c20  , '2022-03-31', 
++00001220: 2732 3032 322d 3033 2d33 3127 2c0d 0a20  '2022-03-31',.. 
++00001230: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00001240: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00001250: 2020 2020 2020 2732 3032 322d 3033 2d33        '2022-03-3
++00001260: 3127 2c20 2732 3032 322d 3033 2d33 3127  1', '2022-03-31'
++00001270: 2c20 2732 3032 322d 3033 2d33 3127 5d29  , '2022-03-31'])
++00001280: 0d0a 7d29 0d0a 0d0a 2320 496e 7370 6563  ..})....# Inspec
++00001290: 7420 7361 6d70 6c65 2064 6174 610d 0a64  t sample data..d
++000012a0: 662e 6865 6164 286e 3d6c 656e 2864 6629  f.head(n=len(df)
++000012b0: 290d 0a0d 0a23 2063 616c 6375 6c61 7465  )....# calculate
++000012c0: 2050 4443 2073 636f 7265 7320 6f6e 2074   PDC scores on t
++000012d0: 6865 2069 6e70 7574 2044 6174 6146 7261  he input DataFra
++000012e0: 6d65 0d0a 6361 6c63 6675 6e63 3d20 7064  me..calcfunc= pd
++000012f0: 6363 616c 6328 6461 7461 6672 616d 653d  ccalc(dataframe=
++00001300: 6466 2c20 7061 7469 656e 745f 6964 5f63  df, patient_id_c
++00001310: 6f6c 3d27 4d43 4944 272c 2064 7275 676e  ol='MCID', drugn
++00001320: 616d 655f 636f 6c3d 2744 5255 474e 414d  ame_col='DRUGNAM
++00001330: 4527 0d0a 2020 2020 2020 2020 2020 2020  E'..            
++00001340: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00001350: 2020 2020 2020 2020 2020 2020 202c 2066               , f
++00001360: 696c 6c64 6174 655f 636f 6c3d 2752 585f  illdate_col='RX_
++00001370: 4649 4c4c 4544 5f44 5427 2c20 7375 7070  FILLED_DT', supp
++00001380: 6c79 5f64 6179 735f 636f 6c3d 2744 4159  ly_days_col='DAY
++00001390: 535f 5350 4c59 5f4e 4252 270d 0a20 2020  S_SPLY_NBR'..   
++000013a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000013b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000013c0: 2020 2020 2020 2c20 6d62 725f 656c 6967        , mbr_elig
++000013d0: 5f73 7461 7274 5f64 745f 636f 6c3d 2753  _start_dt_col='S
++000013e0: 5441 5254 5f44 5427 2c20 6d62 725f 656c  TART_DT', mbr_el
++000013f0: 6967 5f65 6e64 5f64 745f 636f 6c3d 2745  ig_end_dt_col='E
++00001400: 4e44 5f44 5427 290d 0a70 6463 5f73 636f  ND_DT')..pdc_sco
++00001410: 7265 735f 6466 203d 2063 616c 6366 756e  res_df = calcfun
++00001420: 632e 6361 6c63 756c 6174 655f 7064 6328  c.calculate_pdc(
++00001430: 290d 0a0d 0a23 2049 6e73 7065 6374 206f  )....# Inspect o
++00001440: 7574 7075 740d 0a70 6463 5f73 636f 7265  utput..pdc_score
++00001450: 735f 6466 2e68 6561 6428 290d 0a0d 0a    s_df.head()....
+```
+
+### Comparing `pdcscore-1.0.5/setup.py` & `pdcscore-1.0.6/setup.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -7,15 +7,15 @@
+ file_path = os.path.join(dir_path, file_name)
+ 
+ with open(file_path, encoding='utf-8') as f:
+     long_description = f.read()
+ 
+ setup(
+     name='pdcscore',
+-    version='1.0.5',
++    version='1.0.6',
+     description='A package to facilitate efficient and accurate calculation of the medication adherence metric "Proportion of Days Covered" or "PDC".',
+     long_description=long_description,
+     long_description_content_type='text/markdown',
+     # url='https://github.com/<username>/<repository>',
+     author='Daniel Famutimi MD, MPH',
+     author_email='danielfamutimi@gmail.com',
+     license='MIT',
+```
+
