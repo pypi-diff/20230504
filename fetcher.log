@@ -17623,3 +17623,91 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 16:36:45] INFO root fetch - main [MainThread]: End processing [rpaframework-google]: success
 [2023-05-04 16:36:47] INFO root fetch - main [MainThread]: End processing [pytedea]: success
 [2023-05-04 16:36:47] INFO root fetch - main [MainThread]: Store serial: [17973535]
+[2023-05-04 16:41:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17973535]
+[2023-05-04 16:41:56] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-04 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openassetio-traitgen
+[2023-05-04 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecida
+[2023-05-04 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mbta-gtfs-sqlite
+[2023-05-04 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: key-changer
+[2023-05-04 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modular-rl
+[2023-05-04 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: z3c.jbot
+[2023-05-04 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-05-04 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: madai
+[2023-05-04 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PaReBrick
+[2023-05-04 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-oz-docker-json5
+[2023-05-04 16:41:56] INFO root fetch - processPackages [key-changer]: New version: [1.1] Old Version: [1.0]
+[2023-05-04 16:41:56] INFO root fetch - processPackages [openassetio-traitgen]: New version: [1.0.0a6] Old Version: [1.0.0a5]
+[2023-05-04 16:41:56] INFO root fetch - processPackages [modular-rl]: New version: [0.1.3a0] Old Version: [0.1.2.dev0]
+[2023-05-04 16:41:56] INFO root fetch - processPackages [mbta-gtfs-sqlite]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-04 16:41:56] INFO root fetch - processPackages [z3c.jbot]: New version: [2.0] Old Version: [1.1.1]
+[2023-05-04 16:41:56] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: New version: [20230504.8.42.61246] Old Version: [20230504.14.38.980559]
+[2023-05-04 16:41:56] WARNING root fetch - processPackages [madai]: Skipping, unable to determine old version
+[2023-05-04 16:41:56] INFO root fetch - processPackages [madai]: Start processing: bibx
+[2023-05-04 16:41:56] INFO root fetch - main [MainThread]: End processing [madai] error
+[2023-05-04 16:41:56] INFO root fetch - processPackages [PaReBrick]: New version: [0.5.1] Old Version: [0.5]
+[2023-05-04 16:41:56] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230504.9.57.726431] Old Version: [20230504.14.37.838189]
+[2023-05-04 16:41:56] INFO root fetch - processPackages [ecida]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-04 16:41:56] INFO root fetch - processPackages [bibx]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2023-05-04 16:41:56] INFO root fetch - processPackages [mbta-gtfs-sqlite]: Downloading https://files.pythonhosted.org/packages/d5/eb/f918f1ab1ac6535f506e3a0235d5ed08f14a8c222b3edc445ac779fd0bee/mbta-gtfs-sqlite-0.9.5.tar.gz
+[2023-05-04 16:41:56] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Downloading https://files.pythonhosted.org/packages/95/d3/dde2b233596d467dfd42d78ad4547a1e09ec189e869db3e6f2e96740f2c1/certora-cli-alpha-oz-docker-json5-20230504.14.38.980559.tar.gz
+[2023-05-04 16:41:56] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/da/ca/025cf279602e36c3b1ec611d1edce4d9181399f1dae314bf9d97b1684d30/certora-cli-alpha-master-20230504.14.37.838189.tar.gz
+[2023-05-04 16:41:56] INFO root fetch - processPackages [modular-rl]: Downloading https://files.pythonhosted.org/packages/d0/f1/a293b5d74859aaee112af4652ce2d150641e9935bf7d0fa0a3cd838a6823/modular_rl-0.1.3a0.tar.gz
+[2023-05-04 16:41:56] INFO root fetch - processPackages [bibx]: Downloading https://files.pythonhosted.org/packages/b7/e2/4f5b513c612c33569af6a6ef0c82d51cdfa04272227f086641b45bf6dbaa/bibx-0.0.1a3.tar.gz
+[2023-05-04 16:41:56] INFO root fetch - processPackages [key-changer]: Downloading https://files.pythonhosted.org/packages/93/94/1c45148918417fb2ee818b86797cd628f9041279a0664e069ff0a2d65225/key_changer-1.0.tar.gz
+[2023-05-04 16:41:56] INFO root fetch - processPackages [z3c.jbot]: Downloading https://files.pythonhosted.org/packages/74/67/0fb16539d5c58b9701d9d523fdb6b5b8a51dcc0b29ab04e9b673a9e367ce/z3c.jbot-1.1.1.tar.gz
+[2023-05-04 16:41:56] INFO root fetch - processPackages [ecida]: Downloading https://files.pythonhosted.org/packages/d0/a0/8431f497b61dc706de3cb4158556879d51fcf135bd21b2747fea2d11be72/ecida-0.0.3.tar.gz
+[2023-05-04 16:41:56] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38413065>=10485760
+[2023-05-04 16:41:56] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: modelw-docker
+[2023-05-04 16:41:56] WARNING root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Skipping package: exceeds size limit 38413816>=10485760
+[2023-05-04 16:41:56] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-04 16:41:56] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Start processing: kcli
+[2023-05-04 16:41:56] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-docker-json5] error
+[2023-05-04 16:41:56] INFO root fetch - processPackages [PaReBrick]: Downloading https://files.pythonhosted.org/packages/47/8b/278c9ed452bd2c1bd8d0d504339e5a4abfb09b8b59cdb1febe142658f0cb/PaReBrick-0.5.1.tar.gz
+[2023-05-04 16:41:56] INFO root fetch - processPackages [openassetio-traitgen]: Downloading https://files.pythonhosted.org/packages/94/10/4ed841c17a3f3dd286b4de22c5b39bf62b4a69d435a47c893c2f7dae0d20/openassetio_traitgen-1.0.0a5-py3-none-any.whl
+[2023-05-04 16:41:56] INFO root fetch - processPackages [modelw-docker]: New version: [2023.4.0b3] Old Version: [2023.4.0b2]
+[2023-05-04 16:41:56] INFO root fetch - processPackages [modular-rl]: executing diffoscope
+[2023-05-04 16:41:56] INFO root fetch - processPackages [modular-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modular_rl-0.1.2.dev0.tar.gz tmp/modular_rl-0.1.3a0.tar.gz --markdown 20230504/m/modular-rl/0.1.2.dev0-0.1.3a0/diff.md --exclude *.pyd
+[2023-05-04 16:41:56] INFO root fetch - processPackages [kcli]: New version: [99.0.202305041440] Old Version: [99.0.202305041109]
+[2023-05-04 16:41:56] INFO root fetch - processPackages [ecida]: executing diffoscope
+[2023-05-04 16:41:56] INFO root fetch - processPackages [ecida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecida-0.0.2.tar.gz tmp/ecida-0.0.3.tar.gz --markdown 20230504/e/ecida/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-04 16:41:56] INFO root fetch - processPackages [mbta-gtfs-sqlite]: Downloading https://files.pythonhosted.org/packages/97/c0/1a36dce0619d813bf3dd3ac8603db60471fa24c55aefdb8a2b166ff16006/mbta-gtfs-sqlite-0.9.6.tar.gz
+[2023-05-04 16:41:56] INFO root fetch - processPackages [PaReBrick]: executing diffoscope
+[2023-05-04 16:41:56] INFO root fetch - processPackages [PaReBrick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PaReBrick-0.5.tar.gz tmp/PaReBrick-0.5.1.tar.gz --markdown 20230504/P/PaReBrick/0.5-0.5.1/diff.md --exclude *.pyd
+[2023-05-04 16:41:56] INFO root fetch - processPackages [mbta-gtfs-sqlite]: executing diffoscope
+[2023-05-04 16:41:56] INFO root fetch - processPackages [mbta-gtfs-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbta-gtfs-sqlite-0.9.5.tar.gz tmp/mbta-gtfs-sqlite-0.9.6.tar.gz --markdown 20230504/m/mbta-gtfs-sqlite/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-04 16:41:56] INFO root fetch - processPackages [modelw-docker]: Downloading https://files.pythonhosted.org/packages/0d/a7/67f5d3b2f3449c14d716e32a78b28bb8c96043f58b5cedce940d3cce5f28/modelw_docker-2023.4.0b3.tar.gz
+[2023-05-04 16:41:56] INFO root fetch - processPackages [z3c.jbot]: Downloading https://files.pythonhosted.org/packages/17/03/df8ff6c7f53c9e9af6d181b9781ee22804f921544a79f7bf66f552e9385f/z3c.jbot-2.0.tar.gz
+[2023-05-04 16:41:56] INFO root fetch - processPackages [key-changer]: Downloading https://files.pythonhosted.org/packages/5a/63/3bd703f9780cf63a64e81cc27143d9d19053e23010d8a8ac1dc42750ef4b/key_changer-1.1.tar.gz
+[2023-05-04 16:41:56] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c9/1a/e35ff66398e48c46feea03358b0a213500d8def6c81a38118e25a81c8e22/kcli-99.0.202305041440-py3-none-any.whl
+[2023-05-04 16:41:56] INFO root fetch - processPackages [openassetio-traitgen]: Downloading https://files.pythonhosted.org/packages/76/16/1b8a157c2532e082c236f83332e475d02be9912315fb0f3431332f40a64b/openassetio_traitgen-1.0.0a6-py3-none-any.whl
+[2023-05-04 16:41:56] INFO root fetch - processPackages [modelw-docker]: executing diffoscope
+[2023-05-04 16:41:56] INFO root fetch - processPackages [modelw-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelw_docker-2023.4.0b2.tar.gz tmp/modelw_docker-2023.4.0b3.tar.gz --markdown 20230504/m/modelw-docker/2023.4.0b2-2023.4.0b3/diff.md --exclude *.pyd
+[2023-05-04 16:41:56] INFO root fetch - processPackages [z3c.jbot]: executing diffoscope
+[2023-05-04 16:41:56] INFO root fetch - processPackages [z3c.jbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z3c.jbot-1.1.1.tar.gz tmp/z3c.jbot-2.0.tar.gz --markdown 20230504/z/z3c.jbot/1.1.1-2.0/diff.md --exclude *.pyd
+[2023-05-04 16:41:56] INFO root fetch - processPackages [key-changer]: executing diffoscope
+[2023-05-04 16:41:56] INFO root fetch - processPackages [key-changer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/key_changer-1.0.tar.gz tmp/key_changer-1.1.tar.gz --markdown 20230504/k/key-changer/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-04 16:41:56] INFO root fetch - processPackages [openassetio-traitgen]: executing diffoscope
+[2023-05-04 16:41:56] INFO root fetch - processPackages [openassetio-traitgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openassetio_traitgen-1.0.0a5-py3-none-any.whl.zip tmp/openassetio_traitgen-1.0.0a6-py3-none-any.whl.zip --markdown 20230504/o/openassetio-traitgen/1.0.0a5-1.0.0a6/diff.md --exclude *.pyd
+[2023-05-04 16:41:56] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-04 16:41:56] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305041109-py3-none-any.whl.zip tmp/kcli-99.0.202305041440-py3-none-any.whl.zip --markdown 20230504/k/kcli/99.0.202305041109-99.0.202305041440/diff.md --exclude *.pyd
+[2023-05-04 16:41:57] INFO root fetch - processPackages [bibx]: Downloading https://files.pythonhosted.org/packages/ec/a9/13cfb7732158c43754dc211909fafb551b297107e8fcd3586878b3761e25/bibx-0.0.1a4.tar.gz
+[2023-05-04 16:41:57] INFO root fetch - processPackages [bibx]: executing diffoscope
+[2023-05-04 16:41:57] INFO root fetch - processPackages [bibx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibx-0.0.1a3.tar.gz tmp/bibx-0.0.1a4.tar.gz --markdown 20230504/b/bibx/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2023-05-04 16:41:58] INFO root fetch - processPackages [ecida]: Start processing: itkwasm
+[2023-05-04 16:41:58] INFO root fetch - main [MainThread]: End processing [ecida]: success
+[2023-05-04 16:41:58] INFO root fetch - processPackages [itkwasm]: New version: [1.0b97] Old Version: [1.0b96]
+[2023-05-04 16:41:58] INFO root fetch - main [MainThread]: End processing [modular-rl]: success
+[2023-05-04 16:41:58] INFO root fetch - main [MainThread]: End processing [key-changer]: success
+[2023-05-04 16:41:58] INFO root fetch - processPackages [itkwasm]: Downloading https://files.pythonhosted.org/packages/f6/9d/385cbd7b8df981cfc8897da19437d04ba44da8c141afdaafa01bd7d127d5/itkwasm-1.0b96.tar.gz
+[2023-05-04 16:41:58] INFO root fetch - main [MainThread]: End processing [modelw-docker]: success
+[2023-05-04 16:41:58] INFO root fetch - main [MainThread]: End processing [PaReBrick]: success
+[2023-05-04 16:41:58] INFO root fetch - main [MainThread]: End processing [openassetio-traitgen]: success
+[2023-05-04 16:41:58] INFO root fetch - main [MainThread]: End processing [mbta-gtfs-sqlite]: success
+[2023-05-04 16:41:58] INFO root fetch - main [MainThread]: End processing [z3c.jbot]: success
+[2023-05-04 16:41:59] INFO root fetch - processPackages [itkwasm]: Downloading https://files.pythonhosted.org/packages/a9/dc/417f2dbb23b3bd56dda068878d5050c55cfbacdcbb34387a8444583f31fa/itkwasm-1.0b97.tar.gz
+[2023-05-04 16:41:59] INFO root fetch - processPackages [itkwasm]: executing diffoscope
+[2023-05-04 16:41:59] INFO root fetch - processPackages [itkwasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm-1.0b96.tar.gz tmp/itkwasm-1.0b97.tar.gz --markdown 20230504/i/itkwasm/1.0b96-1.0b97/diff.md --exclude *.pyd
+[2023-05-04 16:41:59] INFO root fetch - main [MainThread]: End processing [bibx]: success
+[2023-05-04 16:42:01] INFO root fetch - main [MainThread]: End processing [itkwasm]: success
+[2023-05-04 16:42:05] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-04 16:42:05] INFO root fetch - main [MainThread]: Store serial: [17973582]
