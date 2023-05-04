@@ -10356,3 +10356,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 10:17:27] INFO root fetch - main [MainThread]: End processing [pymisp]: success
 [2023-05-04 10:17:35] INFO root fetch - main [MainThread]: End processing [seabreeze]: success
 [2023-05-04 10:17:35] INFO root fetch - main [MainThread]: Store serial: [17969180]
+[2023-05-04 10:22:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17969180]
+[2023-05-04 10:22:46] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-04 10:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aloso
+[2023-05-04 10:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logger-wrapper
+[2023-05-04 10:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepper-cli
+[2023-05-04 10:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zcbot-predict-sdk
+[2023-05-04 10:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hestia-earth-schema
+[2023-05-04 10:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SDTcloud
+[2023-05-04 10:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yao
+[2023-05-04 10:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ukis-pysat
+[2023-05-04 10:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gaiaFramework
+[2023-05-04 10:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zcbot-celery-sdk
+[2023-05-04 10:22:46] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 10:22:46] INFO root fetch - processPackages [pepper-cli]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-04 10:22:46] INFO root fetch - processPackages [logger-wrapper]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-04 10:22:46] INFO root fetch - processPackages [SDTcloud]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 10:22:46] INFO root fetch - processPackages [zcbot-predict-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 10:22:46] INFO root fetch - processPackages [zcbot-celery-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 10:22:46] INFO root fetch - processPackages [ukis-pysat]: New version: [1.5.0] Old Version: [1.4.3]
+[2023-05-04 10:22:46] INFO root fetch - processPackages [yao]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-04 10:22:46] INFO root fetch - processPackages [gaiaFramework]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 10:22:46] INFO root fetch - processPackages [hestia-earth-schema]: New version: [9.7.1] Old Version: [9.7.0]
+[2023-05-04 10:22:46] INFO root fetch - processPackages [gaiaFramework]: executing diffoscope
+[2023-05-04 10:22:46] INFO root fetch - processPackages [gaiaFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaiaFramework-1.0.8.tar.gz tmp/gaiaFramework-1.0.9.tar.gz --markdown 20230504/g/gaiaFramework/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 10:22:46] INFO root fetch - processPackages [hestia-earth-schema]: executing diffoscope
+[2023-05-04 10:22:46] INFO root fetch - processPackages [hestia-earth-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-schema-9.7.0.tar.gz tmp/hestia-earth-schema-9.7.1.tar.gz --markdown 20230504/h/hestia-earth-schema/9.7.0-9.7.1/diff.md --exclude *.pyd
+[2023-05-04 10:22:46] INFO root fetch - processPackages [pepper-cli]: Downloading https://files.pythonhosted.org/packages/41/c6/90cbb004ee84f7a9d675c492d86b1e78c28bd7d2e1462b5b3ecfbf022e84/pepper_cli-0.1.1.tar.gz
+[2023-05-04 10:22:46] INFO root fetch - processPackages [SDTcloud]: Downloading https://files.pythonhosted.org/packages/64/c8/7383a04951bfe459323549ff2800a2ce8f6e513924e1cb07a3776547e688/SDTcloud-0.1.9.tar.gz
+[2023-05-04 10:22:46] INFO root fetch - processPackages [zcbot-celery-sdk]: Downloading https://files.pythonhosted.org/packages/4c/b5/afb2bfe70b2370676ef969e320b714a06c96a1bba3cad13f5f5040450b48/zcbot-celery-sdk-0.0.8.tar.gz
+[2023-05-04 10:22:46] INFO root fetch - processPackages [logger-wrapper]: Downloading https://files.pythonhosted.org/packages/1a/c4/a5b1b7551d1d098b3d3d96ed4f56f3f28a584c5b65077451554033fd4633/logger_wrapper-0.0.1.tar.gz
+[2023-05-04 10:22:46] INFO root fetch - processPackages [yao]: Downloading https://files.pythonhosted.org/packages/d8/d3/71ae32fe823e98fa5d573a20717a7121a54568ed387bc1f5069ef6417ab7/yao-0.0.3.tar.gz
+[2023-05-04 10:22:46] INFO root fetch - processPackages [ukis-pysat]: Downloading https://files.pythonhosted.org/packages/43/49/c700b2843dbab1382c05b4160f6220bae43892861e591be41622c9766981/ukis-pysat-1.4.3.tar.gz
+[2023-05-04 10:22:46] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-05-04 10:22:46] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.1.8.tar.gz tmp/SDTcloud-0.1.9.tar.gz --markdown 20230504/S/SDTcloud/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 10:22:46] INFO root fetch - processPackages [zcbot-predict-sdk]: Downloading https://files.pythonhosted.org/packages/7d/6e/9e65ce9f340a92e3b3cb8aaeb4734cda61695713be50bb6b46770a3a587a/zcbot-predict-sdk-0.0.8.tar.gz
+[2023-05-04 10:22:46] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-05-04 10:22:46] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230504/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 10:22:46] INFO root fetch - processPackages [logger-wrapper]: Downloading https://files.pythonhosted.org/packages/2e/a5/be822f3c87b5a198f8ce854b8573f94ae7a8d6473c20d98afa4f9d881389/logger_wrapper-0.1.0.tar.gz
+[2023-05-04 10:22:46] INFO root fetch - processPackages [pepper-cli]: Downloading https://files.pythonhosted.org/packages/10/bf/4a6074240175af5f68f1cbdd7b909b2640c8ee134d7ec5ae2c0727cc4bb0/pepper_cli-0.2.0.tar.gz
+[2023-05-04 10:22:46] INFO root fetch - processPackages [yao]: Downloading https://files.pythonhosted.org/packages/60/74/2515b1fda1e72d75fe602e0e790c8fc5932623e38735052f09506066c1ca/yao-0.0.4.tar.gz
+[2023-05-04 10:22:46] INFO root fetch - processPackages [logger-wrapper]: executing diffoscope
+[2023-05-04 10:22:46] INFO root fetch - processPackages [logger-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger_wrapper-0.0.1.tar.gz tmp/logger_wrapper-0.1.0.tar.gz --markdown 20230504/l/logger-wrapper/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-04 10:22:46] INFO root fetch - processPackages [ukis-pysat]: Downloading https://files.pythonhosted.org/packages/d5/1e/b6b7d04906f18ae3bd75129cb74f1789a4ded84f113ddab740c817ac0490/ukis-pysat-1.5.0.tar.gz
+[2023-05-04 10:22:46] INFO root fetch - processPackages [zcbot-celery-sdk]: Downloading https://files.pythonhosted.org/packages/9a/d8/42b0d82e5095896d6ec2775f0d727ce292ea46e9948fb4aebbbd7ff44280/zcbot-celery-sdk-0.0.9.tar.gz
+[2023-05-04 10:22:46] INFO root fetch - processPackages [pepper-cli]: executing diffoscope
+[2023-05-04 10:22:46] INFO root fetch - processPackages [pepper-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepper_cli-0.1.1.tar.gz tmp/pepper_cli-0.2.0.tar.gz --markdown 20230504/p/pepper-cli/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-04 10:22:46] INFO root fetch - processPackages [zcbot-predict-sdk]: Downloading https://files.pythonhosted.org/packages/b3/fa/c78fca334a791ad8ba00725d1b676d3000e6e1160fcd28fee2ac88852932/zcbot-predict-sdk-0.0.9.tar.gz
+[2023-05-04 10:22:46] INFO root fetch - processPackages [yao]: executing diffoscope
+[2023-05-04 10:22:46] INFO root fetch - processPackages [yao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yao-0.0.3.tar.gz tmp/yao-0.0.4.tar.gz --markdown 20230504/y/yao/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-04 10:22:46] INFO root fetch - processPackages [ukis-pysat]: executing diffoscope
+[2023-05-04 10:22:46] INFO root fetch - processPackages [ukis-pysat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukis-pysat-1.4.3.tar.gz tmp/ukis-pysat-1.5.0.tar.gz --markdown 20230504/u/ukis-pysat/1.4.3-1.5.0/diff.md --exclude *.pyd
+[2023-05-04 10:22:46] INFO root fetch - processPackages [zcbot-celery-sdk]: executing diffoscope
+[2023-05-04 10:22:46] INFO root fetch - processPackages [zcbot-celery-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-celery-sdk-0.0.8.tar.gz tmp/zcbot-celery-sdk-0.0.9.tar.gz --markdown 20230504/z/zcbot-celery-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 10:22:46] INFO root fetch - processPackages [zcbot-predict-sdk]: executing diffoscope
+[2023-05-04 10:22:46] INFO root fetch - processPackages [zcbot-predict-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-predict-sdk-0.0.8.tar.gz tmp/zcbot-predict-sdk-0.0.9.tar.gz --markdown 20230504/z/zcbot-predict-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 10:22:47] INFO root fetch - processPackages [hestia-earth-schema]: Start processing: scmrepo
+[2023-05-04 10:22:47] INFO root fetch - main [MainThread]: End processing [hestia-earth-schema]: success
+[2023-05-04 10:22:47] INFO root fetch - processPackages [scmrepo]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-04 10:22:47] INFO root fetch - processPackages [SDTcloud]: Start processing: NDETCStemmer-kaenova
+[2023-05-04 10:22:47] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-05-04 10:22:47] INFO root fetch - processPackages [scmrepo]: Downloading https://files.pythonhosted.org/packages/72/2b/1eb3f68b2cfdcfd6b3615b34cc0301748b9da5f5bb10e1c50c0069b07074/scmrepo-1.0.2.tar.gz
+[2023-05-04 10:22:47] INFO root fetch - processPackages [NDETCStemmer-kaenova]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-04 10:22:48] INFO root fetch - processPackages [NDETCStemmer-kaenova]: Downloading https://files.pythonhosted.org/packages/e7/57/984c809219215b5fb5b47e4123a62a7801b984123d3563b0d6caced2df42/NDETCStemmer_kaenova-1.4.3.tar.gz
+[2023-05-04 10:22:48] INFO root fetch - processPackages [logger-wrapper]: Start processing: base-system
+[2023-05-04 10:22:48] INFO root fetch - main [MainThread]: End processing [logger-wrapper]: success
+[2023-05-04 10:22:48] INFO root fetch - processPackages [aloso]: Start processing: cognite-sdk
+[2023-05-04 10:22:48] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-05-04 10:22:48] INFO root fetch - processPackages [base-system]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-04 10:22:48] INFO root fetch - processPackages [cognite-sdk]: New version: [6.1.2] Old Version: [6.1.1]
+[2023-05-04 10:22:48] INFO root fetch - processPackages [NDETCStemmer-kaenova]: executing diffoscope
+[2023-05-04 10:22:48] INFO root fetch - processPackages [NDETCStemmer-kaenova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NDETCStemmer_kaenova-1.4.2.tar.gz tmp/NDETCStemmer_kaenova-1.4.3.tar.gz --markdown 20230504/N/NDETCStemmer-kaenova/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-04 10:22:48] INFO root fetch - processPackages [gaiaFramework]: Start processing: lusid-drive-sdk-preview
+[2023-05-04 10:22:48] INFO root fetch - main [MainThread]: End processing [gaiaFramework]: success
+[2023-05-04 10:22:48] INFO root fetch - processPackages [scmrepo]: Downloading https://files.pythonhosted.org/packages/4f/88/e72784ec9559927e405bd946b7564583973ac258aa39ae327e362b5927a2/scmrepo-1.0.3.tar.gz
+[2023-05-04 10:22:48] INFO root fetch - processPackages [lusid-drive-sdk-preview]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-05-04 10:22:48] INFO root fetch - processPackages [scmrepo]: executing diffoscope
+[2023-05-04 10:22:48] INFO root fetch - processPackages [scmrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scmrepo-1.0.2.tar.gz tmp/scmrepo-1.0.3.tar.gz --markdown 20230504/s/scmrepo/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-04 10:22:48] INFO root fetch - processPackages [base-system]: Downloading https://files.pythonhosted.org/packages/06/b3/cf83875b6c1f2b9836acd7d4dcac3307407d2ea25a9a8245ae4520b1dc84/base_system-0.2.1.tar.gz
+[2023-05-04 10:22:48] INFO root fetch - processPackages [pepper-cli]: Start processing: lusid-drive-sdk
+[2023-05-04 10:22:48] INFO root fetch - main [MainThread]: End processing [pepper-cli]: success
+[2023-05-04 10:22:48] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/3c/36/7ba764c059e4db444f6cf2e73cd8a04b8f90fa2ed8bc8e663f775912d783/lusid-drive-sdk-preview-0.1.95.tar.gz
+[2023-05-04 10:22:48] INFO root fetch - processPackages [base-system]: executing diffoscope
+[2023-05-04 10:22:48] INFO root fetch - processPackages [base-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/base_system-0.2.0.tar.gz tmp/base_system-0.2.1.tar.gz --markdown 20230504/b/base-system/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-04 10:22:48] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/65/77/0b6aa0a43e15d36522b6c53a592ef6270783fae63173605de1d197767c5e/cognite_sdk-6.1.2.tar.gz
+[2023-05-04 10:22:48] INFO root fetch - main [MainThread]: End processing [zcbot-celery-sdk]: success
+[2023-05-04 10:22:48] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-05-04 10:22:48] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-05-04 10:22:48] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.1.1.tar.gz tmp/cognite_sdk-6.1.2.tar.gz --markdown 20230504/c/cognite-sdk/6.1.1-6.1.2/diff.md --exclude *.pyd
+[2023-05-04 10:22:48] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/de/c4/d650d6220b8a796e210b789647cfcab1357ab3bd9085ea87d503604999f7/lusid-drive-sdk-0.1.95.tar.gz
+[2023-05-04 10:22:48] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/61/f8/d24acce70923cfb6b98f767d1ae2f0c298d30f53032363ce65751be8b091/lusid-drive-sdk-preview-0.1.96.tar.gz
+[2023-05-04 10:22:48] INFO root fetch - main [MainThread]: End processing [zcbot-predict-sdk]: success
+[2023-05-04 10:22:48] INFO root fetch - main [MainThread]: End processing [ukis-pysat]: success
+[2023-05-04 10:22:48] INFO root fetch - main [MainThread]: End processing [yao]: success
+[2023-05-04 10:22:48] INFO root fetch - processPackages [lusid-drive-sdk-preview]: executing diffoscope
+[2023-05-04 10:22:48] INFO root fetch - processPackages [lusid-drive-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-drive-sdk-preview-0.1.95.tar.gz tmp/lusid-drive-sdk-preview-0.1.96.tar.gz --markdown 20230504/l/lusid-drive-sdk-preview/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-05-04 10:22:48] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/df/40/34d8137d43f70f7a96037ba54cbbab838b9ae0bc84531d2be22cb7d3a967/lusid-drive-sdk-0.1.96.tar.gz
+[2023-05-04 10:22:49] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2023-05-04 10:22:49] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-drive-sdk-0.1.95.tar.gz tmp/lusid-drive-sdk-0.1.96.tar.gz --markdown 20230504/l/lusid-drive-sdk/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-05-04 10:22:49] INFO root fetch - main [MainThread]: End processing [NDETCStemmer-kaenova]: success
+[2023-05-04 10:22:50] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-05-04 10:22:50] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2023-05-04 10:22:50] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk-preview]: success
+[2023-05-04 10:22:51] INFO root fetch - main [MainThread]: End processing [base-system]: success
+[2023-05-04 10:23:18] INFO root fetch - main [MainThread]: End processing [scmrepo]: success
+[2023-05-04 10:23:18] INFO root fetch - main [MainThread]: Store serial: [17969225]
