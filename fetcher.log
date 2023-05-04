@@ -15379,3 +15379,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 14:44:55] INFO root fetch - main [MainThread]: End processing [rayvision-api]: success
 [2023-05-04 14:44:55] INFO root fetch - main [MainThread]: End processing [matfree]: success
 [2023-05-04 14:44:55] INFO root fetch - main [MainThread]: Store serial: [17972212]
+[2023-05-04 14:50:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17972212]
+[2023-05-04 14:50:04] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-04 14:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ftdz-from-fyh
+[2023-05-04 14:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyBerries
+[2023-05-04 14:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emmett-prometheus
+[2023-05-04 14:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dphelper
+[2023-05-04 14:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipython
+[2023-05-04 14:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: samna
+[2023-05-04 14:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gymprecice
+[2023-05-04 14:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyOSBNR
+[2023-05-04 14:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oranchada
+[2023-05-04 14:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: brunns-matchers
+[2023-05-04 14:50:04] INFO root fetch - processPackages [emmett-prometheus]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-04 14:50:04] INFO root fetch - processPackages [dphelper]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-04 14:50:04] INFO root fetch - processPackages [PyBerries]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-04 14:50:04] WARNING root fetch - processPackages [PyOSBNR]: Skipping, unable to determine old version
+[2023-05-04 14:50:04] INFO root fetch - processPackages [PyOSBNR]: Start processing: certora-cli-alpha-assaf-TACNewFormat-autoPrinting
+[2023-05-04 14:50:04] INFO root fetch - main [MainThread]: End processing [PyOSBNR] error
+[2023-05-04 14:50:04] WARNING root fetch - processPackages [ftdz-from-fyh]: Skipping, unable to determine old version
+[2023-05-04 14:50:04] INFO root fetch - processPackages [ftdz-from-fyh]: Start processing: nlp-pipeline
+[2023-05-04 14:50:04] INFO root fetch - main [MainThread]: End processing [ftdz-from-fyh] error
+[2023-05-04 14:50:04] INFO root fetch - processPackages [ipython]: New version: [8.9.0] Old Version: [8.8.0]
+[2023-05-04 14:50:04] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-05-04 14:50:04] INFO root fetch - processPackages [nlp-pipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 14:50:04] WARNING root fetch - processPackages [certora-cli-alpha-assaf-TACNewFormat-autoPrinting]: Skipping, unable to determine old version
+[2023-05-04 14:50:04] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACNewFormat-autoPrinting]: Start processing: ChordScaleWizard
+[2023-05-04 14:50:04] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-TACNewFormat-autoPrinting] error
+[2023-05-04 14:50:04] WARNING root fetch - processPackages [gymprecice]: Skipping, unable to determine old version
+[2023-05-04 14:50:04] INFO root fetch - processPackages [oranchada]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-04 14:50:04] INFO root fetch - processPackages [gymprecice]: Start processing: ImageMagic
+[2023-05-04 14:50:04] INFO root fetch - main [MainThread]: End processing [gymprecice] error
+[2023-05-04 14:50:04] INFO root fetch - processPackages [brunns-matchers]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-05-04 14:50:04] INFO root fetch - processPackages [ImageMagic]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-04 14:50:04] WARNING root fetch - processPackages [ChordScaleWizard]: Skipping, unable to determine old version
+[2023-05-04 14:50:04] INFO root fetch - processPackages [ChordScaleWizard]: Start processing: manticore
+[2023-05-04 14:50:04] INFO root fetch - main [MainThread]: End processing [ChordScaleWizard] error
+[2023-05-04 14:50:04] INFO root fetch - processPackages [dphelper]: Downloading https://files.pythonhosted.org/packages/6d/53/b25ce41b93761feed6d1a71f1883ba2d625d03b6e5aff85a4cc51208d5b3/dphelper-0.0.7.tar.gz
+[2023-05-04 14:50:04] INFO root fetch - processPackages [ipython]: executing diffoscope
+[2023-05-04 14:50:04] INFO root fetch - processPackages [ipython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-8.8.0.tar.gz tmp/ipython-8.9.0.tar.gz --markdown 20230504/i/ipython/8.8.0-8.9.0/diff.md --exclude *.pyd
+[2023-05-04 14:50:04] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-05-04 14:50:04] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230504/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-05-04 14:50:04] INFO root fetch - processPackages [emmett-prometheus]: Downloading https://files.pythonhosted.org/packages/a5/60/0d1a47ce1341ae4c3010bc61aff996790b9c686252fbf486705c56b150d7/emmett_prometheus-0.1.3.tar.gz
+[2023-05-04 14:50:05] INFO root fetch - processPackages [nlp-pipeline]: executing diffoscope
+[2023-05-04 14:50:05] INFO root fetch - processPackages [nlp-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp_pipeline-0.0.8.tar.gz tmp/nlp_pipeline-0.0.9.tar.gz --markdown 20230504/n/nlp-pipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 14:50:05] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230503] Old Version: [0.3.8.dev230502]
+[2023-05-04 14:50:05] INFO root fetch - processPackages [ImageMagic]: executing diffoscope
+[2023-05-04 14:50:05] INFO root fetch - processPackages [ImageMagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImageMagic-0.1.2.tar.gz tmp/ImageMagic-0.1.3.tar.gz --markdown 20230504/I/ImageMagic/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-04 14:50:05] INFO root fetch - processPackages [oranchada]: Downloading https://files.pythonhosted.org/packages/97/e7/648cffe17758de41996680af8ca4a92b093d8fef4b080353301ef8aa2621/oranchada-0.0.6.tar.gz
+[2023-05-04 14:50:05] INFO root fetch - processPackages [brunns-matchers]: Downloading https://files.pythonhosted.org/packages/31/8c/dc81e29a70b0106416791f83d7b42e54492d632e37f5fbd8e77ba55ce4a0/brunns-matchers-2.6.0.tar.gz
+[2023-05-04 14:50:05] INFO root fetch - processPackages [PyBerries]: Downloading https://files.pythonhosted.org/packages/03/ea/a4ae276714934f250f8a9960d38a90a80695968de15e913d250be1777cdb/PyBerries-0.2.3.tar.gz
+[2023-05-04 14:50:05] INFO root fetch - processPackages [PyBerries]: executing diffoscope
+[2023-05-04 14:50:05] INFO root fetch - processPackages [PyBerries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBerries-0.2.2.tar.gz tmp/PyBerries-0.2.3.tar.gz --markdown 20230504/P/PyBerries/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-04 14:50:05] INFO root fetch - processPackages [dphelper]: Downloading https://files.pythonhosted.org/packages/fd/47/5c5dd7dc6b2d03713ea7045dac3fc3237031deb1b776f44fa8549790c855/dphelper-0.0.8.tar.gz
+[2023-05-04 14:50:05] INFO root fetch - processPackages [emmett-prometheus]: Downloading https://files.pythonhosted.org/packages/36/af/a70f9e466ec45c7149445850c318ae7fb989c7fdb11257df8fb445ba3c35/emmett_prometheus-0.1.4.tar.gz
+[2023-05-04 14:50:05] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/6b/a9/7be88f56f559e69e4b53c04fa9aa7d0eed0557bf23bf23c67388296bedc6/manticore-0.3.8.dev230503.tar.gz
+[2023-05-04 14:50:05] INFO root fetch - processPackages [emmett-prometheus]: executing diffoscope
+[2023-05-04 14:50:05] INFO root fetch - processPackages [emmett-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmett_prometheus-0.1.3.tar.gz tmp/emmett_prometheus-0.1.4.tar.gz --markdown 20230504/e/emmett-prometheus/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-04 14:50:05] INFO root fetch - processPackages [oranchada]: Downloading https://files.pythonhosted.org/packages/98/12/ebbb30b5a2239520169782dcd5283383c672119e4d9b34602f1ff7f2553f/oranchada-0.0.7.tar.gz
+[2023-05-04 14:50:05] INFO root fetch - processPackages [brunns-matchers]: Downloading https://files.pythonhosted.org/packages/b6/a6/59a0094e9ac5c8d415ad97812f2fef16435544766986cd6776355bb56c8f/brunns-matchers-2.7.0.tar.gz
+[2023-05-04 14:50:05] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-05-04 14:50:05] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230502.tar.gz tmp/manticore-0.3.8.dev230503.tar.gz --markdown 20230504/m/manticore/0.3.8.dev230502-0.3.8.dev230503/diff.md --exclude *.pyd
+[2023-05-04 14:50:05] INFO root fetch - processPackages [dphelper]: executing diffoscope
+[2023-05-04 14:50:05] INFO root fetch - processPackages [dphelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dphelper-0.0.7.tar.gz tmp/dphelper-0.0.8.tar.gz --markdown 20230504/d/dphelper/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-04 14:50:05] INFO root fetch - processPackages [oranchada]: executing diffoscope
+[2023-05-04 14:50:05] INFO root fetch - processPackages [oranchada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oranchada-0.0.6.tar.gz tmp/oranchada-0.0.7.tar.gz --markdown 20230504/o/oranchada/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-04 14:50:05] INFO root fetch - processPackages [brunns-matchers]: executing diffoscope
+[2023-05-04 14:50:05] INFO root fetch - processPackages [brunns-matchers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brunns-matchers-2.6.0.tar.gz tmp/brunns-matchers-2.7.0.tar.gz --markdown 20230504/b/brunns-matchers/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-05-04 14:50:06] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-05-04 14:50:06] INFO root fetch - main [MainThread]: End processing [nlp-pipeline]: success
+[2023-05-04 14:50:06] INFO root fetch - main [MainThread]: End processing [emmett-prometheus]: success
+[2023-05-04 14:50:06] INFO root fetch - main [MainThread]: End processing [ImageMagic]: success
+[2023-05-04 14:50:07] INFO root fetch - main [MainThread]: End processing [dphelper]: success
+[2023-05-04 14:50:07] INFO root fetch - main [MainThread]: End processing [PyBerries]: success
+[2023-05-04 14:50:07] INFO root fetch - main [MainThread]: End processing [brunns-matchers]: success
+[2023-05-04 14:50:07] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-05-04 14:50:07] INFO root fetch - main [MainThread]: End processing [oranchada]: success
+[2023-05-04 14:50:10] INFO root fetch - main [MainThread]: End processing [ipython]: success
+[2023-05-04 14:50:10] INFO root fetch - main [MainThread]: Store serial: [17972265]
