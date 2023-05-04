@@ -17478,3 +17478,77 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 16:26:17] INFO root fetch - main [MainThread]: End processing [sefazetllib]: success
 [2023-05-04 16:26:18] INFO root fetch - main [MainThread]: End processing [xdat]: success
 [2023-05-04 16:26:18] INFO root fetch - main [MainThread]: Store serial: [17973435]
+[2023-05-04 16:31:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17973435]
+[2023-05-04 16:31:27] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-04 16:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redis-rqueue
+[2023-05-04 16:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napari-spatialdata
+[2023-05-04 16:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codegeex
+[2023-05-04 16:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: diffpy.pdfgui
+[2023-05-04 16:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-niv-Add-summary-unittests
+[2023-05-04 16:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: a-pandas-ex-less-memory-more-speed
+[2023-05-04 16:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: litestar-utils
+[2023-05-04 16:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-otakar-single-race-mode2
+[2023-05-04 16:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aij-webcam
+[2023-05-04 16:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uagents
+[2023-05-04 16:31:27] INFO root fetch - processPackages [redis-rqueue]: New version: [1.0.0] Old Version: [0.2.2]
+[2023-05-04 16:31:27] INFO root fetch - processPackages [a-pandas-ex-less-memory-more-speed]: New version: [0.38] Old Version: [0.37]
+[2023-05-04 16:31:27] INFO root fetch - processPackages [diffpy.pdfgui]: New version: [2.0.0] Old Version: [1.4.2]
+[2023-05-04 16:31:27] INFO root fetch - processPackages [certora-cli-alpha-niv-Add-summary-unittests]: New version: [20230504.14.28.339380] Old Version: [20230504.13.46.751494]
+[2023-05-04 16:31:27] INFO root fetch - processPackages [napari-spatialdata]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-04 16:31:27] INFO root fetch - processPackages [uagents]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-04 16:31:27] WARNING root fetch - processPackages [litestar-utils]: Skipping, unable to determine old version
+[2023-05-04 16:31:27] WARNING root fetch - processPackages [codegeex]: Skipping, unable to determine old version
+[2023-05-04 16:31:27] INFO root fetch - processPackages [litestar-utils]: Start processing: JsonPreprocessor
+[2023-05-04 16:31:27] INFO root fetch - main [MainThread]: End processing [litestar-utils] error
+[2023-05-04 16:31:27] INFO root fetch - processPackages [codegeex]: Start processing: pyowletapi
+[2023-05-04 16:31:27] INFO root fetch - main [MainThread]: End processing [codegeex] error
+[2023-05-04 16:31:27] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: New version: [20230504.9.59.715367] Old Version: [20230504.7.14.754863]
+[2023-05-04 16:31:27] INFO root fetch - processPackages [aij-webcam]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 16:31:27] INFO root fetch - processPackages [pyowletapi]: New version: [2023.5.5] Old Version: [2023.5.4]
+[2023-05-04 16:31:27] INFO root fetch - processPackages [JsonPreprocessor]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-04 16:31:27] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Downloading https://files.pythonhosted.org/packages/22/00/47d381bfcfb8a2f0f0b571545e881ead0ece177e6a4d6e733008956433d4/certora-cli-alpha-otakar-single_race_mode2-20230504.7.14.754863.tar.gz
+[2023-05-04 16:31:27] INFO root fetch - processPackages [aij-webcam]: executing diffoscope
+[2023-05-04 16:31:27] INFO root fetch - processPackages [aij-webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-webcam-1.0.8.tar.gz tmp/aij-webcam-1.0.9.tar.gz --markdown 20230504/a/aij-webcam/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 16:31:27] WARNING root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Skipping package: exceeds size limit 38420702>=10485760
+[2023-05-04 16:31:27] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Start processing: uniTbrow
+[2023-05-04 16:31:27] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-otakar-single-race-mode2] error
+[2023-05-04 16:31:27] INFO root fetch - processPackages [certora-cli-alpha-niv-Add-summary-unittests]: Downloading https://files.pythonhosted.org/packages/04/d8/dd895b992cc2c4aa43a2c7f828686595769671c0582ec73bf2b2e9368138/certora-cli-alpha-niv-Add_summary_unittests-20230504.13.46.751494.tar.gz
+[2023-05-04 16:31:27] INFO root fetch - processPackages [diffpy.pdfgui]: Downloading https://files.pythonhosted.org/packages/24/63/52025bff061a401b32759a3e7e78c58a26c5c30e9f50d6b496593cdb59ba/diffpy.pdfgui-1.4.2.tar.gz
+[2023-05-04 16:31:27] INFO root fetch - processPackages [uagents]: Downloading https://files.pythonhosted.org/packages/62/7c/75ee6c3030740bfc9810c6c713055e5eb183732839b3fe826da7865b6e07/uagents-0.4.0.tar.gz
+[2023-05-04 16:31:27] INFO root fetch - processPackages [a-pandas-ex-less-memory-more-speed]: Downloading https://files.pythonhosted.org/packages/55/8e/a459bd8681918b379ad582a89081f10c4ed6d0f00aa0025a1765c97c07d6/a_pandas_ex_less_memory_more_speed-0.37.tar.gz
+[2023-05-04 16:31:27] INFO root fetch - processPackages [redis-rqueue]: Downloading https://files.pythonhosted.org/packages/86/58/957fd68a4968987db290fc10b38ce52eb865e7cb8f9118c7e3baa08910d7/redis-rqueue-0.2.2.tar.gz
+[2023-05-04 16:31:27] INFO root fetch - processPackages [JsonPreprocessor]: Downloading https://files.pythonhosted.org/packages/77/3e/83d93a38f3557055eff58a55346d54026b3a2d863640af1ec91514e41997/JsonPreprocessor-0.2.2.tar.gz
+[2023-05-04 16:31:27] INFO root fetch - processPackages [napari-spatialdata]: Downloading https://files.pythonhosted.org/packages/c8/80/56c559eb118fc132edc140e207420c01ca99c7f4a024bd80102a7299a35f/napari-spatialdata-0.2.2.tar.gz
+[2023-05-04 16:31:27] WARNING root fetch - processPackages [uniTbrow]: Skipping, unable to determine old version
+[2023-05-04 16:31:27] INFO root fetch - main [MainThread]: End processing [uniTbrow] error
+[2023-05-04 16:31:27] INFO root fetch - processPackages [pyowletapi]: Downloading https://files.pythonhosted.org/packages/ed/a1/6224f28ce898825dad2662547292eb65922b65a0b23b62013944e77e8f45/pyowletapi-2023.5.5.tar.gz
+[2023-05-04 16:31:28] INFO root fetch - processPackages [pyowletapi]: executing diffoscope
+[2023-05-04 16:31:28] INFO root fetch - processPackages [pyowletapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyowletapi-2023.5.4.tar.gz tmp/pyowletapi-2023.5.5.tar.gz --markdown 20230504/p/pyowletapi/2023.5.4-2023.5.5/diff.md --exclude *.pyd
+[2023-05-04 16:31:28] INFO root fetch - processPackages [napari-spatialdata]: executing diffoscope
+[2023-05-04 16:31:28] INFO root fetch - processPackages [napari-spatialdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-spatialdata-0.2.1.tar.gz tmp/napari-spatialdata-0.2.2.tar.gz --markdown 20230504/n/napari-spatialdata/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-04 16:31:28] INFO root fetch - processPackages [JsonPreprocessor]: Downloading https://files.pythonhosted.org/packages/fb/12/f3a295ab449eb87aed5c9004702bc87616f715e933f020e6850cb6c84e6d/JsonPreprocessor-0.2.3.tar.gz
+[2023-05-04 16:31:28] INFO root fetch - processPackages [a-pandas-ex-less-memory-more-speed]: Downloading https://files.pythonhosted.org/packages/13/45/53fc5be3213eea03a60d41b3149fd2e74d72fcc2662eb231385cb717860d/a_pandas_ex_less_memory_more_speed-0.38.tar.gz
+[2023-05-04 16:31:28] INFO root fetch - processPackages [uagents]: Downloading https://files.pythonhosted.org/packages/73/e7/0809e19af4a956728c32723799995d398e8ba4a644572152db8ee5d18ed6/uagents-0.4.1.tar.gz
+[2023-05-04 16:31:28] INFO root fetch - processPackages [redis-rqueue]: Downloading https://files.pythonhosted.org/packages/dc/c9/d3b7f33d6c44f22ba5819e4d3ead915cb45d1ee532486c39766151810fe8/redis-rqueue-1.0.0.tar.gz
+[2023-05-04 16:31:28] WARNING root fetch - processPackages [certora-cli-alpha-niv-Add-summary-unittests]: Skipping package: exceeds size limit 38413654>=10485760
+[2023-05-04 16:31:28] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-niv-Add-summary-unittests] error
+[2023-05-04 16:31:28] INFO root fetch - processPackages [JsonPreprocessor]: executing diffoscope
+[2023-05-04 16:31:28] INFO root fetch - processPackages [JsonPreprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JsonPreprocessor-0.2.2.tar.gz tmp/JsonPreprocessor-0.2.3.tar.gz --markdown 20230504/J/JsonPreprocessor/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-04 16:31:28] INFO root fetch - processPackages [a-pandas-ex-less-memory-more-speed]: executing diffoscope
+[2023-05-04 16:31:28] INFO root fetch - processPackages [a-pandas-ex-less-memory-more-speed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a_pandas_ex_less_memory_more_speed-0.37.tar.gz tmp/a_pandas_ex_less_memory_more_speed-0.38.tar.gz --markdown 20230504/a/a-pandas-ex-less-memory-more-speed/0.37-0.38/diff.md --exclude *.pyd
+[2023-05-04 16:31:28] INFO root fetch - processPackages [uagents]: executing diffoscope
+[2023-05-04 16:31:28] INFO root fetch - processPackages [uagents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uagents-0.4.0.tar.gz tmp/uagents-0.4.1.tar.gz --markdown 20230504/u/uagents/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-04 16:31:28] INFO root fetch - processPackages [redis-rqueue]: executing diffoscope
+[2023-05-04 16:31:28] INFO root fetch - processPackages [redis-rqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis-rqueue-0.2.2.tar.gz tmp/redis-rqueue-1.0.0.tar.gz --markdown 20230504/r/redis-rqueue/0.2.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-04 16:31:28] INFO root fetch - processPackages [diffpy.pdfgui]: Downloading https://files.pythonhosted.org/packages/f4/ec/141a043d4ab006e80a1dd4f26c4b8f94424ac0372657445ac126c8fd30d4/diffpy.pdfgui-2.0.0.tar.gz
+[2023-05-04 16:31:28] INFO root fetch - processPackages [diffpy.pdfgui]: executing diffoscope
+[2023-05-04 16:31:28] INFO root fetch - processPackages [diffpy.pdfgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffpy.pdfgui-1.4.2.tar.gz tmp/diffpy.pdfgui-2.0.0.tar.gz --markdown 20230504/d/diffpy.pdfgui/1.4.2-2.0.0/diff.md --exclude *.pyd
+[2023-05-04 16:31:29] INFO root fetch - main [MainThread]: End processing [aij-webcam]: success
+[2023-05-04 16:31:29] INFO root fetch - main [MainThread]: End processing [pyowletapi]: success
+[2023-05-04 16:31:29] INFO root fetch - main [MainThread]: End processing [redis-rqueue]: success
+[2023-05-04 16:31:29] INFO root fetch - main [MainThread]: End processing [uagents]: success
+[2023-05-04 16:31:29] INFO root fetch - main [MainThread]: End processing [JsonPreprocessor]: success
+[2023-05-04 16:31:29] INFO root fetch - main [MainThread]: End processing [a-pandas-ex-less-memory-more-speed]: success
+[2023-05-04 16:31:30] INFO root fetch - main [MainThread]: End processing [napari-spatialdata]: success
+[2023-05-04 16:31:34] INFO root fetch - main [MainThread]: End processing [diffpy.pdfgui]: success
+[2023-05-04 16:31:34] INFO root fetch - main [MainThread]: Store serial: [17973482]
