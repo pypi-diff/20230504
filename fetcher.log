@@ -9649,3 +9649,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 09:40:10] INFO root fetch - main [MainThread]: End processing [invenio-rdm-migrator]: success
 [2023-05-04 09:40:13] INFO root fetch - main [MainThread]: End processing [ansys-templates]: success
 [2023-05-04 09:40:13] INFO root fetch - main [MainThread]: Store serial: [17968783]
+[2023-05-04 09:45:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17968783]
+[2023-05-04 09:45:21] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-04 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-jtoman-direct-storage-comparison
+[2023-05-04 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bp-query-tool
+[2023-05-04 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytelerdac
+[2023-05-04 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audeer
+[2023-05-04 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly
+[2023-05-04 09:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bomf
+[2023-05-04 09:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: armonik
+[2023-05-04 09:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AegosPy
+[2023-05-04 09:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: LogAssist
+[2023-05-04 09:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tvmx
+[2023-05-04 09:45:22] INFO root fetch - processPackages [certora-cli-alpha-jtoman-direct-storage-comparison]: New version: [20230504.7.40.613566] Old Version: [20230504.6.38.681406]
+[2023-05-04 09:45:22] INFO root fetch - processPackages [bp-query-tool]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-04 09:45:22] INFO root fetch - processPackages [audeer]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-04 09:45:22] INFO root fetch - processPackages [pytelerdac]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-04 09:45:22] INFO root fetch - processPackages [LogAssist]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-04 09:45:22] INFO root fetch - processPackages [tvmx]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-04 09:45:22] INFO root fetch - processPackages [armonik]: New version: [3.8.2.dev302] Old Version: [3.8.2.dev295]
+[2023-05-04 09:45:22] INFO root fetch - processPackages [bomf]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-04 09:45:22] INFO root fetch - processPackages [AegosPy]: New version: [0.3] Old Version: [0.2]
+[2023-05-04 09:45:22] INFO root fetch - processPackages [LogAssist]: executing diffoscope
+[2023-05-04 09:45:22] INFO root fetch - processPackages [LogAssist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LogAssist-1.0.0.tar.gz tmp/LogAssist-1.0.1.tar.gz --markdown 20230504/L/LogAssist/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 09:45:22] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230504] Old Version: [2.14.0.dev20230503]
+[2023-05-04 09:45:22] INFO root fetch - processPackages [certora-cli-alpha-jtoman-direct-storage-comparison]: Downloading https://files.pythonhosted.org/packages/76/88/461584af5aea39f0f3a5ece7c561e57e6f170b40fbe4762856464488de7a/certora-cli-alpha-jtoman-direct-storage-comparison-20230504.6.38.681406.tar.gz
+[2023-05-04 09:45:22] INFO root fetch - processPackages [bp-query-tool]: Downloading https://files.pythonhosted.org/packages/75/5a/69f45a3b170f0ca948b509000093fb9da9a0fb777ae70fe6daa4070d6e0b/bp_query_tool-1.0.1.tar.gz
+[2023-05-04 09:45:22] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-direct-storage-comparison]: Skipping package: exceeds size limit 38558467>=10485760
+[2023-05-04 09:45:22] INFO root fetch - processPackages [certora-cli-alpha-jtoman-direct-storage-comparison]: Start processing: SDTcloud
+[2023-05-04 09:45:22] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-direct-storage-comparison] error
+[2023-05-04 09:45:22] INFO root fetch - processPackages [pytelerdac]: Downloading https://files.pythonhosted.org/packages/fa/da/0e9848ccd4bd24918f73b6fe06c725c8cff92318eed369b146f9df5a348e/pytelerdac-0.1.3-cp38-cp38-manylinux1_x86_64.whl
+[2023-05-04 09:45:22] INFO root fetch - processPackages [SDTcloud]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-04 09:45:22] INFO root fetch - processPackages [tvmx]: Downloading https://files.pythonhosted.org/packages/99/79/43a74d12a8dc73bfd61864fb9fb32062afd6653d46b5a23f574f9a612159/tvmx-0.0.4.tar.gz
+[2023-05-04 09:45:22] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/76/85/d409dc87b3bcc58ede413a305cf139d3c29d2e934c5d09267e591c53e655/armonik-3.8.2.dev295.tar.gz
+[2023-05-04 09:45:22] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/7b/d7/8d6cf6a180055426f6a7d3ed5c9c00b8edfd7fce620838849053bd77808f/bomf-0.3.1.tar.gz
+[2023-05-04 09:45:22] INFO root fetch - processPackages [AegosPy]: Downloading https://files.pythonhosted.org/packages/12/e8/37315be90dd6448d7da2e1d3f7fdd6bba8ed338bc19f7ab73da1ab6f1fdb/AegosPy-0.2.tar.gz
+[2023-05-04 09:45:22] INFO root fetch - processPackages [bp-query-tool]: executing diffoscope
+[2023-05-04 09:45:22] INFO root fetch - processPackages [bp-query-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_query_tool-1.0.0.tar.gz tmp/bp_query_tool-1.0.1.tar.gz --markdown 20230504/b/bp-query-tool/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 09:45:22] INFO root fetch - processPackages [audeer]: executing diffoscope
+[2023-05-04 09:45:22] INFO root fetch - processPackages [audeer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audeer-1.8.0.tar.gz tmp/audeer-1.9.0.tar.gz --markdown 20230504/a/audeer/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-04 09:45:22] INFO root fetch - processPackages [SDTcloud]: Downloading https://files.pythonhosted.org/packages/b5/94/b878250768c9c5e58338f41024bf00c4d3283b5b76e565b65678957c66de/SDTcloud-0.1.3.tar.gz
+[2023-05-04 09:45:22] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/5f/18/b7e50fabf494fda611599701491a64d7ec8336e08f23cb7897611043806a/armonik-3.8.2.dev302.tar.gz
+[2023-05-04 09:45:22] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/be/d0/881f3d3e87de565c3e54ab2718422d0d08278c05fb651beaa005b3eee082/tf_nightly-2.14.0.dev20230504-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-04 09:45:22] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/bc/2c/41bed1debb9199e920913c9b6a9da4253b15f20838fc92345a0c8e362562/bomf-0.4.0.tar.gz
+[2023-05-04 09:45:22] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-05-04 09:45:22] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.1.2.tar.gz tmp/SDTcloud-0.1.3.tar.gz --markdown 20230504/S/SDTcloud/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-04 09:45:22] INFO root fetch - processPackages [AegosPy]: Downloading https://files.pythonhosted.org/packages/d4/58/5e4d58030ed5aa1e9c45851f1f69c86ec5db053cd6fe4051cecbefef66c9/AegosPy-0.3.tar.gz
+[2023-05-04 09:45:22] INFO root fetch - processPackages [pytelerdac]: Downloading https://files.pythonhosted.org/packages/f4/b3/e9475a82450fc727cb94cf33fdd32fad25b88a1b39110c90329168fb3901/pytelerdac-0.2.0-cp38-cp38-manylinux1_x86_64.whl
+[2023-05-04 09:45:22] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-05-04 09:45:22] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.8.2.dev295.tar.gz tmp/armonik-3.8.2.dev302.tar.gz --markdown 20230504/a/armonik/3.8.2.dev295-3.8.2.dev302/diff.md --exclude *.pyd
+[2023-05-04 09:45:22] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-05-04 09:45:22] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.3.1.tar.gz tmp/bomf-0.4.0.tar.gz --markdown 20230504/b/bomf/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-04 09:45:22] INFO root fetch - processPackages [AegosPy]: executing diffoscope
+[2023-05-04 09:45:22] INFO root fetch - processPackages [AegosPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AegosPy-0.2.tar.gz tmp/AegosPy-0.3.tar.gz --markdown 20230504/A/AegosPy/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-04 09:45:22] WARNING root fetch - processPackages [tvmx]: Skipping package: exceeds size limit 49093780>=10485760
+[2023-05-04 09:45:22] INFO root fetch - processPackages [tvmx]: Start processing: Zeraora
+[2023-05-04 09:45:22] INFO root fetch - main [MainThread]: End processing [tvmx] error
+[2023-05-04 09:45:22] INFO root fetch - processPackages [pytelerdac]: executing diffoscope
+[2023-05-04 09:45:22] INFO root fetch - processPackages [pytelerdac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytelerdac-0.1.3-cp38-cp38-manylinux1_x86_64.whl.zip tmp/pytelerdac-0.2.0-cp38-cp38-manylinux1_x86_64.whl.zip --markdown 20230504/p/pytelerdac/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-04 09:45:22] INFO root fetch - processPackages [Zeraora]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-04 09:45:22] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 526012455>=10485760
+[2023-05-04 09:45:22] INFO root fetch - processPackages [tf-nightly]: Start processing: chatglm-llm
+[2023-05-04 09:45:22] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-05-04 09:45:22] INFO root fetch - processPackages [chatglm-llm]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-05-04 09:45:23] INFO root fetch - processPackages [Zeraora]: Downloading https://files.pythonhosted.org/packages/08/67/102bf5ec9d612aa86f016adfc143dfc2ded4b5286fd2a5095343b8659e2a/Zeraora-0.2.5.tar.gz
+[2023-05-04 09:45:23] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/43/f9/501e0e663502c22a15714a136d0508c2672ebb49a3b368eaec08ebae1cbc/chatglm-llm-1.1.0.tar.gz
+[2023-05-04 09:45:23] INFO root fetch - processPackages [Zeraora]: Downloading https://files.pythonhosted.org/packages/74/14/83d31d897102a20d02793f062bddb920de68a77444b812928d93ae242924/Zeraora-0.2.6.tar.gz
+[2023-05-04 09:45:23] INFO root fetch - processPackages [chatglm-llm]: executing diffoscope
+[2023-05-04 09:45:23] INFO root fetch - processPackages [chatglm-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatglm-llm-1.0.4.tar.gz tmp/chatglm-llm-1.1.0.tar.gz --markdown 20230504/c/chatglm-llm/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-05-04 09:45:23] INFO root fetch - processPackages [Zeraora]: executing diffoscope
+[2023-05-04 09:45:23] INFO root fetch - processPackages [Zeraora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Zeraora-0.2.5.tar.gz tmp/Zeraora-0.2.6.tar.gz --markdown 20230504/Z/Zeraora/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-04 09:45:23] INFO root fetch - main [MainThread]: End processing [LogAssist]: success
+[2023-05-04 09:45:23] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-05-04 09:45:23] INFO root fetch - main [MainThread]: End processing [AegosPy]: success
+[2023-05-04 09:45:24] INFO root fetch - main [MainThread]: End processing [Zeraora]: success
+[2023-05-04 09:45:24] INFO root fetch - main [MainThread]: End processing [chatglm-llm]: success
+[2023-05-04 09:45:24] INFO root fetch - main [MainThread]: End processing [audeer]: success
+[2023-05-04 09:45:24] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-05-04 09:45:25] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-05-04 09:45:26] INFO root fetch - main [MainThread]: End processing [bp-query-tool]: success
+[2023-05-04 09:45:26] INFO root fetch - main [MainThread]: End processing [pytelerdac]: success
+[2023-05-04 09:45:26] INFO root fetch - main [MainThread]: Store serial: [17968819]
