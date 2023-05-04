@@ -12883,3 +12883,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 12:27:45] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
 [2023-05-04 12:27:45] INFO root fetch - main [MainThread]: End processing [spatialdata]: success
 [2023-05-04 12:27:45] INFO root fetch - main [MainThread]: Store serial: [17970685]
+[2023-05-04 12:32:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17970685]
+[2023-05-04 12:32:56] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-04 12:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aij-webcam
+[2023-05-04 12:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xdat
+[2023-05-04 12:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neurodeploy
+[2023-05-04 12:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: betweens
+[2023-05-04 12:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hello2
+[2023-05-04 12:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-EyalH-CallTraceErrorsToProblemView
+[2023-05-04 12:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kpops
+[2023-05-04 12:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yolov5-sp
+[2023-05-04 12:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clear-skies
+[2023-05-04 12:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: akshare
+[2023-05-04 12:32:56] INFO root fetch - processPackages [aij-webcam]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-04 12:32:56] INFO root fetch - processPackages [betweens]: New version: [0.1.1.dev1] Old Version: [0.1.1.1]
+[2023-05-04 12:32:56] WARNING root fetch - processPackages [certora-cli-alpha-EyalH-CallTraceErrorsToProblemView]: Skipping, unable to determine old version
+[2023-05-04 12:32:56] INFO root fetch - processPackages [neurodeploy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 12:32:56] INFO root fetch - processPackages [certora-cli-alpha-EyalH-CallTraceErrorsToProblemView]: Start processing: dabbas
+[2023-05-04 12:32:56] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-EyalH-CallTraceErrorsToProblemView] error
+[2023-05-04 12:32:56] INFO root fetch - processPackages [kpops]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-04 12:32:56] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-04 12:32:56] INFO root fetch - processPackages [hello2]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-04 12:32:56] INFO root fetch - processPackages [yolov5-sp]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-04 12:32:56] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-04 12:32:56] INFO root fetch - processPackages [dabbas]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-05-04 12:32:56] INFO root fetch - processPackages [akshare]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-04 12:32:56] INFO root fetch - processPackages [betweens]: Downloading https://files.pythonhosted.org/packages/55/8a/01bc5fdf6bcfba102e6d3492a8ab576a55697808d1517ccf7bd67b24799d/betweens-0.1.1.1.tar.gz
+[2023-05-04 12:32:56] INFO root fetch - processPackages [neurodeploy]: Downloading https://files.pythonhosted.org/packages/a8/33/d2f85af349e39b4ddc5d3ebea27b2f17a622fe6b3426e3a2181d87b9ce56/neurodeploy-0.0.8.tar.gz
+[2023-05-04 12:32:56] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/86/c6/5fc7f98d0b986c1fc7be0ee2f9821c93bff9852a85fc1b812fd0d36b5902/clear-skies-1.8.0.tar.gz
+[2023-05-04 12:32:56] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/bf/9b/8f2a0fda81fb7ddad1256b6e58eb18e2cb00d3b4c2159b5e82b61e29a0c5/dabbas-0.1.3.tar.gz
+[2023-05-04 12:32:56] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/8a/00/6aef66b7cef413c3af6c2f5abe972be6fc2ceb67c96b39b0fe7e02991226/hello2-1.6.4.tar.gz
+[2023-05-04 12:32:56] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/b5/6e/e151e7ccc149c9a2195defbb59f8ce8494fd0f169a1d18bff36a2a233095/kpops-1.1.2.tar.gz
+[2023-05-04 12:32:57] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-05-04 12:32:57] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230504/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-04 12:32:57] INFO root fetch - processPackages [aij-webcam]: Downloading https://files.pythonhosted.org/packages/2a/90/be930e9d9493e4584a008ae49676d07b92263c55016a965e658f59c66b9c/aij-webcam-1.0.8.tar.gz
+[2023-05-04 12:32:57] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/de/7c/246f5c2e78a9362716a84852e1cb3421033e7bf69a9dafd75af803cb69e7/hello2-1.6.5.tar.gz
+[2023-05-04 12:32:57] INFO root fetch - processPackages [aij-webcam]: executing diffoscope
+[2023-05-04 12:32:57] INFO root fetch - processPackages [aij-webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-webcam-1.0.7.tar.gz tmp/aij-webcam-1.0.8.tar.gz --markdown 20230504/a/aij-webcam/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-04 12:32:57] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/a2/4f/53948850e11db74039911eeeeaa0394edfcfe93462e267715c54732b137d/kpops-1.1.3.tar.gz
+[2023-05-04 12:32:57] INFO root fetch - processPackages [neurodeploy]: Downloading https://files.pythonhosted.org/packages/68/2d/2853ad9f83798b42039349c153b614f134362959147ca7340c0025617faa/neurodeploy-0.0.9.tar.gz
+[2023-05-04 12:32:57] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/84/bd/9cf07f9a823d5a71f8f3e65e58be1cbacc6de738e6ee87fce19141655e53/dabbas-0.1.5.tar.gz
+[2023-05-04 12:32:57] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/46/ff/38dd0872e0df49c2ac34c7256f311d26a829dd84c6f09be6ed0215107767/clear-skies-1.9.0.tar.gz
+[2023-05-04 12:32:57] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-05-04 12:32:57] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.6.4.tar.gz tmp/hello2-1.6.5.tar.gz --markdown 20230504/h/hello2/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-04 12:32:57] INFO root fetch - processPackages [kpops]: executing diffoscope
+[2023-05-04 12:32:57] INFO root fetch - processPackages [kpops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kpops-1.1.2.tar.gz tmp/kpops-1.1.3.tar.gz --markdown 20230504/k/kpops/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-04 12:32:57] INFO root fetch - processPackages [dabbas]: executing diffoscope
+[2023-05-04 12:32:57] INFO root fetch - processPackages [dabbas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dabbas-0.1.3.tar.gz tmp/dabbas-0.1.5.tar.gz --markdown 20230504/d/dabbas/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-05-04 12:32:57] INFO root fetch - processPackages [neurodeploy]: executing diffoscope
+[2023-05-04 12:32:57] INFO root fetch - processPackages [neurodeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurodeploy-0.0.8.tar.gz tmp/neurodeploy-0.0.9.tar.gz --markdown 20230504/n/neurodeploy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:32:57] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-05-04 12:32:57] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.8.tar.gz tmp/akshare-1.9.9.tar.gz --markdown 20230504/a/akshare/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-04 12:32:57] INFO root fetch - processPackages [yolov5-sp]: Downloading https://files.pythonhosted.org/packages/66/5b/71b5947745b1f42df369b87a7795b995ac76a90a5d949873e6ed48a2f894/yolov5_sp-1.0.3.tar.gz
+[2023-05-04 12:32:58] INFO root fetch - processPackages [betweens]: executing diffoscope
+[2023-05-04 12:32:58] INFO root fetch - processPackages [betweens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betweens-0.1.1.1.tar.gz tmp/betweens-0.1.1.dev1.tar.gz --markdown 20230504/b/betweens/0.1.1.1-0.1.1.dev1/diff.md --exclude *.pyd
+[2023-05-04 12:32:58] INFO root fetch - processPackages [yolov5-sp]: executing diffoscope
+[2023-05-04 12:32:58] INFO root fetch - processPackages [yolov5-sp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolov5_sp-1.0.2.tar.gz tmp/yolov5_sp-1.0.3.tar.gz --markdown 20230504/y/yolov5-sp/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-04 12:32:58] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2023-05-04 12:32:58] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20230504/c/clear-skies/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-04 12:32:58] INFO root fetch - processPackages [xdat]: Start processing: ErCore
+[2023-05-04 12:32:58] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-05-04 12:32:58] INFO root fetch - processPackages [ErCore]: New version: [1.3] Old Version: [1.2]
+[2023-05-04 12:32:58] INFO root fetch - processPackages [aij-webcam]: Start processing: matflow-new
+[2023-05-04 12:32:58] INFO root fetch - main [MainThread]: End processing [aij-webcam]: success
+[2023-05-04 12:32:58] INFO root fetch - processPackages [matflow-new]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-05-04 12:32:58] INFO root fetch - processPackages [ErCore]: Downloading https://files.pythonhosted.org/packages/44/86/f13e9d1740d5c9aa88a1a9c52d76a2e3f599cc9cbbb0572982fc0b536ef9/ErCore-1.2.tar.gz
+[2023-05-04 12:32:58] INFO root fetch - processPackages [matflow-new]: executing diffoscope
+[2023-05-04 12:32:58] INFO root fetch - processPackages [matflow-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matflow_new-0.3.0a8.tar.gz tmp/matflow_new-0.3.0a9.tar.gz --markdown 20230504/m/matflow-new/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-05-04 12:32:58] INFO root fetch - main [MainThread]: End processing [dabbas]: success
+[2023-05-04 12:32:59] INFO root fetch - processPackages [ErCore]: Downloading https://files.pythonhosted.org/packages/86/b2/751c4ba426a7b43ac2a58a9273824742e9cb728b92bd4af3649a202f34b5/ErCore-1.3.tar.gz
+[2023-05-04 12:32:59] INFO root fetch - processPackages [ErCore]: executing diffoscope
+[2023-05-04 12:32:59] INFO root fetch - processPackages [ErCore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ErCore-1.2.tar.gz tmp/ErCore-1.3.tar.gz --markdown 20230504/E/ErCore/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-04 12:32:59] INFO root fetch - main [MainThread]: End processing [neurodeploy]: success
+[2023-05-04 12:32:59] INFO root fetch - main [MainThread]: End processing [kpops]: success
+[2023-05-04 12:32:59] INFO root fetch - main [MainThread]: End processing [yolov5-sp]: success
+[2023-05-04 12:32:59] INFO root fetch - main [MainThread]: End processing [betweens]: success
+[2023-05-04 12:32:59] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-05-04 12:32:59] INFO root fetch - main [MainThread]: End processing [matflow-new]: success
+[2023-05-04 12:33:00] INFO root fetch - main [MainThread]: End processing [ErCore]: success
+[2023-05-04 12:33:02] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2023-05-04 12:33:03] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-05-04 12:33:03] INFO root fetch - main [MainThread]: Store serial: [17970725]
