@@ -16224,3 +16224,155 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 15:31:42] ERROR root fetch - processPackages [ansys-fluent-core]: Timeout during execution of pkgdiff
 [2023-05-04 15:31:42] INFO root fetch - main [MainThread]: End processing [ansys-fluent-core] error
 [2023-05-04 15:31:42] INFO root fetch - main [MainThread]: Store serial: [17972708]
+[2023-05-04 15:36:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17972708]
+[2023-05-04 15:36:51] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-04 15:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchcross
+[2023-05-04 15:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monotonic-derivative
+[2023-05-04 15:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyOSBNR
+[2023-05-04 15:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irene-pro
+[2023-05-04 15:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phys2bids
+[2023-05-04 15:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pinstance
+[2023-05-04 15:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybiolib
+[2023-05-04 15:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wiserep-api
+[2023-05-04 15:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: genki-widgets
+[2023-05-04 15:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-oz-docker-json5
+[2023-05-04 15:36:51] INFO root fetch - processPackages [irene-pro]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-05-04 15:36:51] WARNING root fetch - processPackages [pinstance]: Skipping, unable to determine old version
+[2023-05-04 15:36:51] INFO root fetch - processPackages [pinstance]: Start processing: certora-cli-alpha-master
+[2023-05-04 15:36:51] INFO root fetch - main [MainThread]: End processing [pinstance] error
+[2023-05-04 15:36:51] INFO root fetch - processPackages [monotonic-derivative]: New version: [0.15] Old Version: [0.14.5]
+[2023-05-04 15:36:51] INFO root fetch - processPackages [wiserep-api]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-04 15:36:51] WARNING root fetch - processPackages [torchcross]: Skipping, unable to determine old version
+[2023-05-04 15:36:51] INFO root fetch - processPackages [torchcross]: Start processing: monotonic-derivative
+[2023-05-04 15:36:51] INFO root fetch - main [MainThread]: End processing [torchcross] error
+[2023-05-04 15:36:51] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: New version: [20230504.8.42.61246] Old Version: [20230504.13.30.350201]
+[2023-05-04 15:36:51] INFO root fetch - processPackages [phys2bids]: New version: [2.9.0] Old Version: [2.8.4]
+[2023-05-04 15:36:51] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.91]
+[2023-05-04 15:36:51] WARNING root fetch - processPackages [genki-widgets]: Skipping, unable to determine old version
+[2023-05-04 15:36:51] INFO root fetch - processPackages [genki-widgets]: Start processing: evm-trace
+[2023-05-04 15:36:51] INFO root fetch - main [MainThread]: End processing [genki-widgets] error
+[2023-05-04 15:36:51] INFO root fetch - processPackages [monotonic-derivative]: New version: [0.15] Old Version: [0.14.5]
+[2023-05-04 15:36:51] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230504.9.57.726431] Old Version: [20230504.13.31.93746]
+[2023-05-04 15:36:51] INFO root fetch - processPackages [evm-trace]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-05-04 15:36:51] WARNING root fetch - processPackages [PyOSBNR]: Skipping, unable to determine old version
+[2023-05-04 15:36:51] INFO root fetch - processPackages [PyOSBNR]: Start processing: slcl1butils
+[2023-05-04 15:36:51] INFO root fetch - main [MainThread]: End processing [PyOSBNR] error
+[2023-05-04 15:36:51] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/0e/fd/ddbab658b8940900f3c149fed08cc5ec66e34010889cafb4c056038b25ff/irene_pro-0.0.21.tar.gz
+[2023-05-04 15:36:51] INFO root fetch - processPackages [slcl1butils]: New version: [2023.5.4] Old Version: [2023.5.3]
+[2023-05-04 15:36:51] INFO root fetch - processPackages [monotonic-derivative]: Downloading https://files.pythonhosted.org/packages/25/dd/f33cecedbb7779debc3de119b7c82380535fba5dfd4fb6eae866c7474c03/monotonic_derivative-0.14.5-py3-none-any.whl
+[2023-05-04 15:36:51] INFO root fetch - processPackages [monotonic-derivative]: Downloading https://files.pythonhosted.org/packages/25/dd/f33cecedbb7779debc3de119b7c82380535fba5dfd4fb6eae866c7474c03/monotonic_derivative-0.14.5-py3-none-any.whl
+[2023-05-04 15:36:51] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Downloading https://files.pythonhosted.org/packages/72/b2/55bf26d48411afa131e2ddca80103abc0b59a6a0303672fdced32b70ecb5/certora-cli-alpha-oz-docker-json5-20230504.13.30.350201.tar.gz
+[2023-05-04 15:36:51] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/4e/ba/3699b224f77ae0d7b0956147fce528a82496d473cfbed8c3c7f7c0daeeed/certora-cli-alpha-master-20230504.13.31.93746.tar.gz
+[2023-05-04 15:36:51] WARNING root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Skipping package: exceeds size limit 38419052>=10485760
+[2023-05-04 15:36:51] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Start processing: pydantic-settings
+[2023-05-04 15:36:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-docker-json5] error
+[2023-05-04 15:36:51] INFO root fetch - processPackages [phys2bids]: Downloading https://files.pythonhosted.org/packages/b1/12/c97accaa5a70c73831d8393dd0e846f97a7358fd3902cb5b132bbc393f12/phys2bids-2.8.4.tar.gz
+[2023-05-04 15:36:51] INFO root fetch - processPackages [pydantic-settings]: New version: [2.0a4] Old Version: [2.0a3]
+[2023-05-04 15:36:51] INFO root fetch - processPackages [evm-trace]: Downloading https://files.pythonhosted.org/packages/b2/71/a9e8de12dd7f80a240a35c7c0813dbbe17208b0bea253cefe25f9585e2fe/evm-trace-0.1.0a8.tar.gz
+[2023-05-04 15:36:51] INFO root fetch - processPackages [wiserep-api]: Downloading https://files.pythonhosted.org/packages/02/9f/1561701b57f21d89f70f25696ace5e19f22b31d471187c50d42d0790756a/wiserep_api-0.1.5.tar.gz
+[2023-05-04 15:36:51] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38417709>=10485760
+[2023-05-04 15:36:51] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: django-file-form
+[2023-05-04 15:36:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-04 15:36:51] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/f7/cf/89e52db7186e624d5ea20e555d7cc96ac6bf63cfddfc6bc10bca1d42a0d5/irene_pro-0.0.22.tar.gz
+[2023-05-04 15:36:51] INFO root fetch - processPackages [monotonic-derivative]: Downloading https://files.pythonhosted.org/packages/38/a8/7fd2ff5356290ed6b3bb0c4d179c0b67b153d002b707b97ca2f64f4845d4/monotonic_derivative-0.15-py3-none-any.whl
+[2023-05-04 15:36:51] INFO root fetch - processPackages [monotonic-derivative]: Downloading https://files.pythonhosted.org/packages/38/a8/7fd2ff5356290ed6b3bb0c4d179c0b67b153d002b707b97ca2f64f4845d4/monotonic_derivative-0.15-py3-none-any.whl
+[2023-05-04 15:36:51] INFO root fetch - processPackages [django-file-form]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-05-04 15:36:51] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-05-04 15:36:51] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.91.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230504/p/pybiolib/1.1.91-1.1.94/diff.md --exclude *.pyd
+[2023-05-04 15:36:52] INFO root fetch - processPackages [wiserep-api]: executing diffoscope
+[2023-05-04 15:36:52] INFO root fetch - processPackages [wiserep-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiserep_api-0.1.4.tar.gz tmp/wiserep_api-0.1.5.tar.gz --markdown 20230504/w/wiserep-api/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-04 15:36:52] INFO root fetch - processPackages [slcl1butils]: Downloading https://files.pythonhosted.org/packages/b8/08/37b8bc44c4e2f854609fc837da9b11749e522ef98c6ea48013a5b2073ef7/slcl1butils-2023.5.4.tar.gz
+[2023-05-04 15:36:52] INFO root fetch - processPackages [pydantic-settings]: Downloading https://files.pythonhosted.org/packages/e2/fe/4c167cd283e848f4860299f44ba34bec221b6f73c2b4f08990fc0b0c6890/pydantic_settings-2.0a3.tar.gz
+[2023-05-04 15:36:52] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-05-04 15:36:52] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.21.tar.gz tmp/irene_pro-0.0.22.tar.gz --markdown 20230504/i/irene-pro/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-05-04 15:36:52] INFO root fetch - processPackages [monotonic-derivative]: executing diffoscope
+[2023-05-04 15:36:52] INFO root fetch - processPackages [monotonic-derivative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monotonic_derivative-0.14.5-py3-none-any.whl.zip tmp/monotonic_derivative-0.15-py3-none-any.whl.zip --markdown 20230504/m/monotonic-derivative/0.14.5-0.15/diff.md --exclude *.pyd
+[2023-05-04 15:36:52] INFO root fetch - processPackages [monotonic-derivative]: executing diffoscope
+[2023-05-04 15:36:52] INFO root fetch - processPackages [monotonic-derivative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monotonic_derivative-0.14.5-py3-none-any.whl.zip tmp/monotonic_derivative-0.15-py3-none-any.whl.zip --markdown 20230504/m/monotonic-derivative/0.14.5-0.15/diff.md --exclude *.pyd
+[2023-05-04 15:36:52] INFO root fetch - processPackages [slcl1butils]: executing diffoscope
+[2023-05-04 15:36:52] INFO root fetch - processPackages [slcl1butils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slcl1butils-2023.5.3.tar.gz tmp/slcl1butils-2023.5.4.tar.gz --markdown 20230504/s/slcl1butils/2023.5.3-2023.5.4/diff.md --exclude *.pyd
+[2023-05-04 15:36:52] INFO root fetch - processPackages [django-file-form]: Downloading https://files.pythonhosted.org/packages/a0/ff/d687f2e77c34e1a592c804c4e858441c68d9bc5f5219f0b6585baab7fdf7/django-file-form-3.5.0.tar.gz
+[2023-05-04 15:36:52] INFO root fetch - processPackages [phys2bids]: Downloading https://files.pythonhosted.org/packages/39/55/a7071d3fb8d1890bec8e8ff19752e6648b5e1dbe1b667ad6fa51f356760e/phys2bids-2.9.0.tar.gz
+[2023-05-04 15:36:52] INFO root fetch - processPackages [evm-trace]: Downloading https://files.pythonhosted.org/packages/d9/bd/116463d0e738d5507236282d010bf49dd0b965498e0225c7d3ea87ec3a4c/evm-trace-0.1.0a9.tar.gz
+[2023-05-04 15:36:52] INFO root fetch - processPackages [pydantic-settings]: Downloading https://files.pythonhosted.org/packages/78/6e/e02143c4f3abaff146d90e4e95d701250319a4391d065e60a4b85b9fd9c5/pydantic_settings-2.0a4.tar.gz
+[2023-05-04 15:36:52] INFO root fetch - processPackages [phys2bids]: executing diffoscope
+[2023-05-04 15:36:52] INFO root fetch - processPackages [phys2bids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phys2bids-2.8.4.tar.gz tmp/phys2bids-2.9.0.tar.gz --markdown 20230504/p/phys2bids/2.8.4-2.9.0/diff.md --exclude *.pyd
+[2023-05-04 15:36:52] INFO root fetch - processPackages [pydantic-settings]: executing diffoscope
+[2023-05-04 15:36:52] INFO root fetch - processPackages [pydantic-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_settings-2.0a3.tar.gz tmp/pydantic_settings-2.0a4.tar.gz --markdown 20230504/p/pydantic-settings/2.0a3-2.0a4/diff.md --exclude *.pyd
+[2023-05-04 15:36:52] INFO root fetch - processPackages [django-file-form]: Downloading https://files.pythonhosted.org/packages/e7/1d/21887a864f01cce9d16ecc4431307a9de524aa892f802f53797b154cf1b1/django-file-form-3.5.1.tar.gz
+[2023-05-04 15:36:52] INFO root fetch - processPackages [evm-trace]: executing diffoscope
+[2023-05-04 15:36:52] INFO root fetch - processPackages [evm-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evm-trace-0.1.0a8.tar.gz tmp/evm-trace-0.1.0a9.tar.gz --markdown 20230504/e/evm-trace/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-05-04 15:36:52] INFO root fetch - processPackages [django-file-form]: executing diffoscope
+[2023-05-04 15:36:52] INFO root fetch - processPackages [django-file-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-file-form-3.5.0.tar.gz tmp/django-file-form-3.5.1.tar.gz --markdown 20230504/d/django-file-form/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-05-04 15:36:53] INFO root fetch - processPackages [irene-pro]: Start processing: quantsight
+[2023-05-04 15:36:53] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-05-04 15:36:53] INFO root fetch - processPackages [quantsight]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-04 15:36:53] INFO root fetch - processPackages [monotonic-derivative]: Start processing: irene-pro
+[2023-05-04 15:36:53] INFO root fetch - main [MainThread]: End processing [monotonic-derivative]: success
+[2023-05-04 15:36:53] INFO root fetch - processPackages [irene-pro]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-05-04 15:36:53] INFO root fetch - processPackages [wiserep-api]: Start processing: version-query
+[2023-05-04 15:36:53] INFO root fetch - main [MainThread]: End processing [wiserep-api]: success
+[2023-05-04 15:36:53] INFO root fetch - processPackages [quantsight]: Downloading https://files.pythonhosted.org/packages/f1/9a/5eb4671d1e431c0e330323f818454c3b98553efd6539dce0b62f0e43e64d/quantsight-0.1.0.tar.gz
+[2023-05-04 15:36:53] INFO root fetch - processPackages [version-query]: New version: [1.4.0rc1] Old Version: [1.4.0]
+[2023-05-04 15:36:53] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-05-04 15:36:53] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.21.tar.gz tmp/irene_pro-0.0.22.tar.gz --markdown 20230504/i/irene-pro/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-05-04 15:36:53] INFO root fetch - processPackages [monotonic-derivative]: Start processing: sarpy
+[2023-05-04 15:36:53] INFO root fetch - main [MainThread]: End processing [monotonic-derivative]: success
+[2023-05-04 15:36:53] INFO root fetch - processPackages [sarpy]: New version: [1.3.9] Old Version: [1.3.7]
+[2023-05-04 15:36:53] INFO root fetch - processPackages [version-query]: Downloading https://files.pythonhosted.org/packages/bb/a9/bcb327b4a0e93942429027323a41cdec521a82521510eec089937eb707bd/version-query-1.4.0.tar.gz
+[2023-05-04 15:36:54] INFO root fetch - processPackages [quantsight]: Downloading https://files.pythonhosted.org/packages/86/b4/608a61f4b689999146a5e51782fd51fb13b8a65b18864d5733d11adc963d/quantsight-0.1.2.linux-x86_64.tar.gz
+[2023-05-04 15:36:54] INFO root fetch - processPackages [sarpy]: Downloading https://files.pythonhosted.org/packages/f0/b7/6c4b5051a973e56ca2cc5ee4d03f4197477def218a72333ceba9c140c710/sarpy-1.3.7.tar.gz
+[2023-05-04 15:36:54] INFO root fetch - processPackages [version-query]: executing diffoscope
+[2023-05-04 15:36:54] INFO root fetch - processPackages [version-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/version-query-1.4.0.tar.gz tmp/version-query-1.4.0rc1.tar.gz --markdown 20230504/v/version-query/1.4.0-1.4.0rc1/diff.md --exclude *.pyd
+[2023-05-04 15:36:54] INFO root fetch - processPackages [slcl1butils]: Start processing: bitroom
+[2023-05-04 15:36:54] INFO root fetch - main [MainThread]: End processing [slcl1butils]: success
+[2023-05-04 15:36:54] WARNING root fetch - processPackages [bitroom]: Skipping, unable to determine old version
+[2023-05-04 15:36:54] INFO root fetch - processPackages [bitroom]: Start processing: Presage-Technologies
+[2023-05-04 15:36:54] INFO root fetch - main [MainThread]: End processing [bitroom] error
+[2023-05-04 15:36:54] INFO root fetch - processPackages [Presage-Technologies]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-04 15:36:54] INFO root fetch - processPackages [quantsight]: executing diffoscope
+[2023-05-04 15:36:54] INFO root fetch - processPackages [quantsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantsight-0.1.0.tar.gz tmp/quantsight-0.1.2.linux-x86_64.tar.gz --markdown 20230504/q/quantsight/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 15:36:54] INFO root fetch - processPackages [pydantic-settings]: Start processing: pyvkbot
+[2023-05-04 15:36:54] INFO root fetch - main [MainThread]: End processing [pydantic-settings]: success
+[2023-05-04 15:36:54] INFO root fetch - processPackages [pyvkbot]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-04 15:36:54] INFO root fetch - processPackages [pyvkbot]: Downloading https://files.pythonhosted.org/packages/1b/e7/5fbdac0684110d899a29a36511f1b94b2d69d43549ee4ac1a7eeb0ee8909/pyvkbot-2.0.0.tar.gz
+[2023-05-04 15:36:54] INFO root fetch - processPackages [pybiolib]: Start processing: diligence-fuzzing
+[2023-05-04 15:36:54] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-05-04 15:36:54] INFO root fetch - processPackages [diligence-fuzzing]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-04 15:36:54] INFO root fetch - processPackages [phys2bids]: Start processing: simple-spinner
+[2023-05-04 15:36:54] INFO root fetch - main [MainThread]: End processing [phys2bids]: success
+[2023-05-04 15:36:54] INFO root fetch - processPackages [simple-spinner]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 15:36:54] INFO root fetch - processPackages [Presage-Technologies]: Downloading https://files.pythonhosted.org/packages/84/51/d33e497181f7e0fa0dee96f779db0373427400f14290ca504d22cc43ef98/Presage%20Technologies-1.4.0.tar.gz
+[2023-05-04 15:36:54] INFO root fetch - processPackages [pyvkbot]: Downloading https://files.pythonhosted.org/packages/3b/4c/0ea6e2455f840ed08fdf8b9715073cd0e4e9338004d7b46f982bc057cce7/pyvkbot-2.0.1.tar.gz
+[2023-05-04 15:36:54] INFO root fetch - processPackages [simple-spinner]: Downloading https://files.pythonhosted.org/packages/20/d7/da5c402e0be40d87a11b97e31f1303b801481907d0eb18f32e050fff9ce0/simple_spinner-0.1.0.tar.gz
+[2023-05-04 15:36:54] INFO root fetch - processPackages [pyvkbot]: executing diffoscope
+[2023-05-04 15:36:54] INFO root fetch - processPackages [pyvkbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvkbot-2.0.0.tar.gz tmp/pyvkbot-2.0.1.tar.gz --markdown 20230504/p/pyvkbot/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-04 15:36:54] INFO root fetch - processPackages [sarpy]: Downloading https://files.pythonhosted.org/packages/43/06/ab70e2c79d0ab76d6488034a535af3c6f5aa2640790169277a8c64fddfdb/sarpy-1.3.9.tar.gz
+[2023-05-04 15:36:54] INFO root fetch - processPackages [Presage-Technologies]: Downloading https://files.pythonhosted.org/packages/7e/06/2f33b761eaf8097e68455383e70999e69bb8dc71c12f33d6191b10452ef5/Presage%20Technologies-1.4.1.tar.gz
+[2023-05-04 15:36:54] INFO root fetch - processPackages [sarpy]: executing diffoscope
+[2023-05-04 15:36:54] INFO root fetch - processPackages [sarpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarpy-1.3.7.tar.gz tmp/sarpy-1.3.9.tar.gz --markdown 20230504/s/sarpy/1.3.7-1.3.9/diff.md --exclude *.pyd
+[2023-05-04 15:36:54] INFO root fetch - processPackages [evm-trace]: Start processing: autumn8
+[2023-05-04 15:36:54] INFO root fetch - main [MainThread]: End processing [evm-trace]: success
+[2023-05-04 15:36:54] INFO root fetch - processPackages [autumn8]: New version: [1.0.2rc7] Old Version: [1.0.2rc6]
+[2023-05-04 15:36:54] INFO root fetch - processPackages [diligence-fuzzing]: Downloading https://files.pythonhosted.org/packages/c1/28/b687d74c7da4caafcaab43ac427a10d4b6638078707dcf4ccef1b093e5f4/diligence-fuzzing-0.9.8.tar.gz
+[2023-05-04 15:36:54] INFO root fetch - processPackages [simple-spinner]: Downloading https://files.pythonhosted.org/packages/b5/6d/e83165391694625a50fab128d710f188b9ba02ef128157d41129f2f8d791/simple_spinner-0.1.1-py3-none-any.whl
+[2023-05-04 15:36:55] INFO root fetch - processPackages [Presage-Technologies]: executing diffoscope
+[2023-05-04 15:36:55] INFO root fetch - processPackages [Presage-Technologies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Presage Technologies-1.4.0.tar.gz tmp/Presage Technologies-1.4.1.tar.gz --markdown 20230504/P/Presage-Technologies/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-04 15:36:55] INFO root fetch - processPackages [autumn8]: executing diffoscope
+[2023-05-04 15:36:55] INFO root fetch - processPackages [autumn8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autumn8-1.0.2rc6.tar.gz tmp/autumn8-1.0.2rc7.tar.gz --markdown 20230504/a/autumn8/1.0.2rc6-1.0.2rc7/diff.md --exclude *.pyd
+[2023-05-04 15:36:55] INFO root fetch - processPackages [simple-spinner]: executing diffoscope
+[2023-05-04 15:36:55] INFO root fetch - processPackages [simple-spinner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_spinner-0.1.0.tar.gz tmp/simple_spinner-0.1.1-py3-none-any.whl.zip --markdown 20230504/s/simple-spinner/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 15:36:55] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-05-04 15:36:55] INFO root fetch - main [MainThread]: End processing [version-query]: success
+[2023-05-04 15:36:55] INFO root fetch - main [MainThread]: End processing [quantsight]: success
+[2023-05-04 15:36:55] INFO root fetch - processPackages [diligence-fuzzing]: Downloading https://files.pythonhosted.org/packages/e9/e7/beb1c42c3d9d8ab6cf0cf3d7d46cc78f8fefce9ce53bcc9b20c8e747951c/diligence-fuzzing-0.9.9.tar.gz
+[2023-05-04 15:36:56] INFO root fetch - main [MainThread]: End processing [pyvkbot]: success
+[2023-05-04 15:36:56] INFO root fetch - processPackages [diligence-fuzzing]: executing diffoscope
+[2023-05-04 15:36:56] INFO root fetch - processPackages [diligence-fuzzing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diligence-fuzzing-0.9.8.tar.gz tmp/diligence-fuzzing-0.9.9.tar.gz --markdown 20230504/d/diligence-fuzzing/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-04 15:36:56] INFO root fetch - main [MainThread]: End processing [simple-spinner]: success
+[2023-05-04 15:36:56] INFO root fetch - main [MainThread]: End processing [Presage-Technologies]: success
+[2023-05-04 15:36:56] INFO root fetch - main [MainThread]: End processing [autumn8]: success
+[2023-05-04 15:36:58] INFO root fetch - main [MainThread]: End processing [diligence-fuzzing]: success
+[2023-05-04 15:36:59] INFO root fetch - main [MainThread]: End processing [django-file-form]: success
+[2023-05-04 15:37:12] INFO root fetch - main [MainThread]: End processing [sarpy]: success
+[2023-05-04 15:37:12] INFO root fetch - main [MainThread]: Store serial: [17972789]
