@@ -14145,3 +14145,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 13:37:48] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
 [2023-05-04 13:38:48] INFO root fetch - main [MainThread]: End processing [openvino-dev]: success
 [2023-05-04 13:38:48] INFO root fetch - main [MainThread]: Store serial: [17971434]
+[2023-05-04 13:43:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17971434]
+[2023-05-04 13:43:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-04 13:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-serving
+[2023-05-04 13:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-exception
+[2023-05-04 13:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphsignal
+[2023-05-04 13:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dactim-mri
+[2023-05-04 13:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nowcasting-datamodel
+[2023-05-04 13:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gravipython
+[2023-05-04 13:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nowcasting-datamodel
+[2023-05-04 13:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: design.plone.policy
+[2023-05-04 13:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumiverse-exoscale
+[2023-05-04 13:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ErCore
+[2023-05-04 13:43:57] INFO root fetch - processPackages [design.plone.policy]: New version: [5.0.0a5] Old Version: [5.0.0a4]
+[2023-05-04 13:43:57] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230504] Old Version: [2.4.0b20230503]
+[2023-05-04 13:43:57] INFO root fetch - processPackages [ErCore]: New version: [1.3] Old Version: [1.2]
+[2023-05-04 13:43:57] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-04 13:43:57] WARNING root fetch - processPackages [gravipython]: Skipping, unable to determine old version
+[2023-05-04 13:43:57] INFO root fetch - processPackages [ErCore]: executing diffoscope
+[2023-05-04 13:43:57] INFO root fetch - main [MainThread]: End processing [gravipython] error
+[2023-05-04 13:43:57] INFO root fetch - processPackages [ErCore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ErCore-1.2.tar.gz tmp/ErCore-1.3.tar.gz --markdown 20230504/E/ErCore/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-04 13:43:57] INFO root fetch - processPackages [dactim-mri]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 13:43:57] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-04 13:43:57] INFO root fetch - processPackages [odoo-addon-sale-exception]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.1.7]
+[2023-05-04 13:43:57] INFO root fetch - processPackages [pulumiverse-exoscale]: New version: [0.47.0] Old Version: [0.46.0]
+[2023-05-04 13:43:57] INFO root fetch - processPackages [graphsignal]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-04 13:43:57] INFO root fetch - processPackages [design.plone.policy]: Downloading https://files.pythonhosted.org/packages/16/ac/4f6e50f7017d7915788a0f9a555e37b3ba824203e348476b633a8f4ec99c/design.plone.policy-5.0.0a4.tar.gz
+[2023-05-04 13:43:57] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/3c/33/c9109b00b9c850adbd3d5ad3ee422c50b23ffd8ca7fe65058d48e45a0996/bigdl_serving-2.4.0b20230504-py2.py3-none-any.whl
+[2023-05-04 13:43:57] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/ff/0c/9e2ae41be5da3d4971d7b47b86411f71bbef35b62b6553dd9982cdfab06b/nowcasting_datamodel-1.3.8.tar.gz
+[2023-05-04 13:43:57] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/ff/0c/9e2ae41be5da3d4971d7b47b86411f71bbef35b62b6553dd9982cdfab06b/nowcasting_datamodel-1.3.8.tar.gz
+[2023-05-04 13:43:57] INFO root fetch - processPackages [odoo-addon-sale-exception]: Downloading https://files.pythonhosted.org/packages/cf/82/1f87e3d6963451861cdc9ee09d76cc14e998e75499338847975a536a7e97/odoo_addon_sale_exception-16.0.1.0.1.7-py3-none-any.whl
+[2023-05-04 13:43:57] INFO root fetch - processPackages [pulumiverse-exoscale]: Downloading https://files.pythonhosted.org/packages/6e/4e/cde8c80006aabe49e40cb1a5104abfc301ebf7d540bf58fcb645c61bc07e/pulumiverse_exoscale-0.46.0.tar.gz
+[2023-05-04 13:43:57] INFO root fetch - processPackages [dactim-mri]: Downloading https://files.pythonhosted.org/packages/bd/16/80b20f5bbabdc0989d96d0b3fbcafceae2713709179f4e9c6e4dfeb2904d/dactim_mri-0.0.8.tar.gz
+[2023-05-04 13:43:57] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-05-04 13:43:57] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230503-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230504-py2.py3-none-any.whl.zip --markdown 20230504/b/bigdl-serving/2.4.0b20230503-2.4.0b20230504/diff.md --exclude *.pyd
+[2023-05-04 13:43:57] WARNING root fetch - processPackages [dactim-mri]: Skipping package: exceeds size limit 26534398>=10485760
+[2023-05-04 13:43:57] INFO root fetch - main [MainThread]: End processing [dactim-mri] error
+[2023-05-04 13:43:58] INFO root fetch - processPackages [graphsignal]: executing diffoscope
+[2023-05-04 13:43:58] INFO root fetch - processPackages [graphsignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphsignal-0.9.4.tar.gz tmp/graphsignal-0.9.5.tar.gz --markdown 20230504/g/graphsignal/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-04 13:43:58] INFO root fetch - processPackages [odoo-addon-sale-exception]: Downloading https://files.pythonhosted.org/packages/0a/41/d9c0c3f2bb03a6533e7bd79f010f8f25d6e7055fe69d37a393e5edc70aa2/odoo_addon_sale_exception-16.0.1.1.0-py3-none-any.whl
+[2023-05-04 13:43:58] INFO root fetch - processPackages [design.plone.policy]: Downloading https://files.pythonhosted.org/packages/b9/c2/ae2c2ee8cb315bcc8e8941ee438d98acab0dbb78b95572589f3c2c02dd87/design.plone.policy-5.0.0a5.tar.gz
+[2023-05-04 13:43:58] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/85/3a/77aec3e3f785906ab6b5e728e0bbdc218228baac25a9e2e94a4fa62f0f53/nowcasting_datamodel-1.3.9.tar.gz
+[2023-05-04 13:43:58] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/85/3a/77aec3e3f785906ab6b5e728e0bbdc218228baac25a9e2e94a4fa62f0f53/nowcasting_datamodel-1.3.9.tar.gz
+[2023-05-04 13:43:58] INFO root fetch - processPackages [odoo-addon-sale-exception]: executing diffoscope
+[2023-05-04 13:43:58] INFO root fetch - processPackages [odoo-addon-sale-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_exception-16.0.1.0.1.7-py3-none-any.whl.zip tmp/odoo_addon_sale_exception-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-sale-exception/16.0.1.0.1.7-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-04 13:43:58] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-05-04 13:43:58] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.3.8.tar.gz tmp/nowcasting_datamodel-1.3.9.tar.gz --markdown 20230504/n/nowcasting-datamodel/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-04 13:43:58] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-05-04 13:43:58] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.3.8.tar.gz tmp/nowcasting_datamodel-1.3.9.tar.gz --markdown 20230504/n/nowcasting-datamodel/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-04 13:43:58] INFO root fetch - processPackages [pulumiverse-exoscale]: Downloading https://files.pythonhosted.org/packages/43/f5/6d95a90d3d33fcaa547af5ff37b03bcd2347c8e8344998d24f8525eab5ae/pulumiverse_exoscale-0.47.0.tar.gz
+[2023-05-04 13:43:58] INFO root fetch - processPackages [design.plone.policy]: executing diffoscope
+[2023-05-04 13:43:58] INFO root fetch - processPackages [design.plone.policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.policy-5.0.0a4.tar.gz tmp/design.plone.policy-5.0.0a5.tar.gz --markdown 20230504/d/design.plone.policy/5.0.0a4-5.0.0a5/diff.md --exclude *.pyd
+[2023-05-04 13:43:58] INFO root fetch - processPackages [pulumiverse-exoscale]: executing diffoscope
+[2023-05-04 13:43:58] INFO root fetch - processPackages [pulumiverse-exoscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_exoscale-0.46.0.tar.gz tmp/pulumiverse_exoscale-0.47.0.tar.gz --markdown 20230504/p/pulumiverse-exoscale/0.46.0-0.47.0/diff.md --exclude *.pyd
+[2023-05-04 13:43:58] INFO root fetch - main [MainThread]: End processing [ErCore]: success
+[2023-05-04 13:43:59] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-05-04 13:43:59] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-05-04 13:43:59] INFO root fetch - main [MainThread]: End processing [design.plone.policy]: success
+[2023-05-04 13:43:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-exception]: success
+[2023-05-04 13:44:00] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
+[2023-05-04 13:44:00] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-05-04 13:44:02] INFO root fetch - main [MainThread]: End processing [pulumiverse-exoscale]: success
+[2023-05-04 13:44:02] INFO root fetch - main [MainThread]: Store serial: [17971466]
