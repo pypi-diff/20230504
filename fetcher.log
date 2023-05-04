@@ -2425,3 +2425,82 @@
 [2023-05-04 02:58:01] INFO root fetch - main [MainThread]: End processing [rfrenchseti-cspyce]: success
 [2023-05-04 02:58:01] INFO root fetch - main [MainThread]: End processing [rfrenchseti-cspyce]: success
 [2023-05-04 02:58:01] INFO root fetch - main [MainThread]: Store serial: [17964948]
+[2023-05-04 03:03:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17964948]
+[2023-05-04 03:03:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-04 03:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-05-04 03:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-json
+[2023-05-04 03:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aemcmc-nightly
+[2023-05-04 03:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azuredol
+[2023-05-04 03:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cheetiming
+[2023-05-04 03:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-sql
+[2023-05-04 03:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-lambda-layer-curl
+[2023-05-04 03:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nsface-python
+[2023-05-04 03:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bcsfe-discord
+[2023-05-04 03:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: picnik
+[2023-05-04 03:03:11] INFO root fetch - processPackages [gpt-json]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 03:03:11] WARNING root fetch - processPackages [cheetiming]: Skipping, unable to determine old version
+[2023-05-04 03:03:11] INFO root fetch - processPackages [cheetiming]: Start processing: weathergen
+[2023-05-04 03:03:11] INFO root fetch - processPackages [nsface-python]: New version: [1.1.72] Old Version: [1.1.71]
+[2023-05-04 03:03:11] INFO root fetch - main [MainThread]: End processing [cheetiming] error
+[2023-05-04 03:03:11] INFO root fetch - processPackages [azuredol]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-04 03:03:11] INFO root fetch - processPackages [fastapi-sql]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-04 03:03:11] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-04 03:03:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-04 03:03:11] INFO root fetch - processPackages [weathergen]: New version: [2.3.0] Old Version: [2.2.2]
+[2023-05-04 03:03:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-05-04 03:03:11] INFO root fetch - processPackages [weathergen]: Downloading https://files.pythonhosted.org/packages/0c/70/fce95a322caf71472131967db824ae85f414412be574ec467e2803dfe1d0/weathergen-2.2.2.tar.gz
+[2023-05-04 03:03:11] INFO root fetch - processPackages [bcsfe-discord]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-04 03:03:11] INFO root fetch - processPackages [picnik]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-04 03:03:11] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230504] Old Version: [0.0.8.dev20230503]
+[2023-05-04 03:03:11] WARNING root fetch - processPackages [weathergen]: Skipping package: exceeds size limit 59703258>=10485760
+[2023-05-04 03:03:11] INFO root fetch - processPackages [weathergen]: Start processing: nsface-cpu-python
+[2023-05-04 03:03:11] INFO root fetch - main [MainThread]: End processing [weathergen] error
+[2023-05-04 03:03:11] INFO root fetch - processPackages [fastapi-sql]: Downloading https://files.pythonhosted.org/packages/ae/67/2c4401ef40dff7a8b34fdbde0786452f526be9bb64914a37251bd64c92fe/fastapi_sql-0.3.5.tar.gz
+[2023-05-04 03:03:11] INFO root fetch - processPackages [nsface-cpu-python]: New version: [1.1.71] Old Version: [1.1.59]
+[2023-05-04 03:03:11] INFO root fetch - processPackages [azuredol]: Downloading https://files.pythonhosted.org/packages/63/94/4dd7b01c4d1fc40459f9a386734bfec686feeca62085f1996cc390d89172/azuredol-0.1.4.tar.gz
+[2023-05-04 03:03:11] INFO root fetch - processPackages [nsface-python]: Downloading https://files.pythonhosted.org/packages/93/59/41e5fad05c7e21a3f4f28ab7c52e4bee9750e80d451e72a594b9fa801478/nsface_python-1.1.72-py3-none-any.whl
+[2023-05-04 03:03:11] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-05-04 03:03:11] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/c5/09/10b198ab34b8801bd7c272107b9bc1eecc301753ab8047f5342576fffe08/aemcmc-nightly-0.0.8.dev20230503.tar.gz
+[2023-05-04 03:03:11] INFO root fetch - processPackages [bcsfe-discord]: Downloading https://files.pythonhosted.org/packages/f8/96/06f4955f5ebb27d0ed680efed29e921b6e1f4ae17e0d472c868864782b93/bcsfe-discord-2.7.8.tar.gz
+[2023-05-04 03:03:11] INFO root fetch - processPackages [picnik]: Downloading https://files.pythonhosted.org/packages/7a/76/29c1bcaf654d270d13e6edf96e2610ebb669b9f4b3b5f490b6eee7a4fd25/PICNIK-0.1.6.tar.gz
+[2023-05-04 03:03:11] INFO root fetch - processPackages [nsface-cpu-python]: executing diffoscope
+[2023-05-04 03:03:11] INFO root fetch - processPackages [nsface-cpu-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsface_cpu_python-1.1.59-py3-none-any.whl.zip tmp/nsface_cpu_python-1.1.71-py3-none-any.whl.zip --markdown 20230504/n/nsface-cpu-python/1.1.59-1.1.71/diff.md --exclude *.pyd
+[2023-05-04 03:03:11] INFO root fetch - processPackages [nsface-python]: executing diffoscope
+[2023-05-04 03:03:11] INFO root fetch - processPackages [nsface-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsface_python-1.1.71-py3-none-any.whl.zip tmp/nsface_python-1.1.72-py3-none-any.whl.zip --markdown 20230504/n/nsface-python/1.1.71-1.1.72/diff.md --exclude *.pyd
+[2023-05-04 03:03:11] INFO root fetch - processPackages [gpt-json]: Downloading https://files.pythonhosted.org/packages/bb/06/7bb023bb86b3db905fc8b672c1ac445305147610f3e9899ca54626764d71/gpt_json-0.1.2.tar.gz
+[2023-05-04 03:03:11] INFO root fetch - processPackages [fastapi-sql]: Downloading https://files.pythonhosted.org/packages/77/61/04a74597fcef6dcc6fd7f371964fd5b79af2efdb4843858dd95b1de963fa/fastapi_sql-0.3.6.tar.gz
+[2023-05-04 03:03:11] INFO root fetch - processPackages [azuredol]: Downloading https://files.pythonhosted.org/packages/fa/67/cb62eb042d715fe97b30cab4a237c50eebcfd2463b1ad571ef430887c44d/azuredol-0.1.5.tar.gz
+[2023-05-04 03:03:11] INFO root fetch - processPackages [fastapi-sql]: executing diffoscope
+[2023-05-04 03:03:11] INFO root fetch - processPackages [fastapi-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_sql-0.3.5.tar.gz tmp/fastapi_sql-0.3.6.tar.gz --markdown 20230504/f/fastapi-sql/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-04 03:03:11] INFO root fetch - processPackages [gpt-json]: executing diffoscope
+[2023-05-04 03:03:11] INFO root fetch - processPackages [gpt-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_json-0.1.1.tar.gz tmp/gpt_json-0.1.2.tar.gz --markdown 20230504/g/gpt-json/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 03:03:11] INFO root fetch - processPackages [azuredol]: executing diffoscope
+[2023-05-04 03:03:11] INFO root fetch - processPackages [azuredol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azuredol-0.1.4.tar.gz tmp/azuredol-0.1.5.tar.gz --markdown 20230504/a/azuredol/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-04 03:03:11] INFO root fetch - processPackages [picnik]: Downloading https://files.pythonhosted.org/packages/c9/a3/c5e22708b9b92208b58d488f307998f9bafe9b2a23d29dc2c7c477a401e6/PICNIK-0.1.7.tar.gz
+[2023-05-04 03:03:11] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/72/cc/8089d8407c85990a07969291f6b9cda3a1d9f0bcfe9f69d0ad7913cd94f5/aemcmc-nightly-0.0.8.dev20230504.tar.gz
+[2023-05-04 03:03:11] ERROR root fetch - processPackages [azuredol]: Diffoscope failed: Error: error creating container storage: the container name "boring_wing" is already in use by "2a390ed43e593be390cccdac8b9f58e70b4936d96f05fe5a8578b4939b8482a3". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-04 03:03:11] INFO root fetch - main [MainThread]: End processing [azuredol] error
+[2023-05-04 03:03:11] INFO root fetch - processPackages [picnik]: executing diffoscope
+[2023-05-04 03:03:11] INFO root fetch - processPackages [picnik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PICNIK-0.1.6.tar.gz tmp/PICNIK-0.1.7.tar.gz --markdown 20230504/p/picnik/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-04 03:03:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-05-04 03:03:11] INFO root fetch - processPackages [bcsfe-discord]: Downloading https://files.pythonhosted.org/packages/0a/a8/407cf9aa5ac882cd61a9b30eeaaa35a3a56f727904ad9cdaeb2dc2587e46/bcsfe-discord-2.7.9.tar.gz
+[2023-05-04 03:03:11] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-05-04 03:03:11] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230503.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230504.tar.gz --markdown 20230504/a/aemcmc-nightly/0.0.8.dev20230503-0.0.8.dev20230504/diff.md --exclude *.pyd
+[2023-05-04 03:03:12] INFO root fetch - processPackages [bcsfe-discord]: executing diffoscope
+[2023-05-04 03:03:12] INFO root fetch - processPackages [bcsfe-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcsfe-discord-2.7.8.tar.gz tmp/bcsfe-discord-2.7.9.tar.gz --markdown 20230504/b/bcsfe-discord/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-04 03:03:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-04 03:03:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230504/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-04 03:03:12] INFO root fetch - main [MainThread]: End processing [fastapi-sql]: success
+[2023-05-04 03:03:13] INFO root fetch - main [MainThread]: End processing [gpt-json]: success
+[2023-05-04 03:03:13] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-05-04 03:03:13] INFO root fetch - main [MainThread]: End processing [nsface-cpu-python]: success
+[2023-05-04 03:03:13] INFO root fetch - main [MainThread]: End processing [picnik]: success
+[2023-05-04 03:03:13] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-05-04 03:03:13] INFO root fetch - main [MainThread]: End processing [bcsfe-discord]: success
+[2023-05-04 03:03:13] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-04 03:03:14] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-05-04 03:03:14] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230504/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-04 03:03:18] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-05-04 03:03:39] INFO root fetch - main [MainThread]: End processing [nsface-python]: success
+[2023-05-04 03:03:39] INFO root fetch - main [MainThread]: Store serial: [17964981]
