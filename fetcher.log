@@ -7126,3 +7126,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 06:14:34] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
 [2023-05-04 06:14:35] INFO root fetch - main [MainThread]: End processing [aiomonitor]: success
 [2023-05-04 06:14:35] INFO root fetch - main [MainThread]: Store serial: [17967326]
+[2023-05-04 06:19:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967326]
+[2023-05-04 06:19:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-04 06:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-fieldservice-sale
+[2023-05-04 06:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libvsbsdl-python
+[2023-05-04 06:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-runtime
+[2023-05-04 06:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hsuanwuhub
+[2023-05-04 06:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-fleet-vehicle-inspection
+[2023-05-04 06:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: realnet
+[2023-05-04 06:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdc-calculator
+[2023-05-04 06:19:44] WARNING root fetch - processPackages [libvsbsdl-python]: Skipping, unable to determine old version
+[2023-05-04 06:19:44] INFO root fetch - main [MainThread]: End processing [libvsbsdl-python] error
+[2023-05-04 06:19:44] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: New version: [15.0.2.0.1.1] Old Version: [15.0.2.0.1]
+[2023-05-04 06:19:44] INFO root fetch - processPackages [pdc-calculator]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-04 06:19:44] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-inspection]: New version: [14.0.3.0.2.dev9] Old Version: [14.0.3.0.2.dev8]
+[2023-05-04 06:19:44] WARNING root fetch - processPackages [hsuanwuhub]: Skipping, unable to determine old version
+[2023-05-04 06:19:44] INFO root fetch - main [MainThread]: End processing [hsuanwuhub] error
+[2023-05-04 06:19:44] INFO root fetch - processPackages [realnet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-04 06:19:44] INFO root fetch - processPackages [mojo-runtime]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 06:19:44] INFO root fetch - processPackages [realnet]: Downloading https://files.pythonhosted.org/packages/14/7a/ce955eb858773e2e56fbb853c0cb11ab4d94c2a8d998a6e3f80bb9a3b262/realnet-0.0.98.tar.gz
+[2023-05-04 06:19:45] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2023-05-04 06:19:45] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-0.0.8.tar.gz tmp/mojo_runtime-0.0.9.tar.gz --markdown 20230504/m/mojo-runtime/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 06:19:45] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-inspection]: Downloading https://files.pythonhosted.org/packages/ff/76/eff0d26c5ab5a478d3a9a89eb4620e4a0e88d0a9b97c851a694e8b091f61/odoo14_addon_fleet_vehicle_inspection-14.0.3.0.2.dev8-py3-none-any.whl
+[2023-05-04 06:19:45] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/34/0a/b0493683a68af7ff29e91826768d8c3fe504cf83e25c31001b783cc5212a/odoo_addon_fieldservice_sale-15.0.2.0.1-py3-none-any.whl
+[2023-05-04 06:19:45] INFO root fetch - processPackages [realnet]: Downloading https://files.pythonhosted.org/packages/85/35/57762e774329e2be122468375db18a174af9449878942ce858b59c0aaeae/realnet-0.0.99.tar.gz
+[2023-05-04 06:19:45] INFO root fetch - processPackages [pdc-calculator]: Downloading https://files.pythonhosted.org/packages/3b/fc/2f6137396d09734c5eb8a40f93490ab9101441c9f62c7f8ad64075323ed7/pdc_calculator-1.0.3.tar.gz
+[2023-05-04 06:19:45] INFO root fetch - processPackages [realnet]: executing diffoscope
+[2023-05-04 06:19:45] INFO root fetch - processPackages [realnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realnet-0.0.98.tar.gz tmp/realnet-0.0.99.tar.gz --markdown 20230504/r/realnet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-04 06:19:45] INFO root fetch - processPackages [pdc-calculator]: executing diffoscope
+[2023-05-04 06:19:45] INFO root fetch - processPackages [pdc-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdc_calculator-1.0.2.tar.gz tmp/pdc_calculator-1.0.3.tar.gz --markdown 20230504/p/pdc-calculator/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-04 06:19:45] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/77/e3/820c729499c8969e1abc57f4fc27d4742a0e251b1f66f1e004ee5e11fbfa/odoo_addon_fieldservice_sale-15.0.2.0.1.1-py3-none-any.whl
+[2023-05-04 06:19:45] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: executing diffoscope
+[2023-05-04 06:19:45] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_sale-15.0.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_sale-15.0.2.0.1.1-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-fieldservice-sale/15.0.2.0.1-15.0.2.0.1.1/diff.md --exclude *.pyd
+[2023-05-04 06:19:45] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-inspection]: Downloading https://files.pythonhosted.org/packages/5e/22/87c109ebd38d3d83fd7e6fe6f97bfc4891b472b8946b44d3efec7d44e9cf/odoo14_addon_fleet_vehicle_inspection-14.0.3.0.2.dev9-py3-none-any.whl
+[2023-05-04 06:19:45] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-inspection]: executing diffoscope
+[2023-05-04 06:19:45] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-inspection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fleet_vehicle_inspection-14.0.3.0.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_fleet_vehicle_inspection-14.0.3.0.2.dev9-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addon-fleet-vehicle-inspection/14.0.3.0.2.dev8-14.0.3.0.2.dev9/diff.md --exclude *.pyd
+[2023-05-04 06:19:46] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2023-05-04 06:19:46] INFO root fetch - main [MainThread]: End processing [pdc-calculator]: success
+[2023-05-04 06:19:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-sale]: success
+[2023-05-04 06:19:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fleet-vehicle-inspection]: success
+[2023-05-04 06:19:49] INFO root fetch - main [MainThread]: End processing [realnet]: success
+[2023-05-04 06:19:49] INFO root fetch - main [MainThread]: Store serial: [17967349]
