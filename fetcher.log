@@ -7352,3 +7352,12 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 06:45:47] INFO root fetch - main [MainThread]: End processing [manifest-ml]: success
 [2023-05-04 06:45:53] INFO root fetch - main [MainThread]: End processing [crms]: success
 [2023-05-04 06:45:53] INFO root fetch - main [MainThread]: Store serial: [17967436]
+[2023-05-04 06:50:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967436]
+[2023-05-04 06:51:01] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-05-04 06:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chalkpy
+[2023-05-04 06:51:01] INFO root fetch - processPackages [chalkpy]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-04 06:51:02] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/b3/c6/39dd727bc218b6babb0cec832c708148136e7a7daefc7ab7775a9ea4592c/chalkpy-2.1.1.tar.gz
+[2023-05-04 06:51:02] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-04 06:51:02] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.1.0.tar.gz tmp/chalkpy-2.1.1.tar.gz --markdown 20230504/c/chalkpy/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-04 06:51:07] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-04 06:51:07] INFO root fetch - main [MainThread]: Store serial: [17967439]
