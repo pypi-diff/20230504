@@ -5494,3 +5494,19 @@
 [2023-05-04 04:04:07] INFO root fetch - main [MainThread]: End processing [formant]: success
 [2023-05-04 04:04:08] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
 [2023-05-04 04:04:08] INFO root fetch - main [MainThread]: Store serial: [17966411]
+[2023-05-04 04:09:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966411]
+[2023-05-04 04:09:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-04 04:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alacorder
+[2023-05-04 04:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: captif-cpx-db
+[2023-05-04 04:09:16] INFO root fetch - processPackages [alacorder]: New version: [80.1.9] Old Version: [80.1.8]
+[2023-05-04 04:09:17] INFO root fetch - processPackages [captif-cpx-db]: New version: [0.4] Old Version: [0.3]
+[2023-05-04 04:09:17] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/c2/ce/f3e15546f955e879127b07c49096fc0196e61f6943f39f467fbee03adf5e/alacorder-80.1.9.tar.gz
+[2023-05-04 04:09:17] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-04 04:09:17] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.1.8.tar.gz tmp/alacorder-80.1.9.tar.gz --markdown 20230504/a/alacorder/80.1.8-80.1.9/diff.md --exclude *.pyd
+[2023-05-04 04:09:17] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/35/98/9a249f8fbada3399d94bafe58f868385caec58880e731b87ea17b5b9238f/captif_cpx_db-0.3.tar.gz
+[2023-05-04 04:09:17] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/db/0d/65ba593159b4f901debb5ab0188acabc054a2959fc5606b2ffe5fe2b96d5/captif_cpx_db-0.4.tar.gz
+[2023-05-04 04:09:17] INFO root fetch - processPackages [captif-cpx-db]: executing diffoscope
+[2023-05-04 04:09:17] INFO root fetch - processPackages [captif-cpx-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif_cpx_db-0.3.tar.gz tmp/captif_cpx_db-0.4.tar.gz --markdown 20230504/c/captif-cpx-db/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-04 04:09:18] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-04 04:09:18] INFO root fetch - main [MainThread]: End processing [captif-cpx-db]: success
+[2023-05-04 04:09:18] INFO root fetch - main [MainThread]: Store serial: [17966418]
