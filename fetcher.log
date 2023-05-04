@@ -13259,3 +13259,128 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 12:49:05] INFO root fetch - main [MainThread]: End processing [toolium]: success
 [2023-05-04 12:49:07] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
 [2023-05-04 12:49:07] INFO root fetch - main [MainThread]: Store serial: [17970885]
+[2023-05-04 12:54:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17970885]
+[2023-05-04 12:54:16] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-04 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dactim-mri
+[2023-05-04 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-otakar-single-race-mode2
+[2023-05-04 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neurodeploy
+[2023-05-04 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BornAgain
+[2023-05-04 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-roy-CERT-1844-usage
+[2023-05-04 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aij-webcam
+[2023-05-04 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Pequena
+[2023-05-04 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: XStatic
+[2023-05-04 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-master
+[2023-05-04 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ExcelAlchemy
+[2023-05-04 12:54:16] INFO root fetch - processPackages [dactim-mri]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 12:54:16] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: New version: [20230504.9.59.715367] Old Version: [20230504.7.14.754863]
+[2023-05-04 12:54:16] INFO root fetch - processPackages [aij-webcam]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 12:54:16] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 12:54:16] INFO root fetch - processPackages [neurodeploy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 12:54:16] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230504.9.57.726431] Old Version: [20230503.8.57.91126]
+[2023-05-04 12:54:16] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/02/3d/7baeb5306ea39f8c2592ec1ede0c704ab9e40de631db73db94d6cf42b077/certora-cli-alpha-master-20230503.8.57.91126.tar.gz
+[2023-05-04 12:54:16] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: New version: [20230504.9.58.528177] Old Version: [20230504.10.49.97340]
+[2023-05-04 12:54:16] INFO root fetch - processPackages [BornAgain]: New version: [20.1] Old Version: [20.0]
+[2023-05-04 12:54:16] INFO root fetch - processPackages [XStatic]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-04 12:54:16] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38380258>=10485760
+[2023-05-04 12:54:16] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-05-04 12:54:16] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: aqueduct-sdk
+[2023-05-04 12:54:16] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230504/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:54:16] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-04 12:54:16] INFO root fetch - processPackages [aij-webcam]: executing diffoscope
+[2023-05-04 12:54:16] INFO root fetch - processPackages [aij-webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-webcam-1.0.8.tar.gz tmp/aij-webcam-1.0.9.tar.gz --markdown 20230504/a/aij-webcam/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:54:16] INFO root fetch - processPackages [ExcelAlchemy]: New version: [0.1a2] Old Version: [0.1a1]
+[2023-05-04 12:54:16] INFO root fetch - processPackages [aqueduct-sdk]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-04 12:54:16] INFO root fetch - processPackages [dactim-mri]: Downloading https://files.pythonhosted.org/packages/bd/16/80b20f5bbabdc0989d96d0b3fbcafceae2713709179f4e9c6e4dfeb2904d/dactim_mri-0.0.8.tar.gz
+[2023-05-04 12:54:16] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Downloading https://files.pythonhosted.org/packages/22/00/47d381bfcfb8a2f0f0b571545e881ead0ece177e6a4d6e733008956433d4/certora-cli-alpha-otakar-single_race_mode2-20230504.7.14.754863.tar.gz
+[2023-05-04 12:54:16] WARNING root fetch - processPackages [dactim-mri]: Skipping package: exceeds size limit 26534398>=10485760
+[2023-05-04 12:54:16] INFO root fetch - processPackages [dactim-mri]: Start processing: mo-json
+[2023-05-04 12:54:16] INFO root fetch - main [MainThread]: End processing [dactim-mri] error
+[2023-05-04 12:54:16] WARNING root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Skipping package: exceeds size limit 38420702>=10485760
+[2023-05-04 12:54:16] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Start processing: graphsignal
+[2023-05-04 12:54:16] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-otakar-single-race-mode2] error
+[2023-05-04 12:54:16] INFO root fetch - processPackages [mo-json]: New version: [6.382.23124] Old Version: [6.374.23120]
+[2023-05-04 12:54:16] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Downloading https://files.pythonhosted.org/packages/34/18/b8340e96e1f91cee79995238377c42e3b66ca5390a7f436ed8be9bd54d2f/certora-cli-alpha-roy-CERT-1844-usage-20230504.10.49.97340.tar.gz
+[2023-05-04 12:54:16] INFO root fetch - processPackages [neurodeploy]: executing diffoscope
+[2023-05-04 12:54:16] INFO root fetch - processPackages [neurodeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurodeploy-0.0.8.tar.gz tmp/neurodeploy-0.0.9.tar.gz --markdown 20230504/n/neurodeploy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:54:16] INFO root fetch - processPackages [mo-json]: executing diffoscope
+[2023-05-04 12:54:16] INFO root fetch - processPackages [mo-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_json-6.374.23120-py2.py3-none-any.whl.zip tmp/mo_json-6.382.23124-py2.py3-none-any.whl.zip --markdown 20230504/m/mo-json/6.374.23120-6.382.23124/diff.md --exclude *.pyd
+[2023-05-04 12:54:16] INFO root fetch - processPackages [BornAgain]: Downloading https://files.pythonhosted.org/packages/50/24/54b6879ad656fc7516de354fc5307245320373d4c45c3abf3799f7841bef/BornAgain-20.0-cp39-cp39-win_amd64.whl
+[2023-05-04 12:54:16] INFO root fetch - processPackages [XStatic]: Downloading https://files.pythonhosted.org/packages/36/78/c0ffaf14216517a14d3daa67ff24fbb60b4703e95ce1059a48fd508e6b8c/XStatic-1.0.2.tar.gz
+[2023-05-04 12:54:16] INFO root fetch - processPackages [graphsignal]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-04 12:54:16] INFO root fetch - processPackages [ExcelAlchemy]: Downloading https://files.pythonhosted.org/packages/5a/0e/ce06043e2bbdd3881c3d78c77ab373570b6fbd59839d5617cebe2a458b1f/ExcelAlchemy-0.1a1.tar.gz
+[2023-05-04 12:54:16] INFO root fetch - processPackages [aqueduct-sdk]: executing diffoscope
+[2023-05-04 12:54:16] INFO root fetch - processPackages [aqueduct-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqueduct-sdk-0.2.9.tar.gz tmp/aqueduct-sdk-0.3.0.tar.gz --markdown 20230504/a/aqueduct-sdk/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-04 12:54:16] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Skipping package: exceeds size limit 38423716>=10485760
+[2023-05-04 12:54:16] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Start processing: aqueduct-ml
+[2023-05-04 12:54:16] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1844-usage] error
+[2023-05-04 12:54:16] INFO root fetch - processPackages [aqueduct-ml]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-04 12:54:17] INFO root fetch - processPackages [aqueduct-ml]: executing diffoscope
+[2023-05-04 12:54:17] INFO root fetch - processPackages [aqueduct-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqueduct-ml-0.2.9.tar.gz tmp/aqueduct-ml-0.3.0.tar.gz --markdown 20230504/a/aqueduct-ml/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-04 12:54:17] INFO root fetch - processPackages [graphsignal]: Downloading https://files.pythonhosted.org/packages/8a/ce/6c4ad532d461693620e6155f4cc8c8495b148d9bef62b7204619e41f19ec/graphsignal-0.9.4.tar.gz
+[2023-05-04 12:54:17] INFO root fetch - processPackages [XStatic]: Downloading https://files.pythonhosted.org/packages/d6/dd/e448da90f0e72a30546cda9b193893ea2907e7d3a702655c2c3b80c3b97f/XStatic-1.0.3.tar.gz
+[2023-05-04 12:54:17] INFO root fetch - processPackages [ExcelAlchemy]: Downloading https://files.pythonhosted.org/packages/7c/11/11145a4128f6ebf879542f14869684f0b4b0d89aef9b20a09a451e9037f7/ExcelAlchemy-0.1a2.tar.gz
+[2023-05-04 12:54:17] INFO root fetch - processPackages [XStatic]: executing diffoscope
+[2023-05-04 12:54:17] INFO root fetch - processPackages [XStatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XStatic-1.0.2.tar.gz tmp/XStatic-1.0.3.tar.gz --markdown 20230504/X/XStatic/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-04 12:54:17] INFO root fetch - processPackages [ExcelAlchemy]: executing diffoscope
+[2023-05-04 12:54:17] INFO root fetch - processPackages [ExcelAlchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExcelAlchemy-0.1a1.tar.gz tmp/ExcelAlchemy-0.1a2.tar.gz --markdown 20230504/E/ExcelAlchemy/0.1a1-0.1a2/diff.md --exclude *.pyd
+[2023-05-04 12:54:17] INFO root fetch - processPackages [graphsignal]: Downloading https://files.pythonhosted.org/packages/63/9a/d9360e506d4b48251d07845d69b0a9facd3465a3c270adacda14a215a8a8/graphsignal-0.9.5.tar.gz
+[2023-05-04 12:54:17] INFO root fetch - processPackages [graphsignal]: executing diffoscope
+[2023-05-04 12:54:17] INFO root fetch - processPackages [graphsignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphsignal-0.9.4.tar.gz tmp/graphsignal-0.9.5.tar.gz --markdown 20230504/g/graphsignal/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-04 12:54:17] INFO root fetch - processPackages [Pequena]: Start processing: mo-files
+[2023-05-04 12:54:17] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-05-04 12:54:17] INFO root fetch - processPackages [BornAgain]: Downloading https://files.pythonhosted.org/packages/e9/5b/1fab103fecb30b1b340dc35b3a1d6673ce50f130888539f484dccf1934f6/BornAgain-20.1-cp39-cp39-win_amd64.whl
+[2023-05-04 12:54:18] INFO root fetch - processPackages [aij-webcam]: Start processing: evalhyd-python
+[2023-05-04 12:54:18] INFO root fetch - main [MainThread]: End processing [aij-webcam]: success
+[2023-05-04 12:54:18] INFO root fetch - processPackages [mo-files]: New version: [6.384.23124] Old Version: [6.375.23120]
+[2023-05-04 12:54:18] WARNING root fetch - processPackages [evalhyd-python]: Skipping, unable to determine old version
+[2023-05-04 12:54:18] INFO root fetch - processPackages [evalhyd-python]: Start processing: certora-cli-alpha-EyalH-CallTraceErrorsToProblemView
+[2023-05-04 12:54:18] INFO root fetch - main [MainThread]: End processing [evalhyd-python] error
+[2023-05-04 12:54:18] WARNING root fetch - processPackages [certora-cli-alpha-EyalH-CallTraceErrorsToProblemView]: Skipping, unable to determine old version
+[2023-05-04 12:54:18] INFO root fetch - processPackages [certora-cli-alpha-EyalH-CallTraceErrorsToProblemView]: Start processing: dicomselect
+[2023-05-04 12:54:18] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-EyalH-CallTraceErrorsToProblemView] error
+[2023-05-04 12:54:18] INFO root fetch - processPackages [mo-json]: Start processing: dicomselect
+[2023-05-04 12:54:18] INFO root fetch - main [MainThread]: End processing [mo-json]: success
+[2023-05-04 12:54:18] INFO root fetch - processPackages [neurodeploy]: Start processing: neurodeploy
+[2023-05-04 12:54:18] INFO root fetch - main [MainThread]: End processing [neurodeploy]: success
+[2023-05-04 12:54:18] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/4f/c0/686c3765a57e2b1c22882bc5e7feb17cf94ef8440c445798b030bc3b4e26/mo_files-6.375.23120-py2.py3-none-any.whl
+[2023-05-04 12:54:18] INFO root fetch - processPackages [dicomselect]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-05-04 12:54:18] INFO root fetch - processPackages [dicomselect]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-05-04 12:54:18] INFO root fetch - processPackages [neurodeploy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 12:54:18] INFO root fetch - processPackages [neurodeploy]: executing diffoscope
+[2023-05-04 12:54:18] INFO root fetch - processPackages [neurodeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurodeploy-0.0.8.tar.gz tmp/neurodeploy-0.0.9.tar.gz --markdown 20230504/n/neurodeploy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:54:18] INFO root fetch - processPackages [dicomselect]: Downloading https://files.pythonhosted.org/packages/4c/c3/fe0f34c0ac32b3f52e38bda93e45ae84d384135bf1b68dbfced4aedb1243/dicomselect-0.0.0.tar.gz
+[2023-05-04 12:54:18] INFO root fetch - processPackages [dicomselect]: Downloading https://files.pythonhosted.org/packages/4c/c3/fe0f34c0ac32b3f52e38bda93e45ae84d384135bf1b68dbfced4aedb1243/dicomselect-0.0.0.tar.gz
+[2023-05-04 12:54:18] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/68/4a/20ac8cb222702b2c25efdc5dc2134a3e3b7287a92f81e9fb590b25d6bf74/mo_files-6.384.23124-py2.py3-none-any.whl
+[2023-05-04 12:54:18] INFO root fetch - processPackages [XStatic]: Start processing: rebasin
+[2023-05-04 12:54:18] INFO root fetch - main [MainThread]: End processing [XStatic]: success
+[2023-05-04 12:54:18] INFO root fetch - processPackages [rebasin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 12:54:18] INFO root fetch - processPackages [BornAgain]: executing diffoscope
+[2023-05-04 12:54:18] INFO root fetch - processPackages [BornAgain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BornAgain-20.0-cp39-cp39-win_amd64.whl.zip tmp/BornAgain-20.1-cp39-cp39-win_amd64.whl.zip --markdown 20230504/B/BornAgain/20.0-20.1/diff.md --exclude *.pyd
+[2023-05-04 12:54:18] INFO root fetch - processPackages [rebasin]: executing diffoscope
+[2023-05-04 12:54:18] INFO root fetch - processPackages [rebasin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebasin-0.0.8.tar.gz tmp/rebasin-0.0.9.tar.gz --markdown 20230504/r/rebasin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 12:54:18] INFO root fetch - processPackages [dicomselect]: Downloading https://files.pythonhosted.org/packages/3d/15/b03d8e12f388aca2c78ccb6176fa871617ad20030e6ea2fcc65d25692f23/dicomselect-0.1.0.tar.gz
+[2023-05-04 12:54:18] INFO root fetch - processPackages [dicomselect]: Downloading https://files.pythonhosted.org/packages/3d/15/b03d8e12f388aca2c78ccb6176fa871617ad20030e6ea2fcc65d25692f23/dicomselect-0.1.0.tar.gz
+[2023-05-04 12:54:18] INFO root fetch - processPackages [mo-files]: executing diffoscope
+[2023-05-04 12:54:18] INFO root fetch - processPackages [mo-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_files-6.375.23120-py2.py3-none-any.whl.zip tmp/mo_files-6.384.23124-py2.py3-none-any.whl.zip --markdown 20230504/m/mo-files/6.375.23120-6.384.23124/diff.md --exclude *.pyd
+[2023-05-04 12:54:18] INFO root fetch - processPackages [ExcelAlchemy]: Start processing: py5jupyter
+[2023-05-04 12:54:18] INFO root fetch - main [MainThread]: End processing [ExcelAlchemy]: success
+[2023-05-04 12:54:18] INFO root fetch - processPackages [dicomselect]: executing diffoscope
+[2023-05-04 12:54:18] INFO root fetch - processPackages [dicomselect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomselect-0.0.0.tar.gz tmp/dicomselect-0.1.0.tar.gz --markdown 20230504/d/dicomselect/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-05-04 12:54:18] INFO root fetch - processPackages [dicomselect]: executing diffoscope
+[2023-05-04 12:54:18] INFO root fetch - processPackages [dicomselect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomselect-0.0.0.tar.gz tmp/dicomselect-0.1.0.tar.gz --markdown 20230504/d/dicomselect/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-05-04 12:54:18] INFO root fetch - processPackages [py5jupyter]: New version: [0.2.0a0] Old Version: [0.1.2a1]
+[2023-05-04 12:54:19] INFO root fetch - processPackages [py5jupyter]: Downloading https://files.pythonhosted.org/packages/49/d7/4c290799347707d493ab3451b1a83c4e78201e773c83edd20eaa41074da2/py5jupyter-0.1.2a1.tar.gz
+[2023-05-04 12:54:19] INFO root fetch - processPackages [py5jupyter]: Downloading https://files.pythonhosted.org/packages/e2/2b/ab1dfb6f34c4562a8216d9df0a358c4d14ae03a6770685e029fe0a03bc69/py5jupyter-0.2.0a0.tar.gz
+[2023-05-04 12:54:19] INFO root fetch - processPackages [py5jupyter]: executing diffoscope
+[2023-05-04 12:54:19] INFO root fetch - processPackages [py5jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py5jupyter-0.1.2a1.tar.gz tmp/py5jupyter-0.2.0a0.tar.gz --markdown 20230504/p/py5jupyter/0.1.2a1-0.2.0a0/diff.md --exclude *.pyd
+[2023-05-04 12:54:20] INFO root fetch - main [MainThread]: End processing [neurodeploy]: success
+[2023-05-04 12:54:20] INFO root fetch - main [MainThread]: End processing [mo-files]: success
+[2023-05-04 12:54:20] INFO root fetch - main [MainThread]: End processing [aqueduct-ml]: success
+[2023-05-04 12:54:20] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
+[2023-05-04 12:54:20] INFO root fetch - main [MainThread]: End processing [dicomselect]: success
+[2023-05-04 12:54:20] INFO root fetch - main [MainThread]: End processing [rebasin]: success
+[2023-05-04 12:54:20] INFO root fetch - main [MainThread]: End processing [aqueduct-sdk]: success
+[2023-05-04 12:54:21] INFO root fetch - main [MainThread]: End processing [dicomselect]: success
+[2023-05-04 12:54:22] INFO root fetch - main [MainThread]: End processing [BornAgain]: success
+[2023-05-04 12:54:23] INFO root fetch - main [MainThread]: End processing [py5jupyter]: success
+[2023-05-04 12:54:23] INFO root fetch - main [MainThread]: Store serial: [17970965]
