@@ -6455,3 +6455,40 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 05:26:40] INFO root fetch - main [MainThread]: End processing [griseo]: success
 [2023-05-04 05:26:40] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
 [2023-05-04 05:26:40] INFO root fetch - main [MainThread]: Store serial: [17966959]
+[2023-05-04 05:31:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966959]
+[2023-05-04 05:31:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-04 05:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: griseo
+[2023-05-04 05:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-outbox-menu
+[2023-05-04 05:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: get-my-palette-from-image
+[2023-05-04 05:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dreamai-pdf
+[2023-05-04 05:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ampapi
+[2023-05-04 05:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qctrl-release-noter
+[2023-05-04 05:31:49] INFO root fetch - processPackages [get-my-palette-from-image]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-05-04 05:31:49] INFO root fetch - processPackages [dreamai-pdf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 05:31:49] INFO root fetch - processPackages [griseo]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-04 05:31:49] INFO root fetch - processPackages [ampapi]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-04 05:31:49] INFO root fetch - processPackages [django-outbox-menu]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 05:31:49] WARNING root fetch - processPackages [qctrl-release-noter]: Skipping, unable to determine old version
+[2023-05-04 05:31:49] INFO root fetch - main [MainThread]: End processing [qctrl-release-noter] error
+[2023-05-04 05:31:49] INFO root fetch - processPackages [griseo]: executing diffoscope
+[2023-05-04 05:31:49] INFO root fetch - processPackages [griseo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griseo-0.8.0.tar.gz tmp/griseo-0.9.0.tar.gz --markdown 20230504/g/griseo/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 05:31:49] INFO root fetch - processPackages [ampapi]: Downloading https://files.pythonhosted.org/packages/19/89/121b0d27f4066691186fb858f208df17b003edad48f503550259763f0246/ampapi-1.1.2.tar.gz
+[2023-05-04 05:31:50] INFO root fetch - processPackages [dreamai-pdf]: Downloading https://files.pythonhosted.org/packages/ad/f1/d99a6ade64dcf5d65ae9367637698f284d2cdbcef586fecb3f8951e66b09/dreamai_pdf-0.0.9.tar.gz
+[2023-05-04 05:31:50] INFO root fetch - processPackages [django-outbox-menu]: Downloading https://files.pythonhosted.org/packages/a4/b5/e927ce22b10a0beef1e06c269bf6eadb92529b619a81ebd58c9491256c5a/django-outbox-menu-1.0.8.tar.gz
+[2023-05-04 05:31:50] INFO root fetch - processPackages [dreamai-pdf]: executing diffoscope
+[2023-05-04 05:31:50] INFO root fetch - processPackages [dreamai-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai_pdf-0.0.8.tar.gz tmp/dreamai_pdf-0.0.9.tar.gz --markdown 20230504/d/dreamai-pdf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 05:31:50] INFO root fetch - processPackages [get-my-palette-from-image]: Downloading https://files.pythonhosted.org/packages/31/7b/693d9ee76686a13a6bb87dd901f47eb826d5a925cf75fc89ccbdadc8acda/get-my-palette-from-image-0.1.3.tar.gz
+[2023-05-04 05:31:50] INFO root fetch - processPackages [get-my-palette-from-image]: executing diffoscope
+[2023-05-04 05:31:50] INFO root fetch - processPackages [get-my-palette-from-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_my_palette_from_image-0.1.1-py3-none-any.whl.zip tmp/get-my-palette-from-image-0.1.3.tar.gz --markdown 20230504/g/get-my-palette-from-image/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-04 05:31:50] INFO root fetch - processPackages [ampapi]: Downloading https://files.pythonhosted.org/packages/0d/88/8af0662821e207db9395172a7e5015e75a44f6f91808c2a2e683169817e7/ampapi-1.1.3.tar.gz
+[2023-05-04 05:31:50] INFO root fetch - processPackages [ampapi]: executing diffoscope
+[2023-05-04 05:31:50] INFO root fetch - processPackages [ampapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampapi-1.1.2.tar.gz tmp/ampapi-1.1.3.tar.gz --markdown 20230504/a/ampapi/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-04 05:31:50] INFO root fetch - processPackages [django-outbox-menu]: Downloading https://files.pythonhosted.org/packages/12/74/17de0051024c6e36a45ad52e58d199e38092cc14004026d9ecb4d963cfd5/django-outbox-menu-1.0.9.tar.gz
+[2023-05-04 05:31:50] INFO root fetch - processPackages [django-outbox-menu]: executing diffoscope
+[2023-05-04 05:31:50] INFO root fetch - processPackages [django-outbox-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-outbox-menu-1.0.8.tar.gz tmp/django-outbox-menu-1.0.9.tar.gz --markdown 20230504/d/django-outbox-menu/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 05:31:50] INFO root fetch - main [MainThread]: End processing [griseo]: success
+[2023-05-04 05:31:51] INFO root fetch - main [MainThread]: End processing [get-my-palette-from-image]: success
+[2023-05-04 05:31:51] INFO root fetch - main [MainThread]: End processing [dreamai-pdf]: success
+[2023-05-04 05:31:51] INFO root fetch - main [MainThread]: End processing [ampapi]: success
+[2023-05-04 05:31:51] INFO root fetch - main [MainThread]: End processing [django-outbox-menu]: success
+[2023-05-04 05:31:51] INFO root fetch - main [MainThread]: Store serial: [17966981]
