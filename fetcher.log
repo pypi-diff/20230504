@@ -8003,3 +8003,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-04 07:48:12] INFO root fetch - main [MainThread]: End processing [xj-migrate]: success
 [2023-05-04 07:48:13] INFO root fetch - main [MainThread]: End processing [plivo]: success
 [2023-05-04 07:48:13] INFO root fetch - main [MainThread]: Store serial: [17967799]
+[2023-05-04 07:53:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17967799]
+[2023-05-04 07:53:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-04 07:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Kivy
+[2023-05-04 07:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Kivy-examples
+[2023-05-04 07:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: doppyler
+[2023-05-04 07:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-clip-torch
+[2023-05-04 07:53:22] INFO root fetch - processPackages [doppyler]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 07:53:22] INFO root fetch - processPackages [Kivy-examples]: New version: [2.2.0rc1] Old Version: [2.2.0.dev0]
+[2023-05-04 07:53:22] INFO root fetch - processPackages [Kivy]: New version: [2.2.0rc1] Old Version: [2.2.0.dev0]
+[2023-05-04 07:53:22] INFO root fetch - processPackages [open-clip-torch]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-05-04 07:53:22] INFO root fetch - processPackages [Kivy-examples]: Downloading https://files.pythonhosted.org/packages/07/3a/1155c8889ec2d2f106ffeca353c27a08d76e4dff6690fbce8ffe4b3aef83/Kivy_examples-2.2.0.dev0-py2.py3-none-any.whl
+[2023-05-04 07:53:22] INFO root fetch - processPackages [doppyler]: Downloading https://files.pythonhosted.org/packages/f3/ce/3c784679826297f3ac69432ea7bb8c56b370103c54c1784f03d923c18542/doppyler-0.0.8.tar.gz
+[2023-05-04 07:53:22] INFO root fetch - processPackages [open-clip-torch]: Downloading https://files.pythonhosted.org/packages/94/d5/70315f8f54e2a2b723fb206893bc308a9585a314883c7d07d7b97611d5cd/open_clip_torch-2.9.2.tar.gz
+[2023-05-04 07:53:22] INFO root fetch - processPackages [Kivy]: Downloading https://files.pythonhosted.org/packages/d5/21/7b27b7f9a01449040d0582b64267290631c5e9e0352e4dc419f730b0ba15/Kivy-2.2.0.dev0.tar.gz
+[2023-05-04 07:53:22] WARNING root fetch - processPackages [Kivy]: Skipping package: exceeds size limit 23966869>=10485760
+[2023-05-04 07:53:22] INFO root fetch - main [MainThread]: End processing [Kivy] error
+[2023-05-04 07:53:22] INFO root fetch - processPackages [doppyler]: Downloading https://files.pythonhosted.org/packages/9a/ab/01213d6fc4b8322b044e475c47dea3e16fbdc11245b2faa26f0467b70c16/doppyler-0.0.9.tar.gz
+[2023-05-04 07:53:22] INFO root fetch - processPackages [open-clip-torch]: Downloading https://files.pythonhosted.org/packages/5d/48/4d83e98f44a1d9fdb89ab45ab9ca8337f067e917dcffce449bc02732dedb/open_clip_torch-2.9.3.tar.gz
+[2023-05-04 07:53:23] INFO root fetch - processPackages [doppyler]: executing diffoscope
+[2023-05-04 07:53:23] INFO root fetch - processPackages [doppyler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doppyler-0.0.8.tar.gz tmp/doppyler-0.0.9.tar.gz --markdown 20230504/d/doppyler/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 07:53:23] INFO root fetch - processPackages [open-clip-torch]: executing diffoscope
+[2023-05-04 07:53:23] INFO root fetch - processPackages [open-clip-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_clip_torch-2.9.2.tar.gz tmp/open_clip_torch-2.9.3.tar.gz --markdown 20230504/o/open-clip-torch/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-05-04 07:53:23] INFO root fetch - processPackages [Kivy-examples]: Downloading https://files.pythonhosted.org/packages/2a/cd/37f057d7436776e10f37015e14d5adb6c85b2faa826482da8352ac43fb36/Kivy_examples-2.2.0rc1-py2.py3-none-any.whl
+[2023-05-04 07:53:24] INFO root fetch - main [MainThread]: End processing [doppyler]: success
+[2023-05-04 07:53:24] INFO root fetch - main [MainThread]: End processing [open-clip-torch]: success
+[2023-05-04 07:53:25] INFO root fetch - processPackages [Kivy-examples]: executing diffoscope
+[2023-05-04 07:53:25] INFO root fetch - processPackages [Kivy-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Kivy_examples-2.2.0.dev0-py2.py3-none-any.whl.zip tmp/Kivy_examples-2.2.0rc1-py2.py3-none-any.whl.zip --markdown 20230504/K/Kivy-examples/2.2.0.dev0-2.2.0rc1/diff.md --exclude *.pyd
+[2023-05-04 07:53:33] INFO root fetch - main [MainThread]: End processing [Kivy-examples]: success
+[2023-05-04 07:53:33] INFO root fetch - main [MainThread]: Store serial: [17967819]
