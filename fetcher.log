@@ -21294,3 +21294,149 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 19:42:17] INFO root fetch - main [MainThread]: End processing [truera]: success
 [2023-05-04 19:43:28] INFO root fetch - main [MainThread]: End processing [openxes-cli-py]: success
 [2023-05-04 19:43:28] INFO root fetch - main [MainThread]: Store serial: [17975688]
+[2023-05-04 19:48:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17975688]
+[2023-05-04 19:48:39] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-04 19:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oloren
+[2023-05-04 19:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-dinkum-listener
+[2023-05-04 19:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gui4pygame
+[2023-05-04 19:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dagster
+[2023-05-04 19:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nowcasting-forecast
+[2023-05-04 19:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: icecube-skyreader
+[2023-05-04 19:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chemistry-and-robots
+[2023-05-04 19:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flask-admin-dashboard
+[2023-05-04 19:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sklean123
+[2023-05-04 19:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mpipartition
+[2023-05-04 19:48:39] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 19:48:39] INFO root fetch - processPackages [icecube-skyreader]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-04 19:48:39] INFO root fetch - processPackages [chemistry-and-robots]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-05-04 19:48:39] INFO root fetch - processPackages [flask-admin-dashboard]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-04 19:48:39] WARNING root fetch - processPackages [gui4pygame]: Skipping, unable to determine old version
+[2023-05-04 19:48:39] INFO root fetch - processPackages [gui4pygame]: Start processing: bokeh
+[2023-05-04 19:48:39] INFO root fetch - main [MainThread]: End processing [gui4pygame] error
+[2023-05-04 19:48:39] INFO root fetch - processPackages [ovos-dinkum-listener]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-05-04 19:48:39] INFO root fetch - processPackages [mpipartition]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-04 19:48:39] INFO root fetch - processPackages [sklean123]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-04 19:48:39] INFO root fetch - processPackages [dagster]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-04 19:48:39] INFO root fetch - processPackages [nowcasting-forecast]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-04 19:48:39] INFO root fetch - processPackages [chemistry-and-robots]: Downloading https://files.pythonhosted.org/packages/26/f7/3f859bc50f6f8e9a66dc0f8138bcdeb627ca7ed52301f24cda4f03406a34/chemistry_and_robots-1.6.1.tar.gz
+[2023-05-04 19:48:40] INFO root fetch - processPackages [icecube-skyreader]: Downloading https://files.pythonhosted.org/packages/5a/b6/2f856a943713d370e1a5aa0211393b30b40e6e867306c14d3c8f5d438cbc/icecube-skyreader-1.0.1.tar.gz
+[2023-05-04 19:48:40] INFO root fetch - processPackages [bokeh]: New version: [3.2.0.dev2] Old Version: [3.2.0.dev1]
+[2023-05-04 19:48:40] INFO root fetch - processPackages [dagster]: Downloading https://files.pythonhosted.org/packages/10/8e/501041397657a023e0e7f57887cd2921521c586447f13ed0f86041fdbf31/dagster-1.3.2.tar.gz
+[2023-05-04 19:48:40] INFO root fetch - processPackages [sklean123]: Downloading https://files.pythonhosted.org/packages/1f/0a/20586de64b7bd921dd0e02670f7b1ef42a5da49b3652d167e77e6759b426/sklean123-0.1.0.tar.gz
+[2023-05-04 19:48:40] INFO root fetch - processPackages [flask-admin-dashboard]: Downloading https://files.pythonhosted.org/packages/7b/a6/b58b0ccfa5b809ea3cf069c82d8d13e68e600a816d37f151b932374ae573/flask_admin_dashboard-0.0.7.tar.gz
+[2023-05-04 19:48:40] INFO root fetch - processPackages [mpipartition]: Downloading https://files.pythonhosted.org/packages/f4/36/a2afac440f44ce458bef53efe2b75166c2e7b2382ece361cbe4192c85b1e/mpipartition-1.0.1.tar.gz
+[2023-05-04 19:48:40] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-05-04 19:48:40] INFO root fetch - processPackages [flask-admin-dashboard]: executing diffoscope
+[2023-05-04 19:48:40] INFO root fetch - processPackages [flask-admin-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_admin_dashboard-0.0.6.tar.gz tmp/flask_admin_dashboard-0.0.7.tar.gz --markdown 20230504/f/flask-admin-dashboard/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-04 19:48:40] INFO root fetch - processPackages [nowcasting-forecast]: Downloading https://files.pythonhosted.org/packages/12/25/f079c128d585d077cb30e3dec159686cebd779faff6596b427c59287f911/nowcasting_forecast-1.3.9.tar.gz
+[2023-05-04 19:48:40] INFO root fetch - processPackages [bokeh]: Downloading https://files.pythonhosted.org/packages/e5/86/1bffd7d89b4fb56ef493f0078550cb74400678487373e8e812a8ef6ec29e/bokeh-3.2.0.dev1.tar.gz
+[2023-05-04 19:48:40] INFO root fetch - processPackages [icecube-skyreader]: Downloading https://files.pythonhosted.org/packages/5e/59/547d8415208471220d0c25407d4437ffe5f2267a2df3f6e1efe074abd181/icecube-skyreader-1.0.2.tar.gz
+[2023-05-04 19:48:40] INFO root fetch - processPackages [ovos-dinkum-listener]: executing diffoscope
+[2023-05-04 19:48:40] INFO root fetch - processPackages [ovos-dinkum-listener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_dinkum_listener-0.0.2a8-py3-none-any.whl.zip tmp/ovos_dinkum_listener-0.0.2a9-py3-none-any.whl.zip --markdown 20230504/o/ovos-dinkum-listener/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-05-04 19:48:40] INFO root fetch - processPackages [sklean123]: Downloading https://files.pythonhosted.org/packages/3e/ad/9139ab47c12b87edd707bb9858741250357017242e40da61728622e175ae/sklean123-0.2.0.tar.gz
+[2023-05-04 19:48:40] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-05-04 19:48:40] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230504/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 19:48:40] INFO root fetch - processPackages [nowcasting-forecast]: executing diffoscope
+[2023-05-04 19:48:40] INFO root fetch - processPackages [nowcasting-forecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_forecast-1.3.8.tar.gz tmp/nowcasting_forecast-1.3.9.tar.gz --markdown 20230504/n/nowcasting-forecast/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-04 19:48:40] INFO root fetch - processPackages [dagster]: Downloading https://files.pythonhosted.org/packages/de/4e/2800818ecb80e3b1f05ff323f8c02f8825dfdc0d06f8213fb98cd77cd67e/dagster-1.3.3.tar.gz
+[2023-05-04 19:48:40] INFO root fetch - processPackages [mpipartition]: Downloading https://files.pythonhosted.org/packages/ca/28/5b277a8303eb1d9e66295391d7cd4b6e8a2b3f162b589051095d379774ec/mpipartition-1.0.2.tar.gz
+[2023-05-04 19:48:40] INFO root fetch - processPackages [icecube-skyreader]: executing diffoscope
+[2023-05-04 19:48:40] INFO root fetch - processPackages [icecube-skyreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icecube-skyreader-1.0.1.tar.gz tmp/icecube-skyreader-1.0.2.tar.gz --markdown 20230504/i/icecube-skyreader/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-04 19:48:40] INFO root fetch - processPackages [chemistry-and-robots]: Downloading https://files.pythonhosted.org/packages/a6/4e/6280f8db8d8b1fbfe99d2000d61175f72865d88af46debf451f924301ec8/chemistry_and_robots-1.6.2.tar.gz
+[2023-05-04 19:48:40] INFO root fetch - processPackages [sklean123]: executing diffoscope
+[2023-05-04 19:48:40] INFO root fetch - processPackages [sklean123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklean123-0.1.0.tar.gz tmp/sklean123-0.2.0.tar.gz --markdown 20230504/s/sklean123/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-04 19:48:40] INFO root fetch - processPackages [mpipartition]: executing diffoscope
+[2023-05-04 19:48:40] INFO root fetch - processPackages [mpipartition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpipartition-1.0.1.tar.gz tmp/mpipartition-1.0.2.tar.gz --markdown 20230504/m/mpipartition/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-04 19:48:40] INFO root fetch - processPackages [dagster]: executing diffoscope
+[2023-05-04 19:48:40] INFO root fetch - processPackages [dagster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-1.3.2.tar.gz tmp/dagster-1.3.3.tar.gz --markdown 20230504/d/dagster/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-04 19:48:40] INFO root fetch - processPackages [chemistry-and-robots]: executing diffoscope
+[2023-05-04 19:48:40] INFO root fetch - processPackages [chemistry-and-robots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemistry_and_robots-1.6.1.tar.gz tmp/chemistry_and_robots-1.6.2.tar.gz --markdown 20230504/c/chemistry-and-robots/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-05-04 19:48:40] INFO root fetch - processPackages [bokeh]: Downloading https://files.pythonhosted.org/packages/6e/ee/1a746c234a39e7b2940917916fd4b747f5e9fa5341b4891a10fc22eaa4ca/bokeh-3.2.0.dev2.tar.gz
+[2023-05-04 19:48:40] INFO root fetch - processPackages [bokeh]: executing diffoscope
+[2023-05-04 19:48:40] INFO root fetch - processPackages [bokeh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bokeh-3.2.0.dev1.tar.gz tmp/bokeh-3.2.0.dev2.tar.gz --markdown 20230504/b/bokeh/3.2.0.dev1-3.2.0.dev2/diff.md --exclude *.pyd
+[2023-05-04 19:48:41] INFO root fetch - processPackages [ovos-dinkum-listener]: Start processing: cashflower
+[2023-05-04 19:48:41] INFO root fetch - main [MainThread]: End processing [ovos-dinkum-listener]: success
+[2023-05-04 19:48:41] INFO root fetch - processPackages [cashflower]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-05-04 19:48:42] INFO root fetch - processPackages [icecube-skyreader]: Start processing: pypose
+[2023-05-04 19:48:42] INFO root fetch - main [MainThread]: End processing [icecube-skyreader]: success
+[2023-05-04 19:48:42] INFO root fetch - processPackages [flask-admin-dashboard]: Start processing: alacorder
+[2023-05-04 19:48:42] INFO root fetch - main [MainThread]: End processing [flask-admin-dashboard]: success
+[2023-05-04 19:48:42] INFO root fetch - processPackages [pypose]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-04 19:48:42] INFO root fetch - processPackages [alacorder]: New version: [80.2.2] Old Version: [80.2.1]
+[2023-05-04 19:48:42] INFO root fetch - processPackages [cashflower]: Downloading https://files.pythonhosted.org/packages/9c/0e/909a3f304bf0f6a3831abcad51659958f29c71a10d7e0fc1776745b47721/cashflower-0.3.1.tar.gz
+[2023-05-04 19:48:42] INFO root fetch - processPackages [sklean123]: Start processing: advent
+[2023-05-04 19:48:42] INFO root fetch - main [MainThread]: End processing [sklean123]: success
+[2023-05-04 19:48:42] WARNING root fetch - processPackages [advent]: Skipping, unable to determine old version
+[2023-05-04 19:48:42] INFO root fetch - processPackages [advent]: Start processing: hagis
+[2023-05-04 19:48:42] INFO root fetch - main [MainThread]: End processing [advent] error
+[2023-05-04 19:48:42] INFO root fetch - processPackages [hagis]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-04 19:48:42] INFO root fetch - processPackages [pypose]: Downloading https://files.pythonhosted.org/packages/29/72/9501764acfa63e3b057fb6e3b7aed2d961801cd656c1359a35b374c5512b/pypose-0.4.2.tar.gz
+[2023-05-04 19:48:42] INFO root fetch - processPackages [nowcasting-forecast]: Start processing: twb-project
+[2023-05-04 19:48:42] INFO root fetch - main [MainThread]: End processing [nowcasting-forecast]: success
+[2023-05-04 19:48:42] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/8d/eb/dd281b3d0a6bbef9e8361092c45bfa3366fe8c864c52338c7cd093ca614c/alacorder-80.2.2.tar.gz
+[2023-05-04 19:48:42] INFO root fetch - processPackages [twb-project]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-04 19:48:42] INFO root fetch - processPackages [hagis]: Downloading https://files.pythonhosted.org/packages/c5/3c/cea9378dd531a8e3cb249f8a2b845f91e5546cf47918c0d71d4338efcd7b/hagis-0.5.2.tar.gz
+[2023-05-04 19:48:42] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-04 19:48:42] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.2.1.tar.gz tmp/alacorder-80.2.2.tar.gz --markdown 20230504/a/alacorder/80.2.1-80.2.2/diff.md --exclude *.pyd
+[2023-05-04 19:48:42] INFO root fetch - processPackages [mpipartition]: Start processing: ELEP
+[2023-05-04 19:48:42] INFO root fetch - main [MainThread]: End processing [mpipartition]: success
+[2023-05-04 19:48:42] INFO root fetch - processPackages [cashflower]: Downloading https://files.pythonhosted.org/packages/20/8b/782531a92b4be1da1770b14d2bbca0413745f7873021dbfc3544f80f94d2/cashflower-0.3.3.tar.gz
+[2023-05-04 19:48:42] WARNING root fetch - processPackages [ELEP]: Skipping, unable to determine old version
+[2023-05-04 19:48:42] INFO root fetch - processPackages [ELEP]: Start processing: bihc
+[2023-05-04 19:48:42] INFO root fetch - main [MainThread]: End processing [ELEP] error
+[2023-05-04 19:48:42] INFO root fetch - processPackages [hagis]: executing diffoscope
+[2023-05-04 19:48:42] INFO root fetch - processPackages [hagis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagis-0.5.1.tar.gz tmp/hagis-0.5.2.tar.gz --markdown 20230504/h/hagis/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-04 19:48:42] INFO root fetch - processPackages [bihc]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-04 19:48:42] INFO root fetch - processPackages [twb-project]: Downloading https://files.pythonhosted.org/packages/4f/e9/f864e7ee70ea5073594debbb9f59c1379c4e6f74e2c611eee99e399f2cb8/twb_project-0.9.4.tar.gz
+[2023-05-04 19:48:42] INFO root fetch - processPackages [cashflower]: executing diffoscope
+[2023-05-04 19:48:42] INFO root fetch - processPackages [cashflower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashflower-0.3.1.tar.gz tmp/cashflower-0.3.3.tar.gz --markdown 20230504/c/cashflower/0.3.1-0.3.3/diff.md --exclude *.pyd
+[2023-05-04 19:48:42] INFO root fetch - processPackages [pypose]: Downloading https://files.pythonhosted.org/packages/4b/1f/6f0e457b8d730a05b1a8c8244ad60c3eb21e7e29f5288a3270011aca1798/pypose-0.4.3.tar.gz
+[2023-05-04 19:48:42] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-05-04 19:48:42] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-0.9.3.tar.gz tmp/twb_project-0.9.4.tar.gz --markdown 20230504/t/twb-project/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-04 19:48:42] INFO root fetch - processPackages [bihc]: Downloading https://files.pythonhosted.org/packages/db/91/e2816f68d63c9ac4f02fe9cddba913e2683f9655f5d382d99a336883e228/bihc-0.0.7.tar.gz
+[2023-05-04 19:48:42] INFO root fetch - processPackages [pypose]: executing diffoscope
+[2023-05-04 19:48:42] INFO root fetch - processPackages [pypose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypose-0.4.2.tar.gz tmp/pypose-0.4.3.tar.gz --markdown 20230504/p/pypose/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-04 19:48:42] INFO root fetch - processPackages [chemistry-and-robots]: Start processing: fixieai
+[2023-05-04 19:48:42] INFO root fetch - main [MainThread]: End processing [chemistry-and-robots]: success
+[2023-05-04 19:48:42] INFO root fetch - processPackages [fixieai]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-04 19:48:42] INFO root fetch - processPackages [bihc]: executing diffoscope
+[2023-05-04 19:48:42] INFO root fetch - processPackages [bihc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bihc-0.0.6.tar.gz tmp/bihc-0.0.7.tar.gz --markdown 20230504/b/bihc/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-04 19:48:43] INFO root fetch - processPackages [fixieai]: Downloading https://files.pythonhosted.org/packages/41/e0/89ea35efdc30f2abf8e53b45eac06cbfa98edc49af80fbcea96c943bc0de/fixieai-0.2.8.tar.gz
+[2023-05-04 19:48:43] INFO root fetch - processPackages [fixieai]: Downloading https://files.pythonhosted.org/packages/ff/bc/59e5c8ec914d5d08a503b45976500b78cb34643158fdba07446610533d97/fixieai-0.2.9.tar.gz
+[2023-05-04 19:48:43] INFO root fetch - processPackages [fixieai]: executing diffoscope
+[2023-05-04 19:48:43] INFO root fetch - processPackages [fixieai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixieai-0.2.8.tar.gz tmp/fixieai-0.2.9.tar.gz --markdown 20230504/f/fixieai/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-04 19:48:44] INFO root fetch - processPackages [alacorder]: Start processing: certora-cli-alpha-or-treeViewConcurrency
+[2023-05-04 19:48:44] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-04 19:48:44] INFO root fetch - processPackages [certora-cli-alpha-or-treeViewConcurrency]: New version: [20230504.17.7.87320] Old Version: [20230504.17.47.763811]
+[2023-05-04 19:48:44] INFO root fetch - processPackages [hagis]: Start processing: py-ard
+[2023-05-04 19:48:44] INFO root fetch - main [MainThread]: End processing [hagis]: success
+[2023-05-04 19:48:44] INFO root fetch - processPackages [certora-cli-alpha-or-treeViewConcurrency]: Downloading https://files.pythonhosted.org/packages/6a/02/98f3250514118cb47214105522b94f6c40cd94c4eb214e7526dbc627aaec/certora-cli-alpha-or-treeViewConcurrency-20230504.17.47.763811.tar.gz
+[2023-05-04 19:48:44] INFO root fetch - processPackages [py-ard]: New version: [1.0.0rc7] Old Version: [1.0.0rc6]
+[2023-05-04 19:48:44] INFO root fetch - processPackages [bihc]: Start processing: scratchattach
+[2023-05-04 19:48:44] INFO root fetch - main [MainThread]: End processing [bihc]: success
+[2023-05-04 19:48:44] WARNING root fetch - processPackages [certora-cli-alpha-or-treeViewConcurrency]: Skipping package: exceeds size limit 38472297>=10485760
+[2023-05-04 19:48:44] INFO root fetch - processPackages [certora-cli-alpha-or-treeViewConcurrency]: Start processing: certora-cli-alpha-alex-more-cvlrange-meta
+[2023-05-04 19:48:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-or-treeViewConcurrency] error
+[2023-05-04 19:48:44] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-05-04 19:48:44] INFO root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: New version: [20230504.17.13.598751] Old Version: [20230504.16.38.984168]
+[2023-05-04 19:48:44] INFO root fetch - processPackages [scratchattach]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-04 19:48:44] INFO root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: Downloading https://files.pythonhosted.org/packages/7b/8b/c12a8a9afd68bdd586006093468a45aa6c77eed620e7ce626acc3e4f14da/certora-cli-alpha-alex-more-cvlrange-meta-20230504.16.38.984168.tar.gz
+[2023-05-04 19:48:44] INFO root fetch - processPackages [py-ard]: Downloading https://files.pythonhosted.org/packages/00/75/c841bbb4ea82480e053478cc1f7e15c79214ccc34024d2816e0bc7ad1ce0/py-ard-1.0.0rc6.tar.gz
+[2023-05-04 19:48:44] WARNING root fetch - processPackages [certora-cli-alpha-alex-more-cvlrange-meta]: Skipping package: exceeds size limit 38470457>=10485760
+[2023-05-04 19:48:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-more-cvlrange-meta] error
+[2023-05-04 19:48:44] INFO root fetch - main [MainThread]: End processing [cashflower]: success
+[2023-05-04 19:48:44] INFO root fetch - main [MainThread]: End processing [pypose]: success
+[2023-05-04 19:48:44] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/9b/72/482fd344b880d20093ded7c3cb6617e697abff6422bebdfebe6ce2f58457/scratchattach-1.1.3.tar.gz
+[2023-05-04 19:48:45] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/e8/74/cf11d14abbff93b8d675ed5190f698460b0924267d52a69b43222d13781c/scratchattach-1.1.4.tar.gz
+[2023-05-04 19:48:45] INFO root fetch - processPackages [scratchattach]: executing diffoscope
+[2023-05-04 19:48:45] INFO root fetch - processPackages [scratchattach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchattach-1.1.3.tar.gz tmp/scratchattach-1.1.4.tar.gz --markdown 20230504/s/scratchattach/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-04 19:48:45] INFO root fetch - processPackages [py-ard]: Downloading https://files.pythonhosted.org/packages/72/d1/49f7a3d3094e74536486861f474a3c4a61f26c8187aafd5c2f2e800be372/py-ard-1.0.0rc7.tar.gz
+[2023-05-04 19:48:45] INFO root fetch - processPackages [py-ard]: executing diffoscope
+[2023-05-04 19:48:45] INFO root fetch - processPackages [py-ard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-ard-1.0.0rc6.tar.gz tmp/py-ard-1.0.0rc7.tar.gz --markdown 20230504/p/py-ard/1.0.0rc6-1.0.0rc7/diff.md --exclude *.pyd
+[2023-05-04 19:48:46] INFO root fetch - main [MainThread]: End processing [fixieai]: success
+[2023-05-04 19:48:46] INFO root fetch - main [MainThread]: End processing [scratchattach]: success
+[2023-05-04 19:48:46] INFO root fetch - main [MainThread]: End processing [py-ard]: success
+[2023-05-04 19:48:46] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-05-04 19:48:49] INFO root fetch - main [MainThread]: End processing [dagster]: success
+[2023-05-04 19:49:46] INFO root fetch - main [MainThread]: End processing [bokeh]: success
+[2023-05-04 19:49:46] INFO root fetch - main [MainThread]: Store serial: [17975798]
