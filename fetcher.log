@@ -23230,3 +23230,95 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 21:03:39] INFO root fetch - main [MainThread]: End processing [webauthn]: success
 [2023-05-04 21:03:40] INFO root fetch - main [MainThread]: End processing [flowjax]: success
 [2023-05-04 21:03:40] INFO root fetch - main [MainThread]: Store serial: [17976711]
+[2023-05-04 21:08:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17976711]
+[2023-05-04 21:08:50] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-04 21:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: splight-lib
+[2023-05-04 21:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whisper-cli-tool
+[2023-05-04 21:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: balladeer
+[2023-05-04 21:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-admin-dashboard
+[2023-05-04 21:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PhoenixGeoPy
+[2023-05-04 21:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dev-gpt
+[2023-05-04 21:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dev-gpt
+[2023-05-04 21:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlb-fantasy
+[2023-05-04 21:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyspedas
+[2023-05-04 21:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-models-official
+[2023-05-04 21:08:50] INFO root fetch - processPackages [flask-admin-dashboard]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-04 21:08:50] INFO root fetch - processPackages [whisper-cli-tool]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-04 21:08:50] WARNING root fetch - processPackages [PhoenixGeoPy]: Skipping, unable to determine old version
+[2023-05-04 21:08:50] INFO root fetch - processPackages [PhoenixGeoPy]: Start processing: module-utilities
+[2023-05-04 21:08:50] INFO root fetch - main [MainThread]: End processing [PhoenixGeoPy] error
+[2023-05-04 21:08:50] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.36.dev1] Old Version: [0.18.35.dev49]
+[2023-05-04 21:08:50] WARNING root fetch - processPackages [mlb-fantasy]: Skipping, unable to determine old version
+[2023-05-04 21:08:50] INFO root fetch - processPackages [mlb-fantasy]: Start processing: konsepy
+[2023-05-04 21:08:50] INFO root fetch - main [MainThread]: End processing [mlb-fantasy] error
+[2023-05-04 21:08:50] INFO root fetch - processPackages [pyspedas]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-04 21:08:50] INFO root fetch - processPackages [konsepy]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-04 21:08:50] INFO root fetch - processPackages [tf-models-official]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-04 21:08:50] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.36.dev1] Old Version: [0.18.35.dev49]
+[2023-05-04 21:08:50] INFO root fetch - processPackages [balladeer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-04 21:08:50] INFO root fetch - processPackages [splight-lib]: New version: [2.3.9.dev0] Old Version: [2.3.8]
+[2023-05-04 21:08:50] INFO root fetch - processPackages [module-utilities]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-04 21:08:50] INFO root fetch - processPackages [flask-admin-dashboard]: Downloading https://files.pythonhosted.org/packages/5d/c2/2320ba71c5fc9932f68907c2f7f18bc83821da70cb349f18ec229ecb2fef/flask_admin_dashboard-1.0.6.tar.gz
+[2023-05-04 21:08:50] INFO root fetch - processPackages [konsepy]: Downloading https://files.pythonhosted.org/packages/21/0d/f9c198f3faafaed989b7e1ae379b2406f5375ea8587d03bfd1b10225ef44/konsepy-0.0.5.tar.gz
+[2023-05-04 21:08:50] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/43/1d/c02465bb457a7389f45c97bc6f4dab2fdbaf5f6a2d8ba47ac090f34912af/dev-gpt-0.18.36.dev1.tar.gz
+[2023-05-04 21:08:50] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/43/1d/c02465bb457a7389f45c97bc6f4dab2fdbaf5f6a2d8ba47ac090f34912af/dev-gpt-0.18.36.dev1.tar.gz
+[2023-05-04 21:08:50] INFO root fetch - processPackages [whisper-cli-tool]: Downloading https://files.pythonhosted.org/packages/d2/b8/775d4f741af7be56881f49985de6b67cf80338cb169af9bfd07c43da1203/whisper-cli-tool-1.0.2.tar.gz
+[2023-05-04 21:08:50] INFO root fetch - processPackages [pyspedas]: Downloading https://files.pythonhosted.org/packages/bf/ad/dd5890f9278e06a201ee6130e2aa675b3982727c5e12f18a5a30aef3b52f/pyspedas-1.4.8.tar.gz
+[2023-05-04 21:08:50] INFO root fetch - processPackages [tf-models-official]: Downloading https://files.pythonhosted.org/packages/16/00/9f859958c2080276655078bd376e67c11e62731d4b88c9307c021ee60c29/tf-models-official-2.9.1.tar.gz
+[2023-05-04 21:08:50] INFO root fetch - processPackages [balladeer]: Downloading https://files.pythonhosted.org/packages/1f/43/53529d10bdca06dda5752947f24bf67b88cab69c060a37b9f5478ed74e8f/balladeer-0.8.0.tar.gz
+[2023-05-04 21:08:50] INFO root fetch - processPackages [module-utilities]: Downloading https://files.pythonhosted.org/packages/60/09/92bb43179eb7967741d12a96a969a16d00e4f6b920f55514b09eb26b22f0/module-utilities-0.3.1.tar.gz
+[2023-05-04 21:08:50] INFO root fetch - processPackages [whisper-cli-tool]: executing diffoscope
+[2023-05-04 21:08:50] INFO root fetch - processPackages [whisper-cli-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper-cli-tool-1.0.1.tar.gz tmp/whisper-cli-tool-1.0.2.tar.gz --markdown 20230504/w/whisper-cli-tool/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-04 21:08:50] INFO root fetch - processPackages [module-utilities]: executing diffoscope
+[2023-05-04 21:08:50] INFO root fetch - processPackages [module-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/module-utilities-0.3.0.tar.gz tmp/module-utilities-0.3.1.tar.gz --markdown 20230504/m/module-utilities/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-04 21:08:50] INFO root fetch - processPackages [flask-admin-dashboard]: executing diffoscope
+[2023-05-04 21:08:50] INFO root fetch - processPackages [flask-admin-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_admin_dashboard-1.0.5.tar.gz tmp/flask_admin_dashboard-1.0.6.tar.gz --markdown 20230504/f/flask-admin-dashboard/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-04 21:08:50] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/e9/bc/6cd1c5a970bc8bf3169be2c4dccfc6bb0b681a1ad90c80294430100ad798/splight-lib-2.3.9.dev0.tar.gz
+[2023-05-04 21:08:50] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-04 21:08:50] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.35.dev49.tar.gz tmp/dev-gpt-0.18.36.dev1.tar.gz --markdown 20230504/d/dev-gpt/0.18.35.dev49-0.18.36.dev1/diff.md --exclude *.pyd
+[2023-05-04 21:08:50] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-04 21:08:50] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.35.dev49.tar.gz tmp/dev-gpt-0.18.36.dev1.tar.gz --markdown 20230504/d/dev-gpt/0.18.35.dev49-0.18.36.dev1/diff.md --exclude *.pyd
+[2023-05-04 21:08:51] INFO root fetch - processPackages [konsepy]: Downloading https://files.pythonhosted.org/packages/58/ae/e7498d4b261b201832624005faec571176e229512933abb636c499c14da2/konsepy-0.0.6.tar.gz
+[2023-05-04 21:08:51] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-04 21:08:51] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.8.tar.gz tmp/splight-lib-2.3.9.dev0.tar.gz --markdown 20230504/s/splight-lib/2.3.8-2.3.9.dev0/diff.md --exclude *.pyd
+[2023-05-04 21:08:51] INFO root fetch - processPackages [konsepy]: executing diffoscope
+[2023-05-04 21:08:51] INFO root fetch - processPackages [konsepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konsepy-0.0.5.tar.gz tmp/konsepy-0.0.6.tar.gz --markdown 20230504/k/konsepy/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-04 21:08:51] INFO root fetch - processPackages [tf-models-official]: Downloading https://files.pythonhosted.org/packages/d8/70/4e5fb0b35fb4fde870dec9b07b4f1468edadf302042eae0adc397e4f876d/tf-models-official-2.9.2.tar.gz
+[2023-05-04 21:08:51] INFO root fetch - processPackages [balladeer]: Downloading https://files.pythonhosted.org/packages/0f/28/d422c06bc986a4f14c0e70b958a10c6d2d3617f2290ce9d0390ea5b7de2f/balladeer-0.9.0.tar.gz
+[2023-05-04 21:08:51] INFO root fetch - processPackages [pyspedas]: Downloading https://files.pythonhosted.org/packages/b5/b7/3d48261535fe611ab7382df525da5ac6ff263d92d0ddfb4219bafdc22a84/pyspedas-1.4.9.tar.gz
+[2023-05-04 21:08:51] INFO root fetch - processPackages [pyspedas]: executing diffoscope
+[2023-05-04 21:08:51] INFO root fetch - processPackages [pyspedas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspedas-1.4.8.tar.gz tmp/pyspedas-1.4.9.tar.gz --markdown 20230504/p/pyspedas/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-04 21:08:51] INFO root fetch - processPackages [tf-models-official]: executing diffoscope
+[2023-05-04 21:08:51] INFO root fetch - processPackages [tf-models-official]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf-models-official-2.9.1.tar.gz tmp/tf-models-official-2.9.2.tar.gz --markdown 20230504/t/tf-models-official/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-04 21:08:51] INFO root fetch - processPackages [balladeer]: executing diffoscope
+[2023-05-04 21:08:51] INFO root fetch - processPackages [balladeer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balladeer-0.8.0.tar.gz tmp/balladeer-0.9.0.tar.gz --markdown 20230504/b/balladeer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 21:08:52] INFO root fetch - processPackages [whisper-cli-tool]: Start processing: pf-fpga-tools
+[2023-05-04 21:08:52] INFO root fetch - main [MainThread]: End processing [whisper-cli-tool]: success
+[2023-05-04 21:08:52] INFO root fetch - processPackages [pf-fpga-tools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-04 21:08:52] INFO root fetch - processPackages [pf-fpga-tools]: Downloading https://files.pythonhosted.org/packages/25/7d/6291f754eae46999d659dad6b27696c13fd8693b2af7cebec0bb5b4bb17d/pf_fpga_tools-0.0.2.tar.gz
+[2023-05-04 21:08:52] INFO root fetch - processPackages [konsepy]: Start processing: eulith-web3
+[2023-05-04 21:08:52] INFO root fetch - main [MainThread]: End processing [konsepy]: success
+[2023-05-04 21:08:52] INFO root fetch - processPackages [eulith-web3]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 21:08:52] INFO root fetch - processPackages [pf-fpga-tools]: Downloading https://files.pythonhosted.org/packages/b0/4a/65a24f107a99deb9a10bed72fc1b3ae705de4047df113d5ccbd6fc726e68/pf_fpga_tools-0.0.3.tar.gz
+[2023-05-04 21:08:52] INFO root fetch - processPackages [pf-fpga-tools]: executing diffoscope
+[2023-05-04 21:08:52] INFO root fetch - processPackages [pf-fpga-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pf_fpga_tools-0.0.2.tar.gz tmp/pf_fpga_tools-0.0.3.tar.gz --markdown 20230504/p/pf-fpga-tools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-04 21:08:52] INFO root fetch - processPackages [flask-admin-dashboard]: Start processing: loggerml
+[2023-05-04 21:08:52] INFO root fetch - main [MainThread]: End processing [flask-admin-dashboard]: success
+[2023-05-04 21:08:52] INFO root fetch - processPackages [eulith-web3]: Downloading https://files.pythonhosted.org/packages/bd/61/8ec051c53602b86f8fa3ab8ec1bbccb3fae729dd846c05dd688bc8a8daa0/eulith_web3-0.0.8.tar.gz
+[2023-05-04 21:08:52] INFO root fetch - processPackages [loggerml]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-04 21:08:53] INFO root fetch - processPackages [loggerml]: Downloading https://files.pythonhosted.org/packages/ee/75/2c7ee984c3380ad30e22b5d948dac3ffa35da0703fb6b98cc25a7fb62fe3/loggerml-0.3.1.tar.gz
+[2023-05-04 21:08:53] INFO root fetch - main [MainThread]: End processing [balladeer]: success
+[2023-05-04 21:08:53] WARNING root fetch - processPackages [loggerml]: Skipping package: exceeds size limit 28415643>=10485760
+[2023-05-04 21:08:53] INFO root fetch - main [MainThread]: End processing [loggerml] error
+[2023-05-04 21:08:53] INFO root fetch - processPackages [eulith-web3]: Downloading https://files.pythonhosted.org/packages/24/02/ad429d8f99dc7f6df926ec79b149f27656690e1b651331465eab6ca851ed/eulith_web3-0.0.9.tar.gz
+[2023-05-04 21:08:53] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-04 21:08:53] INFO root fetch - processPackages [eulith-web3]: executing diffoscope
+[2023-05-04 21:08:53] INFO root fetch - processPackages [eulith-web3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eulith_web3-0.0.8.tar.gz tmp/eulith_web3-0.0.9.tar.gz --markdown 20230504/e/eulith-web3/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 21:08:53] INFO root fetch - main [MainThread]: End processing [module-utilities]: success
+[2023-05-04 21:08:54] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-04 21:08:54] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-04 21:08:54] INFO root fetch - main [MainThread]: End processing [pf-fpga-tools]: success
+[2023-05-04 21:08:54] INFO root fetch - main [MainThread]: End processing [eulith-web3]: success
+[2023-05-04 21:08:56] INFO root fetch - main [MainThread]: End processing [pyspedas]: success
+[2023-05-04 21:09:01] INFO root fetch - main [MainThread]: End processing [tf-models-official]: success
+[2023-05-04 21:09:01] INFO root fetch - main [MainThread]: Store serial: [17976762]
