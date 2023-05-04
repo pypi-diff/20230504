@@ -15178,3 +15178,138 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 14:34:23] INFO root fetch - main [MainThread]: End processing [annotation-tool]: success
 [2023-05-04 14:34:26] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-04 14:34:26] INFO root fetch - main [MainThread]: Store serial: [17972079]
+[2023-05-04 14:39:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17972079]
+[2023-05-04 14:39:35] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-04 14:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neurotechdevkit
+[2023-05-04 14:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myUniquePythonPackageName
+[2023-05-04 14:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: udata
+[2023-05-04 14:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zoobot
+[2023-05-04 14:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-invoice-overdue-reminder
+[2023-05-04 14:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SPLayout
+[2023-05-04 14:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aido
+[2023-05-04 14:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bluetooth-auto-recovery
+[2023-05-04 14:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: udata
+[2023-05-04 14:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shapash
+[2023-05-04 14:39:35] INFO root fetch - processPackages [neurotechdevkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 14:39:35] INFO root fetch - processPackages [zoobot]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-04 14:39:35] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-reminder]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.3]
+[2023-05-04 14:39:35] WARNING root fetch - processPackages [aido]: Skipping, unable to determine old version
+[2023-05-04 14:39:35] INFO root fetch - processPackages [aido]: Start processing: toolk123
+[2023-05-04 14:39:35] INFO root fetch - processPackages [SPLayout]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-04 14:39:35] INFO root fetch - main [MainThread]: End processing [aido] error
+[2023-05-04 14:39:35] INFO root fetch - processPackages [myUniquePythonPackageName]: New version: [7.10.7] Old Version: [5.5.106]
+[2023-05-04 14:39:35] INFO root fetch - processPackages [shapash]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-05-04 14:39:35] INFO root fetch - processPackages [bluetooth-auto-recovery]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-04 14:39:35] INFO root fetch - processPackages [udata]: New version: [6.1.4.dev25391] Old Version: [6.1.4.dev25389]
+[2023-05-04 14:39:35] INFO root fetch - processPackages [udata]: New version: [6.1.4.dev25391] Old Version: [6.1.4.dev25389]
+[2023-05-04 14:39:35] WARNING root fetch - processPackages [toolk123]: Skipping, unable to determine old version
+[2023-05-04 14:39:35] INFO root fetch - processPackages [toolk123]: Start processing: DL-ANN-pkg-VaibhavJoshi95
+[2023-05-04 14:39:35] INFO root fetch - main [MainThread]: End processing [toolk123] error
+[2023-05-04 14:39:35] INFO root fetch - processPackages [DL-ANN-pkg-VaibhavJoshi95]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-04 14:39:35] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/d6/54/a6178b4f5a581a88eb4db720d4cf9141077968fce782a91a1c6a32d85ab3/odoo_addon_account_invoice_overdue_reminder-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-04 14:39:35] INFO root fetch - processPackages [bluetooth-auto-recovery]: Downloading https://files.pythonhosted.org/packages/5a/13/71a66156743a035f03eafedd3210cd49539f18da8cf269de5015aa46e510/bluetooth_auto_recovery-1.1.1.tar.gz
+[2023-05-04 14:39:36] INFO root fetch - processPackages [DL-ANN-pkg-VaibhavJoshi95]: executing diffoscope
+[2023-05-04 14:39:36] INFO root fetch - processPackages [DL-ANN-pkg-VaibhavJoshi95]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DL-ANN_pkg-VaibhavJoshi95-0.0.2.tar.gz tmp/DL-ANN-pkg-VaibhavJoshi95-0.0.4.tar.gz --markdown 20230504/D/DL-ANN-pkg-VaibhavJoshi95/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-04 14:39:36] INFO root fetch - processPackages [SPLayout]: Downloading https://files.pythonhosted.org/packages/f8/fd/3f6a4a0627ddd4d71b0f1eb21eba27b5aecbe8928433767a305ab1c9f9f5/SPLayout-0.4.5.tar.gz
+[2023-05-04 14:39:36] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/70/78/a9eb8cef879e542e0d8716c1ca3029f8b6d13e9da2b71bcf97cabee75f1a/udata-6.1.4.dev25389-py2.py3-none-any.whl
+[2023-05-04 14:39:36] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/70/78/a9eb8cef879e542e0d8716c1ca3029f8b6d13e9da2b71bcf97cabee75f1a/udata-6.1.4.dev25389-py2.py3-none-any.whl
+[2023-05-04 14:39:36] INFO root fetch - processPackages [shapash]: Downloading https://files.pythonhosted.org/packages/9b/f0/6a638eb01670477ef85038500791ba23fdc9742b856fa79a182ebb2ae8e2/shapash-2.3.2.tar.gz
+[2023-05-04 14:39:36] INFO root fetch - processPackages [zoobot]: Downloading https://files.pythonhosted.org/packages/f8/f6/7925fcde24dea343cbebbb1b369307802b876138d74e33bb7580937fcaa4/zoobot-1.0.2.tar.gz
+[2023-05-04 14:39:36] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19606233>=10485760
+[2023-05-04 14:39:36] INFO root fetch - processPackages [udata]: Start processing: QuNet
+[2023-05-04 14:39:36] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19606233>=10485760
+[2023-05-04 14:39:36] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-05-04 14:39:36] INFO root fetch - processPackages [udata]: Start processing: jupyter-s3contents
+[2023-05-04 14:39:36] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-05-04 14:39:36] INFO root fetch - processPackages [neurotechdevkit]: executing diffoscope
+[2023-05-04 14:39:36] INFO root fetch - processPackages [neurotechdevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurotechdevkit-0.0.8.tar.gz tmp/neurotechdevkit-0.0.9.tar.gz --markdown 20230504/n/neurotechdevkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 14:39:36] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 14:39:36] WARNING root fetch - processPackages [jupyter-s3contents]: Skipping, unable to determine old version
+[2023-05-04 14:39:36] INFO root fetch - processPackages [jupyter-s3contents]: Start processing: jupyter-s3contents
+[2023-05-04 14:39:36] INFO root fetch - main [MainThread]: End processing [jupyter-s3contents] error
+[2023-05-04 14:39:36] WARNING root fetch - processPackages [jupyter-s3contents]: Skipping, unable to determine old version
+[2023-05-04 14:39:36] INFO root fetch - processPackages [jupyter-s3contents]: Start processing: aacommons
+[2023-05-04 14:39:36] INFO root fetch - main [MainThread]: End processing [jupyter-s3contents] error
+[2023-05-04 14:39:36] INFO root fetch - processPackages [myUniquePythonPackageName]: executing diffoscope
+[2023-05-04 14:39:36] INFO root fetch - processPackages [myUniquePythonPackageName]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myUniquePythonPackageName-5.5.106.tar.gz tmp/myUniquePythonPackageName-7.10.7.tar.gz --markdown 20230504/m/myUniquePythonPackageName/5.5.106-7.10.7/diff.md --exclude *.pyd
+[2023-05-04 14:39:36] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/31/bd/f300382e8d5baa1f2d77cec567baa6c96717361ffe5ec2fb67fa8e6aca95/odoo_addon_account_invoice_overdue_reminder-16.0.1.1.0-py3-none-any.whl
+[2023-05-04 14:39:36] INFO root fetch - processPackages [bluetooth-auto-recovery]: Downloading https://files.pythonhosted.org/packages/ce/df/5194dcb75ed38bbc639fb92de85583aca29ef480ede49b4103ea95ed0ce4/bluetooth_auto_recovery-1.1.2.tar.gz
+[2023-05-04 14:39:36] INFO root fetch - processPackages [aacommons]: New version: [0.2.7] Old Version: [0.2.5]
+[2023-05-04 14:39:36] INFO root fetch - processPackages [zoobot]: Downloading https://files.pythonhosted.org/packages/ef/9b/8c3f7e5b0aef315420c4b35f4ca21c8d917fd31b49d56d0f37ba8cdbbe2e/zoobot-1.0.3.tar.gz
+[2023-05-04 14:39:36] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/dd/ff/d52ef4f3702badb2b965ed11d28efa922877afe48d7211f5b389e5d704d6/QuNet-0.0.8-py3-none-any.whl
+[2023-05-04 14:39:36] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-reminder]: executing diffoscope
+[2023-05-04 14:39:36] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-reminder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_overdue_reminder-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_overdue_reminder-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-account-invoice-overdue-reminder/16.0.1.0.0.3-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-04 14:39:36] INFO root fetch - processPackages [bluetooth-auto-recovery]: executing diffoscope
+[2023-05-04 14:39:36] INFO root fetch - processPackages [bluetooth-auto-recovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluetooth_auto_recovery-1.1.1.tar.gz tmp/bluetooth_auto_recovery-1.1.2.tar.gz --markdown 20230504/b/bluetooth-auto-recovery/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-04 14:39:36] INFO root fetch - processPackages [aacommons]: Downloading https://files.pythonhosted.org/packages/0c/cf/c338c7ffcb86c62d4135e22c7ea9e567b6575f7bf60eaec3f36f7325d0c6/aacommons-0.2.5.tar.gz
+[2023-05-04 14:39:36] INFO root fetch - processPackages [zoobot]: executing diffoscope
+[2023-05-04 14:39:36] INFO root fetch - processPackages [zoobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoobot-1.0.2.tar.gz tmp/zoobot-1.0.3.tar.gz --markdown 20230504/z/zoobot/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-04 14:39:36] INFO root fetch - processPackages [SPLayout]: Downloading https://files.pythonhosted.org/packages/23/a6/f1c13403ae5570da58eb7a076526973d5a17ab1e8c1ceea55f0ad1392a7f/SPLayout-0.4.6.tar.gz
+[2023-05-04 14:39:36] INFO root fetch - processPackages [shapash]: Downloading https://files.pythonhosted.org/packages/32/de/1e08d1feff207437db7271a4ff0f3a61cfb047e97c49795c287aa62d389c/shapash-2.3.3.tar.gz
+[2023-05-04 14:39:36] INFO root fetch - processPackages [SPLayout]: executing diffoscope
+[2023-05-04 14:39:36] INFO root fetch - processPackages [SPLayout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPLayout-0.4.5.tar.gz tmp/SPLayout-0.4.6.tar.gz --markdown 20230504/S/SPLayout/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-04 14:39:36] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/54/58/cbef2a8ccded07bca6ecb72ab20606abf8e1a54d857d6505877d10eba14d/QuNet-0.0.9-py3-none-any.whl
+[2023-05-04 14:39:36] INFO root fetch - processPackages [shapash]: executing diffoscope
+[2023-05-04 14:39:36] INFO root fetch - processPackages [shapash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapash-2.3.2.tar.gz tmp/shapash-2.3.3.tar.gz --markdown 20230504/s/shapash/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-05-04 14:39:36] INFO root fetch - processPackages [aacommons]: Downloading https://files.pythonhosted.org/packages/53/d7/579b48153bf096cf3e3433ed73fdf1d2f437769e818a15ec21916140148a/aacommons-0.2.7.tar.gz
+[2023-05-04 14:39:36] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-04 14:39:36] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230504/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 14:39:37] INFO root fetch - processPackages [aacommons]: executing diffoscope
+[2023-05-04 14:39:37] INFO root fetch - processPackages [aacommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacommons-0.2.5.tar.gz tmp/aacommons-0.2.7.tar.gz --markdown 20230504/a/aacommons/0.2.5-0.2.7/diff.md --exclude *.pyd
+[2023-05-04 14:39:37] INFO root fetch - processPackages [DL-ANN-pkg-VaibhavJoshi95]: Start processing: aacommons
+[2023-05-04 14:39:37] INFO root fetch - main [MainThread]: End processing [DL-ANN-pkg-VaibhavJoshi95]: success
+[2023-05-04 14:39:37] INFO root fetch - processPackages [aacommons]: New version: [0.2.7] Old Version: [0.2.5]
+[2023-05-04 14:39:37] INFO root fetch - processPackages [aacommons]: executing diffoscope
+[2023-05-04 14:39:37] INFO root fetch - processPackages [aacommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacommons-0.2.5.tar.gz tmp/aacommons-0.2.7.tar.gz --markdown 20230504/a/aacommons/0.2.5-0.2.7/diff.md --exclude *.pyd
+[2023-05-04 14:39:37] INFO root fetch - processPackages [myUniquePythonPackageName]: Start processing: cylc-flow
+[2023-05-04 14:39:37] INFO root fetch - main [MainThread]: End processing [myUniquePythonPackageName]: success
+[2023-05-04 14:39:37] INFO root fetch - processPackages [cylc-flow]: New version: [8.1.4] Old Version: [8.1.3]
+[2023-05-04 14:39:37] INFO root fetch - processPackages [neurotechdevkit]: Start processing: aib-logging
+[2023-05-04 14:39:37] INFO root fetch - main [MainThread]: End processing [neurotechdevkit]: success
+[2023-05-04 14:39:37] INFO root fetch - processPackages [aib-logging]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-04 14:39:38] INFO root fetch - processPackages [cylc-flow]: Downloading https://files.pythonhosted.org/packages/e2/5c/017ebc546989238741a1bf82520599fa8fc5ebe335bbf325a2fa7b3a687d/cylc-flow-8.1.3.tar.gz
+[2023-05-04 14:39:38] INFO root fetch - processPackages [bluetooth-auto-recovery]: Start processing: trailblazer
+[2023-05-04 14:39:38] INFO root fetch - main [MainThread]: End processing [bluetooth-auto-recovery]: success
+[2023-05-04 14:39:38] INFO root fetch - processPackages [aib-logging]: executing diffoscope
+[2023-05-04 14:39:38] INFO root fetch - processPackages [aib-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aib_logging-1.0.0.tar.gz tmp/aib_logging-1.0.1.tar.gz --markdown 20230504/a/aib-logging/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 14:39:38] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-05-04 14:39:38] INFO root fetch - processPackages [cylc-flow]: Downloading https://files.pythonhosted.org/packages/57/45/7c6fb9af93cbd339991b657f3702add105b4ca04495fb040d21a49d43332/cylc-flow-8.1.4.tar.gz
+[2023-05-04 14:39:38] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2023-05-04 14:39:38] INFO root fetch - processPackages [cylc-flow]: executing diffoscope
+[2023-05-04 14:39:38] INFO root fetch - processPackages [cylc-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cylc-flow-8.1.3.tar.gz tmp/cylc-flow-8.1.4.tar.gz --markdown 20230504/c/cylc-flow/8.1.3-8.1.4/diff.md --exclude *.pyd
+[2023-05-04 14:39:38] INFO root fetch - processPackages [QuNet]: Start processing: ipython
+[2023-05-04 14:39:38] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-04 14:39:38] INFO root fetch - processPackages [ipython]: New version: [8.9.0] Old Version: [8.8.0]
+[2023-05-04 14:39:38] INFO root fetch - processPackages [odoo-addon-account-invoice-overdue-reminder]: Start processing: PyOSBNR
+[2023-05-04 14:39:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-overdue-reminder]: success
+[2023-05-04 14:39:38] INFO root fetch - processPackages [zoobot]: Start processing: djangoldp-needle
+[2023-05-04 14:39:38] INFO root fetch - main [MainThread]: End processing [zoobot]: success
+[2023-05-04 14:39:38] WARNING root fetch - processPackages [PyOSBNR]: Skipping, unable to determine old version
+[2023-05-04 14:39:38] INFO root fetch - processPackages [PyOSBNR]: Start processing: certora-cli-alpha-oz-docker-json5
+[2023-05-04 14:39:38] INFO root fetch - main [MainThread]: End processing [PyOSBNR] error
+[2023-05-04 14:39:38] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: New version: [20230504.8.42.61246] Old Version: [20230504.11.46.529156]
+[2023-05-04 14:39:38] INFO root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Downloading https://files.pythonhosted.org/packages/77/6a/088a0f5f24c05dbed89c0995e11abb95536e38b4403b65d6ef99b54d4d1e/certora-cli-alpha-oz-docker-json5-20230504.11.46.529156.tar.gz
+[2023-05-04 14:39:38] INFO root fetch - processPackages [ipython]: Downloading https://files.pythonhosted.org/packages/f5/39/89664d8c3e4dfb0a73862cbbff8eb4028a1e3d4305da80ab0a493848ed9b/ipython-8.8.0.tar.gz
+[2023-05-04 14:39:38] INFO root fetch - processPackages [djangoldp-needle]: New version: [0.1.9] Old Version: [0.1.87]
+[2023-05-04 14:39:38] WARNING root fetch - processPackages [certora-cli-alpha-oz-docker-json5]: Skipping package: exceeds size limit 38419022>=10485760
+[2023-05-04 14:39:38] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-docker-json5] error
+[2023-05-04 14:39:38] INFO root fetch - processPackages [djangoldp-needle]: Downloading https://files.pythonhosted.org/packages/95/81/27c6b8afe40a2be7debe75dfc4fe2a1906971cd73a953bd875ab922f1dde/djangoldp_needle-0.1.87.tar.gz
+[2023-05-04 14:39:38] INFO root fetch - processPackages [ipython]: Downloading https://files.pythonhosted.org/packages/2a/48/7a2caa38a3103d18725fc809a379a4c8047b304d0731fde5f7c4bbf6bbe9/ipython-8.9.0.tar.gz
+[2023-05-04 14:39:39] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2023-05-04 14:39:39] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-05-04 14:39:39] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230504/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-05-04 14:39:39] INFO root fetch - main [MainThread]: End processing [aib-logging]: success
+[2023-05-04 14:39:39] INFO root fetch - processPackages [djangoldp-needle]: Downloading https://files.pythonhosted.org/packages/5f/a8/f808d16ee5b9bdf280bdb0812ed247745ca69cb8c2f140d4b9aff2175da2/djangoldp_needle-0.1.9.tar.gz
+[2023-05-04 14:39:39] INFO root fetch - main [MainThread]: End processing [aacommons]: success
+[2023-05-04 14:39:39] INFO root fetch - processPackages [ipython]: executing diffoscope
+[2023-05-04 14:39:39] INFO root fetch - processPackages [ipython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-8.8.0.tar.gz tmp/ipython-8.9.0.tar.gz --markdown 20230504/i/ipython/8.8.0-8.9.0/diff.md --exclude *.pyd
+[2023-05-04 14:39:39] INFO root fetch - main [MainThread]: End processing [aacommons]: success
+[2023-05-04 14:39:39] INFO root fetch - processPackages [djangoldp-needle]: executing diffoscope
+[2023-05-04 14:39:39] INFO root fetch - processPackages [djangoldp-needle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_needle-0.1.87.tar.gz tmp/djangoldp_needle-0.1.9.tar.gz --markdown 20230504/d/djangoldp-needle/0.1.87-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 14:39:40] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-05-04 14:39:40] INFO root fetch - main [MainThread]: End processing [SPLayout]: success
+[2023-05-04 14:39:40] INFO root fetch - main [MainThread]: End processing [djangoldp-needle]: success
+[2023-05-04 14:39:41] INFO root fetch - main [MainThread]: End processing [cylc-flow]: success
+[2023-05-04 14:39:42] INFO root fetch - main [MainThread]: End processing [shapash]: success
+[2023-05-04 14:39:44] INFO root fetch - main [MainThread]: End processing [ipython]: success
+[2023-05-04 14:39:44] INFO root fetch - main [MainThread]: Store serial: [17972161]
