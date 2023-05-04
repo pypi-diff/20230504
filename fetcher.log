@@ -5961,3 +5961,52 @@
 [2023-05-04 04:54:14] INFO root fetch - main [MainThread]: End processing [stopwords-zh]: success
 [2023-05-04 04:54:15] INFO root fetch - main [MainThread]: End processing [centralcli]: success
 [2023-05-04 04:54:15] INFO root fetch - main [MainThread]: Store serial: [17966675]
+[2023-05-04 04:59:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966675]
+[2023-05-04 04:59:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-04 04:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ChatLLM
+[2023-05-04 04:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-appointment
+[2023-05-04 04:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-identifier
+[2023-05-04 04:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: get-my-palette-from-image
+[2023-05-04 04:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MeUtils
+[2023-05-04 04:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-pdf-reports
+[2023-05-04 04:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DinoMint
+[2023-05-04 04:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arc-cli
+[2023-05-04 04:59:25] WARNING root fetch - processPackages [DinoMint]: Skipping, unable to determine old version
+[2023-05-04 04:59:25] INFO root fetch - processPackages [edc-pdf-reports]: New version: [0.3.9] Old Version: [0.3.11]
+[2023-05-04 04:59:25] INFO root fetch - main [MainThread]: End processing [DinoMint] error
+[2023-05-04 04:59:25] INFO root fetch - processPackages [ChatLLM]: New version: [2023.5.4.10.54.16] Old Version: [2023.5.4.10.47.32]
+[2023-05-04 04:59:25] INFO root fetch - processPackages [get-my-palette-from-image]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 04:59:25] INFO root fetch - processPackages [edc-identifier]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-04 04:59:25] INFO root fetch - processPackages [edc-appointment]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-04 04:59:25] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.4.9.19.24] Old Version: [2023.5.4.10.57.11]
+[2023-05-04 04:59:25] INFO root fetch - processPackages [edc-pdf-reports]: Downloading https://files.pythonhosted.org/packages/f3/8b/8ecdfa1fe99bdc3ecf088b71dc0d35123d5d073f109d1af7d3de884ce4eb/edc-pdf-reports-0.3.11.tar.gz
+[2023-05-04 04:59:25] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/78/6e/1f8541c68d6a5f8d37f1e41f5a42c68f5b3d2778e8e7b308763b2d77110d/MeUtils-2023.5.4.10.57.11.tar.gz
+[2023-05-04 04:59:25] INFO root fetch - processPackages [arc-cli]: New version: [8.2.0] Old Version: [8.1.5]
+[2023-05-04 04:59:25] INFO root fetch - processPackages [get-my-palette-from-image]: Downloading https://files.pythonhosted.org/packages/99/99/c33cd41993255bb600c4df86787cf01bbeba5e02715f0199af961c681736/get_my_palette_from_image-0.1.1-py3-none-any.whl
+[2023-05-04 04:59:25] INFO root fetch - processPackages [edc-appointment]: Downloading https://files.pythonhosted.org/packages/f8/13/58ebbfd6de5f2213f4f7217b376f9cf74076ac8297a3033abf3e189f3a31/edc_appointment-0.3.8-py3-none-any.whl
+[2023-05-04 04:59:25] INFO root fetch - processPackages [arc-cli]: Downloading https://files.pythonhosted.org/packages/5c/34/128117099602a4b1b84514770d211f3c5c78d890baf12bfb5a72a79f3dae/arc_cli-8.2.0-py3-none-any.whl
+[2023-05-04 04:59:25] INFO root fetch - processPackages [edc-identifier]: executing diffoscope
+[2023-05-04 04:59:25] INFO root fetch - processPackages [edc-identifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_identifier-0.3.8-py3-none-any.whl.zip tmp/edc-identifier-0.3.9.tar.gz --markdown 20230504/e/edc-identifier/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-04 04:59:25] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/fb/6e/bd4f6888958b5894518daed865dcc9b1f54f4a369395f88932115d3d03b2/ChatLLM-2023.5.4.10.54.16.tar.gz
+[2023-05-04 04:59:25] INFO root fetch - processPackages [edc-pdf-reports]: executing diffoscope
+[2023-05-04 04:59:25] INFO root fetch - processPackages [edc-pdf-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-pdf-reports-0.3.11.tar.gz tmp/edc-pdf-reports-0.3.9.tar.gz --markdown 20230504/e/edc-pdf-reports/0.3.11-0.3.9/diff.md --exclude *.pyd
+[2023-05-04 04:59:25] INFO root fetch - processPackages [get-my-palette-from-image]: Downloading https://files.pythonhosted.org/packages/4f/6f/54506523ef5a44bcf1bd45b6c5edc98f7afea46e588077e80993a57fe6f0/get-my-palette-from-image-0.1.2.tar.gz
+[2023-05-04 04:59:25] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-05-04 04:59:25] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.5.4.10.47.32.tar.gz tmp/ChatLLM-2023.5.4.10.54.16.tar.gz --markdown 20230504/C/ChatLLM/2023.5.4.10.47.32-2023.5.4.10.54.16/diff.md --exclude *.pyd
+[2023-05-04 04:59:25] INFO root fetch - processPackages [arc-cli]: executing diffoscope
+[2023-05-04 04:59:25] INFO root fetch - processPackages [arc-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arc_cli-8.1.5.tar.gz tmp/arc_cli-8.2.0-py3-none-any.whl.zip --markdown 20230504/a/arc-cli/8.1.5-8.2.0/diff.md --exclude *.pyd
+[2023-05-04 04:59:25] INFO root fetch - processPackages [edc-appointment]: Downloading https://files.pythonhosted.org/packages/10/c7/d34ba3e8a95cc8c2dd0b0dab4375371ad481c46f2b9edfe550ebcc8c8cbc/edc_appointment-0.3.9-py3-none-any.whl
+[2023-05-04 04:59:25] INFO root fetch - processPackages [get-my-palette-from-image]: executing diffoscope
+[2023-05-04 04:59:25] INFO root fetch - processPackages [get-my-palette-from-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_my_palette_from_image-0.1.1-py3-none-any.whl.zip tmp/get-my-palette-from-image-0.1.2.tar.gz --markdown 20230504/g/get-my-palette-from-image/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 04:59:25] INFO root fetch - processPackages [edc-appointment]: executing diffoscope
+[2023-05-04 04:59:25] INFO root fetch - processPackages [edc-appointment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_appointment-0.3.8-py3-none-any.whl.zip tmp/edc_appointment-0.3.9-py3-none-any.whl.zip --markdown 20230504/e/edc-appointment/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-04 04:59:26] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-04 04:59:26] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.4.10.57.11.tar.gz tmp/MeUtils-2023.5.4.9.19.24.tar.gz --markdown 20230504/M/MeUtils/2023.5.4.10.57.11-2023.5.4.9.19.24/diff.md --exclude *.pyd
+[2023-05-04 04:59:26] INFO root fetch - main [MainThread]: End processing [edc-identifier]: success
+[2023-05-04 04:59:26] INFO root fetch - main [MainThread]: End processing [get-my-palette-from-image]: success
+[2023-05-04 04:59:27] INFO root fetch - main [MainThread]: End processing [edc-pdf-reports]: success
+[2023-05-04 04:59:27] INFO root fetch - main [MainThread]: End processing [arc-cli]: success
+[2023-05-04 04:59:27] INFO root fetch - main [MainThread]: End processing [edc-appointment]: success
+[2023-05-04 04:59:30] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-05-04 04:59:32] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-04 04:59:32] INFO root fetch - main [MainThread]: Store serial: [17966697]
