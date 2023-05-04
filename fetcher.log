@@ -8571,3 +8571,58 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 08:25:06] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
 [2023-05-04 08:25:07] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-05-04 08:25:07] INFO root fetch - main [MainThread]: Store serial: [17968055]
+[2023-05-04 08:30:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17968055]
+[2023-05-04 08:30:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-04 08:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SDTcloud
+[2023-05-04 08:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbterd
+[2023-05-04 08:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SDTcloud
+[2023-05-04 08:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LogAssist
+[2023-05-04 08:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: itsimodels
+[2023-05-04 08:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hurry.query
+[2023-05-04 08:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdcscore
+[2023-05-04 08:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-captcha20230305
+[2023-05-04 08:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yolov5-sp
+[2023-05-04 08:30:19] INFO root fetch - processPackages [SDTcloud]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 08:30:19] INFO root fetch - processPackages [LogAssist]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-04 08:30:19] INFO root fetch - processPackages [itsimodels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 08:30:19] INFO root fetch - processPackages [SDTcloud]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-04 08:30:19] WARNING root fetch - processPackages [alibabacloud-captcha20230305]: Skipping, unable to determine old version
+[2023-05-04 08:30:19] INFO root fetch - processPackages [pdcscore]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-04 08:30:19] INFO root fetch - processPackages [dbterd]: New version: [1.2.0b2] Old Version: [1.2.0b1]
+[2023-05-04 08:30:19] INFO root fetch - main [MainThread]: End processing [alibabacloud-captcha20230305] error
+[2023-05-04 08:30:19] INFO root fetch - processPackages [pdcscore]: executing diffoscope
+[2023-05-04 08:30:19] INFO root fetch - processPackages [pdcscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdcscore-1.0.2.tar.gz tmp/pdcscore-1.0.3.tar.gz --markdown 20230504/p/pdcscore/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-04 08:30:19] INFO root fetch - processPackages [hurry.query]: New version: [4.0] Old Version: [3.2]
+[2023-05-04 08:30:19] WARNING root fetch - processPackages [yolov5-sp]: Skipping, unable to determine old version
+[2023-05-04 08:30:19] INFO root fetch - main [MainThread]: End processing [yolov5-sp] error
+[2023-05-04 08:30:19] INFO root fetch - processPackages [SDTcloud]: Downloading https://files.pythonhosted.org/packages/02/d9/2abdb2210022461f5f3565f1b7ccd76d0ce3dd39ab6cd1c1437e64a36b9e/SDTcloud-0.1.1.tar.gz
+[2023-05-04 08:30:19] INFO root fetch - processPackages [SDTcloud]: Downloading https://files.pythonhosted.org/packages/02/d9/2abdb2210022461f5f3565f1b7ccd76d0ce3dd39ab6cd1c1437e64a36b9e/SDTcloud-0.1.1.tar.gz
+[2023-05-04 08:30:19] INFO root fetch - processPackages [LogAssist]: Downloading https://files.pythonhosted.org/packages/70/25/f33e078589aaff4f45e0095294c2a78c68843229592f2200515b28f85035/LogAssist-1.0.0.tar.gz
+[2023-05-04 08:30:19] INFO root fetch - processPackages [itsimodels]: Downloading https://files.pythonhosted.org/packages/74/fc/47511c5b6ff75bd1590103d0844ced43c7fb0ae2c06828d2333e2ff3508d/itsimodels-0.0.8.tar.gz
+[2023-05-04 08:30:19] INFO root fetch - processPackages [dbterd]: Downloading https://files.pythonhosted.org/packages/ab/e9/15c8b6711eebc466b7dd0431caa7c3e503ebbc99726eb98a911265eeebb1/dbterd-1.2.0b2.tar.gz
+[2023-05-04 08:30:19] INFO root fetch - processPackages [hurry.query]: Downloading https://files.pythonhosted.org/packages/28/60/92b408bf5cf7dccb3e4d061dbd9fba00a9be20124397ad3e8984cad1e8c4/hurry.query-3.2.tar.gz
+[2023-05-04 08:30:19] INFO root fetch - processPackages [dbterd]: executing diffoscope
+[2023-05-04 08:30:19] INFO root fetch - processPackages [dbterd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbterd-1.2.0b1.tar.gz tmp/dbterd-1.2.0b2.tar.gz --markdown 20230504/d/dbterd/1.2.0b1-1.2.0b2/diff.md --exclude *.pyd
+[2023-05-04 08:30:19] INFO root fetch - processPackages [SDTcloud]: Downloading https://files.pythonhosted.org/packages/a9/30/7bccae1a753e8b8e1bf42dc048f05bda17b5fda3c6152b2b0a7526b5fb0c/SDTcloud-0.1.2.tar.gz
+[2023-05-04 08:30:19] INFO root fetch - processPackages [SDTcloud]: Downloading https://files.pythonhosted.org/packages/a9/30/7bccae1a753e8b8e1bf42dc048f05bda17b5fda3c6152b2b0a7526b5fb0c/SDTcloud-0.1.2.tar.gz
+[2023-05-04 08:30:19] INFO root fetch - processPackages [LogAssist]: Downloading https://files.pythonhosted.org/packages/f0/be/f13492c955e82c144ebca6c492b2a8908468e7062bdf2e8c38279e493e4b/LogAssist-1.0.1.tar.gz
+[2023-05-04 08:30:19] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-05-04 08:30:19] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.1.1.tar.gz tmp/SDTcloud-0.1.2.tar.gz --markdown 20230504/S/SDTcloud/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 08:30:19] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-05-04 08:30:19] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.1.1.tar.gz tmp/SDTcloud-0.1.2.tar.gz --markdown 20230504/S/SDTcloud/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-04 08:30:19] INFO root fetch - processPackages [hurry.query]: Downloading https://files.pythonhosted.org/packages/00/ab/a42e79cc3e06c925c0a3045818963d4b79eae3149372a7e657add70a2739/hurry.query-4.0.tar.gz
+[2023-05-04 08:30:19] INFO root fetch - processPackages [LogAssist]: executing diffoscope
+[2023-05-04 08:30:19] INFO root fetch - processPackages [LogAssist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LogAssist-1.0.0.tar.gz tmp/LogAssist-1.0.1.tar.gz --markdown 20230504/L/LogAssist/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 08:30:19] INFO root fetch - processPackages [itsimodels]: Downloading https://files.pythonhosted.org/packages/2a/a6/e76d118b6329471edc67295e5d3761c68836e9e3f85b78a6057ca8f59c74/itsimodels-0.0.9.tar.gz
+[2023-05-04 08:30:19] INFO root fetch - processPackages [hurry.query]: executing diffoscope
+[2023-05-04 08:30:19] INFO root fetch - processPackages [hurry.query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hurry.query-3.2.tar.gz tmp/hurry.query-4.0.tar.gz --markdown 20230504/h/hurry.query/3.2-4.0/diff.md --exclude *.pyd
+[2023-05-04 08:30:19] INFO root fetch - processPackages [itsimodels]: executing diffoscope
+[2023-05-04 08:30:19] INFO root fetch - processPackages [itsimodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itsimodels-0.0.8.tar.gz tmp/itsimodels-0.0.9.tar.gz --markdown 20230504/i/itsimodels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 08:30:20] INFO root fetch - main [MainThread]: End processing [pdcscore]: success
+[2023-05-04 08:30:20] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-05-04 08:30:20] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-05-04 08:30:20] INFO root fetch - main [MainThread]: End processing [dbterd]: success
+[2023-05-04 08:30:21] INFO root fetch - main [MainThread]: End processing [LogAssist]: success
+[2023-05-04 08:30:21] INFO root fetch - main [MainThread]: End processing [hurry.query]: success
+[2023-05-04 08:30:21] INFO root fetch - main [MainThread]: End processing [itsimodels]: success
+[2023-05-04 08:30:21] INFO root fetch - main [MainThread]: Store serial: [17968101]
