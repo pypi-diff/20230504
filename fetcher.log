@@ -5534,3 +5534,51 @@
 [2023-05-04 04:14:29] INFO root fetch - main [MainThread]: End processing [argshell]: success
 [2023-05-04 04:14:30] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
 [2023-05-04 04:14:30] INFO root fetch - main [MainThread]: Store serial: [17966430]
+[2023-05-04 04:19:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17966430]
+[2023-05-04 04:19:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-04 04:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tilt-pitch
+[2023-05-04 04:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-taggit
+[2023-05-04 04:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatglm-llm
+[2023-05-04 04:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipfs-dict-chain
+[2023-05-04 04:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MeUtils
+[2023-05-04 04:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ChatLLM
+[2023-05-04 04:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: starwhale
+[2023-05-04 04:19:38] INFO root fetch - processPackages [django-taggit]: New version: [4.0.0] Old Version: [3.1.0]
+[2023-05-04 04:19:38] INFO root fetch - processPackages [chatglm-llm]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-04 04:19:38] INFO root fetch - processPackages [ChatLLM]: New version: [2023.5.4.10.18.17] Old Version: [2023.4.28.16.44.34]
+[2023-05-04 04:19:38] INFO root fetch - processPackages [ipfs-dict-chain]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-04 04:19:38] INFO root fetch - processPackages [tilt-pitch]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-04 04:19:38] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.4.9.19.24] Old Version: [2023.5.4.10.17.53]
+[2023-05-04 04:19:39] INFO root fetch - processPackages [django-taggit]: Downloading https://files.pythonhosted.org/packages/e7/3d/660e401d6e64401fc4b87373c95bbd7481429cce9a28a6f8137383188d89/django-taggit-3.1.0.tar.gz
+[2023-05-04 04:19:39] INFO root fetch - processPackages [starwhale]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-04 04:19:39] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/ac/29/9e7dd09ba6b3e105dbc8d74a9850522b733014b91d54c7e49b670b09fed3/ChatLLM-2023.4.28.16.44.34.tar.gz
+[2023-05-04 04:19:39] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/4b/6c/606c61783cf49ed6bd2ea463484fa64094a4dd2b566b99881edb717a5532/MeUtils-2023.5.4.10.17.53.tar.gz
+[2023-05-04 04:19:39] INFO root fetch - processPackages [ipfs-dict-chain]: Downloading https://files.pythonhosted.org/packages/a1/0b/fb9522271442a4c91747342f5367802c080021c68c654cd2d3b7d958e643/ipfs_dict_chain-1.0.5.tar.gz
+[2023-05-04 04:19:39] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/a6/36/b9fceb080ce7535d93df885f5cbd5822150c9772581efc88c25596333984/chatglm-llm-1.0.4.tar.gz
+[2023-05-04 04:19:39] INFO root fetch - processPackages [ipfs-dict-chain]: executing diffoscope
+[2023-05-04 04:19:39] INFO root fetch - processPackages [ipfs-dict-chain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfs_dict_chain-1.0.4.tar.gz tmp/ipfs_dict_chain-1.0.5.tar.gz --markdown 20230504/i/ipfs-dict-chain/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-04 04:19:39] INFO root fetch - processPackages [tilt-pitch]: Downloading https://files.pythonhosted.org/packages/40/58/6c30f27db3fbe4c5895fa4547e553d15e8ff7d9e536d0fa01e1ff15408e5/tilt-pitch-1.0.1.tar.gz
+[2023-05-04 04:19:39] INFO root fetch - processPackages [starwhale]: Downloading https://files.pythonhosted.org/packages/60/7a/ddfe1debb4d668683c9052ead1ef97dae88d5999f7595ffea384a80c2cbe/starwhale-0.4.3.tar.gz
+[2023-05-04 04:19:39] INFO root fetch - processPackages [django-taggit]: Downloading https://files.pythonhosted.org/packages/83/54/241541a011c1e146c2708f0cf148f9255b7c04abecdf28e0f589d54c1851/django-taggit-4.0.0.tar.gz
+[2023-05-04 04:19:39] INFO root fetch - processPackages [chatglm-llm]: executing diffoscope
+[2023-05-04 04:19:39] INFO root fetch - processPackages [chatglm-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatglm-llm-1.0.3.tar.gz tmp/chatglm-llm-1.0.4.tar.gz --markdown 20230504/c/chatglm-llm/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-04 04:19:39] INFO root fetch - processPackages [tilt-pitch]: executing diffoscope
+[2023-05-04 04:19:39] INFO root fetch - processPackages [tilt-pitch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tilt-pitch-1.0.0.tar.gz tmp/tilt-pitch-1.0.1.tar.gz --markdown 20230504/t/tilt-pitch/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-04 04:19:39] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-04 04:19:39] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.4.10.17.53.tar.gz tmp/MeUtils-2023.5.4.9.19.24.tar.gz --markdown 20230504/M/MeUtils/2023.5.4.10.17.53-2023.5.4.9.19.24/diff.md --exclude *.pyd
+[2023-05-04 04:19:39] INFO root fetch - processPackages [django-taggit]: executing diffoscope
+[2023-05-04 04:19:39] INFO root fetch - processPackages [django-taggit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-taggit-3.1.0.tar.gz tmp/django-taggit-4.0.0.tar.gz --markdown 20230504/d/django-taggit/3.1.0-4.0.0/diff.md --exclude *.pyd
+[2023-05-04 04:19:39] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/90/55/f5f470b90db855a90b0a674a099d687c648a8124ede2d3f0eae579996b34/ChatLLM-2023.5.4.10.18.17.tar.gz
+[2023-05-04 04:19:39] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-05-04 04:19:39] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.28.16.44.34.tar.gz tmp/ChatLLM-2023.5.4.10.18.17.tar.gz --markdown 20230504/C/ChatLLM/2023.4.28.16.44.34-2023.5.4.10.18.17/diff.md --exclude *.pyd
+[2023-05-04 04:19:40] INFO root fetch - main [MainThread]: End processing [ipfs-dict-chain]: success
+[2023-05-04 04:19:40] INFO root fetch - main [MainThread]: End processing [chatglm-llm]: success
+[2023-05-04 04:19:40] INFO root fetch - processPackages [starwhale]: Downloading https://files.pythonhosted.org/packages/07/07/2ea5c4e956fe3dee6a86ae955d9d6d5844d9862e182478fa8cbe45b45b85/starwhale-0.4.4.tar.gz
+[2023-05-04 04:19:40] INFO root fetch - main [MainThread]: End processing [tilt-pitch]: success
+[2023-05-04 04:19:41] INFO root fetch - processPackages [starwhale]: executing diffoscope
+[2023-05-04 04:19:41] INFO root fetch - processPackages [starwhale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starwhale-0.4.3.tar.gz tmp/starwhale-0.4.4.tar.gz --markdown 20230504/s/starwhale/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-04 04:19:42] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-05-04 04:19:42] INFO root fetch - main [MainThread]: End processing [django-taggit]: success
+[2023-05-04 04:19:45] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-04 04:22:23] INFO root fetch - main [MainThread]: End processing [starwhale]: success
+[2023-05-04 04:22:23] INFO root fetch - main [MainThread]: Store serial: [17966450]
