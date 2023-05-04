@@ -8959,3 +8959,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 08:57:12] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-rental]: success
 [2023-05-04 08:57:33] INFO root fetch - main [MainThread]: End processing [azure-mgmt-monitor]: success
 [2023-05-04 08:57:33] INFO root fetch - main [MainThread]: Store serial: [17968333]
+[2023-05-04 09:02:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17968333]
+[2023-05-04 09:02:41] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-04 09:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sempyver
+[2023-05-04 09:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-rental
+[2023-05-04 09:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-sale-rental
+[2023-05-04 09:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-sale-stock-picking-blocking
+[2023-05-04 09:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: triad
+[2023-05-04 09:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alpha-trader-python
+[2023-05-04 09:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: appeal
+[2023-05-04 09:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-sale-workflow
+[2023-05-04 09:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-clipper
+[2023-05-04 09:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apppium-flutter-report-generator-aradhya-gp-np
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo-addon-sale-rental]: New version: [15.0.1.0.1.8] Old Version: [15.0.1.0.1.7]
+[2023-05-04 09:02:42] INFO root fetch - processPackages [sempyver]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo14-addon-sale-rental]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-05-04 09:02:42] INFO root fetch - processPackages [alpha-trader-python]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-04 09:02:42] INFO root fetch - processPackages [aws-clipper]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo14-addon-sale-stock-picking-blocking]: New version: [14.0.1.1.2.dev3] Old Version: [14.0.1.1.2.dev2]
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20230503.0] Old Version: [16.0.20230428.0]
+[2023-05-04 09:02:42] WARNING root fetch - processPackages [apppium-flutter-report-generator-aradhya-gp-np]: Skipping, unable to determine old version
+[2023-05-04 09:02:42] INFO root fetch - processPackages [apppium-flutter-report-generator-aradhya-gp-np]: Start processing: VonPylib
+[2023-05-04 09:02:42] INFO root fetch - main [MainThread]: End processing [apppium-flutter-report-generator-aradhya-gp-np] error
+[2023-05-04 09:02:42] INFO root fetch - processPackages [triad]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-05-04 09:02:42] INFO root fetch - processPackages [appeal]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-04 09:02:42] INFO root fetch - processPackages [VonPylib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 09:02:42] INFO root fetch - processPackages [alpha-trader-python]: Downloading https://files.pythonhosted.org/packages/77/0a/3410279117c65cc89227ec623ac0359e833a466db4cd4b0046ed0f4b3a52/alpha_trader_python-0.0.1.tar.gz
+[2023-05-04 09:02:42] INFO root fetch - processPackages [triad]: Downloading https://files.pythonhosted.org/packages/67/14/7477c5e1874097acdf7de8180e4ffb878755f0b1ffe6261ec1b7889efa5f/triad-0.8.6.tar.gz
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo14-addon-sale-rental]: Downloading https://files.pythonhosted.org/packages/cf/51/9e3ae19a467c108537aeb3511e15c3454c0cebeee9a5fdc21672bcccd2b9/odoo14_addon_sale_rental-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-05-04 09:02:42] INFO root fetch - processPackages [sempyver]: Downloading https://files.pythonhosted.org/packages/87/32/bf10ddaddabb903d30f5674b8c855e4880071ffbbec0abda771625df9f00/sempyver-0.0.1.tar.gz
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo-addon-sale-rental]: Downloading https://files.pythonhosted.org/packages/a3/a6/957be90cd113021aa72ef8b130fbbb1ced77638ef5f96b32d6110c1b5177/odoo_addon_sale_rental-15.0.1.0.1.7-py3-none-any.whl
+[2023-05-04 09:02:42] INFO root fetch - processPackages [aws-clipper]: Downloading https://files.pythonhosted.org/packages/ec/0e/006da3fa99cbea2737721138c5fbf85ef67442f049ebc6762bfba4ee5aaf/aws_clipper-0.0.7.tar.gz
+[2023-05-04 09:02:42] INFO root fetch - processPackages [appeal]: Downloading https://files.pythonhosted.org/packages/a2/88/99080a13d8f94c85668206c206f4b74206bf6a927b4109f6f463302fcfb6/appeal-0.5.8.tar.gz
+[2023-05-04 09:02:42] INFO root fetch - processPackages [VonPylib]: Downloading https://files.pythonhosted.org/packages/05/ee/69fc82db8379161c40bee5e890b148c53d302e93adb4fba83e040e709434/VonPylib-0.1.8.tar.gz
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/bd/67/b199ebcffaf762df44254d441ac8a455d095f7fdb7326da7e5327a3fb951/odoo_addons_oca_sale_workflow-16.0.20230428.0-py3-none-any.whl
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo14-addon-sale-stock-picking-blocking]: Downloading https://files.pythonhosted.org/packages/32/81/2309e9b2fb5d6a8c872ff0ed11e923f748d4141248c97e27a777f15724a2/odoo14_addon_sale_stock_picking_blocking-14.0.1.1.2.dev2-py3-none-any.whl
+[2023-05-04 09:02:42] INFO root fetch - processPackages [appeal]: executing diffoscope
+[2023-05-04 09:02:42] INFO root fetch - processPackages [appeal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appeal-0.5.7.tar.gz tmp/appeal-0.5.8.tar.gz --markdown 20230504/a/appeal/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-04 09:02:42] INFO root fetch - processPackages [alpha-trader-python]: Downloading https://files.pythonhosted.org/packages/35/bd/d822a0903545dd9c47edbd6466075133e8b58170cf92414e8aa5d3d3c106/alpha_trader_python-0.0.2.tar.gz
+[2023-05-04 09:02:42] INFO root fetch - processPackages [triad]: Downloading https://files.pythonhosted.org/packages/9d/03/d88ba3a1f7f1345568b8536de74ec8e31f117f5beb86c8d359f5be88013b/triad-0.8.7.tar.gz
+[2023-05-04 09:02:42] INFO root fetch - processPackages [sempyver]: Downloading https://files.pythonhosted.org/packages/7c/6b/1536d5bf5a93bbe76149c9c404fe12218b4a43d571220dd547a8ee3b5702/sempyver-0.1.0.tar.gz
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/6e/f2/8182f647761fdf429e3bbc5c2943a0f052da63e86d1b3fdfb98ff11280c1/odoo_addons_oca_sale_workflow-16.0.20230503.0-py3-none-any.whl
+[2023-05-04 09:02:42] INFO root fetch - processPackages [alpha-trader-python]: executing diffoscope
+[2023-05-04 09:02:42] INFO root fetch - processPackages [alpha-trader-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpha_trader_python-0.0.1.tar.gz tmp/alpha_trader_python-0.0.2.tar.gz --markdown 20230504/a/alpha-trader-python/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-04 09:02:42] INFO root fetch - processPackages [triad]: executing diffoscope
+[2023-05-04 09:02:42] INFO root fetch - processPackages [triad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triad-0.8.6.tar.gz tmp/triad-0.8.7.tar.gz --markdown 20230504/t/triad/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-05-04 09:02:42] INFO root fetch - processPackages [sempyver]: executing diffoscope
+[2023-05-04 09:02:42] INFO root fetch - processPackages [sempyver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sempyver-0.0.1.tar.gz tmp/sempyver-0.1.0.tar.gz --markdown 20230504/s/sempyver/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-04 09:02:42] INFO root fetch - processPackages [aws-clipper]: Downloading https://files.pythonhosted.org/packages/45/fe/704b4cc82726429019e45ace1055483ac5a1366a4aa347d31b0d5c2d75c5/aws_clipper-0.0.8.tar.gz
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20230428.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20230503.0-py3-none-any.whl.zip --markdown 20230504/o/odoo-addons-oca-sale-workflow/16.0.20230428.0-16.0.20230503.0/diff.md --exclude *.pyd
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo14-addon-sale-stock-picking-blocking]: Downloading https://files.pythonhosted.org/packages/29/13/a64618bf176e741957a5916c3e8961f97cc2b04ee955faa83b0abccf9a82/odoo14_addon_sale_stock_picking_blocking-14.0.1.1.2.dev3-py3-none-any.whl
+[2023-05-04 09:02:42] INFO root fetch - processPackages [aws-clipper]: executing diffoscope
+[2023-05-04 09:02:42] INFO root fetch - processPackages [aws-clipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_clipper-0.0.7.tar.gz tmp/aws_clipper-0.0.8.tar.gz --markdown 20230504/a/aws-clipper/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo-addon-sale-rental]: Downloading https://files.pythonhosted.org/packages/be/21/7be1dde36fc748c8ed48a63363fd9d1e953df99db61b500ef690e65d0500/odoo_addon_sale_rental-15.0.1.0.1.8-py3-none-any.whl
+[2023-05-04 09:02:42] INFO root fetch - processPackages [VonPylib]: Downloading https://files.pythonhosted.org/packages/8f/86/a108d3431926fb2c19b0251c5fe97fb5a35ce1f627df1cf6b018a5d34e72/VonPylib-0.1.9.tar.gz
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo14-addon-sale-rental]: Downloading https://files.pythonhosted.org/packages/27/7d/b43f4d13b5990d5fd4f5172530439b2cd3bfa25e1031f25fbaaded077736/odoo14_addon_sale_rental-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo14-addon-sale-stock-picking-blocking]: executing diffoscope
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo14-addon-sale-stock-picking-blocking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_stock_picking_blocking-14.0.1.1.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_sale_stock_picking_blocking-14.0.1.1.2.dev3-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addon-sale-stock-picking-blocking/14.0.1.1.2.dev2-14.0.1.1.2.dev3/diff.md --exclude *.pyd
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo-addon-sale-rental]: executing diffoscope
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo-addon-sale-rental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_rental-15.0.1.0.1.7-py3-none-any.whl.zip tmp/odoo_addon_sale_rental-15.0.1.0.1.8-py3-none-any.whl.zip --markdown 20230504/o/odoo-addon-sale-rental/15.0.1.0.1.7-15.0.1.0.1.8/diff.md --exclude *.pyd
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo14-addon-sale-rental]: executing diffoscope
+[2023-05-04 09:02:42] INFO root fetch - processPackages [odoo14-addon-sale-rental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_rental-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_sale_rental-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230504/o/odoo14-addon-sale-rental/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-04 09:02:43] INFO root fetch - processPackages [VonPylib]: executing diffoscope
+[2023-05-04 09:02:43] INFO root fetch - processPackages [VonPylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VonPylib-0.1.8.tar.gz tmp/VonPylib-0.1.9.tar.gz --markdown 20230504/V/VonPylib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 09:02:44] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Start processing: krutils
+[2023-05-04 09:02:44] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2023-05-04 09:02:44] INFO root fetch - processPackages [krutils]: New version: [0.20230504.1600] Old Version: [0.20230411.1644]
+[2023-05-04 09:02:44] INFO root fetch - processPackages [alpha-trader-python]: Start processing: seqio-nightly
+[2023-05-04 09:02:44] INFO root fetch - main [MainThread]: End processing [alpha-trader-python]: success
+[2023-05-04 09:02:44] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-05-04 09:02:44] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-05-04 09:02:44] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/a4/90/a0475e749bdea5ed8394d51a4937a66c88e4991b467c022a37061f648e44/krutils-0.20230411.1644.tar.gz
+[2023-05-04 09:02:44] INFO root fetch - processPackages [aws-clipper]: Start processing: zoviz
+[2023-05-04 09:02:44] INFO root fetch - main [MainThread]: End processing [aws-clipper]: success
+[2023-05-04 09:02:44] INFO root fetch - main [MainThread]: End processing [triad]: success
+[2023-05-04 09:02:44] INFO root fetch - main [MainThread]: End processing [appeal]: success
+[2023-05-04 09:02:44] INFO root fetch - main [MainThread]: End processing [sempyver]: success
+[2023-05-04 09:02:44] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/06/4d/9909b5afdcba81558f1ce484224ff22ac0682ff63bf10f0585efac867927/krutils-0.20230504.1600.tar.gz
+[2023-05-04 09:02:44] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-05-04 09:02:44] INFO root fetch - processPackages [zoviz]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-04 09:02:44] INFO root fetch - processPackages [krutils]: executing diffoscope
+[2023-05-04 09:02:44] INFO root fetch - processPackages [krutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krutils-0.20230411.1644.tar.gz tmp/krutils-0.20230504.1600.tar.gz --markdown 20230504/k/krutils/0.20230411.1644-0.20230504.1600/diff.md --exclude *.pyd
+[2023-05-04 09:02:44] INFO root fetch - main [MainThread]: End processing [VonPylib]: success
+[2023-05-04 09:02:44] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-05-04 09:02:44] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230504/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-05-04 09:02:44] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/39/01/118ff39e3e5bc58e05756a517d2b426abe032aa3420d27e3000aaac3b14a/zoviz-0.4.98.tar.gz
+[2023-05-04 09:02:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-stock-picking-blocking]: success
+[2023-05-04 09:02:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-rental]: success
+[2023-05-04 09:02:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-rental]: success
+[2023-05-04 09:02:45] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/4b/9a/dea269ed1403497e3e963b49e4d08cdc0e831c8642e0f505481d42cdc405/zoviz-0.4.99.tar.gz
+[2023-05-04 09:02:45] INFO root fetch - processPackages [zoviz]: executing diffoscope
+[2023-05-04 09:02:45] INFO root fetch - processPackages [zoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoviz-0.4.98.tar.gz tmp/zoviz-0.4.99.tar.gz --markdown 20230504/z/zoviz/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-04 09:02:45] INFO root fetch - main [MainThread]: End processing [krutils]: success
+[2023-05-04 09:02:46] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-05-04 09:02:46] INFO root fetch - main [MainThread]: End processing [zoviz]: success
+[2023-05-04 09:02:46] INFO root fetch - main [MainThread]: Store serial: [17968388]
