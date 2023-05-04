@@ -8846,3 +8846,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 08:46:45] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
 [2023-05-04 08:46:46] INFO root fetch - main [MainThread]: End processing [gaiaFramework]: success
 [2023-05-04 08:46:46] INFO root fetch - main [MainThread]: Store serial: [17968266]
+[2023-05-04 08:51:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17968266]
+[2023-05-04 08:51:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-04 08:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nashbanksync
+[2023-05-04 08:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: appsurifyci
+[2023-05-04 08:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rover-arm
+[2023-05-04 08:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yolov5-sp
+[2023-05-04 08:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyBIS
+[2023-05-04 08:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CVAugmentor
+[2023-05-04 08:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mona-openai
+[2023-05-04 08:51:55] INFO root fetch - processPackages [PyBIS]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-05-04 08:51:55] INFO root fetch - processPackages [mona-openai]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-04 08:51:55] INFO root fetch - processPackages [appsurifyci]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 08:51:55] INFO root fetch - processPackages [rover-arm]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-04 08:51:55] INFO root fetch - processPackages [CVAugmentor]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-04 08:51:55] INFO root fetch - processPackages [nashbanksync]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-04 08:51:55] INFO root fetch - processPackages [mona-openai]: executing diffoscope
+[2023-05-04 08:51:55] INFO root fetch - processPackages [mona-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mona_openai-0.0.0.tar.gz tmp/mona-openai-0.0.1.tar.gz --markdown 20230504/m/mona-openai/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-04 08:51:55] ERROR root fetch - processPackages [yolov5-sp]: Unable to get metadata: No such project 'yolov5-sp'
+[2023-05-04 08:51:55] INFO root fetch - main [MainThread]: End processing [yolov5-sp] error
+[2023-05-04 08:51:55] INFO root fetch - processPackages [appsurifyci]: executing diffoscope
+[2023-05-04 08:51:55] INFO root fetch - processPackages [appsurifyci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appsurifyci-0.1.8.tar.gz tmp/appsurifyci-0.1.9.tar.gz --markdown 20230504/a/appsurifyci/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 08:51:55] INFO root fetch - processPackages [CVAugmentor]: executing diffoscope
+[2023-05-04 08:51:55] INFO root fetch - processPackages [CVAugmentor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CVAugmentor-1.0.8.tar.gz tmp/CVAugmentor-1.0.9.tar.gz --markdown 20230504/C/CVAugmentor/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-04 08:51:55] INFO root fetch - processPackages [nashbanksync]: executing diffoscope
+[2023-05-04 08:51:55] INFO root fetch - processPackages [nashbanksync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nashbanksync-0.1.8.tar.gz tmp/nashbanksync-0.1.9.tar.gz --markdown 20230504/n/nashbanksync/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-04 08:51:55] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/0b/44/fe0231003ffc36a7b01dff7dcb46629cccf554473e121900d1388e6c6260/PyBIS-1.9.7.tar.gz
+[2023-05-04 08:51:55] INFO root fetch - processPackages [rover-arm]: Downloading https://files.pythonhosted.org/packages/6e/85/78850a7a5cd04eead0553a29374eae2dbcf17760beb8241fc5a7f7cc7cf0/rover_arm-1.1.5.tar.gz
+[2023-05-04 08:51:55] INFO root fetch - processPackages [rover-arm]: executing diffoscope
+[2023-05-04 08:51:55] INFO root fetch - processPackages [rover-arm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rover_arm-1.1.4.tar.gz tmp/rover_arm-1.1.5.tar.gz --markdown 20230504/r/rover-arm/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-04 08:51:55] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/de/6a/e2fbd779a6f64422fe1720ef3dd721543ce07d5e1ea97c26bc9ff21ac882/PyBIS-1.9.8.tar.gz
+[2023-05-04 08:51:56] INFO root fetch - processPackages [PyBIS]: executing diffoscope
+[2023-05-04 08:51:56] INFO root fetch - processPackages [PyBIS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBIS-1.9.7.tar.gz tmp/PyBIS-1.9.8.tar.gz --markdown 20230504/P/PyBIS/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-05-04 08:51:56] INFO root fetch - main [MainThread]: End processing [mona-openai]: success
+[2023-05-04 08:51:56] INFO root fetch - main [MainThread]: End processing [appsurifyci]: success
+[2023-05-04 08:51:56] INFO root fetch - main [MainThread]: End processing [nashbanksync]: success
+[2023-05-04 08:51:56] INFO root fetch - main [MainThread]: End processing [CVAugmentor]: success
+[2023-05-04 08:51:57] INFO root fetch - main [MainThread]: End processing [PyBIS]: success
+[2023-05-04 08:51:59] INFO root fetch - main [MainThread]: End processing [rover-arm]: success
+[2023-05-04 08:51:59] INFO root fetch - main [MainThread]: Store serial: [17968292]
