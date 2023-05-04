@@ -14719,3 +14719,123 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 14:11:55] INFO root fetch - main [MainThread]: End processing [pulp-file-client]: success
 [2023-05-04 14:11:56] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-05-04 14:11:56] INFO root fetch - main [MainThread]: Store serial: [17971803]
+[2023-05-04 14:17:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17971803]
+[2023-05-04 14:17:06] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-04 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-friesian-spark2
+[2023-05-04 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autofaiss
+[2023-05-04 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-chronos-spark2
+[2023-05-04 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ghastoolkit
+[2023-05-04 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-spark2
+[2023-05-04 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rpgPy
+[2023-05-04 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: config-controller-predeployed
+[2023-05-04 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: udata-search-service
+[2023-05-04 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: component-registry-bindings
+[2023-05-04 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: irene-pro
+[2023-05-04 14:17:06] INFO root fetch - processPackages [ghastoolkit]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-04 14:17:06] INFO root fetch - processPackages [rpgPy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-04 14:17:06] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230504] Old Version: [2.4.0b20230503]
+[2023-05-04 14:17:06] INFO root fetch - processPackages [config-controller-predeployed]: New version: [1.0.1b0] Old Version: [1.0.1.dev2]
+[2023-05-04 14:17:06] INFO root fetch - processPackages [udata-search-service]: New version: [2.0.1.dev241] Old Version: [2.0.1.dev231]
+[2023-05-04 14:17:06] INFO root fetch - processPackages [component-registry-bindings]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-04 14:17:06] INFO root fetch - processPackages [autofaiss]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-05-04 14:17:06] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230504] Old Version: [2.4.0b20230503]
+[2023-05-04 14:17:06] WARNING root fetch - processPackages [irene-pro]: Skipping, unable to determine old version
+[2023-05-04 14:17:06] INFO root fetch - processPackages [irene-pro]: Start processing: streamlit-keycloak
+[2023-05-04 14:17:06] INFO root fetch - main [MainThread]: End processing [irene-pro] error
+[2023-05-04 14:17:06] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230504] Old Version: [2.4.0b20230503]
+[2023-05-04 14:17:06] INFO root fetch - processPackages [rpgPy]: executing diffoscope
+[2023-05-04 14:17:06] INFO root fetch - processPackages [rpgPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpgPy-0.8.0.tar.gz tmp/rpgPy-0.9.0.tar.gz --markdown 20230504/r/rpgPy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-04 14:17:06] INFO root fetch - processPackages [streamlit-keycloak]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-04 14:17:06] INFO root fetch - processPackages [config-controller-predeployed]: Downloading https://files.pythonhosted.org/packages/0f/ec/a62ed29489ffd40f446b24983e0aad77764f2cf12ef5daf0e73e3a0fd8a7/config-controller-predeployed-1.0.1.dev2.tar.gz
+[2023-05-04 14:17:06] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/b8/15/45808e558c27db763437a7a2aa4d37d15d49dfff0852e81e8010ae18f8f5/bigdl_chronos_spark2-2.4.0b20230503-py3-none-manylinux1_x86_64.whl
+[2023-05-04 14:17:06] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/04/05/b3e9d3a33ef76cfe43d4ae5b6c7f9798ccf71a008c431f090e2b696b6446/bigdl_friesian_spark2-2.4.0b20230503-py3-none-manylinux1_x86_64.whl
+[2023-05-04 14:17:06] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/b1/cd/9316fee2b6478f58c7dcb77f5ec9e55c694f27688fd26895c17780458c60/ghastoolkit-0.2.0.tar.gz
+[2023-05-04 14:17:06] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/fc/4f/9438de9693e71fb0c433d4ca680d244199dd3e499e1b6a37bfe77991af77/bigdl_spark2-2.4.0b20230503-py3-none-manylinux1_x86_64.whl
+[2023-05-04 14:17:06] INFO root fetch - processPackages [streamlit-keycloak]: Downloading https://files.pythonhosted.org/packages/e6/2a/70381ad846a832654cde318f850b734adb4d88d1cdf6c5a459a2be40c31b/streamlit-keycloak-1.1.0.tar.gz
+[2023-05-04 14:17:06] INFO root fetch - processPackages [udata-search-service]: Downloading https://files.pythonhosted.org/packages/2c/a2/a308d51285c92cd2cb71efa28e32a0a9c6ea0ca60e1f93b4a45629d12e90/udata-search-service-2.0.1.dev231.tar.gz
+[2023-05-04 14:17:06] INFO root fetch - processPackages [autofaiss]: Downloading https://files.pythonhosted.org/packages/e2/9c/dd94120fb84965f7652aece3ec894567598baca381bd21437e93c85dbea8/autofaiss-2.9.8.tar.gz
+[2023-05-04 14:17:06] INFO root fetch - processPackages [component-registry-bindings]: Downloading https://files.pythonhosted.org/packages/86/36/4ef909961ac27ba9e510ec228fd55a751e283530ab72a66b885b4c52abfa/component-registry-bindings-1.3.3.tar.gz
+[2023-05-04 14:17:06] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-05-04 14:17:06] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.1.9.tar.gz tmp/ghastoolkit-0.2.0.tar.gz --markdown 20230504/g/ghastoolkit/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-04 14:17:07] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/2d/51/0cf08dca84d572d3fcc2fcb25957c14c9aa956ae87b785dc9b088efd227f/bigdl_friesian_spark2-2.4.0b20230504-py3-none-manylinux1_x86_64.whl
+[2023-05-04 14:17:07] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/34/de/1da4273585c2bb770318bb68b006e98737cde5d89a53c75015c47ce90987/bigdl_spark2-2.4.0b20230504-py3-none-manylinux1_x86_64.whl
+[2023-05-04 14:17:07] INFO root fetch - processPackages [udata-search-service]: Downloading https://files.pythonhosted.org/packages/e2/99/77e489723448f5db0d59cc1fe8f424c4bfc67352f91e61707a0d75ca14c2/udata-search-service-2.0.1.dev241.tar.gz
+[2023-05-04 14:17:07] INFO root fetch - processPackages [config-controller-predeployed]: Downloading https://files.pythonhosted.org/packages/6c/55/a8efd452ce96071a62025ffd46b5d4a2a927066de45086c55bb625e34ba0/config-controller-predeployed-1.0.1b0.tar.gz
+[2023-05-04 14:17:07] INFO root fetch - processPackages [component-registry-bindings]: Downloading https://files.pythonhosted.org/packages/60/41/f1e0462d116168166bd17da4d0c6519eba52d147e955c1023fa93994d5e9/component-registry-bindings-1.3.4.tar.gz
+[2023-05-04 14:17:07] INFO root fetch - processPackages [streamlit-keycloak]: Downloading https://files.pythonhosted.org/packages/55/21/db852a3f16cc3b213c5b551080dfc6074ca3be646c662c62ec025e3eb2c3/streamlit-keycloak-1.1.1.tar.gz
+[2023-05-04 14:17:07] INFO root fetch - processPackages [streamlit-keycloak]: executing diffoscope
+[2023-05-04 14:17:07] INFO root fetch - processPackages [streamlit-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-keycloak-1.1.0.tar.gz tmp/streamlit-keycloak-1.1.1.tar.gz --markdown 20230504/s/streamlit-keycloak/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-04 14:17:07] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-05-04 14:17:07] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230503-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230504-py3-none-manylinux1_x86_64.whl.zip --markdown 20230504/b/bigdl-friesian-spark2/2.4.0b20230503-2.4.0b20230504/diff.md --exclude *.pyd
+[2023-05-04 14:17:07] INFO root fetch - processPackages [udata-search-service]: executing diffoscope
+[2023-05-04 14:17:07] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-05-04 14:17:07] INFO root fetch - processPackages [udata-search-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata-search-service-2.0.1.dev231.tar.gz tmp/udata-search-service-2.0.1.dev241.tar.gz --markdown 20230504/u/udata-search-service/2.0.1.dev231-2.0.1.dev241/diff.md --exclude *.pyd
+[2023-05-04 14:17:07] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230503-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230504-py3-none-manylinux1_x86_64.whl.zip --markdown 20230504/b/bigdl-spark2/2.4.0b20230503-2.4.0b20230504/diff.md --exclude *.pyd
+[2023-05-04 14:17:07] INFO root fetch - processPackages [config-controller-predeployed]: executing diffoscope
+[2023-05-04 14:17:07] INFO root fetch - processPackages [config-controller-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config-controller-predeployed-1.0.1.dev2.tar.gz tmp/config-controller-predeployed-1.0.1b0.tar.gz --markdown 20230504/c/config-controller-predeployed/1.0.1.dev2-1.0.1b0/diff.md --exclude *.pyd
+[2023-05-04 14:17:07] INFO root fetch - processPackages [component-registry-bindings]: executing diffoscope
+[2023-05-04 14:17:07] INFO root fetch - processPackages [component-registry-bindings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/component-registry-bindings-1.3.3.tar.gz tmp/component-registry-bindings-1.3.4.tar.gz --markdown 20230504/c/component-registry-bindings/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-04 14:17:07] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/d9/73/e3da91e970753a3c599ab877e87e80fb883fa64249b05f5597dc6dbb5aa0/bigdl_chronos_spark2-2.4.0b20230504-py3-none-manylinux1_x86_64.whl
+[2023-05-04 14:17:07] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-05-04 14:17:07] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230503-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230504-py3-none-manylinux1_x86_64.whl.zip --markdown 20230504/b/bigdl-chronos-spark2/2.4.0b20230503-2.4.0b20230504/diff.md --exclude *.pyd
+[2023-05-04 14:17:07] INFO root fetch - processPackages [autofaiss]: Downloading https://files.pythonhosted.org/packages/9d/14/0aac2bd6c2018485ea1311d3c5fdc68b88582fbd40bcc164c65aa7742de3/autofaiss-2.9.9.tar.gz
+[2023-05-04 14:17:08] INFO root fetch - processPackages [autofaiss]: executing diffoscope
+[2023-05-04 14:17:08] INFO root fetch - processPackages [autofaiss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofaiss-2.9.8.tar.gz tmp/autofaiss-2.9.9.tar.gz --markdown 20230504/a/autofaiss/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-05-04 14:17:08] INFO root fetch - processPackages [bigdl-spark2]: Start processing: quantsight
+[2023-05-04 14:17:08] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-05-04 14:17:08] WARNING root fetch - processPackages [quantsight]: Skipping, unable to determine old version
+[2023-05-04 14:17:08] INFO root fetch - processPackages [quantsight]: Start processing: dictIO
+[2023-05-04 14:17:08] INFO root fetch - main [MainThread]: End processing [quantsight] error
+[2023-05-04 14:17:08] INFO root fetch - processPackages [dictIO]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-04 14:17:08] INFO root fetch - processPackages [ghastoolkit]: Start processing: bagbag
+[2023-05-04 14:17:08] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-05-04 14:17:08] WARNING root fetch - processPackages [bagbag]: Skipping, unable to determine old version
+[2023-05-04 14:17:08] INFO root fetch - processPackages [bagbag]: Start processing: acltldr
+[2023-05-04 14:17:08] INFO root fetch - main [MainThread]: End processing [bagbag] error
+[2023-05-04 14:17:08] INFO root fetch - processPackages [udata-search-service]: Start processing: sfctools
+[2023-05-04 14:17:08] INFO root fetch - main [MainThread]: End processing [udata-search-service]: success
+[2023-05-04 14:17:08] INFO root fetch - processPackages [acltldr]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-04 14:17:08] INFO root fetch - processPackages [sfctools]: New version: [1.0.6.0] Old Version: [1.0.5.9]
+[2023-05-04 14:17:08] INFO root fetch - processPackages [config-controller-predeployed]: Start processing: ediri-vultr
+[2023-05-04 14:17:08] INFO root fetch - main [MainThread]: End processing [config-controller-predeployed]: success
+[2023-05-04 14:17:08] INFO root fetch - processPackages [dictIO]: Downloading https://files.pythonhosted.org/packages/b7/54/b5a2200d95b4e63b71f3c156ddc7665899c04d9762503aef8127543994cd/dictIO-0.2.6.tar.gz
+[2023-05-04 14:17:08] INFO root fetch - processPackages [ediri-vultr]: New version: [2.14.1] Old Version: [2.14.0]
+[2023-05-04 14:17:09] INFO root fetch - processPackages [acltldr]: Downloading https://files.pythonhosted.org/packages/dd/d6/0be79e2dc174983edd46879ba4a454764465b12159c86dc42cd03dacf16a/acltldr-0.1.0.tar.gz
+[2023-05-04 14:17:09] INFO root fetch - processPackages [sfctools]: Downloading https://files.pythonhosted.org/packages/fa/97/7b512703d2a0ce541afab6f0309276185d24072832d6e4f8df198a93dc2f/sfctools-1.0.6.0.tar.gz
+[2023-05-04 14:17:09] INFO root fetch - processPackages [ediri-vultr]: Downloading https://files.pythonhosted.org/packages/36/4a/1bade58105d98073759e5b072274b1c3c9b3ed8f96b8de8cf14914da6f53/ediri_vultr-2.14.0.tar.gz
+[2023-05-04 14:17:09] INFO root fetch - processPackages [dictIO]: Downloading https://files.pythonhosted.org/packages/17/56/fe23fba6f7b0e9dcc3eed82b292a605bb5ad9b9c1e9036c2c67c9f43ecfc/dictIO-0.2.7.tar.gz
+[2023-05-04 14:17:09] INFO root fetch - processPackages [dictIO]: executing diffoscope
+[2023-05-04 14:17:09] INFO root fetch - processPackages [dictIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dictIO-0.2.6.tar.gz tmp/dictIO-0.2.7.tar.gz --markdown 20230504/d/dictIO/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-04 14:17:09] INFO root fetch - processPackages [acltldr]: Downloading https://files.pythonhosted.org/packages/fa/8b/5672611ccd169f27f009ffae5ff4a28d1b48558ab670c1569d3af759bb35/acltldr-0.1.1.tar.gz
+[2023-05-04 14:17:09] INFO root fetch - processPackages [sfctools]: executing diffoscope
+[2023-05-04 14:17:09] INFO root fetch - processPackages [sfctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfctools-1.0.5.9.tar.gz tmp/sfctools-1.0.6.0.tar.gz --markdown 20230504/s/sfctools/1.0.5.9-1.0.6.0/diff.md --exclude *.pyd
+[2023-05-04 14:17:09] INFO root fetch - processPackages [bigdl-friesian-spark2]: Start processing: hashhound
+[2023-05-04 14:17:09] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-05-04 14:17:09] INFO root fetch - processPackages [hashhound]: New version: [0.2] Old Version: [0.1]
+[2023-05-04 14:17:09] INFO root fetch - processPackages [acltldr]: executing diffoscope
+[2023-05-04 14:17:09] INFO root fetch - processPackages [acltldr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acltldr-0.1.0.tar.gz tmp/acltldr-0.1.1.tar.gz --markdown 20230504/a/acltldr/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-04 14:17:09] INFO root fetch - processPackages [ediri-vultr]: Downloading https://files.pythonhosted.org/packages/5b/6b/633de82a7985ffae64ea6867f2a76e97358376eade3c9d24db67cc55ca6e/ediri_vultr-2.14.1.tar.gz
+[2023-05-04 14:17:09] INFO root fetch - processPackages [rpgPy]: Start processing: tahoma
+[2023-05-04 14:17:09] INFO root fetch - main [MainThread]: End processing [rpgPy]: success
+[2023-05-04 14:17:09] INFO root fetch - processPackages [hashhound]: Downloading https://files.pythonhosted.org/packages/ed/7c/2a664002cb67c6e009f4727d21b3ab2d0993392d0d5a78403dc401142f59/Hashhound-0.1-py3-none-any.whl
+[2023-05-04 14:17:09] INFO root fetch - processPackages [tahoma]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-05-04 14:17:09] INFO root fetch - processPackages [ediri-vultr]: executing diffoscope
+[2023-05-04 14:17:09] INFO root fetch - processPackages [ediri-vultr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ediri_vultr-2.14.0.tar.gz tmp/ediri_vultr-2.14.1.tar.gz --markdown 20230504/e/ediri-vultr/2.14.0-2.14.1/diff.md --exclude *.pyd
+[2023-05-04 14:17:09] INFO root fetch - processPackages [hashhound]: Downloading https://files.pythonhosted.org/packages/40/5f/151d7187669751530d92c7cc1e72cae6f8e728a2f1cf4e0e99bf244082c2/hashhound-0.2.tar.gz
+[2023-05-04 14:17:09] INFO root fetch - processPackages [tahoma]: Downloading https://files.pythonhosted.org/packages/c4/5d/2af25906210fd2f24e03db230d5a837570f0b839b5c86251186bd00807a9/tahoma-2.2.4.tar.gz
+[2023-05-04 14:17:09] INFO root fetch - main [MainThread]: End processing [autofaiss]: success
+[2023-05-04 14:17:09] INFO root fetch - processPackages [hashhound]: executing diffoscope
+[2023-05-04 14:17:09] INFO root fetch - processPackages [hashhound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hashhound-0.1-py3-none-any.whl.zip tmp/hashhound-0.2.tar.gz --markdown 20230504/h/hashhound/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-04 14:17:10] INFO root fetch - processPackages [tahoma]: Downloading https://files.pythonhosted.org/packages/22/21/86759ee345ca19d8d47e04a017ca6f6b928e8c634c5da80d4c1e5801ad41/tahoma-2.2.5.tar.gz
+[2023-05-04 14:17:10] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-05-04 14:17:10] INFO root fetch - processPackages [tahoma]: executing diffoscope
+[2023-05-04 14:17:10] INFO root fetch - processPackages [tahoma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tahoma-2.2.4.tar.gz tmp/tahoma-2.2.5.tar.gz --markdown 20230504/t/tahoma/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-05-04 14:17:10] INFO root fetch - main [MainThread]: End processing [component-registry-bindings]: success
+[2023-05-04 14:17:10] INFO root fetch - main [MainThread]: End processing [dictIO]: success
+[2023-05-04 14:17:10] INFO root fetch - main [MainThread]: End processing [acltldr]: success
+[2023-05-04 14:17:11] INFO root fetch - main [MainThread]: End processing [hashhound]: success
+[2023-05-04 14:17:11] INFO root fetch - main [MainThread]: End processing [tahoma]: success
+[2023-05-04 14:17:11] INFO root fetch - main [MainThread]: End processing [sfctools]: success
+[2023-05-04 14:17:13] INFO root fetch - main [MainThread]: End processing [ediri-vultr]: success
+[2023-05-04 14:17:17] INFO root fetch - main [MainThread]: End processing [streamlit-keycloak]: success
+[2023-05-04 14:17:17] INFO root fetch - main [MainThread]: Store serial: [17971859]
