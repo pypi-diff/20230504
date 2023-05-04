@@ -9877,3 +9877,137 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-04 09:50:43] INFO root fetch - main [MainThread]: End processing [piperider]: success
 [2023-05-04 09:50:44] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-05-04 09:50:44] INFO root fetch - main [MainThread]: Store serial: [17968879]
+[2023-05-04 09:55:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17968879]
+[2023-05-04 09:55:53] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-04 09:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-cdn
+[2023-05-04 09:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tvmx
+[2023-05-04 09:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nanosurf
+[2023-05-04 09:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: transcript-transformer
+[2023-05-04 09:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gotji
+[2023-05-04 09:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly-cpu
+[2023-05-04 09:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyp2spec
+[2023-05-04 09:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SDTcloud
+[2023-05-04 09:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rqdatac
+[2023-05-04 09:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yolov5-sp
+[2023-05-04 09:55:53] INFO root fetch - processPackages [tvmx]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-04 09:55:53] INFO root fetch - processPackages [SDTcloud]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-04 09:55:53] INFO root fetch - processPackages [transcript-transformer]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-05-04 09:55:53] INFO root fetch - processPackages [gotji]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-04 09:55:53] INFO root fetch - processPackages [pyp2spec]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-05-04 09:55:53] INFO root fetch - processPackages [nanosurf]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-05-04 09:55:53] INFO root fetch - processPackages [aliyun-python-sdk-cdn]: New version: [3.8.7] Old Version: [3.8.6]
+[2023-05-04 09:55:53] INFO root fetch - processPackages [rqdatac]: New version: [2.9.8] Old Version: [2.9.7]
+[2023-05-04 09:55:53] WARNING root fetch - processPackages [yolov5-sp]: Skipping, unable to determine old version
+[2023-05-04 09:55:53] INFO root fetch - processPackages [yolov5-sp]: Start processing: nef-pipelines
+[2023-05-04 09:55:53] INFO root fetch - main [MainThread]: End processing [yolov5-sp] error
+[2023-05-04 09:55:53] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230504] Old Version: [2.14.0.dev20230503]
+[2023-05-04 09:55:53] INFO root fetch - processPackages [nef-pipelines]: New version: [0.1.37] Old Version: [0.1.36]
+[2023-05-04 09:55:53] INFO root fetch - processPackages [tvmx]: Downloading https://files.pythonhosted.org/packages/51/82/683f32fe5e73113b9b9511a59604ed60ccdf5693c57726d818264a9aae54/tvmx-0.0.5-py3-none-any.whl
+[2023-05-04 09:55:53] INFO root fetch - processPackages [pyp2spec]: Downloading https://files.pythonhosted.org/packages/ac/96/e2e88a4cb7e30efd6800c2209db49cc3fec60f3292c4435fbbfa4f46fe7f/pyp2spec-0.6.1.tar.gz
+[2023-05-04 09:55:53] INFO root fetch - processPackages [aliyun-python-sdk-cdn]: Downloading https://files.pythonhosted.org/packages/60/a5/b75ca51ae475284342f10f400d9711502254f58862d9de977c6fc826e558/aliyun-python-sdk-cdn-3.8.6.tar.gz
+[2023-05-04 09:55:53] INFO root fetch - processPackages [gotji]: Downloading https://files.pythonhosted.org/packages/2a/b6/6fda8f2599388097c93d6e0bbc9ed96e7cb741de07f6383338ff31e62437/gotji-1.0.5.tar.gz
+[2023-05-04 09:55:53] WARNING root fetch - processPackages [tvmx]: Skipping package: exceeds size limit 51218126>=10485760
+[2023-05-04 09:55:53] INFO root fetch - processPackages [tvmx]: Start processing: tvm-book
+[2023-05-04 09:55:53] INFO root fetch - main [MainThread]: End processing [tvmx] error
+[2023-05-04 09:55:53] INFO root fetch - processPackages [nanosurf]: Downloading https://files.pythonhosted.org/packages/e6/d0/c483b3e51ca61d37b80d5e2bfa44c6b312a4f2e6112987a072544d26b054/nanosurf-1.6.1.tar.gz
+[2023-05-04 09:55:53] INFO root fetch - processPackages [tvm-book]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-04 09:55:53] INFO root fetch - processPackages [transcript-transformer]: Downloading https://files.pythonhosted.org/packages/6e/e3/541dbbc000d688b89fae7c6a421b4a9eb85a4577f24d8910e6842879e85f/transcript%20transformer-0.1.4.tar.gz
+[2023-05-04 09:55:53] INFO root fetch - processPackages [SDTcloud]: Downloading https://files.pythonhosted.org/packages/78/74/38dfa00b9db63c6ed34769df95f50e842fc3cf0993d7559486d29237f91f/SDTcloud-0.1.6.tar.gz
+[2023-05-04 09:55:53] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/90/b6/591b01b456b98874d6e034b98d6ec3812de60b8dc0e73b29d834f8b185ba/rqdatac-2.9.7-cp38-cp38-win_amd64.whl
+[2023-05-04 09:55:53] INFO root fetch - processPackages [gotji]: executing diffoscope
+[2023-05-04 09:55:53] INFO root fetch - processPackages [gotji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gotji-1.0.4.tar.gz tmp/gotji-1.0.5.tar.gz --markdown 20230504/g/gotji/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-04 09:55:53] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/3c/6e8948f1e22c0bcd6ac90a1eb397bb2757f7c7e17b668bc766afee1679b9/nef_pipelines-0.1.36.tar.gz
+[2023-05-04 09:55:53] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-05-04 09:55:53] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.1.5.tar.gz tmp/SDTcloud-0.1.6.tar.gz --markdown 20230504/S/SDTcloud/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-04 09:55:53] WARNING root fetch - processPackages [transcript-transformer]: Skipping package: exceeds size limit 11135509>=10485760
+[2023-05-04 09:55:53] INFO root fetch - processPackages [transcript-transformer]: Start processing: sshg
+[2023-05-04 09:55:53] INFO root fetch - main [MainThread]: End processing [transcript-transformer] error
+[2023-05-04 09:55:53] INFO root fetch - processPackages [nanosurf]: executing diffoscope
+[2023-05-04 09:55:53] INFO root fetch - processPackages [nanosurf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanosurf-1.6.0.tar.gz tmp/nanosurf-1.6.1.tar.gz --markdown 20230504/n/nanosurf/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-05-04 09:55:53] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/c0/ec/32e45856aec81c8c37193151598963a03146ae40a61a81aacccfc84a0db4/tf_nightly_cpu-2.14.0.dev20230504-cp39-cp39-win_amd64.whl
+[2023-05-04 09:55:53] INFO root fetch - processPackages [sshg]: New version: [0.1.4] Old Version: [0.1.0]
+[2023-05-04 09:55:53] INFO root fetch - processPackages [tvm-book]: Downloading https://files.pythonhosted.org/packages/28/1b/46394f978e92956050d239f36a4ae756d79694245b3e02395afb48013bc7/tvm-book-0.0.8.tar.gz
+[2023-05-04 09:55:53] INFO root fetch - processPackages [aliyun-python-sdk-cdn]: Downloading https://files.pythonhosted.org/packages/42/8c/63665f8daf32077e2452be2a4e4331aee38622f9f11df70c25f91c2e71f3/aliyun-python-sdk-cdn-3.8.7.tar.gz
+[2023-05-04 09:55:53] INFO root fetch - processPackages [pyp2spec]: Downloading https://files.pythonhosted.org/packages/57/c5/48f2be4db2dc92baca679ff5244c1fa372c3c8851990e67a4fdf91ec21e8/pyp2spec-0.7.0.tar.gz
+[2023-05-04 09:55:53] INFO root fetch - processPackages [sshg]: Downloading https://files.pythonhosted.org/packages/dd/96/a061315525e1c48c4afb61cb70f11c47ef21708ece07af7795d12951ccf4/sshg-0.1.0.tar.gz
+[2023-05-04 09:55:53] INFO root fetch - processPackages [aliyun-python-sdk-cdn]: executing diffoscope
+[2023-05-04 09:55:53] INFO root fetch - processPackages [aliyun-python-sdk-cdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-cdn-3.8.6.tar.gz tmp/aliyun-python-sdk-cdn-3.8.7.tar.gz --markdown 20230504/a/aliyun-python-sdk-cdn/3.8.6-3.8.7/diff.md --exclude *.pyd
+[2023-05-04 09:55:54] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/90/3f/19ed704c9da1948e822f1a3d3ff5fa7b5df464d1bf39e01e8d55ea56f0dc/nef_pipelines-0.1.37.tar.gz
+[2023-05-04 09:55:54] INFO root fetch - processPackages [pyp2spec]: executing diffoscope
+[2023-05-04 09:55:54] INFO root fetch - processPackages [pyp2spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyp2spec-0.6.1.tar.gz tmp/pyp2spec-0.7.0.tar.gz --markdown 20230504/p/pyp2spec/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-05-04 09:55:54] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-05-04 09:55:54] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230503-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230504-cp39-cp39-win_amd64.whl.zip --markdown 20230504/t/tf-nightly-cpu/2.14.0.dev20230503-2.14.0.dev20230504/diff.md --exclude *.pyd
+[2023-05-04 09:55:54] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/d6/cf/51051b52cdbade7aa3c185f1d7fb144e327ff1c676a67ba8d842f933df4b/rqdatac-2.9.8-cp38-cp38-win_amd64.whl
+[2023-05-04 09:55:54] INFO root fetch - processPackages [nef-pipelines]: executing diffoscope
+[2023-05-04 09:55:54] INFO root fetch - processPackages [nef-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nef_pipelines-0.1.36.tar.gz tmp/nef_pipelines-0.1.37.tar.gz --markdown 20230504/n/nef-pipelines/0.1.36-0.1.37/diff.md --exclude *.pyd
+[2023-05-04 09:55:54] INFO root fetch - processPackages [sshg]: Downloading https://files.pythonhosted.org/packages/01/b5/58b91fcdb2b93c99ac96c5f414d95ec943df51c1dc6de878f0652eb4c8aa/sshg-0.1.4.tar.gz
+[2023-05-04 09:55:54] INFO root fetch - processPackages [tvm-book]: Downloading https://files.pythonhosted.org/packages/a2/05/a7906c9b1ebf3682a13b8d26037a924657c392a81d7377abdb8fcda1e533/tvm-book-0.0.9.tar.gz
+[2023-05-04 09:55:54] INFO root fetch - processPackages [sshg]: executing diffoscope
+[2023-05-04 09:55:54] INFO root fetch - processPackages [sshg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sshg-0.1.0.tar.gz tmp/sshg-0.1.4.tar.gz --markdown 20230504/s/sshg/0.1.0-0.1.4/diff.md --exclude *.pyd
+[2023-05-04 09:55:54] INFO root fetch - processPackages [rqdatac]: executing diffoscope
+[2023-05-04 09:55:54] INFO root fetch - processPackages [rqdatac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqdatac-2.9.7-cp38-cp38-win_amd64.whl.zip tmp/rqdatac-2.9.8-cp38-cp38-win_amd64.whl.zip --markdown 20230504/r/rqdatac/2.9.7-2.9.8/diff.md --exclude *.pyd
+[2023-05-04 09:55:54] INFO root fetch - processPackages [tvm-book]: executing diffoscope
+[2023-05-04 09:55:54] INFO root fetch - processPackages [tvm-book]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvm-book-0.0.8.tar.gz tmp/tvm-book-0.0.9.tar.gz --markdown 20230504/t/tvm-book/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-04 09:55:55] INFO root fetch - processPackages [gotji]: Start processing: jupyterlab-judge
+[2023-05-04 09:55:55] INFO root fetch - main [MainThread]: End processing [gotji]: success
+[2023-05-04 09:55:55] INFO root fetch - processPackages [jupyterlab-judge]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-04 09:55:55] INFO root fetch - processPackages [SDTcloud]: Start processing: samna
+[2023-05-04 09:55:55] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-05-04 09:55:55] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-05-04 09:55:55] INFO root fetch - processPackages [jupyterlab-judge]: Downloading https://files.pythonhosted.org/packages/cc/b5/f0fcd6336e96735c65dcf9c545bd76e326a17699f73d140be997b32e15ad/jupyterlab_judge-0.9.1.tar.gz
+[2023-05-04 09:55:55] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/ac/49/8e22575b9ef0f797dd5332cff83b9f2288c02887aeff0cb8048a960a2edb/samna-0.9.38.0-py3-none-any.whl
+[2023-05-04 09:55:55] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: bp-data-fabric
+[2023-05-04 09:55:55] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-05-04 09:55:55] INFO root fetch - processPackages [bp-data-fabric]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-05-04 09:55:55] INFO root fetch - processPackages [sshg]: Start processing: blackjax-nightly
+[2023-05-04 09:55:55] INFO root fetch - main [MainThread]: End processing [sshg]: success
+[2023-05-04 09:55:55] INFO root fetch - processPackages [blackjax-nightly]: New version: [0.9.6.post99] Old Version: [0.9.6.post98]
+[2023-05-04 09:55:55] INFO root fetch - processPackages [bp-data-fabric]: Downloading https://files.pythonhosted.org/packages/68/b4/3ac1d3ac9fc1065321207b715e154b449004c2c247d0d00e20d7035b14d0/bp_data_fabric-1.0.0.tar.gz
+[2023-05-04 09:55:55] INFO root fetch - processPackages [blackjax-nightly]: executing diffoscope
+[2023-05-04 09:55:55] INFO root fetch - processPackages [blackjax-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackjax-nightly-0.9.6.post98.tar.gz tmp/blackjax-nightly-0.9.6.post99.tar.gz --markdown 20230504/b/blackjax-nightly/0.9.6.post98-0.9.6.post99/diff.md --exclude *.pyd
+[2023-05-04 09:55:55] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/00/d4/3de54a6c91f47d5c29700e274166c999cadaf0ba26c263d4a4b8a40342e2/samna-0.9.39.0-py3-none-any.whl
+[2023-05-04 09:55:55] INFO root fetch - processPackages [jupyterlab-judge]: Downloading https://files.pythonhosted.org/packages/cd/3d/639d2adfc4e63763f68f4bc6a22447b13f08976341b367a603ce50bb8569/jupyterlab_judge-0.9.2.tar.gz
+[2023-05-04 09:55:55] INFO root fetch - processPackages [bp-data-fabric]: Downloading https://files.pythonhosted.org/packages/91/22/b31e760b99a81bf4617ab7ed38fedd97621b0ce95d013c789689ade496ca/bp_data_fabric-1.0.2.tar.gz
+[2023-05-04 09:55:55] INFO root fetch - processPackages [tvm-book]: Start processing: timeseriesflattener
+[2023-05-04 09:55:55] INFO root fetch - main [MainThread]: End processing [tvm-book]: success
+[2023-05-04 09:55:55] INFO root fetch - processPackages [timeseriesflattener]: New version: [0.26.0] Old Version: [0.25.1]
+[2023-05-04 09:55:55] INFO root fetch - processPackages [bp-data-fabric]: executing diffoscope
+[2023-05-04 09:55:55] INFO root fetch - processPackages [bp-data-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_fabric-1.0.0.tar.gz tmp/bp_data_fabric-1.0.2.tar.gz --markdown 20230504/b/bp-data-fabric/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-05-04 09:55:56] INFO root fetch - processPackages [jupyterlab-judge]: executing diffoscope
+[2023-05-04 09:55:56] INFO root fetch - processPackages [jupyterlab-judge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_judge-0.9.1.tar.gz tmp/jupyterlab_judge-0.9.2.tar.gz --markdown 20230504/j/jupyterlab-judge/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-04 09:55:56] INFO root fetch - processPackages [rqdatac]: Start processing: alibabacloud-cdn20180510-py2
+[2023-05-04 09:55:56] INFO root fetch - main [MainThread]: End processing [rqdatac]: success
+[2023-05-04 09:55:56] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-04 09:55:56] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-05-04 09:55:56] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230504/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-05-04 09:55:56] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/d4/b6/809cc3816403474db9ffef7069fd377a20ba0d6e6ee5e81a51caa79e7cd7/timeseriesflattener-0.26.0.tar.gz
+[2023-05-04 09:55:56] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Downloading https://files.pythonhosted.org/packages/79/63/62ebb4916d8b6b44fe934d59b348fcd998223bbb50a7360134e7fd1fc97a/alibabacloud_cdn20180510_py2-1.2.7.tar.gz
+[2023-05-04 09:55:56] INFO root fetch - processPackages [aliyun-python-sdk-cdn]: Start processing: bomf
+[2023-05-04 09:55:56] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-cdn]: success
+[2023-05-04 09:55:56] INFO root fetch - processPackages [bomf]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-04 09:55:56] INFO root fetch - processPackages [timeseriesflattener]: executing diffoscope
+[2023-05-04 09:55:56] INFO root fetch - processPackages [timeseriesflattener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeseriesflattener-0.25.1.tar.gz tmp/timeseriesflattener-0.26.0.tar.gz --markdown 20230504/t/timeseriesflattener/0.25.1-0.26.0/diff.md --exclude *.pyd
+[2023-05-04 09:55:56] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/1a/49/02473728f98a655eefdc0d89e6ea96f94636f9a513fc12ef0442bef9af42/bomf-0.4.1.tar.gz
+[2023-05-04 09:55:56] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Downloading https://files.pythonhosted.org/packages/35/ef/434de7cfc6944271044d56580cb478a0d5ac2d1134625c5f619618723fc4/alibabacloud_cdn20180510_py2-1.2.8.tar.gz
+[2023-05-04 09:55:56] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-05-04 09:55:56] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.4.0.tar.gz tmp/bomf-0.4.1.tar.gz --markdown 20230504/b/bomf/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-04 09:55:56] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: executing diffoscope
+[2023-05-04 09:55:56] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cdn20180510_py2-1.2.7.tar.gz tmp/alibabacloud_cdn20180510_py2-1.2.8.tar.gz --markdown 20230504/a/alibabacloud-cdn20180510-py2/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-04 09:55:57] INFO root fetch - processPackages [pyp2spec]: Start processing: alibabacloud-cdn20180510
+[2023-05-04 09:55:57] INFO root fetch - main [MainThread]: End processing [pyp2spec]: success
+[2023-05-04 09:55:57] INFO root fetch - processPackages [alibabacloud-cdn20180510]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-04 09:55:57] INFO root fetch - main [MainThread]: End processing [bp-data-fabric]: success
+[2023-05-04 09:55:57] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Downloading https://files.pythonhosted.org/packages/b6/b5/2c25654e8b5f3714efbb335570a0635660d3e9a5a4a71e248f58f2a9b32c/alibabacloud_cdn20180510-1.2.7.tar.gz
+[2023-05-04 09:55:57] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-05-04 09:55:57] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
+[2023-05-04 09:55:57] INFO root fetch - main [MainThread]: End processing [blackjax-nightly]: success
+[2023-05-04 09:55:57] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Downloading https://files.pythonhosted.org/packages/e1/95/58156658c827b8a345a1bcff7bfab978eeb3e6157a1c0fa2a91995d775c6/alibabacloud_cdn20180510-1.2.8.tar.gz
+[2023-05-04 09:55:58] INFO root fetch - processPackages [alibabacloud-cdn20180510]: executing diffoscope
+[2023-05-04 09:55:58] INFO root fetch - processPackages [alibabacloud-cdn20180510]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230504:/home/abi/fetcher/20230504:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cdn20180510-1.2.7.tar.gz tmp/alibabacloud_cdn20180510-1.2.8.tar.gz --markdown 20230504/a/alibabacloud-cdn20180510/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-04 09:55:58] INFO root fetch - main [MainThread]: End processing [alibabacloud-cdn20180510-py2]: success
+[2023-05-04 09:55:58] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-05-04 09:55:59] INFO root fetch - main [MainThread]: End processing [nanosurf]: success
+[2023-05-04 09:56:00] INFO root fetch - main [MainThread]: End processing [jupyterlab-judge]: success
+[2023-05-04 09:56:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-cdn20180510]: success
+[2023-05-04 09:56:01] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
+[2023-05-04 09:56:01] INFO root fetch - main [MainThread]: Store serial: [17968965]
